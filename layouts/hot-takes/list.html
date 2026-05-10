@@ -1,0 +1,244 @@
+{{ define "main" }}
+  <div class="posts-main">
+    {{ with .Content }}
+      <div class="index-content hot-takes-content">
+        {{ . }}
+      </div>
+    {{ end }}
+    {{ with .Params.hotTakes }}
+      {{ $sorted := sort . "date" "desc" }}
+      {{ range $monthIndex, $month := $sorted }}
+        <h2>{{ (time $month.date).Format "January 2006" }}</h2>
+        <ul class="hot-takes-list">
+          {{ range $takeIndex, $take := $month.takes }}
+            {{ $takeId := $take.id }}
+            {{ if not $takeId }}
+              {{ $takeId = printf "%s-%d" ($take.text | urlize) $takeIndex }}
+            {{ end }}
+            <li data-take-id="{{ $takeId }}">{{ $take.text }}</li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    {{ end }}
+  </div>
+  <style>
+    .hot-takes-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .hot-takes-list li {
+      border-bottom: 1px dashed var(--border-color);
+      padding: 12px 0 16px;
+      margin: 0;
+    }
+
+    .hot-take-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .hot-take-text {
+      flex: 1 1 60%;
+      min-width: 220px;
+    }
+
+    .hot-take-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+
+    .hot-take-buttons {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+    }
+
+    .hot-take-actions button {
+      border: 1px solid var(--border-color);
+      background: transparent;
+      color: var(--accent-color);
+      padding: 4px 8px;
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .hot-take-actions button.is-active {
+      border-color: var(--accent-color);
+      background: var(--accent-color);
+      color: var(--background);
+    }
+
+    .hot-take-score {
+      font-size: 0.9rem;
+      opacity: 0.8;
+      text-align: center;
+    }
+
+    .hot-take-score--up {
+      color: #1b7f4c;
+    }
+
+    .hot-take-score--down {
+      color: #b3261e;
+    }
+
+    .hot-take-score--neutral {
+      color: var(--secondary, #888);
+    }
+  </style>
+  <script>
+    (() => {
+      const lists = Array.from(document.querySelectorAll('.hot-takes-list'));
+      if (lists.length === 0) {
+        return;
+      }
+
+      const storageKey = 'dadbot-hot-takes-votes';
+      const saved = window.localStorage.getItem(storageKey);
+      const votes = saved ? JSON.parse(saved) : {};
+
+      const normalizeVotes = (itemId) => {
+        if (!votes[itemId]) {
+          votes[itemId] = { up: 0, down: 0, choice: null };
+        }
+        return votes[itemId];
+      };
+
+      const updateStorage = () => {
+        window.localStorage.setItem(storageKey, JSON.stringify(votes));
+      };
+
+      const buildRow = (item, textNode) => {
+        const row = document.createElement('div');
+        row.className = 'hot-take-row';
+
+        const text = document.createElement('div');
+        text.className = 'hot-take-text';
+        text.appendChild(textNode);
+
+        const actions = document.createElement('div');
+        actions.className = 'hot-take-actions';
+
+        const buttons = document.createElement('div');
+        buttons.className = 'hot-take-buttons';
+
+        const upButton = document.createElement('button');
+        upButton.type = 'button';
+        upButton.className = 'hot-take-up';
+        upButton.textContent = '👍 Up';
+
+        const downButton = document.createElement('button');
+        downButton.type = 'button';
+        downButton.className = 'hot-take-down';
+        downButton.textContent = '👎 Down';
+
+        const score = document.createElement('span');
+        score.className = 'hot-take-score';
+
+        buttons.appendChild(upButton);
+        buttons.appendChild(downButton);
+        actions.appendChild(buttons);
+        actions.appendChild(score);
+
+        row.appendChild(text);
+        row.appendChild(actions);
+
+        return { row, upButton, downButton, score };
+      };
+
+      const updateRow = (itemId, controls) => {
+        const current = normalizeVotes(itemId);
+        const total = current.up + current.down;
+        let percent = 0;
+        let state = 'neutral';
+
+        if (total > 0 && current.up !== current.down) {
+          if (current.up > current.down) {
+            percent = Math.round((current.up / total) * 100);
+            state = 'up';
+          } else {
+            percent = Math.round((current.down / total) * 100);
+            state = 'down';
+          }
+        }
+
+        if (state === 'up') {
+          controls.score.textContent = `${percent}% up`;
+        } else if (state === 'down') {
+          controls.score.textContent = `${percent}% down`;
+        } else {
+          controls.score.textContent = '0%';
+        }
+
+        controls.score.classList.remove('hot-take-score--up', 'hot-take-score--down', 'hot-take-score--neutral');
+        controls.score.classList.add(`hot-take-score--${state}`);
+        controls.upButton.classList.toggle('is-active', current.choice === 'up');
+        controls.downButton.classList.toggle('is-active', current.choice === 'down');
+      };
+
+      const setChoice = (itemId, choice) => {
+        const current = normalizeVotes(itemId);
+        if (current.choice === choice) {
+          if (choice === 'up') {
+            current.up = Math.max(0, current.up - 1);
+          } else {
+            current.down = Math.max(0, current.down - 1);
+          }
+          current.choice = null;
+        } else {
+          if (current.choice === 'up') {
+            current.up = Math.max(0, current.up - 1);
+          }
+          if (current.choice === 'down') {
+            current.down = Math.max(0, current.down - 1);
+          }
+          if (choice === 'up') {
+            current.up += 1;
+          }
+          if (choice === 'down') {
+            current.down += 1;
+          }
+          current.choice = choice;
+        }
+      };
+
+      const initializeList = (list) => {
+        const items = Array.from(list.querySelectorAll('li[data-take-id]'));
+        items.forEach((item) => {
+          const itemId = item.dataset.takeId;
+          const textNode = document.createElement('span');
+          textNode.textContent = item.textContent.trim();
+
+          item.textContent = '';
+          const controls = buildRow(item, textNode);
+          item.appendChild(controls.row);
+
+          controls.upButton.addEventListener('click', () => {
+            setChoice(itemId, 'up');
+            updateRow(itemId, controls);
+            updateStorage();
+          });
+
+          controls.downButton.addEventListener('click', () => {
+            setChoice(itemId, 'down');
+            updateRow(itemId, controls);
+            updateStorage();
+          });
+
+          updateRow(itemId, controls);
+        });
+      };
+
+      lists.forEach((list) => initializeList(list));
+    })();
+  </script>
+{{ end }}

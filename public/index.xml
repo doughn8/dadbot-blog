@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Dadbot</title>
+    <link>https://dadbot.com/</link>
+    <description>Recent content in Home on Dadbot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dadbot.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review: Deep Work by Cal Newport</title>
+      <link>https://dadbot.com/books/deep-work-review/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/books/deep-work-review/</guid>
+      <description>&lt;h2 id=&#34;the-core-argument&#34;&gt;The Core Argument&lt;/h2&gt;
+&lt;p&gt;Deep work is a competitive advantage. You get better results by working with intensity and fewer context switches.&lt;/p&gt;
+&lt;h3 id=&#34;what-helped-most&#34;&gt;What Helped Most&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Scheduling focus blocks like meetings&lt;/li&gt;
+&lt;li&gt;Reducing inbox checks to set times&lt;/li&gt;
+&lt;li&gt;Tracking output over hours worked&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-i-changed&#34;&gt;What I Changed&lt;/h3&gt;
+&lt;p&gt;I moved all notifications off my phone and built two 90-minute focus blocks into my mornings.&lt;/p&gt;
+&lt;h3 id=&#34;rating-45&#34;&gt;Rating: 4/5&lt;/h3&gt;
+&lt;p&gt;Great if you need a reset. Some ideas repeat, but the habits are practical.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;the-core-argument&#34;&gt;The Core Argument&lt;/h2&gt;
+&lt;p&gt;Deep work is a competitive advantage. You get better results by working with intensity and fewer context switches.&lt;/p&gt;
+&lt;h3 id=&#34;what-helped-most&#34;&gt;What Helped Most&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Scheduling focus blocks like meetings&lt;/li&gt;
+&lt;li&gt;Reducing inbox checks to set times&lt;/li&gt;
+&lt;li&gt;Tracking output over hours worked&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-i-changed&#34;&gt;What I Changed&lt;/h3&gt;
+&lt;p&gt;I moved all notifications off my phone and built two 90-minute focus blocks into my mornings.&lt;/p&gt;
+&lt;h3 id=&#34;rating-45&#34;&gt;Rating: 4/5&lt;/h3&gt;
+&lt;p&gt;Great if you need a reset. Some ideas repeat, but the habits are practical.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Book Review: The Pragmatic Programmer</title>
+      <link>https://dadbot.com/books/the-pragmatic-programmer-review/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/books/the-pragmatic-programmer-review/</guid>
+      <description>&lt;h2 id=&#34;why-this-one-sticks&#34;&gt;Why This One Sticks&lt;/h2&gt;
+&lt;p&gt;The Pragmatic Programmer is a gentle push toward responsibility, curiosity, and continuous improvement.&lt;/p&gt;
+&lt;h3 id=&#34;standout-ideas&#34;&gt;Standout Ideas&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Own your work end to end&lt;/li&gt;
+&lt;li&gt;Build good tooling habits&lt;/li&gt;
+&lt;li&gt;Automate anything repeated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-i-applied&#34;&gt;What I Applied&lt;/h3&gt;
+&lt;p&gt;I started logging tiny process improvements weekly. After two months, my workflow felt smoother and faster.&lt;/p&gt;
+&lt;h3 id=&#34;rating-55&#34;&gt;Rating: 5/5&lt;/h3&gt;
+&lt;p&gt;If you only read one software book this year, make it this one.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;why-this-one-sticks&#34;&gt;Why This One Sticks&lt;/h2&gt;
+&lt;p&gt;The Pragmatic Programmer is a gentle push toward responsibility, curiosity, and continuous improvement.&lt;/p&gt;
+&lt;h3 id=&#34;standout-ideas&#34;&gt;Standout Ideas&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Own your work end to end&lt;/li&gt;
+&lt;li&gt;Build good tooling habits&lt;/li&gt;
+&lt;li&gt;Automate anything repeated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-i-applied&#34;&gt;What I Applied&lt;/h3&gt;
+&lt;p&gt;I started logging tiny process improvements weekly. After two months, my workflow felt smoother and faster.&lt;/p&gt;
+&lt;h3 id=&#34;rating-55&#34;&gt;Rating: 5/5&lt;/h3&gt;
+&lt;p&gt;If you only read one software book this year, make it this one.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Book Review: Clean Code by Robert C. Martin</title>
+      <link>https://dadbot.com/books/clean-code-review/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/books/clean-code-review/</guid>
+      <description>&lt;h2 id=&#34;the-short-version&#34;&gt;The Short Version&lt;/h2&gt;
+&lt;p&gt;Clean Code is still a strong guide for writing readable, maintainable code, but a few sections show their age.&lt;/p&gt;
+&lt;h3 id=&#34;what-still-works&#34;&gt;What Still Works&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Naming conventions that optimize for clarity&lt;/li&gt;
+&lt;li&gt;Small, focused functions&lt;/li&gt;
+&lt;li&gt;Consistent formatting and structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-feels-dated&#34;&gt;What Feels Dated&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Some Java-specific examples&lt;/li&gt;
+&lt;li&gt;A few rules feel absolute when they should be situational&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-i-use-it-now&#34;&gt;How I Use It Now&lt;/h3&gt;
+&lt;p&gt;I keep the principles, not the prescriptions. The big win is aligning a team around shared readability goals.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;the-short-version&#34;&gt;The Short Version&lt;/h2&gt;
+&lt;p&gt;Clean Code is still a strong guide for writing readable, maintainable code, but a few sections show their age.&lt;/p&gt;
+&lt;h3 id=&#34;what-still-works&#34;&gt;What Still Works&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Naming conventions that optimize for clarity&lt;/li&gt;
+&lt;li&gt;Small, focused functions&lt;/li&gt;
+&lt;li&gt;Consistent formatting and structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-feels-dated&#34;&gt;What Feels Dated&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Some Java-specific examples&lt;/li&gt;
+&lt;li&gt;A few rules feel absolute when they should be situational&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-i-use-it-now&#34;&gt;How I Use It Now&lt;/h3&gt;
+&lt;p&gt;I keep the principles, not the prescriptions. The big win is aligning a team around shared readability goals.&lt;/p&gt;
+&lt;h3 id=&#34;rating-45&#34;&gt;Rating: 4/5&lt;/h3&gt;
+&lt;p&gt;Great for teams and early-career developers. Skim the examples, focus on the principles.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Bitcoin ETF Approved: What It Actually Means for Regular Investors</title>
+      <link>https://dadbot.com/posts/bitcoin-etf-what-it-means/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/posts/bitcoin-etf-what-it-means/</guid>
+      <description>&lt;h2 id=&#34;the-big-news&#34;&gt;The Big News&lt;/h2&gt;
+&lt;p&gt;After years of rejections, the SEC finally approved spot Bitcoin ETFs. But what does this mean for people who aren&amp;rsquo;t crypto bros living on Twitter?&lt;/p&gt;
+&lt;h3 id=&#34;whats-an-etf-anyway&#34;&gt;What&amp;rsquo;s an ETF Anyway?&lt;/h3&gt;
+&lt;p&gt;Think of it as a basket that holds Bitcoin, but you can buy shares of the basket through your regular brokerage account. No crypto wallets, no private keys, no &amp;ldquo;not your keys, not your coins&amp;rdquo; anxiety.&lt;/p&gt;
+&lt;h3 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Accessibility&lt;/strong&gt; - Buy Bitcoin in your 401(k) or IRA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simplicity&lt;/strong&gt; - No need to understand cold storage&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Legitimacy&lt;/strong&gt; - Wall Street is officially in the game&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;the-catch&#34;&gt;The Catch&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fees&lt;/strong&gt; - ETFs charge management fees (0.2% - 1.5%)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;You don&amp;rsquo;t own Bitcoin&lt;/strong&gt; - You own shares of a fund&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Market hours&lt;/strong&gt; - Can&amp;rsquo;t trade 24/7 like actual crypto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;should-you-invest&#34;&gt;Should You Invest?&lt;/h3&gt;
+&lt;p&gt;The boring but honest answer: it depends on your situation.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;the-big-news&#34;&gt;The Big News&lt;/h2&gt;
+&lt;p&gt;After years of rejections, the SEC finally approved spot Bitcoin ETFs. But what does this mean for people who aren&amp;rsquo;t crypto bros living on Twitter?&lt;/p&gt;
+&lt;h3 id=&#34;whats-an-etf-anyway&#34;&gt;What&amp;rsquo;s an ETF Anyway?&lt;/h3&gt;
+&lt;p&gt;Think of it as a basket that holds Bitcoin, but you can buy shares of the basket through your regular brokerage account. No crypto wallets, no private keys, no &amp;ldquo;not your keys, not your coins&amp;rdquo; anxiety.&lt;/p&gt;
+&lt;h3 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Accessibility&lt;/strong&gt; - Buy Bitcoin in your 401(k) or IRA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simplicity&lt;/strong&gt; - No need to understand cold storage&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Legitimacy&lt;/strong&gt; - Wall Street is officially in the game&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;the-catch&#34;&gt;The Catch&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fees&lt;/strong&gt; - ETFs charge management fees (0.2% - 1.5%)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;You don&amp;rsquo;t own Bitcoin&lt;/strong&gt; - You own shares of a fund&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Market hours&lt;/strong&gt; - Can&amp;rsquo;t trade 24/7 like actual crypto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;should-you-invest&#34;&gt;Should You Invest?&lt;/h3&gt;
+&lt;p&gt;The boring but honest answer: it depends on your situation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Consider it if:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You want crypto exposure without the complexity&lt;/li&gt;
+&lt;li&gt;It fits your risk tolerance (5-10% of portfolio max)&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re in it for the long term&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Skip it if:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You&amp;rsquo;re trying to get rich quick&lt;/li&gt;
+&lt;li&gt;You don&amp;rsquo;t understand what you&amp;rsquo;re buying&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;d panic sell at -20%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;my-take&#34;&gt;My Take&lt;/h3&gt;
+&lt;p&gt;This is huge for mainstream adoption. Whether you believe in Bitcoin or not, the financial infrastructure is now in place for institutional money to flow in.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Not financial advice. Do your own research. Don&amp;rsquo;t invest more than you can afford to lose.&lt;/em&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Surviving the Toddler Years: A Dad&#39;s Honest Guide</title>
+      <link>https://dadbot.com/posts/surviving-the-toddler-years/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/posts/surviving-the-toddler-years/</guid>
+      <description>&lt;h2 id=&#34;the-beautiful-chaos&#34;&gt;The Beautiful Chaos&lt;/h2&gt;
+&lt;p&gt;They warned me about the terrible twos. Nobody warned me about the threenager phase or that four would somehow be worse.&lt;/p&gt;
+&lt;h3 id=&#34;what-they-dont-tell-you&#34;&gt;What They Don&amp;rsquo;t Tell You&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Sleep regression is real&lt;/strong&gt; - Just when you think you&amp;rsquo;re out, they pull you back in&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Why?&amp;rdquo; is a lifestyle&lt;/strong&gt; - Prepare to explain everything, repeatedly&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snacks are currency&lt;/strong&gt; - The economy runs on goldfish crackers&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;survival-strategies&#34;&gt;Survival Strategies&lt;/h3&gt;
+&lt;h4 id=&#34;morning-routine&#34;&gt;Morning Routine&lt;/h4&gt;
+&lt;p&gt;The key is lowering expectations. Way lower. No, lower than that.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;the-beautiful-chaos&#34;&gt;The Beautiful Chaos&lt;/h2&gt;
+&lt;p&gt;They warned me about the terrible twos. Nobody warned me about the threenager phase or that four would somehow be worse.&lt;/p&gt;
+&lt;h3 id=&#34;what-they-dont-tell-you&#34;&gt;What They Don&amp;rsquo;t Tell You&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Sleep regression is real&lt;/strong&gt; - Just when you think you&amp;rsquo;re out, they pull you back in&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Why?&amp;rdquo; is a lifestyle&lt;/strong&gt; - Prepare to explain everything, repeatedly&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snacks are currency&lt;/strong&gt; - The economy runs on goldfish crackers&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;survival-strategies&#34;&gt;Survival Strategies&lt;/h3&gt;
+&lt;h4 id=&#34;morning-routine&#34;&gt;Morning Routine&lt;/h4&gt;
+&lt;p&gt;The key is lowering expectations. Way lower. No, lower than that.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Expected time to get ready: 20 minutes
+Actual time to get ready: 47 minutes
+Time spent looking for one shoe: 15 minutes
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;bedtime&#34;&gt;Bedtime&lt;/h4&gt;
+&lt;p&gt;It&amp;rsquo;s not a routine, it&amp;rsquo;s a negotiation. Water, bathroom, one more story, check for monsters, water again&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;the-good-parts&#34;&gt;The Good Parts&lt;/h3&gt;
+&lt;p&gt;Despite the chaos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Those random &amp;ldquo;I love you, daddy&amp;rdquo; moments&lt;/li&gt;
+&lt;li&gt;Watching them figure something out&lt;/li&gt;
+&lt;li&gt;The way they see magic in ordinary things&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pro-tips&#34;&gt;Pro Tips&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Always have backup snacks&lt;/li&gt;
+&lt;li&gt;The iPad is not the enemy (in moderation)&lt;/li&gt;
+&lt;li&gt;Find your dad tribe - you&amp;rsquo;ll need them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Hang in there, fellow dads. We&amp;rsquo;ve got this. Probably.&lt;/em&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Book Review: Atomic Habits by James Clear</title>
+      <link>https://dadbot.com/books/atomic-habits-review/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/books/atomic-habits-review/</guid>
+      <description>&lt;h2 id=&#34;the-book-everyone-recommends&#34;&gt;The Book Everyone Recommends&lt;/h2&gt;
+&lt;p&gt;You&amp;rsquo;ve probably seen &amp;ldquo;Atomic Habits&amp;rdquo; recommended approximately 47 times on every productivity list. For once, the hype is justified.&lt;/p&gt;
+&lt;h3 id=&#34;the-core-idea&#34;&gt;The Core Idea&lt;/h3&gt;
+&lt;p&gt;Small habits, consistently applied, compound into remarkable results. It&amp;rsquo;s not about radical change; it&amp;rsquo;s about 1% improvements.&lt;/p&gt;
+&lt;h3 id=&#34;key-takeaways&#34;&gt;Key Takeaways&lt;/h3&gt;
+&lt;h4 id=&#34;1-the-four-laws-of-behavior-change&#34;&gt;1. The Four Laws of Behavior Change&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Make it obvious&lt;/strong&gt; - Design your environment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make it attractive&lt;/strong&gt; - Bundle with things you enjoy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make it easy&lt;/strong&gt; - Reduce friction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make it satisfying&lt;/strong&gt; - Immediate rewards matter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-identity-based-habits&#34;&gt;2. Identity-Based Habits&lt;/h4&gt;
+&lt;p&gt;Don&amp;rsquo;t say &amp;ldquo;I want to run.&amp;rdquo; Say &amp;ldquo;I am a runner.&amp;rdquo; The goal isn&amp;rsquo;t the behavior; it&amp;rsquo;s becoming the type of person who does that behavior.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;the-book-everyone-recommends&#34;&gt;The Book Everyone Recommends&lt;/h2&gt;
+&lt;p&gt;You&amp;rsquo;ve probably seen &amp;ldquo;Atomic Habits&amp;rdquo; recommended approximately 47 times on every productivity list. For once, the hype is justified.&lt;/p&gt;
+&lt;h3 id=&#34;the-core-idea&#34;&gt;The Core Idea&lt;/h3&gt;
+&lt;p&gt;Small habits, consistently applied, compound into remarkable results. It&amp;rsquo;s not about radical change; it&amp;rsquo;s about 1% improvements.&lt;/p&gt;
+&lt;h3 id=&#34;key-takeaways&#34;&gt;Key Takeaways&lt;/h3&gt;
+&lt;h4 id=&#34;1-the-four-laws-of-behavior-change&#34;&gt;1. The Four Laws of Behavior Change&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Make it obvious&lt;/strong&gt; - Design your environment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make it attractive&lt;/strong&gt; - Bundle with things you enjoy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make it easy&lt;/strong&gt; - Reduce friction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make it satisfying&lt;/strong&gt; - Immediate rewards matter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-identity-based-habits&#34;&gt;2. Identity-Based Habits&lt;/h4&gt;
+&lt;p&gt;Don&amp;rsquo;t say &amp;ldquo;I want to run.&amp;rdquo; Say &amp;ldquo;I am a runner.&amp;rdquo; The goal isn&amp;rsquo;t the behavior; it&amp;rsquo;s becoming the type of person who does that behavior.&lt;/p&gt;
+&lt;h4 id=&#34;3-environment--willpower&#34;&gt;3. Environment &amp;gt; Willpower&lt;/h4&gt;
+&lt;p&gt;Stop relying on motivation. Design your spaces to make good habits the path of least resistance.&lt;/p&gt;
+&lt;h3 id=&#34;what-i-applied&#34;&gt;What I Applied&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Reading habit:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kindle on nightstand (obvious)&lt;/li&gt;
+&lt;li&gt;No phone in bedroom (removed friction)&lt;/li&gt;
+&lt;li&gt;Read one page minimum (easy)&lt;/li&gt;
+&lt;li&gt;Track streak in app (satisfying)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Result: 30+ books last year, up from 5.&lt;/p&gt;
+&lt;h3 id=&#34;criticisms&#34;&gt;Criticisms&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Some concepts feel stretched to fill pages&lt;/li&gt;
+&lt;li&gt;Heavy on anecdotes&lt;/li&gt;
+&lt;li&gt;Not groundbreaking if you&amp;rsquo;ve read similar books&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rating-45&#34;&gt;Rating: 4/5&lt;/h3&gt;
+&lt;p&gt;Worth reading even if you&amp;rsquo;ve read other habit books. Clear&amp;rsquo;s framework is genuinely useful.&lt;/p&gt;
+&lt;h3 id=&#34;who-should-read-this&#34;&gt;Who Should Read This&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anyone starting their self-improvement journey&lt;/li&gt;
+&lt;li&gt;People who&amp;rsquo;ve failed at building habits before&lt;/li&gt;
+&lt;li&gt;Those who prefer actionable frameworks over theory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;What&amp;rsquo;s a habit you&amp;rsquo;re trying to build? Let me know in the comments!&lt;/em&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Getting Started with Home Automation in 2024</title>
+      <link>https://dadbot.com/posts/getting-started-with-home-automation/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/posts/getting-started-with-home-automation/</guid>
+      <description>&lt;h2 id=&#34;the-smart-home-journey-begins&#34;&gt;The Smart Home Journey Begins&lt;/h2&gt;
+&lt;p&gt;After years of resisting, I finally took the plunge into home automation. Here&amp;rsquo;s what I learned so you don&amp;rsquo;t have to make the same mistakes I did.&lt;/p&gt;
+&lt;h3 id=&#34;why-bother&#34;&gt;Why Bother?&lt;/h3&gt;
+&lt;p&gt;The appeal is obvious: lights that turn on when you walk in, thermostats that know your schedule, and the ability to check if you locked the door from anywhere. But is it worth the hassle?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spoiler alert:&lt;/strong&gt; Yes, but with caveats.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;the-smart-home-journey-begins&#34;&gt;The Smart Home Journey Begins&lt;/h2&gt;
+&lt;p&gt;After years of resisting, I finally took the plunge into home automation. Here&amp;rsquo;s what I learned so you don&amp;rsquo;t have to make the same mistakes I did.&lt;/p&gt;
+&lt;h3 id=&#34;why-bother&#34;&gt;Why Bother?&lt;/h3&gt;
+&lt;p&gt;The appeal is obvious: lights that turn on when you walk in, thermostats that know your schedule, and the ability to check if you locked the door from anywhere. But is it worth the hassle?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spoiler alert:&lt;/strong&gt; Yes, but with caveats.&lt;/p&gt;
+&lt;h3 id=&#34;where-to-start&#34;&gt;Where to Start&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Pick an ecosystem&lt;/strong&gt; - Apple HomeKit, Google Home, or Amazon Alexa&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Start small&lt;/strong&gt; - Smart bulbs or plugs are the gateway drug&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Consider local control&lt;/strong&gt; - Home Assistant for the privacy-conscious&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;the-dad-tax&#34;&gt;The Dad Tax&lt;/h3&gt;
+&lt;p&gt;Every smart home project takes 3x longer than expected. Factor this into your plans, especially if you have kids asking &amp;ldquo;is it done yet?&amp;rdquo; every 5 minutes.&lt;/p&gt;
+&lt;h3 id=&#34;my-current-setup&#34;&gt;My Current Setup&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Philips Hue lights throughout&lt;/li&gt;
+&lt;li&gt;Ecobee thermostat&lt;/li&gt;
+&lt;li&gt;Home Assistant running on a Raspberry Pi&lt;/li&gt;
+&lt;li&gt;Various Zigbee sensors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next&lt;/h3&gt;
+&lt;p&gt;In the next post, I&amp;rsquo;ll dive deeper into Home Assistant and why it&amp;rsquo;s worth the learning curve.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;What&amp;rsquo;s your smart home setup? Drop a comment below!&lt;/em&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>The Pyramid Puzzle: Ancient Engineering or Something Else?</title>
+      <link>https://dadbot.com/posts/building-aliens-conspiracy/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/posts/building-aliens-conspiracy/</guid>
+      <description>&lt;h2 id=&#34;down-the-rabbit-hole&#34;&gt;Down the Rabbit Hole&lt;/h2&gt;
+&lt;p&gt;Let me be clear: I&amp;rsquo;m not saying it was aliens. But let&amp;rsquo;s look at some facts that are genuinely puzzling.&lt;/p&gt;
+&lt;h3 id=&#34;the-engineering-problem&#34;&gt;The Engineering Problem&lt;/h3&gt;
+&lt;p&gt;The Great Pyramid of Giza:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2.3 million stone blocks&lt;/li&gt;
+&lt;li&gt;Average weight: 2.5 tons each&lt;/li&gt;
+&lt;li&gt;Some blocks weigh 80+ tons&lt;/li&gt;
+&lt;li&gt;Built in approximately 20 years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do the math: that&amp;rsquo;s placing one block every 2-3 minutes, 24/7, for two decades.&lt;/p&gt;
+&lt;h3 id=&#34;what-we-know&#34;&gt;What We Know&lt;/h3&gt;
+&lt;p&gt;Modern engineers have proposed various theories:&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;down-the-rabbit-hole&#34;&gt;Down the Rabbit Hole&lt;/h2&gt;
+&lt;p&gt;Let me be clear: I&amp;rsquo;m not saying it was aliens. But let&amp;rsquo;s look at some facts that are genuinely puzzling.&lt;/p&gt;
+&lt;h3 id=&#34;the-engineering-problem&#34;&gt;The Engineering Problem&lt;/h3&gt;
+&lt;p&gt;The Great Pyramid of Giza:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2.3 million stone blocks&lt;/li&gt;
+&lt;li&gt;Average weight: 2.5 tons each&lt;/li&gt;
+&lt;li&gt;Some blocks weigh 80+ tons&lt;/li&gt;
+&lt;li&gt;Built in approximately 20 years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do the math: that&amp;rsquo;s placing one block every 2-3 minutes, 24/7, for two decades.&lt;/p&gt;
+&lt;h3 id=&#34;what-we-know&#34;&gt;What We Know&lt;/h3&gt;
+&lt;p&gt;Modern engineers have proposed various theories:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ramps (internal or external)&lt;/li&gt;
+&lt;li&gt;Lever systems&lt;/li&gt;
+&lt;li&gt;Water lubrication&lt;/li&gt;
+&lt;li&gt;Massive workforce organization&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;whats-weird&#34;&gt;What&amp;rsquo;s Weird&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Precision alignment to true north (within 0.05 degrees)&lt;/li&gt;
+&lt;li&gt;The ratio of the base perimeter to height equals 2π&lt;/li&gt;
+&lt;li&gt;Similar structures on multiple continents with no known contact&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;my-take&#34;&gt;My Take&lt;/h3&gt;
+&lt;p&gt;Ancient humans were incredibly intelligent and capable. We often underestimate our ancestors.&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s the thing: even experts admit we can&amp;rsquo;t fully replicate these structures with modern technology (mainly due to economics, not capability).&lt;/p&gt;
+&lt;h3 id=&#34;the-real-conspiracy&#34;&gt;The Real Conspiracy&lt;/h3&gt;
+&lt;p&gt;Maybe the real mystery isn&amp;rsquo;t &lt;em&gt;how&lt;/em&gt; but &lt;em&gt;why&lt;/em&gt;. What motivated entire civilizations to dedicate generations to these projects?&lt;/p&gt;
+&lt;h3 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Fingerprints of the Gods&amp;rdquo; by Graham Hancock&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The Giza Power Plant&amp;rdquo; by Christopher Dunn&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;1177 B.C.: The Year Civilization Collapsed&amp;rdquo; by Eric Cline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;What do you think? Ancient ingenuity, lost technology, or something else entirely?&lt;/em&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://dadbot.com/about/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/about/</guid>
+      <description>&lt;h2 id=&#34;about-dadbot&#34;&gt;About Dadbot&lt;/h2&gt;
+&lt;p&gt;Welcome to Dadbot - a blog covering everything from the latest tech trends to the trials and tribulations of parenting, with a healthy dose of sports, finance, and yes, the occasional deep dive into conspiracy theories.&lt;/p&gt;
+&lt;h3 id=&#34;what-youll-find-here&#34;&gt;What You&amp;rsquo;ll Find Here&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Technology&lt;/strong&gt; - Reviews, tutorials, and thoughts on the latest in tech&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parenting&lt;/strong&gt; - Real talk about the dad life&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Crypto/Finance&lt;/strong&gt; - Navigating the world of money and digital assets&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sports&lt;/strong&gt; - Commentary and analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;News&lt;/strong&gt; - Takes on current events&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conspiracy Corner&lt;/strong&gt; - Down the rabbit hole we go&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hobbies&lt;/strong&gt; - Everything else that makes life interesting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;about-the-author&#34;&gt;About the Author&lt;/h3&gt;
+&lt;p&gt;Just a dad with too many browser tabs open and not enough time to read them all. This blog is my attempt to organize the chaos.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;about-dadbot&#34;&gt;About Dadbot&lt;/h2&gt;
+&lt;p&gt;Welcome to Dadbot - a blog covering everything from the latest tech trends to the trials and tribulations of parenting, with a healthy dose of sports, finance, and yes, the occasional deep dive into conspiracy theories.&lt;/p&gt;
+&lt;h3 id=&#34;what-youll-find-here&#34;&gt;What You&amp;rsquo;ll Find Here&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Technology&lt;/strong&gt; - Reviews, tutorials, and thoughts on the latest in tech&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parenting&lt;/strong&gt; - Real talk about the dad life&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Crypto/Finance&lt;/strong&gt; - Navigating the world of money and digital assets&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sports&lt;/strong&gt; - Commentary and analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;News&lt;/strong&gt; - Takes on current events&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conspiracy Corner&lt;/strong&gt; - Down the rabbit hole we go&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hobbies&lt;/strong&gt; - Everything else that makes life interesting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;about-the-author&#34;&gt;About the Author&lt;/h3&gt;
+&lt;p&gt;Just a dad with too many browser tabs open and not enough time to read them all. This blog is my attempt to organize the chaos.&lt;/p&gt;
+&lt;h3 id=&#34;automation-note&#34;&gt;Automation Note&lt;/h3&gt;
+&lt;p&gt;This blog is designed to be automation-friendly using n8n workflows. Posts can be created programmatically, making it easy to maintain a consistent publishing schedule.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Got questions or want to connect? Feel free to reach out!&lt;/em&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

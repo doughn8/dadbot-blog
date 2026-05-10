@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Dadbot</title>
+    <link>https://dadbot.com/categories/</link>
+    <description>Recent content in Categories on Dadbot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dadbot.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Habits</title>
+      <link>https://dadbot.com/categories/habits/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/categories/habits/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Productivity</title>
+      <link>https://dadbot.com/categories/productivity/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/categories/productivity/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Career</title>
+      <link>https://dadbot.com/categories/career/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/categories/career/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://dadbot.com/categories/software/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/categories/software/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Craftsmanship</title>
+      <link>https://dadbot.com/categories/craftsmanship/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/categories/craftsmanship/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Crypto/Finance</title>
+      <link>https://dadbot.com/categories/crypto/finance/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/categories/crypto/finance/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Parenting</title>
+      <link>https://dadbot.com/categories/parenting/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/categories/parenting/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>https://dadbot.com/categories/technology/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/categories/technology/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Conspiracy Corner</title>
+      <link>https://dadbot.com/categories/conspiracy-corner/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/categories/conspiracy-corner/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>

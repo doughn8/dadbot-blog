@@ -1,0 +1,99 @@
+{{ define "main" }}
+  <!-- Welcome Section -->
+  <div class="welcome-section">
+    <div class="welcome-content">
+      <img src="/images/dadbot-homepage-image.png" alt="Dadbot homepage" class="welcome-image" />
+    </div>
+  </div>
+
+  <!-- Recent Posts Section -->
+  <div class="recent-posts">
+    <h2>Latest Posts</h2>
+    
+    <div class="posts-grid">
+      {{ $posts := where .Site.RegularPages "Type" "posts" }}
+      {{ range first 3 $posts }}
+        <a href="{{ .Permalink }}" class="post-card-link">
+          <article class="post-card">
+            {{ partial "cover.html" . }}
+            
+            <div class="post-card-content">
+              <h3 class="post-card-title">
+                {{ .Title | markdownify }}
+              </h3>
+              
+              <div class="post-card-meta">
+                {{- if .Date -}}
+                  <time class="post-date">{{ .Date.Format "Jan 2, 2006" }}</time>
+                {{- end -}}
+                {{- with .Params.categories -}}
+                  <span class="post-category">{{ index . 0 }}</span>
+                {{- end -}}
+              </div>
+              
+              <p class="post-card-summary">
+                {{ if .Description }}
+                  {{ .Description | truncate 80 }}
+                {{ else }}
+                  {{ .Summary | truncate 80 }}
+                {{ end }}
+              </p>
+              
+              <span class="read-more button">Read more</span>
+            </div>
+          </article>
+        </a>
+      {{ end }}
+    </div>
+
+    <div class="view-all">
+      <a href="/posts/" class="button">View All Posts</a>
+    </div>
+  </div>
+
+  <!-- Book Reviews Teaser -->
+  {{ $books := where .Site.RegularPages "Type" "books" }}
+  {{ if $books }}
+  <div class="books-teaser">
+    <h2>Latest Book Reviews</h2>
+    <div class="posts-grid">
+      {{ $latestBooks := first 3 (sort $books "Date" "desc") }}
+      {{ range $latestBooks }}
+        <a href="{{ .Permalink }}" class="post-card-link">
+          <article class="post-card book-card">
+            {{ partial "cover.html" . }}
+            
+            <div class="post-card-content">
+              <h3 class="post-card-title">
+                {{ .Title | markdownify }}
+              </h3>
+              
+              <div class="post-card-meta">
+                {{- if .Date -}}
+                  <time class="post-date">{{ .Date.Format "Jan 2, 2006" }}</time>
+                {{- end -}}
+                {{- with .Params.categories -}}
+                  <span class="post-category">{{ index . 0 }}</span>
+                {{- end -}}
+              </div>
+              
+              <p class="post-card-summary">
+                {{ if .Description }}
+                  {{ .Description | truncate 80 }}
+                {{ else }}
+                  {{ .Summary | truncate 80 }}
+                {{ end }}
+              </p>
+              
+              <span class="read-more button">Read more</span>
+            </div>
+          </article>
+        </a>
+      {{ end }}
+    </div>
+    <div class="view-all">
+      <a href="/books/" class="button">All Book Reviews</a>
+    </div>
+  </div>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,109 @@
+baseURL = 'https://dadbot.com/'
+languageCode = 'en-us'
+title = 'Dadbot'
+theme = 're-terminal'
+pagination.pagerSize = 5
+
+# Required for Chroma and the custom syntax highlighting
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  # dir name of your main content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # ["orange", "blue", "red", "green", "pink", "paper"]
+  themeColor = "green"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 5
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  autoCover = true
+
+  # set post to show the last updated
+  showLastUpdated = false
+
+  # whether to show a page's estimated reading time
+  readingTime = true
+
+  # whether to show a table of contents
+  Toc = true
+  TocTitle = "Table of Contents"
+
+[params.twitter]
+  creator = ""
+  site = ""
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Dadbot"
+
+    [languages.en.params]
+      subtitle = "Thoughts on tech, life, and everything in between"
+      owner = ""
+      keywords = "blog, technology, parenting, crypto, finance, sports, news, hobbies, books"
+      copyright = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "Dadbot"
+        logoHomeLink = "/"
+
+    [languages.en.menu]
+      # Home
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+
+      # Blog with submenus for categories
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/posts/"
+        weight = 2
+
+      # Book Reviews
+      [[languages.en.menu.main]]
+        identifier = "books"
+        name = "Book Reviews"
+        url = "/books"
+        weight = 3
+
+      # Hot Takes
+      [[languages.en.menu.main]]
+        identifier = "hot-takes"
+        name = "Hot Takes"
+        url = "/hot-takes"
+        weight = 4
+
+      # About
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = 5

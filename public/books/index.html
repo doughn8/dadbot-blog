@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Book Reviews :: Dadbot</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Book reviews and reading recommendations from Dadbot." />
+<meta name="keywords" content="blog, technology, parenting, crypto, finance, sports, news, hobbies, books" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://dadbot.com/books/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/styles.css">
+
+
+
+<link rel="stylesheet" href="/style.css?v=1778420837">
+
+
+
+  <link rel="shortcut icon" href="https://dadbot.com/img/theme-colors/green.png">
+  <link rel="apple-touch-icon" href="https://dadbot.com/img/theme-colors/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Book Reviews">
+<meta property="og:description" content="Book reviews and reading recommendations from Dadbot." />
+<meta property="og:url" content="https://dadbot.com/books/" />
+<meta property="og:site_name" content="Dadbot" />
+
+  
+    <meta property="og:image" content="https://dadbot.com/img/favicon/green.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+  <link href="/books/index.xml" rel="alternate" type="application/rss+xml" title="Dadbot" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/weather-widget.css?v=1778420837">
+
+
+
+  
+
+
+</head>
+<body class="green">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Dadbot
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/">Home</a></li>
+        
+      
+        
+          <li><a href="/posts/">Blog</a></li>
+        
+      
+        
+          <li><a href="/books">Book Reviews</a></li>
+        
+      
+        
+          <li><a href="/hot-takes">Hot Takes</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  <div class="weather-ticker" id="weather-ticker">
+  <div class="weather-ticker__search">
+    <input type="text" class="weather-ticker__search-input" id="weather-search-input" placeholder="Search location..." autocomplete="off">
+    <button type="button" class="weather-ticker__search-button" id="weather-search-button">Search</button>
+  </div>
+  <div class="weather-ticker__ticker">
+    <div class="weather-ticker__track" id="weather-ticker-track">
+      <div class="weather-ticker__content" id="weather-content-1">
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#127749;</span>
+          <span class="weather-ticker__period">MORNING</span>
+          <span class="weather-ticker__temp" id="temp-morning-1">--°C</span>
+          <span class="weather-ticker__desc" id="desc-morning-1">Loading...</span>
+        </span>
+        <span class="weather-ticker__divider">|</span>
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#9728;&#65039;</span>
+          <span class="weather-ticker__period">AFTERNOON</span>
+          <span class="weather-ticker__temp" id="temp-afternoon-1">--°C</span>
+          <span class="weather-ticker__desc" id="desc-afternoon-1">Loading...</span>
+        </span>
+        <span class="weather-ticker__divider">|</span>
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#127769;</span>
+          <span class="weather-ticker__period">EVENING</span>
+          <span class="weather-ticker__temp" id="temp-evening-1">--°C</span>
+          <span class="weather-ticker__desc" id="desc-evening-1">Loading...</span>
+        </span>
+      </div>
+      <div class="weather-ticker__content" id="weather-content-2">
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#127749;</span>
+          <span class="weather-ticker__period">MORNING</span>
+          <span class="weather-ticker__temp" id="temp-morning-2">--°C</span>
+          <span class="weather-ticker__desc" id="desc-morning-2">Loading...</span>
+        </span>
+        <span class="weather-ticker__divider">|</span>
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#9728;&#65039;</span>
+          <span class="weather-ticker__period">AFTERNOON</span>
+          <span class="weather-ticker__temp" id="temp-afternoon-2">--°C</span>
+          <span class="weather-ticker__desc" id="desc-afternoon-2">Loading...</span>
+        </span>
+        <span class="weather-ticker__divider">|</span>
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#127769;</span>
+          <span class="weather-ticker__period">EVENING</span>
+          <span class="weather-ticker__temp" id="temp-evening-2">--°C</span>
+          <span class="weather-ticker__desc" id="desc-evening-2">Loading...</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  const DEFAULT_LOCATION = 'Sheffield,England';
+  const CACHE_KEY_LOCATION = 'wttr_location';
+  const CACHE_KEY_WEATHER = 'wttr_weather_data';
+  const CACHE_KEY_USER_LOCATION = 'wttr_user_location';
+  const CACHE_DURATION_LOCATION = 24 * 60 * 60 * 1000;
+  const CACHE_DURATION_WEATHER = 30 * 60 * 1000;
+  
+  let currentLocationName = '';
+  let currentLocationQuery = '';
+  
+  const weatherEmoji = {
+    '113': '☀️', '116': '⛅', '119': '☁️', '122': '☁️', '143': '🌫️',
+    '176': '🌦️', '179': '🌨️', '182': '🌨️', '185': '🌨️', '200': '⛈️',
+    '227': '🌨️', '230': '❄️', '248': '🌫️', '260': '🌫️', '263': '🌧️',
+    '266': '🌧️', '281': '🌧️', '284': '🌧️', '293': '🌧️', '296': '🌧️',
+    '299': '🌧️', '302': '🌧️', '305': '🌧️', '308': '🌧️', '311': '🌧️',
+    '314': '🌧️', '317': '🌨️', '320': '🌨️', '323': '🌨️', '326': '🌨️',
+    '329': '🌨️', '332': '🌨️', '335': '🌨️', '338': '❄️', '350': '🌨️',
+    '353': '🌧️', '356': '🌧️', '359': '🌧️', '362': '🌨️', '365': '🌨️',
+    '368': '🌨️', '371': '🌨️', '374': '🌨️', '377': '🌨️', '386': '⛈️',
+    '389': '⛈️', '392': '⛈️', '395': '⛈️'
+  };
+  
+  function getWeatherEmoji(code) {
+    return weatherEmoji[code] || '🌡️';
+  }
+  
+  function getUserLocation() {
+    try {
+      return localStorage.getItem(CACHE_KEY_USER_LOCATION);
+    } catch (e) {}
+    return null;
+  }
+  
+  function setUserLocation(location) {
+    try {
+      localStorage.setItem(CACHE_KEY_USER_LOCATION, location);
+    } catch (e) {}
+  }
+  
+  function getCachedLocation() {
+    try {
+      const cached = localStorage.getItem(CACHE_KEY_LOCATION);
+      if (cached) {
+        const data = JSON.parse(cached);
+        if (Date.now() - data.timestamp < CACHE_DURATION_LOCATION) {
+          return data.location;
+        }
+      }
+    } catch (e) {}
+    return null;
+  }
+  
+  function cacheLocation(location) {
+    try {
+      localStorage.setItem(CACHE_KEY_LOCATION, JSON.stringify({
+        location: location,
+        timestamp: Date.now()
+      }));
+    } catch (e) {}
+  }
+  
+  function getCachedWeather(location) {
+    try {
+      const cached = localStorage.getItem(CACHE_KEY_WEATHER);
+      if (cached) {
+        const data = JSON.parse(cached);
+        if (data.location === location && Date.now() - data.timestamp < CACHE_DURATION_WEATHER) {
+          return data.weather;
+        }
+      }
+    } catch (e) {}
+    return null;
+  }
+  
+  function cacheWeather(location, weather) {
+    try {
+      localStorage.setItem(CACHE_KEY_WEATHER, JSON.stringify({
+        location: location,
+        weather: weather,
+        timestamp: Date.now()
+      }));
+    } catch (e) {}
+  }
+  
+  function updateTickerUI(data, locationName) {
+    currentLocationName = locationName;
+    
+    const periods = [
+      { id: 'morning', timeCode: '600' },
+      { id: 'afternoon', timeCode: '1200' },
+      { id: 'evening', timeCode: '2100' }
+    ];
+    
+    const today = data.weather[0];
+    const hourly = today.hourly;
+    
+    [1, 2].forEach(copy => {
+      periods.forEach(period => {
+        const hourData = hourly.find(h => h.time === period.timeCode) || hourly[0];
+        
+        const tempEl = document.getElementById(`temp-${period.id}-${copy}`);
+        const descEl = document.getElementById(`desc-${period.id}-${copy}`);
+        
+        if (tempEl) tempEl.textContent = `${hourData.tempC}°C`;
+        if (descEl) {
+          const emoji = getWeatherEmoji(hourData.weatherCode);
+          descEl.textContent = `${emoji} ${hourData.weatherDesc[0].value.trim()}`;
+        }
+      });
+      
+      const locEl = document.getElementById(`loc-${copy}`);
+      if (locEl) locEl.textContent = `// ${locationName}`;
+    });
+
+    const searchInput = document.getElementById('weather-search-input');
+    if (searchInput) {
+      searchInput.value = locationName;
+    }
+  }
+  
+  function showError(message) {
+    const searchInput = document.getElementById('weather-search-input');
+    if (searchInput) {
+      searchInput.value = message;
+    }
+  }
+  
+  function fetchWeather(location, isUserInput = false) {
+    currentLocationQuery = location;
+    
+    
+    const searchInput = document.getElementById('weather-search-input');
+    if (searchInput) {
+      searchInput.value = 'Loading...';
+    }
+    
+    const cachedWeather = getCachedWeather(location);
+    if (cachedWeather && !isUserInput) {
+      const locationName = cachedWeather.nearest_area[0].areaName[0].value;
+      updateTickerUI(cachedWeather, locationName);
+      return;
+    }
+    
+    fetch(`https://wttr.in/${encodeURIComponent(location)}?format=j1`)
+      .then(response => {
+        if (!response.ok) throw new Error('Weather fetch failed');
+        return response.json();
+      })
+      .then(data => {
+        cacheWeather(location, data);
+        const locationName = data.nearest_area[0].areaName[0].value;
+        
+        
+        if (isUserInput) {
+          setUserLocation(location);
+        }
+        
+        updateTickerUI(data, locationName);
+      })
+      .catch(error => {
+        console.log('Weather fetch failed:', error);
+        if (isUserInput) {
+          showError('Not found');
+          setTimeout(() => {
+            const searchInput = document.getElementById('weather-search-input');
+            if (searchInput && currentLocationName) {
+              searchInput.value = currentLocationName;
+            }
+          }, 2000);
+        } else {
+          [1, 2].forEach(copy => {
+            ['morning', 'afternoon', 'evening'].forEach(period => {
+              const descEl = document.getElementById(`desc-${period}-${copy}`);
+              if (descEl) descEl.textContent = 'Unavailable';
+            });
+          });
+        }
+      });
+  }
+  
+  function setupSearchInput() {
+    const searchInput = document.getElementById('weather-search-input');
+    const searchButton = document.getElementById('weather-search-button');
+    if (!searchInput) return;
+
+    function submitSearch() {
+      const newLocation = searchInput.value.trim();
+      if (newLocation) {
+        fetchWeather(newLocation, true);
+      } else if (currentLocationName) {
+        searchInput.value = currentLocationName;
+      }
+    }
+
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        submitSearch();
+      } else if (e.key === 'Escape') {
+        e.preventDefault();
+        if (currentLocationName) {
+          searchInput.value = currentLocationName;
+        }
+      }
+    });
+
+    if (searchButton) {
+      searchButton.addEventListener('click', () => {
+        submitSearch();
+      });
+    }
+  }
+  
+  function detectLocationAndFetch() {
+    
+    const userLocation = getUserLocation();
+    if (userLocation) {
+      fetchWeather(userLocation);
+      return;
+    }
+    
+    const cached = getCachedLocation();
+    if (cached) {
+      fetchWeather(cached);
+      return;
+    }
+    
+    fetch('https://ipapi.co/json/')
+      .then(response => {
+        if (!response.ok) throw new Error('Geolocation failed');
+        return response.json();
+      })
+      .then(data => {
+        if (data.city && data.country_name) {
+          const location = `${data.city},${data.country_name}`;
+          cacheLocation(location);
+          fetchWeather(location);
+        } else {
+          throw new Error('Invalid location data');
+        }
+      })
+      .catch(error => {
+        console.log('Location detection failed, using default:', error);
+        fetchWeather(DEFAULT_LOCATION);
+      });
+  }
+  
+  
+  function init() {
+    detectLocationAndFetch();
+    setupSearchInput();
+  }
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="/" >Home</a></li>
+        
+      
+        
+          <li><a href="/posts/" >Blog</a></li>
+        
+      
+        
+          <li><a href="/books" >Book Reviews</a></li>
+        
+      
+        
+          <li><a href="/hot-takes" >Hot Takes</a></li>
+        
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+  <div class="posts-with-sidebar">
+    <div class="posts-main">
+      
+        <div class="index-content">
+          <p>A collection of book reviews - from technical reads to fiction, self-improvement to history.</p>
+
+        </div>
+      
+      
+      <div class="posts books-section">
+        
+          
+          
+            
+          
+          <article class="post on-list book-review" data-post-tags="focus,deep-work,time-management">
+            <h1 class="post-title">
+              <a href="https://dadbot.com/books/deep-work-review/">Book Review: Deep Work by Cal Newport</a>
+            </h1>
+            
+            <div class="post-meta"><time class="post-date">2024-02-20</time><span class="post-author">Dadbot</span></div>
+
+            
+              <span class="post-tags">
+                
+                #<a href="https://dadbot.com/tags/focus/">focus</a>&nbsp;
+                
+                #<a href="https://dadbot.com/tags/deep-work/">deep-work</a>&nbsp;
+                
+                #<a href="https://dadbot.com/tags/time-management/">time-management</a>&nbsp;
+                
+              </span>
+            
+
+            <a href="https://dadbot.com/books/deep-work-review/" class="post-cover-link">
+              
+    
+    <img src="/images/books/cover-deep-work.svg"
+      class="post-cover"
+      alt="Book Review: Deep Work by Cal Newport"
+      title="Cover Image" />
+  
+
+            </a>
+
+            <div class="post-content">
+              
+                A practical case for focus in a world of constant interruption.
+              
+            </div>
+
+            <div>
+              <a class="read-more button" href="/books/deep-work-review/">Read Review</a>
+            </div>
+          </article>
+        
+          
+          
+            
+          
+          <article class="post on-list book-review" data-post-tags="pragmatism,tooling,craftsmanship">
+            <h1 class="post-title">
+              <a href="https://dadbot.com/books/the-pragmatic-programmer-review/">Book Review: The Pragmatic Programmer</a>
+            </h1>
+            
+            <div class="post-meta"><time class="post-date">2024-02-12</time><span class="post-author">Dadbot</span></div>
+
+            
+              <span class="post-tags">
+                
+                #<a href="https://dadbot.com/tags/pragmatism/">pragmatism</a>&nbsp;
+                
+                #<a href="https://dadbot.com/tags/tooling/">tooling</a>&nbsp;
+                
+                #<a href="https://dadbot.com/tags/craftsmanship/">craftsmanship</a>&nbsp;
+                
+              </span>
+            
+
+            <a href="https://dadbot.com/books/the-pragmatic-programmer-review/" class="post-cover-link">
+              
+    
+    <img src="/images/books/cover-pragmatic-programmer.svg"
+      class="post-cover"
+      alt="Book Review: The Pragmatic Programmer"
+      title="Cover Image" />
+  
+
+            </a>
+
+            <div class="post-content">
+              
+                Timeless advice on ownership, tooling, and thinking like a craftsperson.
+              
+            </div>
+
+            <div>
+              <a class="read-more button" href="/books/the-pragmatic-programmer-review/">Read Review</a>
+            </div>
+          </article>
+        
+          
+          
+            
+          
+          <article class="post on-list book-review" data-post-tags="clean-code,best-practices,refactoring">
+            <h1 class="post-title">
+              <a href="https://dadbot.com/books/clean-code-review/">Book Review: Clean Code by Robert C. Martin</a>
+            </h1>
+            
+            <div class="post-meta"><time class="post-date">2024-02-03</time><span class="post-author">Dadbot</span></div>
+
+            
+              <span class="post-tags">
+                
+                #<a href="https://dadbot.com/tags/clean-code/">clean-code</a>&nbsp;
+                
+                #<a href="https://dadbot.com/tags/best-practices/">best-practices</a>&nbsp;
+                
+                #<a href="https://dadbot.com/tags/refactoring/">refactoring</a>&nbsp;
+                
+              </span>
+            
+
+            <a href="https://dadbot.com/books/clean-code-review/" class="post-cover-link">
+              
+    
+    <img src="/images/books/cover-clean-code.svg"
+      class="post-cover"
+      alt="Book Review: Clean Code by Robert C. Martin"
+      title="Cover Image" />
+  
+
+            </a>
+
+            <div class="post-content">
+              
+                What holds up, what feels dated, and how I use the advice in real projects.
+              
+            </div>
+
+            <div>
+              <a class="read-more button" href="/books/clean-code-review/">Read Review</a>
+            </div>
+          </article>
+        
+          
+          
+            
+          
+          <article class="post on-list book-review" data-post-tags="self-improvement,habits,productivity">
+            <h1 class="post-title">
+              <a href="https://dadbot.com/books/atomic-habits-review/">Book Review: Atomic Habits by James Clear</a>
+            </h1>
+            
+            <div class="post-meta"><time class="post-date">2024-01-18</time><span class="post-author">Dadbot</span></div>
+
+            
+              <span class="post-tags">
+                
+                #<a href="https://dadbot.com/tags/self-improvement/">self-improvement</a>&nbsp;
+                
+                #<a href="https://dadbot.com/tags/habits/">habits</a>&nbsp;
+                
+                #<a href="https://dadbot.com/tags/productivity/">productivity</a>&nbsp;
+                
+              </span>
+            
+
+            <a href="https://dadbot.com/books/atomic-habits-review/" class="post-cover-link">
+              
+    
+    <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800"
+      class="post-cover"
+      alt="Book Review: Atomic Habits by James Clear"
+      title="Cover Image" />
+  
+
+            </a>
+
+            <div class="post-content">
+              
+                Why this book lives up to the hype and how I actually applied it to my life.
+              
+            </div>
+
+            <div>
+              <a class="read-more button" href="/books/atomic-habits-review/">Read Review</a>
+            </div>
+          </article>
+        
+
+        <div class="pagination">
+  <div class="pagination__buttons">
+    
+    
+  </div>
+</div>
+
+      </div>
+    </div>
+    <aside class="posts-sidebar">
+      
+      
+      
+      
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+          
+            
+          
+        
+      
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+          
+            
+          
+        
+      
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+        
+          
+        
+          
+            
+          
+        
+      
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+        
+      
+      
+      
+
+      
+        <h2 class="posts-sidebar__title">Categories</h2>
+        <div class="category-buttons">
+          
+            
+            <a class="button outline" href="https://dadbot.com/categories/career/">career</a>
+          
+            
+            <a class="button outline" href="https://dadbot.com/categories/craftsmanship/">craftsmanship</a>
+          
+            
+            <a class="button outline" href="https://dadbot.com/categories/habits/">habits</a>
+          
+            
+            <a class="button outline" href="https://dadbot.com/categories/productivity/">productivity</a>
+          
+            
+            <a class="button outline" href="https://dadbot.com/categories/software/">software</a>
+          
+        </div>
+      
+
+      
+        <div class="posts-sidebar__heading">
+          <h2 class="posts-sidebar__title">Tags</h2>
+          <button class="tags-clear-all hidden" type="button" data-tags-clear>Clear all</button>
+        </div>
+        <label class="tags-search-label" for="book-tags-search">Search tags</label>
+        <div class="tags-search-row">
+          <input
+            id="book-tags-search"
+            class="tags-search"
+            type="search"
+            placeholder="Search tags..."
+            aria-controls="book-tags-list"
+            data-tags-search
+            data-target="#book-tags-list"
+          />
+        </div>
+        <p class="tags-empty hidden" data-tags-empty>No matching tags.</p>
+        <div class="tags-list" id="book-tags-list">
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/best-practices/" data-tag-chip data-tag-name="best-practices" role="button" aria-pressed="false">best-practices</a>
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/clean-code/" data-tag-chip data-tag-name="clean-code" role="button" aria-pressed="false">clean-code</a>
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/craftsmanship/" data-tag-chip data-tag-name="craftsmanship" role="button" aria-pressed="false">craftsmanship</a>
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/deep-work/" data-tag-chip data-tag-name="deep-work" role="button" aria-pressed="false">deep-work</a>
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/focus/" data-tag-chip data-tag-name="focus" role="button" aria-pressed="false">focus</a>
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/habits/" data-tag-chip data-tag-name="habits" role="button" aria-pressed="false">habits</a>
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/pragmatism/" data-tag-chip data-tag-name="pragmatism" role="button" aria-pressed="false">pragmatism</a>
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/productivity/" data-tag-chip data-tag-name="productivity" role="button" aria-pressed="false">productivity</a>
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/refactoring/" data-tag-chip data-tag-name="refactoring" role="button" aria-pressed="false">refactoring</a>
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/self-improvement/" data-tag-chip data-tag-name="self-improvement" role="button" aria-pressed="false">self-improvement</a>
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/time-management/" data-tag-chip data-tag-name="time-management" role="button" aria-pressed="false">time-management</a>
+          
+            
+            <a class="tag-chip" href="https://dadbot.com/tags/tooling/" data-tag-chip data-tag-name="tooling" role="button" aria-pressed="false">tooling</a>
+          
+        </div>
+      
+    </aside>
+  </div>
+  <script>
+    (() => {
+      const search = document.querySelector('[data-tags-search]');
+      if (!search) {
+        return;
+      }
+
+      const list = document.querySelector(search.dataset.target || '#book-tags-list');
+      if (!list) {
+        return;
+      }
+
+      const items = Array.from(list.querySelectorAll('[data-tag-chip]'));
+      const posts = Array.from(document.querySelectorAll('[data-post-tags]'));
+      const empty = document.querySelector('[data-tags-empty]');
+      const clear = document.querySelector('[data-tags-clear]');
+      const normalize = (value) => value.toLowerCase();
+      const activeTags = new Set();
+
+      const getPostTags = (post) =>
+        (post.dataset.postTags || '')
+          .split(',')
+          .map((tag) => normalize(tag.trim()))
+          .filter(Boolean);
+
+      const updatePosts = () => {
+        const hasActive = activeTags.size > 0;
+        posts.forEach((post) => {
+          const postTags = getPostTags(post);
+          const show = !hasActive || postTags.some((tag) => activeTags.has(tag));
+          post.classList.toggle('hidden', !show);
+        });
+      };
+
+      const updateTagList = () => {
+        const trimmed = search.value.trim();
+        const query = normalize(trimmed);
+        let visibleCount = 0;
+
+        items.forEach((item) => {
+          const tagName = normalize(item.dataset.tagName || '');
+          const label = normalize(item.textContent || '');
+          const matches = !query || tagName.includes(query) || label.includes(query);
+          const isActive = activeTags.has(tagName);
+          const show = !query || matches || isActive;
+
+          item.classList.toggle('hidden', !show);
+          item.classList.toggle('tag-chip--active', isActive);
+          item.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+
+          if (show) {
+            visibleCount += 1;
+          }
+        });
+
+        if (empty) {
+          empty.classList.toggle('hidden', visibleCount > 0);
+        }
+      };
+
+      const updateClear = () => {
+        if (clear) {
+          clear.classList.toggle('hidden', activeTags.size === 0);
+        }
+      };
+
+      const update = () => {
+        updatePosts();
+        updateTagList();
+        updateClear();
+      };
+
+      items.forEach((item) => {
+        item.addEventListener('click', (event) => {
+          event.preventDefault();
+          const tagName = normalize(item.dataset.tagName || '');
+          if (!tagName) {
+            return;
+          }
+
+          if (activeTags.has(tagName)) {
+            activeTags.delete(tagName);
+          } else {
+            activeTags.add(tagName);
+          }
+
+          update();
+        });
+      });
+
+      search.addEventListener('input', update);
+      if (clear) {
+        clear.addEventListener('click', () => {
+          activeTags.clear();
+          update();
+          search.focus();
+        });
+      }
+      update();
+    })();
+  </script>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+<a href="https://buymeacoffee.com/yourusername" 
+   class="coffee-button" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   title="Buy me a coffee!">
+<span class="coffee-art">  ( (
+   ) )
+ .─────.
+ │     │)
+ │     │
+ `─────'</span><span class="coffee-text">☕ COFFEE?</span></a>
+
+
+  
+</div>
+
+</body>
+</html>

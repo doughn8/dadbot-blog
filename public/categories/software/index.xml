@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Dadbot</title>
+    <link>https://dadbot.com/categories/software/</link>
+    <description>Recent content in Software on Dadbot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dadbot.com/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review: The Pragmatic Programmer</title>
+      <link>https://dadbot.com/books/the-pragmatic-programmer-review/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/books/the-pragmatic-programmer-review/</guid>
+      <description>&lt;h2 id=&#34;why-this-one-sticks&#34;&gt;Why This One Sticks&lt;/h2&gt;
+&lt;p&gt;The Pragmatic Programmer is a gentle push toward responsibility, curiosity, and continuous improvement.&lt;/p&gt;
+&lt;h3 id=&#34;standout-ideas&#34;&gt;Standout Ideas&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Own your work end to end&lt;/li&gt;
+&lt;li&gt;Build good tooling habits&lt;/li&gt;
+&lt;li&gt;Automate anything repeated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-i-applied&#34;&gt;What I Applied&lt;/h3&gt;
+&lt;p&gt;I started logging tiny process improvements weekly. After two months, my workflow felt smoother and faster.&lt;/p&gt;
+&lt;h3 id=&#34;rating-55&#34;&gt;Rating: 5/5&lt;/h3&gt;
+&lt;p&gt;If you only read one software book this year, make it this one.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;why-this-one-sticks&#34;&gt;Why This One Sticks&lt;/h2&gt;
+&lt;p&gt;The Pragmatic Programmer is a gentle push toward responsibility, curiosity, and continuous improvement.&lt;/p&gt;
+&lt;h3 id=&#34;standout-ideas&#34;&gt;Standout Ideas&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Own your work end to end&lt;/li&gt;
+&lt;li&gt;Build good tooling habits&lt;/li&gt;
+&lt;li&gt;Automate anything repeated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-i-applied&#34;&gt;What I Applied&lt;/h3&gt;
+&lt;p&gt;I started logging tiny process improvements weekly. After two months, my workflow felt smoother and faster.&lt;/p&gt;
+&lt;h3 id=&#34;rating-55&#34;&gt;Rating: 5/5&lt;/h3&gt;
+&lt;p&gt;If you only read one software book this year, make it this one.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Book Review: Clean Code by Robert C. Martin</title>
+      <link>https://dadbot.com/books/clean-code-review/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dadbot.com/books/clean-code-review/</guid>
+      <description>&lt;h2 id=&#34;the-short-version&#34;&gt;The Short Version&lt;/h2&gt;
+&lt;p&gt;Clean Code is still a strong guide for writing readable, maintainable code, but a few sections show their age.&lt;/p&gt;
+&lt;h3 id=&#34;what-still-works&#34;&gt;What Still Works&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Naming conventions that optimize for clarity&lt;/li&gt;
+&lt;li&gt;Small, focused functions&lt;/li&gt;
+&lt;li&gt;Consistent formatting and structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-feels-dated&#34;&gt;What Feels Dated&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Some Java-specific examples&lt;/li&gt;
+&lt;li&gt;A few rules feel absolute when they should be situational&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-i-use-it-now&#34;&gt;How I Use It Now&lt;/h3&gt;
+&lt;p&gt;I keep the principles, not the prescriptions. The big win is aligning a team around shared readability goals.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;the-short-version&#34;&gt;The Short Version&lt;/h2&gt;
+&lt;p&gt;Clean Code is still a strong guide for writing readable, maintainable code, but a few sections show their age.&lt;/p&gt;
+&lt;h3 id=&#34;what-still-works&#34;&gt;What Still Works&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Naming conventions that optimize for clarity&lt;/li&gt;
+&lt;li&gt;Small, focused functions&lt;/li&gt;
+&lt;li&gt;Consistent formatting and structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-feels-dated&#34;&gt;What Feels Dated&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Some Java-specific examples&lt;/li&gt;
+&lt;li&gt;A few rules feel absolute when they should be situational&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-i-use-it-now&#34;&gt;How I Use It Now&lt;/h3&gt;
+&lt;p&gt;I keep the principles, not the prescriptions. The big win is aligning a team around shared readability goals.&lt;/p&gt;
+&lt;h3 id=&#34;rating-45&#34;&gt;Rating: 4/5&lt;/h3&gt;
+&lt;p&gt;Great for teams and early-career developers. Skim the examples, focus on the principles.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Hot Takes :: Dadbot</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Quick, opinionated riffs on tech, culture, sports, and dad life." />
+<meta name="keywords" content="blog, technology, parenting, crypto, finance, sports, news, hobbies, books" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://dadbot.com/hot-takes/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/styles.css">
+
+
+
+<link rel="stylesheet" href="/style.css?v=1778420837">
+
+
+
+  <link rel="shortcut icon" href="https://dadbot.com/img/theme-colors/green.png">
+  <link rel="apple-touch-icon" href="https://dadbot.com/img/theme-colors/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Hot Takes">
+<meta property="og:description" content="Quick, opinionated riffs on tech, culture, sports, and dad life." />
+<meta property="og:url" content="https://dadbot.com/hot-takes/" />
+<meta property="og:site_name" content="Dadbot" />
+
+  
+    <meta property="og:image" content="https://dadbot.com/img/favicon/green.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+  <link href="/hot-takes/index.xml" rel="alternate" type="application/rss+xml" title="Dadbot" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/weather-widget.css?v=1778420837">
+
+
+
+  
+
+
+</head>
+<body class="green">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Dadbot
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/">Home</a></li>
+        
+      
+        
+          <li><a href="/posts/">Blog</a></li>
+        
+      
+        
+          <li><a href="/books">Book Reviews</a></li>
+        
+      
+        
+          <li><a href="/hot-takes">Hot Takes</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  <div class="weather-ticker" id="weather-ticker">
+  <div class="weather-ticker__search">
+    <input type="text" class="weather-ticker__search-input" id="weather-search-input" placeholder="Search location..." autocomplete="off">
+    <button type="button" class="weather-ticker__search-button" id="weather-search-button">Search</button>
+  </div>
+  <div class="weather-ticker__ticker">
+    <div class="weather-ticker__track" id="weather-ticker-track">
+      <div class="weather-ticker__content" id="weather-content-1">
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#127749;</span>
+          <span class="weather-ticker__period">MORNING</span>
+          <span class="weather-ticker__temp" id="temp-morning-1">--°C</span>
+          <span class="weather-ticker__desc" id="desc-morning-1">Loading...</span>
+        </span>
+        <span class="weather-ticker__divider">|</span>
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#9728;&#65039;</span>
+          <span class="weather-ticker__period">AFTERNOON</span>
+          <span class="weather-ticker__temp" id="temp-afternoon-1">--°C</span>
+          <span class="weather-ticker__desc" id="desc-afternoon-1">Loading...</span>
+        </span>
+        <span class="weather-ticker__divider">|</span>
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#127769;</span>
+          <span class="weather-ticker__period">EVENING</span>
+          <span class="weather-ticker__temp" id="temp-evening-1">--°C</span>
+          <span class="weather-ticker__desc" id="desc-evening-1">Loading...</span>
+        </span>
+      </div>
+      <div class="weather-ticker__content" id="weather-content-2">
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#127749;</span>
+          <span class="weather-ticker__period">MORNING</span>
+          <span class="weather-ticker__temp" id="temp-morning-2">--°C</span>
+          <span class="weather-ticker__desc" id="desc-morning-2">Loading...</span>
+        </span>
+        <span class="weather-ticker__divider">|</span>
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#9728;&#65039;</span>
+          <span class="weather-ticker__period">AFTERNOON</span>
+          <span class="weather-ticker__temp" id="temp-afternoon-2">--°C</span>
+          <span class="weather-ticker__desc" id="desc-afternoon-2">Loading...</span>
+        </span>
+        <span class="weather-ticker__divider">|</span>
+        <span class="weather-ticker__segment">
+          <span class="weather-ticker__icon">&#127769;</span>
+          <span class="weather-ticker__period">EVENING</span>
+          <span class="weather-ticker__temp" id="temp-evening-2">--°C</span>
+          <span class="weather-ticker__desc" id="desc-evening-2">Loading...</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  const DEFAULT_LOCATION = 'Sheffield,England';
+  const CACHE_KEY_LOCATION = 'wttr_location';
+  const CACHE_KEY_WEATHER = 'wttr_weather_data';
+  const CACHE_KEY_USER_LOCATION = 'wttr_user_location';
+  const CACHE_DURATION_LOCATION = 24 * 60 * 60 * 1000;
+  const CACHE_DURATION_WEATHER = 30 * 60 * 1000;
+  
+  let currentLocationName = '';
+  let currentLocationQuery = '';
+  
+  const weatherEmoji = {
+    '113': '☀️', '116': '⛅', '119': '☁️', '122': '☁️', '143': '🌫️',
+    '176': '🌦️', '179': '🌨️', '182': '🌨️', '185': '🌨️', '200': '⛈️',
+    '227': '🌨️', '230': '❄️', '248': '🌫️', '260': '🌫️', '263': '🌧️',
+    '266': '🌧️', '281': '🌧️', '284': '🌧️', '293': '🌧️', '296': '🌧️',
+    '299': '🌧️', '302': '🌧️', '305': '🌧️', '308': '🌧️', '311': '🌧️',
+    '314': '🌧️', '317': '🌨️', '320': '🌨️', '323': '🌨️', '326': '🌨️',
+    '329': '🌨️', '332': '🌨️', '335': '🌨️', '338': '❄️', '350': '🌨️',
+    '353': '🌧️', '356': '🌧️', '359': '🌧️', '362': '🌨️', '365': '🌨️',
+    '368': '🌨️', '371': '🌨️', '374': '🌨️', '377': '🌨️', '386': '⛈️',
+    '389': '⛈️', '392': '⛈️', '395': '⛈️'
+  };
+  
+  function getWeatherEmoji(code) {
+    return weatherEmoji[code] || '🌡️';
+  }
+  
+  function getUserLocation() {
+    try {
+      return localStorage.getItem(CACHE_KEY_USER_LOCATION);
+    } catch (e) {}
+    return null;
+  }
+  
+  function setUserLocation(location) {
+    try {
+      localStorage.setItem(CACHE_KEY_USER_LOCATION, location);
+    } catch (e) {}
+  }
+  
+  function getCachedLocation() {
+    try {
+      const cached = localStorage.getItem(CACHE_KEY_LOCATION);
+      if (cached) {
+        const data = JSON.parse(cached);
+        if (Date.now() - data.timestamp < CACHE_DURATION_LOCATION) {
+          return data.location;
+        }
+      }
+    } catch (e) {}
+    return null;
+  }
+  
+  function cacheLocation(location) {
+    try {
+      localStorage.setItem(CACHE_KEY_LOCATION, JSON.stringify({
+        location: location,
+        timestamp: Date.now()
+      }));
+    } catch (e) {}
+  }
+  
+  function getCachedWeather(location) {
+    try {
+      const cached = localStorage.getItem(CACHE_KEY_WEATHER);
+      if (cached) {
+        const data = JSON.parse(cached);
+        if (data.location === location && Date.now() - data.timestamp < CACHE_DURATION_WEATHER) {
+          return data.weather;
+        }
+      }
+    } catch (e) {}
+    return null;
+  }
+  
+  function cacheWeather(location, weather) {
+    try {
+      localStorage.setItem(CACHE_KEY_WEATHER, JSON.stringify({
+        location: location,
+        weather: weather,
+        timestamp: Date.now()
+      }));
+    } catch (e) {}
+  }
+  
+  function updateTickerUI(data, locationName) {
+    currentLocationName = locationName;
+    
+    const periods = [
+      { id: 'morning', timeCode: '600' },
+      { id: 'afternoon', timeCode: '1200' },
+      { id: 'evening', timeCode: '2100' }
+    ];
+    
+    const today = data.weather[0];
+    const hourly = today.hourly;
+    
+    [1, 2].forEach(copy => {
+      periods.forEach(period => {
+        const hourData = hourly.find(h => h.time === period.timeCode) || hourly[0];
+        
+        const tempEl = document.getElementById(`temp-${period.id}-${copy}`);
+        const descEl = document.getElementById(`desc-${period.id}-${copy}`);
+        
+        if (tempEl) tempEl.textContent = `${hourData.tempC}°C`;
+        if (descEl) {
+          const emoji = getWeatherEmoji(hourData.weatherCode);
+          descEl.textContent = `${emoji} ${hourData.weatherDesc[0].value.trim()}`;
+        }
+      });
+      
+      const locEl = document.getElementById(`loc-${copy}`);
+      if (locEl) locEl.textContent = `// ${locationName}`;
+    });
+
+    const searchInput = document.getElementById('weather-search-input');
+    if (searchInput) {
+      searchInput.value = locationName;
+    }
+  }
+  
+  function showError(message) {
+    const searchInput = document.getElementById('weather-search-input');
+    if (searchInput) {
+      searchInput.value = message;
+    }
+  }
+  
+  function fetchWeather(location, isUserInput = false) {
+    currentLocationQuery = location;
+    
+    
+    const searchInput = document.getElementById('weather-search-input');
+    if (searchInput) {
+      searchInput.value = 'Loading...';
+    }
+    
+    const cachedWeather = getCachedWeather(location);
+    if (cachedWeather && !isUserInput) {
+      const locationName = cachedWeather.nearest_area[0].areaName[0].value;
+      updateTickerUI(cachedWeather, locationName);
+      return;
+    }
+    
+    fetch(`https://wttr.in/${encodeURIComponent(location)}?format=j1`)
+      .then(response => {
+        if (!response.ok) throw new Error('Weather fetch failed');
+        return response.json();
+      })
+      .then(data => {
+        cacheWeather(location, data);
+        const locationName = data.nearest_area[0].areaName[0].value;
+        
+        
+        if (isUserInput) {
+          setUserLocation(location);
+        }
+        
+        updateTickerUI(data, locationName);
+      })
+      .catch(error => {
+        console.log('Weather fetch failed:', error);
+        if (isUserInput) {
+          showError('Not found');
+          setTimeout(() => {
+            const searchInput = document.getElementById('weather-search-input');
+            if (searchInput && currentLocationName) {
+              searchInput.value = currentLocationName;
+            }
+          }, 2000);
+        } else {
+          [1, 2].forEach(copy => {
+            ['morning', 'afternoon', 'evening'].forEach(period => {
+              const descEl = document.getElementById(`desc-${period}-${copy}`);
+              if (descEl) descEl.textContent = 'Unavailable';
+            });
+          });
+        }
+      });
+  }
+  
+  function setupSearchInput() {
+    const searchInput = document.getElementById('weather-search-input');
+    const searchButton = document.getElementById('weather-search-button');
+    if (!searchInput) return;
+
+    function submitSearch() {
+      const newLocation = searchInput.value.trim();
+      if (newLocation) {
+        fetchWeather(newLocation, true);
+      } else if (currentLocationName) {
+        searchInput.value = currentLocationName;
+      }
+    }
+
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        submitSearch();
+      } else if (e.key === 'Escape') {
+        e.preventDefault();
+        if (currentLocationName) {
+          searchInput.value = currentLocationName;
+        }
+      }
+    });
+
+    if (searchButton) {
+      searchButton.addEventListener('click', () => {
+        submitSearch();
+      });
+    }
+  }
+  
+  function detectLocationAndFetch() {
+    
+    const userLocation = getUserLocation();
+    if (userLocation) {
+      fetchWeather(userLocation);
+      return;
+    }
+    
+    const cached = getCachedLocation();
+    if (cached) {
+      fetchWeather(cached);
+      return;
+    }
+    
+    fetch('https://ipapi.co/json/')
+      .then(response => {
+        if (!response.ok) throw new Error('Geolocation failed');
+        return response.json();
+      })
+      .then(data => {
+        if (data.city && data.country_name) {
+          const location = `${data.city},${data.country_name}`;
+          cacheLocation(location);
+          fetchWeather(location);
+        } else {
+          throw new Error('Invalid location data');
+        }
+      })
+      .catch(error => {
+        console.log('Location detection failed, using default:', error);
+        fetchWeather(DEFAULT_LOCATION);
+      });
+  }
+  
+  
+  function init() {
+    detectLocationAndFetch();
+    setupSearchInput();
+  }
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="/" >Home</a></li>
+        
+      
+        
+          <li><a href="/posts/" >Blog</a></li>
+        
+      
+        
+          <li><a href="/books" >Book Reviews</a></li>
+        
+      
+        
+          <li><a href="/hot-takes" >Hot Takes</a></li>
+        
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+  <div class="posts-main">
+    
+      <div class="index-content hot-takes-content">
+        <p>Short, sharp takes on whatever is lighting up my group chats. Expect strong opinions, weak consensus, and zero corporate hedging.</p>
+
+      </div>
+    
+    
+      
+      
+        <h2>March 2026</h2>
+        <ul class="hot-takes-list">
+          
+            
+            
+            <li data-take-id="mar-2026-lampard-not-good">Frank Lampard was not a good footballer.</li>
+          
+            
+            
+            <li data-take-id="mar-2026-streaming-bundles">Streaming services got worse the moment they started bundling everything.</li>
+          
+            
+            
+            <li data-take-id="mar-2026-smart-kitchen">Most &#34;smart&#34; kitchen gadgets are just noisy timers with Wi-Fi.</li>
+          
+            
+            
+            <li data-take-id="mar-2026-calendar-no">The best productivity tool is still saying &#34;no&#34; to half your calendar.</li>
+          
+        </ul>
+      
+        <h2>February 2026</h2>
+        <ul class="hot-takes-list">
+          
+            
+            
+            <li data-take-id="feb-2026-qr-menu">If a restaurant needs a QR code, it should also offer paper menus.</li>
+          
+            
+            
+            <li data-take-id="feb-2026-app-feed">Every new app adding a feed makes it worse.</li>
+          
+            
+            
+            <li data-take-id="feb-2026-ev-suv">Electric SUVs are just minivans in denial.</li>
+          
+            
+            
+            <li data-take-id="feb-2026-crypto-roadmap">Most crypto roadmaps are just excuses for delays.</li>
+          
+        </ul>
+      
+        <h2>January 2026</h2>
+        <ul class="hot-takes-list">
+          
+            
+            
+            <li data-take-id="jan-2026-ai-assistants">AI assistants should be boring utilities, not personalities.</li>
+          
+            
+            
+            <li data-take-id="jan-2026-alarm-snooze">If you hit snooze twice, the alarm should lock you out.</li>
+          
+            
+            
+            <li data-take-id="jan-2026-streaming-sports">Paying for five sports subscriptions is worse than cable ever was.</li>
+          
+            
+            
+            <li data-take-id="jan-2026-smart-fridge">A smart fridge cannot fix bad grocery discipline.</li>
+          
+        </ul>
+      
+    
+  </div>
+  <style>
+    .hot-takes-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .hot-takes-list li {
+      border-bottom: 1px dashed var(--border-color);
+      padding: 12px 0 16px;
+      margin: 0;
+    }
+
+    .hot-take-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .hot-take-text {
+      flex: 1 1 60%;
+      min-width: 220px;
+    }
+
+    .hot-take-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+
+    .hot-take-buttons {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+    }
+
+    .hot-take-actions button {
+      border: 1px solid var(--border-color);
+      background: transparent;
+      color: var(--accent-color);
+      padding: 4px 8px;
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .hot-take-actions button.is-active {
+      border-color: var(--accent-color);
+      background: var(--accent-color);
+      color: var(--background);
+    }
+
+    .hot-take-score {
+      font-size: 0.9rem;
+      opacity: 0.8;
+      text-align: center;
+    }
+
+    .hot-take-score--up {
+      color: #1b7f4c;
+    }
+
+    .hot-take-score--down {
+      color: #b3261e;
+    }
+
+    .hot-take-score--neutral {
+      color: var(--secondary, #888);
+    }
+  </style>
+  <script>
+    (() => {
+      const lists = Array.from(document.querySelectorAll('.hot-takes-list'));
+      if (lists.length === 0) {
+        return;
+      }
+
+      const storageKey = 'dadbot-hot-takes-votes';
+      const saved = window.localStorage.getItem(storageKey);
+      const votes = saved ? JSON.parse(saved) : {};
+
+      const normalizeVotes = (itemId) => {
+        if (!votes[itemId]) {
+          votes[itemId] = { up: 0, down: 0, choice: null };
+        }
+        return votes[itemId];
+      };
+
+      const updateStorage = () => {
+        window.localStorage.setItem(storageKey, JSON.stringify(votes));
+      };
+
+      const buildRow = (item, textNode) => {
+        const row = document.createElement('div');
+        row.className = 'hot-take-row';
+
+        const text = document.createElement('div');
+        text.className = 'hot-take-text';
+        text.appendChild(textNode);
+
+        const actions = document.createElement('div');
+        actions.className = 'hot-take-actions';
+
+        const buttons = document.createElement('div');
+        buttons.className = 'hot-take-buttons';
+
+        const upButton = document.createElement('button');
+        upButton.type = 'button';
+        upButton.className = 'hot-take-up';
+        upButton.textContent = '👍 Up';
+
+        const downButton = document.createElement('button');
+        downButton.type = 'button';
+        downButton.className = 'hot-take-down';
+        downButton.textContent = '👎 Down';
+
+        const score = document.createElement('span');
+        score.className = 'hot-take-score';
+
+        buttons.appendChild(upButton);
+        buttons.appendChild(downButton);
+        actions.appendChild(buttons);
+        actions.appendChild(score);
+
+        row.appendChild(text);
+        row.appendChild(actions);
+
+        return { row, upButton, downButton, score };
+      };
+
+      const updateRow = (itemId, controls) => {
+        const current = normalizeVotes(itemId);
+        const total = current.up + current.down;
+        let percent = 0;
+        let state = 'neutral';
+
+        if (total > 0 && current.up !== current.down) {
+          if (current.up > current.down) {
+            percent = Math.round((current.up / total) * 100);
+            state = 'up';
+          } else {
+            percent = Math.round((current.down / total) * 100);
+            state = 'down';
+          }
+        }
+
+        if (state === 'up') {
+          controls.score.textContent = `${percent}% up`;
+        } else if (state === 'down') {
+          controls.score.textContent = `${percent}% down`;
+        } else {
+          controls.score.textContent = '0%';
+        }
+
+        controls.score.classList.remove('hot-take-score--up', 'hot-take-score--down', 'hot-take-score--neutral');
+        controls.score.classList.add(`hot-take-score--${state}`);
+        controls.upButton.classList.toggle('is-active', current.choice === 'up');
+        controls.downButton.classList.toggle('is-active', current.choice === 'down');
+      };
+
+      const setChoice = (itemId, choice) => {
+        const current = normalizeVotes(itemId);
+        if (current.choice === choice) {
+          if (choice === 'up') {
+            current.up = Math.max(0, current.up - 1);
+          } else {
+            current.down = Math.max(0, current.down - 1);
+          }
+          current.choice = null;
+        } else {
+          if (current.choice === 'up') {
+            current.up = Math.max(0, current.up - 1);
+          }
+          if (current.choice === 'down') {
+            current.down = Math.max(0, current.down - 1);
+          }
+          if (choice === 'up') {
+            current.up += 1;
+          }
+          if (choice === 'down') {
+            current.down += 1;
+          }
+          current.choice = choice;
+        }
+      };
+
+      const initializeList = (list) => {
+        const items = Array.from(list.querySelectorAll('li[data-take-id]'));
+        items.forEach((item) => {
+          const itemId = item.dataset.takeId;
+          const textNode = document.createElement('span');
+          textNode.textContent = item.textContent.trim();
+
+          item.textContent = '';
+          const controls = buildRow(item, textNode);
+          item.appendChild(controls.row);
+
+          controls.upButton.addEventListener('click', () => {
+            setChoice(itemId, 'up');
+            updateRow(itemId, controls);
+            updateStorage();
+          });
+
+          controls.downButton.addEventListener('click', () => {
+            setChoice(itemId, 'down');
+            updateRow(itemId, controls);
+            updateStorage();
+          });
+
+          updateRow(itemId, controls);
+        });
+      };
+
+      lists.forEach((list) => initializeList(list));
+    })();
+  </script>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+<a href="https://buymeacoffee.com/yourusername" 
+   class="coffee-button" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   title="Buy me a coffee!">
+<span class="coffee-art">  ( (
+   ) )
+ .─────.
+ │     │)
+ │     │
+ `─────'</span><span class="coffee-text">☕ COFFEE?</span></a>
+
+
+  
+</div>
+
+</body>
+</html>
