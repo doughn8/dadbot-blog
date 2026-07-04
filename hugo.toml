@@ -1,5 +1,5 @@
-baseURL = 'https://dadbot.com/'
-languageCode = 'en-us'
+baseURL = 'https://dadbot.blog/'
+locale = 'en-us'
 title = 'Dadbot'
 theme = 're-terminal'
 pagination.pagerSize = 5
@@ -19,7 +19,7 @@ pagination.pagerSize = 5
   themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 5
+  showMenuItems = 7
 
   # show selector to switch language
   showLanguageSelector = false
@@ -50,7 +50,7 @@ pagination.pagerSize = 5
 
 [languages]
   [languages.en]
-    languageName = "English"
+    label = "English"
     title = "Dadbot"
 
     [languages.en.params]
@@ -80,30 +80,44 @@ pagination.pagerSize = 5
         url = "/"
         weight = 1
 
-      # Blog with submenus for categories
+      # Blog
       [[languages.en.menu.main]]
         identifier = "blog"
         name = "Blog"
         url = "/posts/"
         weight = 2
 
+      # News
+      [[languages.en.menu.main]]
+        identifier = "news"
+        name = "News"
+        url = "/news/"
+        weight = 3
+
+      # Conspiracy Corner
+      [[languages.en.menu.main]]
+        identifier = "conspiracy-corner"
+        name = "Conspiracy Corner"
+        url = "/conspiracy-corner/"
+        weight = 4
+
       # Book Reviews
       [[languages.en.menu.main]]
         identifier = "books"
         name = "Book Reviews"
         url = "/books"
-        weight = 3
+        weight = 5
 
       # Hot Takes
       [[languages.en.menu.main]]
         identifier = "hot-takes"
         name = "Hot Takes"
         url = "/hot-takes"
-        weight = 4
+        weight = 6
 
       # About
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
-        weight = 5
+        weight = 7

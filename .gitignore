@@ -1,0 +1,32 @@
+# macOS / editor metadata
+.DS_Store
+**/.DS_Store
+
+# Hugo generated output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Local tooling and backups
+/.tools/
+/.hermes/
+/.hermes-backups/
+
+# Obsidian local workspace settings
+/.obsidian/
+
+# Private Dadbot editorial workflow folders
+/00-Control-Room/
+/01-Ideas/
+/02-Briefs/
+/03-SEO/
+/04-Drafts/
+/05-Reviews/
+/06-Design/
+/07-Approval/
+/templates/
+
+# Common temporary files
+*.tmp
+*.bak
+*.swp
