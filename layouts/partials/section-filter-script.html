@@ -1,0 +1,56 @@
+<script>
+  (() => {
+    // Section filters are intentionally lightweight and client-side: they filter only
+    // the cards rendered on the current Hugo page. If archives grow beyond one
+    // page, move high-traffic filters to real Hugo taxonomy/section pages.
+    const chips = Array.from(document.querySelectorAll('[data-filter-chip]'));
+    const cards = Array.from(document.querySelectorAll('[data-post-tags], [data-post-categories]'));
+    if (!chips.length || !cards.length) return;
+    const search = document.querySelector('[data-filters-search]');
+    const empty = document.querySelector('[data-tags-empty]');
+    const clear = document.querySelector('[data-filters-clear]');
+    const normalize = (value) => (value || '').toLowerCase().trim();
+    const active = new Set();
+    const getValues = (card, type) => (card.dataset[type === 'tag' ? 'postTags' : 'postCategories'] || '')
+      .split(',')
+      .map(normalize)
+      .filter(Boolean);
+    const chipKey = (chip) => `${chip.dataset.filterType}:${normalize(chip.dataset.filterName)}`;
+    const updateCards = () => {
+      cards.forEach((card) => {
+        const show = active.size === 0 || Array.from(active).some((key) => {
+          const [type, name] = key.split(':');
+          return getValues(card, type).includes(name);
+        });
+        card.classList.toggle('hidden', !show);
+      });
+    };
+    const updateChips = () => {
+      const query = normalize(search ? search.value : '');
+      let visibleCount = 0;
+      chips.forEach((chip) => {
+        const key = chipKey(chip);
+        const label = normalize(chip.textContent);
+        const name = normalize(chip.dataset.filterName);
+        const isActive = active.has(key);
+        const matches = !query || label.includes(query) || name.includes(query) || normalize(chip.dataset.filterType).includes(query);
+        const show = matches || isActive;
+        chip.classList.toggle('hidden', !show);
+        chip.classList.toggle('tag-chip--active', isActive);
+        chip.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        if (show) visibleCount += 1;
+      });
+      if (empty) empty.classList.toggle('hidden', visibleCount > 0);
+      if (clear) clear.classList.toggle('hidden', active.size === 0);
+    };
+    const update = () => { updateCards(); updateChips(); };
+    chips.forEach((chip) => chip.addEventListener('click', () => {
+      const key = chipKey(chip);
+      active.has(key) ? active.delete(key) : active.add(key);
+      update();
+    }));
+    if (search) search.addEventListener('input', update);
+    if (clear) clear.addEventListener('click', () => { active.clear(); update(); if (search) search.focus(); });
+    update();
+  })();
+</script>

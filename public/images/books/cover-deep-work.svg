@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800">
-  <rect width="600" height="800" fill="#0b1120" />
-  <rect x="40" y="40" width="520" height="720" rx="16" fill="#0f172a" />
-  <rect x="40" y="560" width="520" height="8" fill="#22c55e" />
-  <text x="80" y="220" fill="#e2e8f0" font-size="44" font-family="Fira Code, Monaco, Consolas, monospace">DEEP</text>
-  <text x="80" y="280" fill="#e2e8f0" font-size="44" font-family="Fira Code, Monaco, Consolas, monospace">WORK</text>
-  <text x="80" y="360" fill="#94a3b8" font-size="18" font-family="Fira Code, Monaco, Consolas, monospace">CAL NEWPORT</text>
-  <text x="80" y="520" fill="#94a3b8" font-size="16" font-family="Fira Code, Monaco, Consolas, monospace">DADBOT SAMPLE COVER</text>
-</svg>

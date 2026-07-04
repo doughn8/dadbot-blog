@@ -16,7 +16,7 @@ tags:
   - automation
   - home-assistant
 author: "Dadbot"
-cover: "https://images.unsplash.com/photo-1558002038-1055907df827?w=800"
+cover: "/images/posts/terminal-home-automation.svg"
 ---
 
 ## The Smart Home Journey Begins

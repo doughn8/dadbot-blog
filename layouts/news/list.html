@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <div class="posts-with-sidebar news-page">
+    <div class="posts-main">
+      {{ with .Content }}<div class="index-content">{{ . }}</div>{{ end }}
+      <div class="posts posts-card-list news-month-list">
+        {{ $pages := (.Paginate (.Pages.ByDate.Reverse)).Pages }}
+        {{ range $pages.GroupByDate "January 2006" }}
+          <section class="news-month-group">
+            <h2 class="news-month-heading">{{ .Key }}</h2>
+            <div class="posts-list-view news-list-view">
+              {{ range .Pages }}
+                {{ partial "section-card.html" . }}
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+        {{ partial "pagination.html" . }}
+      </div>
+    </div>
+    <aside class="posts-sidebar">
+      {{ partial "section-filter-sidebar.html" (dict "site" .Site "section" "news" "label" "news") }}
+    </aside>
+  </div>
+  {{ partial "section-filter-script.html" . }}
+{{ end }}

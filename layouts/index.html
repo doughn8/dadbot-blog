@@ -1,44 +1,74 @@
 {{ define "main" }}
   <!-- Welcome Section -->
   <div class="welcome-section">
-    <div class="welcome-content">
-      <img src="/images/dadbot-homepage-image.png" alt="Dadbot homepage" class="welcome-image" />
+    <div class="welcome-content dadbot-hero">
+      <h1>DADBOT</h1>
+      <div class="loading-line">loading takes... ███████░░░</div>
+      <div class="terminal-tagline" aria-live="polite">
+        &gt; <span id="typed-tagline"></span><span class="cursor" aria-hidden="true">_</span>
+      </div>
     </div>
   </div>
 
+  <!-- Latest News Section -->
+  {{ $news := where .Site.RegularPages "Type" "news" }}
+  {{ if $news }}
+  <div class="latest-news recent-posts">
+    <h2>Latest News</h2>
+    <div class="posts-grid">
+      {{ range first 3 (sort $news "Date" "desc") }}
+        <a href="{{ .Permalink }}" class="post-card-link">
+          <article class="post-card news-card">
+            {{ partial "cover.html" . }}
+            <div class="post-card-content">
+              <h3 class="post-card-title">{{ .Title | markdownify }}</h3>
+              <div class="post-card-meta">
+                {{- if .Date -}}<time class="post-date">{{ .Date.Format "Jan 2, 2006" }}</time>{{- end -}}
+                {{- with .Params.tags -}}
+                  <span class="post-tags">
+                    {{- range first 3 . -}}<span class="tag-chip tag-chip--mini">{{ . }}</span>{{- end -}}
+                  </span>
+                {{- end -}}
+              </div>
+              <p class="post-card-summary">
+                {{ if .Description }}{{ .Description | truncate 80 }}{{ else }}{{ .Summary | truncate 80 }}{{ end }}
+              </p>
+              <span class="read-more button">Read the briefing</span>
+            </div>
+          </article>
+        </a>
+      {{ end }}
+    </div>
+    <div class="view-all">
+      <a href="/news/" class="button">View All News</a>
+    </div>
+  </div>
+  {{ end }}
+
   <!-- Recent Posts Section -->
   <div class="recent-posts">
-    <h2>Latest Posts</h2>
-    
+    <h2>Latest Blog Posts</h2>
     <div class="posts-grid">
       {{ $posts := where .Site.RegularPages "Type" "posts" }}
-      {{ range first 3 $posts }}
+      {{ range first 3 (sort $posts "Date" "desc") }}
         <a href="{{ .Permalink }}" class="post-card-link">
           <article class="post-card">
             {{ partial "cover.html" . }}
-            
             <div class="post-card-content">
-              <h3 class="post-card-title">
-                {{ .Title | markdownify }}
-              </h3>
-              
+              <h3 class="post-card-title">{{ .Title | markdownify }}</h3>
               <div class="post-card-meta">
-                {{- if .Date -}}
-                  <time class="post-date">{{ .Date.Format "Jan 2, 2006" }}</time>
-                {{- end -}}
-                {{- with .Params.categories -}}
-                  <span class="post-category">{{ index . 0 }}</span>
+                {{- if .Date -}}<time class="post-date">{{ .Date.Format "Jan 2, 2006" }}</time>{{- end -}}
+                {{- with .Params.tags -}}
+                  <span class="post-tags">
+                    {{- range first 3 . -}}<span class="tag-chip tag-chip--mini">{{ . }}</span>{{- end -}}
+                  </span>
+                {{- else -}}
+                  {{- with .Params.categories -}}<span class="post-category">{{ index . 0 }}</span>{{- end -}}
                 {{- end -}}
               </div>
-              
               <p class="post-card-summary">
-                {{ if .Description }}
-                  {{ .Description | truncate 80 }}
-                {{ else }}
-                  {{ .Summary | truncate 80 }}
-                {{ end }}
+                {{ if .Description }}{{ .Description | truncate 80 }}{{ else }}{{ .Summary | truncate 80 }}{{ end }}
               </p>
-              
               <span class="read-more button">Read more</span>
             </div>
           </article>
@@ -47,7 +77,7 @@
     </div>
 
     <div class="view-all">
-      <a href="/posts/" class="button">View All Posts</a>
+      <a href="/posts/" class="button">View All Blog Posts</a>
     </div>
   </div>
 
@@ -60,9 +90,7 @@
       {{ $latestBooks := first 3 (sort $books "Date" "desc") }}
       {{ range $latestBooks }}
         <a href="{{ .Permalink }}" class="post-card-link">
-          <article class="post-card book-card">
-            {{ partial "cover.html" . }}
-            
+          <article class="post-card book-card book-card--text-only">
             <div class="post-card-content">
               <h3 class="post-card-title">
                 {{ .Title | markdownify }}
@@ -72,8 +100,16 @@
                 {{- if .Date -}}
                   <time class="post-date">{{ .Date.Format "Jan 2, 2006" }}</time>
                 {{- end -}}
-                {{- with .Params.categories -}}
-                  <span class="post-category">{{ index . 0 }}</span>
+                {{- with .Params.tags -}}
+                  <span class="post-tags">
+                    {{- range first 3 . -}}
+                      <span class="tag-chip tag-chip--mini">{{ . }}</span>
+                    {{- end -}}
+                  </span>
+                {{- else -}}
+                  {{- with .Params.categories -}}
+                    <span class="post-category">{{ index . 0 }}</span>
+                  {{- end -}}
                 {{- end -}}
               </div>
               

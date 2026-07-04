@@ -68,6 +68,52 @@
   margin: 0 auto;
 }
 
+.dadbot-hero {
+  max-width: min(100%, 900px);
+  margin: 0 auto;
+  padding: 2.25rem 1.5rem;
+  border: 2px solid var(--accent);
+  border-radius: 0;
+  background:
+    linear-gradient(color-mix(in srgb, var(--accent) 5%, transparent), transparent 38%),
+    color-mix(in srgb, var(--accent) 4%, var(--background) 96%);
+  box-shadow: 8px 8px 0 color-mix(in srgb, var(--accent) 35%, transparent);
+  font-family: 'Fira Code', 'Fira Mono', monospace;
+}
+
+.dadbot-hero h1 {
+  margin: 0 0 1rem;
+  color: var(--accent);
+  font-size: clamp(2.8rem, 9vw, 6rem);
+  line-height: 0.95;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-shadow: 0 0 16px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+.loading-line {
+  margin: 0 0 1rem;
+  color: var(--accent);
+  font-size: clamp(0.95rem, 2.4vw, 1.35rem);
+  opacity: 0.9;
+}
+
+.terminal-tagline {
+  min-height: 1.8em;
+  color: var(--accent);
+  font-size: clamp(1rem, 2.8vw, 1.55rem);
+  line-height: 1.4;
+}
+
+.cursor {
+  display: inline-block;
+  animation: dadbot-blink 0.8s steps(1) infinite;
+}
+
+@keyframes dadbot-blink {
+  50% { opacity: 0; }
+}
+
 /* ========================================
    RECENT POSTS SECTION - Compact 3-column grid
    ======================================== */
@@ -84,74 +130,154 @@
   border-bottom: 2px solid var(--accent);
 }
 
-/* Posts Grid - Force 3 columns on desktop */
+/* Posts Grid - compact, readable cards */
 .posts-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin-bottom: 2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin-bottom: 1.75rem;
 }
 
-/* Post card link wrapper - makes entire card clickable */
 .post-card-link {
   text-decoration: none;
   color: inherit;
   display: block;
+  height: 100%;
 }
 
-/* Post Card - Compact styling */
 .post-card {
-  background: color-mix(in srgb, var(--accent) 5%, var(--background) 95%);
-  border: 1px solid var(--accent);
-  border-radius: 8px;
+  background: color-mix(in srgb, var(--accent) 4%, var(--background) 96%);
+  border: 1px solid color-mix(in srgb, var(--accent) 75%, transparent);
+  border-radius: 0;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  display: flex;
-  flex-direction: column;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+  display: grid;
+  grid-template-rows: 70px 1fr;
+  min-height: 260px;
+}
+
+.news-card {
+  background: color-mix(in srgb, #6ee7ff 7%, var(--background) 93%);
+  border-color: color-mix(in srgb, #6ee7ff 75%, transparent);
+}
+
+.news-card .post-cover {
+  border-bottom-color: #6ee7ff;
+}
+
+.conspiracy-page .post-card,
+.conspiracy-standalone {
+  background: color-mix(in srgb, #c084fc 7%, var(--background) 93%);
+  border-color: color-mix(in srgb, #c084fc 75%, transparent);
+}
+
+.conspiracy-intro {
+  border: 1px solid color-mix(in srgb, #c084fc 75%, transparent);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .post-card-link:hover .post-card {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+  background: color-mix(in srgb, var(--accent) 7%, var(--background) 93%);
+  box-shadow: 4px 4px 0 color-mix(in srgb, var(--accent) 45%, transparent);
 }
 
-/* Remove extra margin from figure wrapper in post cards */
+.book-card--text-only {
+  grid-template-rows: 1fr;
+  min-height: 230px;
+}
+
+.book-card--text-only .post-card-content {
+  padding-top: 0.9rem;
+}
+
+.posts-card-list {
+  margin-top: 1.25rem;
+}
+
+.posts-list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.posts-list-view .post-card {
+  min-height: 0;
+  grid-template-rows: 70px 1fr;
+}
+
+.posts-grid--full-page {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.posts-grid--full-page .post-card {
+  min-height: 300px;
+}
+
+.posts-list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.posts-list-view .post-card {
+  min-height: 0;
+}
+
+.news-month-group {
+  margin-bottom: 2rem;
+}
+
+.news-month-heading {
+  margin: 0 0 1rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid #6ee7ff;
+  color: #d8f7ff;
+  background: color-mix(in srgb, #6ee7ff 7%, var(--background) 93%);
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.posts-grid--full-page .book-card--text-only {
+  min-height: 250px;
+}
+
 .post-card figure:has(.post-cover) {
   margin: 0;
 }
 
-/* Post card cover image - standardized with accent styling */
-.post-card .post-cover {
-  width: calc(100% + 4px);
-  height: 120px;
-  object-fit: cover;
-  border: 2px solid var(--accent);
-  border-top: none;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  padding: 5px;
-  padding-top: 0;
-  margin: -1px -2px 0 -2px;
-}
-
+.post-card .post-cover,
 .book-card .post-cover {
-  height: auto;
-  aspect-ratio: 3 / 4;
+  width: 100%;
+  height: 70px;
+  aspect-ratio: auto;
+  object-fit: cover;
+  border: 0;
+  border-bottom: 1px solid var(--accent);
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  background: #17241f;
 }
 
-/* Post card content - reduced padding */
 .post-card-content {
-  padding: 15px 0.75rem 0.75rem;
+  padding: 0.7rem 0.75rem 0.75rem;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  gap: 0.45rem;
+  min-width: 0;
 }
 
-/* Post card title - smaller font */
 .post-card-title {
-  font-size: 0.95rem;
-  margin: 0 0 0.4rem;
-  line-height: 1.3;
+  color: #f2fff6;
+  font-size: clamp(0.82rem, 1.25vw, 0.95rem);
+  margin: 0;
+  line-height: 1.18;
+  letter-spacing: 0.01em;
 }
 
 .post-card-title a {
@@ -163,35 +289,65 @@
   text-decoration: underline;
 }
 
-/* Post card meta - compact */
 .post-card-meta {
-  font-size: 0.75rem;
-  opacity: 0.7;
-  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.68rem;
+  line-height: 1.2;
+  opacity: 0.86;
+  margin: 0;
 }
 
 .post-card-meta .post-date {
-  margin-right: 0.75rem;
+  color: #c8d4cc;
+  margin-right: 0.15rem;
 }
 
 .post-card-meta .post-category {
   color: var(--accent);
 }
 
-/* Post card summary - smaller text */
+.post-tags {
+  display: inline-flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.tag-chip--mini {
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.62rem;
+  line-height: 1.1;
+  opacity: 0.95;
+}
+
 .post-card-summary {
-  font-size: 0.8rem;
-  line-height: 1.4;
-  opacity: 0.85;
-  margin-bottom: 0.75rem;
+  font-size: 0.74rem;
+  line-height: 1.35;
+  opacity: 0.88;
+  margin: 0;
   flex: 1;
 }
 
-/* Read more button - compact */
 .post-card .read-more {
-  font-size: 0.75rem;
-  padding: 0.3rem 0.6rem;
+  font-size: 0.68rem;
+  padding: 0.25rem 0.5rem;
   align-self: flex-start;
+  margin-top: 0.15rem;
+}
+
+.post:not(.on-list) > .post-cover,
+.post:not(.on-list) > a .post-cover {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border: 1px solid var(--accent);
+  border-radius: 0;
+  padding: 0;
+  margin: 1rem 0 1.5rem;
+  background: #17241f;
 }
 
 /* ========================================
@@ -349,7 +505,9 @@
 }
 
 .category-buttons a.button,
-.category-buttons a.button.outline {
+.category-buttons a.button.outline,
+.category-buttons button.button,
+.category-buttons button.button.outline {
   margin: 0;
   min-width: 0;
   padding: 4px 10px !important;
@@ -360,10 +518,14 @@
   border-color: var(--accent) !important;
   color: var(--accent) !important;
   box-shadow: none;
+  cursor: pointer;
 }
 
 .category-buttons a.button:hover,
-.category-buttons a.button.outline:hover {
+.category-buttons a.button.outline:hover,
+.category-buttons button.button:hover,
+.category-buttons button.button.outline:hover,
+.category-buttons button.tag-chip--active {
   background: var(--accent) !important;
   color: #ffffff !important;
 }
@@ -505,6 +667,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .posts-grid--full-page {
+    grid-template-columns: 1fr;
+  }
+
   .posts-with-sidebar {
     flex-direction: column;
   }
@@ -529,9 +695,14 @@
     grid-template-columns: 1fr;
   }
   
-  /* Standardized cards on mobile */
+  /* Keep terminal image strips compact on mobile too */
   .post-card .post-cover {
-    height: 100px;
+    height: 76px;
+  }
+
+  .post:not(.on-list) > .post-cover,
+  .post:not(.on-list) > a .post-cover {
+    height: 130px;
   }
   
   .post-card-title {

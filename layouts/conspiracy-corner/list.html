@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <div class="conspiracy-standalone">
+    {{ with .Content }}<div class="index-content conspiracy-intro">{{ . }}</div>{{ end }}
+  </div>
+  <div class="posts-with-sidebar conspiracy-page">
+    <div class="posts-main">
+      <div class="posts posts-card-list">
+        <div class="posts-grid posts-grid--full-page">
+          {{ range (.Paginate (.Pages.ByDate.Reverse)).Pages }}
+            {{ partial "section-card.html" . }}
+          {{ end }}
+        </div>
+        {{ partial "pagination.html" . }}
+      </div>
+    </div>
+    <aside class="posts-sidebar">
+      {{ partial "section-filter-sidebar.html" (dict "site" .Site "section" "conspiracy-corner" "label" "conspiracy") }}
+    </aside>
+  </div>
+  {{ partial "section-filter-script.html" . }}
+{{ end }}

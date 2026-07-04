@@ -10,3 +10,51 @@
  │     │)
  │     │
  `─────'</span><span class="coffee-text">☕ COFFEE?</span></a>
+
+<script>
+(function () {
+  const target = document.getElementById('typed-tagline');
+  if (!target) return;
+
+  const lines = [
+    'no topics off limits',
+    'hot takes, cold coffee',
+    'parenting, money, tech, books',
+    'asking dumb questions seriously',
+    'loading dad wisdom...'
+  ];
+
+  let lineIndex = 0;
+  let charIndex = 0;
+  let deleting = false;
+
+  function tick() {
+    const line = lines[lineIndex];
+    target.textContent = line.slice(0, charIndex);
+
+    if (!deleting && charIndex < line.length) {
+      charIndex += 1;
+      setTimeout(tick, 65);
+      return;
+    }
+
+    if (!deleting && charIndex === line.length) {
+      deleting = true;
+      setTimeout(tick, 1450);
+      return;
+    }
+
+    if (deleting && charIndex > 0) {
+      charIndex -= 1;
+      setTimeout(tick, 35);
+      return;
+    }
+
+    deleting = false;
+    lineIndex = (lineIndex + 1) % lines.length;
+    setTimeout(tick, 250);
+  }
+
+  tick();
+})();
+</script>

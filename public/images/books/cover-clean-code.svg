@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800">
-  <rect width="600" height="800" fill="#0f172a" />
-  <rect x="40" y="40" width="520" height="720" rx="16" fill="#1e293b" />
-  <rect x="40" y="560" width="520" height="8" fill="#38bdf8" />
-  <text x="80" y="220" fill="#e2e8f0" font-size="44" font-family="Fira Code, Monaco, Consolas, monospace">CLEAN</text>
-  <text x="80" y="280" fill="#e2e8f0" font-size="44" font-family="Fira Code, Monaco, Consolas, monospace">CODE</text>
-  <text x="80" y="360" fill="#94a3b8" font-size="18" font-family="Fira Code, Monaco, Consolas, monospace">ROBERT C. MARTIN</text>
-  <text x="80" y="520" fill="#94a3b8" font-size="16" font-family="Fira Code, Monaco, Consolas, monospace">DADBOT SAMPLE COVER</text>
-</svg>

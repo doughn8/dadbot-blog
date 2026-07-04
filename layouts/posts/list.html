@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div class="posts-with-sidebar">
+    <div class="posts-main">
+      {{ with .Content }}<div class="index-content">{{ . }}</div>{{ end }}
+      <div class="posts posts-card-list">
+        <div class="posts-list-view posts-list-view--posts">
+          {{ range (.Paginate (.Pages.ByDate.Reverse)).Pages }}
+            {{ partial "section-card.html" . }}
+          {{ end }}
+        </div>
+        {{ partial "pagination.html" . }}
+      </div>
+    </div>
+    <aside class="posts-sidebar">
+      {{ partial "section-filter-sidebar.html" (dict "site" .Site "section" "posts" "label" "blog") }}
+    </aside>
+  </div>
+  {{ partial "section-filter-script.html" . }}
+{{ end }}

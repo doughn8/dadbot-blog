@@ -1,0 +1,24 @@
+{{- $postTags := "" -}}
+{{- with .Params.tags -}}{{- $postTags = delimit (apply . "urlize" ".") "," -}}{{- end -}}
+{{- $postCategories := "" -}}
+{{- with .Params.categories -}}{{- $postCategories = delimit (apply . "urlize" ".") "," -}}{{- end -}}
+<a href="{{ .Permalink }}" class="post-card-link" data-post-tags="{{ $postTags }}" data-post-categories="{{ $postCategories }}">
+  <article class="post-card {{ with .Params.cardClass }}{{ . }}{{ end }}">
+    {{ partial "cover.html" . }}
+    <div class="post-card-content">
+      <h2 class="post-card-title">{{ .Title | markdownify }}</h2>
+      <div class="post-card-meta">
+        {{- if .Date -}}<time class="post-date">{{ .Date.Format "Jan 2, 2006" }}</time>{{- end -}}
+        {{- with .Params.tags -}}
+          <span class="post-tags">
+            {{- range first 4 . -}}<span class="tag-chip tag-chip--mini">{{ . }}</span>{{- end -}}
+          </span>
+        {{- end -}}
+      </div>
+      <p class="post-card-summary">
+        {{ if .Description }}{{ .Description | truncate 110 }}{{ else }}{{ .Summary | plainify | truncate 110 }}{{ end }}
+      </p>
+      <span class="read-more button">Read more</span>
+    </div>
+  </article>
+</a>

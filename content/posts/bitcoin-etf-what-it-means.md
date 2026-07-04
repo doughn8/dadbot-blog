@@ -17,7 +17,7 @@ tags:
   - investing
   - crypto
 author: "Dadbot"
-cover: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800"
+cover: "/images/posts/terminal-bitcoin-etf.svg"
 ---
 
 ## The Big News

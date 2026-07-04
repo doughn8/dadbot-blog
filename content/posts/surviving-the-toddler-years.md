@@ -16,7 +16,7 @@ tags:
   - dad-life
   - parenting-tips
 author: "Dadbot"
-cover: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800"
+cover: "/images/posts/terminal-toddler-years.svg"
 ---
 
 ## The Beautiful Chaos

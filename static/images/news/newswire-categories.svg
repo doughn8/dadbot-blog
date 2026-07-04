@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Dadbot coloured ASCII pattern for News Categories Guide</title>
+  <desc id="desc">Random-looking coloured terminal ASCII pattern generated for this Dadbot blog post.</desc>
+  <rect width="900" height="360" fill="#140f05"/>
+  <rect x="18" y="18" width="864" height="324" fill="#211707" stroke="#ffb347" stroke-width="3"/>
+  <g opacity="0.16" stroke="#ffffff" stroke-width="1">
+    <line x1="20" y1="32" x2="880" y2="32"/>
+    <line x1="20" y1="50" x2="880" y2="50"/>
+    <line x1="20" y1="68" x2="880" y2="68"/>
+    <line x1="20" y1="86" x2="880" y2="86"/>
+    <line x1="20" y1="104" x2="880" y2="104"/>
+    <line x1="20" y1="122" x2="880" y2="122"/>
+    <line x1="20" y1="140" x2="880" y2="140"/>
+    <line x1="20" y1="158" x2="880" y2="158"/>
+    <line x1="20" y1="176" x2="880" y2="176"/>
+    <line x1="20" y1="194" x2="880" y2="194"/>
+    <line x1="20" y1="212" x2="880" y2="212"/>
+    <line x1="20" y1="230" x2="880" y2="230"/>
+    <line x1="20" y1="248" x2="880" y2="248"/>
+    <line x1="20" y1="266" x2="880" y2="266"/>
+    <line x1="20" y1="284" x2="880" y2="284"/>
+    <line x1="20" y1="302" x2="880" y2="302"/>
+    <line x1="20" y1="320" x2="880" y2="320"/>
+    <line x1="20" y1="338" x2="880" y2="338"/>
+  </g>
+  <text x="42" y="48" fill="#ffb347" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">DADBOT/NEWSWIRE --seed 0EEB9B1C</text>
+  <text x="42" y="72" fill="#ffd166" opacity="0.72" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">53|E888_*0E+++++44░W10RUN1_0W13:▓▓4***▒W6 222222 1SSSSS: 1</text>
+  <text x="42" y="94" fill="#ffd166" opacity="0.72" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">RUNNW :: 000000W3 4█░:: +S4|14869WWWWW--WWWWWW█DAD++7ERUNW</text>
+  <text x="42" y="116" fill="#ffe7a3" opacity="0.72" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">I0#SSSSS 6 44444*NW2*▒3▒▒▒▒▒5/+/W +*/_▓2DAD4444::7#5IIIIII</text>
+  <text x="42" y="138" fill="#ffe7a3" opacity="0.95" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">-++++532█████_#W4444█11N* 3*W24E|/0WWS5111:2E666666N5E7▒ 8</text>
+  <text x="42" y="160" fill="#ffb347" opacity="0.95" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18"> NE57 I1SYSS0█W:|░▒░9-▒5▒▒▒W█N R-0▓*█444444N▒:W░░░░░░DAD▒E</text>
+  <text x="42" y="182" fill="#ffd166" opacity="0.95" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">E _#BOTBOTLOG5 12222229W:I 826++▒▒▒▒▒▒SYS8DAD::///:1N░7RII</text>
+  <text x="42" y="204" fill="#ffd166" opacity="0.95" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">░4W--NN++509N█92▒+░+7R:::::░░░░EEN3/WW ***6____S__2▒:RR0▓+</text>
+  <text x="42" y="226" fill="#6ee79a" opacity="0.95" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">BOTBOTNESYS 1115995555BOTSYS/WW88*E  ▓▓▓▓▓▓ LOG:OKRS░6S5E-</text>
+  <text x="42" y="248" fill="#ffb347" opacity="0.95" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">00--0-W::+RW:SYS9RUNER_____087+R-6::6R0##E8:I1- E3333#8▒R </text>
+  <text x="42" y="270" fill="#ffd166" opacity="0.72" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">░4+WIISLOGISSSSSW░0E|SEE9|7_65+N1EWWWWW_▓E░S8000000 /▓*I##</text>
+  <text x="42" y="292" fill="#ffe7a3" opacity="0.72" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">_SEEEEEEW_____5::##/70OKE ▓ 444444_/N3+///////W*882225*2SS</text>
+  <text x="42" y="314" fill="#6ee79a" opacity="0.72" font-family="Fira Code, Consolas, Menlo, monospace" font-size="18">*░EOK50E/++ S2E--3E_4W0░*I1//I9#-▓▓▓▓▓W++LOG-4+6E▒ 60| SYS</text>
+  <text x="42" y="330" fill="#ffb347" font-family="Fira Code, Consolas, Menlo, monospace" font-size="16">News Categories Guide  ::  generated ascii cover</text>
+  <rect x="18" y="18" width="864" height="324" fill="none" stroke="#ffb347" stroke-width="3"/>
+</svg>
