@@ -843,3 +843,322 @@
   }
 }
 
+/* ========================================
+   TEMPORARY UNDER CONSTRUCTION MODE
+   ======================================== */
+
+.dadbot-under-construction-mode {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 50% 15%, color-mix(in srgb, var(--accent) 7%, transparent), transparent 34%),
+    var(--background);
+}
+
+.under-construction-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: clamp(1.25rem, 4vw, 3rem);
+  font-family: 'Fira Code', 'Fira Mono', monospace;
+}
+
+.under-construction-terminal {
+  width: min(100%, 820px);
+  padding: clamp(1.25rem, 4vw, 2.4rem);
+  border: 1px solid var(--accent);
+  border-radius: 0;
+  background: color-mix(in srgb, var(--accent) 4%, var(--background) 96%);
+  box-shadow: 10px 10px 0 color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+.under-construction-prompt {
+  margin: 0 0 1rem;
+  color: color-mix(in srgb, var(--accent) 18%, white 82%);
+  font-weight: 800;
+}
+
+.under-construction-prompt span {
+  color: var(--accent);
+}
+
+.under-construction-logo {
+  margin: 1.2rem 0;
+  color: color-mix(in srgb, var(--accent) 12%, white 88%);
+  font: inherit;
+  font-size: clamp(0.78rem, 2.6vw, 1.45rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.055em;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.under-construction-status {
+  margin: 1.25rem 0 0.75rem;
+  color: color-mix(in srgb, var(--accent) 18%, white 82%);
+  font-weight: 800;
+}
+
+.under-construction-status strong {
+  color: #f6a21a;
+  text-transform: uppercase;
+}
+
+.under-construction-loader {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 0.28rem;
+  margin: 1rem 0 1.35rem;
+  max-width: 360px;
+}
+
+.under-construction-loader span {
+  height: 0.85rem;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  animation: dadbot-loader-pulse 1.35s ease-in-out infinite;
+}
+
+.under-construction-loader span:nth-child(2) { animation-delay: 0.08s; }
+.under-construction-loader span:nth-child(3) { animation-delay: 0.16s; }
+.under-construction-loader span:nth-child(4) { animation-delay: 0.24s; }
+.under-construction-loader span:nth-child(5) { animation-delay: 0.32s; }
+.under-construction-loader span:nth-child(6) { animation-delay: 0.40s; }
+.under-construction-loader span:nth-child(7) { animation-delay: 0.48s; }
+.under-construction-loader span:nth-child(8) { animation-delay: 0.56s; }
+
+.under-construction-copy {
+  max-width: 660px;
+  margin: 0 0 0.8rem;
+  color: color-mix(in srgb, var(--accent) 12%, white 88%);
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  font-weight: 800;
+  line-height: 1.55;
+}
+
+.under-construction-small {
+  margin: 0 0 1.3rem;
+  color: color-mix(in srgb, var(--accent) 60%, white 40%);
+  font-weight: 700;
+}
+
+.under-construction-cursor b {
+  display: inline-block;
+  width: 0.58em;
+  height: 1.1em;
+  transform: translateY(0.18em);
+  background: var(--accent);
+  animation: dadbot-about-blink 0.9s steps(1) infinite;
+}
+
+@keyframes dadbot-loader-pulse {
+  0%, 100% { opacity: 0.28; }
+  45% { opacity: 1; }
+}
+
+@media (max-width: 560px) {
+  .under-construction-terminal {
+    box-shadow: 5px 5px 0 color-mix(in srgb, var(--accent) 25%, transparent);
+  }
+}
+
+/* ========================================
+   ABOUT PAGE - direct terminal profile
+   ======================================== */
+
+.about-page {
+  font-family: 'Fira Code', 'Fira Mono', monospace;
+}
+
+.about-terminal-screen {
+  max-width: 1000px;
+  margin: 0 auto 3rem;
+}
+
+.about-terminal-body {
+  min-height: 680px;
+  padding: clamp(0.5rem, 2vw, 1.2rem) 0;
+  color: #cbd5df;
+  background: transparent;
+}
+
+.about-terminal-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(220px, 0.75fr);
+  gap: clamp(1rem, 4vw, 3rem);
+  align-items: start;
+}
+
+.about-prompt {
+  margin: 0 0 0.8rem;
+  color: #cbd5df;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.about-prompt span {
+  color: #35d982;
+}
+
+.about-prompt::first-letter,
+.about-accent {
+  color: #f6a21a;
+}
+
+.about-muted {
+  color: #9aa9b4;
+}
+
+.about-ascii-logo,
+.about-ascii-bot {
+  margin: 1.5rem 0 1.35rem;
+  color: #dce4ea;
+  font: inherit;
+  font-weight: 800;
+  line-height: 1.05;
+  white-space: pre;
+}
+
+.about-ascii-logo {
+  font-size: clamp(0.76rem, 2.25vw, 1.55rem);
+  letter-spacing: -0.055em;
+}
+
+.about-ascii-bot {
+  justify-self: center;
+  margin-top: 2.5rem;
+  color: #d7e1e8;
+  font-size: clamp(0.74rem, 1.35vw, 1rem);
+  opacity: 0.94;
+}
+
+.about-line {
+  max-width: 770px;
+  margin: 0 0 0.9rem;
+  line-height: 1.7;
+  font-weight: 700;
+}
+
+.about-rule {
+  color: #95a3ad;
+  letter-spacing: 0.16em;
+}
+
+.about-command-block {
+  max-width: 880px;
+  margin: 1.75rem 0 0;
+}
+
+.about-command-block h2 {
+  margin: 0 0 0.75rem;
+  color: #dce4ea;
+  font-size: clamp(1rem, 2.2vw, 1.35rem);
+  line-height: 1.25;
+}
+
+.about-command-block p,
+.about-command-block li {
+  color: #cbd5df;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.about-output-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem 1.2rem;
+}
+
+.about-output-row {
+  padding-left: 1rem;
+  border-left: 2px solid #35d982;
+}
+
+.about-output-row h3 {
+  margin: 0 0 0.35rem;
+  color: #f6a21a;
+  font-size: 0.98rem;
+}
+
+.about-output-row p {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.about-desk-list {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.about-desk-row {
+  margin: 0;
+}
+
+.about-desk-row span {
+  color: #f6a21a;
+}
+
+.about-desk-row span::before {
+  content: "drwxr-xr-x  dadbot  ";
+  color: #95a3ad;
+}
+
+.about-principles ol {
+  margin: 0;
+  padding-left: 1.45rem;
+}
+
+.about-principles li + li {
+  margin-top: 0.35rem;
+}
+
+.about-closing-panel {
+  padding-bottom: 1rem;
+}
+
+.about-cursor {
+  margin-top: 1.1rem;
+}
+
+.about-cursor b {
+  display: inline-block;
+  width: 0.58em;
+  height: 1.1em;
+  transform: translateY(0.18em);
+  background: #35d982;
+  animation: dadbot-about-blink 0.9s steps(1) infinite;
+}
+
+@keyframes dadbot-about-blink {
+  50% { opacity: 0; }
+}
+
+@media (max-width: 860px) {
+  .about-terminal-body {
+    min-height: 0;
+  }
+
+  .about-terminal-grid,
+  .about-output-list {
+    grid-template-columns: 1fr;
+  }
+
+  .about-ascii-bot {
+    justify-self: start;
+    margin-top: 0;
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .about-terminal-body {
+    padding: 1rem 0;
+  }
+
+  .about-ascii-logo,
+  .about-ascii-bot {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
