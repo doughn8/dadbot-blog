@@ -734,3 +734,112 @@
     margin: 0 0 15px 0;
   }
 }
+
+/* ========================================
+   BUY ME A COFFEE BUTTON - portrait terminal style
+   ======================================== */
+
+.coffee-button {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 9999;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  width: 104px;
+  min-height: 132px;
+  padding: 0.7rem 0.55rem;
+  color: var(--accent) !important;
+  background: color-mix(in srgb, var(--background) 94%, black 6%);
+  border: 1px solid var(--accent);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 color-mix(in srgb, var(--accent) 45%, transparent);
+  font-family: 'Fira Code', 'Fira Mono', monospace;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.coffee-button:hover,
+.coffee-button:focus-visible {
+  color: var(--background) !important;
+  background: var(--accent);
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0 color-mix(in srgb, var(--accent) 35%, transparent);
+  outline: none;
+}
+
+.coffee-text {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.coffee-cup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 58px;
+}
+
+.coffee-cup-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.coffee-cup-svg path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.coffee-cup-body {
+  stroke-dasharray: 4 6;
+}
+
+.coffee-cup-rim,
+.coffee-cup-saucer-dash {
+  stroke-dasharray: 3 5;
+}
+
+.coffee-cup-svg .coffee-cup-pattern {
+  stroke-width: 1.9;
+}
+
+.coffee-cup-svg .coffee-steam-line {
+  stroke-width: 1.9;
+  opacity: 0.9;
+}
+
+@media (max-width: 640px) {
+  .coffee-button {
+    right: 0.65rem;
+    bottom: 0.65rem;
+    width: 88px;
+    min-height: 112px;
+    padding: 0.55rem 0.45rem;
+    gap: 0.18rem;
+  }
+
+  .coffee-text {
+    font-size: 0.6rem;
+  }
+
+  .coffee-cup {
+    width: 58px;
+    height: 50px;
+  }
+}
+
