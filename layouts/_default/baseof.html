@@ -1,68 +1,52 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.Language }}">
 <head>
+  {{ $pageColor := or .Params.color $.Site.Params.ThemeColor }}
+  {{ if and (eq $pageColor $.Site.Params.ThemeColor) (eq .Section "conspiracy-corner") }}
+    {{ $pageColor = "pink" }}
+  {{ end }}
   {{ block "title" . }}
-    <title>{{ if $.Site.Params.underConstruction }}Dadbot is booting up :: {{ $.Site.Title }}{{ else if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
+    <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
   {{ end }}
-  {{ partial "head.html" . }}
-  {{ if $.Site.Params.underConstruction }}
-    <meta name="robots" content="noindex, nofollow">
-  {{ end }}
+  {{ partial "head.html" (dict "page" . "pageColor" $pageColor) }}
+
   {{ block "head" . }}{{""}}{{ end }}
+
+
 </head>
-<body class="{{- ( or .Params.color $.Site.Params.ThemeColor ) -}}{{ if $.Site.Params.underConstruction }} dadbot-under-construction-mode{{ end }}">
-{{ if $.Site.Params.underConstruction }}
-  <main class="under-construction-page" aria-labelledby="under-construction-title">
-    <section class="under-construction-terminal">
-      <p class="under-construction-prompt"><span>dadbot</span>:~$ ./launch-check</p>
-      <pre class="under-construction-logo" id="under-construction-title" aria-label="Dadbot"> ____        _ _           _
-|  _ \  __ _| | |__   ___ | |_
-| | | |/ _` | | '_ \ / _ \| __|
-| |_| | (_| | | |_) | (_) | |_
-|____/ \__,_|_|_.__/ \___/ \__|</pre>
-      <p class="under-construction-status">status: <strong>under construction</strong></p>
-      <div class="under-construction-loader" aria-hidden="true">
-        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-      </div>
-      <p class="under-construction-copy">
-        Dadbot is getting the content, links, and weird little terminal bits into the right places before public launch.
-      </p>
-      <p class="under-construction-small">Please check back soon. Signal is warming up.</p>
-      <p class="under-construction-prompt under-construction-cursor"><span>dadbot</span>:~$ <b aria-hidden="true"></b></p>
-    </section>
-  </main>
-{{ else }}
-  {{ if .Site.Params.Banner }}
-    {{ with .Site.Params.Banner }}
-      <div id="banner">
-        <span>
-          {{ if .url }}
-            <a href="{{ .url }}">{{ .text }}</a>
-          {{ else }}
-            {{ .text }}
-          {{ end }}
-        </span>
-        {{ if .dismissible }}
-          <button type="button">x</button>
+<body class="{{- $pageColor -}}">
+{{ if .Site.Params.Banner }}
+  {{ with .Site.Params.Banner }}
+    <div id="banner">
+      <span>
+        {{ if .url }}
+          <a href="{{ .url }}">{{ .text }}</a>
+        {{ else }}
+          {{ .text }}
         {{ end }}
-      </div>
-    {{ end }}
-  {{ end }}
-
-  {{ $container := cond ($.Site.Params.FullWidthTheme | default false) "container full" (cond ($.Site.Params.CenterTheme | default true) "container center" "container") }}
-
-  <div class="{{- $container -}}{{- cond ($.Site.Params.oneHeadingSize | default true) " headings--one-size" "" }}">
-    {{ partial "header.html" . }}
-
-    <div class="content">
-      {{ block "main" . }}
+      </span>
+      {{ if .dismissible }}
+        <button type="button">x</button>
       {{ end }}
     </div>
+  {{ end }}
+{{ end }}
 
-    {{ block "footer" . }}
-      {{ partial "footer.html" . }}
+{{ $container := cond ($.Site.Params.FullWidthTheme | default false) "container full" (cond ($.Site.Params.CenterTheme | default true) "container center" "container") }}
+
+<div class="{{- $container -}}{{- cond ($.Site.Params.oneHeadingSize | default true) " headings--one-size" "" }}">
+
+  {{ partial "header.html" . }}
+
+  <div class="content">
+    {{ block "main" . }}
     {{ end }}
   </div>
-{{ end }}
+
+  {{ block "footer" . }}
+    {{ partial "footer.html" . }}
+  {{ end }}
+</div>
+
 </body>
 </html>
