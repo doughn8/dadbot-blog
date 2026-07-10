@@ -1,49 +1,15 @@
 {{ define "main" }}
 <main class="about-page about-terminal-screen" aria-labelledby="about-title">
-  <section class="about-terminal-body" aria-label="Dadbot terminal about page">
-      <div class="about-terminal-grid">
-        <div class="about-terminal-copy">
-          <p class="about-prompt"><span>dadbot</span>:~$ welcome</p>
-          <pre class="about-ascii-logo" id="about-title" aria-label="Dadbot"> ____        _ _           _   
-|  _ \  __ _| | |__   ___ | |_ 
-| | | |/ _` | | '_ \ / _ \| __|
-| |_| | (_| | | |_) | (_) | |_ 
-|____/ \__,_|_|_.__/ \___/ \__|</pre>
-
-          <p class="about-line">Welcome to Dadbot. <span class="about-muted">(Version 1.0.0)</span></p>
-          <p class="about-line about-rule">----</p>
-          <p class="about-line">{{ .Params.hero.subheadline | default "A digital notebook, newsroom, reading desk, and question machine — built for clear thinking in a noisy feed." }}</p>
-          {{ with .Params.hero.status }}
-            <p class="about-line">status: <span class="about-accent">{{ . }}</span></p>
-          {{ end }}
-          <p class="about-line about-rule">----</p>
-          <p class="about-line">For available sections, type <span class="about-accent">help</span>.</p>
-        </div>
-
-        <pre class="about-ascii-bot" aria-hidden="true">          .-&quot;&quot;&quot;-.
-         / .===. \
-         \/ 6 6 \/
-         ( \___/ )
-  ___ooo__\_____/__ooo___
- /                         \
-|   DADBOT // SIGNAL OK    |
-|  curiosity &gt; certainty   |
- \_________________________/
-        |  |     |  |
-        |__|     |__|</pre>
-      </div>
-
+  <section class="about-terminal-body" aria-label="Dadbot about page">
       {{ with .Params.mission }}
-        <section class="about-command-block about-mission" aria-labelledby="about-mission-title">
-          <p class="about-prompt"><span>dadbot</span>:~$ dadbot --mission</p>
-          <h2 id="about-mission-title">{{ .title }}</h2>
+        <section class="about-command-block about-mission" aria-labelledby="about-title">
+          <h1 id="about-title">{{ .title }}</h1>
           <p>{{ .body }}</p>
         </section>
       {{ end }}
 
       {{ with .Params.values }}
         <section class="about-command-block" aria-labelledby="about-values-title">
-          <p class="about-prompt"><span>dadbot</span>:~$ cat values.log</p>
           <h2 id="about-values-title">Core values</h2>
           <div class="about-output-list">
             {{ range . }}
@@ -58,7 +24,6 @@
 
       {{ with .Params.desks }}
         <section class="about-command-block" aria-labelledby="about-desks-title">
-          <p class="about-prompt"><span>dadbot</span>:~$ ls /editorial-desks</p>
           <h2 id="about-desks-title">What Dadbot covers</h2>
           <div class="about-desk-list">
             {{ range . }}
@@ -70,7 +35,6 @@
 
       {{ with .Params.principles }}
         <section class="about-command-block about-principles" aria-labelledby="about-principles-title">
-          <p class="about-prompt"><span>dadbot</span>:~$ run editorial-principles</p>
           <h2 id="about-principles-title">Operating principles</h2>
           <ol>
             {{ range . }}
@@ -82,10 +46,15 @@
 
       {{ with .Params.closing }}
         <section class="about-command-block about-closing-panel" aria-labelledby="about-closing-title">
-          <p class="about-prompt"><span>dadbot</span>:~$ final-thought</p>
           <h2 id="about-closing-title">{{ .title }}</h2>
           <p>{{ .body }}</p>
-          <p class="about-prompt about-cursor"><span>dadbot</span>:~$ <b aria-hidden="true"></b></p>
+        </section>
+      {{ end }}
+
+      {{ with .Params.support }}
+        <section class="about-command-block about-closing-panel" aria-labelledby="about-support-title">
+          <h2 id="about-support-title">{{ .title }}</h2>
+          <p>{{ .body }}</p>
         </section>
       {{ end }}
   </section>

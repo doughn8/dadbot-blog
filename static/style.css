@@ -1098,10 +1098,6 @@
   color: #f6a21a;
 }
 
-.about-desk-row span::before {
-  content: "drwxr-xr-x  dadbot  ";
-  color: #95a3ad;
-}
 
 .about-principles ol {
   margin: 0;
