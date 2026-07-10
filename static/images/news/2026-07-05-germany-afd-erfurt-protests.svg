@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Dadbot Newswire: AfD Erfurt conference and mass protests</title>
+  <desc id="desc">Terminal-style Dadbot Newswire graphic showing AfD's Erfurt conference and mass protests outside, framed as a democratic tension rather than a partisan verdict.</desc>
+  <rect width="1200" height="260" fill="#07110b"/>
+  <rect x="28" y="24" width="1144" height="212" fill="#0a1610" stroke="#8fdc8a" stroke-width="3"/>
+  <rect x="50" y="42" width="1100" height="40" fill="#101f16" stroke="#2c5139" stroke-width="2"/>
+  <text x="68" y="69" fill="#b8ffb2" font-family="Menlo, Consolas, monospace" font-size="24" font-weight="700">DADBOT NEWSWIRE</text>
+  <text x="800" y="69" fill="#f0c36a" font-family="Menlo, Consolas, monospace" font-size="18">WORLD / EUROPE / GERMANY</text>
+  <line x1="50" y1="102" x2="1150" y2="102" stroke="#2c5139" stroke-width="2"/>
+  <text x="68" y="136" fill="#7ed7ff" font-family="Menlo, Consolas, monospace" font-size="20">CONFERENCE / PROTEST / DEMOCRATIC FIREWALL</text>
+  <text x="260" y="188" fill="#b8ffb2" font-family="Menlo, Consolas, monospace" font-size="40" font-weight="700">AfD</text>
+  <text x="392" y="188" fill="#f0c36a" font-family="Menlo, Consolas, monospace" font-size="36">⇄</text>
+  <text x="470" y="188" fill="#b8ffb2" font-family="Menlo, Consolas, monospace" font-size="40" font-weight="700">PROTESTERS</text>
+  <text x="68" y="222" fill="#f0c36a" font-family="Menlo, Consolas, monospace" font-size="24" font-weight="700">ERFURT / 20K–31K TURNOUT / TENSIONS RISE</text>
+  <text x="770" y="222" fill="#8fdc8a" font-family="Menlo, Consolas, monospace" font-size="17">FACTS | FRAMES | CAUTION</text>
+  <g opacity="0.22" stroke="#8fdc8a" stroke-width="1">
+    <path d="M865 112h220v78H865z" fill="none"/>
+    <path d="M885 132h170M885 152h170M885 172h120"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Dadbot Newswire: EU preliminary findings on Meta platform design</title>
+  <desc id="desc">Terminal-style Dadbot Newswire graphic showing a generic phone feed with infinite-scroll and autoplay symbols, alongside EU preliminary findings and Meta's response.</desc>
+  <rect width="1200" height="260" fill="#07110b"/>
+  <rect x="28" y="24" width="1144" height="212" fill="#0a1610" stroke="#8fdc8a" stroke-width="3"/>
+  <rect x="50" y="42" width="1100" height="40" fill="#101f16" stroke="#2c5139" stroke-width="2"/>
+  <text x="68" y="69" fill="#b8ffb2" font-family="Menlo, Consolas, monospace" font-size="24" font-weight="700">DADBOT NEWSWIRE</text>
+  <text x="735" y="69" fill="#7ed7ff" font-family="Menlo, Consolas, monospace" font-size="18">TECHNOLOGY / SOCIAL MEDIA / EU</text>
+  <line x1="50" y1="102" x2="1150" y2="102" stroke="#2c5139" stroke-width="2"/>
+  <g transform="translate(72 116)">
+    <rect x="0" y="0" width="190" height="94" rx="4" fill="none" stroke="#8fdc8a" stroke-width="3"/>
+    <rect x="18" y="15" width="154" height="13" fill="#173221"/>
+    <rect x="18" y="38" width="112" height="9" fill="#28573a"/>
+    <rect x="18" y="57" width="136" height="9" fill="#28573a"/>
+    <text x="145" y="78" fill="#f0c36a" font-family="Menlo, Consolas, monospace" font-size="26">↓ ∞</text>
+  </g>
+  <text x="300" y="145" fill="#b8ffb2" font-family="Menlo, Consolas, monospace" font-size="24">AUTOPLAY • REELS • RECOMMENDATIONS</text>
+  <text x="300" y="184" fill="#7ed7ff" font-family="Menlo, Consolas, monospace" font-size="27" font-weight="700">PRELIMINARY FINDINGS</text>
+  <text x="680" y="184" fill="#f0c36a" font-family="Menlo, Consolas, monospace" font-size="25">| META RESPONDS</text>
+  <text x="300" y="217" fill="#8fdc8a" font-family="Menlo, Consolas, monospace" font-size="17">FACTS | FRAMING | WHAT PARENTS NEED TO KNOW</text>
+</svg>
