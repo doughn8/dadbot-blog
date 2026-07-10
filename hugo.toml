@@ -19,8 +19,8 @@ pagination.pagerSize = 5
   themeColor = "green"
 
   # Temporary launch-cover mode: shows a simple under-construction page site-wide.
-  # Set to false when Dadbot is ready for public browsing.
-  underConstruction = false
+  # Keep enabled while Dadbot's public launch packages are being prepared.
+  underConstruction = true
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 7

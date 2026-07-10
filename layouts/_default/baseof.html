@@ -5,48 +5,98 @@
   {{ if and (eq $pageColor $.Site.Params.ThemeColor) (eq .Section "conspiracy-corner") }}
     {{ $pageColor = "pink" }}
   {{ end }}
+  {{/* Keep the public build covered while allowing `hugo server` to expose the full local site. */}}
+  {{ $underConstruction := and $.Site.Params.underConstruction (not hugo.IsServer) }}
   {{ block "title" . }}
-    <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
+    <title>{{ if and $.Site.Params.underConstruction (not hugo.IsServer) }}Dadbot is booting up :: {{ $.Site.Title }}{{ else if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
   {{ end }}
   {{ partial "head.html" (dict "page" . "pageColor" $pageColor) }}
+  {{ if $underConstruction }}
+    <meta name="robots" content="noindex, nofollow">
+  {{ end }}
 
   {{ block "head" . }}{{""}}{{ end }}
-
-
 </head>
-<body class="{{- $pageColor -}}">
-{{ if .Site.Params.Banner }}
-  {{ with .Site.Params.Banner }}
-    <div id="banner">
-      <span>
-        {{ if .url }}
-          <a href="{{ .url }}">{{ .text }}</a>
-        {{ else }}
-          {{ .text }}
+<body class="{{- $pageColor -}}{{ if $underConstruction }} dadbot-under-construction-mode{{ end }}">
+{{ if $underConstruction }}
+  <main class="under-construction-page" aria-labelledby="under-construction-title">
+    <section class="under-construction-terminal">
+      <header class="under-construction-bar" aria-label="Terminal window">
+        <span class="terminal-lights" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>dadbot://launch-control</span>
+        <span class="terminal-signal">SIGNAL: GOOD</span>
+      </header>
+
+      <div class="under-construction-screen">
+        <p class="under-construction-prompt"><span>dadbot</span>:~$ ./launch_sequence.sh</p>
+
+        <h1 class="under-construction-wordmark" id="under-construction-title" aria-label="Dadbot">
+          <span>D</span><span>A</span><span>D</span><span>B</span><span>O</span><span>T</span>
+        </h1>
+
+        <div class="under-construction-statusline">
+          <span>BUILD STATUS</span>
+          <strong>WORK IN PROGRESS</strong>
+          <span class="under-construction-pid">PID 1984</span>
+        </div>
+
+        <div class="under-construction-progress" aria-label="Launch preparation in progress">
+          <span aria-hidden="true">[</span>
+          <div class="under-construction-loader" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <span aria-hidden="true">]</span>
+          <b>CALIBRATING...</b>
+        </div>
+
+        <p class="under-construction-copy">
+          Dadbot is tightening the bolts, organising the rabbit holes, and teaching the coffee machine British English.
+        </p>
+
+        <div class="under-construction-checks" aria-label="Dadbot launch checklist">
+          <p><span>[OK]</span> curiosity engine</p>
+          <p><span>[OK]</span> sensible explanations</p>
+          <p><span>[OK]</span> weird little terminal bits</p>
+          <p><strong>[..]</strong> final human checks</p>
+        </div>
+
+        <p class="under-construction-small">No paywalls. No panic. Just better questions — coming soon.</p>
+        <p class="under-construction-prompt under-construction-cursor"><span>dadbot</span>:~$ <b aria-hidden="true"></b></p>
+      </div>
+    </section>
+  </main>
+{{ else }}
+  {{ if .Site.Params.Banner }}
+    {{ with .Site.Params.Banner }}
+      <div id="banner">
+        <span>
+          {{ if .url }}
+            <a href="{{ .url }}">{{ .text }}</a>
+          {{ else }}
+            {{ .text }}
+          {{ end }}
+        </span>
+        {{ if .dismissible }}
+          <button type="button">x</button>
         {{ end }}
-      </span>
-      {{ if .dismissible }}
-        <button type="button">x</button>
+      </div>
+    {{ end }}
+  {{ end }}
+
+  {{ $container := cond ($.Site.Params.FullWidthTheme | default false) "container full" (cond ($.Site.Params.CenterTheme | default true) "container center" "container") }}
+
+  <div class="{{- $container -}}{{- cond ($.Site.Params.oneHeadingSize | default true) " headings--one-size" "" }}">
+    {{ partial "header.html" . }}
+
+    <div class="content">
+      {{ block "main" . }}
       {{ end }}
     </div>
-  {{ end }}
-{{ end }}
 
-{{ $container := cond ($.Site.Params.FullWidthTheme | default false) "container full" (cond ($.Site.Params.CenterTheme | default true) "container center" "container") }}
-
-<div class="{{- $container -}}{{- cond ($.Site.Params.oneHeadingSize | default true) " headings--one-size" "" }}">
-
-  {{ partial "header.html" . }}
-
-  <div class="content">
-    {{ block "main" . }}
+    {{ block "footer" . }}
+      {{ partial "footer.html" . }}
     {{ end }}
   </div>
-
-  {{ block "footer" . }}
-    {{ partial "footer.html" . }}
-  {{ end }}
-</div>
-
+{{ end }}
 </body>
 </html>
