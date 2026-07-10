@@ -20,7 +20,7 @@ pagination.pagerSize = 5
 
   # Temporary launch-cover mode: shows a simple under-construction page site-wide.
   # Set to false when Dadbot is ready for public browsing.
-  underConstruction = true
+  underConstruction = false
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 7
@@ -84,44 +84,44 @@ pagination.pagerSize = 5
         url = "/"
         weight = 1
 
-      # Blog
-      [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "/posts/"
-        weight = 2
-
       # News
       [[languages.en.menu.main]]
         identifier = "news"
         name = "News"
         url = "/news/"
-        weight = 3
+        weight = 2
 
-      # Conspiracy Corner
+      # Blog
       [[languages.en.menu.main]]
-        identifier = "conspiracy-corner"
-        name = "Conspiracy Corner"
-        url = "/conspiracy-corner/"
-        weight = 4
+        identifier = "blog"
+        name = "Blog"
+        url = "/posts/"
+        weight = 3
 
       # Book Reviews
       [[languages.en.menu.main]]
         identifier = "books"
         name = "Book Reviews"
         url = "/books"
-        weight = 5
+        weight = 4
 
       # Hot Takes
       [[languages.en.menu.main]]
         identifier = "hot-takes"
         name = "Hot Takes"
         url = "/hot-takes"
-        weight = 6
+        weight = 5
 
       # About
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
+        weight = 6
+
+      # Conspiracy Corner
+      [[languages.en.menu.main]]
+        identifier = "conspiracy-corner"
+        name = "Conspiracy Corner"
+        url = "/conspiracy-corner/"
         weight = 7
