@@ -165,6 +165,15 @@
   border-bottom-color: #6ee7ff;
 }
 
+.latest-news .news-card {
+  background: color-mix(in srgb, var(--accent) 4%, var(--background) 96%);
+  border-color: color-mix(in srgb, var(--accent) 75%, transparent);
+}
+
+.latest-news .news-card .post-cover {
+  border-bottom-color: var(--accent);
+}
+
 .conspiracy-page .post-card,
 .conspiracy-standalone {
   background: color-mix(in srgb, #c084fc 7%, var(--background) 93%);
