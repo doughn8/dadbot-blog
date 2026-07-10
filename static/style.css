@@ -201,6 +201,53 @@
   padding-top: 0.9rem;
 }
 
+.books-teaser .posts-grid {
+  align-items: start;
+}
+
+.book-card--cover-only {
+  display: block;
+  min-height: 0;
+  aspect-ratio: 2 / 3;
+  padding: 0.75rem;
+  background: color-mix(in srgb, var(--accent) 7%, var(--background) 93%);
+  border: 1px solid color-mix(in srgb, var(--accent) 75%, transparent);
+}
+
+.book-card--cover-only figure:has(.post-cover),
+.book-card--cover-only figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.book-card--cover-only .post-cover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  object-fit: cover;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: #17241f;
+}
+
+.book-card--cover-only .book-cover-fallback {
+  display: grid;
+  min-height: 260px;
+  place-items: center;
+  padding: 1rem;
+  color: var(--accent);
+  text-align: center;
+  border: 1px solid var(--accent);
+  background: #17241f;
+}
+
+.post-card-link:hover .book-card--cover-only {
+  box-shadow: 6px 6px 0 color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
 .posts-card-list {
   margin-top: 1.25rem;
 }
@@ -271,6 +318,13 @@
   padding: 0;
   margin: 0;
   background: #17241f;
+}
+
+.book-card--cover-only .post-cover {
+  height: 100%;
+  aspect-ratio: auto;
+  object-fit: cover;
+  border-bottom: 0;
 }
 
 .post-card-content {
@@ -357,6 +411,41 @@
   padding: 0;
   margin: 1rem 0 1.5rem;
   background: #17241f;
+}
+
+.post:not(.on-list) > figure:has(.post-cover) {
+  display: block;
+  width: min(100%, 460px);
+  box-sizing: border-box;
+  margin: 1.5rem 0 2rem;
+  padding: 1rem;
+  border: 1px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, var(--background) 90%);
+}
+
+.post:not(.on-list) > figure:has(.post-cover) .post-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 620px;
+  object-fit: contain;
+  border: 1px solid color-mix(in srgb, var(--accent) 65%, transparent);
+  padding: 0;
+  margin: 0 auto;
+  background: #17241f;
+}
+
+.post:not(.on-list) > figure:has(.post-cover) figcaption {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0.75rem 0 0;
+  padding: 0 0.25rem;
+  color: #0d1b14;
+  text-align: left;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 /* ========================================

@@ -89,40 +89,12 @@
     <div class="posts-grid">
       {{ $latestBooks := first 3 (sort $books "Date" "desc") }}
       {{ range $latestBooks }}
-        <a href="{{ .Permalink }}" class="post-card-link">
-          <article class="post-card book-card book-card--text-only">
-            <div class="post-card-content">
-              <h3 class="post-card-title">
-                {{ .Title | markdownify }}
-              </h3>
-              
-              <div class="post-card-meta">
-                {{- if .Date -}}
-                  <time class="post-date">{{ .Date.Format "Jan 2, 2006" }}</time>
-                {{- end -}}
-                {{- with .Params.tags -}}
-                  <span class="post-tags">
-                    {{- range first 3 . -}}
-                      <span class="tag-chip tag-chip--mini">{{ . }}</span>
-                    {{- end -}}
-                  </span>
-                {{- else -}}
-                  {{- with .Params.categories -}}
-                    <span class="post-category">{{ index . 0 }}</span>
-                  {{- end -}}
-                {{- end -}}
-              </div>
-              
-              <p class="post-card-summary">
-                {{ if .Description }}
-                  {{ .Description | truncate 80 }}
-                {{ else }}
-                  {{ .Summary | truncate 80 }}
-                {{ end }}
-              </p>
-              
-              <span class="read-more button">Read more</span>
-            </div>
+        <a href="{{ .Permalink }}" class="post-card-link book-cover-link" aria-label="Read {{ .Title | plainify }}">
+          <article class="post-card book-card book-card--cover-only">
+            {{ partial "cover.html" . }}
+            {{ if not .Params.cover }}
+              <span class="book-cover-fallback">{{ .Title | markdownify }}</span>
+            {{ end }}
           </article>
         </a>
       {{ end }}

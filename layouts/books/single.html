@@ -24,18 +24,9 @@
   
   {{ partial "cover.html" (dict "ctx" . "isCoverCaptionEnabled" true) }}
 
-  {{ if (.Params.Toc | default .Site.Params.Toc) }}
-    <div class="table-of-contents">
-      <h2>
-        {{ (.Params.TocTitle | default .Site.Params.TocTitle) | default "Table of Contents" }}
-      </h2>
-      {{ .TableOfContents }}
-    </div>
-  {{ end }}
-
   {{ with .Params.tldr }}
     <div class="tldr-box">
-      <h2 class="tldr-title">TL;DR</h2>
+      <h2 class="tldr-title">1. TL;DR</h2>
       {{ with .headline }}
         <p class="tldr-headline">{{ . | markdownify }}</p>
       {{ end }}
@@ -49,6 +40,15 @@
       {{ with .takeaway }}
         <p class="tldr-takeaway">{{ . | markdownify }}</p>
       {{ end }}
+    </div>
+  {{ end }}
+
+  {{ if (.Params.Toc | default .Site.Params.Toc) }}
+    <div class="table-of-contents">
+      <h2>
+        {{ (.Params.TocTitle | default .Site.Params.TocTitle) | default "Table of Contents" }}
+      </h2>
+      {{ .TableOfContents }}
     </div>
   {{ end }}
 
