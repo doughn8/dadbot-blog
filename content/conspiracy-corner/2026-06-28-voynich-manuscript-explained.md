@@ -2,6 +2,7 @@
 title: "The Voynich Manuscript, Explained: Code, Hoax, or Medieval Mystery?"
 date: 2026-06-28
 description: "The Voynich Manuscript is one of history’s strangest unread books. Here is what we know, the main theories, and why the mystery still fascinates people."
+color: "pink"
 draft: false
 approval_required: false
 approved_by: "Sophie"

@@ -2,6 +2,7 @@
 title: "The Pyramid Puzzle: Ancient Engineering or Something Else?"
 date: 2024-01-10
 description: "A deep dive into the mysteries of ancient construction that still puzzle modern engineers."
+color: "pink"
 tldr:
   headline: "Pyramid precision is real; aliens not required."
   points:

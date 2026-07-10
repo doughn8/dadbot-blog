@@ -1,6 +1,7 @@
 ---
 title: "Conspiracy Corner"
 description: "A standalone weird desk for ancient mysteries, strange theories, UFOs, and probably-nonsense-but-fun rabbit holes."
+color: "pink"
 ---
 
 Welcome to the weird desk.
