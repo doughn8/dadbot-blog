@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Emergency Funds Without the Panic</title>
+  <desc id="desc">Retro terminal-style green ASCII art showing a small emergency fund buffer between surprise bills and household chaos.</desc>
+  <rect width="900" height="360" fill="#101108"/>
+  <rect x="24" y="24" width="852" height="312" fill="#17190c" stroke="#f7d774" stroke-width="4"/>
+  <g opacity="0.25" stroke="#f7d774" stroke-width="1">
+    <line x1="24" y1="72" x2="876" y2="72"/>
+    <line x1="24" y1="120" x2="876" y2="120"/>
+    <line x1="24" y1="168" x2="876" y2="168"/>
+    <line x1="24" y1="216" x2="876" y2="216"/>
+    <line x1="24" y1="264" x2="876" y2="264"/>
+  </g>
+  <g font-family="Menlo, Consolas, 'Courier New', monospace" font-weight="700">
+    <text x="56" y="78" font-size="30" fill="#fff1a8">DADBOT FINANCE BASICS</text>
+    <text x="56" y="124" font-size="22" fill="#6ee79a">surprise bill  &gt;&gt;&gt;  [ BUFFER ]  &gt;&gt;&gt;  calmer tomorrow</text>
+    <text x="56" y="168" font-size="22" fill="#f7d774">unexpected cost: £200/$200</text>
+    <text x="56" y="208" font-size="22" fill="#6ee79a">panic level: LOW</text>
+    <text x="56" y="248" font-size="22" fill="#6ee79a">system: boring but useful</text>
+    <text x="56" y="292" font-size="20" fill="#fff1a8">┌──────────────┐   ████░░░░   ┌──────────────┐</text>
+    <text x="56" y="320" font-size="20" fill="#fff1a8">│ normal chaos │ → │ buffer │ → │ less damage │</text>
+  </g>
+  <g opacity="0.5" fill="#ff9f1c" font-family="Menlo, Consolas, 'Courier New', monospace" font-size="16">
+    <text x="710" y="84">$ + % + $</text>
+    <text x="720" y="126">0123 4567</text>
+    <text x="700" y="252">SAVE + REFILL</text>
+  </g>
+</svg>
