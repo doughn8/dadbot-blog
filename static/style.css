@@ -1321,7 +1321,8 @@
    ======================================== */
 
 .about-page {
-  font-family: 'Fira Code', 'Fira Mono', monospace;
+  /* Inherit the site's exact font stack rather than using an About-only fallback. */
+  font-family: inherit;
 }
 
 .about-terminal-screen {
@@ -1413,7 +1414,7 @@
 .about-command-block p,
 .about-command-block li {
   color: #cbd5df;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.7;
 }
 
