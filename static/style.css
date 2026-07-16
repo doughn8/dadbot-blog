@@ -126,8 +126,8 @@
 .books-teaser h2 {
   margin-top: 0;
   margin-bottom: 1.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 /* Posts Grid - compact, readable cards */
@@ -515,20 +515,74 @@
   margin: 0.2rem 0;
 }
 
-/* View All Button */
-.view-all {
-  text-align: center;
-  margin-top: 1.5rem;
-}
-
 /* ========================================
-   BOOKS TEASER SECTION
+   HOMEPAGE SECTION NAVIGATION
    ======================================== */
 
+/* Keep the three homepage section links terminal-like at rest. */
+.view-all {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.view-all > a.button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--accent);
+  border-radius: 0;
+  background: transparent;
+  color: var(--accent);
+  box-shadow: none;
+}
+
+.view-all > a.button:hover,
+.view-all > a.button:focus-visible {
+  background: var(--accent);
+  color: var(--background);
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* Use one rhythm between News, Blog Posts, and Book Reviews. */
+.content > .recent-posts {
+  margin-bottom: 4rem;
+}
+
+/* Remove the old grey separators around the homepage sections. */
+.welcome-section {
+  border-bottom: 0;
+}
+
 .books-teaser {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border-color);
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* Match News and Blog teaser tiles to the 2:3 Book Review tiles. */
+.content > .latest-news.recent-posts .post-card,
+.content > .latest-news.recent-posts + .recent-posts .post-card {
+  aspect-ratio: 2 / 3;
+  min-height: 0;
+}
+
+/* Keep longer headlines readable without letting one card outgrow its row. */
+.content > .latest-news.recent-posts .post-card-title,
+.content > .latest-news.recent-posts + .recent-posts .post-card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.content > .latest-news.recent-posts .post-card-summary,
+.content > .latest-news.recent-posts + .recent-posts .post-card-summary {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .books-list {
