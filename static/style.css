@@ -202,6 +202,19 @@
   box-shadow: 4px 4px 0 color-mix(in srgb, var(--accent) 45%, transparent);
 }
 
+/* Subtle terminal CTAs keep repeated card actions from overpowering their content. */
+.post-card .read-more {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  color: var(--accent);
+}
+
+.post-card-link:hover .read-more {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  border-color: color-mix(in srgb, var(--accent) 80%, transparent);
+  color: var(--accent);
+}
+
 .book-card--text-only {
   grid-template-rows: 1fr;
   min-height: 230px;
@@ -252,6 +265,11 @@
   text-align: center;
   border: 1px solid var(--accent);
   background: #17241f;
+}
+
+/* Responsive review details are revealed only in the compact phone/tablet layout. */
+.book-card-details {
+  display: none;
 }
 
 .post-card-link:hover .book-card--cover-only {
@@ -563,14 +581,14 @@
 
 /* Match News and Blog teaser tiles to the 2:3 Book Review tiles. */
 .content > .latest-news.recent-posts .post-card,
-.content > .latest-news.recent-posts + .recent-posts .post-card {
+.content > .blog-teaser .post-card {
   aspect-ratio: 2 / 3;
   min-height: 0;
 }
 
 /* Keep longer headlines readable without letting one card outgrow its row. */
 .content > .latest-news.recent-posts .post-card-title,
-.content > .latest-news.recent-posts + .recent-posts .post-card-title {
+.content > .blog-teaser .post-card-title {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
@@ -578,7 +596,7 @@
 }
 
 .content > .latest-news.recent-posts .post-card-summary,
-.content > .latest-news.recent-posts + .recent-posts .post-card-summary {
+.content > .blog-teaser .post-card-summary {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
@@ -855,6 +873,106 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  /* Compact horizontal Book Review cards for phone and tablet scanning. */
+  .content > .books-teaser .posts-grid,
+  .books-section .posts-grid {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 1rem;
+  }
+
+  .content > .books-teaser .post-card-link,
+  .books-section .post-card-link {
+    height: auto;
+  }
+
+  .content > .books-teaser .book-card--responsive,
+  .books-section .book-card--responsive {
+    display: grid;
+    grid-template-columns: 132px minmax(0, 1fr);
+    grid-template-rows: 198px;
+    height: 200px;
+    min-height: 0;
+    aspect-ratio: auto;
+    padding: 0;
+  }
+
+  .content > .books-teaser .book-card--responsive figure:has(.post-cover),
+  .content > .books-teaser .book-card--responsive figure,
+  .content > .books-teaser .book-card--responsive .book-cover-fallback,
+  .books-section .book-card--responsive figure:has(.post-cover),
+  .books-section .book-card--responsive figure,
+  .books-section .book-card--responsive .book-cover-fallback {
+    width: 132px;
+    height: 100%;
+    min-height: 0;
+    margin: 0;
+  }
+
+  .content > .books-teaser .book-card--responsive .post-cover,
+  .books-section .book-card--responsive .post-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 1px solid var(--accent);
+    border-bottom: 0;
+  }
+
+  .content > .books-teaser .book-card-details,
+  .books-section .book-card-details {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: 100%;
+    box-sizing: border-box;
+    gap: 0.35rem;
+    padding: 0.75rem;
+  }
+
+  .book-card-title,
+  .book-card-author,
+  .book-card-verdict {
+    margin: 0;
+  }
+
+  .book-card-title {
+    color: var(--accent);
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .book-card-author {
+    color: #c8d4cc;
+    font-size: 0.78rem;
+    line-height: 1.3;
+  }
+
+  .book-card-verdict {
+    display: -webkit-box;
+    flex: 0 0 auto;
+    overflow: hidden;
+    color: #d7e1da;
+    font-size: 0.76rem;
+    line-height: 1.35;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .content > .books-teaser .book-card-details .read-more,
+  .books-section .book-card-details .read-more {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    min-height: 44px;
+    margin-top: auto;
+    text-align: center;
+  }
+
   .posts-grid--full-page {
     grid-template-columns: 1fr;
   }
@@ -882,10 +1000,50 @@
   .posts-grid {
     grid-template-columns: 1fr;
   }
+
+  .content > .books-teaser .book-card--responsive,
+  .books-section .book-card--responsive {
+    grid-template-columns: 112px minmax(0, 1fr);
+    grid-template-rows: 168px;
+    height: 170px;
+    min-height: 0;
+  }
+
+  .content > .books-teaser .book-card--responsive figure:has(.post-cover),
+  .content > .books-teaser .book-card--responsive figure,
+  .content > .books-teaser .book-card--responsive .book-cover-fallback,
+  .books-section .book-card--responsive figure:has(.post-cover),
+  .books-section .book-card--responsive figure,
+  .books-section .book-card--responsive .book-cover-fallback {
+    width: 112px;
+  }
+
+  .content > .books-teaser .book-card-details,
+  .books-section .book-card-details {
+    gap: 0.2rem;
+    padding: 0.5rem 0.6rem;
+  }
+
+  .content > .books-teaser .book-card-title,
+  .books-section .book-card-title {
+    font-size: 0.9rem;
+    line-height: 1.15;
+  }
+
+  .content > .books-teaser .book-card-verdict,
+  .books-section .book-card-verdict {
+    -webkit-line-clamp: 1;
+  }
   
   /* Keep terminal image strips compact on mobile too */
   .post-card .post-cover {
     height: 76px;
+  }
+
+  /* Cover-only Book Review tiles keep their full portrait artwork. */
+  .post-card.book-card--cover-only .post-cover {
+    height: 100%;
+    object-fit: cover;
   }
 
   .post:not(.on-list) > .post-cover,
@@ -899,6 +1057,58 @@
   
   .post-card-summary {
     font-size: 0.85rem;
+  }
+
+  /* Keep homepage News and Blog cards compact and shrinkable on phones. */
+  .content > .latest-news.recent-posts .posts-grid,
+  .content > .blog-teaser .posts-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .content > .latest-news.recent-posts .post-card-link,
+  .content > .blog-teaser .post-card-link,
+  .content > .latest-news.recent-posts .post-card,
+  .content > .blog-teaser .post-card,
+  .content > .latest-news.recent-posts .post-card-content,
+  .content > .blog-teaser .post-card-content {
+    min-width: 0;
+  }
+
+  .content > .latest-news.recent-posts .post-card,
+  .content > .blog-teaser .post-card {
+    width: 100%;
+    aspect-ratio: auto;
+    min-height: 0;
+    grid-template-rows: 64px auto;
+  }
+
+  .content > .latest-news.recent-posts .post-card .post-cover,
+  .content > .blog-teaser .post-card .post-cover {
+    height: 64px;
+  }
+
+  .content > .latest-news.recent-posts .post-card-content,
+  .content > .blog-teaser .post-card-content {
+    gap: 0.5rem;
+    padding: 0.75rem;
+  }
+
+  .content > .latest-news.recent-posts .post-card-summary,
+  .content > .blog-teaser .post-card-summary {
+    flex: 0 0 auto;
+  }
+
+  .content > .latest-news.recent-posts .post-card .read-more,
+  .content > .blog-teaser .post-card .read-more {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    min-height: 44px;
+    margin-top: 0.15rem;
+    text-align: center;
   }
   
   /* Smaller coffee button on mobile */

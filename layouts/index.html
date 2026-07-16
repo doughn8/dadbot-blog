@@ -46,7 +46,7 @@
   {{ end }}
 
   <!-- Recent Posts Section -->
-  <div class="recent-posts">
+  <div class="recent-posts blog-teaser">
     <h2>Latest Blog Posts</h2>
     <div class="posts-grid">
       {{ $posts := where .Site.RegularPages "Type" "posts" }}
@@ -89,12 +89,23 @@
     <div class="posts-grid">
       {{ $latestBooks := first 3 (sort $books "Date" "desc") }}
       {{ range $latestBooks }}
-        <a href="{{ .Permalink }}" class="post-card-link book-cover-link" aria-label="Read {{ .Title | plainify }}">
-          <article class="post-card book-card book-card--cover-only">
+        {{ $bookTitle := .Title | replaceRE "^Book Review: " "" }}
+        {{ with .Params.book.title }}{{ $bookTitle = . }}{{ end }}
+        {{ $bookAuthor := .Params.book.author | default "" }}
+        <a href="{{ .Permalink }}" class="post-card-link book-cover-link" aria-label="Read review of {{ $bookTitle | plainify }}{{ with $bookAuthor }} by {{ . | plainify }}{{ end }}">
+          <article class="post-card book-card book-card--cover-only book-card--responsive">
             {{ partial "cover.html" . }}
             {{ if not .Params.cover }}
               <span class="book-cover-fallback">{{ .Title | markdownify }}</span>
             {{ end }}
+            <div class="book-card-details">
+              <h3 class="book-card-title">{{ $bookTitle | markdownify }}</h3>
+              {{ with $bookAuthor }}<p class="book-card-author">{{ . }}</p>{{ end }}
+              <p class="book-card-verdict">
+                {{ with .Params.tldr.headline }}{{ . }}{{ else }}{{ .Description | truncate 110 }}{{ end }}
+              </p>
+              <span class="read-more button">Read review</span>
+            </div>
           </article>
         </a>
       {{ end }}
