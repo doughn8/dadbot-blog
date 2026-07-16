@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">Is VAR helping football?</title>
+  <desc id="desc">Retro green terminal graphic showing a football pitch and VAR review screen balancing clearer decisions against delays, inconsistency and lost trust.</desc>
+  <rect width="1200" height="270" fill="#07110b"/>
+  <rect x="14" y="14" width="1172" height="242" fill="#0a1610" stroke="#8fdc8a" stroke-width="2"/>
+  <g font-family="Menlo,Consolas,monospace">
+    <text x="34" y="43" fill="#b8ffb2" font-size="20" font-weight="700">DADBOT // MATCH REVIEW</text>
+    <text x="1165" y="43" fill="#8fdc8a" font-size="14" text-anchor="end">SYSTEM: VAR_2026</text>
+
+    <rect x="34" y="58" width="710" height="155" fill="#07110b" stroke="#8fdc8a" stroke-width="2"/>
+    <line x1="389" y1="58" x2="389" y2="213" stroke="#315b39" stroke-width="2"/>
+    <circle cx="389" cy="135" r="42" fill="none" stroke="#315b39" stroke-width="2"/>
+    <rect x="34" y="94" width="88" height="82" fill="none" stroke="#315b39" stroke-width="2"/>
+    <rect x="656" y="94" width="88" height="82" fill="none" stroke="#315b39" stroke-width="2"/>
+    <text x="48" y="79" fill="#8fdc8a" font-size="12">FOOTBALL // LIVE</text>
+
+    <rect x="296" y="88" width="186" height="91" fill="#0a1610" stroke="#b8ffb2" stroke-width="3"/>
+    <rect x="311" y="102" width="156" height="45" fill="#07110b" stroke="#315b39" stroke-width="2"/>
+    <text x="389" y="122" fill="#f0c36a" font-size="22" text-anchor="middle" font-weight="700">VAR</text>
+    <text x="389" y="141" fill="#8fdc8a" font-size="12" text-anchor="middle">REVIEWING...</text>
+    <line x1="356" y1="179" x2="422" y2="179" stroke="#b8ffb2" stroke-width="3"/>
+    <line x1="389" y1="179" x2="389" y2="193" stroke="#b8ffb2" stroke-width="3"/>
+    <line x1="357" y1="193" x2="421" y2="193" stroke="#b8ffb2" stroke-width="3"/>
+
+    <text x="778" y="73" fill="#b8ffb2" font-size="17" font-weight="700">MATCH DIAGNOSTIC</text>
+    <text x="778" y="103" fill="#8fdc8a" font-size="14">ACCURACY</text>
+    <text x="918" y="103" fill="#b8ffb2" font-size="16">[++++++--]</text>
+    <text x="778" y="132" fill="#8fdc8a" font-size="14">CONSISTENCY</text>
+    <text x="918" y="132" fill="#f0c36a" font-size="16">[++++----]</text>
+    <text x="778" y="161" fill="#8fdc8a" font-size="14">TRUST</text>
+    <text x="918" y="161" fill="#f0c36a" font-size="16">[+++-----]</text>
+    <text x="778" y="187" fill="#b8ffb2" font-size="14">IS VAR HELPING FOOTBALL?</text>
+    <text x="778" y="208" fill="#f0c36a" font-size="15" font-weight="700">SOMETIMES. NOT ENOUGH YET.</text>
+
+    <line x1="34" y1="227" x2="1166" y2="227" stroke="#315b39" stroke-width="2"/>
+    <text x="34" y="247" fill="#8fdc8a" font-size="12">ACCURACY | FLOW | CONSISTENCY | TRANSPARENCY | TRUST</text>
+    <text x="1166" y="247" fill="#b8ffb2" font-size="12" text-anchor="end">DECISION: HUMAN REVIEWED</text>
+  </g>
+</svg>
