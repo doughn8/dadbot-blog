@@ -145,6 +145,16 @@
   height: 100%;
 }
 
+/* Filter scripts add .hidden to cards and controls. Keep this stronger than all theme/card display rules. */
+.post-card-link.hidden,
+[data-post-tags].hidden,
+[data-post-categories].hidden,
+[data-filter-chip].hidden,
+[data-filters-clear].hidden,
+[data-tags-empty].hidden {
+  display: none !important;
+}
+
 .post-card {
   background: color-mix(in srgb, var(--accent) 4%, var(--background) 96%);
   border: 1px solid color-mix(in srgb, var(--accent) 75%, transparent);
@@ -264,6 +274,30 @@
   grid-template-rows: 70px 1fr;
 }
 
+/* Blog archive: light month markers, not boxed date labels. */
+.posts-list-view--posts {
+  gap: 2rem;
+}
+
+.posts-list-view--posts .posts-month-group {
+  width: 100%;
+}
+
+.posts-list-view--posts .posts-month-group .posts-list-view {
+  margin-bottom: 0;
+}
+
+.posts-month-heading {
+  margin: 0 0 0.9rem;
+  padding: 0 0 0.45rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 65%, transparent);
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
 .posts-grid--full-page {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -288,13 +322,15 @@
 }
 
 .news-month-heading {
-  margin: 0 0 1rem;
-  padding: 0.45rem 0.7rem;
-  border: 1px solid #6ee7ff;
-  color: #d8f7ff;
-  background: color-mix(in srgb, #6ee7ff 7%, var(--background) 93%);
-  font-size: 1rem;
-  letter-spacing: 0.05em;
+  margin: 0 0 0.9rem;
+  padding: 0 0 0.45rem;
+  border: 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 65%, transparent);
+  color: var(--accent);
+  background: transparent;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 

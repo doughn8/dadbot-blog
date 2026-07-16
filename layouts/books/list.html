@@ -6,151 +6,33 @@
           {{ . }}
         </div>
       {{ end }}
-      
+
       <div class="posts books-section posts-card-list">
         <div class="posts-grid posts-grid--full-page">
-          {{ range .Paginator.Pages }}
+          {{ range .Pages.ByDate.Reverse }}
             {{ $postTags := "" }}
             {{ with .Params.tags }}
               {{ $postTags = delimit (apply . "urlize" ".") "," }}
             {{ end }}
-            <a href="{{ .Permalink }}" class="post-card-link" data-post-tags="{{ $postTags }}">
-              <article class="post-card book-card book-card--text-only">
-                <div class="post-card-content">
-                  <h2 class="post-card-title">{{ .Title | markdownify }}</h2>
-                  <div class="post-card-meta">
-                    {{- if .Date -}}
-                      <time class="post-date">{{ .Date.Format "Jan 2, 2006" }}</time>
-                    {{- end -}}
-                    {{- with .Params.tags -}}
-                      <span class="post-tags">
-                        {{- range first 4 . -}}
-                          <span class="tag-chip tag-chip--mini">{{ . }}</span>
-                        {{- end -}}
-                      </span>
-                    {{- end -}}
-                  </div>
-                  <p class="post-card-summary">
-                    {{ if .Description }}
-                      {{ .Description | truncate 110 }}
-                    {{ else }}
-                      {{ .Summary | plainify | truncate 110 }}
-                    {{ end }}
-                  </p>
-                  <span class="read-more button">Read Review</span>
-                </div>
+            {{ $postCategories := "" }}
+            {{ with .Params.categories }}
+              {{ $postCategories = delimit (apply . "urlize" ".") "," }}
+            {{ end }}
+            <a href="{{ .Permalink }}" class="post-card-link book-cover-link" data-post-tags="{{ $postTags }}" data-post-categories="{{ $postCategories }}" aria-label="Read {{ .Title | plainify }}">
+              <article class="post-card book-card book-card--cover-only">
+                {{ partial "cover.html" . }}
+                {{ if not .Params.cover }}
+                  <span class="book-cover-fallback">{{ .Title | markdownify }}</span>
+                {{ end }}
               </article>
             </a>
           {{ end }}
         </div>
-        {{ partial "pagination.html" . }}
       </div>
     </div>
     <aside class="posts-sidebar">
-      {{ $bookPages := where .Site.RegularPages "Type" "books" }}
-      {{ $bookTagNames := slice }}
-      {{ $bookCategoryNames := slice }}
-      {{ range $bookPages }}
-        {{ range .Params.tags }}
-          {{ if not (in $bookTagNames .) }}
-            {{ $bookTagNames = $bookTagNames | append . }}
-          {{ end }}
-        {{ end }}
-        {{ range .Params.categories }}
-          {{ if not (in $bookCategoryNames .) }}
-            {{ $bookCategoryNames = $bookCategoryNames | append . }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-      {{ $bookTagNames = sort $bookTagNames }}
-      {{ $bookCategoryNames = sort $bookCategoryNames }}
-
-      {{ if gt (len $bookCategoryNames) 0 }}
-        <h2 class="posts-sidebar__title">Categories</h2>
-        <div class="category-buttons">
-          {{ range $bookCategoryNames }}
-            {{ $categoryName := . }}
-            <a class="button outline" href="{{ (urls.JoinPath "categories" (urlize $categoryName) "/") | absLangURL }}">{{ $categoryName }}</a>
-          {{ end }}
-        </div>
-      {{ end }}
-
-      {{ if gt (len $bookTagNames) 0 }}
-        <div class="posts-sidebar__heading">
-          <h2 class="posts-sidebar__title">Tags</h2>
-          <button class="tags-clear-all hidden" type="button" data-tags-clear>Clear all</button>
-        </div>
-        <label class="tags-search-label" for="book-tags-search">Search tags</label>
-        <div class="tags-search-row">
-          <input
-            id="book-tags-search"
-            class="tags-search"
-            type="search"
-            placeholder="Search tags..."
-            aria-controls="book-tags-list"
-            data-tags-search
-            data-target="#book-tags-list"
-          />
-        </div>
-        <p class="tags-empty hidden" data-tags-empty>No matching tags.</p>
-        <div class="tags-list" id="book-tags-list">
-          {{ range $bookTagNames }}
-            {{ $tagName := . }}
-            <a class="tag-chip" href="{{ (urls.JoinPath "tags" (urlize $tagName) "/") | absLangURL }}" data-tag-chip data-tag-name="{{ urlize $tagName }}" role="button" aria-pressed="false">{{ $tagName }}</a>
-          {{ end }}
-        </div>
-      {{ end }}
+      {{ partial "section-filter-sidebar.html" (dict "site" .Site "section" "books" "label" "book review") }}
     </aside>
   </div>
-  <script>
-    (() => {
-      const search = document.querySelector('[data-tags-search]');
-      if (!search) return;
-      const list = document.querySelector(search.dataset.target || '#book-tags-list');
-      if (!list) return;
-      const items = Array.from(list.querySelectorAll('[data-tag-chip]'));
-      const posts = Array.from(document.querySelectorAll('[data-post-tags]'));
-      const empty = document.querySelector('[data-tags-empty]');
-      const clear = document.querySelector('[data-tags-clear]');
-      const normalize = (value) => value.toLowerCase();
-      const activeTags = new Set();
-      const getPostTags = (post) => (post.dataset.postTags || '').split(',').map((tag) => normalize(tag.trim())).filter(Boolean);
-      const updatePosts = () => {
-        const hasActive = activeTags.size > 0;
-        posts.forEach((post) => {
-          const postTags = getPostTags(post);
-          const show = !hasActive || postTags.some((tag) => activeTags.has(tag));
-          post.classList.toggle('hidden', !show);
-        });
-      };
-      const updateTagList = () => {
-        const query = normalize(search.value.trim());
-        let visibleCount = 0;
-        items.forEach((item) => {
-          const tagName = normalize(item.dataset.tagName || '');
-          const label = normalize(item.textContent || '');
-          const matches = !query || tagName.includes(query) || label.includes(query);
-          const isActive = activeTags.has(tagName);
-          const show = !query || matches || isActive;
-          item.classList.toggle('hidden', !show);
-          item.classList.toggle('tag-chip--active', isActive);
-          item.setAttribute('aria-pressed', isActive ? 'true' : 'false');
-          if (show) visibleCount += 1;
-        });
-        if (empty) empty.classList.toggle('hidden', visibleCount > 0);
-      };
-      const updateClear = () => clear && clear.classList.toggle('hidden', activeTags.size === 0);
-      const update = () => { updatePosts(); updateTagList(); updateClear(); };
-      items.forEach((item) => item.addEventListener('click', (event) => {
-        event.preventDefault();
-        const tagName = normalize(item.dataset.tagName || '');
-        if (!tagName) return;
-        activeTags.has(tagName) ? activeTags.delete(tagName) : activeTags.add(tagName);
-        update();
-      }));
-      search.addEventListener('input', update);
-      if (clear) clear.addEventListener('click', () => { activeTags.clear(); update(); search.focus(); });
-      update();
-    })();
-  </script>
+  {{ partial "section-filter-script.html" . }}
 {{ end }}

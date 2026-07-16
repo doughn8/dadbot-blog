@@ -6,11 +6,11 @@
     <div class="posts-main">
       <div class="posts posts-card-list">
         <div class="posts-grid posts-grid--full-page">
-          {{ range (.Paginate (.Pages.ByDate.Reverse)).Pages }}
+          {{ range .Pages.ByDate.Reverse }}
             {{ partial "section-card.html" . }}
           {{ end }}
         </div>
-        {{ partial "pagination.html" . }}
+
       </div>
     </div>
     <aside class="posts-sidebar">

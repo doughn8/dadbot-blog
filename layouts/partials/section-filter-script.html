@@ -1,14 +1,16 @@
 <script>
   (() => {
-    // Section filters are intentionally lightweight and client-side: they filter only
-    // the cards rendered on the current Hugo page. If archives grow beyond one
-    // page, move high-traffic filters to real Hugo taxonomy/section pages.
+    // Section filters are intentionally lightweight and client-side. Each section list
+    // renders its full section, so every visible filter can reach every matching card.
+    // If a section eventually becomes too large, move high-traffic filters to real
+    // Hugo taxonomy/section pages.
     const chips = Array.from(document.querySelectorAll('[data-filter-chip]'));
     const cards = Array.from(document.querySelectorAll('[data-post-tags], [data-post-categories]'));
     if (!chips.length || !cards.length) return;
     const search = document.querySelector('[data-filters-search]');
     const empty = document.querySelector('[data-tags-empty]');
     const clear = document.querySelector('[data-filters-clear]');
+    const results = document.querySelector('[data-filter-results]');
     const normalize = (value) => (value || '').toLowerCase().trim();
     const active = new Set();
     const getValues = (card, type) => (card.dataset[type === 'tag' ? 'postTags' : 'postCategories'] || '')
@@ -17,13 +19,24 @@
       .filter(Boolean);
     const chipKey = (chip) => `${chip.dataset.filterType}:${normalize(chip.dataset.filterName)}`;
     const updateCards = () => {
+      let visibleCount = 0;
       cards.forEach((card) => {
-        const show = active.size === 0 || Array.from(active).some((key) => {
+        // Multiple selected filters narrow the list: a card must match every selection.
+        const show = active.size === 0 || Array.from(active).every((key) => {
           const [type, name] = key.split(':');
           return getValues(card, type).includes(name);
         });
         card.classList.toggle('hidden', !show);
+        // Set display inline as well, so the filter remains reliable even if a browser
+        // is still holding an older cached stylesheet with a card display rule.
+        if (show) {
+          card.style.removeProperty('display');
+          visibleCount += 1;
+        } else {
+          card.style.setProperty('display', 'none', 'important');
+        }
       });
+      return visibleCount;
     };
     const updateChips = () => {
       const query = normalize(search ? search.value : '');
@@ -43,7 +56,15 @@
       if (empty) empty.classList.toggle('hidden', visibleCount > 0);
       if (clear) clear.classList.toggle('hidden', active.size === 0);
     };
-    const update = () => { updateCards(); updateChips(); };
+    const update = () => {
+      const visibleCount = updateCards();
+      updateChips();
+      if (results) {
+        results.textContent = active.size === 0
+          ? `Showing all ${cards.length} entries.`
+          : `Showing ${visibleCount} matching ${visibleCount === 1 ? 'entry' : 'entries'} of ${cards.length}.`;
+      }
+    };
     chips.forEach((chip) => chip.addEventListener('click', () => {
       const key = chipKey(chip);
       active.has(key) ? active.delete(key) : active.add(key);

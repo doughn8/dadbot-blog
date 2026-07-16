@@ -4,11 +4,18 @@
       {{ with .Content }}<div class="index-content">{{ . }}</div>{{ end }}
       <div class="posts posts-card-list">
         <div class="posts-list-view posts-list-view--posts">
-          {{ range (.Paginate (.Pages.ByDate.Reverse)).Pages }}
-            {{ partial "section-card.html" . }}
+          {{ range .Pages.ByDate.Reverse.GroupByDate "January 2006" }}
+            <section class="posts-month-group">
+              <h2 class="posts-month-heading">{{ .Key }}</h2>
+              <div class="posts-list-view">
+                {{ range .Pages }}
+                  {{ partial "section-card.html" . }}
+                {{ end }}
+              </div>
+            </section>
           {{ end }}
         </div>
-        {{ partial "pagination.html" . }}
+
       </div>
     </div>
     <aside class="posts-sidebar">

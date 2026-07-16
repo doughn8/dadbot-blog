@@ -3,7 +3,7 @@
     <div class="posts-main">
       {{ with .Content }}<div class="index-content">{{ . }}</div>{{ end }}
       <div class="posts posts-card-list news-month-list">
-        {{ $pages := (.Paginate (.Pages.ByDate.Reverse)).Pages }}
+        {{ $pages := .Pages.ByDate.Reverse }}
         {{ range $pages.GroupByDate "January 2006" }}
           <section class="news-month-group">
             <h2 class="news-month-heading">{{ .Key }}</h2>
@@ -14,7 +14,7 @@
             </div>
           </section>
         {{ end }}
-        {{ partial "pagination.html" . }}
+
       </div>
     </div>
     <aside class="posts-sidebar">

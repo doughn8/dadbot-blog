@@ -1,6 +1,7 @@
 {{- $section := .section -}}
 {{- $pages := where .site.RegularPages "Type" $section -}}
 {{- $sectionLabel := .label | default "section" -}}
+{{- $showCategories := eq $section "posts" -}}
 {{- $tagListId := printf "%s-tags-list" $section -}}
 {{- $catListId := printf "%s-categories-list" $section -}}
 {{- $searchId := printf "%s-filter-search" $section -}}
@@ -10,18 +11,17 @@
   {{- range .Params.tags -}}
     {{- if not (in $tagNames .) -}}{{- $tagNames = $tagNames | append . -}}{{- end -}}
   {{- end -}}
-  {{- range .Params.categories -}}
-    {{- if not (in $categoryNames .) -}}{{- $categoryNames = $categoryNames | append . -}}{{- end -}}
+  {{- if $showCategories -}}
+    {{- range .Params.categories -}}
+      {{- if not (in $categoryNames .) -}}{{- $categoryNames = $categoryNames | append . -}}{{- end -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- $tagNames = sort $tagNames -}}
 {{- $categoryNames = sort $categoryNames -}}
 
-{{ if gt (len $categoryNames) 0 }}
-  <div class="posts-sidebar__heading">
-    <h2 class="posts-sidebar__title">Categories</h2>
-    <button class="tags-clear-all hidden" type="button" data-filters-clear>Clear all</button>
-  </div>
+{{ if and $showCategories (gt (len $categoryNames) 0) }}
+  <h2 class="posts-sidebar__title">Categories</h2>
   <div class="category-buttons" id="{{ $catListId }}" aria-label="{{ $sectionLabel }} categories">
     {{ range $categoryNames }}
       {{ $categoryName := . }}
@@ -30,16 +30,21 @@
   </div>
 {{ end }}
 
+<p class="filter-results" data-filter-results aria-live="polite"></p>
+
 {{ if gt (len $tagNames) 0 }}
-  <h2 class="posts-sidebar__title">Tags</h2>
-  <label class="tags-search-label" for="{{ $searchId }}">Search {{ $sectionLabel }} tags/categories</label>
+  <div class="posts-sidebar__heading">
+    <h2 class="posts-sidebar__title">Tags</h2>
+    <button class="tags-clear-all hidden" type="button" data-filters-clear>Clear all</button>
+  </div>
+  <label class="tags-search-label" for="{{ $searchId }}">Search {{ $sectionLabel }} tags{{ if $showCategories }}/categories{{ end }}</label>
   <div class="tags-search-row">
     <input
       id="{{ $searchId }}"
       class="tags-search"
       type="search"
       placeholder="Search filters..."
-      aria-controls="{{ $tagListId }} {{ $catListId }}"
+      aria-controls="{{ $tagListId }}{{ if $showCategories }} {{ $catListId }}{{ end }}"
       data-filters-search
     />
   </div>
