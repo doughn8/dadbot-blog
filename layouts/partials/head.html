@@ -36,7 +36,7 @@
 
 <!-- Custom CSS to override theme properties (/static/style.css) -->
 {{ if (fileExists "static/style.css") -}}
-  <link rel="stylesheet" href="{{ "style.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "style.css" | absURL }}?v={{ md5 (readFile "static/style.css") }}">
 {{- end }}
 
 <!-- Icons -->
