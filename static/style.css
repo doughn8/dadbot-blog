@@ -1513,3 +1513,29 @@
   }
 }
 
+/* Keep long previous/next post titles inside narrow mobile viewports. */
+@media (max-width: 600px) {
+  .pagination__buttons,
+  .pagination__buttons .button,
+  .pagination__buttons .button a,
+  .pagination__buttons .button__text {
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .pagination__buttons .button {
+    flex: 1 1 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .pagination__buttons .button a {
+    width: 100%;
+  }
+
+  .pagination__buttons .button__text {
+    flex: 1 1 auto;
+  }
+}
+
