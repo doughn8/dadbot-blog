@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dadbot Conspiracy Corner fallback artwork</title>
+  <desc id="desc">Magenta terminal-style abstract evidence web made from ASCII-like links and brackets.</desc>
+  <defs>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 7.5H8" stroke="#f5f0dc" stroke-opacity=".045"/></pattern>
+    <pattern id="grain" width="43" height="37" patternUnits="userSpaceOnUse"><circle cx="9" cy="11" r="1.2" fill="#ee72f1" opacity=".16"/><circle cx="34" cy="29" r="1" fill="#78e2a0" opacity=".12"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="#160d18"/>
+  <rect width="1600" height="900" fill="url(#grain)"/>
+  <g fill="none" stroke-linecap="square">
+    <path d="M280 225H430M280 225V675M280 675H430M1320 225H1170M1320 225V675M1320 675H1170" stroke="#f5f0dc" stroke-width="8" opacity=".38"/>
+    <g stroke="#ee72f1" stroke-width="12" filter="url(#glow)">
+      <path d="M470 590L610 330L800 450L990 290L1130 575L800 450L470 590M610 330L990 290M470 590L1130 575"/>
+      <circle cx="470" cy="590" r="24"/><circle cx="610" cy="330" r="24"/><circle cx="800" cy="450" r="31"/><circle cx="990" cy="290" r="24"/><circle cx="1130" cy="575" r="24"/>
+    </g>
+    <g stroke="#78e2a0" stroke-width="8" opacity=".9"><path d="M748 450h104M800 398v104"/><path d="M555 695h490" stroke-dasharray="16 22"/></g>
+    <path d="M520 205H1080M520 690H1080" stroke="#ee72f1" stroke-width="3" stroke-dasharray="5 18" opacity=".35"/>
+    <path d="M405 380l-28 28 28 28M1195 465l28 28-28 28" stroke="#f0c36a" stroke-width="7" opacity=".72"/>
+  </g>
+  <rect width="1600" height="900" fill="url(#scan)"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dadbot News fallback artwork</title>
+  <desc id="desc">Green terminal-style abstract news signal made from ASCII-like lines and brackets.</desc>
+  <defs>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 7.5H8" stroke="#d9fbe1" stroke-opacity=".045"/></pattern>
+    <pattern id="grain" width="37" height="31" patternUnits="userSpaceOnUse"><circle cx="5" cy="9" r="1" fill="#78e2a0" opacity=".12"/><circle cx="29" cy="23" r="1" fill="#f0c36a" opacity=".1"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="#0b1710"/>
+  <rect width="1600" height="900" fill="url(#grain)"/>
+  <g fill="none" stroke-linecap="square">
+    <path d="M250 250H410M250 250V650M250 650H410M1350 250H1190M1350 250V650M1350 650H1190" stroke="#d9fbe1" stroke-width="8" opacity=".42"/>
+    <g stroke="#78e2a0" filter="url(#glow)">
+      <path d="M460 450H570L625 340L705 570L790 280L885 610L950 450H1140" stroke-width="16"/>
+      <circle cx="460" cy="450" r="18" stroke-width="9"/><circle cx="1140" cy="450" r="18" stroke-width="9"/>
+    </g>
+    <path d="M520 690H1080M590 735H1010" stroke="#f0c36a" stroke-width="8" stroke-dasharray="18 22" opacity=".72"/>
+    <path d="M415 205H1185M415 695H1185" stroke="#78e2a0" stroke-width="3" stroke-dasharray="4 18" opacity=".35"/>
+    <g stroke="#d9fbe1" stroke-width="6" opacity=".48"><path d="M505 300l-30 30 30 30M1095 300l30 30-30 30"/><path d="M505 540l-30 30 30 30M1095 540l30 30-30 30"/></g>
+  </g>
+  <rect width="1600" height="900" fill="url(#scan)"/>
+</svg>

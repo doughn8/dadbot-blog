@@ -198,7 +198,6 @@
 
 .post-card-link:hover .post-card {
   transform: translateY(-2px);
-  background: color-mix(in srgb, var(--accent) 7%, var(--background) 93%);
   box-shadow: 4px 4px 0 color-mix(in srgb, var(--accent) 45%, transparent);
 }
 
@@ -366,6 +365,7 @@
   height: 70px;
   aspect-ratio: auto;
   object-fit: cover;
+  object-position: center;
   border: 0;
   border-bottom: 1px solid var(--accent);
   border-radius: 0;
@@ -467,6 +467,16 @@
   background: #17241f;
 }
 
+/* News, Blog and Conspiracy article headers use the 16:9 master responsively.
+   Card strips retain their compact crops, and Book Review covers remain portrait. */
+.post:not(.on-list) > .post-cover.article-cover,
+.post:not(.on-list) > a .post-cover.article-cover {
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+
 .post:not(.on-list) > figure:has(.post-cover) {
   display: block;
   width: min(100%, 460px);
@@ -487,6 +497,18 @@
   padding: 0;
   margin: 0 auto;
   background: #17241f;
+}
+
+.post:not(.on-list) > figure:has(.article-cover) {
+  width: 100%;
+}
+
+.post:not(.on-list) > figure:has(.article-cover) .article-cover {
+  height: auto;
+  max-height: none;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
 }
 
 .post:not(.on-list) > figure:has(.post-cover) figcaption {
@@ -584,6 +606,41 @@
 .content > .blog-teaser .post-card {
   aspect-ratio: 2 / 3;
   min-height: 0;
+}
+
+/* Keep homepage News and Blog card spacing independent of theme margins. */
+.content > .latest-news.recent-posts .post-card-content,
+.content > .blog-teaser .post-card-content {
+  padding: 0.75rem;
+}
+
+.content > .latest-news.recent-posts .post-card-meta,
+.content > .blog-teaser .post-card-meta {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+.content > .latest-news.recent-posts .post-card-meta .post-date,
+.content > .blog-teaser .post-card-meta .post-date {
+  margin-right: 0;
+}
+
+.content > .latest-news.recent-posts .post-card-title,
+.content > .latest-news.recent-posts .post-tags,
+.content > .blog-teaser .post-card-title,
+.content > .blog-teaser .post-tags {
+  margin: 0;
+}
+
+.content > .latest-news.recent-posts .post-card .read-more,
+.content > .blog-teaser .post-card .read-more {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto 0 0;
 }
 
 /* Keep longer headlines readable without letting one card outgrow its row. */
@@ -853,7 +910,7 @@
   background: transparent;
 }
 
-.tag-chip:hover {
+.tags-list .tag-chip:hover {
   background: var(--accent);
   color: #ffffff;
 }
@@ -1049,6 +1106,11 @@
   .post:not(.on-list) > .post-cover,
   .post:not(.on-list) > a .post-cover {
     height: 130px;
+  }
+
+  .post:not(.on-list) > .post-cover.article-cover,
+  .post:not(.on-list) > a .post-cover.article-cover {
+    height: auto;
   }
   
   .post-card-title {

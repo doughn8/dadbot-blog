@@ -5,9 +5,16 @@
   <div class="posts-with-sidebar conspiracy-page">
     <div class="posts-main">
       <div class="posts posts-card-list">
-        <div class="posts-grid posts-grid--full-page">
-          {{ range .Pages.ByDate.Reverse }}
-            {{ partial "section-card.html" . }}
+        <div class="posts-list-view posts-list-view--posts">
+          {{ range .Pages.ByDate.Reverse.GroupByDate "January 2006" }}
+            <section class="posts-month-group">
+              <h2 class="posts-month-heading">{{ .Key }}</h2>
+              <div class="posts-list-view">
+                {{ range .Pages }}
+                  {{ partial "section-card.html" . }}
+                {{ end }}
+              </div>
+            </section>
           {{ end }}
         </div>
 

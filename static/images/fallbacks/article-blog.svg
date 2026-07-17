@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dadbot Blog fallback artwork</title>
+  <desc id="desc">Green terminal-style abstract thought path made from ASCII-like braces and nodes.</desc>
+  <defs>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 7.5H8" stroke="#f5f0dc" stroke-opacity=".04"/></pattern>
+    <pattern id="grain" width="41" height="29" patternUnits="userSpaceOnUse"><path d="M7 7h3M31 20h2" stroke="#78e2a0" stroke-opacity=".14" stroke-width="2"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="#0b1710"/>
+  <rect width="1600" height="900" fill="url(#grain)"/>
+  <g fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M390 245C330 245 330 315 330 370S285 450 245 450c40 0 85 25 85 80s0 125 60 125M1210 245c60 0 60 70 60 125s45 80 85 80c-40 0-85 25-85 80s0 125-60 125" stroke="#f5f0dc" stroke-width="14" opacity=".55"/>
+    <g stroke="#78e2a0" stroke-width="13" filter="url(#glow)">
+      <path d="M465 450H610L695 345L800 555L905 345L990 450H1135"/>
+      <circle cx="465" cy="450" r="20"/><circle cx="695" cy="345" r="20"/><circle cx="800" cy="555" r="20"/><circle cx="905" cy="345" r="20"/><circle cx="1135" cy="450" r="20"/>
+    </g>
+    <path d="M635 690H965" stroke="#f0c36a" stroke-width="9" stroke-dasharray="12 19" opacity=".8"/>
+    <path d="M510 215H1090M510 685H1090" stroke="#78e2a0" stroke-width="3" stroke-dasharray="5 17" opacity=".32"/>
+    <g stroke="#f5f0dc" stroke-width="5" opacity=".42"><circle cx="590" cy="280" r="8"/><circle cx="1010" cy="600" r="8"/><path d="M530 610h70M1000 280h70"/></g>
+  </g>
+  <rect width="1600" height="900" fill="url(#scan)"/>
+</svg>

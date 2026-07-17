@@ -7,9 +7,10 @@
 /resources/_gen/
 .hugo_build.lock
 
-# Local tooling and backups
+# Local tooling, Hermes plans, and backups
 /.tools/
 /.hermes/
+/implementation-plans/
 /.hermes-backups/
 
 # Obsidian local workspace settings

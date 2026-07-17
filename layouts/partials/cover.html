@@ -9,34 +9,43 @@
 {{- end -}}
 
 {{- $cover := false -}}
+{{- $fallbackAlt := "" -}}
+{{- $isEligibleArticle := and $ctx.IsPage (in (slice "news" "posts" "conspiracy-corner") $ctx.Section) -}}
 {{- if index $ctx.Params "cover" -}}
   {{- if $ctx.Resources.GetMatch $ctx.Params.Cover -}}
     {{- $cover = ($ctx.Resources.GetMatch $ctx.Params.Cover).RelPermalink -}}
   {{- else -}}
     {{- $cover = relURL $ctx.Params.Cover -}}
   {{- end -}}
-{{- else if $.Site.Params.AutoCover -}}
-  {{- if (not $ctx.Params.Cover) -}}
-    {{- if $ctx.Resources.GetMatch "cover.*" -}}
-      {{- $cover = ($ctx.Resources.GetMatch "cover.*").RelPermalink -}}
-    {{- end -}}
+{{- else if $isEligibleArticle -}}
+  {{- if eq $ctx.Section "news" -}}
+    {{- $cover = relURL "/images/fallbacks/article-news.svg" -}}
+    {{- $fallbackAlt = "Dadbot News fallback artwork in a green terminal style" -}}
+  {{- else if eq $ctx.Section "posts" -}}
+    {{- $cover = relURL "/images/fallbacks/article-blog.svg" -}}
+    {{- $fallbackAlt = "Dadbot Blog fallback artwork in a green terminal style" -}}
+  {{- else if eq $ctx.Section "conspiracy-corner" -}}
+    {{- $cover = relURL "/images/fallbacks/article-conspiracy.svg" -}}
+    {{- $fallbackAlt = "Dadbot Conspiracy Corner fallback artwork in a magenta terminal style" -}}
   {{- end -}}
 {{- end -}}
 
 {{- if $cover -}}
-  {{- $alt := or $ctx.Params.coverAlt $ctx.Params.hero_alt $ctx.Title | plainify | default "Dadbot post cover" -}}
+  {{- $alt := or $ctx.Params.coverAlt $ctx.Params.hero_alt $fallbackAlt $ctx.Title | plainify | default "Dadbot post cover" -}}
+  {{- $coverClass := cond $isEligibleArticle "post-cover article-cover" "post-cover" -}}
+  {{- $title := $ctx.Params.CoverCredit | plainify -}}
   {{ if and $ctx.Params.coverCaption $isCoverCaptionEnabled }}
     <figure>
       <img src="{{ $cover }}"
-      class="post-cover"
+      class="{{ $coverClass }}"
       alt="{{ $alt }}"
-      title="{{ $ctx.Params.CoverCredit | plainify | default "Generated ASCII cover" }}" />
+      {{- with $title }} title="{{ . }}"{{ end }} />
       <figcaption class="right">{{ $ctx.Params.coverCaption | safeHTML }}</figcaption>
     </figure>
   {{ else }}
     <img src="{{ $cover }}"
-      class="post-cover"
+      class="{{ $coverClass }}"
       alt="{{ $alt }}"
-      title="{{ $ctx.Params.CoverCredit | plainify | default "Generated ASCII cover" }}" />
+      {{- with $title }} title="{{ . }}"{{ end }} />
   {{ end }}
 {{- end }}

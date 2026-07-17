@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "output": {
+    "width": 1600,
+    "height": 900,
+    "format": "svg",
+    "default_root": "static/images",
+    "approved_roots": [
+      "static/images",
+      "06-Design/article-image-system-preview/assets"
+    ]
+  },
+  "eligibility": {
+    "sections": ["news", "posts", "conspiracy-corner"],
+    "unsupported_sections": ["books", "hot-takes"],
+    "extension": ".md",
+    "exclude_names": ["_index.md"]
+  },
+  "visual_identity": {
+    "construction": "A terminal-built illustration made from large, deliberate ASCII symbols and monospaced marks",
+    "background": "charcoal black",
+    "safe_area": "Keep the complete focal metaphor inside the central 70 percent of the 1600 by 900 canvas",
+    "composition": "one large visual metaphor, generous negative space, no decorative keyword collage",
+    "surface": "subtle scanlines and light terminal texture",
+    "light": "restrained phosphor glow",
+    "delivery": "finished image only"
+  },
+  "negative": [
+    "no headline or paragraphs",
+    "no labels or fake interface copy",
+    "no logos or watermark",
+    "no presentation board or mockup",
+    "no photorealistic people or stock imagery",
+    "no dense code",
+    "no excessive cyberpunk styling"
+  ],
+  "sections": {
+    "news": {
+      "primary": "#76f29a",
+      "support": "#f4ecd8",
+      "accent": "#f2b84b",
+      "signal": "#d85aa7",
+      "background": "#111512",
+      "distortion": "minimal; a tiny magenta signal may be used"
+    },
+    "posts": {
+      "primary": "#76f29a",
+      "support": "#f4ecd8",
+      "accent": "#f2b84b",
+      "signal": "#d85aa7",
+      "background": "#111512",
+      "distortion": "minimal; magenta must be very sparse"
+    },
+    "conspiracy-corner": {
+      "primary": "#e45aad",
+      "support": "#f4ecd8",
+      "accent": "#f2b84b",
+      "signal": "#9cff57",
+      "background": "#151016",
+      "distortion": "slightly stronger but restrained terminal distortion"
+    }
+  },
+  "fallback_assets": {
+    "news": "/images/fallbacks/article-news.svg",
+    "posts": "/images/fallbacks/article-blog.svg",
+    "conspiracy-corner": "/images/fallbacks/article-conspiracy.svg"
+  },
+  "external_adapter": {
+    "enabled_env": "DADBOT_ARTICLE_IMAGE_EXTERNAL",
+    "command_env": "DADBOT_ARTICLE_IMAGE_COMMAND",
+    "provider_env": "DADBOT_ARTICLE_IMAGE_PROVIDER",
+    "model_env": "DADBOT_ARTICLE_IMAGE_MODEL",
+    "command_contract": "Command is split without a shell. Use {prompt_file}, {output}, {width}, {height}, {provider}, and {model} placeholders.",
+    "secret_env_names": ["DADBOT_ARTICLE_IMAGE_API_KEY"]
+  }
+}
