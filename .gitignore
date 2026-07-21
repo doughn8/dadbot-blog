@@ -28,6 +28,11 @@
 /99-Archive/
 /templates/
 
+# Python image-system environments and bytecode
+__pycache__/
+*.py[cod]
+/.venv-image-system/
+
 # Common temporary files
 *.tmp
 *.bak

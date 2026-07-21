@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "palettes": [
+    {
+      "id": "news-cyber-teal-v1",
+      "colours": ["#111827", "#164e63", "#0f766e", "#22d3ee", "#76f29a", "#f2b84b", "#f4ecd8", "#d85aa7"]
+    },
+    {
+      "id": "blog-retro-green-v1",
+      "colours": ["#111512", "#1d5b3c", "#49965b", "#76f29a", "#f2b84b", "#f4ecd8", "#bc4e4e", "#2a3c30"]
+    },
+    {
+      "id": "blog-retro-bright-v1",
+      "colours": ["#152238", "#4c2a5c", "#29ab87", "#76f29a", "#f2b84b", "#e45aad", "#f4ecd8", "#44688c"]
+    },
+    {
+      "id": "conspiracy-signal-v1",
+      "colours": ["#161018", "#54265c", "#97378a", "#e45aad", "#9cff57", "#f2b84b", "#f4ecd8", "#493958"]
+    },
+    {
+      "id": "books-print-v1",
+      "colours": ["#1b1720", "#563d65", "#a05b74", "#e45aad", "#f2b84b", "#f4ecd8", "#76f29a", "#4b6572"]
+    }
+  ],
+  "textures": [
+    {"id": "fine-confetti-v1", "vertical_run_px": 2, "horizontal_carry": 0.18, "grain": 10},
+    {"id": "circuit-noise-v1", "vertical_run_px": 2, "horizontal_carry": 0.24, "grain": 8},
+    {"id": "cosmic-static-v1", "vertical_run_px": 3, "horizontal_carry": 0.14, "grain": 12},
+    {"id": "print-dot-v1", "vertical_run_px": 3, "horizontal_carry": 0.22, "grain": 7}
+  ],
+  "section_palettes": {
+    "news": ["news-cyber-teal-v1"],
+    "posts": ["blog-retro-green-v1", "blog-retro-bright-v1"],
+    "conspiracy-corner": ["conspiracy-signal-v1"],
+    "books": ["books-print-v1"]
+  },
+  "section_textures": {
+    "news": ["circuit-noise-v1", "fine-confetti-v1"],
+    "posts": ["fine-confetti-v1", "print-dot-v1"],
+    "conspiracy-corner": ["cosmic-static-v1"],
+    "books": ["print-dot-v1", "fine-confetti-v1"]
+  }
+}

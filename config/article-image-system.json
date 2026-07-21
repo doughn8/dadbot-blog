@@ -60,6 +60,20 @@
       "distortion": "slightly stronger but restrained terminal distortion"
     }
   },
+  "autostereogram": {
+    "schema_version": 1,
+    "renderer_version": "2.0.0",
+    "default_convention": "parallel",
+    "supported_sections": ["news", "posts", "conspiracy-corner", "books"],
+    "candidate_root": "06-Design/article-image-system-preview/autostereograms",
+    "width": 1600,
+    "height": 900,
+    "repeat_width_px": 128,
+    "maximum_disparity_px": 18,
+    "safe_area": 0.70,
+    "generation_mode": "private-design-candidate-only",
+    "public_association_requires_approval": true
+  },
   "fallback_assets": {
     "news": "/images/fallbacks/article-news.svg",
     "posts": "/images/fallbacks/article-blog.svg",
