@@ -1,9 +1,7 @@
 {{ define "main" }}
-  <div class="conspiracy-standalone">
-    {{ with .Content }}<div class="index-content conspiracy-intro">{{ . }}</div>{{ end }}
-  </div>
   <div class="posts-with-sidebar conspiracy-page">
     <div class="posts-main">
+      {{ partial "section-intro.html" . }}
       <div class="posts posts-card-list">
         <div class="posts-list-view posts-list-view--posts">
           {{ range .Pages.ByDate.Reverse.GroupByDate "January 2006" }}

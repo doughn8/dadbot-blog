@@ -1,11 +1,7 @@
 {{ define "main" }}
   <div class="posts-with-sidebar">
     <div class="posts-main">
-      {{ with .Content }}
-        <div class="index-content">
-          {{ . }}
-        </div>
-      {{ end }}
+      {{ partial "section-intro.html" . }}
 
       <div class="posts books-section posts-card-list">
         <div class="posts-grid posts-grid--full-page">

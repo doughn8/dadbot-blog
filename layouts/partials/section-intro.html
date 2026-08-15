@@ -1,0 +1,9 @@
+{{- with .Content -}}
+  {{- $modifier := "section-intro--green" -}}
+  {{- if eq $.Section "conspiracy-corner" -}}
+    {{- $modifier = "section-intro--conspiracy" -}}
+  {{- end -}}
+  <div class="section-intro {{ $modifier }}">
+    <div class="section-intro__content">{{ . }}</div>
+  </div>
+{{- end -}}

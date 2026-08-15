@@ -1,10 +1,6 @@
 {{ define "main" }}
   <div class="posts-main">
-    {{ with .Content }}
-      <div class="index-content hot-takes-content">
-        {{ . }}
-      </div>
-    {{ end }}
+    {{ partial "section-intro.html" . }}
     {{ with .Params.hotTakes }}
       {{ $sorted := sort . "date" "desc" }}
       {{ range $monthIndex, $month := $sorted }}

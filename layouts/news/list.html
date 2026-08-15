@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="posts-with-sidebar news-page">
     <div class="posts-main">
-      {{ with .Content }}<div class="index-content">{{ . }}</div>{{ end }}
+      {{ partial "section-intro.html" . }}
       <div class="posts posts-card-list news-month-list">
         {{ $pages := .Pages.ByDate.Reverse }}
         {{ range $pages.GroupByDate "January 2006" }}

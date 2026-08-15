@@ -184,16 +184,80 @@
   border-bottom-color: var(--accent);
 }
 
-.conspiracy-page .post-card,
-.conspiracy-standalone {
-  background: color-mix(in srgb, #c084fc 7%, var(--background) 93%);
-  border-color: color-mix(in srgb, #c084fc 75%, transparent);
+/* ========================================
+   SECTION INTRO BOXES
+   ======================================== */
+
+.section-intro {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 0 0 1.5rem;
+  padding: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
-.conspiracy-intro {
-  border: 1px solid color-mix(in srgb, #c084fc 75%, transparent);
-  padding: 1rem;
-  margin-bottom: 1.5rem;
+.section-intro--green {
+  border-color: color-mix(in srgb, #78e2a0 75%, transparent);
+  background: color-mix(in srgb, #78e2a0 7%, var(--background) 93%);
+}
+
+.section-intro--conspiracy {
+  border-color: color-mix(in srgb, #c084fc 75%, transparent);
+  background: color-mix(in srgb, #c084fc 7%, var(--background) 93%);
+}
+
+.section-intro__content {
+  min-width: 0;
+}
+
+.section-intro__content > :first-child {
+  margin-top: 0;
+}
+
+.section-intro__content > :last-child {
+  margin-bottom: 0;
+}
+
+.section-intro :where(h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, figure, pre, table) {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.section-intro :where(a, code) {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.section-intro :where(img, video, iframe, svg) {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-intro pre,
+.section-intro table {
+  overflow-x: auto;
+}
+
+.section-intro pre,
+.section-intro pre code {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.section-intro table {
+  display: block;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.conspiracy-page .post-card {
+  background: color-mix(in srgb, #c084fc 7%, var(--background) 93%);
+  border-color: color-mix(in srgb, #c084fc 75%, transparent);
 }
 
 .post-card-link:hover .post-card {
@@ -1049,6 +1113,10 @@
 
 /* Mobile */
 @media (max-width: 600px) {
+  .section-intro {
+    max-width: calc(100vw - 40px);
+  }
+
   .welcome-content h1 {
     font-size: 1.8rem;
   }
