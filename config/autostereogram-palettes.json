@@ -6,6 +6,14 @@
       "colours": ["#111827", "#164e63", "#0f766e", "#22d3ee", "#76f29a", "#f2b84b", "#f4ecd8", "#d85aa7"]
     },
     {
+      "id": "news-sunrise-signal-v1",
+      "colours": ["#14121f", "#243b6b", "#e05a47", "#ff8a5b", "#ffd166", "#20c9b5", "#f7f0dc", "#ee5da2"]
+    },
+    {
+      "id": "news-electric-blue-v1",
+      "colours": ["#08152b", "#234bc5", "#2fd9ff", "#70f0c1", "#b7f34a", "#f8f4e8", "#db4dd9", "#ff9f43"]
+    },
+    {
       "id": "blog-retro-green-v1",
       "colours": ["#111512", "#1d5b3c", "#49965b", "#76f29a", "#f2b84b", "#f4ecd8", "#bc4e4e", "#2a3c30"]
     },
@@ -14,8 +22,24 @@
       "colours": ["#152238", "#4c2a5c", "#29ab87", "#76f29a", "#f2b84b", "#e45aad", "#f4ecd8", "#44688c"]
     },
     {
+      "id": "blog-sunset-pop-v1",
+      "colours": ["#211329", "#47306b", "#e45aad", "#ff7b54", "#f2cf5b", "#35c9b5", "#f4ecd8", "#2f6b4f"]
+    },
+    {
+      "id": "blog-arcade-violet-v1",
+      "colours": ["#10152f", "#5637a8", "#9955e8", "#35d7d0", "#9cff57", "#ffd34d", "#f05aa6", "#f4ecd8"]
+    },
+    {
       "id": "conspiracy-signal-v1",
       "colours": ["#161018", "#54265c", "#97378a", "#e45aad", "#9cff57", "#f2b84b", "#f4ecd8", "#493958"]
+    },
+    {
+      "id": "conspiracy-ultraviolet-v1",
+      "colours": ["#100a18", "#41206b", "#8338b7", "#ff4fc3", "#39d9e6", "#a7ff4f", "#f2b84b", "#f4ecd8"]
+    },
+    {
+      "id": "conspiracy-acid-noir-v1",
+      "colours": ["#090d0b", "#183c2d", "#8ee53f", "#6f2f91", "#e43f9b", "#ff8c42", "#47c8d8", "#f4ecd8"]
     },
     {
       "id": "books-print-v1",
@@ -23,21 +47,22 @@
     }
   ],
   "textures": [
-    {"id": "fine-confetti-v1", "vertical_run_px": 2, "horizontal_carry": 0.18, "grain": 10},
-    {"id": "circuit-noise-v1", "vertical_run_px": 2, "horizontal_carry": 0.24, "grain": 8},
-    {"id": "cosmic-static-v1", "vertical_run_px": 3, "horizontal_carry": 0.14, "grain": 12},
-    {"id": "print-dot-v1", "vertical_run_px": 3, "horizontal_carry": 0.22, "grain": 7}
+    {"id": "fine-confetti-v1", "style": "confetti", "vertical_run_px": 2, "horizontal_carry": 0.18, "grain": 10},
+    {"id": "circuit-noise-v1", "style": "circuit", "vertical_run_px": 2, "horizontal_carry": 0.24, "grain": 8},
+    {"id": "cosmic-static-v1", "style": "cosmic", "vertical_run_px": 2, "horizontal_carry": 0.08, "grain": 16},
+    {"id": "print-dot-v1", "style": "halftone", "vertical_run_px": 3, "horizontal_carry": 0.22, "grain": 7},
+    {"id": "arcade-pixels-v1", "style": "arcade", "vertical_run_px": 2, "horizontal_carry": 0.10, "grain": 14}
   ],
   "section_palettes": {
-    "news": ["news-cyber-teal-v1"],
-    "posts": ["blog-retro-green-v1", "blog-retro-bright-v1"],
-    "conspiracy-corner": ["conspiracy-signal-v1"],
+    "news": ["news-cyber-teal-v1", "news-sunrise-signal-v1", "news-electric-blue-v1"],
+    "posts": ["blog-retro-green-v1", "blog-retro-bright-v1", "blog-sunset-pop-v1", "blog-arcade-violet-v1"],
+    "conspiracy-corner": ["conspiracy-signal-v1", "conspiracy-ultraviolet-v1", "conspiracy-acid-noir-v1"],
     "books": ["books-print-v1"]
   },
   "section_textures": {
-    "news": ["circuit-noise-v1", "fine-confetti-v1"],
-    "posts": ["fine-confetti-v1", "print-dot-v1"],
-    "conspiracy-corner": ["cosmic-static-v1"],
-    "books": ["print-dot-v1", "fine-confetti-v1"]
+    "news": ["circuit-noise-v1", "fine-confetti-v1", "arcade-pixels-v1"],
+    "posts": ["fine-confetti-v1", "print-dot-v1", "arcade-pixels-v1"],
+    "conspiracy-corner": ["cosmic-static-v1", "circuit-noise-v1", "print-dot-v1"],
+    "books": ["print-dot-v1", "fine-confetti-v1", "cosmic-static-v1"]
   }
 }

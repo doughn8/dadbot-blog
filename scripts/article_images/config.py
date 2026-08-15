@@ -13,8 +13,17 @@ _ALLOWED_GENERATORS = {
     "document",
     "microchip",
     "open-book",
+    "piggy-bank",
+    "pyramid",
+    "gavel",
+    "church",
+    "megaphone",
+    "newspaper",
+    "terminal",
+    "signpost",
 }
 _SUPPORTED_SECTIONS = {"news", "posts", "conspiracy-corner", "books"}
+_TEXTURE_STYLES = {"confetti", "circuit", "cosmic", "halftone", "arcade"}
 _SYSTEM_KEYS = {
     "schema_version",
     "renderer_version",
@@ -225,7 +234,7 @@ def load_autostereogram_config(root: Path) -> AutostereogramConfig:
     textures = _mapping_by_id(
         palettes_data["textures"],
         "textures",
-        {"id", "vertical_run_px", "horizontal_carry", "grain"},
+        {"id", "style", "vertical_run_px", "horizontal_carry", "grain"},
     )
     for identifier, entry in palettes.items():
         colours = _text_list(entry["colours"], f"palette {identifier} colours")
@@ -237,9 +246,12 @@ def load_autostereogram_config(root: Path) -> AutostereogramConfig:
         ):
             raise ValueError(f"palette {identifier} requires at least four hexadecimal colours")
     for identifier, entry in textures.items():
+        style = _text(entry["style"], f"texture {identifier} style")
         run = _integer(entry["vertical_run_px"], f"texture {identifier} vertical_run_px")
         carry = _number(entry["horizontal_carry"], f"texture {identifier} horizontal_carry")
         grain = _integer(entry["grain"], f"texture {identifier} grain")
+        if style not in _TEXTURE_STYLES:
+            raise ValueError(f"texture {identifier} uses an unsupported style")
         if run not in (1, 2, 3, 4) or not 0 <= carry <= 0.4 or not 0 <= grain <= 20:
             raise ValueError(f"texture {identifier} has parameters outside safe bounds")
 

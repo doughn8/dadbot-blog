@@ -440,7 +440,11 @@ def destination_for(article: Article, *, root: Path = ROOT, output_dir: Path | N
     if default_root not in approved_roots:
         raise OutputError("default output directory is not a configured approved output root")
     cover = article.frontmatter.get("cover")
-    if isinstance(cover, str) and cover.strip():
+    if (
+        isinstance(cover, str)
+        and cover.strip()
+        and Path(cover).suffix.casefold() == ".svg"
+    ):
         cover_path = Path(cover.lstrip("/"))
         destination = root / "static" / cover_path
     else:

@@ -28,6 +28,7 @@ from article_images.source import SourceEligibilityError, build_article_packet
 from article_images.depth_maps import generate_depth_map
 from article_images.planner import build_render_spec
 from article_images.stereogram import render_autostereogram, separation_map
+from article_images.textures import generate_texture
 from article_images.qa import validate_autostereogram
 from article_images.pipeline import (
     CandidateOutputError,
@@ -64,7 +65,7 @@ class AutostereogramCoreTests(unittest.TestCase):
 
     def test_config_analysis_selection_and_seed_form_one_deterministic_slice(self) -> None:
         config = load_autostereogram_config(REPO)
-        self.assertEqual(config.renderer_version, "2.0.0")
+        self.assertEqual(config.renderer_version, "2.1.0")
         self.assertEqual(config.default_convention, "parallel")
         self.assertNotIn("hot-takes", config.supported_sections)
 
@@ -80,6 +81,214 @@ class AutostereogramCoreTests(unittest.TestCase):
         selection = select_hidden_object(packet, analysis, config, seed=seed)
         self.assertEqual(selection.hidden_object_id, "football-v1")
         self.assertEqual(selection.depth_map_id, "football-v1")
+
+    def test_public_article_sections_offer_real_visual_variety(self) -> None:
+        config = load_autostereogram_config(REPO)
+
+        for section in ("news", "posts", "conspiracy-corner"):
+            with self.subTest(section=section):
+                palette_ids = config.section_palettes[section]
+                texture_ids = config.section_textures[section]
+                texture_styles = {
+                    config.textures[texture_id]["style"]
+                    for texture_id in texture_ids
+                }
+                self.assertGreaterEqual(len(palette_ids), 3)
+                self.assertGreaterEqual(len(texture_ids), 3)
+                self.assertGreaterEqual(len(texture_styles), 3)
+
+    def test_texture_styles_create_distinct_surfaces(self) -> None:
+        config = load_autostereogram_config(REPO)
+        packet = self.packet()
+        analysis = analyse_article(packet, config)
+        selection = select_hidden_object(packet, analysis, config, seed=123)
+        base_spec = build_render_spec(
+            packet,
+            analysis,
+            selection,
+            config,
+            seed=123,
+            variant_number=0,
+        )
+        styles = ("confetti", "circuit", "cosmic", "halftone", "arcade")
+        matching_parameters = {
+            style: {
+                "style": style,
+                "vertical_run_px": 2,
+                "horizontal_carry": 0.18,
+                "grain": 10,
+            }
+            for style in styles
+        }
+        styled_config = replace(config, textures=matching_parameters)
+
+        fingerprints = {
+            hashlib.sha256(
+                generate_texture(
+                    replace(base_spec, texture_id=style, width=320, height=180),
+                    styled_config,
+                ).tobytes()
+            ).hexdigest()
+            for style in styles
+        }
+
+        self.assertEqual(len(fingerprints), len(styles))
+
+    def test_article_topics_choose_relevant_varied_hidden_objects(self) -> None:
+        config = load_autostereogram_config(REPO)
+        cases = (
+            (
+                self.packet(
+                    article_id="posts:emergency-fund-without-panic",
+                    slug="emergency-fund-without-panic",
+                    title="Emergency Funds Without the Panic",
+                    summary="Build savings for surprise bills without fear.",
+                    category="Finance",
+                    tags=("saving", "budget", "emergency-fund"),
+                    body_excerpt="A small cash buffer can make an unexpected bill manageable.",
+                ),
+                "finance",
+                "piggy-bank-v1",
+            ),
+            (
+                self.packet(
+                    article_id="conspiracy-corner:voynich-manuscript-explained",
+                    section="conspiracy-corner",
+                    slug="voynich-manuscript-explained",
+                    title="The Voynich Manuscript, Explained",
+                    summary="A medieval manuscript that may be a cipher or a hoax.",
+                    category="Historical Mysteries",
+                    tags=("voynich-manuscript", "cipher"),
+                    body_excerpt="Researchers still debate the manuscript's strange script.",
+                ),
+                "books-reading",
+                "open-book-v1",
+            ),
+            (
+                self.packet(
+                    article_id="conspiracy-corner:pyramid-puzzle-ancient-engineering",
+                    section="conspiracy-corner",
+                    slug="pyramid-puzzle-ancient-engineering",
+                    title="The Pyramid Puzzle: Ancient Engineering or Something Else?",
+                    summary="How ancient Egyptian builders may have raised the pyramids.",
+                    category="Ancient Mysteries",
+                    tags=("pyramids", "ancient-engineering"),
+                    body_excerpt="The Great Pyramid at Giza remains an extraordinary engineering achievement.",
+                ),
+                "ancient-engineering",
+                "pyramid-v1",
+            ),
+        )
+
+        for packet, expected_topic, expected_object in cases:
+            with self.subTest(article_id=packet.article_id):
+                analysis = analyse_article(packet, config)
+                seed = derive_article_seed(packet, config.renderer_version, variant_number=0)
+                selection = select_hidden_object(packet, analysis, config, seed=seed)
+                self.assertEqual(analysis.primary_topic, expected_topic)
+                self.assertEqual(selection.hidden_object_id, expected_object)
+
+    def test_repeated_document_topics_choose_distinct_hidden_objects(self) -> None:
+        config = load_autostereogram_config(REPO)
+        cases = (
+            (
+                self.packet(
+                    article_id="news:charlie-kirk-preliminary-hearing",
+                    section="news",
+                    slug="charlie-kirk-preliminary-hearing",
+                    title="What This Week’s Charlie Kirk Court Hearing Will Actually Decide",
+                    summary="The preliminary hearing will decide whether the case proceeds.",
+                    category="Courts",
+                    tags=("court-hearing", "legal-process"),
+                    body_excerpt="The judge will hear arguments at the preliminary hearing.",
+                ),
+                "legal-courts",
+                "gavel-v1",
+            ),
+            (
+                self.packet(
+                    article_id="news:china-pastor-jin-mingri-release",
+                    section="news",
+                    slug="china-pastor-jin-mingri-release",
+                    title="Chinese Underground Church Pastor Freed After U.S.-China Pressure",
+                    summary="An underground church pastor has been released.",
+                    category="World",
+                    tags=("underground-church", "religious-freedom"),
+                    body_excerpt="Pastor Jin Mingri led an unregistered Christian church.",
+                ),
+                "faith-religion",
+                "church-v1",
+            ),
+            (
+                self.packet(
+                    article_id="news:germany-afd-erfurt-protests",
+                    section="news",
+                    slug="germany-afd-erfurt-protests",
+                    title="What Happened at the AfD Conference Protests in Erfurt",
+                    summary="Protesters gathered outside the party conference.",
+                    category="Europe",
+                    tags=("protests", "demonstration"),
+                    body_excerpt="The demonstration and counter-protest remained under police supervision.",
+                ),
+                "civic-protest",
+                "megaphone-v1",
+            ),
+            (
+                self.packet(
+                    article_id="news:how-dadbot-will-cover-news",
+                    section="news",
+                    slug="how-dadbot-will-cover-news",
+                    title="How Dadbot Will Cover News",
+                    summary="An editorial policy for fair and useful reporting.",
+                    category="Dadbot Newsroom",
+                    tags=("editorial-policy", "reporting"),
+                    body_excerpt="Here is how Dadbot will report and explain developing stories.",
+                ),
+                "editorial-news",
+                "newspaper-v1",
+            ),
+            (
+                self.packet(
+                    article_id="news:news-desk-boot-sequence",
+                    section="news",
+                    slug="news-desk-boot-sequence",
+                    title="News Desk Boot Sequence",
+                    summary="The terminal starts the Dadbot news desk.",
+                    category="Dadbot Newsroom",
+                    tags=("boot-sequence", "terminal"),
+                    body_excerpt="System checks complete. The news desk terminal is online.",
+                ),
+                "news-operations",
+                "terminal-v1",
+            ),
+            (
+                self.packet(
+                    article_id="news:news-categories-guide",
+                    section="news",
+                    slug="news-categories-guide",
+                    title="News Categories Guide",
+                    summary="A guide to finding stories across the Dadbot news desk.",
+                    category="Dadbot Newsroom",
+                    tags=("news-categories", "guide"),
+                    body_excerpt="Use these category signposts to browse the stories that interest you.",
+                ),
+                "news-guide",
+                "signpost-v1",
+            ),
+        )
+
+        selected_objects = set()
+        for packet, expected_topic, expected_object in cases:
+            with self.subTest(article_id=packet.article_id):
+                analysis = analyse_article(packet, config)
+                seed = derive_article_seed(packet, config.renderer_version, variant_number=0)
+                selection = select_hidden_object(packet, analysis, config, seed=seed)
+                self.assertEqual(analysis.primary_topic, expected_topic)
+                self.assertEqual(selection.hidden_object_id, expected_object)
+                self.assertNotEqual(selection.hidden_object_id, "document-v1")
+                selected_objects.add(selection.hidden_object_id)
+
+        self.assertEqual(len(selected_objects), len(cases))
 
     def test_unknown_topic_uses_configured_section_fallback_without_invention(self) -> None:
         config = load_autostereogram_config(REPO)
@@ -330,7 +539,7 @@ class AutostereogramCoreTests(unittest.TestCase):
         self.assertEqual(pixel_hash, hashlib.sha256(second.tobytes()).hexdigest())
         self.assertEqual(
             pixel_hash,
-            "77ef653ce5365551ea1a22945c3d625cba8d20dc60eaea0ccbdc3b48d8efd564",
+            "e5b1d0203fb6092e214f2343c14e9bbf2c928f36a55d9bbdfe83a1b2413fbf79",
         )
 
         for depth_map_id in config.depth_maps:
@@ -599,6 +808,10 @@ class AutostereogramCoreTests(unittest.TestCase):
                 }
             )
             forged_object_override["render_spec"]["hidden_object_id"] = "document-v1"
+            forged_object_override["render_spec"]["maximum_disparity_px"] = min(
+                forged_object_override["render_spec"]["maximum_disparity_px"],
+                config.depth_maps["document-v1"]["maximum_disparity_px"],
+            )
             render_path.write_text(json.dumps(forged_object_override), encoding="utf-8")
             with self.assertRaisesRegex(CandidateOutputError, "derivation"):
                 validate_candidate_file(image_path, config=test_config)
