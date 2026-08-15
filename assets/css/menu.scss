@@ -186,7 +186,7 @@
       }
     }
 
-    li:not(.menu__item--special-mobile) {
+    .menu__dropdown > li:not(.menu__item--special-mobile) {
       color: #78e2a0 !important;
 
       a,

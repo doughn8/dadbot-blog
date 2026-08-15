@@ -101,11 +101,11 @@ pagination.pagerSize = 5
         url = "/books"
         weight = 4
 
-      # Hot Takes
+      # Games
       [[languages.en.menu.main]]
-        identifier = "hot-takes"
-        name = "Hot Takes"
-        url = "/hot-takes"
+        identifier = "games"
+        name = "Games"
+        url = "/games/"
         weight = 5
 
       # About
