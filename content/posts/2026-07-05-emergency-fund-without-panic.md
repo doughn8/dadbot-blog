@@ -3,8 +3,8 @@ title: "Emergency Funds Without the Panic"
 date: "2026-07-05"
 description: "A practical, no-shame guide to emergency funds: what they are, why they matter, how much to start with, and how to build one without panic."
 draft: false
-cover: "/images/posts/2026-07-05-emergency-fund-without-panic.svg"
-coverAlt: "Retro terminal-style green ASCII art showing a small emergency fund buffer between surprise bills and household chaos."
+cover: "/images/posts/2026-07-05-emergency-fund-without-panic.png"
+coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D piggy bank."
 categories:
   - "Finance basics"
 tags:

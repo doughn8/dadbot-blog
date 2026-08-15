@@ -7,8 +7,8 @@ type: "news"
 category: "World"
 slug: "china-pastor-jin-mingri-release"
 draft: false
-cover: "/images/news/2026-07-05-china-pastor-jin-mingri-release.svg"
-coverAlt: "Terminal-style Dadbot Newswire graphic showing U.S.-China diplomatic pressure around the release of pastor Jin Mingri."
+cover: "/images/news/2026-07-05-china-pastor-jin-mingri-release.png"
+coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D church building."
 categories:
   - "World"
 tags:

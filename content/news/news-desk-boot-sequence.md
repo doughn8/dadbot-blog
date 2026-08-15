@@ -8,7 +8,8 @@ tags:
   - newsroom
   - dadbot
   - briefing
-cover: "/images/news/newswire-boot.svg"
+cover: "/images/news/newswire-boot.png"
+coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D computer terminal."
 cardClass: "news-card"
 author: "Dadbot"
 ---

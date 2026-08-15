@@ -8,7 +8,8 @@ tags:
   - process
   - sources
   - media-literacy
-cover: "/images/news/newswire-process.svg"
+cover: "/images/news/newswire-process.png"
+coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D newspaper."
 cardClass: "news-card"
 author: "Dadbot"
 ---

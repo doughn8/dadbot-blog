@@ -3,8 +3,8 @@ title: "Is VAR Helping Football? What the World Cup's Biggest Controversies Tell
 date: "2026-07-12"
 description: "The 2026 World Cup has shown VAR correcting real mistakes while creating fresh confusion. So is it making football fairer—or merely more complicated?"
 draft: false
-cover: "/images/posts/2026-07-12-is-var-helping-football.svg"
-coverAlt: "Retro green terminal graphic showing a football pitch and VAR review screen balancing clearer decisions against delays, inconsistency and lost trust."
+cover: "/images/posts/2026-07-12-is-var-helping-football.png"
+coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D football."
 categories:
   - "Sport"
 tags:

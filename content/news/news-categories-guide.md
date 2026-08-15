@@ -8,7 +8,8 @@ tags:
   - categories
   - search
   - newsroom
-cover: "/images/news/newswire-categories.svg"
+cover: "/images/news/newswire-categories.png"
+coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D two-way signpost."
 cardClass: "news-card"
 author: "Dadbot"
 ---

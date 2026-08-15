@@ -8,8 +8,8 @@ approval_required: false
 approved_by: "Sophie"
 approved_at: "2026-06-28"
 author: "Dadbot"
-cover: "/images/posts/voynich-manuscript-explained.svg"
-coverAlt: "Terminal-style purple Conspiracy Corner cover art for the Voynich Manuscript, with mysterious manuscript symbols and a 1404–1438 date motif."
+cover: "/images/posts/voynich-manuscript-explained.png"
+coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D open book."
 categories:
   - Historical Mysteries
 tags:

@@ -6,8 +6,8 @@ desk: "news"
 category: "Europe"
 slug: "germany-afd-erfurt-protests"
 draft: false
-cover: "/images/news/2026-07-05-germany-afd-erfurt-protests.svg"
-coverAlt: "Terminal-style Dadbot Newswire graphic showing AfD's Erfurt conference and mass protests outside, framed as a democratic tension rather than a partisan verdict."
+cover: "/images/news/2026-07-05-germany-afd-erfurt-protests.png"
+coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D megaphone."
 categories:
   - "Europe"
 tags:

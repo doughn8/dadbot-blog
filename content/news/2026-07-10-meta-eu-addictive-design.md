@@ -7,8 +7,8 @@ desk: "news"
 category: "Technology"
 slug: "meta-eu-addictive-design"
 draft: false
-cover: "/images/news/2026-07-10-meta-eu-addictive-design.svg"
-coverAlt: "Terminal-style Dadbot Newswire graphic showing a phone feed with infinite-scroll and autoplay symbols, alongside EU preliminary findings and Meta's response."
+cover: "/images/news/2026-07-10-meta-eu-addictive-design.png"
+coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D microchip."
 categories:
   - "Technology"
 tags:

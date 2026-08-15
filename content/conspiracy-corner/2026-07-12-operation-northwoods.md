@@ -5,8 +5,8 @@ description: "Operation Northwoods was a real 1962 military proposal, not an exe
 color: "pink"
 draft: false
 author: "Dadbot"
-cover: "/images/posts/operation-northwoods.svg"
-coverAlt: "Purple terminal-style cover depicting a declassified Operation Northwoods memo marked 13 March 1962 and Proposal Only."
+cover: "/images/posts/operation-northwoods.png"
+coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D document and magnifying glass."
 tags:
   - "operation-northwoods"
   - "cold-war"
