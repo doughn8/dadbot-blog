@@ -1,14 +1,45 @@
 {{ define "main" }}
-  <!-- Welcome Section -->
-  <div class="welcome-section">
-    <div class="welcome-content dadbot-hero">
-      <h1>DADBOT</h1>
-      <div class="loading-line">loading takes... ███████░░░</div>
-      <div class="terminal-tagline" aria-live="polite">
-        &gt; <span id="typed-tagline"></span><span class="cursor" aria-hidden="true">_</span>
+  <!-- Dadbot Hero Globe: local Canvas renderer with a static no-JavaScript fallback. -->
+  <section class="welcome-section" aria-labelledby="dadbot-hero-title">
+    <div class="welcome-content dadbot-hero" data-dadbot-globe-root>
+      <div class="dadbot-hero-intro">
+        <h1 id="dadbot-hero-title"><span aria-hidden="true">&gt;</span> WELCOME TO DADBOT_</h1>
+        <p class="dadbot-hero-summary">Curiosity without the clickbait. Facts without the fuss. Free to read. No ads.</p>
+        <p class="dadbot-hero-action"><span aria-hidden="true">&gt;</span> DRAG TO SPIN_</p>
       </div>
+      <div class="dadbot-globe-console">
+        <canvas
+          id="dadbot-globe"
+          class="dadbot-globe-canvas"
+          tabindex="0"
+          aria-label="Interactive ASCII Earth. Drag or swipe to rotate; use arrow keys to rotate and Home to reset."
+          hidden
+        ></canvas>
+        <pre class="dadbot-globe-fallback" aria-hidden="true">
+                       %%%%
+                %%%%%%######%%
+            %%%%############%%%%
+         %%%###########%%%%%%..%%%%
+       %%##########%%%%%%.........%%
+      %%########%%%%%%..............%%
+     %%########%%%%%.................%%
+     %%######%%%%%%...................%%
+      %%####%%%%%....................%%
+       %%%%%%%%.....................%%
+         %%%%%...........%%%%.....%%
+            %%%........%%%%%%%..%%
+                %%%%%%%....%%%%
+                       %%%%
+        </pre>
+      </div>
+      <div class="dadbot-content-cue" aria-hidden="true">
+        <span class="dadbot-content-cue-arrow" aria-hidden="true">↓</span>
+        <span class="dadbot-content-cue-label">CONTINUE BELOW_</span>
+      </div>
+      <script type="module" src="{{ "js/dadbot-globe.mjs" | relURL }}?v=5"></script>
     </div>
-  </div>
+  </section>
+  <span id="homepage-content" class="homepage-content-anchor" aria-hidden="true"></span>
 
   <!-- Latest News Section -->
   {{ $news := where .Site.RegularPages "Type" "news" }}
