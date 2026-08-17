@@ -1152,6 +1152,46 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  /* Keep homepage News and Blog cards content-driven below desktop. */
+  .content > .latest-news.recent-posts .post-card-link,
+  .content > .blog-teaser .post-card-link {
+    height: auto;
+    min-width: 0;
+  }
+
+  .content > .latest-news.recent-posts .post-card,
+  .content > .blog-teaser .post-card {
+    width: 100%;
+    min-width: 0;
+    aspect-ratio: auto;
+    min-height: 0;
+    grid-template-rows: 70px auto;
+  }
+
+  .content > .latest-news.recent-posts .post-card-content,
+  .content > .blog-teaser .post-card-content {
+    min-width: 0;
+    gap: 0.5rem;
+  }
+
+  .content > .latest-news.recent-posts .post-card-summary,
+  .content > .blog-teaser .post-card-summary {
+    flex: 0 0 auto;
+  }
+
+  .content > .latest-news.recent-posts .post-card .read-more,
+  .content > .blog-teaser .post-card .read-more {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    min-height: 44px;
+    margin-top: 0.15rem;
+    text-align: center;
+  }
+
   /* Compact horizontal Book Review cards for phone and tablet scanning. */
   .content > .books-teaser .posts-grid,
   .books-section .posts-grid {
@@ -1353,20 +1393,8 @@
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .content > .latest-news.recent-posts .post-card-link,
-  .content > .blog-teaser .post-card-link,
-  .content > .latest-news.recent-posts .post-card,
-  .content > .blog-teaser .post-card,
-  .content > .latest-news.recent-posts .post-card-content,
-  .content > .blog-teaser .post-card-content {
-    min-width: 0;
-  }
-
   .content > .latest-news.recent-posts .post-card,
   .content > .blog-teaser .post-card {
-    width: 100%;
-    aspect-ratio: auto;
-    min-height: 0;
     grid-template-rows: 64px auto;
   }
 
@@ -1377,26 +1405,7 @@
 
   .content > .latest-news.recent-posts .post-card-content,
   .content > .blog-teaser .post-card-content {
-    gap: 0.5rem;
     padding: 0.75rem;
-  }
-
-  .content > .latest-news.recent-posts .post-card-summary,
-  .content > .blog-teaser .post-card-summary {
-    flex: 0 0 auto;
-  }
-
-  .content > .latest-news.recent-posts .post-card .read-more,
-  .content > .blog-teaser .post-card .read-more {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    min-height: 44px;
-    margin-top: 0.15rem;
-    text-align: center;
   }
   
   /* Smaller coffee button on mobile */
