@@ -313,33 +313,78 @@
   display: none !important;
 }
 
+.post-card:not(.book-card) {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 250px;
+  padding: 0 !important;
+}
+
 .post-card {
   background: color-mix(in srgb, var(--accent) 4%, var(--background) 96%);
   border: 1px solid color-mix(in srgb, var(--accent) 75%, transparent);
   border-radius: 0;
   overflow: hidden;
   transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
-  display: grid;
-  grid-template-rows: 70px 1fr;
-  min-height: 260px;
 }
 
 .news-card {
-  background: color-mix(in srgb, #6ee7ff 7%, var(--background) 93%);
-  border-color: color-mix(in srgb, #6ee7ff 75%, transparent);
-}
-
-.news-card .post-cover {
-  border-bottom-color: #6ee7ff;
-}
-
-.latest-news .news-card {
   background: color-mix(in srgb, var(--accent) 4%, var(--background) 96%);
   border-color: color-mix(in srgb, var(--accent) 75%, transparent);
 }
 
-.latest-news .news-card .post-cover {
-  border-bottom-color: var(--accent);
+.conspiracy-page .post-card,
+.post-card.conspiracy-card {
+  background: color-mix(in srgb, #c084fc 7%, var(--background) 93%);
+  border-color: color-mix(in srgb, #c084fc 75%, transparent);
+}
+
+/* Card Top Bar (Option 1 Structured Header) */
+.card-top-bar {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 0.45rem 0.75rem !important;
+  background: color-mix(in srgb, var(--accent) 10%, var(--background) 90%) !important;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 40%, transparent) !important;
+  font-size: 0.68rem !important;
+  color: #c8d4cc !important;
+  letter-spacing: 0.04em !important;
+  font-weight: 600 !important;
+}
+
+.conspiracy-page .card-top-bar,
+.post-card.conspiracy-card .card-top-bar {
+  background: color-mix(in srgb, #c084fc 12%, var(--background) 88%) !important;
+  border-bottom-color: color-mix(in srgb, #c084fc 40%, transparent) !important;
+  color: #e9d5ff !important;
+}
+
+.card-top-desk {
+  color: var(--accent) !important;
+}
+
+.conspiracy-page .card-top-desk,
+.post-card.conspiracy-card .card-top-desk {
+  color: #c084fc !important;
+}
+
+.card-top-reading-time {
+  opacity: 0.85;
+}
+
+.card-footer-tags {
+  padding: 0.5rem 0.75rem !important;
+  display: flex !important;
+  gap: 0.35rem !important;
+  flex-wrap: wrap !important;
+  border-top: 1px solid color-mix(in srgb, var(--accent) 20%, transparent) !important;
+  margin-top: auto !important;
+}
+
+.conspiracy-page .card-footer-tags,
+.post-card.conspiracy-card .card-footer-tags {
+  border-top-color: color-mix(in srgb, #c084fc 20%, transparent) !important;
 }
 
 /* ========================================
@@ -413,9 +458,9 @@
   word-break: normal;
 }
 
-.conspiracy-page .post-card {
-  background: color-mix(in srgb, #c084fc 7%, var(--background) 93%);
-  border-color: color-mix(in srgb, #c084fc 75%, transparent);
+.conspiracy-page .post-card-link:hover .post-card {
+  box-shadow: 4px 4px 0 color-mix(in srgb, #c084fc 45%, transparent);
+  border-color: #c084fc;
 }
 
 .post-card-link:hover .post-card {
@@ -510,7 +555,6 @@
 
 .posts-list-view .post-card {
   min-height: 0;
-  grid-template-rows: 70px 1fr;
 }
 
 /* Blog archive: light month markers, not boxed date labels. */
@@ -581,7 +625,6 @@
   margin: 0;
 }
 
-.post-card .post-cover,
 .book-card .post-cover {
   width: 100%;
   height: 70px;
@@ -604,19 +647,31 @@
 }
 
 .post-card-content {
-  padding: 0.7rem 0.75rem 0.75rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-  min-width: 0;
+  padding: 0.75rem 0.85rem 0.65rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.45rem !important;
+  min-width: 0 !important;
+  flex: 1 1 auto !important;
+  margin: 0 !important;
 }
 
-.post-card-title {
-  color: #f2fff6;
-  font-size: clamp(0.82rem, 1.25vw, 0.95rem);
-  margin: 0;
-  line-height: 1.18;
-  letter-spacing: 0.01em;
+.headings--one-size .post-card h2,
+.headings--one-size .post-card h3,
+.headings--one-size .post-card-title,
+.post-card-title,
+.post-card h2.post-card-title,
+.post-card h3.post-card-title {
+  color: #f2fff6 !important;
+  font-size: clamp(0.92rem, 1.25vw, 1.05rem) !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  line-height: 1.25 !important;
+  letter-spacing: 0.01em !important;
+  border: 0 !important;
 }
 
 .post-card-title a {
@@ -655,11 +710,23 @@
 }
 
 .tag-chip--mini {
-  padding: 2px 5px;
-  border-radius: 3px;
-  font-size: 0.62rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 7px;
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  border-radius: 0;
+  font-size: 0.65rem;
   line-height: 1.1;
-  opacity: 0.95;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  text-decoration: none;
+}
+
+.conspiracy-page .tag-chip--mini,
+.post-card.conspiracy-card .tag-chip--mini {
+  border-color: color-mix(in srgb, #c084fc 55%, transparent);
+  color: #c084fc;
+  background: color-mix(in srgb, #c084fc 8%, transparent);
 }
 
 .post-card-summary {
@@ -754,7 +821,7 @@
   margin: 1.5rem 0 2rem;
   padding: 1rem 1.25rem;
   border: 1px solid var(--accent);
-  border-radius: 0;
+  border-radius: 0 !important;
   background: color-mix(in srgb, var(--accent) 6%, var(--background) 94%);
 }
 
@@ -823,46 +890,22 @@
   border-top: 0;
 }
 
-/* Match News and Blog teaser tiles to the 2:3 Book Review tiles. */
+/* Match News and Blog teaser tiles on homepage. */
 .content > .latest-news.recent-posts .post-card,
 .content > .blog-teaser .post-card {
-  aspect-ratio: 2 / 3;
-  min-height: 0;
+  min-height: 250px;
 }
 
 /* Keep homepage News and Blog card spacing independent of theme margins. */
 .content > .latest-news.recent-posts .post-card-content,
 .content > .blog-teaser .post-card-content {
-  padding: 0.75rem;
-}
-
-.content > .latest-news.recent-posts .post-card-meta,
-.content > .blog-teaser .post-card-meta {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.3rem;
-}
-
-.content > .latest-news.recent-posts .post-card-meta .post-date,
-.content > .blog-teaser .post-card-meta .post-date {
-  margin-right: 0;
+  padding: 0.75rem 0.85rem 0.65rem !important;
+  gap: 0.5rem !important;
 }
 
 .content > .latest-news.recent-posts .post-card-title,
-.content > .latest-news.recent-posts .post-tags,
-.content > .blog-teaser .post-card-title,
-.content > .blog-teaser .post-tags {
+.content > .blog-teaser .post-card-title {
   margin: 0;
-}
-
-.content > .latest-news.recent-posts .post-card .read-more,
-.content > .blog-teaser .post-card .read-more {
-  align-self: stretch;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  box-sizing: border-box;
-  margin: auto 0 0;
 }
 
 /* Keep longer headlines readable without letting one card outgrow its row. */
@@ -1165,7 +1208,6 @@
     min-width: 0;
     aspect-ratio: auto;
     min-height: 0;
-    grid-template-rows: 70px auto;
   }
 
   .content > .latest-news.recent-posts .post-card-content,
@@ -1177,19 +1219,6 @@
   .content > .latest-news.recent-posts .post-card-summary,
   .content > .blog-teaser .post-card-summary {
     flex: 0 0 auto;
-  }
-
-  .content > .latest-news.recent-posts .post-card .read-more,
-  .content > .blog-teaser .post-card .read-more {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    min-height: 44px;
-    margin-top: 0.15rem;
-    text-align: center;
   }
 
   /* Compact horizontal Book Review cards for phone and tablet scanning. */
@@ -1210,10 +1239,10 @@
   .content > .books-teaser .book-card--responsive,
   .books-section .book-card--responsive {
     display: grid;
-    grid-template-columns: 132px minmax(0, 1fr);
-    grid-template-rows: 198px;
-    height: 200px;
-    min-height: 0;
+    grid-template-columns: 125px minmax(0, 1fr);
+    grid-template-rows: auto;
+    min-height: 180px;
+    height: auto;
     aspect-ratio: auto;
     padding: 0;
   }
@@ -1224,7 +1253,7 @@
   .books-section .book-card--responsive figure:has(.post-cover),
   .books-section .book-card--responsive figure,
   .books-section .book-card--responsive .book-cover-fallback {
-    width: 132px;
+    width: 125px;
     height: 100%;
     min-height: 0;
     margin: 0;
@@ -1246,8 +1275,29 @@
     min-width: 0;
     height: 100%;
     box-sizing: border-box;
-    gap: 0.35rem;
-    padding: 0.75rem;
+    padding: 0;
+  }
+
+  .content > .books-teaser .book-card-details .card-top-bar,
+  .books-section .book-card-details .card-top-bar {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0.45rem 0.75rem !important;
+    background: color-mix(in srgb, var(--accent) 10%, var(--background) 90%) !important;
+    border-bottom: 1px solid color-mix(in srgb, var(--accent) 40%, transparent) !important;
+    font-size: 0.65rem !important;
+    color: #c8d4cc !important;
+    letter-spacing: 0.04em !important;
+    font-weight: 600 !important;
+  }
+
+  .book-card-text {
+    padding: 0.5rem 0.75rem 0.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1 1 auto;
   }
 
   .book-card-title,
@@ -1256,15 +1306,20 @@
     margin: 0;
   }
 
-  .book-card-title {
-    color: var(--accent);
-    font-size: 1rem;
-    line-height: 1.2;
+  .book-card-title,
+  .headings--one-size .post-card .book-card-title {
+    color: #f2fff6 !important;
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+    line-height: 1.25 !important;
+    margin: 0 !important;
+    margin-top: 0 !important;
   }
 
   .book-card-author {
-    color: #c8d4cc;
-    font-size: 0.78rem;
+    color: var(--accent);
+    font-size: 0.74rem;
+    font-weight: 600;
     line-height: 1.3;
   }
 
@@ -1273,23 +1328,25 @@
     flex: 0 0 auto;
     overflow: hidden;
     color: #d7e1da;
-    font-size: 0.76rem;
+    font-size: 0.74rem;
     line-height: 1.35;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
   }
 
+  .content > .books-teaser .book-card-details .card-footer-tags,
+  .books-section .book-card-details .card-footer-tags {
+    padding: 0.45rem 0.75rem !important;
+    display: flex !important;
+    gap: 0.35rem !important;
+    flex-wrap: wrap !important;
+    border-top: 1px solid color-mix(in srgb, var(--accent) 20%, transparent) !important;
+    margin-top: auto !important;
+  }
+
   .content > .books-teaser .book-card-details .read-more,
   .books-section .book-card-details .read-more {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    min-height: 44px;
-    margin-top: auto;
-    text-align: center;
+    display: none;
   }
 
   .posts-grid--full-page {
@@ -1326,10 +1383,10 @@
 
   .content > .books-teaser .book-card--responsive,
   .books-section .book-card--responsive {
-    grid-template-columns: 112px minmax(0, 1fr);
-    grid-template-rows: 168px;
-    height: 170px;
-    min-height: 0;
+    grid-template-columns: 110px minmax(0, 1fr);
+    grid-template-rows: auto;
+    min-height: 165px;
+    height: auto;
   }
 
   .content > .books-teaser .book-card--responsive figure:has(.post-cover),
@@ -1338,24 +1395,28 @@
   .books-section .book-card--responsive figure:has(.post-cover),
   .books-section .book-card--responsive figure,
   .books-section .book-card--responsive .book-cover-fallback {
-    width: 112px;
+    width: 110px;
   }
 
   .content > .books-teaser .book-card-details,
   .books-section .book-card-details {
+    padding: 0;
+  }
+
+  .book-card-text {
     gap: 0.2rem;
-    padding: 0.5rem 0.6rem;
+    padding: 0.4rem 0.6rem;
   }
 
   .content > .books-teaser .book-card-title,
   .books-section .book-card-title {
-    font-size: 0.9rem;
-    line-height: 1.15;
+    font-size: 0.9rem !important;
+    line-height: 1.2;
   }
 
   .content > .books-teaser .book-card-verdict,
   .books-section .book-card-verdict {
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
   }
   
   /* Keep terminal image strips compact on mobile too */
@@ -1395,7 +1456,7 @@
 
   .content > .latest-news.recent-posts .post-card,
   .content > .blog-teaser .post-card {
-    grid-template-rows: 64px auto;
+    min-height: 0;
   }
 
   .content > .latest-news.recent-posts .post-card .post-cover,

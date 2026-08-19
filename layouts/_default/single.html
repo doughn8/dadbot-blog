@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="post">
   <h1 class="post-title">
-    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
   </h1>
   <div class="post-meta">
     {{- if .Date -}}
@@ -25,11 +25,13 @@
   {{ if .Params.tags }}
     <span class="post-tags">
       {{ range .Params.tags }}
-      #<a href="{{ (urls.JoinPath "tags" (urlize .) "/") | absLangURL }}">{{ . }}</a>&nbsp;
+      #<a href="{{ (urls.JoinPath "tags" (urlize .) "/") | relLangURL }}">{{ . }}</a>&nbsp;
       {{ end }}
     </span>
   {{ end }}
-  {{ partial "cover.html" (dict "ctx" . "isCoverCaptionEnabled" true) }}
+  {{ if eq .Type "books" }}
+    {{ partial "cover.html" (dict "ctx" . "isCoverCaptionEnabled" true) }}
+  {{ end }}
 
   {{ if (.Params.Toc | default .Site.Params.Toc) }}
     <div class="table-of-contents">
