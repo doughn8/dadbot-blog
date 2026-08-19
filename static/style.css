@@ -754,7 +754,7 @@
   margin: 1.5rem 0 2rem;
   padding: 1rem 1.25rem;
   border: 1px solid var(--accent);
-  border-radius: 8px;
+  border-radius: 0;
   background: color-mix(in srgb, var(--accent) 6%, var(--background) 94%);
 }
 
