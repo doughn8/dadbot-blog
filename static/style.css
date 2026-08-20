@@ -1395,9 +1395,11 @@
     height: 220px;
   }
 
-  /* List-page cards: shorter height on mobile. */
+  /* List-page cards: content-driven height on mobile so long titles
+     don't clip the tag footer (overflow was hidden at a fixed 180px). */
   .posts-list-view .post-card:not(.book-card) {
-    height: 180px;
+    height: auto;
+    min-height: 180px;
   }
 
   .section-intro {
