@@ -377,7 +377,8 @@
   padding: 0.5rem 0.75rem !important;
   display: flex !important;
   gap: 0.35rem !important;
-  flex-wrap: wrap !important;
+  flex-wrap: nowrap !important;
+  overflow: hidden;
   border-top: 1px solid color-mix(in srgb, var(--accent) 20%, transparent) !important;
   margin-top: auto !important;
 }
@@ -1191,6 +1192,10 @@
   color: #9daaa3 !important;
   background: color-mix(in srgb, #9daaa3 6%, transparent) !important;
   text-decoration: none;
+  max-width: 45%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* ========================================
