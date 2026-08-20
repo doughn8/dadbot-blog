@@ -313,10 +313,12 @@
   display: none !important;
 }
 
+/* Option A: fixed identical card heights per breakpoint. */
 .post-card:not(.book-card) {
   display: flex !important;
   flex-direction: column !important;
-  min-height: 250px;
+  height: 260px;
+  min-height: 0;
   padding: 0 !important;
 }
 
@@ -556,6 +558,11 @@
 
 .posts-list-view .post-card {
   min-height: 0;
+}
+
+/* List-page cards: shorter fixed heights to trim dead space below the description. */
+.posts-list-view .post-card:not(.book-card) {
+  height: 200px;
 }
 
 /* Blog archive: light month markers, not boxed date labels. */
@@ -884,12 +891,6 @@
   border-top: 0;
 }
 
-/* Match News and Blog teaser tiles on homepage. */
-.content > .latest-news.recent-posts .post-card,
-.content > .blog-teaser .post-card {
-  min-height: 250px;
-}
-
 /* Keep homepage News and Blog card spacing independent of theme margins. */
 .content > .latest-news.recent-posts .post-card-content,
 .content > .blog-teaser .post-card-content {
@@ -1208,6 +1209,16 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  /* Option A: uniform card height on tablet. */
+  .post-card:not(.book-card) {
+    height: 240px;
+  }
+
+  /* List-page cards: shorter height on tablet. */
+  .posts-list-view .post-card:not(.book-card) {
+    height: 190px;
+  }
+
   /* Keep homepage News and Blog cards content-driven below desktop. */
   .content > .latest-news.recent-posts .post-card-link,
   .content > .blog-teaser .post-card-link {
@@ -1379,6 +1390,16 @@
 
 /* Mobile */
 @media (max-width: 600px) {
+  /* Option A: uniform card height on mobile. */
+  .post-card:not(.book-card) {
+    height: 220px;
+  }
+
+  /* List-page cards: shorter height on mobile. */
+  .posts-list-view .post-card:not(.book-card) {
+    height: 180px;
+  }
+
   .section-intro {
     max-width: calc(100vw - 40px);
   }
