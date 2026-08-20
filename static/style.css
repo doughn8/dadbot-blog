@@ -1234,6 +1234,14 @@
     flex: 0 0 auto;
   }
 
+  /* Item 10: homepage News & Blog teasers show 2 cards below desktop
+     (fills the 2-col tablet row evenly, cuts mobile scrolling).
+     Books keep their stacked 3-card layout. */
+  .content > .latest-news.recent-posts .post-card-link:nth-child(3),
+  .content > .blog-teaser .post-card-link:nth-child(3) {
+    display: none;
+  }
+
   /* Compact horizontal Book Review cards for phone and tablet scanning. */
   .content > .books-teaser .posts-grid,
   .books-section .posts-grid {
