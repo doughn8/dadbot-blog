@@ -499,7 +499,7 @@
   display: block;
   min-height: 0;
   aspect-ratio: 2 / 3;
-  padding: 0.75rem;
+  padding: 0;
   background: color-mix(in srgb, var(--accent) 7%, var(--background) 93%);
   border: 1px solid color-mix(in srgb, var(--accent) 75%, transparent);
 }
