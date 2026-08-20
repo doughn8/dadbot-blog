@@ -35,11 +35,6 @@
                       {{ with .Params.tldr.headline }}{{ . }}{{ else }}{{ .Description | truncate 110 }}{{ end }}
                     </p>
                   </div>
-                  {{- with .Params.tags -}}
-                    <div class="card-footer-tags">
-                      {{- range first 2 . -}}<span class="tag-chip tag-chip--mini">{{ . }}</span>{{- end -}}
-                    </div>
-                  {{- end -}}
                 </div>
               </article>
             </a>

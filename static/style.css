@@ -713,20 +713,13 @@
   display: inline-flex;
   align-items: center;
   padding: 3px 7px;
-  border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  border: 1px solid color-mix(in srgb, #9daaa3 35%, transparent);
   border-radius: 0;
   font-size: 0.65rem;
   line-height: 1.1;
-  color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  color: #9daaa3;
+  background: color-mix(in srgb, #9daaa3 6%, transparent);
   text-decoration: none;
-}
-
-.conspiracy-page .tag-chip--mini,
-.post-card.conspiracy-card .tag-chip--mini {
-  border-color: color-mix(in srgb, #c084fc 55%, transparent);
-  color: #c084fc;
-  background: color-mix(in srgb, #c084fc 8%, transparent);
 }
 
 .post-card-summary {
@@ -1041,7 +1034,7 @@
   padding: 4px 10px !important;
   font-size: 0.78rem !important;
   line-height: 1.2 !important;
-  border-radius: 4px !important;
+  border-radius: 0 !important;
   background: transparent !important;
   border-color: var(--accent) !important;
   color: var(--accent) !important;
@@ -1167,7 +1160,7 @@
   justify-content: center;
   padding: 4px 8px;
   border: 1px solid var(--accent);
-  border-radius: 4px;
+  border-radius: 0 !important;
   color: var(--accent);
   text-decoration: none;
   font-size: 0.78rem;
@@ -1183,6 +1176,21 @@
 .tag-chip--active {
   background: var(--accent);
   color: #ffffff;
+}
+
+/* Muted, understated tag chips inside card footers (overrides .tag-chip baseline). */
+.post-card .tag-chip--mini,
+.card-footer-tags .tag-chip--mini {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 7px;
+  border: 1px solid color-mix(in srgb, #9daaa3 35%, transparent) !important;
+  border-radius: 0 !important;
+  font-size: 0.65rem !important;
+  line-height: 1.1;
+  color: #9daaa3 !important;
+  background: color-mix(in srgb, #9daaa3 6%, transparent) !important;
+  text-decoration: none;
 }
 
 /* ========================================
@@ -1332,16 +1340,6 @@
     line-height: 1.35;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
-  }
-
-  .content > .books-teaser .book-card-details .card-footer-tags,
-  .books-section .book-card-details .card-footer-tags {
-    padding: 0.45rem 0.75rem !important;
-    display: flex !important;
-    gap: 0.35rem !important;
-    flex-wrap: wrap !important;
-    border-top: 1px solid color-mix(in srgb, var(--accent) 20%, transparent) !important;
-    margin-top: auto !important;
   }
 
   .content > .books-teaser .book-card-details .read-more,
