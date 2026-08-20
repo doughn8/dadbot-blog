@@ -401,7 +401,7 @@
   min-width: 0;
   margin: 0 0 1.5rem;
   padding: 1rem;
-  border: 1px solid transparent;
+  border: 1px dashed transparent;
   border-radius: 0;
   overflow-wrap: anywhere;
   word-break: break-word;
@@ -409,12 +409,12 @@
 
 .section-intro--green {
   border-color: color-mix(in srgb, #78e2a0 75%, transparent);
-  background: color-mix(in srgb, #78e2a0 7%, var(--background) 93%);
+  background: transparent;
 }
 
 .section-intro--conspiracy {
   border-color: color-mix(in srgb, #c084fc 75%, transparent);
-  background: color-mix(in srgb, #c084fc 7%, var(--background) 93%);
+  background: transparent;
 }
 
 .section-intro__content {

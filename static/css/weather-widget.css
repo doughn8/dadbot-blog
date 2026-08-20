@@ -214,3 +214,13 @@
     margin: 0 8px;
   }
 }
+
+/* Burger-menu breakpoint (matches theme $phone 684px): the desktop nav row
+   that normally separates the ticker from the content is hidden here, so the
+   intro box takes its place. Match the 30px space the nav row normally sits at
+   below the ticker (10px ticker margin + 20px nav margin). */
+@media (max-width: 684px) {
+  .weather-ticker {
+    margin-bottom: 30px;
+  }
+}
