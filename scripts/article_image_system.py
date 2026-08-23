@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import hashlib
 import html
+import io
 import json
 import os
 import re
@@ -23,6 +24,114 @@ from typing import Iterable, Mapping, Sequence
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "config" / "article-image-system.json"
 CONTENT_ROOT = ROOT / "content"
+
+_ALLOWED_SVG_ELEMENTS = frozenset({
+    "circle",
+    "clippath",
+    "defs",
+    "desc",
+    "ellipse",
+    "fedropshadow",
+    "fegaussianblur",
+    "femerge",
+    "femergenode",
+    "filter",
+    "g",
+    "line",
+    "lineargradient",
+    "mask",
+    "path",
+    "pattern",
+    "polygon",
+    "polyline",
+    "radialgradient",
+    "rect",
+    "stop",
+    "svg",
+    "text",
+    "title",
+    "tspan",
+})
+_ALLOWED_SVG_ATTRIBUTES = frozenset({
+    "aria-label",
+    "aria-labelledby",
+    "cx",
+    "cy",
+    "d",
+    "dominant-baseline",
+    "dx",
+    "dy",
+    "fill",
+    "fill-opacity",
+    "filter",
+    "flood-color",
+    "flood-opacity",
+    "font-family",
+    "font-size",
+    "font-weight",
+    "fx",
+    "fy",
+    "gradienttransform",
+    "gradientunits",
+    "height",
+    "id",
+    "in",
+    "in2",
+    "letter-spacing",
+    "mask",
+    "offset",
+    "opacity",
+    "patternunits",
+    "points",
+    "preserveaspectratio",
+    "r",
+    "result",
+    "role",
+    "rx",
+    "ry",
+    "spreadmethod",
+    "stddeviation",
+    "stop-color",
+    "stop-opacity",
+    "stroke",
+    "stroke-dasharray",
+    "stroke-dashoffset",
+    "stroke-linecap",
+    "stroke-linejoin",
+    "stroke-opacity",
+    "stroke-width",
+    "text-anchor",
+    "transform",
+    "viewbox",
+    "width",
+    "word-spacing",
+    "x",
+    "x1",
+    "x2",
+    "y",
+    "y1",
+    "y2",
+})
+_LOCAL_SVG_URL_PATTERN = re.compile(r"url\(\s*#[A-Za-z_][A-Za-z0-9_.:-]*\s*\)", re.IGNORECASE)
+_SAFE_SVG_PAINT_PATTERN = re.compile(
+    r"(?:none|transparent|currentcolor|inherit|#[0-9a-f]{3,8}|[a-z]+|rgba?\([0-9.,%\s+-]+\)|hsla?\([0-9.,%\s+-]+\))",
+    re.IGNORECASE,
+)
+_SVG_EXTERNAL_SCHEME_PATTERN = re.compile(r"\b(?:data|file|ftp|https?|javascript|vbscript):", re.IGNORECASE)
+_ENVIRONMENT_NAME_PATTERN = re.compile(r"[A-Za-z_][A-Za-z0-9_]*")
+_EXTERNAL_RUNTIME_ENV_NAMES = frozenset({
+    "COMSPEC",
+    "HOME",
+    "LANG",
+    "LC_ALL",
+    "LC_CTYPE",
+    "PATH",
+    "PATHEXT",
+    "SYSTEMROOT",
+    "TEMP",
+    "TMP",
+    "TMPDIR",
+})
 
 
 class ImageSystemError(Exception):
@@ -414,17 +523,54 @@ def render_svg(article: Article, brief: ImageBrief, config: Mapping[str, object]
     return svg.encode("utf-8")
 
 
+def _xml_local_name(name: str) -> str:
+    return name.rsplit("}", 1)[-1].rsplit(":", 1)[-1].casefold()
+
+
+def _validate_svg_content(root: ET.Element) -> None:
+    for element in root.iter():
+        element_name = _xml_local_name(element.tag)
+        if element_name not in _ALLOWED_SVG_ELEMENTS:
+            raise OutputError(f"SVG element is not allowed: {element_name}")
+        for raw_name, raw_value in element.attrib.items():
+            attribute_name = _xml_local_name(raw_name)
+            value = str(raw_value)
+            if attribute_name not in _ALLOWED_SVG_ATTRIBUTES:
+                raise OutputError(f"SVG attribute is not allowed: {attribute_name}")
+            if "\\" in value:
+                raise OutputError("SVG attribute values must not contain CSS escapes")
+            if _SVG_EXTERNAL_SCHEME_PATTERN.search(value):
+                raise OutputError("SVG contains an external or active URL")
+            if attribute_name in {"filter", "mask"}:
+                if value.casefold() != "none" and _LOCAL_SVG_URL_PATTERN.fullmatch(value) is None:
+                    raise OutputError(f"SVG {attribute_name} must be none or a local fragment")
+            elif attribute_name in {"fill", "stroke"}:
+                if _SAFE_SVG_PAINT_PATTERN.fullmatch(value) is None and _LOCAL_SVG_URL_PATTERN.fullmatch(value) is None:
+                    raise OutputError(f"SVG {attribute_name} is not a safe paint value")
+            elif "url(" in value.casefold():
+                raise OutputError("SVG URL values are not allowed for this attribute")
+
+
 def validate_svg(data: bytes) -> None:
     if not data.strip():
         raise OutputError("renderer returned an empty result")
     try:
-        root = ET.fromstring(data)
+        events = ET.iterparse(io.BytesIO(data), events=("start", "pi"))
+        root = None
+        for event, element in events:
+            if event == "pi":
+                raise OutputError("SVG must not contain processing instructions")
+            if root is None:
+                root = element
     except ET.ParseError as exc:
         raise OutputError(f"renderer did not return valid SVG: {exc}") from exc
-    if root.tag.rsplit("}", 1)[-1] != "svg":
+    if root is None:
+        raise OutputError("renderer did not return an SVG document")
+    if _xml_local_name(root.tag) != "svg":
         raise OutputError("renderer result is not SVG")
     if root.get("width") != "1600" or root.get("height") != "900" or root.get("viewBox") != "0 0 1600 900":
         raise OutputError("SVG must be exactly 1600x900 with a matching viewBox")
+    _validate_svg_content(root)
 
 
 def destination_for(article: Article, *, root: Path = ROOT, output_dir: Path | None = None,
@@ -488,13 +634,54 @@ def atomic_write(destination: Path, data: bytes, *, approved_root: Path, force: 
     return destination
 
 
+def _external_environment_name(adapter: Mapping[str, object], field: str) -> str:
+    value = adapter.get(field)
+    if not isinstance(value, str) or _ENVIRONMENT_NAME_PATTERN.fullmatch(value) is None:
+        raise ImageSystemError(f"external adapter {field} must be a valid environment name")
+    return value
+
+
+def _external_child_environment(
+    source_environment: Mapping[str, str],
+    adapter: Mapping[str, object],
+) -> dict[str, str]:
+    command_name = _external_environment_name(adapter, "command_env")
+    provider_name = _external_environment_name(adapter, "provider_env")
+    model_name = _external_environment_name(adapter, "model_env")
+    secret_names = adapter.get("secret_env_names", ())
+    if not isinstance(secret_names, Sequence) or isinstance(secret_names, (str, bytes)):
+        raise ImageSystemError("external adapter secret_env_names must be a sequence")
+    validated_secret_names = []
+    for name in secret_names:
+        if not isinstance(name, str) or _ENVIRONMENT_NAME_PATTERN.fullmatch(name) is None:
+            raise ImageSystemError("external adapter secret_env_names must contain valid environment names")
+        validated_secret_names.append(name)
+    configured_names = [command_name, provider_name, model_name, *validated_secret_names]
+    child_configured_names = [provider_name, model_name, *validated_secret_names]
+    if len(set(configured_names)) != len(configured_names):
+        raise ImageSystemError("external adapter environment names must be distinct")
+    if command_name in _EXTERNAL_RUNTIME_ENV_NAMES or any(
+        name in _EXTERNAL_RUNTIME_ENV_NAMES for name in child_configured_names
+    ):
+        raise ImageSystemError("external adapter environment names must be distinct from runtime names")
+    allowed_names = set(_EXTERNAL_RUNTIME_ENV_NAMES)
+    allowed_names.update(child_configured_names)
+    return {name: source_environment[name] for name in allowed_names if name in source_environment}
+
+
 def render_external(prompt: str, destination: Path, config: Mapping[str, object], env: Mapping[str, str] | None = None) -> bytes:
-    """Run the configured command adapter without a shell or stored secrets."""
-    environment = dict(os.environ if env is None else env)
+    """Run the configured command adapter without a shell or unrelated process state."""
+    source_environment = dict(os.environ if env is None else env)
     adapter = config["external_adapter"]
-    command_text = environment.get(adapter["command_env"], "").strip()
+    if not isinstance(adapter, Mapping):
+        raise ImageSystemError("external_adapter configuration must be a mapping")
+    command_env_name = _external_environment_name(adapter, "command_env")
+    provider_env_name = _external_environment_name(adapter, "provider_env")
+    model_env_name = _external_environment_name(adapter, "model_env")
+    command_text = source_environment.get(command_env_name, "").strip()
     if not command_text:
-        raise ImageSystemError(f"external adapter requested but {adapter['command_env']} is unset")
+        raise ImageSystemError(f"external adapter requested but {command_env_name} is unset")
+    child_environment = _external_child_environment(source_environment, adapter)
     with tempfile.TemporaryDirectory(prefix="dadbot-image-adapter-") as directory:
         work = Path(directory)
         prompt_file = work / "prompt.txt"
@@ -502,7 +689,7 @@ def render_external(prompt: str, destination: Path, config: Mapping[str, object]
         prompt_file.write_text(prompt, encoding="utf-8")
         values = {
             "prompt_file": str(prompt_file), "output": str(output_file), "width": "1600", "height": "900",
-            "provider": environment.get(adapter["provider_env"], ""), "model": environment.get(adapter["model_env"], ""),
+            "provider": source_environment.get(provider_env_name, ""), "model": source_environment.get(model_env_name, ""),
         }
         try:
             command = [part.format(**values) for part in shlex.split(command_text)]
@@ -511,7 +698,7 @@ def render_external(prompt: str, destination: Path, config: Mapping[str, object]
         if not command:
             raise ImageSystemError("external command is empty")
         try:
-            completed = subprocess.run(command, check=False, capture_output=True, text=True, timeout=300, env=environment)
+            completed = subprocess.run(command, check=False, capture_output=True, text=True, timeout=300, env=child_environment)
         except (OSError, subprocess.TimeoutExpired) as exc:
             raise ImageSystemError(f"external renderer failed: {exc}") from exc
         if completed.returncode:

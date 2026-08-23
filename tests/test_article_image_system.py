@@ -3,6 +3,7 @@ from __future__ import annotations
 import importlib.util
 import json
 import os
+import shlex
 import subprocess
 import sys
 import tempfile
@@ -25,6 +26,7 @@ from article_image_system import (  # noqa: E402
     load_config,
     parse_frontmatter,
     read_article,
+    render_external,
     render_svg,
     validate_svg,
 )
@@ -141,6 +143,54 @@ class ArticleImageSystemTests(unittest.TestCase):
         rendered_text = " ".join((element.text or "") for element in svg.iter() if element.tag.rsplit("}", 1)[-1] == "text")
         self.assertNotIn(article.title, rendered_text)
 
+    def test_svg_validator_rejects_active_and_external_content(self) -> None:
+        dangerous_fragments = {
+            "script": '<script>alert("x")</script>',
+            "foreign-object": '<foreignObject><iframe xmlns="http://www.w3.org/1999/xhtml" src="https://example.com"/></foreignObject>',
+            "event-handler": '<rect width="10" height="10" onload="alert(1)"/>',
+            "javascript-link": '<a href="javascript:alert(1)"><text>click</text></a>',
+            "external-reference": '<use href="https://example.com/image.svg#shape"/>',
+            "style": '<style>@import url("https://example.com/active.css");</style>',
+            "animation": '<animate attributeName="x" from="0" to="100" dur="1s"/>',
+            "animate-color": '<animateColor attributeName="fill" from="#000" to="#fff" dur="1s"/>',
+            "external-filter": '<rect width="10" height="10" filter="url(https://example.com/filter.svg#f)"/>',
+        }
+        for name, fragment in dangerous_fragments.items():
+            with self.subTest(name=name):
+                payload = (
+                    '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" '
+                    f'viewBox="0 0 1600 900">{fragment}</svg>'
+                ).encode("utf-8")
+                with self.assertRaises(OutputError):
+                    validate_svg(payload)
+
+        stylesheet_payload = (
+            '<?xml-stylesheet href="https://example.com/active.css" type="text/css"?>'
+            '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900"/>'
+        ).encode("utf-8")
+        with self.assertRaises(OutputError):
+            validate_svg(stylesheet_payload)
+
+    def test_svg_validator_rejects_encoding_and_css_escape_bypasses(self) -> None:
+        stylesheet = (
+            '<?xml version="1.0"?>'
+            '<?xml-stylesheet href="https://example.com/active.css" type="text/css"?>'
+            '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900"/>'
+        )
+        for encoding in ("utf-16", "utf-32"):
+            with self.subTest(encoding=encoding):
+                with self.assertRaises(OutputError):
+                    validate_svg(stylesheet.encode(encoding))
+
+        escaped_external_url = r"u\72l(h\74tps\3a //example.com/filter.svg#f)"
+        escaped_payload = (
+            '<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">'
+            f'<rect width="10" height="10" filter="{escaped_external_url}"/>'
+            '</svg>'
+        ).encode("utf-8")
+        with self.assertRaises(OutputError):
+            validate_svg(escaped_payload)
+
     def test_existing_destination_is_skipped_without_force(self) -> None:
         article = self.article()
         output = self.root / "06-Design" / "article-image-system-preview" / "assets"
@@ -203,6 +253,76 @@ class ArticleImageSystemTests(unittest.TestCase):
         adapter = self.config["external_adapter"]
         self.assertEqual(adapter["command_env"], "DADBOT_ARTICLE_IMAGE_COMMAND")
         self.assertIn("secret_env_names", adapter)
+
+    def test_external_adapter_passes_only_explicit_environment_contract(self) -> None:
+        adapter = self.config["external_adapter"]
+        capture = self.root / "captured-environment.json"
+        renderer = self.root / "renderer.py"
+        renderer.write_text(
+            "from pathlib import Path\n"
+            "import json, os, sys\n"
+            "Path(sys.argv[1]).write_text(json.dumps(dict(os.environ), sort_keys=True), encoding='utf-8')\n"
+            "Path(sys.argv[2]).write_text('<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1600\" height=\"900\" viewBox=\"0 0 1600 900\"><rect width=\"1\" height=\"1\"/></svg>', encoding='utf-8')\n",
+            encoding="utf-8",
+        )
+        command = " ".join(
+            shlex.quote(value)
+            for value in (sys.executable, str(renderer), str(capture), "{output}")
+        )
+        supplied_environment = {
+            adapter["command_env"]: command,
+            adapter["provider_env"]: "approved-provider",
+            adapter["model_env"]: "approved-model",
+            adapter["secret_env_names"][0]: "approved-secret",
+            "UNRELATED_API_KEY": "must-not-leak",
+            "PATH": os.environ.get("PATH", ""),
+            "HOME": str(self.root),
+            "TMPDIR": str(self.root),
+            "LANG": "en_GB.UTF-8",
+        }
+
+        render_external("bounded prompt", self.root / "unused.svg", self.config, supplied_environment)
+        child_environment = json.loads(capture.read_text(encoding="utf-8"))
+
+        self.assertNotIn("UNRELATED_API_KEY", child_environment)
+        self.assertNotIn(adapter["command_env"], child_environment)
+        self.assertEqual(child_environment[adapter["provider_env"]], "approved-provider")
+        self.assertEqual(child_environment[adapter["model_env"]], "approved-model")
+        self.assertEqual(child_environment[adapter["secret_env_names"][0]], "approved-secret")
+        for runtime_name in ("PATH", "HOME", "TMPDIR", "LANG"):
+            self.assertEqual(child_environment[runtime_name], supplied_environment[runtime_name])
+
+    def test_external_adapter_rejects_environment_name_collisions_and_malformed_names(self) -> None:
+        renderer = self.root / "collision-renderer.py"
+        renderer.write_text(
+            "from pathlib import Path\n"
+            "import sys\n"
+            "Path(sys.argv[1]).write_text('<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1600\" height=\"900\" viewBox=\"0 0 1600 900\"/>', encoding='utf-8')\n",
+            encoding="utf-8",
+        )
+        command = " ".join(shlex.quote(value) for value in (sys.executable, str(renderer), "{output}"))
+
+        collision_config = json.loads(json.dumps(self.config))
+        collision_adapter = collision_config["external_adapter"]
+        collision_adapter["command_env"] = collision_adapter["provider_env"]
+        with self.assertRaisesRegex(ImageSystemError, "distinct"):
+            render_external(
+                "bounded prompt",
+                self.root / "unused.svg",
+                collision_config,
+                {collision_adapter["command_env"]: command},
+            )
+
+        malformed_config = json.loads(json.dumps(self.config))
+        malformed_adapter = malformed_config["external_adapter"]
+        malformed_adapter["provider_env"] = " NOT VALID "
+        with self.assertRaisesRegex(ImageSystemError, "valid environment name"):
+            render_external(
+                "bounded prompt",
+                self.root / "unused.svg",
+                malformed_config,
+                {malformed_adapter["command_env"]: command},
+            )
 
     def test_cli_batch_failure_isolated_from_success(self) -> None:
         # Exercise the real CLI using this temporary repository by loading its
