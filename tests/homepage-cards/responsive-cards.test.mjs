@@ -29,76 +29,67 @@ function compactCss(css) {
   return css.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s+/g, ' ').trim();
 }
 
-const homepageCardSelectors = String.raw`\.content\s*>\s*\.latest-news\.recent-posts\s+\.post-card,\s*\.content\s*>\s*\.blog-teaser\s+\.post-card`;
-const homepageSummarySelectors = String.raw`\.content\s*>\s*\.latest-news\.recent-posts\s+\.post-card-summary,\s*\.content\s*>\s*\.blog-teaser\s+\.post-card-summary`;
-const homepageCtaSelectors = String.raw`\.content\s*>\s*\.latest-news\.recent-posts\s+\.post-card\s+\.read-more,\s*\.content\s*>\s*\.blog-teaser\s+\.post-card\s+\.read-more`;
+const standardArticleCards = String.raw`\.post-card:not\(\.book-card\)`;
+const listArticleCards = String.raw`\.posts-list-view\s+\.post-card:not\(\.book-card\)`;
 
-test('homepage News and Blog cards use natural height through 900px', async () => {
-  const tablet = compactCss(extractMediaBlock(await readStyles(), '(max-width: 900px)'));
-
-  assert.match(
-    tablet,
-    new RegExp(`${homepageCardSelectors}\\s*\\{[^}]*aspect-ratio:\\s*auto;[^}]*min-height:\\s*0;[^}]*grid-template-rows:\\s*70px auto;`),
-    'Expected homepage News/Blog cards to stop using the desktop 2:3 ratio through 900px',
-  );
-});
-
-test('homepage News and Blog summaries do not grow through 900px', async () => {
-  const tablet = compactCss(extractMediaBlock(await readStyles(), '(max-width: 900px)'));
-
-  assert.match(
-    tablet,
-    new RegExp(`${homepageSummarySelectors}\\s*\\{[^}]*flex:\\s*0 0 auto;`),
-    'Expected homepage News/Blog summaries to remain content-height through 900px',
-  );
-});
-
-test('homepage News and Blog CTAs stay compact touch targets through 900px', async () => {
-  const tablet = compactCss(extractMediaBlock(await readStyles(), '(max-width: 900px)'));
-
-  assert.match(
-    tablet,
-    new RegExp(`${homepageCtaSelectors}\\s*\\{[^}]*flex:\\s*0 0 auto;[^}]*min-height:\\s*44px;`),
-    'Expected homepage News/Blog CTAs to neutralise the theme growing-button rule through 900px',
-  );
-  assert.doesNotMatch(
-    tablet,
-    new RegExp(`${homepageCtaSelectors}\\s*\\{[^}]*(?:height|min-height):\\s*(?:[5-9]\\d|\\d{3,})px;`),
-    'Homepage News/Blog CTAs must not acquire a fixed tall height',
-  );
-});
-
-test('tablet override remains scoped to homepage News and Blog cards', async () => {
-  const tablet = compactCss(extractMediaBlock(await readStyles(), '(max-width: 900px)'));
-
-  assert.doesNotMatch(
-    tablet,
-    /(?:^|})\s*\.button\s*\{[^}]*(?:flex|min-height|height):/,
-    'The fix must not alter every theme button',
-  );
-  assert.doesNotMatch(
-    tablet,
-    /(?:^|})\s*\.post-card\s*\{[^}]*(?:aspect-ratio|min-height|grid-template-rows):/,
-    'The fix must not alter cards outside the homepage teasers',
-  );
-  assert.doesNotMatch(
-    tablet,
-    /\.latest-news[^{}]*\.(?:books-teaser|books-section|posts-list-view)|\.blog-teaser[^{}]*\.(?:books-teaser|books-section|posts-list-view)/,
-    'The News/Blog override must not be grouped with Books or archive-list selectors',
-  );
-});
-
-test('phone cards retain one column and desktop retains the approved 2:3 rhythm', async () => {
+test('standard article cards use the approved fixed desktop height without targeting Books', async () => {
   const styles = await readStyles();
-  const phone = compactCss(extractMediaBlock(styles, '(max-width: 600px)'));
-  const desktopSource = styles.slice(0, styles.indexOf('@media (max-width: 900px)'));
+  const desktop = compactCss(styles.slice(0, styles.indexOf('@media (max-width: 900px)')));
 
+  assert.match(
+    desktop,
+    new RegExp(`${standardArticleCards}\\s*\\{[^}]*display:\\s*flex\\s*!important;[^}]*height:\\s*260px;`),
+  );
+  assert.doesNotMatch(
+    desktop,
+    /(?:^|})\s*\.post-card\s*\{[^}]*height:\s*260px;/,
+    'The fixed article-card height must not apply to Book cards',
+  );
+});
+
+test('tablet keeps uniform article cards and a tighter list-page variant', async () => {
+  const tablet = compactCss(extractMediaBlock(await readStyles(), '(max-width: 900px)'));
+
+  assert.match(tablet, new RegExp(`${standardArticleCards}\\s*\\{[^}]*height:\\s*240px;`));
+  assert.match(tablet, new RegExp(`${listArticleCards}\\s*\\{[^}]*height:\\s*190px;`));
+});
+
+test('mobile list cards can grow so long content does not clip tag footers', async () => {
+  const phone = compactCss(extractMediaBlock(await readStyles(), '(max-width: 600px)'));
+
+  assert.match(phone, new RegExp(`${standardArticleCards}\\s*\\{[^}]*height:\\s*220px;`));
+  assert.match(
+    phone,
+    new RegExp(`${listArticleCards}\\s*\\{[^}]*height:\\s*auto;[^}]*min-height:\\s*180px;`),
+  );
+});
+
+test('homepage shows two teaser cards below desktop and one column on phones', async () => {
+  const styles = await readStyles();
+  const tablet = compactCss(extractMediaBlock(styles, '(max-width: 900px)'));
+  const phone = compactCss(extractMediaBlock(styles, '(max-width: 600px)'));
+
+  assert.match(
+    tablet,
+    /\.content\s*>\s*\.latest-news\.recent-posts\s+\.post-card-link:nth-child\(3\),\s*\.content\s*>\s*\.blog-teaser\s+\.post-card-link:nth-child\(3\)\s*\{[^}]*display:\s*none;/,
+  );
   assert.match(
     phone,
     /\.content\s*>\s*\.latest-news\.recent-posts\s+\.posts-grid,\s*\.content\s*>\s*\.blog-teaser\s+\.posts-grid\s*\{[^}]*grid-template-columns:\s*minmax\(0, 1fr\);/,
   );
+});
+
+test('responsive Book cards retain content-driven heights outside generic article rules', async () => {
+  const styles = await readStyles();
+  const tablet = compactCss(extractMediaBlock(styles, '(max-width: 900px)'));
+  const phone = compactCss(extractMediaBlock(styles, '(max-width: 600px)'));
+
   assert.match(
-    desktopSource,
-    new RegExp(`${homepageCardSelectors}\\s*\\{[^}]*aspect-ratio:\\s*2 \\/ 3;`),
+    tablet,
+    /\.content\s*>\s*\.books-teaser\s+\.book-card--responsive,\s*\.books-section\s+\.book-card--responsive\s*\{[^}]*height:\s*auto;[^}]*aspect-ratio:\s*auto;/,
+  );
+  assert.match(
+    phone,
+    /\.content\s*>\s*\.books-teaser\s+\.book-card--responsive,\s*\.books-section\s+\.book-card--responsive\s*\{[^}]*height:\s*auto;/,
   );
 });
