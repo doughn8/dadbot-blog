@@ -2140,3 +2140,12 @@
   }
 }
 
+article.post:not(.on-list) {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+article.post:not(.on-list) > .post-title {
+  margin-top: 0;
+}
+
