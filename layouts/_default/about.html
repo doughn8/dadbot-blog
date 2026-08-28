@@ -1,62 +1,68 @@
 {{ define "main" }}
-<main class="about-page about-terminal-screen" aria-labelledby="about-title">
-  <section class="about-terminal-body" aria-label="Dadbot about page">
-      {{ with .Params.mission }}
-        <section class="about-command-block about-mission" aria-labelledby="about-title">
-          <h1 id="about-title">{{ .title }}</h1>
-          <p>{{ .body }}</p>
-        </section>
-      {{ end }}
-
-      {{ with .Params.values }}
-        <section class="about-command-block" aria-labelledby="about-values-title">
-          <h2 id="about-values-title">Core values</h2>
-          <div class="about-output-list">
-            {{ range . }}
-              <article class="about-output-row">
-                <h3>{{ .label }}</h3>
-                <p>{{ .body }}</p>
-              </article>
-            {{ end }}
-          </div>
-        </section>
-      {{ end }}
-
-      {{ with .Params.desks }}
-        <section class="about-command-block" aria-labelledby="about-desks-title">
-          <h2 id="about-desks-title">What Dadbot covers</h2>
-          <div class="about-desk-list">
-            {{ range . }}
-              <p class="about-desk-row"><span>{{ .name }}</span> {{ .line }}</p>
-            {{ end }}
-          </div>
-        </section>
-      {{ end }}
-
-      {{ with .Params.principles }}
-        <section class="about-command-block about-principles" aria-labelledby="about-principles-title">
-          <h2 id="about-principles-title">Operating principles</h2>
-          <ol>
-            {{ range . }}
-              <li>{{ . }}</li>
-            {{ end }}
-          </ol>
-        </section>
-      {{ end }}
-
-      {{ with .Params.closing }}
-        <section class="about-command-block about-closing-panel" aria-labelledby="about-closing-title">
-          <h2 id="about-closing-title">{{ .title }}</h2>
-          <p>{{ .body }}</p>
-        </section>
-      {{ end }}
-
-      {{ with .Params.support }}
-        <section class="about-command-block about-closing-panel" aria-labelledby="about-support-title">
-          <h2 id="about-support-title">{{ .title }}</h2>
-          <p>{{ .body }}</p>
-        </section>
-      {{ end }}
+<main class="about-page about-command-stream" aria-labelledby="about-title">
+  <section class="about-command-stream__hero" aria-labelledby="about-title">
+    <h1 id="about-title">{{ .Params.hero.headline }}</h1>
+    <p class="about-command-stream__subheadline">{{ .Params.hero.subheadline }}</p>
   </section>
+
+  {{ with .Params.mission }}
+    <section class="about-command-stream__section about-command-stream__mission" aria-labelledby="about-mission-title">
+      <h2 id="about-mission-title">{{ .title }}</h2>
+      <p>{{ .body }}</p>
+    </section>
+  {{ end }}
+
+  {{ with .Params.values }}
+    <section class="about-command-stream__section" aria-labelledby="about-values-title">
+      <h2 id="about-values-title">Core values</h2>
+      <div class="about-command-stream__values">
+        {{ range . }}
+          <article class="about-command-stream__value">
+            <h3>{{ .label }}</h3>
+            <p>{{ .body }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{ with .Params.desks }}
+    <section class="about-command-stream__section" aria-labelledby="about-desks-title">
+      <h2 id="about-desks-title">What Dadbot covers</h2>
+      <div class="about-command-stream__desks">
+        {{ range . }}
+          <article class="about-command-stream__desk">
+            <h3>{{ .name }}</h3>
+            <p>{{ .line }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{ with .Params.principles }}
+    <section class="about-command-stream__section about-command-stream__principles" aria-labelledby="about-principles-title">
+      <h2 id="about-principles-title">Operating principles</h2>
+      <ol>
+        {{ range . }}
+          <li>{{ . }}</li>
+        {{ end }}
+      </ol>
+    </section>
+  {{ end }}
+
+  {{ with .Params.closing }}
+    <section class="about-command-stream__closing" aria-labelledby="about-closing-title">
+      <h2 id="about-closing-title">{{ .title }}</h2>
+      <p>{{ .body }}</p>
+    </section>
+  {{ end }}
+
+  {{ with .Params.support }}
+    <section class="about-command-stream__closing about-command-stream__support" aria-labelledby="about-support-title">
+      <h2 id="about-support-title">{{ .title }}</h2>
+      <p>{{ .body }}</p>
+    </section>
+  {{ end }}
 </main>
 {{ end }}

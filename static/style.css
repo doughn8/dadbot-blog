@@ -1918,200 +1918,95 @@
 }
 
 /* ========================================
-   ABOUT PAGE - direct terminal profile
+   ABOUT PAGE - Command Stream
    ======================================== */
 
-.about-page {
-  /* Inherit the site's exact font stack rather than using an About-only fallback. */
-  font-family: inherit;
+.about-command-stream {
+  max-width: 1080px;
+  margin: 0 auto 5rem;
+  color: var(--color);
 }
 
-.about-terminal-screen {
-  max-width: 1000px;
-  margin: 0 auto 3rem;
+.about-command-stream__hero {
+  max-width: 850px;
 }
 
-.about-terminal-body {
-  min-height: 680px;
-  padding: clamp(0.5rem, 2vw, 1.2rem) 0;
-  color: #cbd5df;
-  background: transparent;
+.about-command-stream__hero h1 {
+  margin: 0 0 1rem;
+  color: var(--color);
+  font-size: clamp(2rem, 6vw, 4rem);
+  line-height: 1.08;
 }
 
-.about-terminal-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(220px, 0.75fr);
-  gap: clamp(1rem, 4vw, 3rem);
-  align-items: start;
+.about-command-stream__subheadline,
+.about-command-stream__mission > p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--color);
+  font-size: clamp(1rem, 2vw, 1.18rem);
+  line-height: 1.65;
 }
 
-.about-prompt {
-  margin: 0 0 0.8rem;
-  color: #cbd5df;
-  font-weight: 800;
-  line-height: 1.5;
+.about-command-stream__section {
+  margin-top: 2.625rem;
 }
 
-.about-prompt span {
-  color: #35d982;
+.about-command-stream__section h2,
+.about-command-stream__closing h2 {
+  margin: 0 0 1.25rem;
+  color: var(--accent);
+  font-size: 1rem;
+  line-height: 1.3;
+  text-transform: uppercase;
 }
 
-.about-prompt::first-letter,
-.about-accent {
-  color: #f6a21a;
-}
-
-.about-muted {
-  color: #9aa9b4;
-}
-
-.about-ascii-logo,
-.about-ascii-bot {
-  margin: 1.5rem 0 1.35rem;
-  color: #dce4ea;
-  font: inherit;
-  font-weight: 800;
-  line-height: 1.05;
-  white-space: pre;
-}
-
-.about-ascii-logo {
-  font-size: clamp(0.76rem, 2.25vw, 1.55rem);
-  letter-spacing: -0.055em;
-}
-
-.about-ascii-bot {
-  justify-self: center;
-  margin-top: 2.5rem;
-  color: #d7e1e8;
-  font-size: clamp(0.74rem, 1.35vw, 1rem);
-  opacity: 0.94;
-}
-
-.about-line {
-  max-width: 770px;
-  margin: 0 0 0.9rem;
-  line-height: 1.7;
-  font-weight: 700;
-}
-
-.about-rule {
-  color: #95a3ad;
-  letter-spacing: 0.16em;
-}
-
-.about-command-block {
-  max-width: 880px;
-  margin: 1.75rem 0 0;
-}
-
-.about-command-block h2 {
-  margin: 0 0 0.75rem;
-  color: #dce4ea;
-  font-size: clamp(1rem, 2.2vw, 1.35rem);
-  line-height: 1.25;
-}
-
-.about-command-block p,
-.about-command-block li {
-  color: #cbd5df;
-  font-weight: 400;
-  line-height: 1.7;
-}
-
-.about-output-list {
+.about-command-stream__values,
+.about-command-stream__desks {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.85rem 1.2rem;
+  gap: 0.875rem;
 }
 
-.about-output-row {
-  padding-left: 1rem;
-  border-left: 2px solid #35d982;
+.about-command-stream__value h3,
+.about-command-stream__desk h3 {
+  margin: 0 0 0.5rem;
+  color: var(--accent);
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
-.about-output-row h3 {
-  margin: 0 0 0.35rem;
-  color: #f6a21a;
-  font-size: 0.98rem;
-}
-
-.about-output-row p {
+.about-command-stream__value p,
+.about-command-stream__desk p,
+.about-command-stream__closing p,
+.about-command-stream__principles li {
   margin: 0;
-  font-size: 0.92rem;
+  color: var(--color);
+  line-height: 1.65;
 }
 
-.about-desk-list {
-  display: grid;
-  gap: 0.35rem;
-}
-
-.about-desk-row {
+.about-command-stream__principles ol {
   margin: 0;
+  padding-left: 1.5rem;
 }
 
-.about-desk-row span {
-  color: #f6a21a;
+.about-command-stream__principles li + li {
+  margin-top: 0.5rem;
 }
 
-
-.about-principles ol {
-  margin: 0;
-  padding-left: 1.45rem;
+.about-command-stream__closing {
+  margin-top: 0.875rem;
 }
 
-.about-principles li + li {
-  margin-top: 0.35rem;
-}
-
-.about-closing-panel {
-  padding-bottom: 1rem;
-}
-
-.about-cursor {
-  margin-top: 1.1rem;
-}
-
-.about-cursor b {
-  display: inline-block;
-  width: 0.58em;
-  height: 1.1em;
-  transform: translateY(0.18em);
-  background: #35d982;
-  animation: dadbot-about-blink 0.9s steps(1) infinite;
-}
-
-@keyframes dadbot-about-blink {
-  50% { opacity: 0; }
-}
-
-@media (max-width: 860px) {
-  .about-terminal-body {
-    min-height: 0;
+@media (max-width: 600px) {
+  .about-command-stream {
+    margin-bottom: 3rem;
   }
 
-  .about-terminal-grid,
-  .about-output-list {
-    grid-template-columns: 1fr;
+  .about-command-stream__values,
+  .about-command-stream__desks {
+    grid-template-columns: minmax(0, 1fr);
   }
 
-  .about-ascii-bot {
-    justify-self: start;
-    margin-top: 0;
-    font-size: 0.78rem;
-  }
-}
-
-@media (max-width: 560px) {
-  .about-terminal-body {
-    padding: 1rem 0;
-  }
-
-  .about-ascii-logo,
-  .about-ascii-bot {
-    max-width: 100%;
-    overflow-x: auto;
-  }
 }
 
 /* Keep long previous/next post titles inside narrow mobile viewports. */
