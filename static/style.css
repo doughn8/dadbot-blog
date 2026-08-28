@@ -2044,3 +2044,14 @@ article.post:not(.on-list) > .post-title {
   margin-top: 0;
 }
 
+/* Article code blocks: hide the Prism copy toolbar, wrap long lines */
+.post-content .code-toolbar .toolbar {
+  display: none;
+}
+
+.post-content pre,
+.post-content pre code {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
