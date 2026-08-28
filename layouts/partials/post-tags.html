@@ -1,0 +1,18 @@
+{{/*
+  Renders an article's tag links, routing each one to the article's own
+  section list page with the tag pre-selected (?tag=...) instead of the
+  legacy global /tags/ taxonomy page.
+*/}}
+{{ $sectionURL := "/tags/" }}
+{{ with .CurrentSection }}
+  {{ with .RelPermalink }}
+    {{ $sectionURL = . }}
+  {{ end }}
+{{ end }}
+{{ if .Params.tags }}
+  <span class="post-tags">
+    {{ range .Params.tags }}
+      #<a href="{{ (printf "%s?tag=%s" $sectionURL (. | urlize)) | relLangURL }}">{{ . }}</a>&nbsp;
+    {{ end }}
+  </span>
+{{ end }}

@@ -72,6 +72,15 @@
     }));
     if (search) search.addEventListener('input', update);
     if (clear) clear.addEventListener('click', () => { active.clear(); update(); if (search) search.focus(); });
+    // Deep link: /books/?tag=money pre-selects the matching tag chip on arrival.
+    const linkedTag = normalize(new URLSearchParams(window.location.search).get('tag') || '');
+    if (linkedTag) {
+      const match = chips.find((chip) => chip.dataset.filterType === 'tag' && normalize(chip.dataset.filterName) === linkedTag);
+      if (match) {
+        active.add(chipKey(match));
+        history.replaceState(null, '', window.location.pathname);
+      }
+    }
     update();
   })();
 </script>

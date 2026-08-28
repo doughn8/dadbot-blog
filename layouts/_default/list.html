@@ -209,6 +209,13 @@
           search.focus();
         });
       }
+      // Deep link: /posts/?tag=money pre-selects the matching chip on arrival.
+      const params = new URLSearchParams(window.location.search);
+      const linkedTag = normalize(params.get('tag') || '');
+      if (linkedTag) {
+        activeTags.add(linkedTag);
+        history.replaceState(null, '', window.location.pathname);
+      }
       update();
     })();
   </script>

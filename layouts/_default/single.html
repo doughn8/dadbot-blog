@@ -23,11 +23,7 @@
   </div>
 
   {{ if .Params.tags }}
-    <span class="post-tags">
-      {{ range .Params.tags }}
-      #<a href="{{ (urls.JoinPath "tags" (urlize .) "/") | relLangURL }}">{{ . }}</a>&nbsp;
-      {{ end }}
-    </span>
+    {{ partial "post-tags.html" . }}
   {{ end }}
   {{ if eq .Type "books" }}
     {{ partial "cover.html" (dict "ctx" . "isCoverCaptionEnabled" true) }}
