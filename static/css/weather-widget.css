@@ -138,20 +138,16 @@
 
 
 /* Responsive */
+/* Height is deliberately NOT overridden below: the bar keeps the desktop
+   28px height at every width (Sophie, 2026-08) — earlier auto-height rules
+   made the bar 42px tall on mobile. Only widths, gaps and fonts adapt. */
 @media (max-width: 768px) {
-  .weather-ticker {
-    height: auto;
-    padding: 6px 0;
-    align-items: stretch;
-  }
-
   .weather-ticker__search {
     flex: 0 0 200px;
     border-right: 1px solid var(--accent, #78e08f);
   }
   
   .weather-ticker__content {
-    height: 26px;
     padding: 0 20px;
   }
   
@@ -186,17 +182,9 @@
   .weather-ticker__search-button {
     font-size: 0.55rem;
   }
-
-  .weather-ticker__ticker {
-    height: 26px;
-  }
 }
 
 @media (max-width: 480px) {
-  .weather-ticker {
-    height: 28px;
-  }
-
   .weather-ticker__search {
     flex: 0 0 170px;
     padding: 0 8px;
