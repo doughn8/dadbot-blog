@@ -1183,7 +1183,7 @@
 /* Muted, understated tag chips inside card footers (overrides .tag-chip baseline). */
 .post-card .tag-chip--mini,
 .card-footer-tags .tag-chip--mini {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   padding: 3px 7px;
   border: 1px solid color-mix(in srgb, #9daaa3 35%, transparent) !important;
@@ -1193,7 +1193,12 @@
   color: #9daaa3 !important;
   background: color-mix(in srgb, #9daaa3 6%, transparent) !important;
   text-decoration: none;
-  max-width: 45%;
+  /* Shrink only as far as needed, then ellipsize gracefully.
+     (A fixed 45% max-width hard-clipped long tags like religious-freedom
+     on narrow homepage cards; inline-flex also silently disabled the
+     text-overflow ellipsis.) */
+  min-width: 0;
+  max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
