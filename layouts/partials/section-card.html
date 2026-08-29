@@ -5,7 +5,7 @@
 <a href="{{ .RelPermalink }}" class="post-card-link" data-post-tags="{{ $postTags }}" data-post-categories="{{ $postCategories }}">
   <article class="post-card {{ with .Params.cardClass }}{{ . }}{{ end }}">
     <div class="card-top-bar">
-      <span class="card-top-desk">{{ if eq .Type "conspiracy-corner" }}CONSPIRACY{{ else if eq .Type "posts" }}BLOG{{ else }}{{ .Type | upper }}{{ end }}{{ if .Date }} // {{ .Date.Format "Jan 2, 2006" }}{{ end }}</span>
+      <span class="card-top-desk">{{ if .Date }}{{ .Date.Format "Jan 2, 2006" }}{{ end }}</span>
       <span class="card-top-reading-time">{{ .ReadingTime }} min read</span>
     </div>
     <div class="post-card-content">

@@ -25,7 +25,7 @@
                 {{ end }}
                 <div class="book-card-details">
                   <div class="card-top-bar">
-                    <span class="card-top-desk">BOOKS{{ if .Date }} // {{ .Date.Format "Jan 2, 2006" }}{{ end }}</span>
+                    <span class="card-top-desk">{{ if .Date }}{{ .Date.Format "Jan 2, 2006" }}{{ end }}</span>
                     <span class="card-top-reading-time">{{ .ReadingTime }} min read</span>
                   </div>
                   <div class="book-card-text">
