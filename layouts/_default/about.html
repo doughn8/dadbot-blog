@@ -1,67 +1,72 @@
 {{ define "main" }}
 <main class="about-page about-command-stream" aria-labelledby="about-title">
-  <section class="about-command-stream__hero" aria-labelledby="about-title">
-    <h1 id="about-title">{{ .Params.hero.headline }}</h1>
-    <p class="about-command-stream__subheadline">{{ .Params.hero.subheadline }}</p>
+  <h1 id="about-title" class="about-command-stream__sr-title">{{ .Params.hero.headline }}</h1>
+
+  <section class="about-command-stream__hero" aria-label="Introduction">
+    <p class="about-command-stream__intro">{{ .Params.hero.subheadline }}</p>
   </section>
 
   {{ with .Params.mission }}
-    <section class="about-command-stream__section about-command-stream__mission" aria-labelledby="about-mission-title">
-      <h2 id="about-mission-title">{{ .title }}</h2>
-      <p>{{ .body }}</p>
+    <section class="about-command-stream__window" aria-labelledby="about-mission-title">
+      <div class="about-command-stream__window-bar"><span id="about-mission-title">Mission</span></div>
+      <div class="about-command-stream__window-body">
+        <p>{{ .body }}</p>
+      </div>
     </section>
   {{ end }}
 
   {{ with .Params.values }}
-    <section class="about-command-stream__section" aria-labelledby="about-values-title">
-      <h2 id="about-values-title">Core values</h2>
-      <div class="about-command-stream__values">
-        {{ range . }}
-          <article class="about-command-stream__value">
-            <h3>{{ .label }}</h3>
-            <p>{{ .body }}</p>
-          </article>
-        {{ end }}
+    {{ $last := sub (len .) 1 }}
+    <section class="about-command-stream__window" aria-labelledby="about-values-title">
+      <div class="about-command-stream__window-bar"><span id="about-values-title">Core values</span></div>
+      <div class="about-command-stream__window-body">
+        <div class="about-command-stream__values">
+          {{ range $index, $value := . }}
+            <article class="about-command-stream__value{{ if eq $index $last }} about-command-stream__value--full{{ end }}">
+              <h3>{{ $value.label }}</h3>
+              <p>{{ $value.body }}</p>
+            </article>
+          {{ end }}
+        </div>
       </div>
     </section>
   {{ end }}
 
   {{ with .Params.desks }}
-    <section class="about-command-stream__section" aria-labelledby="about-desks-title">
-      <h2 id="about-desks-title">What Dadbot covers</h2>
-      <div class="about-command-stream__desks">
-        {{ range . }}
-          <article class="about-command-stream__desk">
-            <h3>{{ .name }}</h3>
-            <p>{{ .line }}</p>
-          </article>
-        {{ end }}
+    <section class="about-command-stream__window" aria-labelledby="about-desks-title">
+      <div class="about-command-stream__window-bar"><span id="about-desks-title">What Dadbot covers</span></div>
+      <div class="about-command-stream__window-body">
+        <div class="about-command-stream__desks">
+          {{ range . }}
+            <article class="about-command-stream__desk">
+              <h3>{{ .name }}</h3>
+              <p>{{ .line }}</p>
+            </article>
+          {{ end }}
+        </div>
       </div>
     </section>
   {{ end }}
 
   {{ with .Params.principles }}
-    <section class="about-command-stream__section about-command-stream__principles" aria-labelledby="about-principles-title">
-      <h2 id="about-principles-title">Operating principles</h2>
-      <ol>
-        {{ range . }}
-          <li>{{ . }}</li>
-        {{ end }}
-      </ol>
-    </section>
-  {{ end }}
-
-  {{ with .Params.closing }}
-    <section class="about-command-stream__closing" aria-labelledby="about-closing-title">
-      <h2 id="about-closing-title">{{ .title }}</h2>
-      <p>{{ .body }}</p>
+    <section class="about-command-stream__window about-command-stream__principles" aria-labelledby="about-principles-title">
+      <div class="about-command-stream__window-bar"><span id="about-principles-title">Operating principles</span></div>
+      <div class="about-command-stream__window-body">
+        <ol>
+          {{ range . }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ol>
+      </div>
     </section>
   {{ end }}
 
   {{ with .Params.support }}
-    <section class="about-command-stream__closing about-command-stream__support" aria-labelledby="about-support-title">
-      <h2 id="about-support-title">{{ .title }}</h2>
-      <p>{{ .body }}</p>
+    <section class="about-command-stream__window" aria-labelledby="about-support-title">
+      <div class="about-command-stream__window-bar"><span id="about-support-title">{{ .title }}</span></div>
+      <div class="about-command-stream__window-body">
+        <p>{{ .body }}</p>
+      </div>
     </section>
   {{ end }}
 </main>
