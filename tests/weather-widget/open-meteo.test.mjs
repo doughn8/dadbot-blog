@@ -113,6 +113,65 @@ test('formatLocationName shows region and country without duplicates', () => {
   assert.equal(weather.formatLocationName({ name: 'Monaco', country: 'Monaco' }), 'Monaco');
 });
 
+// --- Location search dropdown helpers (roadmap item 17) ----------------------
+
+const londonPayload = {
+  results: [
+    { name: 'London', latitude: 51.5085, longitude: -0.1257, country: 'United Kingdom', admin1: 'England', timezone: 'Europe/London' },
+    { name: 'London', latitude: 42.9834, longitude: -81.25, country: 'Canada', admin1: 'Ontario', timezone: 'America/Toronto' },
+    { name: 'London', latitude: 37.129, longitude: -84.0833, country: 'United States', admin1: 'Kentucky' },
+    { name: 'London', latitude: 39.8865, longitude: -83.4485, country: 'United States', admin1: 'Ohio' },
+    { name: 'London', latitude: 35.4865, longitude: -88.2492, country: 'United States', admin1: 'Tennessee' },
+  ],
+};
+
+test('normalizeGeocodeResults keeps all five Londons in payload order', () => {
+  const rows = weather.normalizeGeocodeResults(londonPayload);
+  assert.equal(rows.length, 5);
+  assert.equal(rows[0].name, 'London');
+  assert.equal(rows[0].admin1, 'England');
+  assert.equal(rows[0].country, 'United Kingdom');
+  assert.equal(rows[0].latitude, 51.5085);
+  assert.equal(rows[4].admin1, 'Tennessee');
+});
+
+test('normalizeGeocodeResults skips invalid entries and tolerates empty payloads', () => {
+  const partial = weather.normalizeGeocodeResults({
+    results: [
+      londonPayload.results[0],
+      { name: '', latitude: 1, longitude: 2 },
+      { name: 'No Coords' },
+      londonPayload.results[1],
+    ],
+  });
+  assert.equal(partial.length, 2);
+  assert.deepEqual(weather.normalizeGeocodeResults({}), []);
+  assert.deepEqual(weather.normalizeGeocodeResults(null), []);
+  assert.deepEqual(weather.normalizeGeocodeResults({ results: [] }), []);
+});
+
+test('shouldQueryGeocoder requires at least two non-space characters', () => {
+  assert.equal(weather.shouldQueryGeocoder(''), false);
+  assert.equal(weather.shouldQueryGeocoder('   '), false);
+  assert.equal(weather.shouldQueryGeocoder('L'), false);
+  assert.equal(weather.shouldQueryGeocoder(' Lo '), true);
+  assert.equal(weather.shouldQueryGeocoder('LOND'), true);
+});
+
+test('locationOptions labels each match with region and country', () => {
+  const options = weather.locationOptions(weather.normalizeGeocodeResults(londonPayload));
+  assert.equal(options.length, 5);
+  assert.equal(options[0].label, 'London, England, United Kingdom');
+  assert.equal(options[1].label, 'London, Ontario, Canada');
+  assert.equal(options[2].label, 'London, Kentucky, United States');
+  assert.equal(options[0].location.latitude, 51.5085);
+  assert.equal(options[4].location.longitude, -88.2492);
+});
+
+test('locationOptions returns an empty list for no results', () => {
+  assert.deepEqual(weather.locationOptions([]), []);
+});
+
 // --- URL builders ---------------------------------------------------------
 
 test('forecast and geocoding URLs encode parameters safely', () => {
@@ -158,6 +217,35 @@ test('fresh v2 cache is accepted and expired cache is rejected', () => {
 
   const stale = { location, timestamp: Date.now() - 25 * 60 * 60 * 1000 };
   storage.setItem(LOCATION_V2, JSON.stringify(stale));
+  assert.equal(weather.readCachedLocation(storage), null);
+});
+
+test('user-selected locations never expire (entry-level flag)', () => {
+  const storage = makeStorage();
+  const stale = {
+    location,
+    userSelected: true,
+    timestamp: Date.now() - 25 * 60 * 60 * 1000,
+  };
+  storage.setItem(LOCATION_V2, JSON.stringify(stale));
+  assert.deepEqual(weather.readCachedLocation(storage), location);
+});
+
+test('user-selected flag inside the location object is also honoured', () => {
+  const storage = makeStorage();
+  const stale = {
+    location: { ...location, userSelected: true },
+    timestamp: Date.now() - 25 * 60 * 60 * 1000,
+  };
+  storage.setItem(LOCATION_V2, JSON.stringify(stale));
+  assert.deepEqual(weather.readCachedLocation(storage), { ...location, userSelected: true });
+});
+
+test('clearCachedLocation removes a saved pick so the next visit re-detects', () => {
+  const storage = makeStorage();
+  weather.writeCachedLocation(storage, location, true);
+  assert.notEqual(weather.readCachedLocation(storage), null);
+  weather.clearCachedLocation(storage);
   assert.equal(weather.readCachedLocation(storage), null);
 });
 

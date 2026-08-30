@@ -212,3 +212,50 @@
     margin-bottom: 30px;
   }
 }
+
+/* --- Location search dropdown (roadmap item 17) ---
+   The listbox is portal-rendered to <body> by dadbot-weather.mjs and positioned
+   under the search cell, so the ticker bar's overflow:hidden never clips it and
+   the 28px bar/marquee are untouched. Retro terminal: sharp corners, accent
+   border, background = page background, no entrance animation. */
+.weather-search-dropdown {
+  position: fixed;
+  z-index: 1000;
+  margin: 0;
+  padding: 2px;
+  list-style: none;
+  background: var(--background, #1e1e1e);
+  border: 1px solid var(--accent, #78e08f);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
+  font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+  max-height: 240px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.weather-search-option {
+  min-height: 26px;
+  display: flex;
+  align-items: center;
+  padding: 3px 8px;
+  color: var(--color, #c9d1d9);
+  font-size: 0.65rem;
+  line-height: 1.3;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.weather-search-option--active {
+  background: color-mix(in srgb, var(--accent, #78e08f) 16%, transparent);
+  color: var(--accent, #78e08f);
+}
+
+@media (max-width: 480px) {
+  .weather-search-option {
+    min-height: 32px;
+    font-size: 0.6rem;
+  }
+}

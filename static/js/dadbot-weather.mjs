@@ -69,6 +69,28 @@ export function formatLocationName(location) {
   return parts.join(', ');
 }
 
+// --- Location search dropdown (roadmap item 17) --------------------------------
+
+const GEOCODING_MIN_CHARS = 2;
+
+export function normalizeGeocodeResults(payload) {
+  const results = payload && Array.isArray(payload.results) ? payload.results : [];
+  return results
+    .map((entry) => normalizeLocation(entry))
+    .filter(Boolean);
+}
+
+export function shouldQueryGeocoder(value) {
+  return typeof value === 'string' && value.trim().length >= GEOCODING_MIN_CHARS;
+}
+
+export function locationOptions(results) {
+  return (results || []).map((location) => ({
+    label: formatLocationName(location),
+    location,
+  }));
+}
+
 // --- Forecast period selection ----------------------------------------------
 
 const PERIOD_TARGETS = [
@@ -180,8 +202,13 @@ export function readCachedLocation(storage) {
     const entry = parseCachedEntry(storage, LOCATION_CACHE_KEY);
     if (!entry || !entry.location) return null;
     // A location Sophie's visitor deliberately chose does not expire;
-    // an IP-derived one does (24h TTL).
-    if (!isUserSelected(entry.location) && Date.now() - entry.timestamp >= LOCATION_TTL) {
+    // an IP-derived one does (24h TTL). The flag may sit on the entry
+    // (writeCachedLocation) or inside the location object (older writes).
+    if (
+      !isUserSelected(entry.location) &&
+      entry.userSelected !== true &&
+      Date.now() - entry.timestamp >= LOCATION_TTL
+    ) {
       return null;
     }
     return entry.location;
@@ -192,6 +219,13 @@ export function readCachedLocation(storage) {
 
 function isUserSelected(location) {
   return Boolean(location && location.userSelected);
+}
+
+/** Remove any cached location so the next visit re-runs IP detection. */
+export function clearCachedLocation(storage) {
+  try {
+    storage.removeItem(LOCATION_CACHE_KEY);
+  } catch {}
 }
 
 export function writeCachedLocation(storage, location, userSelected = false) {
@@ -251,6 +285,19 @@ function initWeatherWidget() {
   const searchInput = document.getElementById('weather-search-input');
   if (!root || !searchInput) return;
   const searchButton = document.getElementById('weather-search-button');
+  const searchCell = searchInput.closest('.weather-ticker__search') || root;
+
+  searchInput.setAttribute('role', 'combobox');
+  searchInput.setAttribute('aria-expanded', 'false');
+  searchInput.setAttribute('aria-autocomplete', 'list');
+
+  // --- Location dropdown state (roadmap item 17) ---
+  const LISTBOX_ID = 'weather-search-listbox';
+  const GEOCODING_DEBOUNCE_MS = 250;
+  let listboxEl = null;
+  let listboxOptions = [];
+  let activeIndex = -1;
+  let debounceTimer = null;
 
   try {
     clearLegacyCache(localStorage);
@@ -351,10 +398,166 @@ function initWeatherWidget() {
     }
   }
 
+  // Empty search = forget any saved pick and re-run detection (IP → Sheffield
+  // fallback), per Sophie: empty Enter returns the default location.
+  async function resetToDetectedLocation() {
+    setLoading();
+    clearCachedLocation(localStorage);
+    await detectLocation();
+  }
+
+  // --- Location dropdown rendering (roadmap item 17) ---
+
+  const closeDropdown = () => {
+    if (debounceTimer) {
+      clearTimeout(debounceTimer);
+      debounceTimer = null;
+    }
+    if (listboxEl) listboxEl.remove();
+    listboxEl = null;
+    listboxOptions = [];
+    activeIndex = -1;
+    document.removeEventListener('pointerdown', onOutsidePointerDown, true);
+    window.removeEventListener('scroll', positionDropdown, true);
+    window.removeEventListener('resize', positionDropdown);
+    searchInput.setAttribute('aria-expanded', 'false');
+    searchInput.removeAttribute('aria-activedescendant');
+  };
+
+  const onOutsidePointerDown = (event) => {
+    if (!listboxEl) return;
+    if (listboxEl.contains(event.target) || searchCell.contains(event.target)) return;
+    closeDropdown();
+  };
+
+  function positionDropdown() {
+    if (!listboxEl) return;
+    const cellRect = searchCell.getBoundingClientRect();
+    listboxEl.style.left = `${Math.round(cellRect.left)}px`;
+    listboxEl.style.top = `${Math.round(cellRect.bottom + 2)}px`;
+    listboxEl.style.width = `${Math.round(cellRect.width)}px`;
+  }
+
+  const setActiveOption = (index) => {
+    if (!listboxEl) return;
+    activeIndex = Math.min(Math.max(index, 0), listboxOptions.length - 1);
+    for (let i = 0; i < listboxEl.children.length; i += 1) {
+      const row = listboxEl.children[i];
+      const isActive = i === activeIndex;
+      row.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      row.classList.toggle('weather-search-option--active', isActive);
+    }
+    const activeRow = listboxEl.children[activeIndex];
+    searchInput.setAttribute('aria-activedescendant', activeRow ? activeRow.id : '');
+  };
+
+  const chooseActiveOption = () => {
+    if (!listboxEl || activeIndex < 0 || !listboxOptions[activeIndex]) return false;
+    const chosen = listboxOptions[activeIndex].location;
+    closeDropdown();
+    chooseLocation(chosen);
+    return true;
+  };
+
+  function openDropdown(options) {
+    closeDropdown();
+    if (!options.length) return;
+    listboxOptions = options;
+    listboxEl = document.createElement('ul');
+    listboxEl.id = LISTBOX_ID;
+    listboxEl.className = 'weather-search-dropdown';
+    listboxEl.setAttribute('role', 'listbox');
+    options.forEach((option, index) => {
+      const row = document.createElement('li');
+      row.id = `${LISTBOX_ID}-option-${index}`;
+      row.className = 'weather-search-option';
+      row.setAttribute('role', 'option');
+      row.textContent = option.label;
+      row.addEventListener('pointerdown', (event) => {
+        event.preventDefault();
+        setActiveOption(index);
+        chooseActiveOption();
+      });
+      listboxEl.appendChild(row);
+    });
+    document.body.appendChild(listboxEl);
+    document.addEventListener('pointerdown', onOutsidePointerDown, true);
+    window.addEventListener('scroll', positionDropdown, true);
+    window.addEventListener('resize', positionDropdown);
+    positionDropdown();
+    setActiveOption(0);
+    searchInput.setAttribute('aria-expanded', 'true');
+    searchInput.setAttribute('aria-controls', LISTBOX_ID);
+  }
+
+  async function fetchLocationOptions(query) {
+    const response = await fetch(buildGeocodingUrl(query));
+    if (!response.ok) throw new Error('geocoding failed');
+    return locationOptions(normalizeGeocodeResults(await response.json()));
+  }
+
+  const scheduleGeocodeLookup = () => {
+    if (debounceTimer) clearTimeout(debounceTimer);
+    const query = searchInput.value;
+    debounceTimer = setTimeout(async () => {
+      debounceTimer = null;
+      if (!shouldQueryGeocoder(query)) {
+        closeDropdown();
+        return;
+      }
+      const seq = ++requestSeq;
+      try {
+        const options = await fetchLocationOptions(query);
+        if (seq !== requestSeq) return;
+        openDropdown(options);
+      } catch {
+        if (seq === requestSeq) closeDropdown();
+      }
+    }, GEOCODING_DEBOUNCE_MS);
+  };
+
+  // Shared success path: load the chosen location's forecast, then persist it
+  // as user-selected (never expires). Used by both the dropdown and the
+  // legacy first-match search.
+  async function chooseLocation(location, seq) {
+    if (!Number.isFinite(seq)) seq = ++requestSeq;
+    setLoading();
+    try {
+      await loadForecast(location, seq);
+      writeCachedLocation(localStorage, location, true);
+    } catch (error) {
+      if (seq === requestSeq) {
+        searchInput.value = 'Location not found';
+        setTimeout(restoreInput, 2000);
+      }
+    }
+  }
+
+  // Focus clears the field so the visitor types fresh (Sophie, item 17
+  // follow-up); blur puts the current location name back so the field reads
+  // as a display whenever it is not being edited. Blur stands down when
+  // focus moves inside the search cell (e.g. the Search button), because the
+  // click handler needs the field's real content.
+  searchInput.addEventListener('focus', () => {
+    if (listboxEl) return;
+    searchInput.value = '';
+  });
+
+  searchInput.addEventListener('blur', (event) => {
+    if (listboxEl) return;
+    if (event.relatedTarget && searchCell.contains(event.relatedTarget)) return;
+    restoreInput();
+  });
+
   async function submitSearch() {
     const query = searchInput.value.trim();
-    if (!query || query === 'Loading...') {
+    if (query === 'Loading...') {
       restoreInput();
+      return;
+    }
+    if (!query) {
+      closeDropdown();
+      await resetToDetectedLocation();
       return;
     }
     const seq = ++requestSeq;
@@ -365,9 +568,7 @@ function initWeatherWidget() {
       const data = await response.json();
       const location = normalizeLocation((data.results && data.results[0]) || null);
       if (!location) throw new Error('location not found');
-      await loadForecast(location, seq);
-      // Save only after both geocoding and forecast succeeded.
-      writeCachedLocation(localStorage, location, true);
+      await chooseLocation(location, seq);
     } catch (error) {
       if (seq === requestSeq) {
         searchInput.value = 'Location not found';
@@ -376,18 +577,34 @@ function initWeatherWidget() {
     }
   }
 
+  searchInput.addEventListener('input', () => {
+    scheduleGeocodeLookup();
+  });
   searchInput.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter') {
+    if (event.key === 'ArrowDown' && listboxEl) {
       event.preventDefault();
-      submitSearch();
+      setActiveOption(activeIndex + 1);
+    } else if (event.key === 'ArrowUp' && listboxEl) {
+      event.preventDefault();
+      setActiveOption(activeIndex - 1);
+    } else if (event.key === 'Enter') {
+      event.preventDefault();
+      if (!chooseActiveOption()) {
+        closeDropdown();
+        submitSearch();
+      }
     } else if (event.key === 'Escape') {
       event.preventDefault();
+      closeDropdown();
       restoreInput();
     }
   });
   if (searchButton) {
     searchButton.addEventListener('click', () => {
-      submitSearch();
+      if (!chooseActiveOption()) {
+        closeDropdown();
+        submitSearch();
+      }
     });
   }
 
