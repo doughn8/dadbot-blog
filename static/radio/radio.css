@@ -1,0 +1,626 @@
+/* Dadbot Radio Desk v2 (roadmap item 19) — mock-faithful player panel.
+   Theme tokens only; 0px corners; desk-scoped. */
+
+.radio-desk {
+  width: 100%;
+  min-width: 0;
+  max-width: 1080px;
+  margin: 0 auto 4rem;
+  color: var(--color);
+}
+
+.radio-srtitle {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* --- panel + status bar ---------------------------------------------------- */
+
+.radio-app { margin-top: 1.25rem; }
+
+.terminal-window {
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  background: color-mix(in srgb, var(--accent) 3%, var(--background) 97%);
+}
+
+.terminal-window__bar {
+  padding: 0.45rem 0.8rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+.radio-statusbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 1.5rem;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color) 55%, transparent);
+}
+
+.radio-statusbar__mode b,
+.radio-statusbar__clock {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.radio-statusbar__mode { margin-left: auto; }
+.radio-statusbar__clock { min-width: 3.2em; text-align: right; }
+
+/* --- hero ------------------------------------------------------------------- */
+
+.radio-hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 1.2rem 0.9rem;
+}
+
+.radio-hero__name {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.5rem, 4.2vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.05;
+  color: color-mix(in srgb, var(--color) 88%, transparent);
+  overflow-wrap: anywhere;
+}
+
+.radio-hero__meta {
+  margin: 0 0 0.45rem;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color) 48%, transparent);
+  overflow-wrap: anywhere;
+}
+
+.radio-hero__status {
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: color-mix(in srgb, var(--color) 55%, transparent);
+}
+
+.radio-hero__status.is-accent {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+/* --- spectrum ------------------------------------------------------------------ */
+
+.radio-spectrum-wrap {
+  margin: 0 1.2rem 1rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  background: color-mix(in srgb, var(--background) 92%, black 8%);
+  padding: 0.45rem;
+}
+
+.radio-spectrum {
+  display: block;
+  width: 100%;
+  height: 110px;
+}
+
+/* --- transport --------------------------------------------------------------------- */
+/* Grid: [play] [volume centred] [switch flush right] — the right column tracks
+   the spectrum box's padding, so the switch's right edge lines up with it. */
+
+.radio-transport {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.7rem;
+  /* Right padding tuned so the switch's right edge lands flush with the
+     spectrum box's outer edge (verified by geometry probe). */
+  padding: 0 1.7rem 1.1rem 1.2rem;
+}
+
+.radio-btn {
+  font-family: inherit;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--accent);
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.radio-btn:hover { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+
+.radio-btn:focus-visible,
+.radio-select:focus-visible,
+.radio-filter:focus-visible,
+.radio-hifi:focus-visible,
+.radio-row:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.radio-btn--primary {
+  background: var(--accent);
+  color: var(--background);
+  min-width: 7.5rem; /* fixed: PAUSE ↔ PLAY must not resize */
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+}
+
+.radio-btn--primary:hover { background: color-mix(in srgb, var(--accent) 85%, white 15%); }
+
+.radio-btn--small {
+  font-size: 0.62rem;
+  padding: 0.35rem 0.55rem;
+}
+
+.radio-volume {
+  display: inline-flex;
+  align-items: center;
+  justify-self: center;
+  width: 100%;
+  gap: 0.5rem;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: color-mix(in srgb, var(--color) 55%, transparent);
+}
+
+/* Mock-faithful volume slider: no border box — a thin dim track with a small
+   block thumb (Webkit + Firefox). */
+.radio-volume input[type="range"] {
+  width: 100%;
+  flex: 1 1 auto;
+  height: 14px;
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.radio-volume input[type="range"]::-webkit-slider-runnable-track {
+  height: 2px;
+  background: color-mix(in srgb, var(--color) 35%, transparent);
+  border: none;
+}
+
+.radio-volume input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 8px;
+  height: 14px;
+  margin-top: -6px;
+  background: var(--accent);
+  border: none;
+  border-radius: 0;
+}
+
+.radio-volume input[type="range"]::-moz-range-track {
+  height: 2px;
+  background: color-mix(in srgb, var(--color) 35%, transparent);
+  border: none;
+}
+
+.radio-volume input[type="range"]::-moz-range-thumb {
+  width: 8px;
+  height: 14px;
+  background: var(--accent);
+  border: none;
+  border-radius: 0;
+}
+
+/* --- browser row ------------------------------------------------------------------------ */
+/* Grid: row 1 = Region | Country | Filter · row 2 = Language | Random | Hi-Fi.
+   Collapses to a simple two-column flow on small screens (see media queries). */
+
+.radio-browse {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr) minmax(0, 1.6fr);
+  gap: 0.7rem;
+  align-items: stretch;
+  padding: 0.9rem 1.2rem;
+  border-top: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+}
+
+.radio-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.3rem;
+  /* Browser-grid row 2 by default (region/country/filter); the language and
+     random modifiers further down re-place themselves into row 1. */
+  grid-row: 2;
+}
+
+.radio-field--country { grid-column: 2; }
+.radio-field--grow { grid-column: 3; }
+
+/* Language + RANDOM live ABOVE region/country/filter (Sophie, item 19 v3).
+   Row 1: [language][random] — RANDOM starts at the COUNTRY column line and
+   stretches to the panel edge, mirroring the column layout below. */
+.radio-field--language {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.radio-field--random {
+  grid-column: 2 / -1;
+  grid-row: 1;
+}
+
+/* RANDOM is a bare grid item (no field wrapper): drop it to the bottom of
+   row 1 so it lines up with the LANGUAGE dropdown beside it. */
+.radio-field--random,
+.radio-random {
+  align-self: end;
+}
+
+.radio-field__label {
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color) 50%, transparent);
+}
+
+.radio-select,
+.radio-filter {
+  font-family: inherit;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--color);
+  background: color-mix(in srgb, var(--background) 90%, black 10%);
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  border-radius: 0;
+  padding: 0.45rem 0.6rem;
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* --- custom terminal dropdowns (downward only) -------------------------------------- */
+
+.radio-field {
+  position: relative;
+  min-width: 0;
+}
+
+.radio-dd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+  font-family: inherit;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--color);
+  background: color-mix(in srgb, var(--background) 90%, black 10%);
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  border-radius: 0;
+  padding: 0.45rem 0.6rem;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.radio-dd:hover { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+.radio-dd:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.radio-dd__value {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.radio-dd__caret {
+  flex: none;
+  color: var(--accent);
+  font-size: 0.6rem;
+  transition: transform 0.15s ease;
+}
+.radio-dd[aria-expanded="true"] .radio-dd__caret { transform: rotate(180deg); }
+
+/* Listbox: anchored below the trigger, opens DOWNWARD only, capped + scrolls. */
+.radio-listbox {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 60;
+  margin: 2px 0 0;
+  padding: 2px;
+  list-style: none;
+  background: var(--background);
+  border: 1px solid var(--accent);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.45);
+  font-size: 0.64rem;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.radio-listbox--long { max-height: 360px; }
+
+.radio-listbox li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.32rem 0.5rem;
+  color: var(--color);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.radio-listbox li .radio-listbox__count {
+  color: color-mix(in srgb, var(--color) 45%, transparent);
+  font-size: 0.58rem;
+  flex: none;
+}
+
+.radio-listbox li:hover,
+.radio-listbox li.is-cursor {
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+}
+
+.radio-listbox li[aria-selected="true"] {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.radio-listbox li[aria-selected="true"]::before {
+  content: "▸ ";
+  color: var(--accent);
+}
+
+.radio-filter { min-width: 160px; }
+
+.radio-select {
+  width: 100%;
+  appearance: none;
+  text-overflow: ellipsis;
+  padding-right: 1.6rem;
+  background-image: linear-gradient(45deg, transparent 50%, var(--accent) 50%),
+    linear-gradient(135deg, var(--accent) 50%, transparent 50%);
+  background-position: calc(100% - 14px) 55%, calc(100% - 9px) 55%;
+  background-size: 5px 5px;
+  background-repeat: no-repeat;
+}
+
+.radio-field {
+  min-width: 0;
+  flex: 0 1 auto;
+}
+
+/* Country select: capped so Filter + [Hi-Fi] stay on the same row. */
+.radio-field--country {
+  flex: 1 1 200px;
+  max-width: 260px;
+}
+
+.radio-filter { min-width: 160px; }
+
+.radio-filter::placeholder { color: color-mix(in srgb, var(--accent) 55%, transparent); }
+
+/* Hide-unavailable toggle switch: terminal block knob slides on a track.
+   Row-2 controls stretch to the same height as the input fields (33px). */
+.radio-field--hifi { grid-column: 3; }
+
+.radio-random,
+.radio-switch {
+  height: 33px;
+  box-sizing: border-box;
+}
+
+.radio-random {
+  width: 100%;
+}
+
+.radio-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  height: 33px;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  font-family: inherit;
+  justify-self: end;
+}
+
+.radio-switch__label {
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: color-mix(in srgb, var(--color) 55%, transparent);
+}
+
+.radio-switch:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.radio-switch__track {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 16px;
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  background: color-mix(in srgb, var(--background) 90%, black 10%);
+}
+
+.radio-switch__knob {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 14px;
+  height: 12px;
+  background: color-mix(in srgb, var(--color) 40%, transparent);
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.radio-switch[aria-checked="true"] .radio-switch__knob {
+  transform: translateX(16px);
+  background: var(--accent);
+}
+
+.radio-random {
+  grid-column: 2;
+  justify-self: start;
+  border-style: dashed;
+}
+
+.radio-hifi.is-on {
+  background: var(--accent);
+  color: var(--background);
+}
+
+/* --- stations list -------------------------------------------------------------------------- */
+
+.radio-stations {
+  padding: 0 1.2rem 0.9rem;
+}
+
+.radio-stations__head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: color-mix(in srgb, var(--color) 50%, transparent);
+  margin-bottom: 0.45rem;
+}
+
+.radio-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+  max-height: 430px;
+  overflow-y: auto;
+}
+
+.radio-row {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  width: 100%;
+  text-align: left;
+  font-family: inherit;
+  font-size: 0.72rem;
+  color: var(--color);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 0;
+  padding: 0.55rem 0.7rem;
+  cursor: pointer;
+}
+
+.radio-row:last-child { border-bottom: none; }
+.radio-row:hover { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+
+.radio-row.is-active {
+  background: var(--accent);
+  color: var(--background);
+}
+
+.radio-row.is-selected:not(.is-active) {
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+}
+
+.radio-row.is-unplayable {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.radio-row__mark { width: 1em; color: var(--accent); flex: none; }
+.radio-row.is-active .radio-row__mark { color: var(--background); }
+.radio-row__num { color: color-mix(in srgb, var(--color) 45%, transparent); flex: none; }
+.radio-row.is-active .radio-row__num { color: color-mix(in srgb, var(--background) 70%, transparent); }
+
+.radio-row__name {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.radio-row__codec {
+  flex: none;
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+  color: color-mix(in srgb, var(--color) 50%, transparent);
+}
+
+.radio-row.is-active .radio-row__codec { color: color-mix(in srgb, var(--background) 75%, transparent); }
+
+.radio-empty {
+  margin: 0;
+  padding: 0.9rem 0.7rem;
+  font-size: 0.66rem;
+  opacity: 0.65;
+}
+
+/* --- keybind footer ---------------------------------------------------------------------------- */
+
+.radio-keybinds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.1rem;
+  padding: 0.7rem 1.2rem 0.85rem;
+  border-top: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  font-size: 0.6rem;
+  color: color-mix(in srgb, var(--color) 55%, transparent);
+}
+
+.radio-keybinds b { color: var(--accent); }
+
+.radio-attribution {
+  margin-top: 1.1rem;
+  font-size: 0.6rem;
+  opacity: 0.55;
+}
+
+.radio-attribution a { color: var(--accent); }
+
+/* --- responsive ---------------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .radio-spectrum { height: 100px; }
+  /* Same two browse rows as desktop; transport keeps its 3-column line
+     (play | volume | switch) with the volume shrinking to fit. */
+  .radio-listbox--long { max-height: 300px; }
+}
+
+@media (max-width: 600px) {
+  .radio-hero { padding: 0.9rem 0.9rem 0.7rem; }
+  .radio-spectrum-wrap { margin: 0 0.9rem 0.9rem; }
+  /* Transport stays one line (play | volume | switch); drop the switch's
+     text label so the volume keeps usable width. */
+  .radio-transport { padding: 0 0.9rem 0.9rem; gap: 0.55rem; }
+  .radio-switch__label { display: none; }
+  .radio-transport .radio-btn { min-width: 0; }
+  /* Browse: 2 columns — language|random, region|country, filter full-width. */
+  .radio-browse { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); padding: 0.8rem 0.9rem; gap: 0.55rem; }
+  .radio-field--grow { grid-column: 1 / -1; grid-row: 3; }
+  .radio-stations { padding: 0 0.9rem 0.8rem; }
+  .radio-list { max-height: 360px; }
+  .radio-keybinds { padding: 0.6rem 0.9rem 0.75rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .radio-row, .radio-btn { transition: none; }
+}

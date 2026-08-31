@@ -101,12 +101,28 @@ pagination.pagerSize = 5
         url = "/books"
         weight = 4
 
-      # Games
+      # Play (parent): games + radio
+      [[languages.en.menu.main]]
+        identifier = "play"
+        name = "Play"
+        url = "/games/"
+        weight = 5
+
+      # Games (child of Play)
       [[languages.en.menu.main]]
         identifier = "games"
         name = "Games"
         url = "/games/"
-        weight = 5
+        parent = "play"
+        weight = 1
+
+      # Radio (child of Play)
+      [[languages.en.menu.main]]
+        identifier = "radio"
+        name = "Radio"
+        url = "/radio/"
+        parent = "play"
+        weight = 2
 
       # About
       [[languages.en.menu.main]]

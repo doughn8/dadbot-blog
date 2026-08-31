@@ -1,0 +1,100 @@
+{{ define "head" }}
+  <link rel="stylesheet" href="{{ "radio/radio.css" | relURL }}?v=radio18">
+{{ end }}
+
+{{ define "main" }}
+  <main class="radio-desk" data-radio aria-labelledby="radio-title">
+    <h1 class="radio-srtitle" id="radio-title">{{ .Title }} — Dadbot's desk radio</h1>
+
+    <section class="radio-app terminal-window" aria-label="Dadbot radio player">
+      <div class="terminal-window__bar radio-statusbar">
+        <span class="radio-statusbar__brand">DADBOT RADIO</span>
+        <span class="radio-statusbar__mode">SPECTRUM&nbsp;//&nbsp;<b data-radio-cc>··</b></span>
+        <span class="radio-statusbar__clock" data-radio-clock>--:--</span>
+      </div>
+
+      <div class="radio-hero">
+        <div class="radio-hero__text">
+          <p class="radio-hero__name" data-radio-name>— no signal —</p>
+          <p class="radio-hero__meta" data-radio-meta></p>
+          <p class="radio-hero__status" data-radio-status>■ Off Air</p>
+        </div>
+      </div>
+
+      <div class="radio-spectrum-wrap">
+        <canvas class="radio-spectrum" data-radio-spectrum aria-hidden="true"></canvas>
+      </div>
+
+      <div class="radio-transport">
+        <button type="button" class="radio-btn radio-btn--primary" data-radio-play aria-label="Pause">❚❚ PAUSE</button>
+        <label class="radio-volume">
+          <span>VOL</span>
+          <input type="range" min="0" max="100" value="70" data-radio-volume aria-label="Volume">
+        </label>
+        <button type="button" class="radio-switch" data-radio-hifi role="switch" aria-checked="true" aria-label="Hide unavailable stations">
+          <span class="radio-switch__label">HIDE UNAVAILABLE</span>
+          <span class="radio-switch__track"><span class="radio-switch__knob"></span></span>
+        </button>
+      </div>
+
+      <div class="radio-browse">
+        <div class="radio-field">
+          <span class="radio-field__label" id="radio-region-label">Region</span>
+          <button type="button" class="radio-dd" data-radio-region-trigger
+                  aria-haspopup="listbox" aria-expanded="false" aria-controls="radio-region-listbox"
+                  aria-labelledby="radio-region-label data-radio-region-trigger">
+            <span class="radio-dd__value" data-radio-region-value>Europe</span><span class="radio-dd__caret">▾</span>
+          </button>
+          <ul class="radio-listbox" id="radio-region-listbox" data-radio-region-listbox role="listbox" aria-labelledby="radio-region-label" hidden></ul>
+        </div>
+        <div class="radio-field radio-field--country">
+          <span class="radio-field__label" id="radio-country-label">Country</span>
+          <button type="button" class="radio-dd" data-radio-country-trigger
+                  aria-haspopup="listbox" aria-expanded="false" aria-controls="radio-country-listbox"
+                  aria-labelledby="radio-country-label data-radio-country-trigger">
+            <span class="radio-dd__value" data-radio-country-value>—</span><span class="radio-dd__caret">▾</span>
+          </button>
+          <ul class="radio-listbox radio-listbox--long" id="radio-country-listbox" data-radio-country-listbox role="listbox" aria-labelledby="radio-country-label" hidden></ul>
+        </div>
+        <label class="radio-field radio-field--grow">
+          <span class="radio-field__label">Filter</span>
+          <input type="text" class="radio-filter" data-radio-filter placeholder="/ station name…" autocomplete="off" spellcheck="false" aria-label="Filter stations by name">
+        </label>
+        <div class="radio-field radio-field--language">
+          <span class="radio-field__label" id="radio-language-label">Language</span>
+          <button type="button" class="radio-dd" data-radio-language-trigger
+                  aria-haspopup="listbox" aria-expanded="false" aria-controls="radio-language-listbox"
+                  aria-labelledby="radio-language-label data-radio-language-trigger">
+            <span class="radio-dd__value" data-radio-language-value>English</span><span class="radio-dd__caret">▾</span>
+          </button>
+          <ul class="radio-listbox radio-listbox--long" id="radio-language-listbox" data-radio-language-listbox role="listbox" aria-labelledby="radio-language-label" hidden></ul>
+        </div>
+        <button type="button" class="radio-btn radio-btn--small radio-random" data-radio-random>[RANDOM]</button>
+      </div>
+
+      <div class="radio-stations">
+        <div class="radio-stations__head">
+          <span>- STATIONS -</span>
+          <span data-radio-count>0 STATIONS</span>
+        </div>
+        <div class="radio-list" data-radio-list role="listbox" aria-label="Stations"></div>
+      </div>
+
+      <div class="radio-keybinds" aria-hidden="true">
+        <span><b>[Spc]</b> Play/Pause</span>
+        <span><b>[↑↓]</b> Select</span>
+        <span><b>[↵]</b> Tune</span>
+        <span><b>[+-]</b> Vol</span>
+        <span><b>[/]</b> Filter</span>
+        <span><b>[H]</b> Hi-Fi</span>
+      </div>
+    </section>
+
+    <p class="radio-attribution">Directory data: <a href="https://www.radio-browser.info" rel="noopener noreferrer" target="_blank">radio-browser.info</a> · Inspired by cliamp &amp; Radio Atlas.</p>
+
+    <audio data-radio-audio preload="none"></audio>
+  </main>
+
+  <script src="{{ "radio/regions.js" | relURL }}?v=radio18"></script>
+  <script type="module" src="{{ "radio/radio.mjs" | relURL }}?v=radio18"></script>
+{{ end }}
