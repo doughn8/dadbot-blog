@@ -35,14 +35,6 @@
   border: 0 !important;
 }
 
-.token-wars .tw-hero {
-  margin-bottom: 1rem;
-  padding: 1.25rem 1.4rem;
-  border-left: 4px solid var(--tw-green);
-  background: linear-gradient(90deg, color-mix(in srgb, var(--tw-green) 10%, transparent), transparent 72%);
-}
-.token-wars[data-tw-current-view]:not([data-tw-current-view="setup"]) .tw-hero { display: none; }
-
 .token-wars .tw-kicker, .token-wars .tw-eyebrow, .token-wars .tw-command, .token-wars .tw-alert-code {
   margin: 0 0 .4rem;
   color: var(--tw-dim);
@@ -52,29 +44,37 @@
   text-transform: uppercase;
 }
 
-.token-wars .tw-hero h1 {
+.token-wars .tw-setup-intro h1 {
   margin: 0;
   color: var(--tw-green);
-  font-size: clamp(2.35rem, 8vw, 5rem);
-  line-height: .95;
+  font-size: clamp(2rem, 5vw, 2.25rem);
+  line-height: 1.1;
   letter-spacing: .05em;
   text-transform: uppercase;
-  text-shadow: 0 0 18px color-mix(in srgb, var(--tw-green) 30%, transparent);
 }
 
-.token-wars .tw-tagline { margin: .85rem 0 0; color: color-mix(in srgb, var(--tw-green) 82%, white 18%); }
+.token-wars .tw-setup-intro { margin-bottom: 1.25rem; }
+.token-wars .tw-screen--setup .tw-kicker { color: #c8d4cc; font-size: .8rem; font-weight: 500; letter-spacing: .08em; }
+.token-wars .tw-tagline { max-width: 760px; margin: .65rem 0 0; color: #f8f8f2; font-size: .95rem; line-height: 1.6; }
 .token-wars .tw-prototype, .token-wars .tw-noscript {
   margin: .85rem 0 0;
-  padding: .65rem .8rem;
-  border: 1px dashed var(--tw-border);
   color: var(--tw-dim);
   font-size: .8rem;
 }
+.token-wars .tw-screen--setup .tw-prototype { color: #c8d4cc; line-height: 1.5; }
+.token-wars .tw-screen--setup .tw-prototype strong { color: #f8f8f2; }
+.token-wars .tw-noscript { padding: .65rem .8rem; border: 1px dashed var(--tw-border); }
 
 .token-wars .tw-screen {
   border: 1px solid var(--tw-border);
   background: var(--tw-bg);
   box-shadow: 8px 8px 0 color-mix(in srgb, var(--tw-green) 14%, transparent);
+}
+
+.token-wars .tw-screen--setup {
+  border-color: color-mix(in srgb, var(--tw-green) 75%, transparent);
+  background: color-mix(in srgb, var(--tw-green) 4%, var(--tw-bg) 96%);
+  box-shadow: none;
 }
 
 .token-wars .tw-screen:not([hidden]) {
@@ -99,36 +99,56 @@
   letter-spacing: .06em;
 }
 
+.token-wars .tw-screen--setup .tw-terminal-bar {
+  padding: .45rem .75rem;
+  border-bottom-color: color-mix(in srgb, var(--tw-green) 40%, transparent);
+  background: var(--tw-panel-strong);
+  color: #c8d4cc;
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+
 .token-wars .tw-terminal-bar--danger { border-color: var(--tw-danger); color: var(--tw-danger); }
 .token-wars .tw-exit-run { display: none; }
 .token-wars .tw-screen-body { padding: clamp(1rem, 3vw, 1.75rem); }
 .token-wars .tw-screen-body > h2 { margin: .2rem 0 1rem; font-size: clamp(1.4rem, 4vw, 2rem); }
 
-.token-wars .tw-instructions {
+.token-wars .tw-setup-grid {
   display: grid;
-  gap: .6rem;
-  max-width: 840px;
-  margin: 1rem 0 1.35rem;
-  padding-left: 1.5rem;
-  color: color-mix(in srgb, var(--tw-green) 78%, white 22%);
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr);
+  gap: 1rem;
 }
 
-.token-wars .tw-instructions li::marker { color: var(--tw-green); font-weight: 700; }
-.token-wars .tw-run-picker { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; margin: 0 0 1.2rem; padding: 0; border: 0; }
-.token-wars .tw-run-picker legend { width: 100%; margin-bottom: .6rem; font-weight: 700; }
+.token-wars .tw-field-manual,
+.token-wars .tw-launch-config { min-width: 0; padding: 1.25rem; border: 1px solid color-mix(in srgb, var(--tw-green) 75%, transparent); background: color-mix(in srgb, var(--tw-green) 4%, var(--tw-bg) 96%); }
+.token-wars .tw-setup-panel-heading { display: flex; align-items: baseline; justify-content: space-between; gap: .75rem; margin-bottom: .8rem; padding-bottom: .65rem; border-bottom: 1px solid color-mix(in srgb, var(--tw-green) 40%, transparent); }
+.token-wars .tw-setup-panel-heading h2 { margin: 0; color: var(--tw-green); font-size: 1.125rem; line-height: 1.4; }
+.token-wars .tw-setup-panel-heading span { flex: none; color: #c8d4cc; font-size: .8rem; font-weight: 500; line-height: 1.4; letter-spacing: normal; }
+.token-wars .tw-manual-list { margin: 0; padding: 0; list-style: none; }
+.token-wars .tw-manual-step { display: grid; grid-template-columns: 2.25rem minmax(0, 1fr); gap: .65rem; padding: .7rem 0; border-bottom: 1px solid color-mix(in srgb, var(--tw-green) 20%, transparent); }
+.token-wars .tw-manual-step::before { content: none; }
+.token-wars .tw-manual-step:last-child { border-bottom: 0; }
+.token-wars .tw-manual-step b { color: var(--tw-green); font-size: .8rem; line-height: 1.6; }
+.token-wars .tw-manual-step strong { display: block; color: #f8f8f2; font-size: .95rem; line-height: 1.4; }
+.token-wars .tw-manual-step small { display: block; margin-top: .15rem; color: #c8d4cc; font-size: .8rem; line-height: 1.5; }
+.token-wars .tw-run-picker { display: grid; grid-template-columns: 1fr; gap: .5rem; margin: 0; padding: 0; border: 0; }
+.token-wars .tw-run-picker legend { width: 100%; margin-bottom: .45rem; color: #c8d4cc; font-size: .8rem; font-weight: 500; line-height: 1.4; letter-spacing: .06em; text-transform: uppercase; }
 .token-wars .tw-run-picker label { position: relative; display: block; min-width: 0; cursor: pointer; }
 .token-wars .tw-run-picker input { position: absolute; opacity: 0; pointer-events: none; }
 .token-wars .tw-run-picker span {
   display: flex;
-  min-height: 82px;
+  min-height: 64px;
   flex-direction: column;
   justify-content: center;
-  padding: .8rem;
-  border: 1px solid var(--tw-border);
-  background: var(--tw-panel);
+  padding: .65rem .75rem;
+  border: 1px solid color-mix(in srgb, var(--tw-green) 55%, transparent);
+  background: transparent;
 }
-.token-wars .tw-run-picker small { margin-top: .25rem; color: var(--tw-dim); }
+.token-wars .tw-run-picker strong { color: #f8f8f2; font-size: .95rem; line-height: 1.4; }
+.token-wars .tw-run-picker small { margin-top: .2rem; color: #c8d4cc; font-size: .8rem; line-height: 1.4; }
 .token-wars .tw-run-picker input:checked + span { border: 2px solid var(--tw-green); background: var(--tw-panel-strong); box-shadow: inset 4px 0 0 var(--tw-green); }
+.token-wars .tw-screen--setup .tw-button--primary { display: block; margin-top: .9rem; background: transparent; color: var(--tw-green); }
 
 .token-wars .tw-button, .token-wars .tw-region-list button, .token-wars .tw-map-region {
   border: 1px solid var(--tw-border);
@@ -264,13 +284,20 @@
   .token-wars .tw-region-list { display: grid; grid-template-columns: repeat(3, 1fr); }
 }
 
+@media (max-width: 700px) {
+  .token-wars .tw-setup-grid { grid-template-columns: 1fr; }
+  .token-wars .tw-field-manual,
+  .token-wars .tw-launch-config { padding: 1rem; }
+  .token-wars .tw-screen--setup .tw-button--primary { width: 100%; }
+}
+
 @media (max-width: 600px) {
   .token-wars { margin-bottom: 2rem; }
-  .token-wars .tw-hero { padding: 1rem .85rem; }
   .token-wars .tw-terminal-bar { align-items: flex-start; flex-direction: column; gap: .2rem; }
   .token-wars .tw-screen-body { padding: .8rem; }
-  .token-wars .tw-run-picker { grid-template-columns: 1fr; }
-  .token-wars .tw-run-picker span { min-height: 68px; }
+  .token-wars .tw-screen--setup .tw-screen-body { padding: 1rem; }
+  .token-wars .tw-field-manual, .token-wars .tw-launch-config { padding: 1rem; }
+  .token-wars .tw-run-picker span { min-height: 64px; }
   .token-wars .tw-news span { display: block; margin: 0 0 .15rem; }
   .token-wars .tw-panel { padding: .75rem; }
   .token-wars .tw-panel-heading { align-items: flex-start; flex-direction: column; gap: .35rem; }

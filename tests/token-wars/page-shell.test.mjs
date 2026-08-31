@@ -50,6 +50,48 @@ test('setup, market, lender, encounter, success and loss controls have accessibl
   assert.equal(new Set(tokenIds).size, 10);
 });
 
+test('approved Field Manual intro keeps setup concise, accessible, and responsive', async () => {
+  const [layout, css] = await Promise.all([
+    readProjectFile('layouts/games/list.html'),
+    readProjectFile('static/games/token-wars/token-wars.css'),
+  ]);
+
+  const setup = layout.match(/<section class="tw-screen tw-screen--setup"[\s\S]*?(?=<section class="tw-screen tw-screen--market")/)?.[0] ?? '';
+  const setupMobileCss = css.match(/@media \(max-width: 700px\) \{([\s\S]*?)(?=\n@media \(max-width: 600px\))/)?.[1] ?? '';
+  assert.match(setup, /<h1[^>]*id="token-wars-title"[^>]*>Token Wars<\/h1>/);
+  assert.match(setup, /class="tw-setup-grid"/);
+  assert.match(setup, /class="tw-field-manual"/);
+  assert.match(setup, /class="tw-launch-config"/);
+  assert.equal((setup.match(/class="tw-manual-step"/g) ?? []).length, 4);
+  assert.match(setup, /No account\. Reload to reset\./);
+  assert.match(setup, /<fieldset class="tw-run-picker">[\s\S]*?<legend>Run length<\/legend>/);
+  assert.match(setup, /value="60" checked/);
+  assert.match(setup, /data-tw-action="start">Start Token Wars<\/button>/);
+  assert.doesNotMatch(setup, /tw-instructions/);
+  assert.doesNotMatch(css, /\.token-wars\s+\.tw-screen--setup\s*\{[^}]*linear-gradient/);
+  assert.ok(layout.includes('?v={{ md5 (readFile "static/games/token-wars/token-wars.css") }}'), 'game stylesheet must be content-hashed after CSS edits');
+
+  assert.match(css, /\.token-wars\s+\.tw-setup-grid\s*\{[^}]*display:\s*grid[^}]*grid-template-columns:\s*minmax\(0,\s*1\.15fr\)\s+minmax\(300px,\s*\.85fr\)/);
+  assert.match(setupMobileCss, /\.token-wars\s+\.tw-setup-grid\s*\{[^}]*grid-template-columns:\s*1fr/);
+  assert.match(setupMobileCss, /\.token-wars\s+\.tw-screen--setup\s+\.tw-button--primary\s*\{[^}]*width:\s*100%/);
+  assert.match(css, /\.token-wars\s+\.tw-manual-step::before\s*\{[^}]*content:\s*none/, 'theme list counters must not duplicate the manual step numbers');
+});
+
+test('approved setup styling reuses the Dadbot container, type, and colour system', async () => {
+  const css = await readProjectFile('static/games/token-wars/token-wars.css');
+  const setupMobileCss = css.match(/@media \(max-width: 700px\) \{([\s\S]*?)(?=\n@media \(max-width: 600px\))/)?.[1] ?? '';
+
+  assert.match(css, /\.token-wars\s+\.tw-screen--setup\s*\{[^}]*box-shadow:\s*none/);
+  assert.match(css, /\.token-wars\s+\.tw-screen--setup\s*\{[^}]*background:\s*color-mix\(in srgb,\s*var\(--tw-green\) 4%,\s*var\(--tw-bg\) 96%\)/);
+  assert.match(css, /\.token-wars\s+\.tw-field-manual,[\s\S]*?\.tw-launch-config\s*\{[^}]*padding:\s*1\.25rem[^}]*border:\s*1px solid color-mix\(in srgb,\s*var\(--tw-green\) 75%,\s*transparent\)/);
+  assert.match(css, /\.token-wars\s+\.tw-setup-panel-heading h2\s*\{[^}]*font-size:\s*1\.125rem/);
+  assert.match(css, /\.token-wars\s+\.tw-tagline\s*\{[^}]*color:\s*#f8f8f2[^}]*font-size:\s*\.95rem[^}]*line-height:\s*1\.6/);
+  assert.match(css, /\.token-wars\s+\.tw-manual-step strong\s*\{[^}]*color:\s*#f8f8f2[^}]*font-size:\s*\.95rem/);
+  assert.match(css, /\.token-wars\s+\.tw-manual-step small\s*\{[^}]*color:\s*#c8d4cc[^}]*font-size:\s*\.8rem/);
+  assert.match(css, /\.token-wars\s+\.tw-screen--setup \.tw-button--primary\s*\{[^}]*background:\s*transparent[^}]*color:\s*var\(--tw-green\)/);
+  assert.match(setupMobileCss, /\.token-wars\s+\.tw-field-manual,[\s\S]*?\.token-wars\s+\.tw-launch-config\s*\{[^}]*padding:\s*1rem/);
+});
+
 test('one responsive travel grid provides the six named destinations', async () => {
   const layout = await readProjectFile('layouts/games/list.html');
   const regions = new Map([
@@ -163,7 +205,7 @@ test('game stylesheet is loaded and contains scoped responsive and accessibility
   assert.match(css, /@keyframes\s+tw-screen-in/);
   assert.match(css, /\.token-wars\s+\.tw-screen:not\(\[hidden\]\)[^{]*\{[^}]*animation:\s*tw-screen-in/s);
   assert.match(css, /prefers-reduced-motion:\s*reduce[\s\S]*animation:\s*none/);
-  assert.match(css, /\.token-wars\[data-tw-current-view\][^\{]*\.tw-hero\s*\{[^}]*display:\s*none/);
+  assert.match(css, /\.token-wars\s+\.tw-screen--setup\s+\.tw-button--primary/);
   assert.match(css, /\.token-wars\s+\.tw-news\[data-event-kind="bonus"\]/);
   assert.match(css, /\.token-wars\s+\.tw-news\[data-event-kind="mishap"\]/);
   assert.match(css, /overflow-wrap:\s*anywhere/);
