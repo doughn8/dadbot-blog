@@ -208,6 +208,7 @@ test('radio selects are custom terminal dropdowns, not native selects', async ()
   assert.match(css, /\.radio-listbox\s*\{/, 'listbox styles present');
   assert.ok(!/^\s*bottom\s*:/m.test(css), 'listbox must not be positioned upward');
   assert.match(css, /max-height:\s*360px/, 'country listbox capped to scroll downward');
+  assert.match(css, /\.radio-listbox\s*\{[^}]*overflow-x:\s*hidden/, 'listboxes suppress horizontal scrolling');
 });
 
 test('browser controls lay out as two rows: language+random then region+country+filter; volume stretches', async () => {

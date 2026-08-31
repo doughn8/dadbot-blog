@@ -347,6 +347,7 @@
   font-size: 0.64rem;
   max-height: 240px;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .radio-listbox--long { max-height: 360px; }
