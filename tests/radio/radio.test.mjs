@@ -9,6 +9,15 @@ const read = (path) => readFile(new URL(path, projectRoot), 'utf8');
 const moduleUrl = new URL('../../static/radio/radio.mjs', import.meta.url);
 const radio = await import(moduleUrl.href);
 
+test('radio container header uses the shared green-left grey-right hierarchy', async () => {
+  const html = await read('layouts/radio/list.html');
+  const css = await read('static/radio/radio.css');
+
+  assert.match(css, /\.radio-statusbar__brand\s*\{[^}]*color:\s*var\(--accent\)/, 'left brand is green');
+  assert.match(css, /\.radio-statusbar__mode b,[\s\S]*?\.radio-statusbar__clock\s*\{[^}]*color:\s*color-mix\(in srgb, var\(--color\) 55%, transparent\)/, 'right-side country and clock are grey');
+  assert.match(html, /radio\/radio\.css[^\n]*\?v=radio20/, 'edited Radio CSS has a fresh cache version');
+});
+
 // Execute regions.js the way a browser would (plain script, global attach).
 async function loadRegions() {
   const src = await read('static/radio/regions.js');
