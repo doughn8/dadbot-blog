@@ -1,44 +1,54 @@
 {{ define "head" }}
-  <link rel="stylesheet" href="{{ "games/token-wars/token-wars.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "games/token-wars/token-wars.css" | relURL }}?v={{ md5 (readFile "static/games/token-wars/token-wars.css") }}">
 {{ end }}
 
 {{ define "main" }}
   <main class="token-wars" data-tw-game aria-labelledby="token-wars-title">
-    <header class="tw-hero">
-      <p class="tw-kicker">DADBOT ARCADE // BUILD 0.2</p>
-      <h1 id="token-wars-title">Token Wars</h1>
-      <p class="tw-tagline">Buy low. VPN-jump. Sell high. Try not to get audited by a sentient spreadsheet.</p>
-      <p class="tw-prototype"><strong>Local browser game:</strong> progress lives only in memory and resets when this page reloads.</p>
-    </header>
-
     <noscript>
       <p class="tw-noscript">JavaScript is required to play Token Wars.</p>
     </noscript>
 
-    <section class="tw-screen tw-screen--setup" data-tw-view="setup" aria-labelledby="tw-setup-title">
+    <section class="tw-screen tw-screen--setup" data-tw-view="setup" aria-labelledby="token-wars-title">
       <div class="tw-terminal-bar" aria-hidden="true">
         <span>token-wars://new-run</span>
-        <span>CONNECTION: ENCRYPTED</span>
+        <span>LOCAL SESSION // UNSAVED</span>
       </div>
       <div class="tw-screen-body">
-        <p class="tw-command" aria-hidden="true">dadbot:~$ ./token-wars --new</p>
-        <h2 id="tw-setup-title">Choose your run</h2>
-        <ol class="tw-instructions">
-          <li>Buy fictional AI tokens where they look cheap.</li>
-          <li>VPN-jump between six regions to find better prices.</li>
-          <li>Each jump uses one day and may trigger news or trouble.</li>
-          <li>Use the bank, manage your server space, and repay debt if you fancy sleeping.</li>
-          <li>Finish with the most cash and savings before time—or health—runs out.</li>
-        </ol>
+        <header class="tw-setup-intro">
+          <p class="tw-kicker">Dadbot Arcade</p>
+          <h1 id="token-wars-title">Token Wars</h1>
+          <p class="tw-tagline">A quick browser game about trading fictional AI tokens while trying not to be audited by a sentient spreadsheet.</p>
+        </header>
 
-        <fieldset class="tw-run-picker">
-          <legend>Run length</legend>
-          <label><input type="radio" name="tw-run-length" value="30"> <span><strong>30 days</strong><small>Quick compile</small></span></label>
-          <label><input type="radio" name="tw-run-length" value="60" checked> <span><strong>60 days</strong><small>Standard chaos</small></span></label>
-          <label><input type="radio" name="tw-run-length" value="90"> <span><strong>90 days</strong><small>Long-haul debugging</small></span></label>
-        </fieldset>
+        <div class="tw-setup-grid">
+          <section class="tw-field-manual" aria-labelledby="tw-manual-title">
+            <div class="tw-setup-panel-heading">
+              <h2 id="tw-manual-title">Field manual</h2>
+              <span>READ TIME: 20 SEC</span>
+            </div>
+            <ol class="tw-manual-list">
+              <li class="tw-manual-step"><b>01</b><div><strong>Find the bargain</strong><small>Compare token prices and buy what looks cheap.</small></div></li>
+              <li class="tw-manual-step"><b>02</b><div><strong>Jump the market</strong><small>Move through six VPN regions. Every jump advances one day.</small></div></li>
+              <li class="tw-manual-step"><b>03</b><div><strong>Handle the fallout</strong><small>News, debt collectors, health and server space can derail a perfect plan.</small></div></li>
+              <li class="tw-manual-step"><b>04</b><div><strong>Bank the score</strong><small>Cash plus savings is your final score. Debt remains your emotional score.</small></div></li>
+            </ol>
+          </section>
 
-        <button class="tw-button tw-button--primary" type="button" data-tw-action="start">Start Token Wars</button>
+          <section class="tw-launch-config" aria-labelledby="tw-setup-title">
+            <div class="tw-setup-panel-heading">
+              <h2 id="tw-setup-title">Launch config</h2>
+              <span>DEFAULT: 60</span>
+            </div>
+            <fieldset class="tw-run-picker">
+              <legend>Run length</legend>
+              <label><input type="radio" name="tw-run-length" value="30"> <span><strong>30 days</strong><small>Quick compile</small></span></label>
+              <label><input type="radio" name="tw-run-length" value="60" checked> <span><strong>60 days</strong><small>Standard chaos</small></span></label>
+              <label><input type="radio" name="tw-run-length" value="90"> <span><strong>90 days</strong><small>Long-haul debugging</small></span></label>
+            </fieldset>
+            <p class="tw-prototype"><strong>Local browser game.</strong> No account. Reload to reset.</p>
+            <button class="tw-button tw-button--primary" type="button" data-tw-action="start">Start Token Wars</button>
+          </section>
+        </div>
       </div>
     </section>
 
