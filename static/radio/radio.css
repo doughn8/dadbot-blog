@@ -44,9 +44,14 @@
   color: color-mix(in srgb, var(--color) 55%, transparent);
 }
 
+.radio-statusbar__brand {
+  color: var(--accent);
+  font-weight: 800;
+}
+
 .radio-statusbar__mode b,
 .radio-statusbar__clock {
-  color: var(--accent);
+  color: color-mix(in srgb, var(--color) 55%, transparent);
   font-weight: 800;
 }
 
