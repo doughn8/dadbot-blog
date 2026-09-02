@@ -2,10 +2,10 @@ import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import { readFile } from 'node:fs/promises';
 import test from 'node:test';
+import { fileURLToPath } from 'node:url';
 
-const repoRoot = '/Users/sophie/Documents/Dadbot blog';
+const repoRoot = fileURLToPath(new URL('../../', import.meta.url)).replace(/\/$/, '');
 const read = (path) => readFile(`${repoRoot}/${path}`, 'utf8');
-const hugoBin = '/Users/sophie/.local/bin/hugo';
 
 test('external article links open in a new tab via a site-wide enhancement', async () => {
   const script = await read('static/js/external-links.js');
@@ -23,6 +23,8 @@ test('external article links open in a new tab via a site-wide enhancement', asy
 });
 
 test('rendered article pages ship the external-link enhancement', async () => {
+  // Resolve hugo from PATH so this passes on any machine (CI included).
+  const hugoBin = execFileSync('sh', ['-c', 'command -v hugo'], { cwd: repoRoot }).toString().trim();
   execFileSync(hugoBin, ['--gc', '--minify', '--destination', '/tmp/dadbot-external-links-build'], {
     cwd: repoRoot,
     stdio: 'pipe',
