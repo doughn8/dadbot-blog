@@ -88,6 +88,15 @@
     a:focus {
       color: #78e2a0 !important;
     }
+
+    // Group triggers (e.g. Play) must stay nav-green: without this they
+    // inherit the purple Conspiracy accent on the conspiracy desk. The
+    // theme's own trigger rule is !important and loads later, so this needs
+    // a higher-specificity selector to win the cascade.
+    .navigation-menu & .menu__trigger,
+    .menu__trigger {
+      color: #78e2a0 !important;
+    }
   }
 
   &__item--special {
