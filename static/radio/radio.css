@@ -226,6 +226,17 @@
   border-radius: 0;
 }
 
+/* The theme's global input:focus draws a white box around the slider while
+   dragging; opt out, but keep a green keyboard-focus outline (Sophie). */
+.radio-volume input[type="range"]:focus {
+  outline: none;
+}
+
+.radio-volume input[type="range"]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 /* --- browser row ------------------------------------------------------------------------ */
 /* Grid: row 1 = Region | Country | Filter · row 2 = Language | Random | Hi-Fi.
    Collapses to a simple two-column flow on small screens (see media queries). */
@@ -456,6 +467,10 @@
 }
 
 .radio-switch:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Theme button:hover fills any button background on hover; the terminal
+   switch stays chromeless (Sophie). */
+.radio-switch:hover { background: none; }
 
 .radio-switch__track {
   position: relative;

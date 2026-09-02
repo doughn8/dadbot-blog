@@ -15,7 +15,19 @@ test('radio container header uses the shared green-left grey-right hierarchy', a
 
   assert.match(css, /\.radio-statusbar__brand\s*\{[^}]*color:\s*var\(--accent\)/, 'left brand is green');
   assert.match(css, /\.radio-statusbar__mode b,[\s\S]*?\.radio-statusbar__clock\s*\{[^}]*color:\s*color-mix\(in srgb, var\(--color\) 55%, transparent\)/, 'right-side country and clock are grey');
-  assert.match(html, /radio\/radio\.css[^\n]*\?v=radio20/, 'edited Radio CSS has a fresh cache version');
+  assert.match(html, /radio\/radio\.css[^\n]*\?v=radio21/, 'edited Radio CSS has a fresh cache version');
+});
+
+test('radio switch hover and volume focus drop the theme chrome but keep keyboard focus', async () => {
+  const css = await read('static/radio/radio.css');
+
+  // Theme button:hover fills the toggle background — the switch opts out.
+  assert.match(css, /\.radio-switch:hover\s*\{[^}]*background:\s*none/, 'switch hover does not fill a background');
+
+  // Theme input:focus draws a white box — the volume slider opts out while
+  // dragging but keeps a visible green keyboard-focus outline.
+  assert.match(css, /\.radio-volume input\[type="range"\]:focus\s*\{[^}]*outline:\s*none/, 'volume drag has no focus box');
+  assert.match(css, /\.radio-volume input\[type="range"\]:focus-visible\s*\{[^}]*outline:\s*2px solid var\(--accent\)/, 'volume keeps a keyboard focus outline');
 });
 
 // Execute regions.js the way a browser would (plain script, global attach).
