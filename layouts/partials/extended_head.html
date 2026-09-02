@@ -1,2 +1,5 @@
 <!-- Weather Widget Styles -->
 <link rel="stylesheet" href="/css/weather-widget.css?v={{ now.Unix }}">
+
+<!-- External article links open in a new tab site-wide (deferred; content-hashed) -->
+<script src="{{ "js/external-links.js" | relURL }}?v={{ md5 (readFile "static/js/external-links.js") }}" defer></script>
