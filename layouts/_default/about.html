@@ -2,18 +2,14 @@
 <main class="about-page about-command-stream" aria-labelledby="about-title">
   <h1 id="about-title" class="about-command-stream__sr-title">{{ .Params.hero.headline }}</h1>
 
-  <section class="about-command-stream__hero" aria-label="Introduction">
-    <p class="about-command-stream__intro">{{ .Params.hero.subheadline }}</p>
-  </section>
-
-  {{ with .Params.mission }}
-    <section class="about-command-stream__window" aria-labelledby="about-mission-title">
-      <div class="about-command-stream__window-bar"><span id="about-mission-title">Mission</span></div>
-      <div class="about-command-stream__window-body">
+  <section class="about-command-stream__hero section-intro section-intro--green" aria-label="Introduction and mission">
+    <div class="section-intro__content">
+      <p>{{ .Params.hero.subheadline }}</p>
+      {{ with .Params.mission }}
         <p>{{ .body }}</p>
-      </div>
-    </section>
-  {{ end }}
+      {{ end }}
+    </div>
+  </section>
 
   {{ with .Params.values }}
     {{ $last := sub (len .) 1 }}

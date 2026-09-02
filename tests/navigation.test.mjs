@@ -28,3 +28,13 @@ test('mobile menu green styling cannot override the purple Conspiracy Corner lin
   assert.match(menuStyles, /\.menu__dropdown\s*>\s*li:not\(\.menu__item--special-mobile\)/);
   assert.match(menuStyles, /\.menu__item--special-mobile[\s\S]*?color:\s*#ee72f1\s*!important/);
 });
+
+test('Play menu trigger stays green on the purple Conspiracy Corner page', async () => {
+  const menuStyles = await readProjectFile('assets/css/menu.scss');
+
+  assert.match(
+    menuStyles,
+    /\.navigation-menu\s*&\s*\.menu__trigger,\s*\.menu__trigger\s*\{\s*color:\s*#78e2a0\s*!important;/,
+    'the grouped Play trigger has a higher-specificity fixed-green rule',
+  );
+});
