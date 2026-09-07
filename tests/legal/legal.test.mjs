@@ -12,10 +12,11 @@ const read = (path) => readFile(`${repoRoot}/${path}`, 'utf8');
 
 const OPERATOR_LINES = ['Mark Hickinson', 'grosse falterstrasse 85', '70597 stuttgart', 'Germany'];
 
-test('legal page exists with draft flag and operator Impressum details', async () => {
+test('legal page is publishable (no draft flag or local-draft banner)', async () => {
   const page = await read('content/legal.md');
+  assert.doesNotMatch(page, /^draft:/m, 'no draft flag: page must render in production builds');
+  assert.doesNotMatch(page, /Local draft for review/i, 'no local-draft banner in published copy');
   assert.match(page, /^title: "Legal — Impressum & Privacy"/m, 'combined page title');
-  assert.match(page, /^draft: true/m, 'page ships as draft until publication approval');
   for (const line of OPERATOR_LINES) {
     assert.ok(page.includes(line), `Impressum operator line present: ${line}`);
   }

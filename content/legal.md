@@ -1,14 +1,11 @@
 ---
 title: "Legal — Impressum & Privacy"
 date: 2026-09-07
-draft: true
 hideComments: true
 description: "Legal information for Dadbot.blog: site operator (Impressum) and how the site handles data."
 ---
 
 **On this page:** [Impressum](#impressum) · [Privacy](#privacy)
-
-> **Local draft for review — not published.** Details below were approved for drafting; publication is a separate approval.
 
 ## Impressum
 
