@@ -57,7 +57,10 @@ pagination.pagerSize = 5
       subtitle = "Thoughts on tech, life, and everything in between"
       owner = ""
       keywords = "blog, technology, parenting, crypto, finance, sports, news, hobbies, books"
-      copyright = ""
+      # Footer legal line: the theme renders the Copyright param as raw HTML
+      # (safeHTML) in place of its default copyright text. Links the
+      # Impressum/Privacy page; kept concise for the 760px footer row.
+      copyright = "© 2026 Dadbot · <a href=\"/legal/\">Legal</a>"
       menuMore = "Show more"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
