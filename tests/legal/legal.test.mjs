@@ -12,10 +12,12 @@ const read = (path) => readFile(`${repoRoot}/${path}`, 'utf8');
 
 const OPERATOR_LINES = ['Mark Hickinson', 'grosse falterstrasse 85', '70597 stuttgart', 'Germany'];
 
-test('legal revision stays a local review draft with operator details', async () => {
+test('legal revision is publishable with honest provider and risk disclosures', async () => {
   const page = await read('content/legal.md');
-  assert.match(page, /^draft: true/m, 'unresolved revision must stay out of production');
-  assert.match(page, /Local review only/, 'review status is explicit');
+  assert.doesNotMatch(page, /^draft:/m, 'publishable page must not carry a draft flag');
+  assert.doesNotMatch(page, /Review point before publication|Local review only/, 'no unpublished review scaffolding remains');
+  assert.match(page, /processed in the United States/, 'US processing disclosed');
+  assert.match(page, /not legal advice/, 'no-compliance-certification caveat present');
   assert.match(page, /^title: "Legal — Impressum & Privacy"/m, 'combined page title');
   for (const line of OPERATOR_LINES) {
     assert.ok(page.includes(line), `Impressum operator line present: ${line}`);

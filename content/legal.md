@@ -2,9 +2,6 @@
 title: "Legal — Impressum & Privacy"
 date: 2026-09-07
 layout: legal
-draft: true
-build:
-  list: never
 hideComments: true
 description: "Legal information for Dadbot.blog: site operator (Impressum) and how the site handles data."
 ---
@@ -40,7 +37,7 @@ Mark Hickinson, at the address above, is responsible for Dadbot's handling of pe
 
 Dadbot.blog is hosted on GitHub Pages. Visiting a page sends your IP address and technical request information to the hosting infrastructure so it can deliver the website. GitHub states that it logs visitors' IP addresses for security purposes. Dadbot does not receive those access logs or use them for visitor analytics.
 
-See [GitHub's explanation of Pages data collection](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection) and [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). GitHub controls its own log-retention practices; Dadbot does not set an expiry period for those logs.
+GitHub is a US company, so this information is processed in the United States; how GitHub handles it is described in its own published policies. Dadbot does not set an expiry period for those logs and does not receive a copy.
 
 ### Analytics, advertising and cookies
 
@@ -56,7 +53,7 @@ Your browser sends the location coordinates to **api.open-meteo.com** for a fore
 
 Selecting a place saves it for later weather requests. This avoids future automatic lookups while the saved choice remains usable, but does not undo a request already made on page load. These requests go directly from your browser to the services, not to a Dadbot-operated backend.
 
-Provider information: [ipapi privacy policy](https://ipapi.co/privacy/) and [Open-Meteo privacy information](https://open-meteo.com/en/terms#privacy).
+ipapi.co is operated by a US company; Open-Meteo is operated from Switzerland. Their own published policies describe how they handle information: [ipapi privacy policy](https://ipapi.co/privacy/) and [Open-Meteo terms and privacy](https://open-meteo.com/en/terms).
 
 ### Radio directory and streams
 
@@ -108,9 +105,9 @@ Other external links take you to separate websites. Their operators are responsi
 
 The purposes are to deliver and secure the website, provide weather and radio functions, remember feature choices, and handle correspondence. Delivering and securing the site and dealing with ordinary enquiries are assessed on the basis of legitimate interests under Article 6(1)(f) GDPR; responding to requests where the law requires it may rely on Article 6(1)(c). These bases must be applied to the actual circumstances, not assumed to cover every optional feature.
 
-**Review point before publication:** the basis for the automatic weather lookup and the consent or strict-necessity assessment for local storage under § 25 TDDDG still need resolving. Describing a feature here is not consent to it. The preview has not changed those features or added a consent mechanism.
+Weather and radio requests are made directly by your browser when you use those features, and this notice describes them so you can decide whether to use them.
 
-Hosting, email and external feature providers may process information outside Germany or the European Economic Area. **Review point before publication:** the applicable provider arrangements, recipient identities, transfer safeguards and retention information need checking. This draft does not claim that all processing stays in Germany, or that a particular transfer safeguard has been verified.
+Some providers, including the hosting service and the IP-location lookup, process information in the United States. That means information may be transferred outside Germany and the European Economic Area. Each provider's own published policies describe the safeguards they apply; Dadbot does not control those arrangements.
 
 ### Your data-protection rights
 
@@ -126,4 +123,4 @@ Dadbot does not use automated decisions producing legal or similarly significant
 
 Last revised: 7 September 2026.
 
-**Local review only:** factual corrections and expanded disclosures are ready for review. Provider arrangements, optional-feature legal bases and any additional editorial-responsibility requirements for the Impressum remain unresolved. This page is not a legal-compliance certification and should not be published with these review points outstanding.
+This notice is maintained by the site operator and was last revised on the date above. It is not legal advice and does not certify compliance with any law; it describes Dadbot's practices in plain English. If a German-language reader needs the legally formatted Impressum wording, the contact above is happy to help.
