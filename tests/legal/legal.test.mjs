@@ -12,10 +12,10 @@ const read = (path) => readFile(`${repoRoot}/${path}`, 'utf8');
 
 const OPERATOR_LINES = ['Mark Hickinson', 'grosse falterstrasse 85', '70597 stuttgart', 'Germany'];
 
-test('legal page is publishable (no draft flag or local-draft banner)', async () => {
+test('legal revision stays a local review draft with operator details', async () => {
   const page = await read('content/legal.md');
-  assert.doesNotMatch(page, /^draft:/m, 'no draft flag: page must render in production builds');
-  assert.doesNotMatch(page, /Local draft for review/i, 'no local-draft banner in published copy');
+  assert.match(page, /^draft: true/m, 'unresolved revision must stay out of production');
+  assert.match(page, /Local review only/, 'review status is explicit');
   assert.match(page, /^title: "Legal — Impressum & Privacy"/m, 'combined page title');
   for (const line of OPERATOR_LINES) {
     assert.ok(page.includes(line), `Impressum operator line present: ${line}`);
@@ -63,5 +63,5 @@ test('privacy section makes no false no-tracking claims', async () => {
 
 test('footer carries the Legal link via the copyright param', async () => {
   const config = await read('hugo.toml');
-  assert.match(config, /copyright\s*=\s*"© \d{4} Dadbot · <a href=\\"\/legal\/\\">Legal<\/a>"/, 'copyright string links /legal/ as “Legal” in the theme footer');
+  assert.match(config, /copyright\s*=\s*"© \d{4} Dadbot · <a href=\\"\/legal\/\\">Legal \/ Impressum<\/a>"/, 'copyright string links /legal/ as “Legal” in the theme footer');
 });
