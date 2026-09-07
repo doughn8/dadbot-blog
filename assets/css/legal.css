@@ -1,0 +1,7 @@
+/* Legal page only: preserve semantic h1 > h2 > h3 hierarchy visually. */
+.legal-page .post-title { font-size: 1.8rem !important; line-height: 1.3; }
+.legal-page .post-content h2 { font-size: 1.5rem !important; line-height: 1.35; }
+.legal-page .post-content h3 { font-size: 1.1rem !important; line-height: 1.45; }
+.legal-page .post-content { overflow-wrap: anywhere; }
+.legal-page .post-content table { display: block; max-width: 100%; overflow-x: auto; }
+.legal-page h2, .legal-page h3 { scroll-margin-top: 1rem; }
