@@ -28,6 +28,11 @@
   cursor: pointer;
 }
 
+// The inline desktop row only fits at 705px+ (measured). Below that the whole
+// nav switches to the mobile "Menu" trigger in the top right — there is no
+// in-between state, so items can never wrap onto a second line.
+$nav-break: 705px;
+
 .navigation-menu {
   display: flex;
   align-items: flex-start;
@@ -41,7 +46,7 @@
   &__inner {
     display: flex;
     flex: 1;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -56,7 +61,7 @@
       }
     }
 
-    @media (max-width: $phone) {
+    @media (max-width: $nav-break) {
       flex-direction: column;
       align-items: flex-start;
       padding: 0;
@@ -165,7 +170,7 @@
   }
 
   &--desktop {
-    @media (max-width: $phone) {
+    @media (max-width: $nav-break) {
       display: none;
     }
   }
@@ -175,13 +180,13 @@
       @include header-menu-trigger;
       display: none;
 
-      @media (max-width: $phone) {
+      @media (max-width: $nav-break) {
         display: block;
       }
     }
 
     .menu__dropdown {
-      @media (max-width: $phone) {
+      @media (max-width: $nav-break) {
         left: auto;
         right: 0;
       }
