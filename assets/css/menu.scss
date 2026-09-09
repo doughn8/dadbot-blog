@@ -123,6 +123,31 @@ $nav-break: 705px;
   }
 }
 
+// Keep native disclosure buttons visually identical to the original triggers.
+button.menu__trigger {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  display: inline;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+
+  &:hover {
+    background: none;
+    box-shadow: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+}
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -176,6 +201,11 @@ $nav-break: 705px;
   }
 
   &--mobile {
+    // The wrapper must retain the original trigger’s zero bottom margin.
+    > li:first-child:has(> .menu__trigger) {
+      margin-bottom: 0;
+    }
+
     .menu__trigger {
       @include header-menu-trigger;
       display: none;

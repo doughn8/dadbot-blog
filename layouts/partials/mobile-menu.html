@@ -1,7 +1,7 @@
 <ul class="menu menu--mobile">
-  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li><button type="button" class="menu__trigger" aria-expanded="false" aria-controls="menu-mobile">Menu&nbsp;▾</button></li>
   <li>
-    <ul class="menu__dropdown">
+    <ul class="menu__dropdown" id="menu-mobile">
       {{ range $.Site.Menus.main }}
         {{ if not .HasChildren }}
           <li class="{{ if eq .Identifier "conspiracy-corner" }}menu__item--special-mobile{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>

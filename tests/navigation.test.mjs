@@ -1,6 +1,34 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import test from 'node:test';
+import { execFileSync } from 'node:child_process';
+import { mkdtemp, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+test('rendered navigation has native buttons controlling unique dropdowns', async () => {
+  const destination = await mkdtemp(join(tmpdir(), 'dadbot-keyboard-'));
+  try {
+    execFileSync('hugo', ['--destination', destination], { cwd: fileURLToPath(new URL('../', import.meta.url)), stdio: 'pipe' });
+    const html = await readFile(join(destination, 'index.html'), 'utf8');
+    const triggers = [...html.matchAll(/<([\w-]+)\b([^>]*class="[^"]*\bmenu__trigger\b[^"]*"[^>]*)>/g)];
+    assert.equal(triggers.length, 2, 'mobile Menu and desktop Play');
+    const ids = [];
+    for (const [, tag, attrs] of triggers) {
+      assert.equal(tag, 'button', 'dropdown triggers must be native buttons');
+      assert.match(attrs, /type="button"/);
+      assert.match(attrs, /aria-expanded="false"/);
+      const id = attrs.match(/aria-controls="([^"]+)"/)?.[1];
+      assert.ok(id, 'trigger identifies its dropdown');
+      ids.push(id);
+      assert.equal([...html.matchAll(new RegExp(`id="${id}"`, 'g'))].length, 1);
+    }
+    assert.equal(new Set(ids).size, ids.length);
+  } finally {
+    await rm(destination, { recursive: true, force: true });
+  }
+});
 
 const projectRoot = new URL('../', import.meta.url);
 

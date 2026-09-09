@@ -818,7 +818,13 @@ function initRadioDesk() {
   }
 
   document.addEventListener('keydown', (event) => {
+    if (event.defaultPrevented || event.isComposing || event.ctrlKey || event.metaKey || event.altKey) return;
     const inFilter = document.activeElement === filterInput;
+    // Native controls and other widgets own their keys, including nested targets.
+    if (!inFilter && event.target?.closest(
+      'input, textarea, select, button, a[href], summary, [contenteditable], ' +
+      '[role="combobox"], [role="listbox"], [role="option"], [role="button"], [role="slider"]'
+    )) return;
     if (event.key === '/' && !inFilter) {
       event.preventDefault();
       filterInput && filterInput.focus();

@@ -96,5 +96,5 @@
   </main>
 
   <script src="{{ "radio/regions.js" | relURL }}?v=radio19"></script>
-  <script type="module" src="{{ "radio/radio.mjs" | relURL }}?v=radio19"></script>
+  <script type="module" src="{{ "radio/radio.mjs" | relURL }}?v={{ md5 (readFile "static/radio/radio.mjs") }}"></script>
 {{ end }}
