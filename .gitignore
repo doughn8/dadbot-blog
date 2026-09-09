@@ -12,6 +12,7 @@
 /.hermes/
 /implementation-plans/
 /.hermes-backups/
+/sketches/
 
 # Obsidian local workspace settings
 /.obsidian/
