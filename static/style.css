@@ -827,7 +827,7 @@
 }
 
 .tldr-title {
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.75rem !important;
   font-size: 1.1rem;
 }
 
