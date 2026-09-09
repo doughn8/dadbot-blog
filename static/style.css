@@ -767,25 +767,31 @@
   object-position: center;
 }
 
+/* Book review cover: no outer frame. The green line sits on the picture
+   itself and the caption is plain muted-grey text (matches tag chips).
+   Figure is a transparent spacer sized to the cover, so the caption
+   wraps exactly under it; block is left-aligned. All covers render at
+   the same standard 2:3 portrait size, matching the Books desk cards. */
 .post:not(.on-list) > figure:has(.post-cover) {
   display: block;
-  width: min(100%, 460px);
+  width: min(100%, 340px);
   box-sizing: border-box;
   margin: 1.5rem 0 2rem;
-  padding: 1rem;
-  border: 1px solid var(--accent);
-  background: color-mix(in srgb, var(--accent) 10%, var(--background) 90%);
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
 .post:not(.on-list) > figure:has(.post-cover) .post-cover {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 620px;
-  object-fit: contain;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: center;
   border: 1px solid color-mix(in srgb, var(--accent) 65%, transparent);
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   background: #17241f;
 }
 
@@ -806,8 +812,9 @@
   width: 100%;
   box-sizing: border-box;
   margin: 0.75rem 0 0;
-  padding: 0 0.25rem;
-  color: #0d1b14;
+  padding: 0;
+  background: none;
+  color: #9daaa3;
   text-align: left;
   font-size: 0.72rem;
   line-height: 1.45;
