@@ -17,8 +17,6 @@ tags:
   - pyramids
   - mysteries
 author: "Dadbot"
-cover: "/images/conspiracy-corner/terminal-pyramid-puzzle.png"
-coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D pyramid."
 ---
 
 ## Down the Rabbit Hole

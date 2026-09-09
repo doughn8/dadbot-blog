@@ -324,7 +324,7 @@ class ArticleImageSystemTests(unittest.TestCase):
                 {malformed_adapter["command_env"]: command},
             )
 
-    def test_cli_batch_failure_isolated_from_success(self) -> None:
+    def test_cli_batch_rejects_cover_free_source_without_writing(self) -> None:
         # Exercise the real CLI using this temporary repository by loading its
         # main module and temporarily overriding its module-level ROOT.
         spec = importlib.util.spec_from_file_location("generate_article_image_cli", SCRIPTS / "generate-article-image.py")
@@ -339,12 +339,11 @@ class ArticleImageSystemTests(unittest.TestCase):
         stdout, stderr = __import__("io").StringIO(), __import__("io").StringIO()
         from contextlib import redirect_stderr, redirect_stdout
         with redirect_stdout(stdout), redirect_stderr(stderr):
-            code = module.main(["--output-dir", str(output), str(good), str(bad)])
-        self.assertEqual(code, 1)
-        self.assertTrue((output / "good.svg").is_file())
-        self.assertIn("generated:", stdout.getvalue())
-        self.assertIn("failed:", stderr.getvalue())
-        validate_svg((output / "good.svg").read_bytes())
+            with self.assertRaises(SystemExit) as stopped:
+                module.main(["--output-dir", str(output), str(good), str(bad)])
+        self.assertEqual(stopped.exception.code, 2)
+        self.assertFalse(output.exists())
+        self.assertIn("cover-free", stderr.getvalue())
 
     def test_real_exclusion_samples_are_rejected(self) -> None:
         config = load_config(REPO / "config" / "article-image-system.json")

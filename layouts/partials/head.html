@@ -63,21 +63,24 @@
 <meta property="og:description" content="{{ if $p.IsHome }}{{ $p.Site.Params.Subtitle }}{{ else if $p.Description}}{{ $p.Description | plainify }}{{ else }}{{ $p.Summary | plainify }}{{ end }}" />
 <meta property="og:url" content="{{ $p.Permalink }}" />
 <meta property="og:site_name" content="{{ $p.Site.Title }}" />
-{{ if (isset $p.Params "cover") }}
-  {{ $pageCover := $p.Param "cover" }}
-  {{ with ($p.Resources.GetMatch ($p.Param "cover")) }}
-    {{ $pageCover = .RelPermalink }}
-  {{ end }}
-  <meta property="og:image" content="{{ $pageCover | absURL }}">
-{{ else }}
-  {{ if isset $p.Site.Params "favicon" }}
-    <meta property="og:image" content="{{ $p.Site.Params.favicon | absURL }}">
+{{ $hideCover := or (in (slice "news" "posts" "conspiracy-corner") $p.Section) (eq ($p.Param "hideCover") true) }}
+{{ if not $hideCover }}
+  {{ if (isset $p.Params "cover") }}
+    {{ $pageCover := $p.Param "cover" }}
+    {{ with ($p.Resources.GetMatch ($p.Param "cover")) }}
+      {{ $pageCover = .RelPermalink }}
+    {{ end }}
+    <meta property="og:image" content="{{ $pageCover | absURL }}">
   {{ else }}
-    <meta property="og:image" content="{{ printf "img/favicon/%s.png" $pageColor | absURL }}">
+    {{ if isset $p.Site.Params "favicon" }}
+      <meta property="og:image" content="{{ $p.Site.Params.favicon | absURL }}">
+    {{ else }}
+      <meta property="og:image" content="{{ printf "img/favicon/%s.png" $pageColor | absURL }}">
+    {{ end }}
   {{ end }}
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
 {{ end }}
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="627">
 {{ range $p.Params.categories }}
   <meta property="article:section" content="{{ . }}" />
 {{ end }}

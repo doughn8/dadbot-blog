@@ -1057,7 +1057,7 @@ class AutostereogramCoreTests(unittest.TestCase):
             self.assertFalse(any(moved_root.rglob("candidate-v*")))
             self.assertFalse(any(private_root.rglob("candidate-v*")))
 
-    def test_cli_has_explicit_private_mode_and_keeps_legacy_default(self) -> None:
+    def test_cli_blocks_article_covers_in_both_render_modes(self) -> None:
         article = REPO / "content" / "posts" / "2026-07-12-is-var-helping-football.md"
         command = [
             sys.executable,
@@ -1075,12 +1075,8 @@ class AutostereogramCoreTests(unittest.TestCase):
             capture_output=True,
             check=False,
         )
-        self.assertEqual(completed.returncode, 0, completed.stderr)
-        result = json.loads(completed.stdout)
-        self.assertEqual(result["status"], "dry-run")
-        self.assertEqual(result["hidden_object"], "football-v1")
-        self.assertEqual(result["render_spec"]["variant_number"], 1)
-        self.assertIn("06-Design/article-image-system-preview/autostereograms", result["output_dir"])
+        self.assertEqual(completed.returncode, 2)
+        self.assertIn("cover-free", completed.stderr)
 
         legacy = subprocess.run(
             [sys.executable, str(REPO / "scripts" / "generate-article-image.py"), str(article), "--dry-run"],
@@ -1089,9 +1085,8 @@ class AutostereogramCoreTests(unittest.TestCase):
             capture_output=True,
             check=False,
         )
-        self.assertEqual(legacy.returncode, 0, legacy.stderr)
-        self.assertRegex(legacy.stdout, r"^(planned|skipped):")
-        self.assertIn(".svg", legacy.stdout)
+        self.assertEqual(legacy.returncode, 2)
+        self.assertIn("cover-free", legacy.stderr)
 
         invalid = subprocess.run(
             command + ["--object", "unreviewed-object"],

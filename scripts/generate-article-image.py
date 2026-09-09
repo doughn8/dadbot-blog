@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """Generate safe Dadbot article images.
 
-Examples:
-  python3 scripts/generate-article-image.py --brief-only content/news/story.md
-  python3 scripts/generate-article-image.py --dry-run --all --section posts
-  python3 scripts/generate-article-image.py --output-dir 06-Design/preview/assets content/posts/story.md
-  python3 scripts/generate-article-image.py --autostereogram --dry-run content/posts/story.md
+News, Blog and Conspiracy are cover-free: CLI generation is disabled for them.
+Retained for separately approved Books experiments and validation of historical
+private candidates. This does not replace sourced Book Review covers.
 """
 from __future__ import annotations
 
@@ -21,6 +19,7 @@ from article_image_system import (
     generate_article,
     load_config,
     read_article,
+    parse_frontmatter,
 )
 
 
@@ -98,6 +97,27 @@ def main(argv: list[str] | None = None) -> int:
             parser.error("--output-dir must remain inside the repository")
 
     config = load_config()
+    # Editorial policy applies before optional render imports or provider calls.
+    policy = config.get("cover_free_sections", ["news", "posts", "conspiracy-corner"])
+    if not isinstance(policy, list) or not all(isinstance(value, str) for value in policy):
+        parser.error("invalid cover_free_sections policy")
+    blocked = set(policy)
+    if args.section in blocked:
+        parser.error(f"{args.section} is cover-free; image generation is disabled")
+    for item in args.articles:
+        source = item if item.is_absolute() else ROOT / item
+        try:
+            relative = source.resolve().relative_to(ROOT.resolve())
+            if relative.parts[0] == "content":
+                desk = relative.parts[1]
+            else:
+                metadata, _ = parse_frontmatter(source.read_text())
+                desk = str(metadata.get("section") or metadata.get("desk") or "").casefold()
+                desk = {"blog": "posts", "post": "posts", "conspiracy": "conspiracy-corner"}.get(desk, desk)
+            if desk in blocked:
+                parser.error(f"{desk} is cover-free; image generation is disabled")
+        except (OSError, ValueError, IndexError):
+            pass  # Existing source validation reports invalid inputs below.
     stereogram_config = None
     if args.autostereogram:
         # Lazy import keeps the existing SVG workflow usable without optional
@@ -124,12 +144,13 @@ def main(argv: list[str] | None = None) -> int:
         sections = (args.section,) if args.section else stereogram_config.supported_sections
         articles = sorted(
             path
-            for section in sections
+            for section in sections if section not in blocked
             for path in (ROOT / "content" / section).rglob("*.md")
             if path.name != "_index.md" and not path.is_symlink()
         )
     elif args.all or (args.section and not args.articles):
-        articles = collect_articles(root=ROOT, section=args.section, config=config)
+        articles = [p for p in collect_articles(root=ROOT, section=args.section, config=config)
+                    if p.relative_to(ROOT / "content").parts[0] not in blocked]
     else:
         articles = [item if item.is_absolute() else ROOT / item for item in args.articles]
 

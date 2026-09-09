@@ -1,5 +1,6 @@
 {
   "version": 1,
+  "cover_free_sections": ["news", "posts", "conspiracy-corner"],
   "output": {
     "width": 1600,
     "height": 900,

@@ -7,8 +7,6 @@ type: "news"
 category: "U.S."
 slug: "charlie-kirk-preliminary-hearing"
 draft: false
-cover: "/images/news/2026-07-05-charlie-kirk-preliminary-hearing.png"
-coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D judge's gavel."
 categories:
   - "U.S."
 tags:

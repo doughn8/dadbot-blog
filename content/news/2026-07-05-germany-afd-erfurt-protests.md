@@ -6,8 +6,6 @@ desk: "news"
 category: "Europe"
 slug: "germany-afd-erfurt-protests"
 draft: false
-cover: "/images/news/2026-07-05-germany-afd-erfurt-protests.png"
-coverAlt: "Colourful 1990s-style autostereogram containing a hidden 3D megaphone."
 categories:
   - "Europe"
 tags:
