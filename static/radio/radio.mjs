@@ -308,7 +308,10 @@ function initRadioDesk() {
     const dt = (now - lastFrame) / 1000;
     lastFrame = now;
     spectrumClock += dt;
-    const playing = activeId && !isPaused;
+    // Roadmap 031: animate ONLY while the status line reads Playing — the
+    // one user-visible truth. Tuning, paused, off-air and stale-audio states
+    // all settle to the flat baseline instead.
+    const playing = !statusEl || statusEl.textContent === '▸ Playing';
     if (playing) {
       bars = advanceSpectrum(bars, dt, 1, spectrumClock);
       peaks = advancePeaks(peaks, bars, dt);
@@ -320,6 +323,7 @@ function initRadioDesk() {
       drawSpectrum();
     } else {
       bars = bars.map(() => 0.04);
+      peaks = peaks.map(() => 0.04);
       drawSpectrum();
       clearInterval(spectrumTimer);
       spectrumTimer = null;
@@ -348,6 +352,9 @@ function initRadioDesk() {
   function ensureSpectrum() {
     if (!canvas) return;
     if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    // 031: never (re)start the tick loop outside playing status.
+    if (!audio || audio.paused !== false) return;
+    if (statusEl && statusEl.textContent !== '▸ Playing') return;
     lastFrame = null;
     if (!spectrumTimer) spectrumTimer = setInterval(tickSpectrum, 50);
   }
@@ -452,6 +459,7 @@ function initRadioDesk() {
     audio.volume = Number(volumeInput ? volumeInput.value : 70) / 100;
     audio.play().then(() => {
       setStatus('▸ Playing', true);
+      ensureSpectrum();
       renderList();
     }).catch(() => {
       setStatus('■ Off Air');
@@ -489,6 +497,7 @@ function initRadioDesk() {
   const audio = root.querySelector('[data-radio-audio]');
   audio.addEventListener('playing', () => {
     setStatus('▸ Playing', true);
+    ensureSpectrum();
     renderList();
   });
   audio.addEventListener('error', () => {
