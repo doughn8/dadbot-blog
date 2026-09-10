@@ -66,6 +66,36 @@ test('missing exact hours choose the nearest valid hour, not the first row', () 
   assert.deepEqual(periods.map((p) => p.temp), [10, 18, 12]);
 });
 
+test('missing readings never become zero in normalization or period selection', () => {
+  for (const invalid of [null, undefined, '', ' ', false, true, '0', NaN, Infinity]) {
+    for (const field of ['temperature_2m', 'weather_code']) {
+      const hourly = {
+        time: ['2026-08-29T06:00'],
+        temperature_2m: [0],
+        weather_code: [0],
+      };
+      hourly[field][0] = invalid;
+      assert.equal(weather.normalizeForecast({ hourly }), null, `${field}: ${String(invalid)}`);
+      assert.deepEqual(weather.selectForecastPeriods(hourly), [], `${field}: ${String(invalid)}`);
+    }
+  }
+});
+
+test('mixed missing readings keep genuine zero and the nearest valid hour', () => {
+  const hourly = {
+    time: ['2026-08-29T06:00', '2026-08-29T07:00', '2026-08-29T12:00', '2026-08-29T21:00'],
+    temperature_2m: [null, 0, -3.4, 8],
+    weather_code: [0, 0, 3, null],
+  };
+  const normalized = weather.normalizeForecast({ hourly });
+  assert.deepEqual(normalized.hourly, hourly);
+  const periods = weather.selectForecastPeriods(normalized.hourly);
+  assert.deepEqual(periods.map((p) => p.time), [hourly.time[1], hourly.time[2], hourly.time[2]]);
+  assert.deepEqual(periods.map((p) => p.temp), [0, -3, -3]);
+  assert.equal(weather.formatTemperature(periods[0].temp), '0°C');
+  assert.equal(weather.describeWeatherCode(periods[0].code).label, 'Clear');
+});
+
 // --- Payload validation ---------------------------------------------------
 
 test('invalid or incomplete forecast payloads fail safely', () => {

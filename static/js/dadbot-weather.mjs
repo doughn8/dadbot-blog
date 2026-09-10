@@ -114,8 +114,8 @@ export function selectForecastPeriods(hourly) {
   for (let i = 0; i < hourly.time.length; i += 1) {
     const time = String(hourly.time[i]);
     if (!time.startsWith(day)) continue;
-    const temp = Number(hourly.temperature_2m[i]);
-    const code = Number(hourly.weather_code[i]);
+    const temp = hourly.temperature_2m[i];
+    const code = hourly.weather_code[i];
     if (!Number.isFinite(temp) || !Number.isFinite(code)) continue;
     rows.push({ time, temp, code });
   }
@@ -146,13 +146,15 @@ export function normalizeForecast(payload) {
   if (!Array.isArray(hourly.temperature_2m) || !Array.isArray(hourly.weather_code)) return null;
   if (hourly.temperature_2m.length !== hourly.time.length) return null;
   if (hourly.weather_code.length !== hourly.time.length) return null;
-  const hasFiniteTemp = hourly.time.some((_, index) => Number.isFinite(Number(hourly.temperature_2m[index])));
-  if (!hasFiniteTemp) return null;
+  const hasUsableRow = hourly.time.some((_, index) =>
+    isFiniteNumber(hourly.temperature_2m[index]) && isFiniteNumber(hourly.weather_code[index]));
+  if (!hasUsableRow) return null;
   return {
     hourly: {
       time: hourly.time.map(String),
-      temperature_2m: hourly.temperature_2m.map(Number),
-      weather_code: hourly.weather_code.map(Number),
+      // Preserve missing readings as null; coercion would invent zero values.
+      temperature_2m: hourly.temperature_2m.map((value) => isFiniteNumber(value) ? value : null),
+      weather_code: hourly.weather_code.map((value) => isFiniteNumber(value) ? value : null),
     },
   };
 }
