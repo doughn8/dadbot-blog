@@ -444,6 +444,7 @@ function initRadioDesk() {
     activeId = station.id;
     currentStation = station;
     isPaused = false;
+    updatePlayButton();
     ensureSpectrum();
     renderNowPlaying();
     setStatus('▸ TUNING…');
@@ -768,23 +769,26 @@ function initRadioDesk() {
 
   async function loadCountry(code) {
     const seq = ++fetchSeq;
-    setStatus('▸ LOADING…');
+    if (!activeId) setStatus('▸ LOADING…');
+    if (listEl) listEl.innerHTML = '<p class="radio-empty">Loading station directory…</p>';
     try {
       const url = `${API_BASE}/stations/search?countrycode=${encodeURIComponent(code)}&hidebroken=true&order=votes&reverse=true&limit=500`;
-      const rows = await (await fetch(url)).json();
+      const response = await fetch(url);
+      if (!response.ok) throw new Error('station directory failed');
+      const rows = await response.json();
       if (seq !== fetchSeq) return;
       stations = rows.map((r) => normalizeStation(r, 'directory')).filter(Boolean);
-      activeId = null;
-      currentStation = null;
-      isPaused = false;
-      renderNowPlaying();
+      // Browsing replaces the directory, never the independently tuned stream.
+      selected = -1;
       renderList();
-      const cc = (rows[0] && rows[0].countrycode) || code;
-      if (ccEl) ccEl.textContent = cc;
-      setStatus('■ Off Air');
+      if (!activeId) {
+        const cc = (rows[0] && rows[0].countrycode) || code;
+        if (ccEl) ccEl.textContent = cc;
+        setStatus('■ Off Air');
+      }
     } catch {
       if (seq !== fetchSeq) return;
-      setStatus('■ OFFLINE');
+      if (!activeId) setStatus('■ OFFLINE');
       if (listEl) listEl.innerHTML = '<p class="radio-empty">Could not reach the station directory — reload to retry.</p>';
     }
   }
