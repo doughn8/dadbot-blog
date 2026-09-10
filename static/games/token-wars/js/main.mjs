@@ -9,7 +9,7 @@ import {
   withdrawSavings,
 } from './game-engine.mjs';
 import { resolveEncounter } from './encounter-engine.mjs';
-import { renderGame } from './ui.mjs';
+import { renderGame } from './ui.mjs?v=9';
 
 export function maximumBuyQuantity(state, tokenId) {
   const price = state.prices?.[tokenId];
@@ -67,7 +67,10 @@ export function createGameController({ rng = Math.random, render = () => {} } = 
       if (result.ok && action === 'encounter' && state.status === 'playing') {
         outcome = { choice: payload.choice, message: result.message };
       }
-      render(state, result.message, { outcome });
+      render(state, result.message, {
+        outcome,
+        encounterError: action === 'encounter' && !result.ok ? result.message : '',
+      });
       return result;
     },
     continueOutcome() {

@@ -214,6 +214,7 @@ function createFakeGameRoot() {
   const serviceMessages = Object.fromEntries(['bank', 'lender'].map((service) => [service, new FakeElement()]));
   const serviceControls = Object.fromEntries(['bank', 'lender'].map((service) => [service, [new FakeElement(), new FakeElement()]]));
   const special = {
+    '[data-tw-encounter-feedback]': [new FakeElement()],
     '[data-tw-encounter-field="source"]': [new FakeElement()],
     '[data-tw-encounter-field="bribe"]': [new FakeElement()],
     '[data-tw-ending-field="score"]': [new FakeElement()],
@@ -247,6 +248,42 @@ function createFakeGameRoot() {
   };
   return { root, views, fields, tokenRows, travelButtons, serviceMessages, serviceControls, special };
 }
+
+test('unaffordable encounter payment renders feedback without changing the run, then clears on resolution and reset', () => {
+  const dom = createFakeGameRoot();
+  const feedback = dom.special['[data-tw-encounter-feedback]'][0];
+  const controller = createGameController({
+    rng: () => 0.5,
+    render: (state, message, options) => renderGame(dom.root, state, message, options),
+  });
+  const state = controller.start(30);
+  // Controlled encounter fixture; actions still use the real controller and engine.
+  state.pendingEncounter = { id: 'test', source: 'Rival hackers', bribeCost: state.cash + 1, damage: 20, reward: 400 };
+  renderGame(dom.root, state);
+  assert.equal(feedback.textContent, '');
+  assert.equal(feedback.hidden, true, 'No empty error box before a rejection');
+  const before = structuredClone(state);
+  for (let attempt = 0; attempt < 2; attempt++) {
+    assert.equal(controller.action('encounter', { choice: 'bribe' }).ok, false);
+    assert.equal(dom.root.dataset.twCurrentView, 'encounter');
+    assert.equal(feedback.textContent, 'Not enough cash to pay the bribe.');
+    assert.equal(feedback.hidden, false);
+    assert.deepEqual(controller.getState(), before);
+  }
+  // Exact affordability remains a successful payment.
+  state.cash = state.pendingEncounter.bribeCost;
+  assert.equal(controller.action('encounter', { choice: 'bribe' }).ok, true);
+  assert.equal(controller.getState().cash, 0);
+  assert.equal(controller.getState().pendingEncounter, null);
+  assert.equal(dom.root.dataset.twCurrentView, 'outcome');
+  assert.equal(feedback.textContent, '');
+  controller.continueOutcome();
+  assert.equal(dom.root.dataset.twCurrentView, 'market');
+  controller.playAgain();
+  assert.equal(feedback.textContent, '');
+  controller.start(30);
+  assert.equal(feedback.textContent, '');
+});
 
 function clickTarget(dataset) {
   return { closest: () => ({ dataset }) };

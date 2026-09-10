@@ -238,7 +238,9 @@ test('Phase 3 exposes one browser entry point and declarative game hooks', async
   const layout = await readProjectFile('layouts/games/list.html');
 
   assert.match(layout, /<main[^>]+data-tw-game/);
-  assert.match(layout, /<script[^>]+type="module"[^>]+games\/token-wars\/js\/main\.mjs[^>]+\?v=8/);
+  assert.match(layout, /<script[^>]+type="module"[^>]+games\/token-wars\/js\/main\.mjs[^>]+\?v=9/);
+  const encounter = layout.match(/<section[^>]+data-tw-view="encounter"[\s\S]*?<\/section>/)?.[0] ?? '';
+  assert.match(encounter, /<div role="status" aria-live="polite" aria-atomic="true"><p class="tw-dialog-feedback" data-tw-encounter-feedback hidden><\/p><\/div>/);
   assert.match(layout, /class="tw-news"[^>]+data-tw-event-feed/);
   assert.match(layout, /data-tw-field="news"/);
   assert.match(layout, /data-tw-action-feed/);

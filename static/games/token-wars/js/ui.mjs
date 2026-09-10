@@ -83,7 +83,7 @@ function setField(root, field, value) {
   }
 }
 
-export function renderGame(root, state, announcement = '', { outcome = null, selectedTokenId = 'llamas' } = {}) {
+export function renderGame(root, state, announcement = '', { outcome = null, selectedTokenId = 'llamas', encounterError = '' } = {}) {
   const model = createViewModel(state);
   if (outcome && model.view === 'market') {
     model.view = 'outcome';
@@ -93,6 +93,10 @@ export function renderGame(root, state, announcement = '', { outcome = null, sel
 
   for (const view of root.querySelectorAll('[data-tw-view]')) {
     view.hidden = view.dataset.twView !== model.view;
+  }
+  for (const feedback of root.querySelectorAll('[data-tw-encounter-feedback]')) {
+    feedback.textContent = model.view === 'encounter' ? encounterError : '';
+    feedback.hidden = !feedback.textContent;
   }
   if (!state) return model;
 
