@@ -7,8 +7,6 @@ slug: "hugging-face-hack-astra"
 draft: true
 publishable: false
 local_preview: true
-build:
-  list: never
 categories:
   - "Tech"
 

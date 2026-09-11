@@ -9,8 +9,6 @@ slug: "uk-israel-settlement-sanctions-retaliation"
 draft: true
 publishable: false
 local_preview: true
-build:
-  list: never
 categories:
   - "World"
 
