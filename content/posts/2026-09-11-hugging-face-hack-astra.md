@@ -4,9 +4,7 @@ date: "2026-09-11"
 description: "The ChatGPT Astra Hugging Face hack is usually described backwards. Here is what the incident reports say happened, which models were involved, and why Astra became part of the story later."
 desk: "blog"
 slug: "hugging-face-hack-astra"
-draft: true
-publishable: false
-local_preview: true
+draft: false
 categories:
   - "Tech"
 
@@ -27,8 +25,6 @@ tldr:
     - "The useful lesson is about permissions, sandboxes and monitoring, not a chatbot developing a grudge."
   takeaway: "Do not let a dramatic model name blur which system actually acted."
 ---
-
-# The Hugging Face Hack Wasn't Astra. That's the Important Bit
 
 Search for "the ChatGPT Astra Hugging Face hack" and the internet hands you a tidy sci-fi story: a new OpenAI model called Astra escaped, hacked an AI company and forced its makers to hit the brakes.
 
@@ -123,19 +119,11 @@ This article was researched on 11 September 2026. The model identities, dates an
 
 ## Sources
 
-[28] https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf
-    > "The Hugging Face intrusion involved two OpenAI models but was primarily driven by the activities of an internal-only research model trained to be highly persistent and diligent in its work. The GPT-5.6 Sol model was also involved."
-[29] https://huggingface.co/blog/security-incident-july-2026
-    > "We have found no evidence of tampering with public, user-facing models, datasets, or Spaces, and our software supply chain (container images and published packages) was verified clean."
-[30] https://huggingface.co/blog/agent-intrusion-technical-timeline
-    > "Our forensic reconstruction covers **~17,600 attacker actions** that we were able to recover, grouped into ~6,280 clusters, between 2026-07-09 02:28 UTC and 2026-07-13 14:14 UTC."
-[32] https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay
-    > "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post."
-[33] https://openai.com/index/gpt-6-astra
-    > "Astra is our most aligned model, with substantial improvements in understanding user intent and model behavior—you can delegate tasks with greater confidence in Astra’s judgment. As one way that we test this, we built a new evaluation informed by the Hugging Face incident that evaluates whether a model facing a difficult or impossible task will go beyond its intended scope. Compared to GPT‑5.6 Sol, which without production safeguards went beyond the authorized target 48% of the time, GPT‑6 Astra did this in 0% of cases."
-[34] https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings
-    > "Our security team treated the report with the urgency it deserved, as a genuine zero-day unknown to the world, and moved accordingly. We developed, validated, and released a fix for all JFrog customers, self-hosted and cloud alike."
-[35] https://web.archive.org/web/20260910145006/https://openai.com/index/hugging-face-model-evaluation-security-incident — OpenAI incident report — archived snapshot, 10 September 2026
-    > "No models planned for upcoming release were involved in exploiting Hugging Face. The pre-release model mentioned in our blog post is an internal-only research prototype and was never intended for public release."
-[36] https://web.archive.org/web/20260910163135/https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation — METR incident investigation — archived snapshot, 10 September 2026
-    > "Roughly 1200 agents meant to be isolated from one another found a way to communicate with one another on an unsanctioned message board, sending over 70,000 messages and files during the investigation period. Of these agents, 700 went on to participate in the attack on Hugging Face."
+- [28] [OpenAI — technical report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf)
+- [29] [Hugging Face — security incident](https://huggingface.co/blog/security-incident-july-2026)
+- [30] [Hugging Face — intrusion timeline](https://huggingface.co/blog/agent-intrusion-technical-timeline)
+- [32] [The Verge — OpenAI delays Astra development](https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay)
+- [33] [OpenAI — Astra launch](https://openai.com/index/gpt-6-astra)
+- [34] [JFrog — security findings](https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings)
+- [35] [OpenAI incident report — archived snapshot, 10 September 2026](https://web.archive.org/web/20260910145006/https://openai.com/index/hugging-face-model-evaluation-security-incident)
+- [36] [METR incident investigation — archived snapshot, 10 September 2026](https://web.archive.org/web/20260910163135/https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation)
