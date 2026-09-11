@@ -461,6 +461,13 @@
   word-break: normal;
 }
 
+/* Keep evidence tables inside the article column on narrow screens. */
+.post-content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 .conspiracy-page .post-card-link:hover .post-card {
   box-shadow: 4px 4px 0 color-mix(in srgb, #c084fc 45%, transparent);
   border-color: #c084fc;
