@@ -1234,6 +1234,11 @@
     gap: 1rem;
   }
 
+  /* Homepage cards align with the full-width All Book Reviews button. */
+  .content > .books-teaser .posts-grid {
+    max-width: none;
+  }
+
   .content > .books-teaser .post-card-link,
   .books-section .post-card-link {
     height: auto;

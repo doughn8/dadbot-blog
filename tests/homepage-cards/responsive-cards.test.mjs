@@ -79,6 +79,22 @@ test('homepage shows two teaser cards below desktop and one column on phones', a
   );
 });
 
+test('stacked homepage Books fill the content width without changing the Books desk cap', async () => {
+  const tablet = compactCss(extractMediaBlock(await readStyles(), '(max-width: 900px)'));
+  const effectiveMaxWidth = (selector) => {
+    let value;
+    for (const [, selectors, declarations] of tablet.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
+      if (!selectors.split(',').map((item) => item.trim()).includes(selector)) continue;
+      for (const match of declarations.matchAll(/max-width:\s*([^;]+);/g)) value = match[1];
+    }
+    return value;
+  };
+  assert.equal(effectiveMaxWidth('.content > .books-teaser .posts-grid'), 'none',
+    'Homepage stacked Books must not be capped below the button width');
+  assert.equal(effectiveMaxWidth('.books-section .posts-grid'), '720px',
+    'The separate Books desk must retain its existing width cap');
+});
+
 test('responsive Book cards retain content-driven heights outside generic article rules', async () => {
   const styles = await readStyles();
   const tablet = compactCss(extractMediaBlock(styles, '(max-width: 900px)'));
