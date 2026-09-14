@@ -466,6 +466,7 @@
   display: block;
   max-width: 100%;
   overflow-x: auto;
+  border: 0;
 }
 
 .conspiracy-page .post-card-link:hover .post-card {
