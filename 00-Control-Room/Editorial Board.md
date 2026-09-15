@@ -562,10 +562,10 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Design
 
-- [ ] Saudi Arabia’s Oil Bypass Is Down. What It Means for Global Supplies
+- [x] Saudi Arabia’s Oil Bypass Is Down. What It Means for Global Supplies
   Desk: news / Global energy
   Current folder: `06-Design/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/`
-  Status: Design package revised: caveat-first Sources presentation with compact links below; separate shell overlap noted; awaiting Sophie’s approval to move to Final Approval
+  Status: design approved for Final Approval; published locally on 2026-09-15
   Next artifact: `07-Approval/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/approval.md`
 
 - [x] Why Dutch Gold Is Moving to London — and What That Actually Tells Us  
@@ -675,6 +675,14 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] [[2026-09-15-saudi-east-west-pipeline-global-oil-supplies]]
+  Desk: news / Global energy
+  Status: published locally
+  Content: `content/news/2026-09-15-saudi-east-west-pipeline-global-oil-supplies.md`
+  Visual treatment: text-led, no cover
+  Editorial archive: `99-Archive/published/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/`
+  Approved by: Sophie, 2026-09-15
 
 - [x] [[2026-09-14-dutch-gold-london]]  
   Desk: news  

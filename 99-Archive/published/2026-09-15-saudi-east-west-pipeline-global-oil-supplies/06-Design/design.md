@@ -4,15 +4,15 @@ date: "2026-09-15"
 description: "Saudi Arabia’s East–West oil pipeline is offline after attacks. Here’s what its storage clock, repair estimates and limited alternatives mean for global supplies."
 desk: "news"
 slug: "saudi-east-west-pipeline-global-oil-supplies"
-status: "awaiting-final-approval"
+status: "approved-for-final-approval"
 workflow_stage: "design"
 assigned_agent: "news-editor"
 role_profile: "00-Control-Room/Agents/News Editor.md"
 draft: true
 publishable: false
 approval_required: true
-approved_by: ""
-approved_at: ""
+approved_by: "Sophie"
+approved_at: "2026-09-15T20:41:47+02:00"
 source_artifact: "../../05-Reviews/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/proofread.md"
 source_proofread: "../../05-Reviews/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/proofread.md"
 source_draft: "../../04-Drafts/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/draft.md"
@@ -21,8 +21,8 @@ source_seo: "../../03-SEO/2026-09-15-saudi-east-west-pipeline-global-oil-supplie
 source_ledger: "../../05-Reviews/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/sources-ledger.json"
 next_artifact: "../../07-Approval/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/approval.md"
 next_stage: "final-approval"
-sophie_decision: ""
-sophie_decision_date: ""
+sophie_decision: "approved-for-final-approval"
+sophie_decision_date: "2026-09-15"
 recommended_content_path: "content/news/2026-09-15-saudi-east-west-pipeline-global-oil-supplies.md"
 tags:
   - "global-news"
@@ -134,8 +134,8 @@ No cover asset applies: the News desk is text-led by standing Dadbot policy. No 
 - Permitted changes at this stage: presentation, layout, accessibility and responsive-readability notes only; no factual refresh or substantive copy change without a new editorial decision
 - Open questions / blockers: before Final Approval, refresh the pipeline’s restart/partial-restart status, Saudi primary-statement details, Yanbu stocks, tanker loadings, repair duration and dated market figures; manually inspect the full Saudi Press Agency statement; the existing site-wide `.coffee-button` fixed widget overlaps the lower-right of the TL;DR at 390–901px and needs a separate shell UI decision if it is to be moved; no article-specific Design blocker was found
 - Quality checks completed: Design package frontmatter and repository paths checked; Proofread body remains the unchanged source payload; design contract and YAML parsing passed; draft-only and normal temporary Hugo builds passed; rendered route, workflow-note exclusion, and real-browser responsive-readability checks passed with the fixed-shell obstruction recorded separately
-- Next gate: Design → Final Approval
-- Sophie decision required: approve, revise or discard
+- Next gate: Final Approval → Local Publish
+- Sophie decision: approved for Final Approval; final publication is recorded in the Approval artifact
 
 ## Verification record
 
@@ -151,6 +151,6 @@ No cover asset applies: the News desk is text-led by standing Dadbot policy. No 
 
 ## Approval gate
 
-**Design → Final Approval:** awaiting Sophie’s approval.
+**Design → Final Approval:** approved by Sophie on 2026-09-15 at 20:41:47 +02:00.
 
-*Design package prepared for human review. Not published until approved by Sophie.*
+*Design package approved for Final Approval. The final approval and local-publication record is in `07-Approval/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/approval.md`.*
