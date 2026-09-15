@@ -42,6 +42,7 @@ word_count: 1178
 ## Corrections made
 
 - Normalized the reader-facing source labels to remove duplicated publisher names.
+- Reordered the reader-facing source presentation to match the Dutch Gold story: caveat first, then a separate Sources heading with compact bulleted descriptive links; citation IDs and URLs are unchanged.
 - Carried the approved Creative Edit article body forward without substantive wording changes.
 - Confirmed the global framing, attribution qualifiers, capacity-versus-throughput distinction and 1,178-word article count.
 
@@ -141,24 +142,24 @@ For Asia, Europe, the United States and everyone tied to the same traded energy 
 
 ## Sources and caveats
 
-Reader-facing source list:
+The Saudi Press Agency page checked for this article returned only its headline through the available extractor, so the full government statement still requires manual verification. No restart was independently confirmed in the reporting checked here. The article separates design capacity, recent throughput, stored barrels and confirmed lost supply; those are not interchangeable numbers.
 
-[6] [International Energy Agency — Strait of Hormuz](https://www.iea.org/about/oil-security-and-emergency-response/strait-of-hormuz)
-[8] [Reuters copy — Oil prices rise as Saudi pipeline outage and fresh attacks raise supply concerns](https://www.galvnews.com/news_reuters/business/oil-prices-rise-as-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns/article_6850529a-f626-5f0d-a584-23cdcae04141.html)
-[9] [U.S. Energy Information Administration — Global oil market outlook](https://www.eia.gov/outlooks/steo/report/global_oil.php)
-[10] [Associated Press via PBS — Saudi oil pipeline hit in strikes will be mostly out of service for several weeks](https://www.pbs.org/newshour/world/saudi-oil-pipeline-hit-in-strikes-will-be-mostly-out-of-service-for-several-weeks)
-[11] [The Guardian — Satellite images show extent of damage to major Saudi pipeline](https://www.theguardian.com/world/2026/sep/14/saudi-pipeline-drone-attack-houthis-global-oil-supply-prices)
-[12] [BBC News — Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq](https://www.bbc.com/news/articles/c62m933465eo)
-[13] [CNBC — Oil’s next test: Saudi Arabia races to restore a key safety valve for prices](https://www.cnbc.com/2026/09/15/oil-prices-saudi-arabia-east-west-pipeline-iran.html)
-[14] [The Daily Caller — Saudi Arabia’s Oil Lifeline Just Went Down](https://dailycaller.com/2026/09/14/saudi-arabia-oil-pipeline-straight-hormuz-attacks-iran-war)
-[15] [CNN — Saudi Arabia has shut a critical oil pipeline: why it matters](https://www.cnn.com/2026/09/14/economy/saudi-east-west-pipeline-shut-oil-market)
-[16] [Reuters — Oil prices rise as Saudi pipeline outage, fresh attacks raise supply concerns](https://www.reuters.com/business/energy/oil-prices-rise-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns-2026-09-15)
-[19] [Associated Press via The Trucker — What the closure of Saudi Arabia’s East-West pipeline could mean for oil flows](https://www.thetrucker.com/trucking-news/business/what-the-closure-of-saudi-arabias-east-west-pipeline-could-mean-for-oil-flows)
-[20] [Anadolu Agency — Saudi East-West pipeline expected to resume operations soon: US energy chief](https://aa.com.tr/en/economy/saudi-east-west-pipeline-expected-to-resume-operations-soon-us-energy-chief/4057238)
-[21] [International Energy Agency — How global oil supplies have readjusted to help fill the huge gap left by the Strait of Hormuz shock](https://www.iea.org/commentaries/how-global-oil-supplies-have-readjusted-to-help-fill-the-huge-gap-left-by-the-strait-of-hormuz-shock)
-[22] [Al Jazeera — Why Saudi Arabia’s East-West pipeline matters for global oil](https://www.aljazeera.com/news/2026/9/14/why-saudi-arabias-east-west-pipeline-matters-for-global-oil)
+## Sources
 
-Caveats: The direct Saudi Press Agency check remained headline-only at Proofread, so this artifact does not upgrade the government position beyond the attributed reporting already present. No restart was independently confirmed during this gate. The proofread preserves the article’s global frame and its distinction between design capacity, recent throughput, stored barrels and confirmed lost supply.
+- [6] [International Energy Agency — Strait of Hormuz](https://www.iea.org/about/oil-security-and-emergency-response/strait-of-hormuz)
+- [8] [Reuters copy — Oil prices rise as Saudi pipeline outage and fresh attacks raise supply concerns](https://www.galvnews.com/news_reuters/business/oil-prices-rise-as-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns/article_6850529a-f626-5f0d-a584-23cdcae04141.html)
+- [9] [U.S. Energy Information Administration — Global oil market outlook](https://www.eia.gov/outlooks/steo/report/global_oil.php)
+- [10] [Associated Press via PBS — Saudi oil pipeline hit in strikes will be mostly out of service for several weeks](https://www.pbs.org/newshour/world/saudi-oil-pipeline-hit-in-strikes-will-be-mostly-out-of-service-for-several-weeks)
+- [11] [The Guardian — Satellite images show extent of damage to major Saudi pipeline](https://www.theguardian.com/world/2026/sep/14/saudi-pipeline-drone-attack-houthis-global-oil-supply-prices)
+- [12] [BBC News — Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq](https://www.bbc.com/news/articles/c62m933465eo)
+- [13] [CNBC — Oil’s next test: Saudi Arabia races to restore a key safety valve for prices](https://www.cnbc.com/2026/09/15/oil-prices-saudi-arabia-east-west-pipeline-iran.html)
+- [14] [The Daily Caller — Saudi Arabia’s Oil Lifeline Just Went Down](https://dailycaller.com/2026/09/14/saudi-arabia-oil-pipeline-straight-hormuz-attacks-iran-war)
+- [15] [CNN — Saudi Arabia has shut a critical oil pipeline: why it matters](https://www.cnn.com/2026/09/14/economy/saudi-east-west-pipeline-shut-oil-market)
+- [16] [Reuters — Oil prices rise as Saudi pipeline outage, fresh attacks raise supply concerns](https://www.reuters.com/business/energy/oil-prices-rise-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns-2026-09-15)
+- [19] [Associated Press via The Trucker — What the closure of Saudi Arabia’s East-West pipeline could mean for oil flows](https://www.thetrucker.com/trucking-news/business/what-the-closure-of-saudi-arabias-east-west-pipeline-could-mean-for-oil-flows)
+- [20] [Anadolu Agency — Saudi East-West pipeline expected to resume operations soon: US energy chief](https://aa.com.tr/en/economy/saudi-east-west-pipeline-expected-to-resume-operations-soon-us-energy-chief/4057238)
+- [21] [International Energy Agency — How global oil supplies have readjusted to help fill the huge gap left by the Strait of Hormuz shock](https://www.iea.org/commentaries/how-global-oil-supplies-have-readjusted-to-help-fill-the-huge-gap-left-by-the-strait-of-hormuz-shock)
+- [22] [Al Jazeera — Why Saudi Arabia’s East-West pipeline matters for global oil](https://www.aljazeera.com/news/2026/9/14/why-saudi-arabias-east-west-pipeline-matters-for-global-oil)
 
 ## Handoff contract
 

@@ -91,7 +91,7 @@ Do not add a chart, map, hero treatment, dramatic callout or other decoration th
 - Keep the headline, metadata, tags, TL;DR, paragraphs and headings in the normal article column. Do not introduce a bespoke two-column layout or horizontal visual treatment.
 - Preserve the article’s prose distinction between design capacity, recent throughput, stored barrels and confirmed lost supply. Do not visually combine those numbers into one total.
 - Keep the regional discussion in ordinary readable paragraphs. Do not turn Asia, Europe or the United States into colour-coded panels that imply different factual certainty.
-- Keep “Sources and caveats” as normal readable content at the end. Long source titles and URLs must wrap rather than clip or widen the page.
+- Keep “Sources and caveats” as normal readable content at the end: put the reader-facing caveat first, then a separate `## Sources` heading with compact bulleted descriptive links matching the Dutch Gold story. Long source titles and URLs must wrap rather than clip or widen the page.
 - The article has no Markdown data table; do not invent one during implementation. If a later approved change introduces a table, use the existing `.post-content table` horizontal-overflow treatment rather than shrinking figures into unreadability.
 - Check the long H1, H2 headings, inline citation markers, TL;DR points and source links at 390px, 768px and 1280px widths, plus the existing breakpoint edges around 480/481px, 600/601px, 684px and 900/901px.
 - At every width, paragraphs and source links must remain readable without horizontal page scrolling; no content may be clipped by the article column or fixed site chrome.
@@ -128,7 +128,7 @@ No cover asset applies: the News desk is text-led by standing Dadbot policy. No 
 - Role profile: `00-Control-Room/Agents/News Editor.md`
 - Current stage: Design
 - Source artifacts: `../../05-Reviews/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/proofread.md`; upstream Draft, Brief and SEO artifacts; `../../05-Reviews/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/sources-ledger.json`
-- Completed work: prepared the text-led News hierarchy, preserved the single TL;DR treatment, documented the global reading order, accessibility safeguards and responsive-readability matrix; no article-body rewrite and no public content creation
+- Completed work: prepared the text-led News hierarchy, preserved the single TL;DR treatment, documented the global reading order, accessibility safeguards and responsive-readability matrix; specified the Dutch Gold-style caveat-first Sources presentation; no article-body rewrite and no public content creation
 - Verified sources / evidence carried forward: Proofread’s artifact-specific ledger remains the source of citation IDs and evidence; 14 cited source IDs remain mapped to the same URLs; strict Proofread evidence verification passed before this transition; current-event cautions remain visible for final refresh
 - Approved decisions and constraints: Sophie approved Proofread → Design on 2026-09-15 at 18:27:58 +02:00; preserve the global audience constraint — “remember this is a global story not just UK readers and the EU” — the calm News voice, capacity/throughput/lost-supply distinction, source attribution and cover-free rule
 - Permitted changes at this stage: presentation, layout, accessibility and responsive-readability notes only; no factual refresh or substantive copy change without a new editorial decision
@@ -138,6 +138,8 @@ No cover asset applies: the News desk is text-led by standing Dadbot policy. No 
 - Sophie decision required: approve, revise or discard
 
 ## Verification record
+
+- Source-presentation revision: temporary local preview returned HTTP 200 at the homepage, News listing and article route; the rendered caveat appears before the Sources heading, and all 14 reader-facing links render as compact list items. Citation IDs and URLs remain unchanged.
 
 - Temporary preview source: disposable `/tmp` copy only; no public article file was created in the checkout.
 - Browser matrix: 390px, 480px, 481px, 600px, 601px, 684px, 685px, 768px, 900px, 901px and 1280px.
