@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.spa.gov.sa/en/N2674017",
+      "title": "East–West Pipeline Shut Down as a Precaution Following Multiple Attacks",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 2,
+      "url": "https://www.thenationalnews.com/news/2026/09/11/saudi-arabia-closes-east-west-oil-pipeline-following-attacks",
+      "title": "Saudi Arabia closes East-West oil pipeline following attacks",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 3,
+      "url": "https://lufkindailynews.com/news_reuters/business/oil-climbs-as-saudi-pipeline-outage-fresh-attacks-heighten-supply-concerns/article_53b106fe-6777-5585-96bb-92b17d2f91fa.html",
+      "title": "Oil prices climb as attacks, pipeline outage deepen Saudi supply concerns",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 4,
+      "url": "https://www.cnbc.com/2026/09/13/oil-price-iran-war-strait-hormuz-saudi-pipeline.html",
+      "title": "Oil rises after Saudi Arabia shuts down pipeline that bypasses Hormuz",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 5,
+      "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+      "title": "Oil Market Report - September 2026",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 6,
+      "url": "https://www.iea.org/about/oil-security-and-emergency-response/strait-of-hormuz",
+      "title": "Strait of Hormuz",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": 7,
+      "url": "https://www.aljazeera.com/news/2026/9/12/saudi-arabia-shuts-critical-oil-pipeline-after-drone-attack-what-happened",
+      "title": "Saudi Arabia shuts critical oil pipeline after drone attack: What it means",
+      "accessed": "2026-09-15"
+    }
+  ]
+}

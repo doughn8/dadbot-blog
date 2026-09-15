@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 6,
+      "url": "https://www.iea.org/about/oil-security-and-emergency-response/strait-of-hormuz",
+      "title": "Strait of Hormuz",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "The Strait of Hormuz, through which an average of 20 million barrels per day (mb/d) of crude oil and oil products were shipped in 2025, is one of the world's most critical oil transit chokepoints. With around 25% of the world’s seaborne oil trade transiting the Strait, and options to bypass it being limited, any disruption to flows through the Strait would have huge consequences for world oil markets.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "- 20 mb/d, around 25% world seaborne oil trade, transits the Strait – 80% destined for Asia.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "Available capacity on alternative export routes is limited. Only Saudi Arabia and the UAE have operational crude pipelines that could potentially re-route flows to bypass the Strait of Hormuz, with an estimated 3.5 to 5.5 mb/d of available capacity. While additional capacity may exist in major pipelines to bypass the Strait, the logistics and supply chains needed to re-route and export substantial flows have not been robustly tested.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "Around 600 kb/d, or just 4%, of the region’s crude flows are routed into Europe.",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://www.galvnews.com/news_reuters/business/oil-prices-rise-as-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns/article_6850529a-f626-5f0d-a584-23cdcae04141.html",
+      "title": "Reuters copy — Oil prices rise as Saudi pipeline outage and fresh attacks raise supply concerns",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "Saudi Arabia could begin to exhaust oil available for export within days unless it restores operations on the East-West pipeline, potentially removing as much as 4% of global oil supply from the market, according to Saudi buyers and traders.",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
+      "title": "U.S. Energy Information Administration — Global oil market outlook",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "In addition, attacks on Saudi Arabia’s oil exports through the Bab el-Mandeb strait, [a major world oil transit chokepoint](https://www.eia.gov/outlooks/steo/report/energysecurity/article.php), reduced oil exports departing from Saudi Arabia’s Yanbu port on the Red Sea, a route which bypasses the Strait of Hormuz. In August, exports out of Yanbu were down by about half from July, according to estimates from Vortexa. In response, Saudi Arabia has increased oil shipments through the Suez Canal at the north end of the Red Sea, a longer and costlier route for customers in Asia. Although Saudi Arabia has also [reportedly begun to use a series of ship-to-ship transfers](https://www.reuters.com/business/energy/aramco-offers-more-oil-outside-hormuz-with-some-cargoes-heading-china-2026-08-26/) outside of the Persian Gulf, we expect that the constrained Red Sea shipping channel will limit Saudi Arabia’s supply in the near term until global shipping flows adjust.",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://www.pbs.org/newshour/world/saudi-oil-pipeline-hit-in-strikes-will-be-mostly-out-of-service-for-several-weeks",
+      "title": "Associated Press via PBS — Saudi oil pipeline hit in strikes will be mostly out of service for several weeks",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "The officials, who have been briefed on the matter, said repairing the damage could take three to five weeks, including at a major pumping facility. One of the officials said the line may work partially while teams carry out the repairs. The pipeline has a total capacity to carry up to 7 million barrels of oil a day.",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://www.theguardian.com/world/2026/sep/14/saudi-pipeline-drone-attack-houthis-global-oil-supply-prices",
+      "title": "The Guardian — Satellite images show extent of damage to major Saudi pipeline",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "Satellite photos released on Sunday night appeared to show a pumping station on the key 1,200km (745-mile) Saudi east-west pipeline charred and badly damaged, after drone attacks on Friday.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "Since the drone attacks forced the shutdown of the pipeline, Riyadh has yet to provide full details about the extent of the damage or how long the ​route will stay offline. The Saudis [blamed the attack on drones launched by militants in Iraq](https://www.theguardian.com/world/2026/sep/12/saudi-arabia-shuts-down-oil-pipeline-blaming-drones-from-iraq).",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://www.bbc.com/news/articles/c62m933465eo",
+      "title": "BBC News — Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "The 1,200km (745 mile) pipeline has helped Saudi Arabia - the world's largest crude oil exporter - bypass the Strait of Hormuz.",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://www.cnbc.com/2026/09/15/oil-prices-saudi-arabia-east-west-pipeline-iran.html",
+      "title": "CNBC — Oil’s next test: Saudi Arabia races to restore a key safety valve for prices",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "- Global oil inventories have already fallen by around 1 billion barrels, leaving the market with less room to absorb further disruptions from the Middle East conflict.",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://dailycaller.com/2026/09/14/saudi-arabia-oil-pipeline-straight-hormuz-attacks-iran-war",
+      "title": "The Daily Caller — Saudi Arabia’s Oil Lifeline Just Went Down",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "The kingdom has enough crude stored at the Red Sea port of Yanbu to maintain current export levels for roughly five to seven days without new supplies flowing through its East-West Pipeline, Reuters reported Sunday citing Saudi oil buyers and traders. If the pipeline remains offline, the world risks losing as much as 4% of its oil supply. âThis is a big outage for the Kingdom, and the damage to its East-West Pipeline appears much more severe than the relatively minor hit it took in April. Saudi storage farms in Egypt can fill in for the pipelineâs lost flows for perhaps a week, but a lingering shutdown beyond that would short global supply by about 4 million barrels per day,â energy public policy analyst David Blackmon told the Daily Caller News Foundation.",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://www.cnn.com/2026/09/14/economy/saudi-east-west-pipeline-shut-oil-market",
+      "title": "CNN — Saudi Arabia has shut a critical oil pipeline: why it matters",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "The East-West pipeline â running to the Red Sea port of Yanbu and feeding Saudi coastal refineries â has proved critical in re-routing millions of barrels of Saudi crude from the Persian Gulf during the war. As much as 4% of the worldâs oil supply could be taken offline because of the pipelineâs closure, according to a note by Capital Economics published Monday.",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://www.reuters.com/business/energy/oil-prices-rise-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns-2026-09-15",
+      "title": "Reuters — Oil prices rise as Saudi pipeline outage, fresh attacks raise supply concerns",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "Sept 15 (Reuters) - Oil prices rose on Tuesday as concerns over supply disruptions persisted after attacks on Saudi Arabian energy infrastructure left the kingdom's East-West pipeline offline and cast doubt on efforts to ease âshipping risks in the Gulf.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "This followed attacks on Friday âon Saudi Arabia, which Riyadh blamed on Iranian-backed fighters in Iraq, that disrupted the country's East-West pipeline, which allows oil exports to bypass the blockaded Strait of Hormuz.",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "url": "https://www.thetrucker.com/trucking-news/business/what-the-closure-of-saudi-arabias-east-west-pipeline-could-mean-for-oil-flows",
+      "title": "Associated Press via The Trucker — What the closure of Saudi Arabia’s East-West pipeline could mean for oil flows",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "The largest oil producer in the Middle East closed its East-West pipeline on Friday after the attack, which it blamed on drones from Iranian-backed militias in Iraq. Two regional officials told The Associated Press that repairs could take three to five weeks.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "Saudi Arabiaâs East-West pipeline stretches some 1,200 kilometers (746 miles) across the desert nation â carrying oil from a processing facility near the Persian Gulf westward to the Red Sea. There, crude is typically loaded onto tankers that head north towards Europe via the Suez Canal or south through the Bab el-Mandeb Strait, on the way to Asia.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "Rystad Energy said Monday that an average 2.6 million to 4 million barrels of oil a day moved through the pipeline and out of the Red Sea port of Yanbu since late August â a volume it said is now at risk of âdisappearing from the market.â",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "url": "https://aa.com.tr/en/economy/saudi-east-west-pipeline-expected-to-resume-operations-soon-us-energy-chief/4057238",
+      "title": "Saudi East-West pipeline expected to resume operations soon: US energy chief",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "US Energy Secretary Chris Wright said Monday that Saudi Arabia’s East-West oil pipeline is expected to resume operations soon after being shut following a strike.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "Before the closure, it had been carrying about 4 million to 5 million barrels of crude per day, equivalent to roughly 4%-5% of global oil supply.",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "url": "https://www.iea.org/commentaries/how-global-oil-supplies-have-readjusted-to-help-fill-the-huge-gap-left-by-the-strait-of-hormuz-shock",
+      "title": "How global oil supplies have readjusted to help fill the huge gap left by the Strait of Hormuz shock",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "In practice, the declines in demand have been much lower than the major losses of oil flows come through the Strait. Three other adjustments and responses have been crucial. First, there were large releases from stocks as oil prices incentivised market participants to draw down inventories at record rates, and the IEA’s largest ever release of emergency stocks brought additional barrels to market. On average, global oil inventories have fallen by 3.8 million barrels per day since the start of the conflict. Second, there have been key responses on the supply side, including the use of alternative routes to market for some Gulf producers that bypassed the Strait, and a surge in crude exports from other suppliers, most notably the United States. Lastly, the global refining system made rapid adjustments to compensate not only for losses of Middle Eastern crude oil, but also for the collapse in exports of refined products from the region.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "Some of the major oil producers in the Middle East showed impressive agility in responding to the effective closure of the Strait of Hormuz. Saudi Arabia rapidly ramped up crude oil flows through its East-West pipeline for export via the Red Sea port of Yanbu. Its oil exports from Yanbu increased from 2 million barrels per day before the outbreak of the war to more than 5 million barrels per day in early June. Saudi Arabia also boosted deliveries from stocks held overseas.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "The crisis has set in motion major shifts in global oil trade flows, including significant increases in supplies from producers outside the Middle East being shipped from the Atlantic Basin to markets in Asia.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "The Middle East ranked as the world's largest source of aviation fuel to international markets in 2025, so the effective closure of the Strait of Hormuz at the end of February removed a significant share of global jet fuel supply from the market.",
+          "added": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "url": "https://www.aljazeera.com/news/2026/9/14/why-saudi-arabias-east-west-pipeline-matters-for-global-oil",
+      "title": "Why Saudi Arabia’s East-West pipeline matters for global oil",
+      "accessed": "2026-09-15",
+      "quotes": [
+        {
+          "text": "The 1,200km (746-mile) pipeline, which carries roughly 4 to 5 million barrels of oil per day (bpd), links the country’s major oil-producing fields in the east with the Red Sea port of Yanbu, allowing Saudi Arabia to bypass the Strait of Hormuz, which has largely been closed since the outbreak of the US-Israel war on Iran in February.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "The extent of the damage is not yet clear, and estimates of how quickly the pipeline can return to normal operations vary. Sources familiar with the incident told the Reuters news agency that repairs could take five to six weeks, while another source said operations could restart sooner.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "According to sources close to Reuters, if the pipeline remains shut, Yanbu has enough available stocks to sustain exports for about five to seven days, while Egyptian facilities in Ain Sukhna and Sidi Kerir, which store Saudi oil, could provide additional supplies for several days.",
+          "added": "2026-09-15"
+        },
+        {
+          "text": "While this gives Saudi Arabia some buffer, it comes as global inventories have already been falling. The International Energy Agency said Saudi oil supply reached a more than three-decade low in August, with disruptions in Hormuz and the Red Sea. It says world oil supplies will decline by some 5.7 million bpd this year, equivalent to 6 percent of global supply.",
+          "added": "2026-09-15"
+        }
+      ]
+    }
+  ]
+}
