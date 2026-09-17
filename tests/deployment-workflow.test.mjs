@@ -17,9 +17,9 @@ function positionOf(workflow, pattern, description) {
 test('Pages deployment runs the complete Node and Python suites before Hugo builds', async () => {
   const workflow = await readWorkflow();
 
-  assert.match(workflow, /uses:\s*actions\/setup-node@v4/);
+  assert.match(workflow, /uses:\s*actions\/setup-node@v7/);
   assert.match(workflow, /node-version:\s*['"]?22['"]?/);
-  assert.match(workflow, /uses:\s*actions\/setup-python@v5/);
+  assert.match(workflow, /uses:\s*actions\/setup-python@v7/);
   assert.match(workflow, /python-version:\s*['"]3\.11['"]/);
 
   const nodeTests = positionOf(
