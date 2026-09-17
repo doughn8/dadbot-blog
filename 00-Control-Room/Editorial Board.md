@@ -1,10 +1,19 @@
 # Editorial Board
 
+> **New final-review runs (038):** follow `Dadbot Workflow.md`, “New runs: final-review contract”. Identify candidate ID/revision/run record; stage checkboxes mean completed/checked, not human-approved. Final Queue choices: Approve / Request changes / Reject / Hold; Approve means the agreed local publication only. Record payload hash and real decision separately. Existing entries below retain their historical meaning; do not migrate them.
+
 A simple Obsidian board for tracking Dadbot work.
 
 ---
 
 ## Ideas
+
+- [x] Canada and Europe Are Coming Together. What It Means for the Global Order
+  - Desk: news / World
+  - Idea: `99-Archive/published/2026-09-17-canada-eu-global-order/01-Ideas/idea.md`
+  - Run: `99-Archive/published/2026-09-17-canada-eu-global-order/01-Ideas/run.md`
+  - Status: final-review run; Idea checked internally and continuing to Brief
+  - Next artifact: `99-Archive/published/2026-09-17-canada-eu-global-order/02-Briefs/brief.md`
 
 - [x] Saudi Arabia’s Oil Bypass Is Down. What It Means for Global Supplies  
   Desk: news / Global energy  
@@ -79,6 +88,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] Canada and Europe Are Coming Together. What It Means for the Global Order
+  - Desk: news / World
+  - Current folder: `99-Archive/published/2026-09-17-canada-eu-global-order/02-Briefs/`
+  - Status: final-review Brief checked internally; continuing to SEO
+  - Next artifact: `99-Archive/published/2026-09-17-canada-eu-global-order/03-SEO/seo.md`
 
 - [x] Saudi Arabia’s Oil Bypass Is Down. What It Means for Global Supplies  
   Desk: news / Global energy  
@@ -155,6 +170,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Canada and Europe Are Coming Together. What It Means for the Global Order
+  - Desk: news / World
+  - Current folder: `99-Archive/published/2026-09-17-canada-eu-global-order/03-SEO/`
+  - Status: final-review SEO checked internally; continuing to Draft
+  - Next artifact: `99-Archive/published/2026-09-17-canada-eu-global-order/04-Drafts/draft.md`
 
 - [x] Saudi Arabia’s Oil Bypass Is Down. What It Means for Global Supplies  
   Desk: news / Global energy  
@@ -238,6 +259,7 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Drafting
 
+- [x] Canada and Europe Are Coming Together. What It Means for the Glob...[truncated]
 - [x] Saudi Arabia’s Oil Bypass Is Down. What It Means for Global Supplies
   Desk: news / Global energy
   Current folder: `04-Drafts/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/`
@@ -343,6 +365,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Canada and Europe Are Coming Together. What It Means for the Global Order
+  Desk: news / Global order
+  Current folder: `99-Archive/published/2026-09-17-canada-eu-global-order/05-Reviews/`
+  Status: creative edit checked for internal final review
+  Next artifact: `99-Archive/published/2026-09-17-canada-eu-global-order/05-Reviews/proofread.md`
 
 - [x] Saudi Arabia’s Oil Bypass Is Down. What It Means for Global Supplies
   Desk: news / Global energy
@@ -456,6 +484,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Canada and Europe Are Coming Together. What It Means for the Global Order
+  Desk: news / Global order
+  Current folder: `99-Archive/published/2026-09-17-canada-eu-global-order/05-Reviews/`
+  Status: proofread checked for internal final review
+  Next artifact: `99-Archive/published/2026-09-17-canada-eu-global-order/06-Design/design.md`
+
 - [x] Saudi Arabia’s Oil Bypass Is Down. What It Means for Global Supplies
   Desk: news / Global energy
   Current folder: `05-Reviews/2026-09-15-saudi-east-west-pipeline-global-oil-supplies/`
@@ -561,6 +595,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Canada and Europe Are Coming Together. What It Means for the Global Order
+  Desk: news / Global order
+  Current folder: `99-Archive/published/2026-09-17-canada-eu-global-order/06-Design/`
+  Status: design checked; Final Approval revision 2 prepared for Sophie’s final review; caveat precedes reader-facing Sources links
+  Next artifact: `99-Archive/published/2026-09-17-canada-eu-global-order/07-Approval/approval.md`
 
 - [x] Saudi Arabia’s Oil Bypass Is Down. What It Means for Global Supplies
   Desk: news / Global energy
@@ -675,6 +715,14 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] [[2026-09-17-canada-eu-global-order]]
+  Desk: news / Global order
+  Status: published locally
+  Content: `content/news/2026-09-17-canada-eu-global-order.md`
+  Visual treatment: text-led, no cover
+  Editorial archive: `99-Archive/published/2026-09-17-canada-eu-global-order/`
+  Approved by: Sophie, 2026-09-17
 
 - [x] [[2026-09-15-saudi-east-west-pipeline-global-oil-supplies]]
   Desk: news / Global energy

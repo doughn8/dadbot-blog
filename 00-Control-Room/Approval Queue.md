@@ -1,5 +1,7 @@
 # Approval Queue
 
+> **New final-review runs (038):** follow `Dadbot Workflow.md`, “New runs: final-review contract”. Identify candidate ID/revision/run record; stage checkboxes mean completed/checked, not human-approved. Final Queue choices: Approve / Request changes / Reject / Hold; Approve means the agreed local publication only. Record payload hash and real decision separately. Existing entries below retain their historical meaning; do not migrate them.
+
 This is where final Dadbot content waits for Sophie’s sign-off.
 
 ---
@@ -15,9 +17,34 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ## Awaiting Approval
 
 _No articles currently awaiting final approval._
+
 ---
 
 ## Approved
+
+## 2026-09-17 Canada and Europe Are Coming Together. What It Means for the Global Order
+
+Desk: news / Global order
+Final Approval: `99-Archive/published/2026-09-17-canada-eu-global-order/07-Approval/approval.md`
+Content: `content/news/2026-09-17-canada-eu-global-order.md`
+Visual treatment: text-led, no cover (News desk policy)
+Editorial archive: `99-Archive/published/2026-09-17-canada-eu-global-order/`
+Status: Published locally
+Risk Level: Medium
+Dadbot Verdict: Approved by Sophie and published locally
+Publish State: Published locally to `content/news/2026-09-17-canada-eu-global-order.md`.
+Approved packet SHA-256 at decision: `b4d3cd5627c6c73626a06bdead1507fe7c287a7c9c8423c640fbe3084527f634`
+Public file SHA-256: `3a8c61dd5741a233df3fd67cebf9671781a0ef397fde4a2ffab5f753b6eea71d`
+
+Decision:
+- [x] Publish locally
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+Sophie notes: Final Approval and local publication approved on 2026-09-17. No commit, push or deployment performed.
+
+---
 
 ## 2026-09-15 Saudi Arabia’s Oil Bypass Is Down. What It Means for Global Supplies
 
