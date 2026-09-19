@@ -16,11 +16,34 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
-_No articles currently awaiting final approval._
-
 ---
 
 ## Approved
+
+## Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
+
+Candidate: `2026-09-19-tesla-roadster-october-1-reveal`
+Desk: news / Technology
+Final Approval: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/07-Approval/2026-09-19-tesla-roadster-october-1-reveal/approval.md`
+Content: `content/news/2026-09-19-tesla-roadster-october-1-reveal.md`
+Visual treatment: text-led, no cover (News desk policy)
+Editorial archive: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/`
+Status: Published locally
+Risk Level: Medium
+Dadbot Verdict: Approved by Sophie and published locally
+Publish State: Published locally to `content/news/2026-09-19-tesla-roadster-october-1-reveal.md`.
+Approved packet SHA-256 at decision: `4b5235723ab7d8d8934eb00c83c00a756f01f502936f623ef31109e1378a2138`
+Public file SHA-256: `421ede89b58e10861d10028076c64ddd4dab92f517c68007a1fd1153213bd138`
+
+Decision:
+- [x] Publish locally
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+Sophie notes: Final Approval and local publication approved on 2026-09-19. The local commit is explicitly approved; push and live deployment remain unapproved.
+
+---
 
 ## Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
 

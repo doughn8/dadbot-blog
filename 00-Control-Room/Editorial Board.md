@@ -8,6 +8,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
+  - Desk: news / Technology
+  - Candidate: `2026-09-19-tesla-roadster-october-1-reveal`
+  - Idea: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/01-Ideas/2026-09-19-tesla-roadster-october-1-reveal/idea.md`
+  - Run: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/01-Ideas/2026-09-19-tesla-roadster-october-1-reveal/run.md`
+  - Status: published locally on 2026-09-19; complete final-review bundle archived
+  - Next artifact: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/02-Briefs/2026-09-19-tesla-roadster-october-1-reveal/brief.md`
+
 - [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
   - Desk: blog / Home
   - Idea: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/01-Ideas/idea.md`
@@ -95,6 +103,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
+  - Desk: news / Technology
+  - Candidate: `2026-09-19-tesla-roadster-october-1-reveal`
+  - Current folder: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/02-Briefs/2026-09-19-tesla-roadster-october-1-reveal/`
+  - Status: final-review Brief checked internally; published locally on 2026-09-19
+  - Next artifact: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/03-SEO/2026-09-19-tesla-roadster-october-1-reveal/seo.md`
 
 - [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
   - Desk: blog / Home
@@ -184,6 +199,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
+  - Desk: news / Technology
+  - Candidate: `2026-09-19-tesla-roadster-october-1-reveal`
+  - Current folder: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/03-SEO/2026-09-19-tesla-roadster-october-1-reveal/`
+  - Status: final-review SEO checked internally; published locally on 2026-09-19
+  - Next artifact: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/04-Drafts/2026-09-19-tesla-roadster-october-1-reveal/draft.md`
 
 - [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
   - Desk: blog / Home
@@ -279,6 +301,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
+  - Desk: news / Technology
+  - Candidate: `2026-09-19-tesla-roadster-october-1-reveal`
+  - Current folder: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/04-Drafts/2026-09-19-tesla-roadster-october-1-reveal/`
+  - Status: final-review Draft checked internally; published locally on 2026-09-19
+  - Next artifact: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/05-Reviews/2026-09-19-tesla-roadster-october-1-reveal/creative-edit.md`
 
 - [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
   Desk: blog / Home
@@ -392,6 +421,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
+  - Desk: news / Technology
+  - Candidate: `2026-09-19-tesla-roadster-october-1-reveal`
+  - Current folder: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/05-Reviews/2026-09-19-tesla-roadster-october-1-reveal/`
+  - Status: final-review Creative Edit checked internally; published locally on 2026-09-19
+  - Next artifact: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/05-Reviews/2026-09-19-tesla-roadster-october-1-reveal/proofread.md`
 
 - [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
   Desk: blog / Home
@@ -517,6 +553,13 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
+  - Desk: news / Technology
+  - Candidate: `2026-09-19-tesla-roadster-october-1-reveal`
+  - Current folder: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/05-Reviews/2026-09-19-tesla-roadster-october-1-reveal/`
+  - Status: final-review Proofread checked internally; published locally on 2026-09-19
+  - Next artifact: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/06-Design/2026-09-19-tesla-roadster-october-1-reveal/design.md`
+
 - [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
   Desk: blog / Home
   Current folder: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/05-Reviews/`
@@ -634,6 +677,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
+  - Desk: news / Technology
+  - Candidate: `2026-09-19-tesla-roadster-october-1-reveal`
+  - Current folder: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/06-Design/2026-09-19-tesla-roadster-october-1-reveal/`
+  - Status: design checked; Final Approval and local publication completed on 2026-09-19; text-led and cover-free
+  - Next artifact: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/07-Approval/2026-09-19-tesla-roadster-october-1-reveal/approval.md`
 
 - [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
   Desk: blog / Home
@@ -753,13 +803,20 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Awaiting Approval
 
-_No articles currently awaiting final approval._
-
 See also: [[Approval Queue]]
 
 ---
 
 ## Published
+
+- [x] [[2026-09-19-tesla-roadster-october-1-reveal]]
+  Desk: news / Technology
+  Status: published locally
+  Content: `content/news/2026-09-19-tesla-roadster-october-1-reveal.md`
+  Visual treatment: text-led, no cover
+  Editorial archive: `99-Archive/published/2026-09-19-tesla-roadster-october-1-reveal/`
+  Approved by: Sophie, 2026-09-19
+  Local commit: explicitly approved; push and live deployment remain unapproved
 
 - [x] [[2026-09-19-balcony-solar-germany-uk-global-adoption]]
   Desk: blog / Home
