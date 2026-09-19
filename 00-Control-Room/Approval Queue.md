@@ -22,6 +22,30 @@ _No articles currently awaiting final approval._
 
 ## Approved
 
+## Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
+
+Desk: blog / Home
+Final Approval: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/07-Approval/approval.md`
+Content: `content/posts/2026-09-19-balcony-solar-germany-uk-global-adoption.md`
+Visual treatment: text-led, no cover (Blog desk policy)
+Editorial archive: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/`
+Status: Published locally
+Risk Level: Medium
+Dadbot Verdict: Approved by Sophie and published locally
+Publish State: Published locally to `content/posts/2026-09-19-balcony-solar-germany-uk-global-adoption.md`.
+Approved packet SHA-256 at decision: `c6ba3e7744c5dfd081794d2ca892d9981cac7f27bf630eb8fe1b22268cc4d4a7`
+Public file SHA-256: `aca048b0e70f26929c8c62b73443c9c40ece3c25f281d553e0ebad865334b79c`
+
+Decision:
+- [x] Publish locally
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+Sophie notes: Final Approval and local publication approved on 2026-09-19. The local commit is explicitly approved; push and live deployment remain unapproved.
+
+---
+
 ## 2026-09-17 Canada and Europe Are Coming Together. What It Means for the Global Order
 
 Desk: news / Global order

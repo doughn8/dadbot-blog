@@ -8,6 +8,13 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
+  - Desk: blog / Home
+  - Idea: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/01-Ideas/idea.md`
+  - Run: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/01-Ideas/run.md`
+  - Status: final-review completed; archived after local publication
+  - Next artifact: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/02-Briefs/brief.md`
+
 - [x] Canada and Europe Are Coming Together. What It Means for the Global Order
   - Desk: news / World
   - Idea: `99-Archive/published/2026-09-17-canada-eu-global-order/01-Ideas/idea.md`
@@ -88,6 +95,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
+  - Desk: blog / Home
+  - Run: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/01-Ideas/run.md`
+  - Current folder: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/02-Briefs/`
+  - Status: final-review completed; archived after local publication
+  - Next artifact: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/03-SEO/seo.md`
 
 - [x] Canada and Europe Are Coming Together. What It Means for the Global Order
   - Desk: news / World
@@ -170,6 +184,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
+  - Desk: blog / Home
+  - Run: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/01-Ideas/run.md`
+  - Current folder: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/03-SEO/`
+  - Status: final-review completed; archived after local publication
+  - Next artifact: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/04-Drafts/draft.md`
 
 - [x] Canada and Europe Are Coming Together. What It Means for the Global Order
   - Desk: news / World
@@ -258,6 +279,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
+  Desk: blog / Home
+  Current folder: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/04-Drafts/`
+  Status: final-review Draft checked internally; archived after local publication
+  Next artifact: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/05-Reviews/creative-edit.md`
 
 - [x] Canada and Europe Are Coming Together. What It Means for the Glob...[truncated]
 - [x] Saudi Arabia’s Oil Bypass Is Down. What It Means for Global Supplies
@@ -365,6 +392,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
+  Desk: blog / Home
+  Current folder: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/05-Reviews/`
+  Status: final-review Creative Edit checked internally; archived after local publication
+  Next artifact: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/05-Reviews/proofread.md`
 
 - [x] Canada and Europe Are Coming Together. What It Means for the Global Order
   Desk: news / Global order
@@ -484,6 +517,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
+  Desk: blog / Home
+  Current folder: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/05-Reviews/`
+  Status: final-review Proofread checked internally; archived after local publication
+  Next artifact: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/06-Design/design.md`
+
 - [x] Canada and Europe Are Coming Together. What It Means for the Global Order
   Desk: news / Global order
   Current folder: `99-Archive/published/2026-09-17-canada-eu-global-order/05-Reviews/`
@@ -595,6 +634,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Balcony Solar: Why Germany Loves It and What Britain’s New Law Changes
+  Desk: blog / Home
+  Current folder: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/06-Design/`
+  Status: design checked; Final Approval and local publication completed on 2026-09-19; text-led and cover-free
+  Next artifact: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/07-Approval/approval.md`
 
 - [x] Canada and Europe Are Coming Together. What It Means for the Global Order
   Desk: news / Global order
@@ -715,6 +760,14 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] [[2026-09-19-balcony-solar-germany-uk-global-adoption]]
+  Desk: blog / Home
+  Status: published locally
+  Content: `content/posts/2026-09-19-balcony-solar-germany-uk-global-adoption.md`
+  Visual treatment: no cover (text-led)
+  Editorial archive: `99-Archive/published/2026-09-19-balcony-solar-germany-uk-global-adoption/`
+  Approved by: Sophie, 2026-09-19
 
 - [x] [[2026-09-17-canada-eu-global-order]]
   Desk: news / Global order
