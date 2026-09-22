@@ -16,9 +16,35 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
+_No items currently awaiting approval._
+
 ---
 
 ## Approved
+
+## El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
+
+Candidate: `2026-09-22-el-nino-global-weather`
+Revision: 4
+Desk: news / Global weather
+Final Approval: `99-Archive/published/2026-09-22-el-nino-global-weather/07-Approval/2026-09-22-el-nino-global-weather/approval.md`
+Content: `content/news/2026-09-22-el-nino-global-weather-switch.md`
+Visual treatment: text-led, no cover (News desk policy)
+Editorial archive: `99-Archive/published/2026-09-22-el-nino-global-weather/`
+Status: Published locally
+Publish state: Published locally to `content/news/2026-09-22-el-nino-global-weather-switch.md`.
+Approved packet SHA-256 at decision: `8f38a284699d651cb6bc4a3bc980a5e4979a0162fd3b84201375f633ff8ce933`
+Public file SHA-256: `de16fc8e773752874e91f376f6146085899ddcd7a2f9a4d0467733f6a53a1cde`
+
+Decision:
+- [x] Publish locally
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+Sophie notes: Final Approval and local publication approved on 2026-09-22. No local commit, GitHub push or live deployment is authorised by this decision.
+
+---
 
 ## Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
 

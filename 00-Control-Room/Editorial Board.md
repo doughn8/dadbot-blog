@@ -8,6 +8,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
+  - Desk: news / Global weather
+  - Candidate: `2026-09-22-el-nino-global-weather`
+  - Idea: `99-Archive/published/2026-09-22-el-nino-global-weather/01-Ideas/2026-09-22-el-nino-global-weather/idea.md`
+  - Run: `99-Archive/published/2026-09-22-el-nino-global-weather/01-Ideas/2026-09-22-el-nino-global-weather/run.md`
+  - Status: final-review Idea checked internally; run progressed to Final Approval
+  - Next artifact: `99-Archive/published/2026-09-22-el-nino-global-weather/02-Briefs/2026-09-22-el-nino-global-weather/brief.md`
+
 - [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
   - Desk: news / Technology
   - Candidate: `2026-09-19-tesla-roadster-october-1-reveal`
@@ -104,6 +112,13 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
+  - Desk: news / Global weather
+  - Candidate: `2026-09-22-el-nino-global-weather`
+  - Current folder: `99-Archive/published/2026-09-22-el-nino-global-weather/02-Briefs/2026-09-22-el-nino-global-weather/`
+  - Status: final-review Brief checked internally; run progressed to Final Approval
+  - Next artifact: `99-Archive/published/2026-09-22-el-nino-global-weather/03-SEO/2026-09-22-el-nino-global-weather/seo.md`
+
 - [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
   - Desk: news / Technology
   - Candidate: `2026-09-19-tesla-roadster-october-1-reveal`
@@ -199,6 +214,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
+  - Desk: news / Global weather
+  - Candidate: `2026-09-22-el-nino-global-weather`
+  - Current folder: `99-Archive/published/2026-09-22-el-nino-global-weather/03-SEO/2026-09-22-el-nino-global-weather/`
+  - Status: final-review SEO checked internally; run progressed to Final Approval
+  - Next artifact: `99-Archive/published/2026-09-22-el-nino-global-weather/04-Drafts/2026-09-22-el-nino-global-weather/draft.md`
 
 - [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
   - Desk: news / Technology
@@ -301,6 +323,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
+  - Desk: news / Global weather
+  - Candidate: `2026-09-22-el-nino-global-weather`
+  - Current folder: `99-Archive/published/2026-09-22-el-nino-global-weather/04-Drafts/2026-09-22-el-nino-global-weather/`
+  - Status: final-review Draft checked internally; revision 4 Creative Edit rewrite prepared for current review
+  - Next artifact: `99-Archive/published/2026-09-22-el-nino-global-weather/05-Reviews/2026-09-22-el-nino-global-weather/creative-edit-revision-4.md`
 
 - [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
   - Desk: news / Technology
@@ -421,6 +450,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
+  - Desk: news / Global weather
+  - Candidate: `2026-09-22-el-nino-global-weather`
+  - Current folder: `99-Archive/published/2026-09-22-el-nino-global-weather/05-Reviews/2026-09-22-el-nino-global-weather/`
+  - Status: revision 4 Creative Edit checked internally; continuing to Proofreading
+  - Next artifact: `99-Archive/published/2026-09-22-el-nino-global-weather/05-Reviews/2026-09-22-el-nino-global-weather/proofread-revision-4.md`
 
 - [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
   - Desk: news / Technology
@@ -553,6 +589,13 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
+  - Desk: news / Global weather
+  - Candidate: `2026-09-22-el-nino-global-weather`
+  - Current folder: `99-Archive/published/2026-09-22-el-nino-global-weather/05-Reviews/2026-09-22-el-nino-global-weather/`
+  - Status: revision 4 Proofread checked internally; continuing to Design
+  - Next artifact: `99-Archive/published/2026-09-22-el-nino-global-weather/06-Design/2026-09-22-el-nino-global-weather/design-revision-4.md`
+
 - [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
   - Desk: news / Technology
   - Candidate: `2026-09-19-tesla-roadster-october-1-reveal`
@@ -677,6 +720,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
+  - Desk: news / Global weather
+  - Candidate: `2026-09-22-el-nino-global-weather`
+  - Current folder: `99-Archive/published/2026-09-22-el-nino-global-weather/06-Design/2026-09-22-el-nino-global-weather/`
+  - Status: revision 4 Design checked internally; awaiting Final Approval
+  - Next artifact: `99-Archive/published/2026-09-22-el-nino-global-weather/07-Approval/2026-09-22-el-nino-global-weather/approval-revision-4.md`
 
 - [x] Tesla Announces a 1st of October Reveal for the Long-Delayed Roadster
   - Desk: news / Technology
@@ -803,11 +853,24 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Awaiting Approval
 
+_No items currently awaiting approval._
+
 See also: [[Approval Queue]]
 
 ---
 
 ## Published
+
+- [x] [[2026-09-22-el-nino-global-weather-switch]]
+  Desk: news / Global weather
+  Candidate: `2026-09-22-el-nino-global-weather`
+  Revision: 4
+  Status: published locally
+  Content: `content/news/2026-09-22-el-nino-global-weather-switch.md`
+  Visual treatment: text-led, no cover
+  Editorial archive: `99-Archive/published/2026-09-22-el-nino-global-weather/`
+  Approved by: Sophie, 2026-09-22
+  Local commit: not approved; GitHub push and live deployment remain unapproved
 
 - [x] [[2026-09-19-tesla-roadster-october-1-reveal]]
   Desk: news / Technology
