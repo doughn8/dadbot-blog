@@ -8,6 +8,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
+  - Desk: news / Europe
+  - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
+  - Idea: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/01-Ideas/2026-09-23-germany-roman-silver-coin-hoard/idea.md`
+  - Run: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/01-Ideas/2026-09-23-germany-roman-silver-coin-hoard/run.md`
+  - Status: final-review Idea checked internally; run progressed to Final Approval
+  - Next artifact: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/02-Briefs/2026-09-23-germany-roman-silver-coin-hoard/brief.md`
+
 - [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
   - Desk: news / Global weather
   - Candidate: `2026-09-22-el-nino-global-weather`
@@ -112,6 +120,13 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
+  - Desk: news / Europe
+  - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
+  - Current folder: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/02-Briefs/2026-09-23-germany-roman-silver-coin-hoard/`
+  - Status: final-review Brief checked internally; run progressed to Final Approval
+  - Next artifact: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/03-SEO/2026-09-23-germany-roman-silver-coin-hoard/seo.md`
+
 - [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
   - Desk: news / Global weather
   - Candidate: `2026-09-22-el-nino-global-weather`
@@ -214,6 +229,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
+  - Desk: news / Europe
+  - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
+  - Current folder: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/03-SEO/2026-09-23-germany-roman-silver-coin-hoard/`
+  - Status: final-review SEO checked internally; run progressed to Final Approval
+  - Next artifact: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/04-Drafts/2026-09-23-germany-roman-silver-coin-hoard/draft.md`
 
 - [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
   - Desk: news / Global weather
@@ -323,6 +345,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
+  - Desk: news / Europe
+  - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
+  - Current folder: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/04-Drafts/2026-09-23-germany-roman-silver-coin-hoard/`
+  - Status: final-review Draft remains the unchanged audit baseline; Revision 2 proceeds through Creative Edit, Proofreading and Design
+  - Next artifact: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/05-Reviews/2026-09-23-germany-roman-silver-coin-hoard/creative-edit-revision-2.md`
 
 - [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
   - Desk: news / Global weather
@@ -450,6 +479,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
+  - Desk: news / Europe
+  - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
+  - Current folder: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/05-Reviews/2026-09-23-germany-roman-silver-coin-hoard/`
+  - Status: final-review Creative Edit revision 2 checked internally; Revision 1 superseded
+  - Next artifact: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/05-Reviews/2026-09-23-germany-roman-silver-coin-hoard/proofread-revision-2.md`
 
 - [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
   - Desk: news / Global weather
@@ -589,6 +625,13 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
+  - Desk: news / Europe
+  - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
+  - Current folder: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/05-Reviews/2026-09-23-germany-roman-silver-coin-hoard/`
+  - Status: final-review Proofread revision 2 checked internally; payload matches Creative Edit revision 2
+  - Next artifact: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/06-Design/2026-09-23-germany-roman-silver-coin-hoard/design-revision-2.md`
+
 - [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
   - Desk: news / Global weather
   - Candidate: `2026-09-22-el-nino-global-weather`
@@ -720,6 +763,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
+  - Desk: news / Europe
+  - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
+  - Current folder: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/06-Design/2026-09-23-germany-roman-silver-coin-hoard/`
+  - Status: final-review Design revision 2 checked internally; Final Approval revision 2 package ready
+  - Next artifact: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/07-Approval/2026-09-23-germany-roman-silver-coin-hoard/approval-revision-2.md`
 
 - [x] El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
   - Desk: news / Global weather
@@ -853,13 +903,23 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Awaiting Approval
 
-_No items currently awaiting approval._
-
 See also: [[Approval Queue]]
 
 ---
 
 ## Published
+
+- [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
+  - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
+  - Desk: news / Europe
+  - Revision: 2
+  - Status: published locally
+  - Content: `content/news/2026-09-23-germany-roman-silver-coin-hoard-wesseling.md`
+  - Visual treatment: text-led, no cover
+  - Editorial archive: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/`
+  - Approved by: Sophie, 2026-09-23
+  - Local commit: not approved; GitHub push and live deployment remain unapproved
+  - Public file SHA-256: `e5586c18e393f181fb39b424f3287728bad030f5bcadae284b8594b08ee5ed68`
 
 - [x] [[2026-09-22-el-nino-global-weather-switch]]
   Desk: news / Global weather

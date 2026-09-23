@@ -16,11 +16,33 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
-_No items currently awaiting approval._
+## Approved
+
+## Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
+
+Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
+Revision: 2
+Desk: news / Europe
+Run record: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/01-Ideas/2026-09-23-germany-roman-silver-coin-hoard/run.md`
+Final Approval: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/07-Approval/2026-09-23-germany-roman-silver-coin-hoard/approval-revision-2.md`
+Content: `content/news/2026-09-23-germany-roman-silver-coin-hoard-wesseling.md`
+Visual treatment: text-led, no cover (News desk policy)
+Editorial archive: `99-Archive/published/2026-09-23-germany-roman-silver-coin-hoard/`
+Status: Published locally
+Publish State: Published locally to `content/news/2026-09-23-germany-roman-silver-coin-hoard-wesseling.md`
+Approved packet SHA-256 at decision: `f18377b54ea8a99a764b95cbd8bb322bd1ad0bc6ccdb4870b9ab3b33c173f13a`
+Public file SHA-256: `e5586c18e393f181fb39b424f3287728bad030f5bcadae284b8594b08ee5ed68`
+Body: 600 approved words; 591 public words after removing the template-rendered H1
+
+Decision:
+- [x] Publish locally
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+Sophie notes: Final Approval and local publication approved on 2026-09-23. No local commit, GitHub push or live deployment is authorised by this decision.
 
 ---
-
-## Approved
 
 ## El Niño 2026 Is Strengthening: What It Could Mean for Global Weather
 
