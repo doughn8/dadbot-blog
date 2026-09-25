@@ -8,6 +8,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Made in EU: Europe Wants More Factories. Who Counts as European?
+  - Candidate: `2026-09-25-made-in-eu`; revision 1; final-review mode
+  - Stage: Idea checked internally
+  - Artifact: `99-Archive/published/2026-09-25-made-in-eu/01-Ideas/2026-09-25-made-in-eu/idea.md`
+  - Run: `99-Archive/published/2026-09-25-made-in-eu/01-Ideas/2026-09-25-made-in-eu/run.md`
+  - SHA-256: `0a9145d94505b4ca55698dfb092ae9e6739d670b05272980f981fa95092c82f2`
+  - Next: completed; published locally
+
 - [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
   - Desk: news / Europe
   - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
@@ -120,6 +128,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Made in EU: Europe Wants More Factories. Who Counts as European?
+  - Candidate: `2026-09-25-made-in-eu`; revision 1; final-review mode
+  - Stage: Brief checked internally
+  - Artifact: `99-Archive/published/2026-09-25-made-in-eu/02-Briefs/2026-09-25-made-in-eu/brief.md`
+  - Run: `99-Archive/published/2026-09-25-made-in-eu/01-Ideas/2026-09-25-made-in-eu/run.md`
+  - SHA-256: `4f647d6ebfb63d0f84e5cf1dab0a597aba922dc1e094764f063f777ed2de267c`
+  - Next: completed; published locally
+
 - [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
   - Desk: news / Europe
   - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
@@ -229,6 +245,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Made in EU: Europe Wants More Factories. Who Counts as European?
+  - Candidate: `2026-09-25-made-in-eu`; revision 1; final-review mode
+  - Stage: SEO checked internally
+  - Artifact: `99-Archive/published/2026-09-25-made-in-eu/03-SEO/2026-09-25-made-in-eu/seo.md`
+  - Run: `99-Archive/published/2026-09-25-made-in-eu/01-Ideas/2026-09-25-made-in-eu/run.md`
+  - SHA-256: `e81f1f4d4eaf3494afb94fd253b02fff9d4183b1e46c9e2964f60fa2b720795d`
+  - Next: completed; published locally
 
 - [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
   - Desk: news / Europe
@@ -345,6 +369,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Made in EU: Europe Wants More Factories. Who Counts as European?
+  - Candidate: `2026-09-25-made-in-eu`; revision 1; final-review mode
+  - Stage: Draft checked internally
+  - Artifact: `99-Archive/published/2026-09-25-made-in-eu/04-Drafts/2026-09-25-made-in-eu/draft.md`
+  - Run: `99-Archive/published/2026-09-25-made-in-eu/01-Ideas/2026-09-25-made-in-eu/run.md`
+  - SHA-256: `b3d4c96327cdfbf99764cef32c03b5250ce73b1081e6588be447bb72567ef4ac`
+  - Next: completed; published locally
 
 - [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
   - Desk: news / Europe
@@ -479,6 +511,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Made in EU: Europe Wants More Factories. Who Counts as European?
+  - Candidate: `2026-09-25-made-in-eu`; revision 1; final-review mode
+  - Stage: Creative Edit checked internally
+  - Artifact: `99-Archive/published/2026-09-25-made-in-eu/05-Reviews/2026-09-25-made-in-eu/creative-edit.md`
+  - Run: `99-Archive/published/2026-09-25-made-in-eu/01-Ideas/2026-09-25-made-in-eu/run.md`
+  - SHA-256: `7b003af606e53a7a091976d7304d6eea90f1894b7b7a79db11f08f37dc39316d`
+  - Next: completed; published locally
 
 - [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
   - Desk: news / Europe
@@ -625,6 +665,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Made in EU: Europe Wants More Factories. Who Counts as European?
+  - Candidate: `2026-09-25-made-in-eu`; revision 1; final-review mode
+  - Stage: Proofread checked internally
+  - Artifact: `99-Archive/published/2026-09-25-made-in-eu/05-Reviews/2026-09-25-made-in-eu/proofread.md`
+  - Run: `99-Archive/published/2026-09-25-made-in-eu/01-Ideas/2026-09-25-made-in-eu/run.md`
+  - SHA-256: `7952d383957d366364d5002295ccbebda45aff3c3808cc4cab86ba8468e1acbc`
+  - Next: completed; published locally
+
 - [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
   - Desk: news / Europe
   - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
@@ -763,6 +811,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Made in EU: Europe Wants More Factories. Who Counts as European?
+  - Candidate: `2026-09-25-made-in-eu`; revision 1; final-review mode
+  - Stage: Design checked internally
+  - Artifact: `99-Archive/published/2026-09-25-made-in-eu/06-Design/2026-09-25-made-in-eu/design.md`
+  - Run: `99-Archive/published/2026-09-25-made-in-eu/01-Ideas/2026-09-25-made-in-eu/run.md`
+  - SHA-256: `e5ececbbb9c7b0b0114fe502ef0c7f59f9872a11f3cacabc3372fd7a92d3f99a`
+  - Next: completed; published locally
 
 - [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
   - Desk: news / Europe
@@ -903,11 +959,20 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Awaiting Approval
 
+
 See also: [[Approval Queue]]
 
 ---
 
 ## Published
+
+- [x] Made in EU: Europe Wants More Factories. Who Counts as European?
+  - Candidate: `2026-09-25-made-in-eu`
+  - Status: published locally; commit and push authorised
+  - Content: `content/news/made-in-eu-industrial-policy-debate.md`
+  - Archive: `99-Archive/published/2026-09-25-made-in-eu/`
+  - Decision: user approved corrected preview and requested commit, push and cleanup, 2026-09-25.
+
 
 - [x] Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
   - Candidate: `2026-09-23-germany-roman-silver-coin-hoard`

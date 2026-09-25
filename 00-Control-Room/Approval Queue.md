@@ -18,6 +18,16 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Made in EU: Europe Wants More Factories. Who Counts as European?
+
+Candidate: `2026-09-25-made-in-eu`
+Status: Published locally; commit and push authorised.
+Content: `content/news/made-in-eu-industrial-policy-debate.md`
+Archive: `99-Archive/published/2026-09-25-made-in-eu/`
+Approved article payload SHA-256: `a9080b42d03f278304abe4478f7935e89d1038ac72c87f0bc6072636a4eab096`
+Decision: user approved corrected preview and requested “commit, push and clean up” on 2026-09-25.
+
+
 ## Germany’s Largest Hadrian-Era Roman Coin Hoard Found Near Wesseling
 
 Candidate: `2026-09-23-germany-roman-silver-coin-hoard`
