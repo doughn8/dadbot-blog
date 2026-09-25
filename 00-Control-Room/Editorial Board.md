@@ -12,8 +12,8 @@ A simple Obsidian board for tracking Dadbot work.
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 1; final-review mode
   - Desk: books / Classics
   - Stage: Idea checked internally
-  - Artifact: `01-Ideas/2026-09-25-a-christmas-carol-book-review/idea.md`
-  - Run: `01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
+  - Artifact: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/01-Ideas/2026-09-25-a-christmas-carol-book-review/idea.md`
+  - Run: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
   - SHA-256: `a8d559a38b18ee62e7195e3d5daae5b935ad499d5a467d78b89d5502bc38b4b4`
   - Next: Brief (internal checkpoint; continue within the authorised run)
 
@@ -140,8 +140,8 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 1; final-review mode
   - Stage: Brief checked internally
-  - Artifact: `02-Briefs/2026-09-25-a-christmas-carol-book-review/brief.md`
-  - Run: `01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
+  - Artifact: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/02-Briefs/2026-09-25-a-christmas-carol-book-review/brief.md`
+  - Run: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
   - SHA-256: `bf9cd6ae5017bf54c55d3da10c22f17266660447d88d0681d417fbf80ac321ab`
   - Next: SEO (internal checkpoint; continue within the authorised run)
 
@@ -266,8 +266,8 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 1; final-review mode
   - Stage: SEO checked internally
-  - Artifact: `03-SEO/2026-09-25-a-christmas-carol-book-review/seo.md`
-  - Run: `01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
+  - Artifact: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/03-SEO/2026-09-25-a-christmas-carol-book-review/seo.md`
+  - Run: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
   - Next: Draft (internal checkpoint; continue within the authorised run)
 
 - [x] Made in EU: Europe Wants More Factories. Who Counts as European?
@@ -397,8 +397,8 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 1; final-review mode
   - Stage: Draft checked internally (1,220 body words; spoiler and quote checks PASS)
-  - Artifact: `04-Drafts/2026-09-25-a-christmas-carol-book-review/draft.md`
-  - Run: `01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
+  - Artifact: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/04-Drafts/2026-09-25-a-christmas-carol-book-review/draft.md`
+  - Run: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
   - SHA-256: `cd03944298df42e5926bcbf21a8808891500910f56b278e231f9e8467b631464`
   - Next: Creative Edit (internal checkpoint; continue within the authorised run)
 
@@ -547,8 +547,8 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 2; final-review mode
   - Stage: Creative Edit revision 2 checked internally (1,214 body words; quote swap + provisional note removal per user revision)
-  - Artifact: `05-Reviews/2026-09-25-a-christmas-carol-book-review/creative-edit-revision-2.md` (rev-1 preserved)
-  - Run: `01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
+  - Artifact: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/05-Reviews/2026-09-25-a-christmas-carol-book-review/creative-edit-revision-2.md` (rev-1 preserved)
+  - Run: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
   - SHA-256: `d283985adbacce5b04fca04545c14e187e7dc271ee474458ddc4dfec6f006d57`
   - Next: Proofread revision 2
 
@@ -708,8 +708,8 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 2; final-review mode
   - Stage: Proofread revision 2 checked internally (1,214 body words; both new quotations re-verified against source; zero corrections needed)
-  - Artifact: `05-Reviews/2026-09-25-a-christmas-carol-book-review/proofread-revision-2.md` (rev-1 preserved)
-  - Run: `01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
+  - Artifact: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/05-Reviews/2026-09-25-a-christmas-carol-book-review/proofread-revision-2.md` (rev-1 preserved)
+  - Run: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
   - SHA-256: `4884947f59a1dcf062d7711e07c169bd1fed032a8ad3d0edd563ca5963d7b55d`
   - Next: Design revision 2
 
@@ -863,8 +863,8 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 2; final-review mode
   - Stage: Design revision 2 checked internally (user-selected cover ID 10383242; responsive QA re-run 0 failures)
-  - Artifact: `06-Design/2026-09-25-a-christmas-carol-book-review/design-revision-2.md` (rev-1 preserved)
-  - Run: `01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
+  - Artifact: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/06-Design/2026-09-25-a-christmas-carol-book-review/design-revision-2.md` (rev-1 preserved)
+  - Run: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
   - SHA-256: `5a1ef1940b7ef12e643b9b02d85940e6bdf99084ba3aa1dc5f52492df34504fe`
   - Next: Final Approval revision 2 (human stop gate)
 
@@ -1018,8 +1018,8 @@ A simple Obsidian board for tracking Dadbot work.
 - [ ] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 2; final-review mode
   - Stage: Final Approval revision 2 — awaiting final review (Approve / Request changes / Reject / Hold)
-  - Artifact: `07-Approval/2026-09-25-a-christmas-carol-book-review/approval-revision-2.md`
-  - Run: `01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
+  - Artifact: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/07-Approval/2026-09-25-a-christmas-carol-book-review/approval-revision-2.md`
+  - Run: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
   - SHA-256: `647ee6468b43eb38ef7e3a3d745759f31c8a18a194207fadfdd2af95f23ba6dd`
   - Preview: `http://127.0.0.1:1313/books/a-christmas-carol-book-review/`
   - Next: Local Publish / Revise / Hold / Discard

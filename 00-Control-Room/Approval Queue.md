@@ -23,13 +23,14 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 Candidate: `2026-09-25-a-christmas-carol-book-review`
 Revision: 2
 Desk: books / The Shelf Scout
-Run record: `01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
-Final Approval: `07-Approval/2026-09-25-a-christmas-carol-book-review/approval-revision-2.md`
+Run record: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/01-Ideas/2026-09-25-a-christmas-carol-book-review/run.md`
+Final Approval: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/07-Approval/2026-09-25-a-christmas-carol-book-review/approval-revision-2.md`
 Content: `content/books/a-christmas-carol-book-review.md`
+Archive: `99-Archive/published/2026-09-25-a-christmas-carol-book-review/`
 Public file SHA-256: `d91b8dc71e58690a46e1d05a9ece32be607036ee15e3b255da8624fb6972549c`
 Approved article payload SHA-256: `b8243ce1a6290df1615280390259c36bd1bd79017fe5b226b6d6ba3b37936782`
 Visual treatment: Books cover-led — user-selected cover (Vintage Classics art: Scrooge facing the chained ghost of Marley; Open Library cover ID 10383242)
-Status: Published locally (revision 2). Commit/push not authorised — separate gate.
+Status: Published live at https://dadbot.blog/books/a-christmas-carol-book-review/; committed and pushed (6971fe6) on 2026-09-25.
 History: revision 1 (payload `c175a60a5976d1125f0d2f67b530242311864c02cc213990fbfe031758b7db8d`) superseded 2026-09-25 by the user's revision request (cover swap; provisional note removed; Best Quote replaced source-exact).
 Decision (recorded separately from the payload hash, per the Queue contract):
 - [x] Approve
@@ -37,7 +38,7 @@ Decision (recorded separately from the payload hash, per the Queue contract):
 - [ ] Reject
 - [ ] Hold
 
-Sophie approved revision 2 for local publication on 2026-09-25 ("approve", desktop conversation).
+Sophie approved revision 2 on 2026-09-25 ("approve") for local publication, then chose "Commit, push, verify live, then clean up".
 
 ### Made in EU: Europe Wants More Factories. Who Counts as European?
 
