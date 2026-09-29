@@ -8,6 +8,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
+  - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 1; final-review mode
+  - Desk: news / Technology
+  - Stage: Idea checked internally
+  - Artifact: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/01-Ideas/2026-09-29-amd-world-labs-acquisition/idea.md`
+  - Run: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/01-Ideas/2026-09-29-amd-world-labs-acquisition/run.md`
+  - SHA-256: `6262890d57b193acd059dc4d9c41c239a83254c4f3c7e465d0694ff33c189eba`
+  - Next: Brief (internal checkpoint; continue within the authorised run)
+
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 1; final-review mode
   - Desk: books / Classics
@@ -137,6 +146,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
+  - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 1; final-review mode
+  - Stage: Brief checked internally
+  - Artifact: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/02-Briefs/2026-09-29-amd-world-labs-acquisition/brief.md`
+  - Run: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/01-Ideas/2026-09-29-amd-world-labs-acquisition/run.md`
+  - SHA-256: `46946ce4bba269d82ea11b35ecd0be4d824c67fbd8410baea5a229743802fb05`
+  - Next: SEO (internal checkpoint; continue within the authorised run)
+
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 1; final-review mode
   - Stage: Brief checked internally
@@ -262,6 +279,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
+  - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 1; final-review mode
+  - Stage: SEO checked internally
+  - Artifact: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/03-SEO/2026-09-29-amd-world-labs-acquisition/seo.md`
+  - Run: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/01-Ideas/2026-09-29-amd-world-labs-acquisition/run.md`
+  - SHA-256: `d1067a13acb0bfd42f21f018c1fe3024b724f738d839f3449d7ba7d27ae68491`
+  - Next: Draft (internal checkpoint; continue within the authorised run)
 
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 1; final-review mode
@@ -393,6 +418,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+- [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
+  - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3; final-review mode
+  - Stage: draft checked internally
+  - Artifact: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/04-Drafts/2026-09-29-amd-world-labs-acquisition/draft-revision-3.md`
+  - SHA-256: `ac6f818daf709eebd21de27fc9085cb0397e9b9cda3e9b863d883f02d9271ac9`
+  - Payload SHA-256: `a3bb07fc7c3419e5c9c15832d947bb8324eba385733c12269aab3b25455c43c8`
+  - Preview: `http://127.0.0.1:1313/news/amd-world-labs-fei-fei-li-acquisition/?local-review=3`
+  - Published locally; revision 3 approved. Commit and push authorised.
+
 
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 1; final-review mode
@@ -543,6 +577,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+- [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
+  - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3; final-review mode
+  - Stage: creative-edit checked internally
+  - Artifact: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/05-Reviews/2026-09-29-amd-world-labs-acquisition/creative-edit-revision-3.md`
+  - SHA-256: `4af9a7a56be2708e85fe9b01e146ce6cc77ee957c7d204a0a37198a42191a831`
+  - Payload SHA-256: `a3bb07fc7c3419e5c9c15832d947bb8324eba385733c12269aab3b25455c43c8`
+  - Preview: `http://127.0.0.1:1313/news/amd-world-labs-fei-fei-li-acquisition/?local-review=3`
+  - Published locally; revision 3 approved. Commit and push authorised.
+
 
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 2; final-review mode
@@ -704,6 +747,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Proofreading
+- [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
+  - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3; final-review mode
+  - Stage: proofread checked internally
+  - Artifact: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/05-Reviews/2026-09-29-amd-world-labs-acquisition/proofread-revision-3.md`
+  - SHA-256: `ae53339f63601bfbba188549303ae957ba5d25cbbbebd65a85d8d0a3168e84de`
+  - Payload SHA-256: `a3bb07fc7c3419e5c9c15832d947bb8324eba385733c12269aab3b25455c43c8`
+  - Preview: `http://127.0.0.1:1313/news/amd-world-labs-fei-fei-li-acquisition/?local-review=3`
+  - Published locally; revision 3 approved. Commit and push authorised.
+
 
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 2; final-review mode
@@ -859,6 +911,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+- [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
+  - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3; final-review mode
+  - Stage: design checked internally
+  - Artifact: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/06-Design/2026-09-29-amd-world-labs-acquisition/design-revision-3.md`
+  - SHA-256: `d8499c7b80566cf8111946a9abeea3a3616864bffcc906086b9a228ce8fa48d2`
+  - Payload SHA-256: `a3bb07fc7c3419e5c9c15832d947bb8324eba385733c12269aab3b25455c43c8`
+  - Preview: `http://127.0.0.1:1313/news/amd-world-labs-fei-fei-li-acquisition/?local-review=3`
+  - Published locally; revision 3 approved. Commit and push authorised.
 
 - [x] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 2; final-review mode
@@ -1015,6 +1075,7 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Awaiting Approval
 
+
 - [ ] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 2; final-review mode
   - Stage: Final Approval revision 2 — awaiting final review (Approve / Request changes / Reject / Hold)
@@ -1030,6 +1091,14 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
+  - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3
+  - Status: published locally; commit and push authorised
+  - Content: `content/news/2026-09-29-amd-world-labs-acquisition.md`
+  - Archive: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/`
+  - Approved payload SHA-256: `a3bb07fc7c3419e5c9c15832d947bb8324eba385733c12269aab3b25455c43c8`
+  - Decision: “great approved. commit and push”, 2026-09-29; includes disclosed length exception.
 
 - [x] Made in EU: Europe Wants More Factories. Who Counts as European?
   - Candidate: `2026-09-25-made-in-eu`

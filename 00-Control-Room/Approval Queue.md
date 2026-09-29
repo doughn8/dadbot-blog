@@ -16,7 +16,20 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
+
 ## Approved
+
+### AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
+
+Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3
+Status: published locally; commit and push authorised
+Content: `content/news/2026-09-29-amd-world-labs-acquisition.md`
+Archive: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/`
+Approval: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/07-Approval/2026-09-29-amd-world-labs-acquisition/approval-revision-3.md`
+Approved payload SHA-256: `a3bb07fc7c3419e5c9c15832d947bb8324eba385733c12269aab3b25455c43c8`
+Decision: user said “great approved. commit and push” on 2026-09-29. Disclosed 990-word count accepted. Shared mobile badge issue unchanged.
+- [x] Approve
+
 
 ### Book Review: A Christmas Carol by Charles Dickens
 
