@@ -22,7 +22,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 Candidate: `2026-09-29-year-of-linux-desktop`; revision 2
 Desk: Blog / Tech
-Status: published locally; commit and push authorised
+Status: published live; product commit 8e40b01 pushed and verified
 Content: `content/posts/2026-09-29-year-of-linux-desktop.md`
 Archive: `99-Archive/published/2026-09-29-year-of-linux-desktop/` (local-only)
 Run record: `99-Archive/published/2026-09-29-year-of-linux-desktop/01-Ideas/2026-09-29-year-of-linux-desktop/run.md`
@@ -32,7 +32,7 @@ Public file SHA-256: `42724b47575bbc8f85b62ff6b8e54d634947407fc1c44fea84d741712e
 Decision: “great lets commit, push and clean up” (2026-09-29T22:30:42.402377+02:00); local publication, commit, push and cleanup authorised separately.
 - [x] Approve
 
-History: revision 1 superseded by Request changes; both revisions preserved. Existing mobile badge obstruction unchanged. Remote deployment/live checks pending.
+History: revision 1 superseded by Request changes; both revisions preserved. Existing mobile badge obstruction unchanged. Workflow 36629527664 succeeded; exact live article, homepage and Blog listing verified. Product commit `8e40b01`.
 
 
 

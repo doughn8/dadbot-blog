@@ -1157,14 +1157,14 @@ See also: [[Approval Queue]]
 - [x] Is This the Year of the Linux Desktop?
   - Candidate: `2026-09-29-year-of-linux-desktop`; revision 2; final-review mode
   - Desk: Blog / Tech
-  - Status: published locally; commit and push authorised
+  - Status: published live; product commit 8e40b01 pushed and verified
   - Content: `content/posts/2026-09-29-year-of-linux-desktop.md`
   - Archive: `99-Archive/published/2026-09-29-year-of-linux-desktop/`
   - Approval: `99-Archive/published/2026-09-29-year-of-linux-desktop/07-Approval/2026-09-29-year-of-linux-desktop/approval-revision-2.md`
   - Payload SHA-256: `11efb330f440915e5886fa4170520bfe0418214f74d5c35c197a2cae9e689561`
   - Public file SHA-256: `42724b47575bbc8f85b62ff6b8e54d634947407fc1c44fea84d741712e19426d`
   - Decision: “great lets commit, push and clean up” (2026-09-29T22:30:42.402377+02:00)
-  - Next: verify remote deployment/live route
+  - Live: https://dadbot.blog/posts/is-this-the-year-of-the-linux-desktop/; workflow 36629527664 succeeded
 
 
 - [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
