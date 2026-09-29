@@ -8,6 +8,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Is This the Year of the Linux Desktop?
+  - Candidate: `2026-09-29-year-of-linux-desktop`; revision 1; final-review mode
+  - Desk: blog / Tech
+  - Stage: Idea checked internally
+  - Artifact: `99-Archive/published/2026-09-29-year-of-linux-desktop/01-Ideas/2026-09-29-year-of-linux-desktop/idea.md`
+  - Run: `99-Archive/published/2026-09-29-year-of-linux-desktop/01-Ideas/2026-09-29-year-of-linux-desktop/run.md`
+  - SHA-256: `954f9dc47d4d0d7c63ef91c33c8a01b617e76d2ecca008eb26a59188b07623f9`
+  - Historical next: Brief (internal checkpoint)
+
 - [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
   - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 1; final-review mode
   - Desk: news / Technology
@@ -146,6 +155,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Is This the Year of the Linux Desktop?
+  - Candidate: `2026-09-29-year-of-linux-desktop`; revision 1; final-review mode
+  - Desk: blog / Tech
+  - Stage: Brief checked internally
+  - Artifact: `99-Archive/published/2026-09-29-year-of-linux-desktop/02-Briefs/2026-09-29-year-of-linux-desktop/brief.md`
+  - Run: `99-Archive/published/2026-09-29-year-of-linux-desktop/01-Ideas/2026-09-29-year-of-linux-desktop/run.md`
+  - SHA-256: `1252ff63dd3cf686dc842efd5c7b6721637412403bfc0f3762c6cf50e2cd7742`
+  - Historical next: SEO (internal checkpoint)
+
 - [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
   - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 1; final-review mode
   - Stage: Brief checked internally
@@ -279,6 +297,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Is This the Year of the Linux Desktop?
+  - Candidate: `2026-09-29-year-of-linux-desktop`; revision 1; final-review mode
+  - Desk: blog / Tech
+  - Stage: SEO checked internally
+  - Artifact: `99-Archive/published/2026-09-29-year-of-linux-desktop/03-SEO/2026-09-29-year-of-linux-desktop/seo.md`
+  - Run: `99-Archive/published/2026-09-29-year-of-linux-desktop/01-Ideas/2026-09-29-year-of-linux-desktop/run.md`
+  - SHA-256: `8d3fd9e84c8d3126551d409d6ec97a825f4ba71beb795104d5d73bf32c722ca9`
+  - Historical next: Draft (internal checkpoint)
 
 - [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
   - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 1; final-review mode
@@ -418,6 +445,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Is This the Year of the Linux Desktop?
+  - Candidate: `2026-09-29-year-of-linux-desktop`; revision 2; final-review mode
+  - Desk: blog / Tech
+  - Stage: Draft checked internally
+  - Artifact: `99-Archive/published/2026-09-29-year-of-linux-desktop/04-Drafts/2026-09-29-year-of-linux-desktop/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-09-29-year-of-linux-desktop/01-Ideas/2026-09-29-year-of-linux-desktop/run.md`
+  - SHA-256: `00301d722c25cb0a32cafee2b2da9bd329751d74a3d972cfb24c8559c68e310d`
+  - Historical next: Creative Edit (internal checkpoint)
 - [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
   - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3; final-review mode
   - Stage: draft checked internally
@@ -577,6 +613,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Is This the Year of the Linux Desktop?
+  - Candidate: `2026-09-29-year-of-linux-desktop`; revision 2; final-review mode
+  - Desk: blog / Tech
+  - Stage: Creative Edit checked internally
+  - Artifact: `99-Archive/published/2026-09-29-year-of-linux-desktop/05-Reviews/2026-09-29-year-of-linux-desktop/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-09-29-year-of-linux-desktop/01-Ideas/2026-09-29-year-of-linux-desktop/run.md`
+  - SHA-256: `1cadd1d6a8adbe569e634c46f68154e06598839f425fcfe7312cdf65124168cb`
+  - Historical next: Proofread (internal checkpoint)
 - [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
   - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3; final-review mode
   - Stage: creative-edit checked internally
@@ -747,6 +792,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Proofreading
+
+- [x] Is This the Year of the Linux Desktop?
+  - Candidate: `2026-09-29-year-of-linux-desktop`; revision 2; final-review mode
+  - Desk: blog / Tech
+  - Stage: Proofread checked internally
+  - Artifact: `99-Archive/published/2026-09-29-year-of-linux-desktop/05-Reviews/2026-09-29-year-of-linux-desktop/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-09-29-year-of-linux-desktop/01-Ideas/2026-09-29-year-of-linux-desktop/run.md`
+  - SHA-256: `9b436e3eb2f74c36e6b988bc604d53303b12a674fef40e3af282720106a5d186`
+  - Historical next: Design (internal checkpoint)
 - [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
   - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3; final-review mode
   - Stage: proofread checked internally
@@ -911,6 +965,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Is This the Year of the Linux Desktop?
+  - Candidate: `2026-09-29-year-of-linux-desktop`; revision 2; final-review mode
+  - Desk: blog / Tech
+  - Stage: Design checked internally
+  - Artifact: `99-Archive/published/2026-09-29-year-of-linux-desktop/06-Design/2026-09-29-year-of-linux-desktop/design-revision-2.md`
+  - Run: `99-Archive/published/2026-09-29-year-of-linux-desktop/01-Ideas/2026-09-29-year-of-linux-desktop/run.md`
+  - SHA-256: `566a28a9cb563a25fcbc23ceb18eb46ef0454f1f4ecdf3e66ca6631cec2fbe0f`
+  - Historical next: Final Approval (internal checkpoint)
 - [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
   - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3; final-review mode
   - Stage: design checked internally
@@ -1075,7 +1138,6 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Awaiting Approval
 
-
 - [ ] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 2; final-review mode
   - Stage: Final Approval revision 2 — awaiting final review (Approve / Request changes / Reject / Hold)
@@ -1091,6 +1153,19 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Is This the Year of the Linux Desktop?
+  - Candidate: `2026-09-29-year-of-linux-desktop`; revision 2; final-review mode
+  - Desk: Blog / Tech
+  - Status: published locally; commit and push authorised
+  - Content: `content/posts/2026-09-29-year-of-linux-desktop.md`
+  - Archive: `99-Archive/published/2026-09-29-year-of-linux-desktop/`
+  - Approval: `99-Archive/published/2026-09-29-year-of-linux-desktop/07-Approval/2026-09-29-year-of-linux-desktop/approval-revision-2.md`
+  - Payload SHA-256: `11efb330f440915e5886fa4170520bfe0418214f74d5c35c197a2cae9e689561`
+  - Public file SHA-256: `42724b47575bbc8f85b62ff6b8e54d634947407fc1c44fea84d741712e19426d`
+  - Decision: “great lets commit, push and clean up” (2026-09-29T22:30:42.402377+02:00)
+  - Next: verify remote deployment/live route
+
 
 - [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
   - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3

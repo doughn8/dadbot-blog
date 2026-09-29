@@ -16,8 +16,27 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
-
 ## Approved
+
+### Is This the Year of the Linux Desktop?
+
+Candidate: `2026-09-29-year-of-linux-desktop`; revision 2
+Desk: Blog / Tech
+Status: published locally; commit and push authorised
+Content: `content/posts/2026-09-29-year-of-linux-desktop.md`
+Archive: `99-Archive/published/2026-09-29-year-of-linux-desktop/` (local-only)
+Run record: `99-Archive/published/2026-09-29-year-of-linux-desktop/01-Ideas/2026-09-29-year-of-linux-desktop/run.md`
+Final Approval: `99-Archive/published/2026-09-29-year-of-linux-desktop/07-Approval/2026-09-29-year-of-linux-desktop/approval-revision-2.md`
+Approved payload SHA-256: `11efb330f440915e5886fa4170520bfe0418214f74d5c35c197a2cae9e689561`
+Public file SHA-256: `42724b47575bbc8f85b62ff6b8e54d634947407fc1c44fea84d741712e19426d`
+Decision: “great lets commit, push and clean up” (2026-09-29T22:30:42.402377+02:00); local publication, commit, push and cleanup authorised separately.
+- [x] Approve
+
+History: revision 1 superseded by Request changes; both revisions preserved. Existing mobile badge obstruction unchanged. Remote deployment/live checks pending.
+
+
+
+
 
 ### AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
 
