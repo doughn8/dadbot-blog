@@ -8,6 +8,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 1; final-review mode
+  - Stage: Idea checked internally
+  - Artifact: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/01-Ideas/2026-09-30-manchester-city-financial-verdict/idea.md`
+  - Run: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/01-Ideas/2026-09-30-manchester-city-financial-verdict/run.md`
+  - SHA-256: `fcb8d90ad5c277589634faf0edfd40467adf3f3d8eaaaf754a78fa0db738e9fb`
+  - Next: Brief; internal checkpoint; no human approval
+
 - [x] Is This the Year of the Linux Desktop?
   - Candidate: `2026-09-29-year-of-linux-desktop`; revision 1; final-review mode
   - Desk: blog / Tech
@@ -155,6 +163,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 1; final-review mode
+  - Stage: Brief checked internally
+  - Artifact: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/02-Briefs/2026-09-30-manchester-city-financial-verdict/brief.md`
+  - Run: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/01-Ideas/2026-09-30-manchester-city-financial-verdict/run.md`
+  - SHA-256: `ec6733e4163af252f21e930564e3b9f10614df8030b1d841ab7341098bcf2e61`
+  - Next: SEO; internal checkpoint; no human approval
+
 - [x] Is This the Year of the Linux Desktop?
   - Candidate: `2026-09-29-year-of-linux-desktop`; revision 1; final-review mode
   - Desk: blog / Tech
@@ -297,6 +313,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 1; final-review mode
+  - Stage: SEO checked internally
+  - Artifact: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/03-SEO/2026-09-30-manchester-city-financial-verdict/seo.md`
+  - Run: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/01-Ideas/2026-09-30-manchester-city-financial-verdict/run.md`
+  - SHA-256: `e352257cae87450a2ab394204cfb79a5470e8cc18fd07617c7d21228451da63b`
+  - Next: Draft; internal checkpoint; no human approval
 
 - [x] Is This the Year of the Linux Desktop?
   - Candidate: `2026-09-29-year-of-linux-desktop`; revision 1; final-review mode
@@ -445,6 +469,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; final-review mode
+  - Stage: Draft revision 2 checked internally
+  - Artifact: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/04-Drafts/2026-09-30-manchester-city-financial-verdict/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/01-Ideas/2026-09-30-manchester-city-financial-verdict/run.md`
+  - SHA-256: `54cf99373853750c9932bbce561fd1ac06145c6cf7704cf0fc85c66a98e502b8`
+  - Next: Creative Edit; internal checkpoint; no human approval
+
+
+- [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 1; final-review mode
+  - Stage: Draft checked internally
+  - Artifact: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/04-Drafts/2026-09-30-manchester-city-financial-verdict/draft.md`
+  - Run: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/01-Ideas/2026-09-30-manchester-city-financial-verdict/run.md`
+  - SHA-256: `de6088a2f85d397b270f1c29050e303c27cf92c2e4b2a0f62be04dc4a76907f8`
+  - Next: Creative Edit; internal checkpoint; no human approval
 
 - [x] Is This the Year of the Linux Desktop?
   - Candidate: `2026-09-29-year-of-linux-desktop`; revision 2; final-review mode
@@ -613,6 +654,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; final-review mode
+  - Stage: Creative Edit revision 2 checked internally
+  - Artifact: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/05-Reviews/2026-09-30-manchester-city-financial-verdict/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/01-Ideas/2026-09-30-manchester-city-financial-verdict/run.md`
+  - SHA-256: `36bb48980b76ffb9b178fab8b38c8731083e87ba7667d48ca18ec0bb637d7ee9`
+  - Next: Proofread; internal checkpoint; no human approval
+
+
+- [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 1; final-review mode
+  - Stage: Creative Edit checked internally
+  - Artifact: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/05-Reviews/2026-09-30-manchester-city-financial-verdict/creative-edit.md`
+  - Run: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/01-Ideas/2026-09-30-manchester-city-financial-verdict/run.md`
+  - SHA-256: `fd856263e6247700f28d2ea9f2120601b3d4589d93f6fbe91e0eced98930b89f`
+  - Next: Proofread; internal checkpoint; no human approval
 
 - [x] Is This the Year of the Linux Desktop?
   - Candidate: `2026-09-29-year-of-linux-desktop`; revision 2; final-review mode
@@ -793,6 +851,23 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; final-review mode
+  - Stage: Proofread revision 2 checked internally
+  - Artifact: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/05-Reviews/2026-09-30-manchester-city-financial-verdict/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/01-Ideas/2026-09-30-manchester-city-financial-verdict/run.md`
+  - SHA-256: `6d09424bbceb66abf1dc6350182d9995ac41fc8277ce8ae8e7d2c82e08880882`
+  - Next: Design; internal checkpoint; no human approval
+
+
+- [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 1; final-review mode
+  - Stage: Proofread checked internally
+  - Artifact: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/05-Reviews/2026-09-30-manchester-city-financial-verdict/proofread.md`
+  - Run: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/01-Ideas/2026-09-30-manchester-city-financial-verdict/run.md`
+  - SHA-256: `5d7c0f49332ea1a693045350d48cb32d7e71ae25026391f317f5814cb49f1619`
+  - Next: Design; internal checkpoint; no human approval
+
 - [x] Is This the Year of the Linux Desktop?
   - Candidate: `2026-09-29-year-of-linux-desktop`; revision 2; final-review mode
   - Desk: blog / Tech
@@ -966,6 +1041,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Design
 
+- [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; final-review mode
+  - Stage: Design revision 2 checked internally
+  - Artifact: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/06-Design/2026-09-30-manchester-city-financial-verdict/design-revision-2.md`
+  - Run: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/01-Ideas/2026-09-30-manchester-city-financial-verdict/run.md`
+  - SHA-256: `72613aced7be5e7d24f6c9670377944888f7111d93bf2d397cb1e836c3b8eae1`
+  - Next: Final Approval; internal checkpoint; no human approval
+
+
 - [x] Is This the Year of the Linux Desktop?
   - Candidate: `2026-09-29-year-of-linux-desktop`; revision 2; final-review mode
   - Desk: blog / Tech
@@ -1138,6 +1222,7 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Awaiting Approval
 
+
 - [ ] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 2; final-review mode
   - Stage: Final Approval revision 2 — awaiting final review (Approve / Request changes / Reject / Hold)
@@ -1153,6 +1238,16 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; News
+  - Status: published locally; commit and push/deployment authorised
+  - Content: `content/news/2026-09-30-manchester-city-financial-verdict.md`
+  - Archive: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/` (local-only)
+  - Approval: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/07-Approval/2026-09-30-manchester-city-financial-verdict/approval-revision-2.md`
+  - Payload SHA-256: `320cfc9f3a3c4116ccd65b2fcdca81ba1c1e928857efcaa2807a0a340feeac55`
+  - Decision: “ok great lets commit, push and clean up” (2026-09-30T23:27:14.964726+02:00); includes disclosed shorter prose.
+
 
 - [x] Is This the Year of the Linux Desktop?
   - Candidate: `2026-09-29-year-of-linux-desktop`; revision 2; final-review mode

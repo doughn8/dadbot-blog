@@ -18,6 +18,18 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Manchester City’s Financial Verdict: Findings, Denial and Trophies
+  - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; News
+  - Status: published locally; commit and push/deployment authorised
+  - Content: `content/news/2026-09-30-manchester-city-financial-verdict.md`
+  - Archive: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/` (local-only)
+  - Approval: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/07-Approval/2026-09-30-manchester-city-financial-verdict/approval-revision-2.md`
+  - Payload SHA-256: `320cfc9f3a3c4116ccd65b2fcdca81ba1c1e928857efcaa2807a0a340feeac55`
+  - Decision: “ok great lets commit, push and clean up” (2026-09-30T23:27:14.964726+02:00); includes disclosed shorter prose.
+
+- [x] Approve
+
+
 ### Is This the Year of the Linux Desktop?
 
 Candidate: `2026-09-29-year-of-linux-desktop`; revision 2
