@@ -1241,7 +1241,9 @@ See also: [[Approval Queue]]
 
 - [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
   - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; News
-  - Status: published locally; commit and push/deployment authorised
+  - Status: published live; product commit c6e632e pushed and verified
+  - Live: https://dadbot.blog/news/manchester-city-financial-verdict-explained/
+  - Deployment: workflow 36779788404 succeeded; exact article, homepage and News listing verified
   - Content: `content/news/2026-09-30-manchester-city-financial-verdict.md`
   - Archive: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/` (local-only)
   - Approval: `99-Archive/published/2026-09-30-manchester-city-financial-verdict/07-Approval/2026-09-30-manchester-city-financial-verdict/approval-revision-2.md`
