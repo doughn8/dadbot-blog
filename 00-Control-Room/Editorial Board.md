@@ -1340,7 +1340,7 @@ See also: [[Approval Queue]]
 
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; News
-  - Status: published locally; commit, push/deployment and cleanup authorised
+  - Status: published live; product commit e1e4ea0 pushed and verified; workflow 36936194389 succeeded
   - Content: `content/news/2026-10-01-global-bond-yields-energy-inflation.md`
   - Archive: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/` (local-only)
   - Approval: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
