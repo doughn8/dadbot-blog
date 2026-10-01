@@ -16,7 +16,17 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
+
 ## Approved
+
+### Bond Yields Jump as Energy Inflation Squeezes the World
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; News
+  - Status: published locally; commit, push/deployment and cleanup authorised
+  - Content: `content/news/2026-10-01-global-bond-yields-energy-inflation.md`
+  - Archive: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/` (local-only)
+  - Approval: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
+  - Payload SHA-256: `99771d47823c5dcf4b7738e074098860bc38c28edf34de47c00ccf2dba763cda`
+  - Decision: “approved, commit push and clean up” (2026-10-02T00:34:59+02:00); accepts 825-word body.
 
 ### Manchester City’s Financial Verdict: Findings, Denial and Trophies
   - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; News

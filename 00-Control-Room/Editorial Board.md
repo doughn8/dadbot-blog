@@ -8,6 +8,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 1; final-review mode
+  - Stage: Idea checked internally
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/01-Ideas/2026-10-01-global-bond-yields-energy-inflation/idea.md`
+  - Run: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/01-Ideas/2026-10-01-global-bond-yields-energy-inflation/run.md`
+  - SHA-256: `4b82d67029ea6cf602f4bc530c19cd88f3fde81f9e4d28e2b2c9d889f21e6e8f`
+  - Next: Brief; internal checkpoint, no human approval
+
 - [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
   - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 1; final-review mode
   - Stage: Idea checked internally
@@ -163,6 +171,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 1; final-review mode
+  - Stage: Brief checked internally
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/02-Briefs/2026-10-01-global-bond-yields-energy-inflation/brief.md`
+  - Run: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/01-Ideas/2026-10-01-global-bond-yields-energy-inflation/run.md`
+  - SHA-256: `34ecd3399f257ff7d74d78c9c96034227bce45e3cb5486e5c95f347e57f1e78f`
+  - Next: SEO; internal checkpoint, no human approval
+
 - [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
   - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 1; final-review mode
   - Stage: Brief checked internally
@@ -313,6 +329,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 1; final-review mode
+  - Stage: SEO checked internally
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/03-SEO/2026-10-01-global-bond-yields-energy-inflation/seo.md`
+  - Run: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/01-Ideas/2026-10-01-global-bond-yields-energy-inflation/run.md`
+  - SHA-256: `42bbf859c09a14e566e7ed10c8581f9cf40014595c605597b8d9ace154c3ef6c`
+  - Next: Draft; internal checkpoint, no human approval
 
 - [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
   - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 1; final-review mode
@@ -469,6 +493,21 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/04-Drafts/2026-10-01-global-bond-yields-energy-inflation/draft-revision-2.md`
+  - SHA-256: `4bd1c35c53f613a2f1ff1ac5e0b6cd27ff45f837331788f8e3175769e46b9673`
+  - Body: 825 words; shorter length exception accepted
+  - Next: creative-edit internal checkpoint
+
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 1; final-review mode
+  - Stage: Draft checked internally
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/04-Drafts/2026-10-01-global-bond-yields-energy-inflation/draft.md`
+  - Run: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/01-Ideas/2026-10-01-global-bond-yields-energy-inflation/run.md`
+  - SHA-256: `95d0cf32b09a7311b853c28d9e9436ce41ccc4e364a050b1e345fbe06c13d5b0`
+  - Next: Creative Edit; internal checkpoint, no human approval
 
 - [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
   - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; final-review mode
@@ -654,6 +693,21 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/05-Reviews/2026-10-01-global-bond-yields-energy-inflation/creative-edit-revision-2.md`
+  - SHA-256: `5acc22fd8df19b32a4c9bc6849d55b2c277956cbc90ff5fa3bfc961f69d4783e`
+  - Body: 825 words; shorter length exception accepted
+  - Next: proofread internal checkpoint
+
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 1; final-review mode
+  - Stage: Creative Edit checked internally
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/05-Reviews/2026-10-01-global-bond-yields-energy-inflation/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/01-Ideas/2026-10-01-global-bond-yields-energy-inflation/run.md`
+  - SHA-256: `e08f942e07d2abea28bbc3989e00c15f3ef0e2ce08079c914192abf17d5fe229`
+  - Next: Proofread; internal checkpoint, no human approval
 
 - [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
   - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; final-review mode
@@ -851,6 +905,21 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/05-Reviews/2026-10-01-global-bond-yields-energy-inflation/proofread-revision-2.md`
+  - SHA-256: `25ef49588f3d7c1a10b0d907f2eb304f66e4d0f6f04900f0d145f69ce59562f7`
+  - Body: 825 words; shorter length exception accepted
+  - Next: design internal checkpoint
+
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 1; final-review mode
+  - Stage: Proofread checked internally
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/05-Reviews/2026-10-01-global-bond-yields-energy-inflation/proofread.md`
+  - Run: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/01-Ideas/2026-10-01-global-bond-yields-energy-inflation/run.md`
+  - SHA-256: `b41a4dd1131bf3929280bed4bf91b54d7977f1de33de0690041b88188848548a`
+  - Next: Design; internal checkpoint, no human approval
+
 - [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
   - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; final-review mode
   - Stage: Proofread revision 2 checked internally
@@ -1041,6 +1110,21 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Design
 
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/06-Design/2026-10-01-global-bond-yields-energy-inflation/design-revision-2.md`
+  - SHA-256: `dd5448408e6d895f23cd9b4b2de1d2e390ac034d2fa925592b6589d8865ad10d`
+  - Body: 825 words; shorter length exception accepted
+  - Next: final-approval internal checkpoint
+
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 1; final-review mode
+  - Stage: Design checked internally
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/06-Design/2026-10-01-global-bond-yields-energy-inflation/design.md`
+  - Run: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/01-Ideas/2026-10-01-global-bond-yields-energy-inflation/run.md`
+  - SHA-256: `ee381ef91c5d4f3e0a9a7bb11dfb92bd3d0437b3e0f79bee60adbf6aae09228e`
+  - Next: Final Approval; internal checkpoint, no human approval
+
 - [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
   - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; final-review mode
   - Stage: Design revision 2 checked internally
@@ -1222,6 +1306,21 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Awaiting Approval
 
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
+  - SHA-256: `ab460ad70b2e115b6cc45f7ad8796a6a0cb8d14c3cf2b19243934dc8952df4d9`
+  - Body: 825 words; shorter length exception accepted
+  - Next: published locally; commit/push and cleanup authorised
+
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World — superseded revision 1
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 1; final-review mode
+  - Stage: Final Approval revision 1 superseded by Request changes
+  - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval.md`
+  - Run: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/01-Ideas/2026-10-01-global-bond-yields-energy-inflation/run.md`
+  - SHA-256: `5a3cfab22e6142f517b45b0871451bb2f15138dbf3fe8b414e2c5b2729920700`
+  - Next: Approve / Request changes / Reject / Hold (Approve = local publication only)
+
 
 - [ ] Book Review: A Christmas Carol by Charles Dickens
   - Candidate: `2026-09-25-a-christmas-carol-book-review`; revision 2; final-review mode
@@ -1238,6 +1337,15 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Bond Yields Jump as Energy Inflation Squeezes the World
+  - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; News
+  - Status: published locally; commit, push/deployment and cleanup authorised
+  - Content: `content/news/2026-10-01-global-bond-yields-energy-inflation.md`
+  - Archive: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/` (local-only)
+  - Approval: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
+  - Payload SHA-256: `99771d47823c5dcf4b7738e074098860bc38c28edf34de47c00ccf2dba763cda`
+  - Decision: “approved, commit push and clean up” (2026-10-02T00:34:59+02:00); accepts 825-word body.
 
 - [x] Manchester City’s Financial Verdict: Findings, Denial and Trophies
   - Candidate: `2026-09-30-manchester-city-financial-verdict`; revision 2; News
