@@ -19,6 +19,19 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Flydubai Dubai–Tel Aviv Incident: What the Reports Say
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; News
+  - Status: published locally; commit, push/deployment and cleanup authorised; verification pending
+  - Content: `content/news/2026-10-02-flydubai-dubai-tel-aviv-coverage.md`
+  - Archive: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/` (local-only)
+  - Approval: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/07-Approval/2026-10-02-flydubai-dubai-tel-aviv-coverage/approval-revision-2.md`
+  - Payload SHA-256: `62a5a46a7f563fb332e551b49435699bc46ec7137b0719664eb20a808fcd0b56`
+  - Reviewed packet SHA-256: `e2e13725fb09dca8dc017b8cf38bb943548a27a851cdf6e472825425b9b6ab35` (exact preserved packet at archive root)
+  - Decision: “like it. lets commit, push and clean up” (2026-10-02T22:06:51+02:00); accepts disclosed 754-word body.
+  - History: revision 1 superseded by Request changes; both revisions retained.
+  - Limitation: existing shared phone/tablet coffee badge overlap unchanged.
+- [x] Approve
+
 ### Bond Yields Jump as Energy Inflation Squeezes the World
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; News
   - Status: published live; product commit e1e4ea0 pushed and verified; workflow 36936194389 succeeded

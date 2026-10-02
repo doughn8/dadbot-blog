@@ -8,6 +8,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 1; final-review mode
+  - Stage: Idea checked internally
+  - Artifact: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/idea.md`
+  - Run: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/run.md`
+  - SHA-256: `7ff667112caf345abbb936dadec49dc47abc18ae9de94f162908810c092233e0`
+  - Next: Brief; internal checkpoint, no human approval
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 1; final-review mode
   - Stage: Idea checked internally
@@ -171,6 +179,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 1; final-review mode
+  - Stage: Brief checked internally
+  - Artifact: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/02-Briefs/2026-10-02-flydubai-dubai-tel-aviv-coverage/brief.md`
+  - Run: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/run.md`
+  - SHA-256: `17a26a6300832ef770051b5a675c9d37d8b7d500250251bb92459725b94b8963`
+  - Next: SEO; internal checkpoint, no human approval
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 1; final-review mode
   - Stage: Brief checked internally
@@ -329,6 +345,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 1; final-review mode
+  - Stage: SEO checked internally
+  - Artifact: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/03-SEO/2026-10-02-flydubai-dubai-tel-aviv-coverage/seo.md`
+  - Run: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/run.md`
+  - SHA-256: `b0bb662ded851cfb4576d64936521f424c18d97a44496f855f09d3c67fe8f240`
+  - Next: Draft; internal checkpoint, no human approval
 
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 1; final-review mode
@@ -493,6 +517,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say — revision 2
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; final-review mode
+  - Stage: Draft; checked internally
+  - Artifact: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/04-Drafts/2026-10-02-flydubai-dubai-tel-aviv-coverage/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/run.md`
+  - SHA-256: `d0f2d0c14c19f924621a92be9c04898e3ec50095c1e2968fa78a8373bcbfc2ab`
+  - Payload: `62a5a46a7f563fb332e551b49435699bc46ec7137b0719664eb20a808fcd0b56`; 754 prose words; length exception accepted by user
+  - Next: Creative Edit revision 2; internal checkpoint
+
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 1; final-review mode
+  - Stage: Draft checked internally
+  - Artifact: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/04-Drafts/2026-10-02-flydubai-dubai-tel-aviv-coverage/draft.md`
+  - Run: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/run.md`
+  - SHA-256: `49942cffa9dc0ec7838e4c0c061ba0c04b2b0cd09c7f7896fde54fcfb9b1dc01`
+  - Next: Creative Edit; internal checkpoint, no human approval
 
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
@@ -693,6 +734,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say — revision 2
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; final-review mode
+  - Stage: Creative Edit; checked internally
+  - Artifact: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/05-Reviews/2026-10-02-flydubai-dubai-tel-aviv-coverage/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/run.md`
+  - SHA-256: `b4d80ae5a55088d961d179cb373dfa6ab221b9beb8faa5777d14e100587c8ecf`
+  - Payload: `62a5a46a7f563fb332e551b49435699bc46ec7137b0719664eb20a808fcd0b56`; 754 prose words; length exception accepted by user
+  - Next: Proofread revision 2; internal checkpoint
+
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 1; final-review mode
+  - Stage: Creative Edit checked internally
+  - Artifact: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/05-Reviews/2026-10-02-flydubai-dubai-tel-aviv-coverage/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/run.md`
+  - SHA-256: `d2a2c716eede69b31abb6bee3157325e9682b367419bb2ea058725dcf5105df9`
+  - Next: Proofread; internal checkpoint, no human approval
 
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
@@ -905,6 +963,23 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say — revision 2
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; final-review mode
+  - Stage: Proofread; checked internally
+  - Artifact: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/05-Reviews/2026-10-02-flydubai-dubai-tel-aviv-coverage/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/run.md`
+  - SHA-256: `51f69ab6d4cb4775f68e33832085888beeedf442374dc6efddffb3b2a49504a7`
+  - Payload: `62a5a46a7f563fb332e551b49435699bc46ec7137b0719664eb20a808fcd0b56`; 754 prose words; length exception accepted by user
+  - Next: Design revision 2; internal checkpoint
+
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 1; final-review mode
+  - Stage: Proofread checked internally
+  - Artifact: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/05-Reviews/2026-10-02-flydubai-dubai-tel-aviv-coverage/proofread.md`
+  - Run: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/run.md`
+  - SHA-256: `79a8f0f27ff39b382a14c399d31e970938ed6c5ea1daf34f3da2b6919717811e`
+  - Next: Design; internal checkpoint, no human approval
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/05-Reviews/2026-10-01-global-bond-yields-energy-inflation/proofread-revision-2.md`
@@ -1109,6 +1184,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say — revision 2
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; final-review mode
+  - Stage: Design; checked internally
+  - Artifact: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/06-Design/2026-10-02-flydubai-dubai-tel-aviv-coverage/design-revision-2.md`
+  - Run: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/run.md`
+  - SHA-256: `83ab60cbbc27b025e419ad41b3a112882b1b096c65d8da62854f85725ab0d9c6`
+  - Payload: `62a5a46a7f563fb332e551b49435699bc46ec7137b0719664eb20a808fcd0b56`; 754 prose words; length exception accepted by user
+  - Next: Final Approval revision 2; internal checkpoint
+
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 1; final-review mode
+  - Stage: Design checked internally
+  - Artifact: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/06-Design/2026-10-02-flydubai-dubai-tel-aviv-coverage/design.md`
+  - Run: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/01-Ideas/2026-10-02-flydubai-dubai-tel-aviv-coverage/run.md`
+  - SHA-256: `34377c40be6d018444e1fee64999d6d65d3867bde61843753ded31779838d50d`
+  - Next: Final Approval; internal checkpoint, no human approval
 
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
@@ -1337,6 +1429,18 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
+  - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; News
+  - Status: published locally; commit, push/deployment and cleanup authorised; verification pending
+  - Content: `content/news/2026-10-02-flydubai-dubai-tel-aviv-coverage.md`
+  - Archive: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/` (local-only)
+  - Approval: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/07-Approval/2026-10-02-flydubai-dubai-tel-aviv-coverage/approval-revision-2.md`
+  - Payload SHA-256: `62a5a46a7f563fb332e551b49435699bc46ec7137b0719664eb20a808fcd0b56`
+  - Reviewed packet SHA-256: `e2e13725fb09dca8dc017b8cf38bb943548a27a851cdf6e472825425b9b6ab35` (exact preserved packet at archive root)
+  - Decision: “like it. lets commit, push and clean up” (2026-10-02T22:06:51+02:00); accepts disclosed 754-word body.
+  - History: revision 1 superseded by Request changes; both revisions retained.
+  - Limitation: existing shared phone/tablet coffee badge overlap unchanged.
 
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; News
