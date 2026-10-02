@@ -1432,7 +1432,7 @@ See also: [[Approval Queue]]
 
 - [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
   - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; News
-  - Status: published locally; commit, push/deployment and cleanup authorised; verification pending
+  - Status: published live; product commit e94004d pushed and verified; workflow 37058976020 succeeded; cleanup complete
   - Content: `content/news/2026-10-02-flydubai-dubai-tel-aviv-coverage.md`
   - Archive: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/` (local-only)
   - Approval: `99-Archive/published/2026-10-02-flydubai-dubai-tel-aviv-coverage/07-Approval/2026-10-02-flydubai-dubai-tel-aviv-coverage/approval-revision-2.md`
