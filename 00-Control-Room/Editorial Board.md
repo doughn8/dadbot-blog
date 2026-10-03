@@ -1430,6 +1430,16 @@ See also: [[Approval Queue]]
 
 ## Published
 
+- [x] Bitcoin: How Much Control Is Convenience Worth?
+  - Candidate: `2026-10-03-blockchain-beyond-crypto`; approved revision 5; Blog / Tech
+  - Stage: Published locally; commit/push/live verification in progress
+  - Content: `content/posts/2026-10-03-bitcoin-control-convenience.md`
+  - Archive: `99-Archive/published/2026-10-03-blockchain-beyond-crypto`
+  - Approval: `99-Archive/published/2026-10-03-blockchain-beyond-crypto/07-Approval/2026-10-03-blockchain-beyond-crypto/approval-revision-5.md`
+  - Approved payload SHA-256: `64692199ed8e4a1b4bf1093c8cb63c52c44073c12d3ff788831c89338bb2f797`; reviewed packet SHA-256: `a878e2ee5aef9fee9025712cc0ba3c23401f37cb8d39547535c0a1ee18920a3f`
+  - Decision: Sophie approved publication, commit, push and cleanup on 2026-10-03
+  - History: original broad crypto scope and revisions 1–4 retired from active work; history preserved in archive
+
 - [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
   - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; News
   - Status: published live; product commit e94004d pushed and verified; workflow 37058976020 succeeded; cleanup complete

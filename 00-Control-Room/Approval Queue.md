@@ -19,6 +19,25 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Bitcoin: How Much Control Is Convenience Worth?
+
+- Candidate: `2026-10-03-blockchain-beyond-crypto`; approved revision 5; Blog / Tech
+- Status: published locally; commit/push/live verification in progress
+- Content: `content/posts/2026-10-03-bitcoin-control-convenience.md`
+- Route: `/posts/bitcoin-control-convenience/`
+- Archive: `99-Archive/published/2026-10-03-blockchain-beyond-crypto`
+- Approval: `99-Archive/published/2026-10-03-blockchain-beyond-crypto/07-Approval/2026-10-03-blockchain-beyond-crypto/approval-revision-5.md`
+- Run: `99-Archive/published/2026-10-03-blockchain-beyond-crypto/01-Ideas/2026-10-03-blockchain-beyond-crypto/run.md`
+- Approved payload SHA-256: `64692199ed8e4a1b4bf1093c8cb63c52c44073c12d3ff788831c89338bb2f797`
+- Reviewed packet SHA-256: `a878e2ee5aef9fee9025712cc0ba3c23401f37cb8d39547535c0a1ee18920a3f`
+- Decision: Approve; local publication, local commit, origin/main push and task cleanup separately authorised on 2026-10-03
+- Checks: exact approved public copy, 1629 prose words, same title/description/Tech/tags/TL;DR, six-step explanation, no Practical takeaway, no cover or preview-only flags; production build and listing/feed checks passed
+- History: original broad crypto draft never published; all superseded active rows closed and moved into preserved archive history
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
 ### Flydubai Dubai–Tel Aviv Incident: What the Reports Say
   - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; News
   - Status: published live; product commit e94004d pushed and verified; workflow 37058976020 succeeded; cleanup complete
