@@ -1432,7 +1432,7 @@ See also: [[Approval Queue]]
 
 - [x] Bitcoin: How Much Control Is Convenience Worth?
   - Candidate: `2026-10-03-blockchain-beyond-crypto`; approved revision 5; Blog / Tech
-  - Stage: Published locally; commit/push/live verification in progress
+  - Stage: Published live; product commit d6de2c0 pushed and verified; workflow 37143738157 build/deploy succeeded; cleanup complete
   - Content: `content/posts/2026-10-03-bitcoin-control-convenience.md`
   - Archive: `99-Archive/published/2026-10-03-blockchain-beyond-crypto`
   - Approval: `99-Archive/published/2026-10-03-blockchain-beyond-crypto/07-Approval/2026-10-03-blockchain-beyond-crypto/approval-revision-5.md`

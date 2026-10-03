@@ -22,7 +22,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### Bitcoin: How Much Control Is Convenience Worth?
 
 - Candidate: `2026-10-03-blockchain-beyond-crypto`; approved revision 5; Blog / Tech
-- Status: published locally; commit/push/live verification in progress
+- Status: published live; product commit d6de2c0 pushed and verified; workflow 37143738157 build/deploy succeeded; cleanup complete
 - Content: `content/posts/2026-10-03-bitcoin-control-convenience.md`
 - Route: `/posts/bitcoin-control-convenience/`
 - Archive: `99-Archive/published/2026-10-03-blockchain-beyond-crypto`
