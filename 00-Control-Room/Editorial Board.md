@@ -1496,7 +1496,7 @@ See also: [[Approval Queue]]
 
 - [x] Why French pupils are protesting — and what happens next
   - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode; News
-  - Stage: published locally; approved France-only commit/push and cleanup in progress
+  - Stage: Published live; product commit a47dbee pushed and verified; workflow 37375206883 build/deploy succeeded; cleanup complete
   - Content: `content/news/2026-10-05-france-student-protests.md`
   - Route: `/news/france-student-protests-explained/`
   - Archive: `99-Archive/published/2026-10-05-france-student-protests` (local-only)
@@ -1508,7 +1508,7 @@ See also: [[Approval Queue]]
   - Decision: real user Approve / France-only publication, commit, push and cleanup authorised at `2026-10-05T23:08:31.800813+02:00`; Moon excluded
   - Checks: closing stage/hash/YAML audit, exact public payload, sources/TL;DR and release build/browser checks
   - Limitation: existing shared phone/tablet coffee-badge overlap unchanged
-  - Next: verify France release live, then restore Moon locally without pushing it
+  - Next: None for France. Moon explicitly withheld from GitHub/live.
 
 - [x] Bitcoin: How Much Control Is Convenience Worth?
   - Candidate: `2026-10-03-blockchain-beyond-crypto`; approved revision 5; Blog / Tech

@@ -21,7 +21,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### Why French pupils are protesting — and what happens next — revision 1
 
 - Candidate: `2026-10-05-france-student-protests`; revision 1; News; final-review mode
-- Status: published locally; authorised France-only release in progress; Moon excluded
+- Status: Published live; product commit a47dbee pushed and verified; workflow 37375206883 build/deploy succeeded; cleanup complete; Moon excluded
 - Content: `content/news/2026-10-05-france-student-protests.md`
 - Route: `/news/france-student-protests-explained/`
 - Archive: `99-Archive/published/2026-10-05-france-student-protests` (local-only)
@@ -33,7 +33,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Decision: real user “commit, push and clean up. do not push the conspiracy corner artical yet” at `2026-10-05T23:08:31.800813+02:00`; separately approved local-only commit reordering/restoration
 - Checks: full closing audit completed; exact approved article and metadata; cover-free/tag-only; all stages preserved locally
 - Limitation: existing shared phone/tablet coffee badge unchanged
-- Next: verify France-only GitHub/Pages/live release; restore Moon locally without pushing
+- Next: None for France. Moon explicitly withheld from GitHub/live.
 
 - [x] Approve
 - [ ] Request changes
