@@ -8,6 +8,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Why French pupils are protesting — and what happens next
+  - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
+  - Stage: Idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-05-france-student-protests/01-Ideas/2026-10-05-france-student-protests/idea.md`
+  - Run: `99-Archive/published/2026-10-05-france-student-protests/01-Ideas/2026-10-05-france-student-protests/run.md`
+  - SHA-256: `e4a86aa3d40de5e4459b7c10bdb86d6420b8f148983d91c4950cc29245d567d3`
+  - Checks: `99-Archive/published/2026-10-05-france-student-protests/01-Ideas/2026-10-05-france-student-protests/idea-checks.json`
+  - Next: Brief
+
 - [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
   - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 1; final-review mode
   - Stage: Idea checked internally
@@ -178,6 +187,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+- [x] Why French pupils are protesting — and what happens next
+  - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
+  - Stage: Brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-05-france-student-protests/02-Briefs/2026-10-05-france-student-protests/brief.md`
+  - Run: `99-Archive/published/2026-10-05-france-student-protests/01-Ideas/2026-10-05-france-student-protests/run.md`
+  - SHA-256: `eeb323fb00f9886bd3aeb77d49b551966e7b7c7dea20b6b8ebb379e9d58f4519`
+  - Checks: `99-Archive/published/2026-10-05-france-student-protests/02-Briefs/2026-10-05-france-student-protests/brief-checks.json`
+  - Next: SEO
+
 
 - [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
   - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 1; final-review mode
@@ -345,6 +363,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Why French pupils are protesting — and what happens next
+  - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
+  - Stage: SEO checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-05-france-student-protests/03-SEO/2026-10-05-france-student-protests/seo.md`
+  - Run: `99-Archive/published/2026-10-05-france-student-protests/01-Ideas/2026-10-05-france-student-protests/run.md`
+  - SHA-256: `a81c55b997c51deec5b41e35c0ada80d354d0c8604ca02cfa1b8c02dd730c710`
+  - Checks: `99-Archive/published/2026-10-05-france-student-protests/03-SEO/2026-10-05-france-student-protests/seo-checks.json`
+  - Next: Draft
 
 - [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say
   - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 1; final-review mode
@@ -517,6 +544,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Why French pupils are protesting — and what happens next
+  - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
+  - Stage: Draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-05-france-student-protests/04-Drafts/2026-10-05-france-student-protests/draft.md`
+  - Run: `99-Archive/published/2026-10-05-france-student-protests/01-Ideas/2026-10-05-france-student-protests/run.md`
+  - SHA-256: `d89879c81cb8c8dab8b6777cecf9f51f6feaf0572fe785f2542449f614178881`
+  - Checks: `99-Archive/published/2026-10-05-france-student-protests/04-Drafts/2026-10-05-france-student-protests/draft-checks.json`
+  - Next: Creative Edit
 
 - [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say — revision 2
   - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; final-review mode
@@ -734,6 +770,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Why French pupils are protesting — and what happens next
+  - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
+  - Stage: Creative Edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-05-france-student-protests/05-Reviews/2026-10-05-france-student-protests/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-05-france-student-protests/01-Ideas/2026-10-05-france-student-protests/run.md`
+  - SHA-256: `7f3aafa5417b785e5482c4f0ea4646d5e180db8aa15f5d65f2ff45d8f7c7fc5a`
+  - Checks: `99-Archive/published/2026-10-05-france-student-protests/05-Reviews/2026-10-05-france-student-protests/creative-edit-checks.json`
+  - Next: Proofread
 
 - [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say — revision 2
   - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; final-review mode
@@ -962,6 +1007,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Proofreading
+- [x] Why French pupils are protesting — and what happens next
+  - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
+  - Stage: Proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-05-france-student-protests/05-Reviews/2026-10-05-france-student-protests/proofread.md`
+  - Run: `99-Archive/published/2026-10-05-france-student-protests/01-Ideas/2026-10-05-france-student-protests/run.md`
+  - SHA-256: `f0c563aad763842945ed9d97b95e169f20c59284d3ec09afc243e2285e181a70`
+  - Checks: `99-Archive/published/2026-10-05-france-student-protests/05-Reviews/2026-10-05-france-student-protests/proofread-checks.json`
+  - Next: Design
+
 
 - [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say — revision 2
   - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; final-review mode
@@ -1184,6 +1238,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+- [x] Why French pupils are protesting — and what happens next
+  - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
+  - Stage: Design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-05-france-student-protests/06-Design/2026-10-05-france-student-protests/design.md`
+  - Run: `99-Archive/published/2026-10-05-france-student-protests/01-Ideas/2026-10-05-france-student-protests/run.md`
+  - SHA-256: `52b483bae2ddf47a1dc25155bc9026196701e9733159d779e67260de498d5be2`
+  - Checks: `99-Archive/published/2026-10-05-france-student-protests/06-Design/2026-10-05-france-student-protests/design-checks.json`
+  - Next: Final Approval
+
 
 - [x] Flydubai Dubai–Tel Aviv Incident: What the Reports Say — revision 2
   - Candidate: `2026-10-02-flydubai-dubai-tel-aviv-coverage`; revision 2; final-review mode
@@ -1398,6 +1461,7 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Awaiting Approval
 
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
@@ -1429,6 +1493,22 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Why French pupils are protesting — and what happens next
+  - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode; News
+  - Stage: published locally; approved France-only commit/push and cleanup in progress
+  - Content: `content/news/2026-10-05-france-student-protests.md`
+  - Route: `/news/france-student-protests-explained/`
+  - Archive: `99-Archive/published/2026-10-05-france-student-protests` (local-only)
+  - Artifact: `99-Archive/published/2026-10-05-france-student-protests/07-Approval/2026-10-05-france-student-protests/approval.md`
+  - Run: `99-Archive/published/2026-10-05-france-student-protests/01-Ideas/2026-10-05-france-student-protests/run.md`
+  - Approved payload SHA-256: `b9c65eb24d345b838c18af882f9af2cbfb38738b158670f1abb1809cfe84b0a3`
+  - Reviewed packet SHA-256: `88a6d39ea476de40516ff7b79f89b4ab1956c607f9dd55377a4369eba50e7160`
+  - Public file SHA-256: `156af662fe5b16bc797c43f4f8bb0fce055e78b296d5f7bff3aa4255b11fc343`
+  - Decision: real user Approve / France-only publication, commit, push and cleanup authorised at `2026-10-05T23:08:31.800813+02:00`; Moon excluded
+  - Checks: closing stage/hash/YAML audit, exact public payload, sources/TL;DR and release build/browser checks
+  - Limitation: existing shared phone/tablet coffee-badge overlap unchanged
+  - Next: verify France release live, then restore Moon locally without pushing it
 
 - [x] Bitcoin: How Much Control Is Convenience Worth?
   - Candidate: `2026-10-03-blockchain-beyond-crypto`; approved revision 5; Blog / Tech

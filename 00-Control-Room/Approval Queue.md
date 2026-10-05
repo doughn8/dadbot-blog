@@ -16,8 +16,30 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
-
 ## Approved
+
+### Why French pupils are protesting — and what happens next — revision 1
+
+- Candidate: `2026-10-05-france-student-protests`; revision 1; News; final-review mode
+- Status: published locally; authorised France-only release in progress; Moon excluded
+- Content: `content/news/2026-10-05-france-student-protests.md`
+- Route: `/news/france-student-protests-explained/`
+- Archive: `99-Archive/published/2026-10-05-france-student-protests` (local-only)
+- Approval: `99-Archive/published/2026-10-05-france-student-protests/07-Approval/2026-10-05-france-student-protests/approval.md`
+- Run: `99-Archive/published/2026-10-05-france-student-protests/01-Ideas/2026-10-05-france-student-protests/run.md`
+- Approved payload SHA-256: `b9c65eb24d345b838c18af882f9af2cbfb38738b158670f1abb1809cfe84b0a3`
+- Reviewed packet SHA-256: `88a6d39ea476de40516ff7b79f89b4ab1956c607f9dd55377a4369eba50e7160`
+- Public file SHA-256: `156af662fe5b16bc797c43f4f8bb0fce055e78b296d5f7bff3aa4255b11fc343`
+- Decision: real user “commit, push and clean up. do not push the conspiracy corner artical yet” at `2026-10-05T23:08:31.800813+02:00`; separately approved local-only commit reordering/restoration
+- Checks: full closing audit completed; exact approved article and metadata; cover-free/tag-only; all stages preserved locally
+- Limitation: existing shared phone/tablet coffee badge unchanged
+- Next: verify France-only GitHub/Pages/live release; restore Moon locally without pushing
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
 
 ### Bitcoin: How Much Control Is Convenience Worth?
 
