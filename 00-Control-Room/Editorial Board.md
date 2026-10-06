@@ -1649,7 +1649,7 @@ See also: [[Approval Queue]]
 
 - [x] Why the G7 Is Releasing Fuel Reserves — revision 2
   - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; News
-  - Status: published locally; fuel-only commit/push authorised; live verification pending
+  - Status: published live; product commit f97a9ba pushed/verified; workflow 37444963293 build/deploy passed; cleanup complete
   - Content: `content/news/2026-10-06-g7-fuel-reserves-explained.md`
   - Route: `/news/g7-fuel-reserves-explained/`
   - Archive: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu` (local-only)
@@ -1658,10 +1658,11 @@ See also: [[Approval Queue]]
   - Approved payload SHA-256: `329dd2a0b70ad01b5b0e7d07cb25867b91b8f952cd00094de3e8564dd8309dbb`
   - Reviewed packet SHA-256: `a92b4adf2b30fe6c97b1035dce119ed23ec274cd2dfb9280772cb5641c2442cd`
   - Public file SHA-256: `76d0146b91bd86751432ac2b2936bda9322f58839907bc0e38c10d79afe5f84f`
+  - Current decision packet SHA-256: `b8edec6cf958650fe980d076d533ebf992bd8f6281d54c897aa1eef8c49a6d3b`
   - Decision: Approve; 942-word exception accepted; local publication, commit, push and cleanup authorised 2026-10-06T11:38:44.740281+02:00
   - Checks: exact copy; sources/TL;DR/tag-only/cover-free; production and delivery verification in release log
   - Limitations: inherited 320px shell overflow and phone/tablet coffee-badge overlap unchanged
-  - Next: verify exact-SHA deployment/live; restore held Moon unpushed
+  - Next: no fuel editorial work; final records verification and Moon-only local restoration
 
 
 
