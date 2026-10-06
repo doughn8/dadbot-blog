@@ -16,7 +16,32 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
+
 ## Approved
+
+### Why the G7 Is Releasing Fuel Reserves — revision 2
+
+- Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; News
+- Status: published locally; fuel-only commit/push authorised; live verification pending
+- Content: `content/news/2026-10-06-g7-fuel-reserves-explained.md`
+- Route: `/news/g7-fuel-reserves-explained/`
+- Archive: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu` (local-only)
+- Approval: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/07-Approval/2026-10-06-g7-fuel-reserves-us-eu/approval-revision-2.md`
+- Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+- Approved payload SHA-256: `329dd2a0b70ad01b5b0e7d07cb25867b91b8f952cd00094de3e8564dd8309dbb`
+- Reviewed packet SHA-256: `a92b4adf2b30fe6c97b1035dce119ed23ec274cd2dfb9280772cb5641c2442cd`
+- Public file SHA-256: `76d0146b91bd86751432ac2b2936bda9322f58839907bc0e38c10d79afe5f84f`
+- Decision: Approve; 942-word exception accepted; local publication, commit, push and cleanup authorised 2026-10-06T11:38:44.740281+02:00
+- Checks: exact preserved article; cover-free/tag-only; production build and delivery verification in release log
+- Limitations: inherited 320px shell overflow and phone/tablet coffee-badge overlap unchanged
+- Next: verify deployment/live; Moon restored unpushed only
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
 
 ### Why French pupils are protesting — and what happens next — revision 1
 
@@ -618,6 +643,33 @@ Removal note: This is a local content removal, not a GitHub push or live-site de
 ---
 
 ## Revision Needed
+
+### Why the US Wants Europe’s Fuel Reserves — Despite the Tariffs — revision 1 — superseded
+
+- Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 1; News; final-review mode
+- Status: historical; Request changes; revision 2 in preparation
+- Package: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/07-Approval/2026-10-06-g7-fuel-reserves-us-eu/approval.md`
+- Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+- Preview source: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/06-Design/2026-10-06-g7-fuel-reserves-us-eu/preview-source.md`
+- Preview: `http://127.0.0.1:1313/news/g7-fuel-reserves-us-eu-tariffs/?local-review=1`; direct-route-only, isolated full existing-content mirror
+- Preview owner: PID 10342; session proc_587654d3da8c; loopback 1313; root `/home/markhickinson/.cache/dadbot-local-previews/2026-10-06-g7-fuel-reserves-us-eu`
+- Payload SHA-256: `814782794067ea40a1690b62655147b67f37c7f350b4a706dc66cfbad79c18f4`
+- Reviewed packet SHA-256: `34bb3e7531a017e264c774df968a9d6d31b80878c86b1d94bcbbd153c6b97ce1`
+- Preview source SHA-256: `bfc79abb85595d06296280beab1a6d3f98b543c0b4954b859b150d6a67bf63de`
+- Body: 1,145 citation-stripped prose words, excluding title, TL;DR, Sources/caveat and wrappers
+- Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/07-Approval/2026-10-06-g7-fuel-reserves-us-eu/final-approval-checks.json`; all eight contracts, strict evidence, exact quotes, refreshed six-source record, payload equality, isolated/production builds, browser QA and desktop readback
+- Caveats: conditional future effects; no country-by-country schedule/diesel split or documented tariff-for-fuel bargain; existing 320px shell overflow and phone/tablet coffee-badge overlap unchanged
+- Blockers: none article-specific
+- Decision: Request changes at 2026-10-06T10:59:00.305616+02:00
+- Approve: local publication of exact reviewed revision only; no commit, push or deployment
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+
+Historical preview/checks; not a current approval choice. Exact reviewed packet: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/07-Approval/2026-10-06-g7-fuel-reserves-us-eu/approval-revision-1-reviewed.md`; reviewed SHA-256 `34bb3e7531a017e264c774df968a9d6d31b80878c86b1d94bcbbd153c6b97ce1`; decision packet SHA-256 `f6ed7fbfacb57de7cbdba8bd54322a9c3dbe76a061117bcd5d79f121e97ecbf2`.
+
 
 _No revisions requested yet._
 

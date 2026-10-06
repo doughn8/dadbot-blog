@@ -8,6 +8,27 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Why the G7 Is Releasing Fuel Reserves — revision 2
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
+  - Stage: Idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/idea-revision-2.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `7da8946e4640bf84296f832501f024e280139bf38d893253a39d2d94a915841b`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/idea-revision-2-checks.json`
+  - Next: Create and check 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/02-Briefs/2026-10-06-g7-fuel-reserves-us-eu/brief-revision-2.md
+
+
+
+- [x] Why the US Wants Europe’s Fuel Reserves — Despite the Tariffs
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 1; final-review mode
+  - Stage: Idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/idea.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `c47a64f859a234e6d015f8ddf12e4c0f5f3658ff4bbda39f6ec33be1e7a3f3a6`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/idea-checks.json`
+  - Next: Create and check Brief at 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/02-Briefs/2026-10-06-g7-fuel-reserves-us-eu/brief.md
+
+
 - [x] Why French pupils are protesting — and what happens next
   - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
   - Stage: Idea checked internally; not human-approved
@@ -187,6 +208,27 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] Why the G7 Is Releasing Fuel Reserves — revision 2
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
+  - Stage: Brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/02-Briefs/2026-10-06-g7-fuel-reserves-us-eu/brief-revision-2.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `75b59cf4a583263006ced9c737c9021797cce4a17656c5e4d302d911d472e175`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/02-Briefs/2026-10-06-g7-fuel-reserves-us-eu/brief-revision-2-checks.json`
+  - Next: Create and check 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/03-SEO/2026-10-06-g7-fuel-reserves-us-eu/seo-revision-2.md
+
+
+
+- [x] Why the US Wants Europe’s Fuel Reserves — Despite the Tariffs
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 1; final-review mode
+  - Stage: Brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/02-Briefs/2026-10-06-g7-fuel-reserves-us-eu/brief.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `2850c4ab2c10af82191f3263f35301e0c3e15c7cea9cf768a63686e4b85d647c`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/02-Briefs/2026-10-06-g7-fuel-reserves-us-eu/brief-checks.json`
+  - Next: Create and check SEO at 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/03-SEO/2026-10-06-g7-fuel-reserves-us-eu/seo.md
+
 - [x] Why French pupils are protesting — and what happens next
   - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
   - Stage: Brief checked internally; not human-approved
@@ -363,6 +405,27 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Why the G7 Is Releasing Fuel Reserves — revision 2
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
+  - Stage: SEO checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/03-SEO/2026-10-06-g7-fuel-reserves-us-eu/seo-revision-2.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `ccdd2b9f4680a89cc093aacab824fcce95617556504abacc5438dbd46e99c6e2`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/03-SEO/2026-10-06-g7-fuel-reserves-us-eu/seo-revision-2-checks.json`
+  - Next: Create and check 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/04-Drafts/2026-10-06-g7-fuel-reserves-us-eu/draft-revision-2.md
+
+
+
+- [x] Why the US Wants Europe’s Fuel Reserves — Despite the Tariffs
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 1; final-review mode
+  - Stage: SEO checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/03-SEO/2026-10-06-g7-fuel-reserves-us-eu/seo.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `9cf69747f3989fb97e683f6e6e91109e15a550deba25dd23986f39a431dd84c9`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/03-SEO/2026-10-06-g7-fuel-reserves-us-eu/seo-checks.json`
+  - Next: Create and check Draft at 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/04-Drafts/2026-10-06-g7-fuel-reserves-us-eu/draft.md
+
 
 - [x] Why French pupils are protesting — and what happens next
   - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
@@ -544,6 +607,27 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Why the G7 Is Releasing Fuel Reserves — revision 2
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
+  - Stage: Draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/04-Drafts/2026-10-06-g7-fuel-reserves-us-eu/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `d2d04b8d57d68cda5a718d7ea03148895b16c6b1063308e2dd5ce08f80bda704`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/04-Drafts/2026-10-06-g7-fuel-reserves-us-eu/draft-revision-2-checks.json`
+  - Next: Create and check 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/creative-edit-revision-2.md
+
+
+
+- [x] Why the US Wants Europe’s Fuel Reserves — Despite the Tariffs
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 1; final-review mode
+  - Stage: Draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/04-Drafts/2026-10-06-g7-fuel-reserves-us-eu/draft.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `cf202e08e38c7a82dc8fec5a789fd03a9e9c300b1a764174bfaa70c506ad7d4c`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/04-Drafts/2026-10-06-g7-fuel-reserves-us-eu/draft-checks.json`
+  - Next: Create and check Creative Edit at 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/creative-edit.md
+
 
 - [x] Why French pupils are protesting — and what happens next
   - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
@@ -770,6 +854,27 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Why the G7 Is Releasing Fuel Reserves — revision 2
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
+  - Stage: Creative Edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `a81d377dd2b5981e8a1d62127efaee6da8e1f1ccda101b1a3ffa646792918d68`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/creative-edit-revision-2-checks.json`
+  - Next: Create and check 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/proofread-revision-2.md
+
+
+
+- [x] Why the US Wants Europe’s Fuel Reserves — Despite the Tariffs
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 1; final-review mode
+  - Stage: Creative Edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `5656c736521fdd5d801fa8d5d4e778f750837cb1e34bd32d55ff11ddb45a452f`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/creative-edit-checks.json`
+  - Next: Create and check Proofread at 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/proofread.md
+
 
 - [x] Why French pupils are protesting — and what happens next
   - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
@@ -1007,6 +1112,27 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Proofreading
+
+- [x] Why the G7 Is Releasing Fuel Reserves — revision 2
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
+  - Stage: Proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `ad89f24260ae7bd85834c71b3ce4e109dc0299b21cde23e481dea1177eed998e`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/proofread-revision-2-checks.json`
+  - Next: Create and check 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/06-Design/2026-10-06-g7-fuel-reserves-us-eu/design-revision-2.md
+
+
+
+- [x] Why the US Wants Europe’s Fuel Reserves — Despite the Tariffs
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 1; final-review mode
+  - Stage: Proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/proofread.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `60bde95d179a417340f442fb69613228adae51da5886d410dd274b57c61cb730`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/05-Reviews/2026-10-06-g7-fuel-reserves-us-eu/proofread-checks.json`
+  - Next: Create and check Design at 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/06-Design/2026-10-06-g7-fuel-reserves-us-eu/design.md
+
 - [x] Why French pupils are protesting — and what happens next
   - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
   - Stage: Proofread checked internally; not human-approved
@@ -1238,6 +1364,27 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Why the G7 Is Releasing Fuel Reserves — revision 2
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
+  - Stage: Design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/06-Design/2026-10-06-g7-fuel-reserves-us-eu/design-revision-2.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `dd822016cdd104c89233a8f4bc574cac4eec7583e0856c3bbb0759ac46fe9bf9`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/06-Design/2026-10-06-g7-fuel-reserves-us-eu/design-revision-2-checks.json`
+  - Next: Create and check 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/07-Approval/2026-10-06-g7-fuel-reserves-us-eu/approval-revision-2.md
+
+
+
+- [x] Why the US Wants Europe’s Fuel Reserves — Despite the Tariffs
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 1; final-review mode
+  - Stage: Design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/06-Design/2026-10-06-g7-fuel-reserves-us-eu/design.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - SHA-256: `06594f248a4bf7a4365e22ea36378abed97792de95fc00c2f4ab0f3ae5c0d88d`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/06-Design/2026-10-06-g7-fuel-reserves-us-eu/design-checks.json`
+  - Next: Create and check Final Approval at 99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/07-Approval/2026-10-06-g7-fuel-reserves-us-eu/approval.md
+
 - [x] Why French pupils are protesting — and what happens next
   - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode
   - Stage: Design checked internally; not human-approved
@@ -1462,6 +1609,12 @@ A simple Obsidian board for tracking Dadbot work.
 ## Awaiting Approval
 
 
+
+
+
+
+
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
@@ -1493,6 +1646,24 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Why the G7 Is Releasing Fuel Reserves — revision 2
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; News
+  - Status: published locally; fuel-only commit/push authorised; live verification pending
+  - Content: `content/news/2026-10-06-g7-fuel-reserves-explained.md`
+  - Route: `/news/g7-fuel-reserves-explained/`
+  - Archive: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu` (local-only)
+  - Approval: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/07-Approval/2026-10-06-g7-fuel-reserves-us-eu/approval-revision-2.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - Approved payload SHA-256: `329dd2a0b70ad01b5b0e7d07cb25867b91b8f952cd00094de3e8564dd8309dbb`
+  - Reviewed packet SHA-256: `a92b4adf2b30fe6c97b1035dce119ed23ec274cd2dfb9280772cb5641c2442cd`
+  - Public file SHA-256: `76d0146b91bd86751432ac2b2936bda9322f58839907bc0e38c10d79afe5f84f`
+  - Decision: Approve; 942-word exception accepted; local publication, commit, push and cleanup authorised 2026-10-06T11:38:44.740281+02:00
+  - Checks: exact copy; sources/TL;DR/tag-only/cover-free; production and delivery verification in release log
+  - Limitations: inherited 320px shell overflow and phone/tablet coffee-badge overlap unchanged
+  - Next: verify exact-SHA deployment/live; restore held Moon unpushed
+
+
 
 - [x] Why French pupils are protesting — and what happens next
   - Candidate: `2026-10-05-france-student-protests`; revision 1; final-review mode; News
@@ -1794,4 +1965,22 @@ _Content sent back for changes._
   Editorial archive: `99-Archive/abandoned/2026-06-14-nasa-artemis-iii-crew/`  
   Former approval folder archived at: `99-Archive/abandoned/2026-06-14-nasa-artemis-iii-crew/07-Approval/`  
   Decision: Sophie discarded on 2026-07-08. Not published; no `content/news/` article created.
+
+- [x] Why the US Wants Europe’s Fuel Reserves — Despite the Tariffs — revision 1 superseded
+  - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 1; final-review mode
+  - Stage: Historical; Request changes; superseded by revision 2
+  - Artifact: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/07-Approval/2026-10-06-g7-fuel-reserves-us-eu/approval.md`
+  - Run: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/01-Ideas/2026-10-06-g7-fuel-reserves-us-eu/run.md`
+  - Payload SHA-256: `814782794067ea40a1690b62655147b67f37c7f350b4a706dc66cfbad79c18f4`
+  - Packet SHA-256: `34bb3e7531a017e264c774df968a9d6d31b80878c86b1d94bcbbd153c6b97ce1`
+  - Preview source SHA-256: `bfc79abb85595d06296280beab1a6d3f98b543c0b4954b859b150d6a67bf63de`
+  - Preview: `http://127.0.0.1:1313/news/g7-fuel-reserves-us-eu-tariffs/?local-review=1`; direct-route-only isolated full-site mirror
+  - Owner: PID 10342; session proc_587654d3da8c; loopback 1313; root `/home/markhickinson/.cache/dadbot-local-previews/2026-10-06-g7-fuel-reserves-us-eu`
+  - Checks: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/07-Approval/2026-10-06-g7-fuel-reserves-us-eu/final-approval-checks.json`; eight contracts, strict evidence, final refresh, payload equality, isolated/production builds, real-browser and desktop readback
+  - Caveats: conditional consequences; no documented tariff-for-fuel bargain; inherited 320px shell overflow and phone/tablet coffee-badge overlap
+  - Blockers: none article-specific
+  - Decision: Request changes at 2026-10-06T10:59:00.305616+02:00
+  - Next: revision 2; previous preview/checks historical; no publication authority
+  - Exact reviewed packet: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/07-Approval/2026-10-06-g7-fuel-reserves-us-eu/approval-revision-1-reviewed.md`; reviewed hash `34bb3e7531a017e264c774df968a9d6d31b80878c86b1d94bcbbd153c6b97ce1`; decision packet hash `f6ed7fbfacb57de7cbdba8bd54322a9c3dbe76a061117bcd5d79f121e97ecbf2`
+
 
