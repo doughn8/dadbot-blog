@@ -1760,7 +1760,7 @@ See also: [[Approval Queue]]
 
 - [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
   - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; News
-  - Status: published locally; Nobel-only commit/push and cleanup authorised; deployment verification pending
+  - Status: published live; Nobel-only product release verified; complete workflow archived locally
   - Content: `content/news/2026-10-07-nobel-chemistry-mirror-molecules.md`
   - Route: `/news/nobel-chemistry-2026-mirror-molecules/`
   - Archive: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules` (local-only)
@@ -1772,7 +1772,10 @@ See also: [[Approval Queue]]
   - Decision: Approve at 2026-10-07T22:29:46.607765+02:00; “great, commit, push and clean up”; Moon explicitly excluded
   - Checks: exact preserved public copy; production Hugo build; cover-free/tag-only/single TL;DR; homepage and News listing present
   - Limitation: shared phone/tablet coffee-badge obstruction unchanged
-  - Next: verify local route, archive, Nobel-only GitHub/Pages release, restore held Moon locally
+  - Next: verify follow-up records HEAD deployment, then restore held Moon locally unpushed; final readbacks remain in local archive  - Product commit: `7e6bb42294e73ecfc3b0c96547313704c4f5501e`; Pages run `37683545380`, build/deploy successful
+  - Live verified: homepage, News listing and exact approved article; seven source labels/URLs; one title/TL;DR; 2026-10-07T22:42:54+02:00
+  - Cleanup: complete stage/evidence archive preserved; isolated review root removed; normal checkout local preview available; QA browser stopped
+
 
 - [x] Why the G7 Is Releasing Fuel Reserves — revision 2
   - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; News
