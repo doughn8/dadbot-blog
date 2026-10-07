@@ -8,6 +8,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Chemistry Nobel honours research into molecular mirror images
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
+  - Stage: Idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/idea.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - SHA-256: `736cfaa8141fd1e700a9677b003cc54b20b16cef186b98ff4c9efa9b044ffd8c`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/idea-checks.json`
+  - Next: Create and verify Brief at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/02-Briefs/2026-10-07-nobel-chemistry-mirror-molecules/brief.md
+
 - [x] Why the G7 Is Releasing Fuel Reserves — revision 2
   - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
   - Stage: Idea checked internally; not human-approved
@@ -209,6 +218,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Chemistry Nobel honours research into molecular mirror images
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
+  - Stage: Brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/02-Briefs/2026-10-07-nobel-chemistry-mirror-molecules/brief.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - SHA-256: `9d5c4fe59a68c4f39a6bb12485028088cc57296436e8f2ffc9b1f0a6313c4e9f`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/02-Briefs/2026-10-07-nobel-chemistry-mirror-molecules/brief-checks.json`
+  - Next: Create and verify SEO at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/03-SEO/2026-10-07-nobel-chemistry-mirror-molecules/seo.md
+
 - [x] Why the G7 Is Releasing Fuel Reserves — revision 2
   - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
   - Stage: Brief checked internally; not human-approved
@@ -405,6 +423,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; final-review mode
+  - Status: checked — internal checkpoint; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/03-SEO/2026-10-07-nobel-chemistry-mirror-molecules/seo-revision-2.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/03-SEO/2026-10-07-nobel-chemistry-mirror-molecules/seo-revision-2-checks.json`
+  - SHA-256: `0d5ecda20119eb174fc2ca53a374d87a298caedbd9165e392945978b94d85b9a`
+  - Next: Complete Draft revision 2 at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/04-Drafts/2026-10-07-nobel-chemistry-mirror-molecules/draft-revision-2.md
+
+- [x] Chemistry Nobel honours research into molecular mirror images
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
+  - Stage: SEO checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/03-SEO/2026-10-07-nobel-chemistry-mirror-molecules/seo.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - SHA-256: `c33f36ed1d2a27b0ff120538aa37ead0766c3e7628b3a58680999e5a798f4f42`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/03-SEO/2026-10-07-nobel-chemistry-mirror-molecules/seo-checks.json`
+  - Next: Create and verify Draft at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/04-Drafts/2026-10-07-nobel-chemistry-mirror-molecules/draft.md
 
 - [x] Why the G7 Is Releasing Fuel Reserves — revision 2
   - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
@@ -607,6 +643,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; final-review mode
+  - Status: checked — internal checkpoint; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/04-Drafts/2026-10-07-nobel-chemistry-mirror-molecules/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/04-Drafts/2026-10-07-nobel-chemistry-mirror-molecules/draft-revision-2-checks.json`
+  - SHA-256: `a71456c9f987c5572b5527df0af7336c7fe5411fc677c1772c5e9698218f55fb`
+  - Next: Complete Creative Edit revision 2 at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/creative-edit-revision-2.md
+
+- [x] Chemistry Nobel honours research into molecular mirror images
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
+  - Stage: Draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/04-Drafts/2026-10-07-nobel-chemistry-mirror-molecules/draft.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - SHA-256: `cb6514b6dc0e130f5c434e40a4ac2fddb9413fa8fa56d4928b4c19b74d8bc969`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/04-Drafts/2026-10-07-nobel-chemistry-mirror-molecules/draft-checks.json`
+  - Next: Create and verify Creative Edit at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/creative-edit.md
 
 - [x] Why the G7 Is Releasing Fuel Reserves — revision 2
   - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
@@ -854,6 +908,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; final-review mode
+  - Status: checked — internal checkpoint; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/creative-edit-revision-2-checks.json`
+  - SHA-256: `7830649f32b67835eec84712b9d0451118bfc7c1a10b0551e9fdf0907bfd2282`
+  - Next: Complete Proofread revision 2 at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/proofread-revision-2.md
+
+- [x] Chemistry Nobel honours research into molecular mirror images
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
+  - Stage: Creative Edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - SHA-256: `0d13a4193fd07f9137f7a3837e20e2a627bc80e07fd449333d2e48701cd6a04a`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/creative-edit-checks.json`
+  - Next: Create and verify Proofread at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/proofread.md
 
 - [x] Why the G7 Is Releasing Fuel Reserves — revision 2
   - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
@@ -1113,6 +1185,24 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; final-review mode
+  - Status: checked — internal checkpoint; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/proofread-revision-2-checks.json`
+  - SHA-256: `df03c9e8e5a85816a4c39899af10dc832f204079e5e5ff7e09443408952ddeac`
+  - Next: Complete Design revision 2 at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/06-Design/2026-10-07-nobel-chemistry-mirror-molecules/design-revision-2.md
+
+- [x] Chemistry Nobel honours research into molecular mirror images
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
+  - Stage: Proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/proofread.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - SHA-256: `3835980fe431cf23afdbed87cd92d138d008aeaff505eb0e72e590ee02d6defd`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/05-Reviews/2026-10-07-nobel-chemistry-mirror-molecules/proofread-checks.json`
+  - Next: Create and verify Design at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/06-Design/2026-10-07-nobel-chemistry-mirror-molecules/design.md
+
 - [x] Why the G7 Is Releasing Fuel Reserves — revision 2
   - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
   - Stage: Proofread checked internally; not human-approved
@@ -1365,6 +1455,24 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Design
 
+- [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; final-review mode
+  - Status: checked — internal checkpoint; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/06-Design/2026-10-07-nobel-chemistry-mirror-molecules/design-revision-2.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/06-Design/2026-10-07-nobel-chemistry-mirror-molecules/design-revision-2-checks.json`
+  - SHA-256: `3702ccc384d32bd15041a6b0f0d4b8574d50c99a9444b45a4f0169643635a08d`
+  - Next: Complete Final Approval revision 2 at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/07-Approval/2026-10-07-nobel-chemistry-mirror-molecules/approval-revision-2.md
+
+- [x] Chemistry Nobel honours research into molecular mirror images
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
+  - Stage: Design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/06-Design/2026-10-07-nobel-chemistry-mirror-molecules/design.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - SHA-256: `6d499802bf7b12dd5177805991dada3161873b4792d5ce098c64b6651b867cd3`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/06-Design/2026-10-07-nobel-chemistry-mirror-molecules/design-checks.json`
+  - Next: Create and verify Final Approval at 99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/07-Approval/2026-10-07-nobel-chemistry-mirror-molecules/approval.md
+
 - [x] Why the G7 Is Releasing Fuel Reserves — revision 2
   - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; final-review mode
   - Stage: Design checked internally; not human-approved
@@ -1615,6 +1723,9 @@ A simple Obsidian board for tracking Dadbot work.
 
 
 
+
+
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
@@ -1646,6 +1757,22 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; News
+  - Status: published locally; Nobel-only commit/push and cleanup authorised; deployment verification pending
+  - Content: `content/news/2026-10-07-nobel-chemistry-mirror-molecules.md`
+  - Route: `/news/nobel-chemistry-2026-mirror-molecules/`
+  - Archive: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules` (local-only)
+  - Approval: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/07-Approval/2026-10-07-nobel-chemistry-mirror-molecules/approval-revision-2.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - Approved payload SHA-256: `11487ae92e5dd43980bff5de6c5bad82cfe698c8f143004c6b4685d2500cc3cb`
+  - Reviewed packet SHA-256: `a7cbf633a9e08eb89c264388d223754c840ab6534c9fdfdbc261ee6b3072af0e`
+  - Public file SHA-256: `744b49b2ebea4b58a7bf0c0ffb80823f10efa6fd1e41e168adda1f4a6a9fc7d3`
+  - Decision: Approve at 2026-10-07T22:29:46.607765+02:00; “great, commit, push and clean up”; Moon explicitly excluded
+  - Checks: exact preserved public copy; production Hugo build; cover-free/tag-only/single TL;DR; homepage and News listing present
+  - Limitation: shared phone/tablet coffee-badge obstruction unchanged
+  - Next: verify local route, archive, Nobel-only GitHub/Pages release, restore held Moon locally
 
 - [x] Why the G7 Is Releasing Fuel Reserves — revision 2
   - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; News
@@ -1935,6 +2062,23 @@ _Approved content moved into `content/`; completed editorial history moved into 
 ---
 
 ## Revision Needed
+
+- [x] Chemistry Nobel honours research into molecular mirror images
+  - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
+  - Stage: Historical Final Approval; Request changes; superseded
+  - Artifact: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/07-Approval/2026-10-07-nobel-chemistry-mirror-molecules/approval.md`
+  - Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+  - SHA-256: `62224d4ed71402c843e2ee26d2f480d3ce8950bcd5a2f6922b94d1384e5ea838`
+  - Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/07-Approval/2026-10-07-nobel-chemistry-mirror-molecules/final-approval-checks.json`
+  - Complete packet SHA-256: `62224d4ed71402c843e2ee26d2f480d3ce8950bcd5a2f6922b94d1384e5ea838`
+  - Article payload SHA-256: `862b2bd10c4bfe01a9251eaf6d2f2b7a2e46a4e9b456d440708fbaded5a48e6d`
+  - Preview: http://localhost:1313/news/nobel-chemistry-2026-mirror-molecules/?local-review=1; direct-route-only, isolated full-content mirror
+  - Preview root / owner: `/home/markhickinson/.cache/dadbot-local-previews/2026-10-07-nobel-chemistry-mirror-molecules`; PID 15258; session proc_d71d22a99606
+  - Final choices: Approve / Request changes / Reject / Hold; Approve = local publication only
+  - Known limitation: existing coffee badge obscures phone/tablet text; no shared-design change
+  - Next: Present final packet and isolated preview; await Approve / Request changes / Reject / Hold.
+  - Superseded: Request changes at 2026-10-07T21:53:44.161985+02:00; all revision-1 checks and preview historical
+  - Current decision packet SHA-256: `3955969d2a8eda63a21176cf157abff823389a4d9ebd4c095af6808cae0d1d58`
 
 _Content sent back for changes._
 

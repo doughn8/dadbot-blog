@@ -19,6 +19,28 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
+
+- Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; News
+- Status: published locally; Nobel-only commit/push and cleanup authorised; deployment verification pending
+- Content: `content/news/2026-10-07-nobel-chemistry-mirror-molecules.md`
+- Route: `/news/nobel-chemistry-2026-mirror-molecules/`
+- Archive: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules` (local-only)
+- Approval: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/07-Approval/2026-10-07-nobel-chemistry-mirror-molecules/approval-revision-2.md`
+- Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+- Approved payload SHA-256: `11487ae92e5dd43980bff5de6c5bad82cfe698c8f143004c6b4685d2500cc3cb`
+- Reviewed packet SHA-256: `a7cbf633a9e08eb89c264388d223754c840ab6534c9fdfdbc261ee6b3072af0e`
+- Public file SHA-256: `744b49b2ebea4b58a7bf0c0ffb80823f10efa6fd1e41e168adda1f4a6a9fc7d3`
+- Decision: Approve at 2026-10-07T22:29:46.607765+02:00; “great, commit, push and clean up”; Moon explicitly excluded
+- Checks: exact preserved public copy; production Hugo build; cover-free/tag-only/single TL;DR; homepage and News listing present
+- Limitation: shared phone/tablet coffee-badge obstruction unchanged
+- Next: verify local route, archive, Nobel-only GitHub/Pages release, restore held Moon locally
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
 ### Why the G7 Is Releasing Fuel Reserves — revision 2
 
 - Candidate: `2026-10-06-g7-fuel-reserves-us-eu`; revision 2; News
@@ -644,6 +666,32 @@ Removal note: This is a local content removal, not a GitHub push or live-site de
 ---
 
 ## Revision Needed
+
+### Chemistry Nobel honours research into molecular mirror images — revision 1 — superseded
+
+- Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; News; final-review mode
+- Status: historical; Request changes; superseded by approved revision 2
+- Package: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/07-Approval/2026-10-07-nobel-chemistry-mirror-molecules/approval.md`
+- Run: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/01-Ideas/2026-10-07-nobel-chemistry-mirror-molecules/run.md`
+- Preview source: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/06-Design/2026-10-07-nobel-chemistry-mirror-molecules/preview-source.md`
+- Preview: http://localhost:1313/news/nobel-chemistry-2026-mirror-molecules/?local-review=1; direct-route-only; full existing-content mirror
+- Preview root / owner: `/home/markhickinson/.cache/dadbot-local-previews/2026-10-07-nobel-chemistry-mirror-molecules`; PID 15258; session proc_d71d22a99606; loopback 1313
+- Article payload SHA-256: `862b2bd10c4bfe01a9251eaf6d2f2b7a2e46a4e9b456d440708fbaded5a48e6d`
+- Reviewed complete packet SHA-256: `62224d4ed71402c843e2ee26d2f480d3ce8950bcd5a2f6922b94d1384e5ea838`
+- Preview source SHA-256: `27e27584b56158890e32d782a077c08342e09d86aa25ecc0459211f52d147d15`
+- Body: 1059 citation-stripped prose words; Hugo full-page 1189 words / 6 minutes
+- Checks: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/07-Approval/2026-10-07-nobel-chemistry-mirror-molecules/final-approval-checks.json`; eight contracts, strict evidence, seven exact quotes, source refresh, payload equality, isolated/normal builds, no-leak/content preservation, 14-width browser geometry, sibling parity, keyboard/source links and desktop-pane current-copy readback
+- Caveats: original abstract/Nature sign-in boundary; Nobel documents one evidence chain; unresolved origin-of-life history; existing coffee badge obscures some phone/tablet text
+- Blockers: none article-specific; shared small-screen defect disclosed, not repaired
+- Decision: Request changes at 2026-10-07T21:53:44.161985+02:00
+- Approve: exact reviewed local publication only; no commit, push or deployment
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+
+Historical revision-1 preview/checks only. Exact reviewed packet: `99-Archive/published/2026-10-07-nobel-chemistry-mirror-molecules/07-Approval/2026-10-07-nobel-chemistry-mirror-molecules/approval-revision-1-reviewed.md`. Current decision packet SHA-256: `3955969d2a8eda63a21176cf157abff823389a4d9ebd4c095af6808cae0d1d58`.
 
 ### Why the US Wants Europe’s Fuel Reserves — Despite the Tariffs — revision 1 — superseded
 
