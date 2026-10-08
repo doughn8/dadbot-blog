@@ -23,7 +23,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 - Candidate: `2026-10-08-life-beneath-antarctic-ice`; revision 3; News; workflow_mode final-review
 - Decision: Approve — user explicitly approved Antarctic-only release, publication, commit, push and cleanup; 909-word length exception accepted
-- Status: published locally; commit/push approved; deployment pending
+- Status: published live; product `6ae615049d16288fbe274b716f37a7288e4d286a` pushed; Pages build/deploy `37845690755` succeeded
 - Public article: `content/news/2026-10-08-life-beneath-antarctic-ice.md`
 - Package: `99-Archive/published/2026-10-08-life-beneath-antarctic-ice/07-Approval/approval-revision-3.md`
 - Run: `99-Archive/published/2026-10-08-life-beneath-antarctic-ice/01-Ideas/run.md`
@@ -34,7 +34,9 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Checks: exact approved payload, clean frontmatter, full production build, homepage/News/route presence, excluded Moon route absent; source/QA evidence in archive
 - Caveats: scientific uncertainties retained; existing 320px overflow and mobile coffee-badge obstruction unchanged
 - Scope boundary: Moon remains local-only; release excludes its commit/file/control delta
-- Next: verify pushed SHA and deployment, then final live readback/cleanup
+- Release verification: exact public production payload and eight source links match live article; homepage/News/route 200; excluded Moon 404
+- Cleanup: stages/evidence archived; owned preview server and QA browser stopped; disposable preview/cache removed
+- Final record-only commit deployment verification and held-work restoration: retained in local archive; no further Antarctic editorial action
 
 ### Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
 

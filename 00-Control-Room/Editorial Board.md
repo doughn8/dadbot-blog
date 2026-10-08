@@ -1760,14 +1760,15 @@ See also: [[Approval Queue]]
 
 - [x] Life beneath Antarctic ice: what scientists have found
   - Candidate: `2026-10-08-life-beneath-antarctic-ice`; revision 3; final-review mode; News
-  - Stage: Published locally; approved for Antarctic-only commit/push; deployment pending
+  - Stage: Published live; product `6ae615049d16288fbe274b716f37a7288e4d286a`; Pages build/deploy `37845690755` succeeded
   - Article: `content/news/2026-10-08-life-beneath-antarctic-ice.md`
   - Archive: `99-Archive/published/2026-10-08-life-beneath-antarctic-ice`; all eight editorial stages retained
   - Approval: `99-Archive/published/2026-10-08-life-beneath-antarctic-ice/07-Approval/approval-revision-3.md`; user approved 909-word revision 3
   - Run: `99-Archive/published/2026-10-08-life-beneath-antarctic-ice/01-Ideas/run.md`
   - Reviewed packet SHA-256: `066ca0a0c820948e5dd3a1f16af83598fc0cb22dd3e22e203ae1de32b293821b`; payload SHA-256: `62f1f31c99a89330e0159b34cb49b1565d63ad009dffb31c09de527af7feae09`
-  - Scope: Antarctic only; held Moon article excluded, preserved for local restoration
-  - Next: verify exact-SHA deployment and live content, then clean task-owned preview
+  - Scope: Antarctic only; held Moon article excluded and remains local-only; verified recovery backup retained
+  - Verification: homepage, News and canonical route HTTP 200; exact production body and all eight Sources match; Moon route HTTP 404
+  - Cleanup: full workflow/evidence archived; task preview stopped and disposable mirrors removed; final record-only HEAD verification stays in local archive
 
 - [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
   - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; News
