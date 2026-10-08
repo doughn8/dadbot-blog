@@ -19,6 +19,23 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Life beneath Antarctic ice: what scientists have found — revision 3
+
+- Candidate: `2026-10-08-life-beneath-antarctic-ice`; revision 3; News; workflow_mode final-review
+- Decision: Approve — user explicitly approved Antarctic-only release, publication, commit, push and cleanup; 909-word length exception accepted
+- Status: published locally; commit/push approved; deployment pending
+- Public article: `content/news/2026-10-08-life-beneath-antarctic-ice.md`
+- Package: `99-Archive/published/2026-10-08-life-beneath-antarctic-ice/07-Approval/approval-revision-3.md`
+- Run: `99-Archive/published/2026-10-08-life-beneath-antarctic-ice/01-Ideas/run.md`
+- Archive: `99-Archive/published/2026-10-08-life-beneath-antarctic-ice`; complete stages, source evidence, prior reviewed packets and QA preserved locally
+- Reviewed packet SHA-256: `066ca0a0c820948e5dd3a1f16af83598fc0cb22dd3e22e203ae1de32b293821b`
+- Article payload SHA-256: `62f1f31c99a89330e0159b34cb49b1565d63ad009dffb31c09de527af7feae09`
+- Body: 909 citation-stripped words; accepted below-target length; What we know so far section removed
+- Checks: exact approved payload, clean frontmatter, full production build, homepage/News/route presence, excluded Moon route absent; source/QA evidence in archive
+- Caveats: scientific uncertainties retained; existing 320px overflow and mobile coffee-badge obstruction unchanged
+- Scope boundary: Moon remains local-only; release excludes its commit/file/control delta
+- Next: verify pushed SHA and deployment, then final live readback/cleanup
+
 ### Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
 
 - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; News
