@@ -35,7 +35,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Live: `https://dadbot.blog/news/eu-chinese-hybrid-import-quota/`; exact article/homepage/News verified; local preview intentionally stopped
 - Limits: inherited badge obstruction and 320px shell overflow; Automotive World refresh 403, historical direct evidence and current Guardian corroboration retained
 - Cleanup: full stage/source/QA archive preserved; owned previews and QA stopped; exact task cache removed; held Moon Git/file/control backup retained; Moon excluded from deployments
-- Next: verify final records deployment, then restore held Moon locally without pushing; no further hybrid editorial work
+- Next: no further hybrid editorial work; final-HEAD release checks retained in local archive; Moon excluded and local-only
 
 - [x] Approve
 - [ ] Request changes

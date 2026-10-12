@@ -1837,7 +1837,7 @@ See also: [[Approval Queue]]
   - Release permissions: hybrid-only commit/push and task cleanup authorised; Moon excluded
   - GitHub / Live: product `2d12f3873b93132ec473d52c37b7b03192e32260` pushed; Pages run `38306947655` build/deploy passed; exact live content verified; archive local-only
   - Cleanup: complete stage/evidence archive retained; exact task preview cache removed; held Moon backup retained and excluded from all deployments
-  - Next: final records deployment verification and local-only held-work restoration
+  - Next: no further hybrid editorial work; final-HEAD release checks retained in local archive; Moon excluded and local-only
 
 - [x] Life beneath Antarctic ice: what scientists have found
   - Candidate: `2026-10-08-life-beneath-antarctic-ice`; revision 3; final-review mode; News
