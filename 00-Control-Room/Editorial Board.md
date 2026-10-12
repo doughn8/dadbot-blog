@@ -1823,7 +1823,7 @@ See also: [[Approval Queue]]
 
 - [x] Why the EU is limiting Chinese hybrid car imports
   - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; News; workflow_mode final-review
-  - Status: published locally; user Approve at `2026-10-12T22:27:42.768539+02:00`
+  - Status: published live; user Approve at `2026-10-12T22:27:42.768539+02:00`
   - Content: `content/news/2026-10-12-eu-chinese-hybrid-import-quota.md`
   - Archive: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota`; complete 142-file movement snapshot preserved
   - Approval: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/07-Approval/2026-10-12-eu-chinese-hybrid-import-quota/approval.md`
@@ -1832,11 +1832,12 @@ See also: [[Approval Queue]]
   - Current decision packet SHA-256: `5aae3b18a5916adf314e8c86181f5e633d7ca1aa40d44fdfb331cfbdad15d889`
   - Approved payload SHA-256: `a470b4e192aaece1044494a0982821ab4c33ad851f0ddfd1eb6c3ae2f8236170`; public file `19b7f45da93dd5cfca44e707c0706e62aa742ddecac16bb00135ace8b223881f`
   - Checks: normal production build; homepage/News/article HTTP 200; exact rendered copy and nine source links; geometric checks at 390/768/1280
-  - Preview: `http://127.0.0.1:1313/news/eu-chinese-hybrid-import-quota/?published=1`; normal checkout server PID 17824 / proc_820ba0e8e0a7
+  - Live: `https://dadbot.blog/news/eu-chinese-hybrid-import-quota/`; normal local preview intentionally stopped and task cache removed
   - Limits: inherited badge obstruction and 320px shell overflow; secondary Automotive World refresh 403, prior verified report retained with current corroboration
   - Release permissions: hybrid-only commit/push and task cleanup authorised; Moon excluded
-  - GitHub / Live: release in progress, not yet verified live; archive local-only
-  - Next: separate commit/release instruction only if requested
+  - GitHub / Live: product `2d12f3873b93132ec473d52c37b7b03192e32260` pushed; Pages run `38306947655` build/deploy passed; exact live content verified; archive local-only
+  - Cleanup: complete stage/evidence archive retained; exact task preview cache removed; held Moon backup retained and excluded from all deployments
+  - Next: final records deployment verification and local-only held-work restoration
 
 - [x] Life beneath Antarctic ice: what scientists have found
   - Candidate: `2026-10-08-life-beneath-antarctic-ice`; revision 3; final-review mode; News

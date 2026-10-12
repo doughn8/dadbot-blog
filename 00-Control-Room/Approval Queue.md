@@ -22,7 +22,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; News; workflow_mode final-review
 - Decision: Approve — user “approve” at `2026-10-12T22:27:42.768539+02:00`; local publication only
-- Status: published locally; hybrid-only commit/push and task cleanup authorised; release verification pending
+- Status: published live; hybrid-only product `2d12f3873b93132ec473d52c37b7b03192e32260` pushed; Pages run `38306947655` build/deploy passed
 - Content: `content/news/2026-10-12-eu-chinese-hybrid-import-quota.md`
 - Archive: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota`; all discovered stage/evidence files moved and byte-verified
 - Package: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/07-Approval/2026-10-12-eu-chinese-hybrid-import-quota/approval.md`
@@ -32,10 +32,10 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Approved payload SHA-256: `a470b4e192aaece1044494a0982821ab4c33ad851f0ddfd1eb6c3ae2f8236170`; public file SHA-256 `19b7f45da93dd5cfca44e707c0706e62aa742ddecac16bb00135ace8b223881f`
 - Body: 1,080 prose words; no exception; same approved title/description/tags/TL;DR; News cover-free
 - Verification: normal production build, homepage/News/article HTTP 200, exact body HTML and nine Sources preserved; normal local site browser checks passed geometric scope
-- Preview: `http://127.0.0.1:1313/news/eu-chinese-hybrid-import-quota/?published=1`; normal checkout server PID 17824 / proc_820ba0e8e0a7
+- Live: `https://dadbot.blog/news/eu-chinese-hybrid-import-quota/`; exact article/homepage/News verified; local preview intentionally stopped
 - Limits: inherited badge obstruction and 320px shell overflow; Automotive World refresh 403, historical direct evidence and current Guardian corroboration retained
-- Cleanup: active stage bundles archived; isolated review server stopped, normal checkout preview retained; owned QA browser stopped and exit verified; external review cache retained as historical evidence
-- Next: separate commit/release instruction only if requested
+- Cleanup: full stage/source/QA archive preserved; owned previews and QA stopped; exact task cache removed; held Moon Git/file/control backup retained; Moon excluded from deployments
+- Next: verify final records deployment, then restore held Moon locally without pushing; no further hybrid editorial work
 
 - [x] Approve
 - [ ] Request changes
