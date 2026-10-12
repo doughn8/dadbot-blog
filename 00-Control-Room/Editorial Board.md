@@ -8,6 +8,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Why the EU is limiting Chinese hybrid car imports
+  - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
+  - Stage: Idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/01-Ideas/2026-10-12-eu-chinese-hybrid-import-quota/idea.md`
+  - Run: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/01-Ideas/2026-10-12-eu-chinese-hybrid-import-quota/run.md`
+  - SHA-256: `8d5a803cb7e51293686ef389942279d01b88cc56354a123770521d08b1d85192`
+  - Checks: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/01-Ideas/2026-10-12-eu-chinese-hybrid-import-quota/idea-checks.json`
+  - Historical checked-stage next: Create and verify Brief at 99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/02-Briefs/2026-10-12-eu-chinese-hybrid-import-quota/brief.md
+
 - [x] Chemistry Nobel honours research into molecular mirror images
   - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
   - Stage: Idea checked internally; not human-approved
@@ -218,6 +227,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Why the EU is limiting Chinese hybrid car imports
+  - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
+  - Stage: Brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/02-Briefs/2026-10-12-eu-chinese-hybrid-import-quota/brief.md`
+  - Run: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/01-Ideas/2026-10-12-eu-chinese-hybrid-import-quota/run.md`
+  - SHA-256: `aa1a459e9be4c0a425269a5bb09843a32a81a832fdd33c8dfcfff31fd993c70e`
+  - Checks: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/02-Briefs/2026-10-12-eu-chinese-hybrid-import-quota/brief-checks.json`
+  - Historical checked-stage next: Create and verify SEO at 99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/03-SEO/2026-10-12-eu-chinese-hybrid-import-quota/seo.md
+
 - [x] Chemistry Nobel honours research into molecular mirror images
   - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
   - Stage: Brief checked internally; not human-approved
@@ -423,6 +441,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Why the EU is limiting Chinese hybrid car imports
+  - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
+  - Stage: SEO checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/03-SEO/2026-10-12-eu-chinese-hybrid-import-quota/seo.md`
+  - Run: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/01-Ideas/2026-10-12-eu-chinese-hybrid-import-quota/run.md`
+  - SHA-256: `c6a3de0ffbbd15270bfc24c2f021167fa6dc9de10e14e376767e7b1d6a8161b5`
+  - Checks: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/03-SEO/2026-10-12-eu-chinese-hybrid-import-quota/seo-checks.json`
+  - Historical checked-stage next: Create and verify full News Draft at 99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/04-Drafts/2026-10-12-eu-chinese-hybrid-import-quota/draft.md
 
 - [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
   - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; final-review mode
@@ -643,6 +670,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Why the EU is limiting Chinese hybrid car imports
+  - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
+  - Stage: Draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/04-Drafts/2026-10-12-eu-chinese-hybrid-import-quota/draft.md`
+  - Run: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/01-Ideas/2026-10-12-eu-chinese-hybrid-import-quota/run.md`
+  - SHA-256: `cb590c0e5619b63f2fb668f175d8fd42ec2a42bcd5d1f612b8a43d84542dedbf`
+  - Checks: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/04-Drafts/2026-10-12-eu-chinese-hybrid-import-quota/draft-checks.json`
+  - Historical checked-stage next: Create and verify Creative Edit at 99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/05-Reviews/2026-10-12-eu-chinese-hybrid-import-quota/creative-edit.md
 
 - [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
   - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; final-review mode
@@ -908,6 +944,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Why the EU is limiting Chinese hybrid car imports
+  - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
+  - Stage: Creative Edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/05-Reviews/2026-10-12-eu-chinese-hybrid-import-quota/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/01-Ideas/2026-10-12-eu-chinese-hybrid-import-quota/run.md`
+  - SHA-256: `d26eba9ceac4f555c5cd5040a6275c231057835a7b743b0a4e3e71f1a6fe4c32`
+  - Checks: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/05-Reviews/2026-10-12-eu-chinese-hybrid-import-quota/creative-edit-checks.json`
+  - Historical checked-stage next: Create and verify Proofread at 99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/05-Reviews/2026-10-12-eu-chinese-hybrid-import-quota/proofread.md
 
 - [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
   - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; final-review mode
@@ -1185,6 +1230,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Why the EU is limiting Chinese hybrid car imports
+  - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
+  - Stage: Proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/05-Reviews/2026-10-12-eu-chinese-hybrid-import-quota/proofread.md`
+  - Run: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/01-Ideas/2026-10-12-eu-chinese-hybrid-import-quota/run.md`
+  - SHA-256: `afdb8014511d57127c2f9bb824e19691c87e38b8de59d6b601a2172b8f20aa46`
+  - Checks: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/05-Reviews/2026-10-12-eu-chinese-hybrid-import-quota/proofread-checks.json`
+  - Historical checked-stage next: Build isolated existing-design preview and verify Design at 99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/06-Design/2026-10-12-eu-chinese-hybrid-import-quota/design.md
+
 - [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
   - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; final-review mode
   - Status: checked — internal checkpoint; not human-approved
@@ -1454,6 +1508,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Why the EU is limiting Chinese hybrid car imports
+  - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
+  - Stage: Design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/06-Design/2026-10-12-eu-chinese-hybrid-import-quota/design.md`
+  - Run: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/01-Ideas/2026-10-12-eu-chinese-hybrid-import-quota/run.md`
+  - SHA-256: `f71fcc5249e0ecd8928b7688429e3858083b25e21c75672076552493929d54d6`
+  - Checks: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/06-Design/2026-10-12-eu-chinese-hybrid-import-quota/design-checks.json`
+  - Historical checked-stage next: Refresh current sources and assemble complete Final Approval; then present Approve / Request changes / Reject / Hold (Approve = local publication only).
 
 - [x] Mirror-Image Molecules: The Chemistry Nobel Explained — revision 2
   - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 2; final-review mode
@@ -1757,6 +1820,23 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Why the EU is limiting Chinese hybrid car imports
+  - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; News; workflow_mode final-review
+  - Status: published locally; user Approve at `2026-10-12T22:27:42.768539+02:00`
+  - Content: `content/news/2026-10-12-eu-chinese-hybrid-import-quota.md`
+  - Archive: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota`; complete 142-file movement snapshot preserved
+  - Approval: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/07-Approval/2026-10-12-eu-chinese-hybrid-import-quota/approval.md`
+  - Run: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/01-Ideas/2026-10-12-eu-chinese-hybrid-import-quota/run.md`
+  - Reviewed packet SHA-256: `a8504e397abc0a43e710ef315bfd58255309f4b31c84757239dbe9820a320c95`; exact snapshot approval-revision-1-reviewed.md
+  - Current decision packet SHA-256: `5aae3b18a5916adf314e8c86181f5e633d7ca1aa40d44fdfb331cfbdad15d889`
+  - Approved payload SHA-256: `a470b4e192aaece1044494a0982821ab4c33ad851f0ddfd1eb6c3ae2f8236170`; public file `19b7f45da93dd5cfca44e707c0706e62aa742ddecac16bb00135ace8b223881f`
+  - Checks: normal production build; homepage/News/article HTTP 200; exact rendered copy and nine source links; geometric checks at 390/768/1280
+  - Preview: `http://127.0.0.1:1313/news/eu-chinese-hybrid-import-quota/?published=1`; normal checkout server PID 17824 / proc_820ba0e8e0a7
+  - Limits: inherited badge obstruction and 320px shell overflow; secondary Automotive World refresh 403, prior verified report retained with current corroboration
+  - Release permissions: hybrid-only commit/push and task cleanup authorised; Moon excluded
+  - GitHub / Live: release in progress, not yet verified live; archive local-only
+  - Next: separate commit/release instruction only if requested
 
 - [x] Life beneath Antarctic ice: what scientists have found
   - Candidate: `2026-10-08-life-beneath-antarctic-ice`; revision 3; final-review mode; News

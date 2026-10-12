@@ -16,8 +16,31 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
-
 ## Approved
+
+### Why the EU is limiting Chinese hybrid car imports — revision 1
+
+- Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; News; workflow_mode final-review
+- Decision: Approve — user “approve” at `2026-10-12T22:27:42.768539+02:00`; local publication only
+- Status: published locally; hybrid-only commit/push and task cleanup authorised; release verification pending
+- Content: `content/news/2026-10-12-eu-chinese-hybrid-import-quota.md`
+- Archive: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota`; all discovered stage/evidence files moved and byte-verified
+- Package: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/07-Approval/2026-10-12-eu-chinese-hybrid-import-quota/approval.md`
+- Run: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/01-Ideas/2026-10-12-eu-chinese-hybrid-import-quota/run.md`
+- Reviewed packet snapshot: `99-Archive/published/2026-10-12-eu-chinese-hybrid-import-quota/07-Approval/2026-10-12-eu-chinese-hybrid-import-quota/approval-revision-1-reviewed.md`; SHA-256 `a8504e397abc0a43e710ef315bfd58255309f4b31c84757239dbe9820a320c95`
+- Current decision packet SHA-256: `5aae3b18a5916adf314e8c86181f5e633d7ca1aa40d44fdfb331cfbdad15d889`
+- Approved payload SHA-256: `a470b4e192aaece1044494a0982821ab4c33ad851f0ddfd1eb6c3ae2f8236170`; public file SHA-256 `19b7f45da93dd5cfca44e707c0706e62aa742ddecac16bb00135ace8b223881f`
+- Body: 1,080 prose words; no exception; same approved title/description/tags/TL;DR; News cover-free
+- Verification: normal production build, homepage/News/article HTTP 200, exact body HTML and nine Sources preserved; normal local site browser checks passed geometric scope
+- Preview: `http://127.0.0.1:1313/news/eu-chinese-hybrid-import-quota/?published=1`; normal checkout server PID 17824 / proc_820ba0e8e0a7
+- Limits: inherited badge obstruction and 320px shell overflow; Automotive World refresh 403, historical direct evidence and current Guardian corroboration retained
+- Cleanup: active stage bundles archived; isolated review server stopped, normal checkout preview retained; owned QA browser stopped and exit verified; external review cache retained as historical evidence
+- Next: separate commit/release instruction only if requested
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
 
 ### Life beneath Antarctic ice: what scientists have found — revision 3
 
