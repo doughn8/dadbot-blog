@@ -8,6 +8,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
+  - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
+  - Stage: idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/idea.md`
+  - Run: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/run.md`
+  - SHA-256: `a6a78ba1c41ac00ab8ab7d4fe4a2738e090c2475ef9161a318f708fb0b3a739d`
+  - Checks: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/idea-checks.json`
+
 - [x] Your bank balance is not your buying power — revision 3
   - Candidate: `2026-10-13-bank-balance-money-creation`; revision 3; final-review mode; Blog / Money
   - Stage: idea checked internally; not human-approved
@@ -245,6 +253,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
+  - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
+  - Stage: brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-drc-wildlife-return/02-Briefs/2026-10-13-drc-wildlife-return/brief.md`
+  - Run: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/run.md`
+  - SHA-256: `9d9dd29affbedc2bee67c6021e51f1b81d9758be10f2f6f53781c2bfd6c776c0`
+  - Checks: `99-Archive/published/2026-10-13-drc-wildlife-return/02-Briefs/2026-10-13-drc-wildlife-return/brief-checks.json`
+
 - [x] Your bank balance is not your buying power — revision 3
   - Candidate: `2026-10-13-bank-balance-money-creation`; revision 3; final-review mode; Blog / Money
   - Stage: brief checked internally; not human-approved
@@ -477,6 +493,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
+  - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
+  - Stage: seo checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-drc-wildlife-return/03-SEO/2026-10-13-drc-wildlife-return/seo.md`
+  - Run: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/run.md`
+  - SHA-256: `754e408a88c85376d2943d2af4dac21d237ca4ade3bda2e45381ecbb2a59dd85`
+  - Checks: `99-Archive/published/2026-10-13-drc-wildlife-return/03-SEO/2026-10-13-drc-wildlife-return/seo-checks.json`
 
 - [x] Your bank balance is not your buying power — revision 3
   - Candidate: `2026-10-13-bank-balance-money-creation`; revision 3; final-review mode; Blog / Money
@@ -724,6 +748,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
+  - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
+  - Stage: draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-drc-wildlife-return/04-Drafts/2026-10-13-drc-wildlife-return/draft.md`
+  - Run: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/run.md`
+  - SHA-256: `7bab4d3d138671cf95c6d60fd5339b0c2c750ffd5480f1d478cf041196998571`
+  - Checks: `99-Archive/published/2026-10-13-drc-wildlife-return/04-Drafts/2026-10-13-drc-wildlife-return/draft-checks.json`
+  - Canonical payload SHA-256: `c27670454881673d5bf51982ddba36b458a4e8fb5ee73b1f255298c6e72eac4c`
 
 - [x] Your bank balance is not your buying power — revision 4
   - Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode
@@ -1033,6 +1066,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
+  - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
+  - Stage: creative-edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-drc-wildlife-return/05-Reviews/2026-10-13-drc-wildlife-return/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/run.md`
+  - SHA-256: `548faf5666ad114f942c669f19bde85a8e24dce313570a2f76e90dbb7ca04558`
+  - Checks: `99-Archive/published/2026-10-13-drc-wildlife-return/05-Reviews/2026-10-13-drc-wildlife-return/creative-edit-checks.json`
+  - Canonical payload SHA-256: `6a9fbdea6388270ef15b89c9313d70fbb47f525e0be2e6d9b4f0213ae3e25c7e`
 
 - [x] Your bank balance is not your buying power — revision 4
   - Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode
@@ -1354,6 +1396,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
+  - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
+  - Stage: proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-drc-wildlife-return/05-Reviews/2026-10-13-drc-wildlife-return/proofread.md`
+  - Run: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/run.md`
+  - SHA-256: `403e78efb8c65f3ad2130affcb36be071fa2a6f44817984e4fcf19e13c498b35`
+  - Checks: `99-Archive/published/2026-10-13-drc-wildlife-return/05-Reviews/2026-10-13-drc-wildlife-return/proofread-checks.json`
+  - Canonical payload SHA-256: `6a9fbdea6388270ef15b89c9313d70fbb47f525e0be2e6d9b4f0213ae3e25c7e`
+
 - [x] Your bank balance is not your buying power — revision 4
   - Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode
   - Stage: proofread checked internally
@@ -1667,6 +1718,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
+  - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
+  - Stage: design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-drc-wildlife-return/06-Design/2026-10-13-drc-wildlife-return/design.md`
+  - Run: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/run.md`
+  - SHA-256: `34de92f306a0a073f19b119023817feba74aa267bc762416ae9faa87abaee094`
+  - Checks: `99-Archive/published/2026-10-13-drc-wildlife-return/06-Design/2026-10-13-drc-wildlife-return/design-checks.json`
 
 - [x] Your bank balance is not your buying power — revision 4
   - Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode
@@ -2006,6 +2065,22 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
+  - Candidate: `2026-10-13-drc-wildlife-return`; News; workflow_mode final-review
+  - Status: published locally; wildlife-only commit/push/cleanup authorised; deployment verification pending
+  - Content: `content/news/2026-10-13-drc-wildlife-return.md`
+  - Route: `/news/drc-wildlife-return-nkuba-gorilla-birth/`
+  - Archive: `99-Archive/published/2026-10-13-drc-wildlife-return` (private, local-only)
+  - Approval: `99-Archive/published/2026-10-13-drc-wildlife-return/07-Approval/2026-10-13-drc-wildlife-return/approval.md`
+  - Run: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/run.md`
+  - Reviewed packet SHA-256: `529417fca0ae6966974b6030bcc63b4c81117fa18511a607533413a649b603dc`
+  - Current decision packet SHA-256: `3699b2d10c93521392816e5ec917bdc7f53c9430607f65c433ca713317051f66`
+  - Approved payload SHA-256: `6a9fbdea6388270ef15b89c9313d70fbb47f525e0be2e6d9b4f0213ae3e25c7e`; public file SHA-256: `58d7454f8afd9ffbbfaecfb9c5193c2a09cd4236e40a83f9198e8398cfeb3c31`
+  - Decision: Approve at `2026-10-14T00:06:44.617051+02:00`; wildlife-only publication, commit, push and task cleanup; Moon explicitly excluded
+  - Checks: exact approved copy; normal Hugo build; home/News/article; five Sources; local browser 390/768/1280; no Moon route/feed/search leak
+  - Limitations: existing coffee-badge obstruction/320px shell overflow; unrelated local image concurrency test failed, unchanged; exact-SHA CI required
+  - Next: verify wildlife-only release; final receipts in local archive; stop task preview after verified live delivery. No further editorial work; Moon remains excluded.
 
 - [x] Your bank balance is not your buying power — revision 4
   - Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode
