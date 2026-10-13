@@ -2068,19 +2068,21 @@ See also: [[Approval Queue]]
 
 - [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
   - Candidate: `2026-10-13-drc-wildlife-return`; News; workflow_mode final-review
-  - Status: published locally; wildlife-only commit/push/cleanup authorised; deployment verification pending
+  - Status: published live; wildlife-only product release verified; cleanup complete
   - Content: `content/news/2026-10-13-drc-wildlife-return.md`
   - Route: `/news/drc-wildlife-return-nkuba-gorilla-birth/`
   - Archive: `99-Archive/published/2026-10-13-drc-wildlife-return` (private, local-only)
   - Approval: `99-Archive/published/2026-10-13-drc-wildlife-return/07-Approval/2026-10-13-drc-wildlife-return/approval.md`
   - Run: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/run.md`
   - Reviewed packet SHA-256: `529417fca0ae6966974b6030bcc63b4c81117fa18511a607533413a649b603dc`
-  - Current decision packet SHA-256: `3699b2d10c93521392816e5ec917bdc7f53c9430607f65c433ca713317051f66`
+  - Current decision packet SHA-256: `aef6386ea8a7aa4d8623ea5eedf5304abbfa30acedf746aaab6f4acb63205aaa`
   - Approved payload SHA-256: `6a9fbdea6388270ef15b89c9313d70fbb47f525e0be2e6d9b4f0213ae3e25c7e`; public file SHA-256: `58d7454f8afd9ffbbfaecfb9c5193c2a09cd4236e40a83f9198e8398cfeb3c31`
   - Decision: Approve at `2026-10-14T00:06:44.617051+02:00`; wildlife-only publication, commit, push and task cleanup; Moon explicitly excluded
   - Checks: exact approved copy; normal Hugo build; home/News/article; five Sources; local browser 390/768/1280; no Moon route/feed/search leak
-  - Limitations: existing coffee-badge obstruction/320px shell overflow; unrelated local image concurrency test failed, unchanged; exact-SHA CI required
-  - Next: verify wildlife-only release; final receipts in local archive; stop task preview after verified live delivery. No further editorial work; Moon remains excluded.
+  - Limitations: existing coffee-badge obstruction/320px shell overflow; unrelated local image concurrency test failed, unchanged; exact product CI build/deploy passed
+  - GitHub / Live: product `6394e4eb2459c0656fff91b44e52d853a3da049f`; Pages run `38476537868`, build/deploy success; exact approved live body and five Sources verified; Moon HTTP 404
+  - Cleanup: stage/evidence archive preserved locally; task servers stopped and disposable cache removed
+  - Next: No further wildlife editorial work. Final-HEAD delivery receipt stays in local archive; Moon remains excluded.
 
 - [x] Your bank balance is not your buying power — revision 4
   - Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode

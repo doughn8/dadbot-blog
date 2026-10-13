@@ -22,19 +22,21 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; News; workflow_mode final-review
 - Decision: Approve by Sophie at `2026-10-14T00:06:44.617051+02:00`; wildlife-only publication, commit, push and cleanup explicitly authorised; Moon excluded
-- Status: published locally; deployment verification pending
+- Status: published live; wildlife-only product release verified; cleanup complete
 - Public article: `content/news/2026-10-13-drc-wildlife-return.md`
-- Live route: `https://dadbot.blog/news/drc-wildlife-return-nkuba-gorilla-birth/` (delivery not yet verified)
+- Live route: `https://dadbot.blog/news/drc-wildlife-return-nkuba-gorilla-birth/` (verified)
 - Package: `99-Archive/published/2026-10-13-drc-wildlife-return/07-Approval/2026-10-13-drc-wildlife-return/approval.md`
 - Run: `99-Archive/published/2026-10-13-drc-wildlife-return/01-Ideas/2026-10-13-drc-wildlife-return/run.md`
 - Archive: `99-Archive/published/2026-10-13-drc-wildlife-return`; private evidence local-only
 - Reviewed snapshot: `99-Archive/published/2026-10-13-drc-wildlife-return/07-Approval/2026-10-13-drc-wildlife-return/approval-revision-1-reviewed.md`; SHA-256 `529417fca0ae6966974b6030bcc63b4c81117fa18511a607533413a649b603dc`
-- Current decision packet SHA-256: `3699b2d10c93521392816e5ec917bdc7f53c9430607f65c433ca713317051f66`
+- Current decision packet SHA-256: `aef6386ea8a7aa4d8623ea5eedf5304abbfa30acedf746aaab6f4acb63205aaa`
 - Approved payload SHA-256: `6a9fbdea6388270ef15b89c9313d70fbb47f525e0be2e6d9b4f0213ae3e25c7e`; public file SHA-256: `58d7454f8afd9ffbbfaecfb9c5193c2a09cd4236e40a83f9198e8398cfeb3c31`
 - Body: 1,123 prose words; no length exception; exact approved title/description/tags/TL;DR
 - Verification: clean public extraction, normal production build and local browser checks; Moon absent from build
-- Limitations: unchanged badge/320px shell defects; local image-renderer concurrency failure recorded without code change; exact-SHA CI required
-- Next: verify wildlife-only deployment; final receipts in local archive; stop task preview after live checks; no further editorial work, Moon excluded
+- Limitations: unchanged badge/320px shell defects; local image-renderer concurrency failure recorded without code change; exact product CI build/deploy passed
+- GitHub / Live: product `6394e4eb2459c0656fff91b44e52d853a3da049f`; Pages run `38476537868`, build/deploy success; full approved body and five Sources verified; Moon HTTP 404
+- Cleanup: full local archive retained; task preview/QA processes stopped and exact disposable cache removed
+- Next: no further wildlife editorial work; final-HEAD verification receipt stays in local archive; Moon excluded
 
 - [x] Approve
 - [ ] Request changes
