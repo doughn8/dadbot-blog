@@ -18,6 +18,33 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Your bank balance is not your buying power — revision 4
+
+- Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode; Blog / Money
+- Status: published locally; money-only release approved; not pushed
+- Package: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/approval-revision-4.md`
+- Packet SHA-256: `e196a66015c3d977d9574f8401f277e0e713e67b1503a4feae5016618be81af1`
+- Canonical payload SHA-256: `5c0c39dee98ec18783ffedcf5a9c1e68b53c54cc53c1113e15a12d37fd0cb7c3`
+- Preview: `http://127.0.0.1:1313/posts/bank-balance-money-creation/?local-review=4&checked=1`
+- Root: `/home/markhickinson/.cache/dadbot-local-previews/2026-10-13-bank-balance-money-creation/review-4`; PID 30092/session proc_ec8b98394d1c; loopback 1313
+- Body: 1585 → 1568 words; twelve voice-only edits; argument/facts unchanged
+- Checks: edit-map reconstruction, structural/evidence gates, build/isolation, fresh source equality, 34-width geometry; reviewer readback in closing report
+- Limitation: existing phone/tablet coffee-badge obstruction, baseline reproduced; desktop clear
+- Approve authorises local publication only, not commit/push/deploy
+- Next: verify the money-only GitHub deployment; Moon article excluded
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
+
+- Approved public article: `content/posts/bank-balance-money-creation.md`
+- Reviewed packet hash above is historical; current decision packet SHA-256: `f4544b0e76fef1086584848203424acf8d248498da385ad92491fcd001b6f460`
+- Publication verified; money-only push authorised. Held Moon article and original history preserved in a verified local backup. Private archive local-only.
+
+
 ### Why the EU is limiting Chinese hybrid car imports — revision 1
 
 - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; News; workflow_mode final-review
@@ -788,4 +815,57 @@ Decision:
 
 Sophie notes: Discarded locally on 2026-07-08.
 
+
+
+## Bank-balance revision history
+
+### Your bank balance: what is that money, actually? — revision 1 (superseded)
+
+- Candidate: `2026-10-13-bank-balance-money-creation`; revision 1; Blog / Money; final-review mode
+- Status: Request changes — simplify money explanation; superseded; not published
+- Package: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/approval.md`
+- Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+- Preview: `http://127.0.0.1:1313/posts/bank-balance-money-creation/?local-review=1`; opened in desktop pane; direct-route-only
+- Stable root: `/home/markhickinson/.cache/dadbot-local-previews/2026-10-13-bank-balance-money-creation/review-1`; server PID 9490; session proc_2458aae43be9
+- Reviewed packet SHA-256: `37ef68d2cdbfba9b3df59d04e2ccd24246a4d60192b2fe69215f1ed186821445`
+- Article payload SHA-256: `121c5f6700f51221524787e801e4db93263c79d470971bb879c71b877d38b8ba` (canonical span, surrounding newlines excluded)
+- Body: 1,612 citation-stripped words; no exception; Hugo full-page display 1,778
+- Historical checks: packet structural/YAML/evidence and isolated/production builds; exact Proofread/preview/packet equality; 25-width browser geometry; 12 rendered source URLs; fresh safeguard source main-text equality; 10 editorial tests passed
+- Limitations: inherited coffee-badge obstruction at phone/tablet body scroll positions, reproduced on Bitcoin sibling; no shared-widget changes
+- Boundary: Approve means this exact article's local publication only; commit, push and deployment remain separate gates
+- Next: revision 2 preparation; old preview is historical
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+- Reviewed snapshot: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/approval-revision-1-reviewed.md`
+- Decision packet SHA-256: `8c4f50318ae5908de944597212ed786d2994d27546e5495bd2924b440f6aa6af`
+
+
+## Revision History
+
+### Your bank balance: what is that money, actually? — revision 2
+
+- Candidate: `2026-10-13-bank-balance-money-creation`; revision 2; Blog / Money; final-review mode
+- Status: Request changes; superseded; not published
+- Request addressed: easier money explanation; four numbered loan steps; simplified TL;DR; unchanged angle
+- Package: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/approval-revision-2.md`
+- Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+- Preview: `http://127.0.0.1:1313/posts/bank-balance-money-creation/?local-review=2&checked=1`; opened and read back with revised repayment copy
+- Stable root: `/home/markhickinson/.cache/dadbot-local-previews/2026-10-13-bank-balance-money-creation/review-2`; static preview PID 15218/session proc_5ed86ab4b584; loopback 1313
+- Reviewed packet SHA-256: `f4b9c859268902a0bd34a1f1d63191038d5ca12dbd9bf3d5536daf61767a0877`
+- Canonical payload SHA-256: `72c892ce7a8029a1a3f003d7e7f1977808e41549891fc5f403d42dd5a8d442e8`
+- Body: 1612 → 1736 words under the same citation-stripped count; within target; no exception
+- Historical checks: revision structural/YAML/evidence; source refresh; canonical stage/preview equality; 25-width browser matrix, four steps, no old table, exact 12 source links, no page/list overflow; original reviewed packet preserved
+- Limitation: inherited phone/tablet coffee-badge overlap reproduced on sibling; desktop clear; shared widget unchanged
+- Boundary: Approve means exact revised local publication only; no commit, push or deployment authority
+- Next: revision 3; this review choice is historical
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+- Reviewed snapshot: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/approval-revision-2-reviewed.md`
+- Scope change: purchasing power first; critical banking practices; 2008 public rescues; distinguish QE/inflation from fiscal bank support.
 

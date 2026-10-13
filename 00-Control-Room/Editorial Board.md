@@ -8,6 +8,24 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Your bank balance is not your buying power — revision 3
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 3; final-review mode; Blog / Money
+  - Stage: idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/idea-revision-3.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `5ab877d2e7f9a46f8762a54c990406cb039762ca1d8a8dd6355b65f382f5f3c8`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/idea-revision-3-checks.json`
+
+- [x] Your bank balance: what is that money, actually?
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 1; final-review mode; Blog / Money
+  - Stage: Idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/idea.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `a30a4ac9597b40acc0bcbd9a60cd7aba6630f5b2b90fb73209d8210013973b80`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/idea-checks.json`
+  - Next: Create and check brief
+
+
 - [x] Why the EU is limiting Chinese hybrid car imports
   - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
   - Stage: Idea checked internally; not human-approved
@@ -227,6 +245,24 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Your bank balance is not your buying power — revision 3
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 3; final-review mode; Blog / Money
+  - Stage: brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/02-Briefs/2026-10-13-bank-balance-money-creation/brief-revision-3.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `f76b50bab967ee2bff108105b66e1d7d81dbb3300f939f960bfb2106c1bf5620`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/02-Briefs/2026-10-13-bank-balance-money-creation/brief-revision-3-checks.json`
+
+- [x] Your bank balance: what is that money, actually?
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 1; final-review mode; Blog / Money
+  - Stage: Brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/02-Briefs/2026-10-13-bank-balance-money-creation/brief.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `df59b5dd59b25ce91bc2e35b422ff83c401cb6192dc3ee83247ced89f745dc35`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/02-Briefs/2026-10-13-bank-balance-money-creation/brief-checks.json`
+  - Next: Create and check seo
+
+
 - [x] Why the EU is limiting Chinese hybrid car imports
   - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
   - Stage: Brief checked internally; not human-approved
@@ -441,6 +477,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Your bank balance is not your buying power — revision 3
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 3; final-review mode; Blog / Money
+  - Stage: seo checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/03-SEO/2026-10-13-bank-balance-money-creation/seo-revision-3.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `ef7eea892bc8a628d4cf779c2aa2a52a7401dc47bef2a1ed4d0c7ddfdd11689b`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/03-SEO/2026-10-13-bank-balance-money-creation/seo-revision-3-checks.json`
+
+- [x] Your bank balance: what is that money, actually?
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 1; final-review mode; Blog / Money
+  - Stage: SEO checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/03-SEO/2026-10-13-bank-balance-money-creation/seo.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `1885e0a97914ec97e23e66c5740d357a585c722da396bfc34d8f89b57e51c2f3`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/03-SEO/2026-10-13-bank-balance-money-creation/seo-checks.json`
+  - Next: Create and check draft
+
 
 - [x] Why the EU is limiting Chinese hybrid car imports
   - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
@@ -670,6 +724,41 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Your bank balance is not your buying power — revision 4
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode
+  - Stage: draft checked internally
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/04-Drafts/2026-10-13-bank-balance-money-creation/draft-revision-4.md`
+  - SHA-256: `f680fe68289811dba8cb86f5abab911e4354699623a4e97b2b4db366cea1fc38`
+  - Canonical payload SHA-256: `5c0c39dee98ec18783ffedcf5a9c1e68b53c54cc53c1113e15a12d37fd0cb7c3`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/04-Drafts/2026-10-13-bank-balance-money-creation/draft-revision-4-checks.json`
+
+- [x] Your bank balance is not your buying power — revision 3
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 3; final-review mode; Blog / Money
+  - Stage: draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/04-Drafts/2026-10-13-bank-balance-money-creation/draft-revision-3.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `085107ee9b713d1b6fc9195cf8619432ebda98de3ea95951c1ec230ce4827e7a`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/04-Drafts/2026-10-13-bank-balance-money-creation/draft-revision-3-checks.json`
+
+- [x] Your bank balance: what is that money, actually? — revision 2
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 2; final-review mode; Blog / Money
+  - Stage: Draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/04-Drafts/2026-10-13-bank-balance-money-creation/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `316ee2d9efbb73affcb585b8e018f145a1c76c4a6c4e28ea5841327ce396bed3`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/04-Drafts/2026-10-13-bank-balance-money-creation/draft-revision-2-checks.json`
+  - Next: create and check creative-edit revision 2
+
+- [x] Your bank balance: what is that money, actually?
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 1; final-review mode; Blog / Money
+  - Stage: Draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/04-Drafts/2026-10-13-bank-balance-money-creation/draft.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `48e66dd8cca003a1d33d0220a56b4660bf466c28afd40d08d1fa381cd128d73a`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/04-Drafts/2026-10-13-bank-balance-money-creation/draft-checks.json`
+  - Next: Create and check creative-edit
+
 
 - [x] Why the EU is limiting Chinese hybrid car imports
   - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
@@ -944,6 +1033,41 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Your bank balance is not your buying power — revision 4
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode
+  - Stage: creative-edit checked internally
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/creative-edit-revision-4.md`
+  - SHA-256: `1be11c76a512b0941b48afbebd82f53c276017e027c21583cfe133bfda5b6730`
+  - Canonical payload SHA-256: `5c0c39dee98ec18783ffedcf5a9c1e68b53c54cc53c1113e15a12d37fd0cb7c3`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/creative-edit-revision-4-checks.json`
+
+- [x] Your bank balance is not your buying power — revision 3
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 3; final-review mode; Blog / Money
+  - Stage: creative-edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/creative-edit-revision-3.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `952fe30251b8a64542f5c8a1e7b6e3f0e27c68f85a08b7e3eb131d1f7894a4ce`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/creative-edit-revision-3-checks.json`
+
+- [x] Your bank balance: what is that money, actually? — revision 2
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 2; final-review mode; Blog / Money
+  - Stage: Creative Edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `b8435a6910fac42d2fc48dc3b2d420ded517f61981a713fde6ca2b41d6c3797d`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/creative-edit-revision-2-checks.json`
+  - Next: create and check proofread revision 2
+
+- [x] Your bank balance: what is that money, actually?
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 1; final-review mode; Blog / Money
+  - Stage: Creative Edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `890689d25fb5898b93657cffcd0def15b7cedc3328783a62fe0963320ceccc46`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/creative-edit-checks.json`
+  - Next: Create and check proofread
+
 
 - [x] Why the EU is limiting Chinese hybrid car imports
   - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
@@ -1230,6 +1354,41 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Your bank balance is not your buying power — revision 4
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode
+  - Stage: proofread checked internally
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/proofread-revision-4.md`
+  - SHA-256: `f3ffc5aa4996324d78634307acb093363bffbfe44df23a56ca2cf53b94233ebd`
+  - Canonical payload SHA-256: `5c0c39dee98ec18783ffedcf5a9c1e68b53c54cc53c1113e15a12d37fd0cb7c3`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/proofread-revision-4-checks.json`
+
+- [x] Your bank balance is not your buying power — revision 3
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 3; final-review mode; Blog / Money
+  - Stage: proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/proofread-revision-3.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `26e4de2eea17c64fba1d5f8ef9f429a716193c61bfc43f1dd8b76287a04f18db`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/proofread-revision-3-checks.json`
+
+- [x] Your bank balance: what is that money, actually? — revision 2
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 2; final-review mode; Blog / Money
+  - Stage: Proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `210f966be5e3d7969cbea402dfb695b66a45d8de096363fe4e9a9d3e341a47d4`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/proofread-revision-2-checks.json`
+  - Next: create and check design revision 2
+
+- [x] Your bank balance: what is that money, actually?
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 1; final-review mode; Blog / Money
+  - Stage: Proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/proofread.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `8edb758522a50ace8bc023fd34a83ca435053b8b82a6161408302b74332251e1`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/05-Reviews/2026-10-13-bank-balance-money-creation/proofread-checks.json`
+  - Next: Create and check design
+
+
 - [x] Why the EU is limiting Chinese hybrid car imports
   - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
   - Stage: Proofread checked internally; not human-approved
@@ -1508,6 +1667,33 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Your bank balance is not your buying power — revision 4
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode
+  - Stage: design checked internally
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/06-Design/2026-10-13-bank-balance-money-creation/design-revision-4.md`
+  - SHA-256: `9025746b1ef7d3b6f1e3552652303b94c476a57afc155f6014d6c8558fcc8729`
+  - Canonical payload SHA-256: `5c0c39dee98ec18783ffedcf5a9c1e68b53c54cc53c1113e15a12d37fd0cb7c3`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/06-Design/2026-10-13-bank-balance-money-creation/design-revision-4-checks.json`
+
+- [x] Your bank balance: what is that money, actually? — revision 2
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 2; final-review mode; Blog / Money
+  - Stage: Design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/06-Design/2026-10-13-bank-balance-money-creation/design-revision-2.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `860ebe43240a2e4ecafc79ce5bb74639affce3e7922f3c5beb54379819d34d9d`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/06-Design/2026-10-13-bank-balance-money-creation/design-revision-2-checks.json`
+  - Next: create and check final-approval revision 2
+
+- [x] Your bank balance: what is that money, actually?
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 1; final-review mode; Blog / Money
+  - Stage: Design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/06-Design/2026-10-13-bank-balance-money-creation/design.md`
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `770a828f387a27ae52759639e08778cbcb946667818cf28134cf792df2516453`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/06-Design/2026-10-13-bank-balance-money-creation/design-checks.json`
+  - Next: Create and check final-approval
+
 
 - [x] Why the EU is limiting Chinese hybrid car imports
   - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; final-review mode
@@ -1820,6 +2006,21 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Your bank balance is not your buying power — revision 4
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 4; final-review mode
+  - Stage: published locally; money-only release approved
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/approval-revision-4.md`
+  - SHA-256: `e196a66015c3d977d9574f8401f277e0e713e67b1503a4feae5016618be81af1`
+  - Canonical payload SHA-256: `5c0c39dee98ec18783ffedcf5a9c1e68b53c54cc53c1113e15a12d37fd0cb7c3`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/final-approval-revision-4-checks.json`
+
+
+
+- Approved public article: `content/posts/bank-balance-money-creation.md`
+- Reviewed packet hash above is historical; current decision packet SHA-256: `f4544b0e76fef1086584848203424acf8d248498da385ad92491fcd001b6f460`
+- Publication verified; money-only push authorised. Held Moon article and original history preserved in a verified local backup. Private archive local-only.
+
 
 - [x] Why the EU is limiting Chinese hybrid car imports
   - Candidate: `2026-10-12-eu-chinese-hybrid-import-quota`; revision 1; News; workflow_mode final-review
@@ -2224,4 +2425,37 @@ _Content sent back for changes._
   - Next: revision 2; previous preview/checks historical; no publication authority
   - Exact reviewed packet: `99-Archive/published/2026-10-06-g7-fuel-reserves-us-eu/07-Approval/2026-10-06-g7-fuel-reserves-us-eu/approval-revision-1-reviewed.md`; reviewed hash `34bb3e7531a017e264c774df968a9d6d31b80878c86b1d94bcbbd153c6b97ce1`; decision packet hash `f6ed7fbfacb57de7cbdba8bd54322a9c3dbe76a061117bcd5d79f121e97ecbf2`
 
+
+
+## Revision History
+
+- [ ] Your bank balance: what is that money, actually?
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 1; final-review mode; Blog / Money
+  - Stage: historical revision 1; Request changes — simpler money explanation; superseded
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/approval.md`
+  - Preview: `http://127.0.0.1:1313/posts/bank-balance-money-creation/?local-review=1`
+  - Article payload SHA-256: `121c5f6700f51221524787e801e4db93263c79d470971bb879c71b877d38b8ba`
+  - Limitation: inherited coffee-badge obstruction at phone/tablet body positions; unchanged shared widget
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `37ef68d2cdbfba9b3df59d04e2ccd24246a4d60192b2fe69215f1ed186821445`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/final-approval-checks.json`
+  - Next: revision 2 preparation; old preview/checks are historical
+  - Reviewed snapshot: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/approval-revision-1-reviewed.md`
+
+
+## Revision 2 history — banking article
+
+- [ ] Your bank balance: what is that money, actually? — revision 2
+  - Candidate: `2026-10-13-bank-balance-money-creation`; revision 2; final-review mode; Blog / Money
+  - Historical stage: awaiting final human review
+  - Artifact: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/approval-revision-2.md`
+  - Preview: `http://127.0.0.1:1313/posts/bank-balance-money-creation/?local-review=2&checked=1`
+  - Canonical payload SHA-256: `72c892ce7a8029a1a3f003d7e7f1977808e41549891fc5f403d42dd5a8d442e8`
+  - Body: 1,736 words; four numbered steps; inherited coffee-badge limitation unchanged
+  - Run: `99-Archive/published/2026-10-13-bank-balance-money-creation/01-Ideas/2026-10-13-bank-balance-money-creation/run.md`
+  - SHA-256: `f4b9c859268902a0bd34a1f1d63191038d5ca12dbd9bf3d5536daf61767a0877`
+  - Checks: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/final-approval-revision-2-checks.json`
+  - Next: final human decision on verified revised preview
+  - Decision: Request changes; superseded by the purchasing-power/2008 structural rewrite
+  - Exact reviewed snapshot: `99-Archive/published/2026-10-13-bank-balance-money-creation/07-Approval/2026-10-13-bank-balance-money-creation/approval-revision-2-reviewed.md`
 
