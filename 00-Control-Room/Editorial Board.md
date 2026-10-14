@@ -2351,7 +2351,8 @@ See also: [[Approval Queue]]
 
 - [x] AMD’s $8.2bn World Labs Deal Is a Bet on AI Beyond Text
   - Candidate: `2026-09-29-amd-world-labs-acquisition`; revision 3
-  - Status: published locally; commit and push authorised
+  - Status: verified live; final-review trial completed
+  - Release: `b5f1e2c6bf08a8a5f8db5304d67e36e5b170d229`; Pages run `36576836439` succeeded; exact live route rechecked 2026-10-14
   - Content: `content/news/2026-09-29-amd-world-labs-acquisition.md`
   - Archive: `99-Archive/published/2026-09-29-amd-world-labs-acquisition/`
   - Approved payload SHA-256: `a3bb07fc7c3419e5c9c15832d947bb8324eba385733c12269aab3b25455c43c8`
