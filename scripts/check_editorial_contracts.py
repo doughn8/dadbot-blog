@@ -68,6 +68,17 @@ def check_template(text, stage):
         errors.append(f'decision must be exactly: {expected_decision}')
     if stage == 'final-approval' and '## Full article for final approval' not in text:
         errors.append('missing Full article for final approval payload slot')
+    if stage == 'final-approval':
+        panels = re.findall(r"^## Sophie[’']s decision\s*\n(.*?)(?=^## |\Z)", text, re.M | re.S)
+        choices = ['Approve', 'Request changes', 'Reject', 'Hold'] if final_review else ['Publish locally', 'Revise', 'Hold', 'Discard']
+        items = re.findall(r'^- \[([ xX])\] (.+)$', panels[0], re.M) if len(panels) == 1 else []
+        if (len(items) != 4 or any(state != ' ' for state, _ in items)
+                or sorted(label for _, label in items) != sorted(choices)):
+            errors.append('decision panel must contain the four unchecked choices for this mode')
+        next_gate = re.findall(r'^## Next gate\s*\n(.*?)(?=^## |\Z)', text, re.M | re.S)
+        decision_form = '\n'.join(panels + next_gate)
+        if 'local publication only' not in decision_form:
+            errors.append('decision panel must state local publication only')
     return errors
 
 
@@ -79,7 +90,10 @@ OWNERS = {
     'conspiracy-corner': ('conspiracy-editor', 'Conspiracy Editor.md', 'conspiracy-corner'),
 }
 PAYLOADS = {'draft': 'Full draft article', 'creative-edit': 'Full edited article', 'proofread': 'Full proofread article', 'final-approval': 'Full article for final approval'}
-PLACEHOLDER = re.compile(r'<(?:topic-slug|desk-editor|section|date|slug)>|\{\{.*?\}\}|YYYY-MM-DD|\[Title\]|\[Author\]')
+PLACEHOLDER = re.compile(
+    r"<(?:topic-slug|desk-editor|section|date|slug)>|\{\{.*?\}\}|YYYY-MM-DD"
+    r"|\[(?:title|author|(?:insert|write|paste|replace|todo|tbd|placeholder)\b[^\]\n]*)\](?!\s*\()", re.I,
+)
 
 
 def check_artifact(text, stage, path, repo):
@@ -116,6 +130,12 @@ def check_artifact(text, stage, path, repo):
             errors.append('candidate_id must match artifact bundle folder')
         if not unquote(values.get('source_ledger', '')):
             errors.append('source_ledger required for final-review checkpoints')
+    # Catch explicit imperative handoff contradictions, not arbitrary article prose.
+    # This is a narrow lint rule, never a runtime permission or consent boundary.
+    wrapper = re.sub(r'^## Full [^\n]+\n.*?(?=^## Handoff contract|\Z)', '', body, flags=re.M | re.S)
+    if re.search(r'^(?:[-*]\s+)?(?:Next action:\s*)?Publish (?:the|this) article (?:immediately|now)\b',
+                 wrapper, re.M | re.I):
+        errors.append('premature publication directive in pre-publication wrapper')
     if PLACEHOLDER.search(text):
         errors.append('unresolved template placeholder')
     for key in ('title', 'date', 'desk', 'slug'):
@@ -141,6 +161,8 @@ def check_artifact(text, stage, path, repo):
         candidate = (repo / value if key == 'role_profile' else path.parent / value).resolve()
         if not value or not candidate.is_relative_to(repo) or not candidate.is_file():
             errors.append(f'{key} must resolve to an existing file within the repository')
+        elif key == 'source_artifact' and candidate.parent.name != (identity if mode == 'final-review' else path.parent.name):
+            errors.append('source_artifact candidate must match artifact bundle')
     i = STAGES.index(stage)
     if not path.is_relative_to(repo) or not path.relative_to(repo).parts or path.relative_to(repo).parts[0] != FOLDERS[i]:
         errors.append('artifact path does not match its stage folder')

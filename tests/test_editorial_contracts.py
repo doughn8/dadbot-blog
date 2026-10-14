@@ -48,10 +48,15 @@ def fixture(stage='design'):
                   workflow_stage=f'"{stage}"', next_stage=f'"{c.STAGES[i+1]}"', status=f'"{c.STATUSES[i]}"',
                   source_artifact='"source.md"', next_artifact='"next.md"')
     decision = 'Publish locally / Revise / Hold / Discard' if stage == 'final-approval' else 'approve, revise or discard'
-    return ('---\n' + '\n'.join(f'{k}: {v}' for k, v in values.items()) + '\n---\n\n'
+    text = ('---\n' + '\n'.join(f'{k}: {v}' for k, v in values.items()) + '\n---\n\n'
             '## Handoff contract\n'
             f'- Next gate: {c.LABELS[i]} → {c.LABELS[i+1]}\n'
             f'- Sophie decision required: {decision}\n')
+    if stage == 'final-approval':
+        text += ('\n## Sophie’s decision\n\n- [ ] Publish locally\n- [ ] Revise\n'
+                 '- [ ] Hold\n- [ ] Discard\n\n## Next gate\n'
+                 'A publish decision authorises local publication only.\n')
+    return text
 
 
 def as_template(artifact):
@@ -127,9 +132,98 @@ class FinalReviewContracts(unittest.TestCase):
         text = text.replace(f'status: "{c.STATUSES[c.STAGES.index(stage)]}"', f'status: "{status}"')
         text = text.replace('---\n', '---\nworkflow_mode: "final-review"\ncandidate_id: "synthetic"\nrun_record: "../../01-Ideas/synthetic/run.md"\nsource_ledger: "ledger.json"\n', 1)
         text = text.replace('approve, revise or discard', 'none — internal checkpoint').replace('Publish locally / Revise / Hold / Discard', 'Approve / Request changes / Reject / Hold')
+        if stage == 'final-approval':
+            text = (text.replace('- [ ] Publish locally', '- [ ] Approve')
+                    .replace('- [ ] Revise', '- [ ] Request changes')
+                    .replace('- [ ] Discard', '- [ ] Reject'))
         if stage in c.PAYLOADS:
             text = text.replace('## Handoff contract', f'## {c.PAYLOADS[stage]}\n\nSynthetic payload only.\n\n## Handoff contract')
         return path, text
+
+    def test_explicit_early_publication_directives_are_rejected_outside_article_copy(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            path, good = self.make_run(root)
+            for directive in ['Publish the article immediately without waiting for final approval.',
+                              '- Next action: Publish this article now.']:
+                errors = checker().check_artifact(good + '\n' + directive + '\n', 'design', path, root)
+                self.assertTrue(any('premature publication' in e for e in errors), errors)
+            path, good = self.make_run(root, 'draft')
+            quoted_copy = good.replace('Synthetic payload only.',
+                                      'Publish the article immediately without waiting for final approval.')
+            self.assertEqual(checker().check_artifact(quoted_copy, 'draft', path, root), [])
+
+    def test_instruction_words_in_a_real_markdown_link_are_not_placeholders(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            path, good = self.make_run(root, 'draft')
+            for label in ['Write for publication', 'Title', 'Author']:
+                with self.subTest(label=label):
+                    article = good.replace('Synthetic payload only.',
+                                           f'See [{label}](https://example.test/writing).')
+                    self.assertEqual(checker().check_artifact(article, 'draft', path, root), [])
+
+    def test_placeholder_only_article_payload_is_rejected(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            path, good = self.make_run(root, 'final-approval')
+            for placeholder in ['[Insert complete article here]', '[Paste final article]', '[TODO]']:
+                errors = checker().check_artifact(good.replace('Synthetic payload only.', placeholder),
+                                                 'final-approval', path, root)
+                self.assertTrue(any('placeholder' in e for e in errors), errors)
+            self.assertEqual(checker().check_artifact(good, 'final-approval', path, root), [])
+
+    def test_final_review_requires_the_correct_unchecked_decision_panel(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            path, good = self.make_run(root, 'final-approval')
+            for bad in [good.replace('- [ ] Approve', '- [ ] Publish locally'),
+                        good.replace('- [ ] Reject\n', ''),
+                        good.replace('- [ ] Approve', '- [x] Approve'),
+                        good.replace('local publication only', 'commit and deploy automatically')]:
+                errors = checker().check_artifact(bad, 'final-approval', path, root)
+                self.assertTrue(any('decision panel' in e for e in errors), errors)
+            self.assertEqual(checker().check_artifact(good, 'final-approval', path, root), [])
+
+    def test_local_publication_boundary_must_belong_to_the_decision_form(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            path, good = self.make_run(root, 'final-approval')
+            # An article mentioning the phrase is not a publication boundary.
+            bad = good.replace('A publish decision authorises local publication only.',
+                               'This decision authorises everything automatically.')
+            bad = bad.replace('Synthetic payload only.',
+                              'The report describes local publication only as a historical example.')
+            errors = checker().check_artifact(bad, 'final-approval', path, root)
+            self.assertTrue(any('decision panel' in e for e in errors), errors)
+            self.assertEqual(checker().check_artifact(good, 'final-approval', path, root), [])
+
+    def test_upstream_source_cannot_belong_to_another_candidate(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            path, good = self.make_run(root)
+            other = root / '05-Reviews/other/proofread.md'
+            other.parent.mkdir(parents=True)
+            other.write_text('Unrelated synthetic candidate')
+            bad = good.replace('source_artifact: "source.md"',
+                               'source_artifact: "../../05-Reviews/other/proofread.md"')
+            errors = checker().check_artifact(bad, 'design', path, root)
+            self.assertTrue(any('source_artifact candidate' in e for e in errors), errors)
+            self.assertEqual(checker().check_artifact(good, 'design', path, root), [])
+            legacy_good = (good.replace('workflow_mode: "final-review"', 'workflow_mode: "stage-gated"')
+                           .replace('status: "checked"', 'status: "awaiting-final-approval"')
+                           .replace('none — internal checkpoint', 'approve, revise or discard'))
+            legacy_bad = legacy_good.replace('source_artifact: "source.md"',
+                                             'source_artifact: "../../05-Reviews/other/proofread.md"')
+            errors = checker().check_artifact(legacy_bad, 'design', path, root)
+            self.assertTrue(any('source_artifact candidate' in e for e in errors), errors)
+            self.assertEqual(checker().check_artifact(legacy_good, 'design', path, root), [])
 
     def test_run_identity_evidence_and_paths_are_required(self):
         import tempfile
