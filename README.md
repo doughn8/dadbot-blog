@@ -27,9 +27,11 @@ This repository contains the site's content, Hugo templates, styling, browser fe
 - [Re-Terminal](https://github.com/mirus-ua/hugo-theme-re-terminal), included as a Git submodule, with custom layouts and styling.
 - JavaScript modules for interactive features, including Token Wars, radio, and weather.
 - GitHub Actions for tests and builds, and GitHub Pages for hosting.
-- Python tooling for article-image generation and its tests.
+- Python standard-library checks for editorial workflow contracts.
 
 The design borrows from old terminals: monospace type, square panels, and muted green controls. The site is static, with browser-side JavaScript where interaction calls for it.
+
+News, Blog and Conspiracy Corner are cover-free. Book reviews retain sourced book covers. The unused article-image generator has been retired; existing images and covers are preserved.
 
 ## Run locally
 
@@ -73,8 +75,7 @@ assets/                  Assets processed by Hugo
 static/                  CSS, images, and browser-side features
   games/token-wars/       Token Wars game code and styles
   radio/                 Radio player code and styles
-scripts/                 Article-image tooling
-config/                  Image-generation configuration
+scripts/                 Editorial workflow validation
 tests/                   JavaScript and Python tests
 themes/re-terminal/      Upstream theme (Git submodule)
 hugo.toml                Site settings and navigation
@@ -93,13 +94,10 @@ JavaScript tests use Node's built-in test runner:
 node --test tests/*.test.mjs tests/*/*.test.mjs
 ```
 
-For the Python tests, install the image tooling's dependencies in a virtual environment:
+The tracked Python tests use the standard library; no third-party packages are required:
 
 ```sh
-python3 -m venv .venv
-. .venv/bin/activate
-python -m pip install -r requirements-image-system.txt
-python -m unittest discover -s tests -p 'test_*.py'
+python3 -m unittest discover -s tests -p 'test_*.py'
 ```
 
 Node and Python are needed for these checks, not for the basic Hugo preview. Automated tests do not replace checking changed pages in a browser, especially navigation, keyboard controls, and layouts at phone and tablet widths.

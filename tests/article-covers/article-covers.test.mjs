@@ -25,9 +25,14 @@ test('three article desks reject explicit, missing and attempted opt-in covers; 
  } finally {rmSync(dir,{recursive:true,force:true});}
 });
 
-test('generator refuses cover-free desks before rendering', () => {
- for(const args of [[], ['--autostereogram']]) {
-  assert.throws(() => execFileSync('python3',['scripts/generate-article-image.py',...args,'--dry-run','content/posts/2026-07-12-is-var-helping-football.md'],{cwd:root,encoding:'utf8',stdio:'pipe'}), error => /cover-free/.test(String(error.stderr)));
+test('retired generator, dedicated configuration and tests are absent; editorial tooling remains', () => {
+ for(const path of ['scripts/generate-article-image.py','scripts/article_image_system.py','scripts/article_images',
+                    'config/article-image-system.json','config/autostereogram-objects.json','config/autostereogram-palettes.json',
+                    'requirements-image-system.txt','tests/test_article_image_system.py','tests/test_autostereogram_renderer.py']) {
+  assert.equal(existsSync(join(root,path)),false,`${path} must remain retired`);
+ }
+ for(const path of ['scripts/check_editorial_contracts.py','tests/test_editorial_contracts.py']) {
+  assert.equal(existsSync(join(root,path)),true,`${path} must remain available`);
  }
 });
 

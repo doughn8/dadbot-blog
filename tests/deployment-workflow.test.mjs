@@ -27,11 +27,8 @@ test('Pages deployment runs the complete Node and Python suites before Hugo buil
     /node --test tests\/\*\.test\.mjs tests\/\*\/\*\.test\.mjs/,
     'run every tracked Node test',
   );
-  const pythonRequirements = positionOf(
-    workflow,
-    /python -m pip install -r requirements-image-system\.txt/,
-    'install the Python image-system requirements',
-  );
+  assert.doesNotMatch(workflow, /requirements-image-system|python -m pip install/,
+    'Retired image tooling must not install dependencies; editorial tests use the standard library');
   const pythonTests = positionOf(
     workflow,
     /python -m unittest discover -s tests -p ['"]test_\*\.py['"]/,
@@ -44,6 +41,5 @@ test('Pages deployment runs the complete Node and Python suites before Hugo buil
   );
 
   assert.ok(nodeTests < hugoBuild, 'Node tests must pass before Hugo builds');
-  assert.ok(pythonRequirements < pythonTests, 'Python requirements must be installed before Python tests run');
   assert.ok(pythonTests < hugoBuild, 'Python tests must pass before Hugo builds');
 });
