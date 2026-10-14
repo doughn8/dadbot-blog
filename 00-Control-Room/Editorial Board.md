@@ -8,6 +8,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Germany’s former spy chief faces allegations as intelligence powers expand — revision 1
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
+  - Stage: idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/idea.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `1ebcf3dcb702ca342652f6bac1afe6e29665724e429490e62535e529f043a123`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/idea-checks.json`
+
 - [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
   - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
   - Stage: idea checked internally; not human-approved
@@ -253,6 +261,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Germany’s former spy chief faces allegations as intelligence powers expand — revision 1
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
+  - Stage: brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/02-Briefs/2026-10-14-hanning-intelligence-powers/brief.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `0af066faf214494e133b084a6a673a8c98808ab1a9d72aa06b925a682e2b23ad`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/02-Briefs/2026-10-14-hanning-intelligence-powers/brief-checks.json`
+
 - [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
   - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
   - Stage: brief checked internally; not human-approved
@@ -493,6 +509,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Hanning spy case: Germany seeks wider intelligence powers — revision 1
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
+  - Stage: seo checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/03-SEO/2026-10-14-hanning-intelligence-powers/seo.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `960545bd64880c51dd17c758091c780735da6258530947810274476a04262d92`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/03-SEO/2026-10-14-hanning-intelligence-powers/seo-checks.json`
 
 - [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
   - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
@@ -748,6 +772,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Hanning spy case: Germany seeks wider intelligence powers — revision 2
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 2; final-review; News
+  - Stage: draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/04-Drafts/2026-10-14-hanning-intelligence-powers/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `3b52acf9bf3b39874949f3455aa1c3282291f529e5aae3799f01a66860d14871`
+  - Payload SHA-256: `ffa5b16dbeccbc3434bc48f8e098b49bc7166345da87237c8e0a09801f87443f`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/04-Drafts/2026-10-14-hanning-intelligence-powers/draft-revision-2-checks.json`
+
+- [x] Hanning spy case: Germany seeks wider intelligence powers — revision 1
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
+  - Stage: draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/04-Drafts/2026-10-14-hanning-intelligence-powers/draft.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `7bcb7e243b8cf3160c662131c4d639ca8b1999dacf04be97f1d836bbf0bbb65a`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/04-Drafts/2026-10-14-hanning-intelligence-powers/draft-checks.json`
 
 - [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
   - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
@@ -1066,6 +1107,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Hanning spy case: Germany seeks wider intelligence powers — revision 2
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 2; final-review; News
+  - Stage: creative-edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/05-Reviews/2026-10-14-hanning-intelligence-powers/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `ec9390de806a81ca08fe7dc500c73625761314c457ddae9e6a9ba132a5d51f3b`
+  - Payload SHA-256: `ffa5b16dbeccbc3434bc48f8e098b49bc7166345da87237c8e0a09801f87443f`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/05-Reviews/2026-10-14-hanning-intelligence-powers/creative-edit-revision-2-checks.json`
+
+- [x] Hanning spy case: Germany seeks wider intelligence powers — revision 1
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
+  - Stage: creative-edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/05-Reviews/2026-10-14-hanning-intelligence-powers/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `72ea8b0fa1d3e71d8018faf1b3eac53b050f811bd774532d401b93058bb1860e`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/05-Reviews/2026-10-14-hanning-intelligence-powers/creative-edit-checks.json`
 
 - [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
   - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
@@ -1396,6 +1454,23 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Hanning spy case: Germany seeks wider intelligence powers — revision 2
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 2; final-review; News
+  - Stage: proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/05-Reviews/2026-10-14-hanning-intelligence-powers/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `0099499e4a6d46b16af9ca625978556f6d03a56da84c46990d0acc659257ece7`
+  - Payload SHA-256: `ffa5b16dbeccbc3434bc48f8e098b49bc7166345da87237c8e0a09801f87443f`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/05-Reviews/2026-10-14-hanning-intelligence-powers/proofread-revision-2-checks.json`
+
+- [x] Hanning spy case: Germany seeks wider intelligence powers — revision 1
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
+  - Stage: proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/05-Reviews/2026-10-14-hanning-intelligence-powers/proofread.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `e375083c3e3630a599e5c1706dfcdc668765dcd1876e71629db4b504444c3fdc`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/05-Reviews/2026-10-14-hanning-intelligence-powers/proofread-checks.json`
+
 - [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
   - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
   - Stage: proofread checked internally; not human-approved
@@ -1718,6 +1793,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Hanning spy case: Germany seeks wider intelligence powers — revision 2
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 2; final-review; News
+  - Stage: design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/06-Design/2026-10-14-hanning-intelligence-powers/design-revision-2.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `7e852e1bd95df23747a175133db9b4670e841ee58c0f8151548397071a484834`
+  - Payload SHA-256: `ffa5b16dbeccbc3434bc48f8e098b49bc7166345da87237c8e0a09801f87443f`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/06-Design/2026-10-14-hanning-intelligence-powers/design-revision-2-checks.json`
+
+- [x] Hanning spy case: Germany seeks wider intelligence powers — revision 1
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
+  - Stage: design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/06-Design/2026-10-14-hanning-intelligence-powers/design.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `2823e3e6d8587ade61dc3c872d2801d1c711a7029337f7561434929959800a68`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/06-Design/2026-10-14-hanning-intelligence-powers/design-checks.json`
 
 - [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
   - Candidate: `2026-10-13-drc-wildlife-return`; revision 1; final-review mode; News
@@ -2065,6 +2157,23 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Hanning spy case: Germany seeks wider intelligence powers — revision 2
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; News; workflow_mode final-review
+  - Status: published locally; Hanning-only commit/push and task cleanup authorised; deployment pending
+  - Content: `content/news/hanning-spy-case-german-intelligence-powers.md`
+  - Route: `/news/hanning-spy-case-german-intelligence-powers/`
+  - Archive: `99-Archive/published/2026-10-14-hanning-intelligence-powers`; 178-file movement verified; private evidence local-only
+  - Approval: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval-revision-2.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - Reviewed snapshot: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval-revision-2-reviewed.md`; SHA-256 `6e8e76d3e4f6ad02cbe3789358182ef914909001db295be6e2c8221a3ffdf34a`
+  - Current decision packet SHA-256: `7f9e58661f160219e2d756f2dfe75767e559433b3f92c1591b192cf4815cbb5d`
+  - Approved payload SHA-256: `ffa5b16dbeccbc3434bc48f8e098b49bc7166345da87237c8e0a09801f87443f`; public file SHA-256 `547f52b20e7eaa6bf0311fc164fe0b70c9a92187562e22c3cd2e80f7f9420b88`
+  - Decision: Approve at `2026-10-14T10:57:42.967130+02:00`; 917-word length accepted; local publication, commit, push and cleanup explicitly authorised; Moon excluded
+  - Checks: approved body/metadata/six Sources preserved; normal production and checkout browser; home/News/article 200; Moon absent from 578 text outputs
+  - Limits: inherited coffee-badge text obstruction and 320px shell overflow; no shared changes
+  - Cleanup: complete workflow archived and bytes verified; task server/cache cleanup pending verified deployment
+  - Next: verify exact Hanning commit deployment/live article and clean only its preview; Moon stays excluded
 
 - [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
   - Candidate: `2026-10-13-drc-wildlife-return`; News; workflow_mode final-review
@@ -2505,6 +2614,18 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] Hanning spy case: Germany seeks wider intelligence powers — revision 1
+  - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
+  - Stage: final-approval historical; Request changes; superseded by revision 2
+  - Artifact: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval-revision-1-reviewed.md`
+  - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+  - SHA-256: `49e8d24c5c26ea320024acf74e19af3bcdaa5202a8541271c44a4b015bf06149`
+  - Checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/final-approval-checks.json`
+  - Payload SHA-256: `32dcbdc51df281a7935988f5021dfbe3b2b032ec452f9c193bfe998b4911b4e0`
+  - Preview: `http://127.0.0.1:1313/news/hanning-spy-case-german-intelligence-powers/?local-review=1`; isolated, direct-route-only; packet and complete source package ready
+  - Closing checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/closing-checks.json`
+  - Boundary: Approve = exact reviewed local publication only; no commit, push or deploy
 
 - [ ] Your bank balance: what is that money, actually?
   - Candidate: `2026-10-13-bank-balance-money-creation`; revision 1; final-review mode; Blog / Money

@@ -16,7 +16,32 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
+
 ## Approved
+
+### Hanning spy case: Germany seeks wider intelligence powers — revision 2
+
+- Candidate: `2026-10-14-hanning-intelligence-powers`; revision 2; News; workflow_mode final-review
+- Decision: Approve by Sophie at `2026-10-14T10:57:42.967130+02:00`; 917-word length accepted; Hanning-only local publication, commit, push and task cleanup authorised; Moon excluded
+- Status: published locally; deployment pending; exact approved revision retained
+- Public article: `content/news/hanning-spy-case-german-intelligence-powers.md`
+- Live route: `https://dadbot.blog/news/hanning-spy-case-german-intelligence-powers/` (not yet verified)
+- Package: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval-revision-2.md`
+- Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+- Archive: `99-Archive/published/2026-10-14-hanning-intelligence-powers`; private evidence local-only; all 178 moved files verified
+- Reviewed snapshot: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval-revision-2-reviewed.md`; SHA-256 `6e8e76d3e4f6ad02cbe3789358182ef914909001db295be6e2c8221a3ffdf34a`
+- Current decision packet SHA-256: `7f9e58661f160219e2d756f2dfe75767e559433b3f92c1591b192cf4815cbb5d`
+- Approved payload SHA-256: `ffa5b16dbeccbc3434bc48f8e098b49bc7166345da87237c8e0a09801f87443f`; public file SHA-256 `547f52b20e7eaa6bf0311fc164fe0b70c9a92187562e22c3cd2e80f7f9420b88`
+- Body: 917 citation-stripped words; shorter-length exception accepted; same title/description/tags/TL;DR
+- Verification: clean public extraction; normal build and checkout HTTP/browser; homepage/News/article and six Sources; no Moon route/feed/search leak
+- Limits: inherited coffee-badge text obstruction and 320px shell overflow; no shared design change
+- Cleanup: complete source/stage/QA archive retained; task preview shutdown/removal pending verified deployment
+- Next: verify exact Hanning-only deployment, then clean its preview; Moon excluded
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
 
 ### Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
 
@@ -871,6 +896,33 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 ## Revision History
 
+### Hanning spy case: Germany seeks wider intelligence powers — revision 1
+
+- Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; News; workflow_mode final-review
+- Status: historical; Request changes; superseded by revision 2; not published
+- Package: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval-revision-1-reviewed.md`
+- Current revision-1 decision packet: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval.md`; SHA-256 `720be05fd539b02cd7365616c36bf93773f5d31a82265e2c926e7a0d99336052`
+- Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
+- Preview source: `99-Archive/published/2026-10-14-hanning-intelligence-powers/06-Design/2026-10-14-hanning-intelligence-powers/preview-source.md`
+- Preview: `http://127.0.0.1:1313/news/hanning-spy-case-german-intelligence-powers/?local-review=1`; direct-route-only; isolated full existing-content mirror; opened in desktop pane
+- Stable root: `/home/markhickinson/.cache/dadbot-local-previews/2026-10-14-hanning-intelligence-powers`; Hugo PID 39475; session proc_2d076769a89b; loopback 1313
+- Complete packet SHA-256: `49e8d24c5c26ea320024acf74e19af3bcdaa5202a8541271c44a4b015bf06149`
+- Canonical article payload SHA-256: `32dcbdc51df281a7935988f5021dfbe3b2b032ec452f9c193bfe998b4911b4e0`; surrounding newlines excluded; H1/caveat/source links retained
+- Clean preview body SHA-256: `c101209be2bc516e11b6aca65357859e296e4d335b4c24cb0e186be779de39c5`; only duplicate Markdown H1 removed
+- Preview source SHA-256: `312dd920ab9e8f3cbb6f3a032db8e7f421b5da57c5f8ceb8d748f0afc5f460b8`
+- Body: 1,125 citation-stripped prose words; no exception; Hugo full page 1,244 words / 6 minutes
+- Checks: eight stage contracts/evidence/builds, source refresh, exact quote checks, payload equality, production isolation, 10 editorial tests, 30 browser geometry cases, six source anchors and native keyboard probes; exact logs beside the stage artifacts
+- Closing checks: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/closing-checks.json`
+- Limitations: prosecution allegations; dated detention; unresolved countries/delivery/damage; unfinished bill outcome; shared coffee-badge text obstruction at phone/tablet and 31px shell overflow at 320px, reproduced on approved sibling
+- Blockers: none article-specific; existing design limitations disclosed, not repaired
+- Boundary: Approve means exact reviewed local publication only; no commit, push or deployment
+- Decision: Request changes at 2026-10-14T10:36:38.525463+02:00; immutable snapshot `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval-revision-1-reviewed.md`
+- Next: revision 2; old preview/checks are historical
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
 ### Your bank balance: what is that money, actually? — revision 2
 
 - Candidate: `2026-10-13-bank-balance-money-creation`; revision 2; Blog / Money; final-review mode
