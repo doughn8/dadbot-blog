@@ -23,20 +23,21 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 2; News; workflow_mode final-review
 - Decision: Approve by Sophie at `2026-10-14T10:57:42.967130+02:00`; 917-word length accepted; Hanning-only local publication, commit, push and task cleanup authorised; Moon excluded
-- Status: published locally; deployment pending; exact approved revision retained
+- Status: published live; Hanning-only release verified; cleanup complete; exact approved revision retained
 - Public article: `content/news/hanning-spy-case-german-intelligence-powers.md`
-- Live route: `https://dadbot.blog/news/hanning-spy-case-german-intelligence-powers/` (not yet verified)
+- Live route: `https://dadbot.blog/news/hanning-spy-case-german-intelligence-powers/` (verified)
 - Package: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval-revision-2.md`
 - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
 - Archive: `99-Archive/published/2026-10-14-hanning-intelligence-powers`; private evidence local-only; all 178 moved files verified
 - Reviewed snapshot: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval-revision-2-reviewed.md`; SHA-256 `6e8e76d3e4f6ad02cbe3789358182ef914909001db295be6e2c8221a3ffdf34a`
-- Current decision packet SHA-256: `7f9e58661f160219e2d756f2dfe75767e559433b3f92c1591b192cf4815cbb5d`
+- Current decision packet SHA-256: `f63d27af38eba0afcd541371aa9a26c015ef396e87acf2212e36e0680fb08a8a`
 - Approved payload SHA-256: `ffa5b16dbeccbc3434bc48f8e098b49bc7166345da87237c8e0a09801f87443f`; public file SHA-256 `547f52b20e7eaa6bf0311fc164fe0b70c9a92187562e22c3cd2e80f7f9420b88`
 - Body: 917 citation-stripped words; shorter-length exception accepted; same title/description/tags/TL;DR
 - Verification: clean public extraction; normal build and checkout HTTP/browser; homepage/News/article and six Sources; no Moon route/feed/search leak
 - Limits: inherited coffee-badge text obstruction and 320px shell overflow; no shared design change
-- Cleanup: complete source/stage/QA archive retained; task preview shutdown/removal pending verified deployment
-- Next: verify exact Hanning-only deployment, then clean its preview; Moon excluded
+- Cleanup: complete source/stage/QA archive retained; exact task cache removed and owned preview/QA processes stopped; ports closed
+- GitHub / Live: product `6a2e22bfb20328443f31487f3fe894458b80b2c6`; Pages run `38540537930` build/deploy success; full approved body and six Sources verified; Moon HTTP 404
+- Next: no further Hanning editorial work; final-HEAD verification receipt stays in local archive; Moon excluded
 
 - [x] Approve
 - [ ] Request changes

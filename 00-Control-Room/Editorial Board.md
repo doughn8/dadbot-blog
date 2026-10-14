@@ -2160,20 +2160,21 @@ See also: [[Approval Queue]]
 
 - [x] Hanning spy case: Germany seeks wider intelligence powers — revision 2
   - Candidate: `2026-10-14-hanning-intelligence-powers`; News; workflow_mode final-review
-  - Status: published locally; Hanning-only commit/push and task cleanup authorised; deployment pending
+  - Status: published live; Hanning-only release verified; cleanup complete
   - Content: `content/news/hanning-spy-case-german-intelligence-powers.md`
   - Route: `/news/hanning-spy-case-german-intelligence-powers/`
   - Archive: `99-Archive/published/2026-10-14-hanning-intelligence-powers`; 178-file movement verified; private evidence local-only
   - Approval: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval-revision-2.md`
   - Run: `99-Archive/published/2026-10-14-hanning-intelligence-powers/01-Ideas/2026-10-14-hanning-intelligence-powers/run.md`
   - Reviewed snapshot: `99-Archive/published/2026-10-14-hanning-intelligence-powers/07-Approval/2026-10-14-hanning-intelligence-powers/approval-revision-2-reviewed.md`; SHA-256 `6e8e76d3e4f6ad02cbe3789358182ef914909001db295be6e2c8221a3ffdf34a`
-  - Current decision packet SHA-256: `7f9e58661f160219e2d756f2dfe75767e559433b3f92c1591b192cf4815cbb5d`
+  - Current decision packet SHA-256: `f63d27af38eba0afcd541371aa9a26c015ef396e87acf2212e36e0680fb08a8a`
   - Approved payload SHA-256: `ffa5b16dbeccbc3434bc48f8e098b49bc7166345da87237c8e0a09801f87443f`; public file SHA-256 `547f52b20e7eaa6bf0311fc164fe0b70c9a92187562e22c3cd2e80f7f9420b88`
   - Decision: Approve at `2026-10-14T10:57:42.967130+02:00`; 917-word length accepted; local publication, commit, push and cleanup explicitly authorised; Moon excluded
   - Checks: approved body/metadata/six Sources preserved; normal production and checkout browser; home/News/article 200; Moon absent from 578 text outputs
   - Limits: inherited coffee-badge text obstruction and 320px shell overflow; no shared changes
-  - Cleanup: complete workflow archived and bytes verified; task server/cache cleanup pending verified deployment
-  - Next: verify exact Hanning commit deployment/live article and clean only its preview; Moon stays excluded
+  - Cleanup: complete workflow/source/QA archive preserved; exact task preview cache removed and owned processes/ports closed
+  - GitHub / Live: product `6a2e22bfb20328443f31487f3fe894458b80b2c6`; Pages run `38540537930` build/deploy success; exact approved body/six Sources/home/News verified; Moon HTTP 404
+  - Next: no further Hanning editorial work; final-HEAD verification receipt stays in local archive; Moon excluded
 
 - [x] Wildlife returns to DRC forests — and a rescued gorilla becomes a mother — revision 1
   - Candidate: `2026-10-13-drc-wildlife-return`; News; workflow_mode final-review
