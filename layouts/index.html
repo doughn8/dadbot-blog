@@ -57,7 +57,7 @@
             <div class="post-card-content">
               <h3 class="post-card-title">{{ .Title | markdownify }}</h3>
               <p class="post-card-summary">
-                {{ if .Description }}{{ .Description | truncate 110 }}{{ else }}{{ .Summary | plainify | truncate 110 }}{{ end }}
+                {{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | plainify }}{{ end }}
               </p>
             </div>
             {{- with .Params.tags -}}
@@ -90,7 +90,7 @@
             <div class="post-card-content">
               <h3 class="post-card-title">{{ .Title | markdownify }}</h3>
               <p class="post-card-summary">
-                {{ if .Description }}{{ .Description | truncate 110 }}{{ else }}{{ .Summary | plainify | truncate 110 }}{{ end }}
+                {{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | plainify }}{{ end }}
               </p>
             </div>
             {{- with .Params.tags -}}

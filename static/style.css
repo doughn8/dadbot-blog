@@ -929,6 +929,8 @@
 
 .content > .latest-news.recent-posts .post-card-summary,
 .content > .blog-teaser .post-card-summary {
+  /* Let the line clamp own truncation; flex growth can expose a fourth line. */
+  flex: 0 0 auto;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;

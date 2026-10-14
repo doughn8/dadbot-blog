@@ -29,6 +29,30 @@ function compactCss(css) {
   return css.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s+/g, ' ').trim();
 }
 
+test('homepage News and Blog leave summary truncation to the visual line clamp', async () => {
+  const template = await readFile(new URL('layouts/index.html', projectRoot), 'utf8');
+  const summaries = [...template.matchAll(/<p class="post-card-summary">([\s\S]*?)<\/p>/g)];
+  assert.equal(summaries.length, 2, 'Both homepage summary templates must be checked');
+  for (const [, body] of summaries) {
+    assert.doesNotMatch(body, /\btruncate\b/, 'Do not add a second, character-count ellipsis');
+    assert.match(body, /\.Description/);
+    assert.match(body, /\.Summary\s*\|\s*plainify/, 'Keep the plain-text fallback');
+  }
+});
+
+test('homepage summaries do not flex beyond their three-line clamp', async () => {
+  const styles = compactCss(await readStyles());
+  const selector = '.content > .latest-news.recent-posts .post-card-summary, .content > .blog-teaser .post-card-summary';
+  const blocks = [...styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)]
+    .filter(([, selectors]) => selectors.trim() === selector)
+    .map(([, , declarations]) => declarations);
+  const clamp = blocks.find((body) => /-webkit-line-clamp:\s*3;/.test(body));
+  assert.ok(clamp, 'Expected the exact shared homepage summary clamp');
+  assert.match(clamp, /flex:\s*0\s+0\s+auto;/,
+    'A growing summary exposes extra lines and a second ellipsis');
+  assert.match(clamp, /overflow:\s*hidden;/);
+});
+
 const standardArticleCards = String.raw`\.post-card:not\(\.book-card\)`;
 const listArticleCards = String.raw`\.posts-list-view\s+\.post-card:not\(\.book-card\)`;
 
