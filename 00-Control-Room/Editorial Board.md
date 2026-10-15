@@ -8,6 +8,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Israel reportedly blocks construction of Gaza force base — revision 1
+  - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
+  - Stage: idea checked internally; not human-approved (human final-preview approval recorded separately)
+  - Artifact: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/idea.md`
+  - Run: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/run.md`
+  - Current artifact SHA-256: `992aa5a641d7a77e35261517aa8eb6167f924f711e8c698061e84e11d0d918d9`; original checked-stage hashes retained in archived checks
+  - Next: completed; published locally; bounded release in progress
+
+
 - [x] Germany’s former spy chief faces allegations as intelligence powers expand — revision 1
   - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
   - Stage: idea checked internally; not human-approved
@@ -261,6 +270,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Israel reportedly blocks construction of Gaza force base — revision 1
+  - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
+  - Stage: brief checked internally; not human-approved (human final-preview approval recorded separately)
+  - Artifact: `99-Archive/published/2026-10-15-gaza-base-construction/02-Briefs/2026-10-15-gaza-base-construction/brief.md`
+  - Run: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/run.md`
+  - Current artifact SHA-256: `ba7ba9a4474fad3bf7f8a3ac4acad9cffcd83b757c7ed5f696366d92e9b496ee`; original checked-stage hashes retained in archived checks
+  - Next: completed; published locally; bounded release in progress
+
+
 - [x] Germany’s former spy chief faces allegations as intelligence powers expand — revision 1
   - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
   - Stage: brief checked internally; not human-approved
@@ -509,6 +527,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Israel reportedly blocks construction of Gaza force base — revision 1
+  - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
+  - Stage: seo checked internally; not human-approved (human final-preview approval recorded separately)
+  - Artifact: `99-Archive/published/2026-10-15-gaza-base-construction/03-SEO/2026-10-15-gaza-base-construction/seo.md`
+  - Run: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/run.md`
+  - Current artifact SHA-256: `17ef52825499d33b131cd93a51172b1e5b8592bcdd6d14d28bbcb0cc2e50169a`; original checked-stage hashes retained in archived checks
+  - Next: completed; published locally; bounded release in progress
+
 
 - [x] Hanning spy case: Germany seeks wider intelligence powers — revision 1
   - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
@@ -772,6 +799,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Israel reportedly blocks construction of Gaza force base — revision 1
+  - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
+  - Stage: draft checked internally; not human-approved (human final-preview approval recorded separately)
+  - Artifact: `99-Archive/published/2026-10-15-gaza-base-construction/04-Drafts/2026-10-15-gaza-base-construction/draft.md`
+  - Run: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/run.md`
+  - Current artifact SHA-256: `e69b1d4701f8d1467af4f4dfbcc138a1f2ba06455cd686efe472270b10214478`; original checked-stage hashes retained in archived checks
+  - Next: completed; published locally; bounded release in progress
+
 
 - [x] Hanning spy case: Germany seeks wider intelligence powers — revision 2
   - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 2; final-review; News
@@ -1107,6 +1143,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Israel reportedly blocks construction of Gaza force base — revision 1
+  - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
+  - Stage: creative-edit checked internally; not human-approved (human final-preview approval recorded separately)
+  - Artifact: `99-Archive/published/2026-10-15-gaza-base-construction/05-Reviews/2026-10-15-gaza-base-construction/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/run.md`
+  - Current artifact SHA-256: `1899a2aacef20148755bc98437d8e86884164d926454efc40f34a49412e14525`; original checked-stage hashes retained in archived checks
+  - Next: completed; published locally; bounded release in progress
+
 
 - [x] Hanning spy case: Germany seeks wider intelligence powers — revision 2
   - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 2; final-review; News
@@ -1454,6 +1499,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Israel reportedly blocks construction of Gaza force base — revision 1
+  - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
+  - Stage: proofread checked internally; not human-approved (human final-preview approval recorded separately)
+  - Artifact: `99-Archive/published/2026-10-15-gaza-base-construction/05-Reviews/2026-10-15-gaza-base-construction/proofread.md`
+  - Run: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/run.md`
+  - Current artifact SHA-256: `5459b9fbb918aee9341be1918a4088add4248e39d1a51c637871e77badd24fd6`; original checked-stage hashes retained in archived checks
+  - Next: completed; published locally; bounded release in progress
+
+
 - [x] Hanning spy case: Germany seeks wider intelligence powers — revision 2
   - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 2; final-review; News
   - Stage: proofread checked internally; not human-approved
@@ -1793,6 +1847,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Israel reportedly blocks construction of Gaza force base — revision 1
+  - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
+  - Stage: design checked internally; not human-approved (human final-preview approval recorded separately)
+  - Artifact: `99-Archive/published/2026-10-15-gaza-base-construction/06-Design/2026-10-15-gaza-base-construction/design.md`
+  - Run: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/run.md`
+  - Current artifact SHA-256: `79ede47d5bd7e78911dd99731f60d69536fd5e99ef00e4a53deb1d56f20421f1`; original checked-stage hashes retained in archived checks
+  - Next: completed; published locally; bounded release in progress
+
 
 - [x] Hanning spy case: Germany seeks wider intelligence powers — revision 2
   - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 2; final-review; News
@@ -2157,6 +2220,30 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Israel reportedly blocks construction of Gaza force base — revision 1
+  - Candidate: `2026-10-15-gaza-base-construction`; revision 1; News; workflow_mode final-review
+  - Decision: Approve exact direct local preview; “im really happy with that lets commit, push and clean up”; recorded `2026-10-15T09:51:45.838073+02:00`
+  - Separate authority: local publication, candidate-only commit, push main/deploy, task-owned cleanup; unrelated Moon bookkeeping excluded
+  - Status: published locally; article-only release in progress; not yet verified live
+  - Public article: `content/news/2026-10-15-israel-gaza-base-construction.md`
+  - Canonical route: `https://dadbot.blog/news/israel-gaza-base-construction/`
+  - Package: `99-Archive/published/2026-10-15-gaza-base-construction/07-Approval/2026-10-15-gaza-base-construction/approval.md`
+  - Run: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/run.md`
+  - Archive: `99-Archive/published/2026-10-15-gaza-base-construction`; complete private research/stages/evidence retained local-only; 136 moved files byte-verified
+  - Reviewed source: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/release/reviewed-preview-source.md`; SHA-256 `fe20271637932c229fc43dd3b193afe2f3c8a087879f56ab2353dabb5a380e78`
+  - Assembled-before-decision-record packet: `99-Archive/published/2026-10-15-gaza-base-construction/07-Approval/2026-10-15-gaza-base-construction/approval-assembled-before-decision-record.md`; SHA-256 `b0d985e63dc6ac39d0666f3fecbc23f4f9cee9b9570909e7231ff662e2c60bd2`; user reviewed preview, not this later wrapper
+  - Current decision packet SHA-256: `19eba6f228506ab147bc28fd1be73746a597ef35f1e3bdf999a5d9f49d91456c`
+  - Approved payload SHA-256: `ffc93b027f13ab3628a6e942a557839222deaf6bbe7f29fad5d76e7f09e08eb7`; public file SHA-256 `db3c15893b3151491487b482b9194ee45ed679725316343de9b4981711c89e3c`
+  - Body: 1,015 citation-stripped prose words; exact reviewed title/description/tags/TL;DR; no length exception
+  - Checks: eight stages, source refresh, exact payload preservation, production build/local HTTP/browser; Node 22: 260 passed; Python 3.11: 16 passed
+  - Limits: single-source central report clearly attributed; inherited coffee-badge obstruction and 320px shell overflow; pane automation unavailable, human accepted direct preview
+  - Next: verify GitHub deployment and live payload, then stop owned preview/QA and remove disposable task cache
+  - [x] Approve
+  - [ ] Request changes
+  - [ ] Reject
+  - [ ] Hold
+
 
 - [x] Hanning spy case: Germany seeks wider intelligence powers — revision 2
   - Candidate: `2026-10-14-hanning-intelligence-powers`; News; workflow_mode final-review

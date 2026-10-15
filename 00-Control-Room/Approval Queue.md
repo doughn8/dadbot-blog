@@ -19,6 +19,32 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Israel reportedly blocks construction of Gaza force base — revision 1
+
+- Candidate: `2026-10-15-gaza-base-construction`; revision 1; News; workflow_mode final-review
+- Decision: Approve exact direct local preview; “im really happy with that lets commit, push and clean up”; recorded `2026-10-15T09:51:45.838073+02:00`
+- Separate authority: local publication, candidate-only commit, push main/deploy, task-owned cleanup; unrelated Moon bookkeeping excluded
+- Status: published locally; article-only release in progress; not yet verified live
+- Public article: `content/news/2026-10-15-israel-gaza-base-construction.md`
+- Canonical route: `https://dadbot.blog/news/israel-gaza-base-construction/`
+- Package: `99-Archive/published/2026-10-15-gaza-base-construction/07-Approval/2026-10-15-gaza-base-construction/approval.md`
+- Run: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/run.md`
+- Archive: `99-Archive/published/2026-10-15-gaza-base-construction`; complete private research/stages/evidence retained local-only; 136 moved files byte-verified
+- Reviewed source: `99-Archive/published/2026-10-15-gaza-base-construction/01-Ideas/2026-10-15-gaza-base-construction/release/reviewed-preview-source.md`; SHA-256 `fe20271637932c229fc43dd3b193afe2f3c8a087879f56ab2353dabb5a380e78`
+- Assembled-before-decision-record packet: `99-Archive/published/2026-10-15-gaza-base-construction/07-Approval/2026-10-15-gaza-base-construction/approval-assembled-before-decision-record.md`; SHA-256 `b0d985e63dc6ac39d0666f3fecbc23f4f9cee9b9570909e7231ff662e2c60bd2`; user reviewed preview, not this later wrapper
+- Current decision packet SHA-256: `19eba6f228506ab147bc28fd1be73746a597ef35f1e3bdf999a5d9f49d91456c`
+- Approved payload SHA-256: `ffc93b027f13ab3628a6e942a557839222deaf6bbe7f29fad5d76e7f09e08eb7`; public file SHA-256 `db3c15893b3151491487b482b9194ee45ed679725316343de9b4981711c89e3c`
+- Body: 1,015 citation-stripped prose words; exact reviewed title/description/tags/TL;DR; no length exception
+- Checks: eight stages, source refresh, exact payload preservation, production build/local HTTP/browser; Node 22: 260 passed; Python 3.11: 16 passed
+- Limits: single-source central report clearly attributed; inherited coffee-badge obstruction and 320px shell overflow; pane automation unavailable, human accepted direct preview
+- Next: verify GitHub deployment and live payload, then stop owned preview/QA and remove disposable task cache
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
 ### Hanning spy case: Germany seeks wider intelligence powers — revision 2
 
 - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 2; News; workflow_mode final-review
