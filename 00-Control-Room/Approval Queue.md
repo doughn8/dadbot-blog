@@ -16,8 +16,25 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
-
 ## Approved
+
+### Tesla’s flying Roadster: amazing, but practical? — revision 2
+
+- Candidate: `2026-10-17-tesla-flying-roadster`; revision 2; Blog / Tech; final-review
+- Decision: Approve exact visible revision-2 preview; “ok great commit, push and clean up”; 2026-10-17T11:55:06.271946+02:00
+- Authority: accepted 937-word length and per-claim sourcing exceptions; local publication, candidate-only commit, push/main deployment verification and task cleanup
+- Status: published locally; release authorised; not yet pushed/live
+- Content: `content/posts/tesla-flying-roadster-practicality.md`
+- Package: `99-Archive/published/2026-10-17-tesla-flying-roadster/07-Approval/2026-10-17-tesla-flying-roadster/approval-revision-2.md`
+- Run: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/run.md`
+- Actual reviewed source: `99-Archive/published/2026-10-17-tesla-flying-roadster/07-Approval/2026-10-17-tesla-flying-roadster/approved-preview-source-revision-2-reviewed.md`; SHA-256 `f7d4552c7e5b98c12b44c95b2bc873f6cfc89e95cc3cbfa75ae956aaf1f48387`
+- Assembled-before-decision packet: `99-Archive/published/2026-10-17-tesla-flying-roadster/07-Approval/2026-10-17-tesla-flying-roadster/approval-revision-2-assembled-before-decision-record.md`; SHA-256 `699b79bd9a8cc8651f7e4b36c4c79e5588070e2631c2a52dd018e847c3a6c77b`
+- Approved payload SHA-256: `39c31c29db2daacb634342e8b9eb6114bda1897767397e787929143f97ece9ae`; public file SHA-256 `0279245426299615967a65a5e552c381f476a4b72238f8fcf7b8b14793442a30`
+- Body: 937 prose words; 1,032 rendered / 5 minutes; numerical coverage remains 31/67 (46%), accepted per-claim alternative
+- Checks: remaining review stages completed without copy changes; four-source integrity/quote/claim audit; production build, homepage/Blog/article HTTP/browser; Node 22: 260 passed; Python 3.11: 16 passed
+- Limits: attributed product terms after primary access denial; existing coffee-badge obstruction/320px shell overflow
+- Next: candidate-only commit/push; exact-SHA workflow and complete live content verification
+
 
 ### Israel reportedly blocks construction of Gaza force base — revision 1
 
@@ -925,6 +942,17 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### Tesla’s flying Roadster: amazing, but practical? — revision 1 — superseded
+
+- Candidate: `2026-10-17-tesla-flying-roadster`; revision 1; Request changes at 2026-10-17T11:31:27.154211+02:00
+- Reviewed packet: `99-Archive/published/2026-10-17-tesla-flying-roadster/07-Approval/2026-10-17-tesla-flying-roadster/approval-revision-1-reviewed.md`; SHA-256 `7ee245b23e3f85efc9caab8ebbdc38c751a5a1d72d2b29ba74b2399783dfd75d`
+- Reviewed payload SHA-256: `6113395293077f8f1fdbba15585f5cfece4fddb85c10eec43905e7aedbfd637c`
+- Decision-bearing packet: `99-Archive/published/2026-10-17-tesla-flying-roadster/07-Approval/2026-10-17-tesla-flying-roadster/approval.md`; SHA-256 `a87e4e3bdfa71370643640dce0743bcfa65a0a4272a4e871927f2e831785d794`
+- User request: one tone pass; remove repeated paragraph-ending caveats; EU context only
+- Status: superseded; no publication authority; revision 2 in progress
+
+
 
 ### Hanning spy case: Germany seeks wider intelligence powers — revision 1
 

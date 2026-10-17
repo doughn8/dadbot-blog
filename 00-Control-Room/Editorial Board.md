@@ -1,5 +1,4 @@
 # Editorial Board
-
 > **New final-review runs (038):** follow `Dadbot Workflow.md`, “New runs: final-review contract”. Identify candidate ID/revision/run record; stage checkboxes mean completed/checked, not human-approved. Final Queue choices: Approve / Request changes / Reject / Hold; Approve means the agreed local publication only. Record payload hash and real decision separately. Existing entries below retain their historical meaning; do not migrate them.
 
 A simple Obsidian board for tracking Dadbot work.
@@ -7,6 +6,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Ideas
+
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 1
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: idea checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/idea.md`
+  - Run: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/run.md`
+  - Artifact SHA-256: `c78255b3e8f59c49e6d14c5ca71c8d3f605f76a052aa89215eab021fd957a37f`
+  - Next: Brief internally within authorised run
+
 
 - [x] Israel reportedly blocks construction of Gaza force base — revision 1
   - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
@@ -270,6 +278,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 1
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: brief checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/02-Briefs/2026-10-17-tesla-flying-roadster/brief.md`
+  - Run: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/run.md`
+  - Artifact SHA-256: `bf2e3337515bde9158793412df4d0ec8485e27582c15df7214d517193f00aff7`
+  - Next: SEO internally within authorised run
+
 - [x] Israel reportedly blocks construction of Gaza force base — revision 1
   - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
   - Stage: brief checked internally; not human-approved (human final-preview approval recorded separately)
@@ -527,6 +543,21 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: seo checked internally; metadata and EU-only heading/TL;DR updated
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/03-SEO/2026-10-17-tesla-flying-roadster/seo-revision-2.md`
+  - Artifact SHA-256: `51b9ffbf397363a28006801735802be1ded49e1057e805f78ffaf572636c6d5a`
+  - Next: Draft revision 2
+
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 1
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: seo checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/03-SEO/2026-10-17-tesla-flying-roadster/seo.md`
+  - Run: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/run.md`
+  - Artifact SHA-256: `dbe130f4748a532001260cb039ec976af30c48917e9ecc69be85d2f7eaf4b33f`
+  - Next: Draft internally within authorised run
 
 - [x] Israel reportedly blocks construction of Gaza force base — revision 1
   - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
@@ -799,6 +830,22 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: draft checked under user-accepted exceptions; exact reviewed tone/EU copy
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/04-Drafts/2026-10-17-tesla-flying-roadster/draft-revision-2.md`
+  - Artifact SHA-256: `ce4e2a1b1f019ff90d0678a894c0feb8d2ae8f55b1f5e181dd54ca1f1b91759a`
+  - Payload SHA-256: `39c31c29db2daacb634342e8b9eb6114bda1897767397e787929143f97ece9ae`
+  - Next: remaining review completed; exact preview approved and bounded release authorised
+
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 1
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: draft checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/04-Drafts/2026-10-17-tesla-flying-roadster/draft.md`
+  - Run: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/run.md`
+  - Artifact SHA-256: `28daef7455b4720029fc1b2b45facf8ba794216369a05b0ef41f1a47efe5906e`
+  - Next: Creative Edit internally within authorised run
 
 - [x] Israel reportedly blocks construction of Gaza force base — revision 1
   - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
@@ -1143,6 +1190,22 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: creative-edit checked internally; accepted 937-word/per-claim exceptions
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/05-Reviews/2026-10-17-tesla-flying-roadster/creative-edit-revision-2.md`
+  - Artifact SHA-256: `18a1708edd90f275006b3e9e501361f294cca82ca33bc16d320cb6384b845754`
+  - Payload SHA-256: `39c31c29db2daacb634342e8b9eb6114bda1897767397e787929143f97ece9ae`
+  - Next: Proofread within separately recorded release authority; no new prose
+
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 1
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: creative-edit checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/05-Reviews/2026-10-17-tesla-flying-roadster/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/run.md`
+  - Artifact SHA-256: `93261fc9c69dfecfde6126bad29e680954a808e59501186d24d25adbdbc99805`
+  - Next: Proofread internally within authorised run
 
 - [x] Israel reportedly blocks construction of Gaza force base — revision 1
   - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
@@ -1499,6 +1562,22 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: proofread checked internally; accepted 937-word/per-claim exceptions
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/05-Reviews/2026-10-17-tesla-flying-roadster/proofread-revision-2.md`
+  - Artifact SHA-256: `b31074b39d353da9db623cc8cbdb66ad43eabc02d8395664ab52b0a2831c29e7`
+  - Payload SHA-256: `39c31c29db2daacb634342e8b9eb6114bda1897767397e787929143f97ece9ae`
+  - Next: Design within separately recorded release authority; no new prose
+
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 1
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: proofread checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/05-Reviews/2026-10-17-tesla-flying-roadster/proofread.md`
+  - Run: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/run.md`
+  - Artifact SHA-256: `746e640d95239c47f87b182beb8049422b76c3f42baf6c7fc4169b69ebd548b4`
+  - Next: Design internally within authorised run
+
 - [x] Israel reportedly blocks construction of Gaza force base — revision 1
   - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
   - Stage: proofread checked internally; not human-approved (human final-preview approval recorded separately)
@@ -1848,6 +1927,22 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Design
 
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: design checked internally; accepted 937-word/per-claim exceptions
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/06-Design/2026-10-17-tesla-flying-roadster/design-revision-2.md`
+  - Artifact SHA-256: `d9f61edede1faf53e0072d5f21bd42e319936855366155bd9554f9ea112f0de1`
+  - Payload SHA-256: `39c31c29db2daacb634342e8b9eb6114bda1897767397e787929143f97ece9ae`
+  - Next: Final Approval within separately recorded release authority; no new prose
+
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 1
+  - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
+  - Stage: design checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-17-tesla-flying-roadster/06-Design/2026-10-17-tesla-flying-roadster/design.md`
+  - Run: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/run.md`
+  - Artifact SHA-256: `b21656a4be28ba63514b266b0356c386dea10a764726948b344e5f795093b98d`
+  - Next: Final Approval internally within authorised run
+
 - [x] Israel reportedly blocks construction of Gaza force base — revision 1
   - Candidate: `2026-10-15-gaza-base-construction`; final-review; News
   - Stage: design checked internally; not human-approved (human final-preview approval recorded separately)
@@ -2189,6 +2284,8 @@ A simple Obsidian board for tracking Dadbot work.
 
 
 
+
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
@@ -2220,6 +2317,18 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
+  - Candidate: `2026-10-17-tesla-flying-roadster`; Blog / Tech; final-review
+  - Status: published locally; exact reviewed EU-only revision approved; commit/push/cleanup authorised
+  - Content: `content/posts/tesla-flying-roadster-practicality.md`
+  - Approval: `99-Archive/published/2026-10-17-tesla-flying-roadster/07-Approval/2026-10-17-tesla-flying-roadster/approval-revision-2.md`
+  - Run: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/run.md`
+  - Approved payload SHA-256: `39c31c29db2daacb634342e8b9eb6114bda1897767397e787929143f97ece9ae`
+  - Body: 937 prose words; accepted shorter-length and per-claim sourcing exceptions; numerical score retained as 31/67 (46%)
+  - Checks: exact source/metadata, production/local HTTP/browser, four Sources; Node 22: 260 tests; Python 3.11: 16 tests
+  - Limits: inherited badge obstruction/320px shell overflow; no shared design change
+  - Next: approved bounded commit/push and exact-SHA deployment/live verification
 
 - [x] Israel reportedly blocks construction of Gaza force base — revision 1
   - Candidate: `2026-10-15-gaza-base-construction`; revision 1; News; workflow_mode final-review
@@ -2637,6 +2746,7 @@ _Approved content moved into `content/`; completed editorial history moved into 
 
 ## Revision Needed
 
+
 - [x] Chemistry Nobel honours research into molecular mirror images
   - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
   - Stage: Historical Final Approval; Request changes; superseded
@@ -2705,6 +2815,12 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] Tesla’s flying Roadster: amazing, but practical? — revision 1 — superseded
+  - Candidate: `2026-10-17-tesla-flying-roadster`; Request changes
+  - Reviewed packet: `99-Archive/published/2026-10-17-tesla-flying-roadster/07-Approval/2026-10-17-tesla-flying-roadster/approval-revision-1-reviewed.md`; SHA-256 `7ee245b23e3f85efc9caab8ebbdc38c751a5a1d72d2b29ba74b2399783dfd75d`
+  - Reviewed payload SHA-256: `6113395293077f8f1fdbba15585f5cfece4fddb85c10eec43905e7aedbfd637c`
+  - Decision: remove repeated cautions; EU-only context; revision 2 in progress; no publication
 
 - [x] Hanning spy case: Germany seeks wider intelligence powers — revision 1
   - Candidate: `2026-10-14-hanning-intelligence-powers`; revision 1; final-review mode; News
