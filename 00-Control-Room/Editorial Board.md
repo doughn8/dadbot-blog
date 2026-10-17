@@ -2320,7 +2320,7 @@ See also: [[Approval Queue]]
 
 - [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
   - Candidate: `2026-10-17-tesla-flying-roadster`; Blog / Tech; final-review
-  - Status: published locally; exact reviewed EU-only revision approved; commit/push/cleanup authorised
+  - Status: published and verified live; exact reviewed EU-only revision approved; task cleanup complete
   - Content: `content/posts/tesla-flying-roadster-practicality.md`
   - Approval: `99-Archive/published/2026-10-17-tesla-flying-roadster/07-Approval/2026-10-17-tesla-flying-roadster/approval-revision-2.md`
   - Run: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/run.md`
@@ -2328,7 +2328,8 @@ See also: [[Approval Queue]]
   - Body: 937 prose words; accepted shorter-length and per-claim sourcing exceptions; numerical score retained as 31/67 (46%)
   - Checks: exact source/metadata, production/local HTTP/browser, four Sources; Node 22: 260 tests; Python 3.11: 16 tests
   - Limits: inherited badge obstruction/320px shell overflow; no shared design change
-  - Next: approved bounded commit/push and exact-SHA deployment/live verification
+  - Product commit: `9eff80c397610448e4c2b0c2ce56684f394a0116`; Pages run `39023616068`, build/deploy successful; complete approved live body and homepage/Blog links verified
+  - Next: none for this released article; private evidence archived locally; unrelated pre-existing records remain local-only
 
 - [x] Israel reportedly blocks construction of Gaza force base — revision 1
   - Candidate: `2026-10-15-gaza-base-construction`; revision 1; News; workflow_mode final-review

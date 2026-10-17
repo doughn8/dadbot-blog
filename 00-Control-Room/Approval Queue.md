@@ -23,7 +23,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Candidate: `2026-10-17-tesla-flying-roadster`; revision 2; Blog / Tech; final-review
 - Decision: Approve exact visible revision-2 preview; “ok great commit, push and clean up”; 2026-10-17T11:55:06.271946+02:00
 - Authority: accepted 937-word length and per-claim sourcing exceptions; local publication, candidate-only commit, push/main deployment verification and task cleanup
-- Status: published locally; release authorised; not yet pushed/live
+- Status: published and verified live; authorised task cleanup complete; private research/QA archive retained locally
 - Content: `content/posts/tesla-flying-roadster-practicality.md`
 - Package: `99-Archive/published/2026-10-17-tesla-flying-roadster/07-Approval/2026-10-17-tesla-flying-roadster/approval-revision-2.md`
 - Run: `99-Archive/published/2026-10-17-tesla-flying-roadster/01-Ideas/2026-10-17-tesla-flying-roadster/run.md`
@@ -33,7 +33,8 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Body: 937 prose words; 1,032 rendered / 5 minutes; numerical coverage remains 31/67 (46%), accepted per-claim alternative
 - Checks: remaining review stages completed without copy changes; four-source integrity/quote/claim audit; production build, homepage/Blog/article HTTP/browser; Node 22: 260 passed; Python 3.11: 16 passed
 - Limits: attributed product terms after primary access denial; existing coffee-badge obstruction/320px shell overflow
-- Next: candidate-only commit/push; exact-SHA workflow and complete live content verification
+- Product commit: `9eff80c397610448e4c2b0c2ce56684f394a0116`; Pages run `39023616068`, build/deploy successful; complete live body/source links, homepage/Blog listings and real browser verified
+- Next: none for this released article; final records receipt stays in private archive; unrelated pre-existing records remain local-only
 
 
 ### Israel reportedly blocks construction of Gaza force base — revision 1
