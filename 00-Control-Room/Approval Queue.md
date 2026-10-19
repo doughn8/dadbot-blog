@@ -22,10 +22,10 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 - Candidate: `2026-10-19-ebola-nord-ubangi`; revision 2; News; final-review
 - Decision: Approve, 2026-10-19; exact user instruction “ok approved. commit, push and clean up”. Disclosed 902-word length accepted.
-- Status: published locally. Candidate-only commit/push/live verification and task cleanup authorised, not yet performed.
+- Status: published and verified live; exact approved revision 2; task cleanup complete.
 - Public source: `content/news/2026-10-19-ebola-nord-ubangi.md`
 - Package: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval-revision-2.md`
-- Current packet SHA-256: `6823d7cee73bfe23fa24356f925ae105151978735804e44b36a23943735078bb`
+- Current packet SHA-256: `5198f516939d07c833c650981837f809d568cef670253acfec65332b7bee20f1`
 - Immutable reviewed packet: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval-pending-reviewed-r2.md`
 - Reviewed packet SHA-256: `64f2c0f2673e89c5bc60fe718574acda2a4bf9e7e5bfe9ee6bb7bf8ae70a3c93`
 - Article payload SHA-256: `c6384ae241145cbd1fbc9fdd83bb18978171a135543374d3dbf3ee544ac4a132`
@@ -33,8 +33,9 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Archive: `99-Archive/published/2026-10-19-ebola-nord-ubangi/`; discovered stages byte-verified; no active bundle remains.
 - Checks: fresh production build; local article/homepage/News HTTP 200; 260 Node and 16 Python tests; 17-width Chromium and current-copy desktop-pane readback.
 - Limits: existing shared coffee-badge obstruction and 31px shell overflow at 320px remain unchanged.
-- Preview disposition: temporary checkout server; stop after successful live delivery. No promise of a running local preview after cleanup.
-- Next: no further editorial approval; complete the authorised release, preserve exact-SHA receipts locally and leave unrelated changes out.
+- Preview disposition: local server intentionally stopped; owned browsers/cache removed; desktop pane shows the verified live article.
+- Next: none editorially; final record-HEAD deployment/readback receipts stay in the private archive; unrelated changes excluded.
+- Product commit: `a9f5eeeb2c9bc1269b63a78dca5a3d715c25e698`; Pages run `39244633815`, build/deploy successful; live homepage, News and exact article body/source URLs verified.
 
 
 ### Tesla’s flying Roadster: amazing, but practical? — revision 2

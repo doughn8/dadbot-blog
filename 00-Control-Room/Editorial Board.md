@@ -2429,10 +2429,10 @@ See also: [[Approval Queue]]
 - [x] Ebola reaches an eighth province in DR Congo — revision 2
   - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
   - Decision: Approve, 2026-10-19; user accepted 902 prose words and separately authorised candidate-only commit, push and task cleanup.
-  - Status: published locally; exact approved revision, no shared design changes. GitHub/live release authorised, not yet performed.
+  - Status: published and verified live; exact approved revision 2; task cleanup complete; no shared design changes.
   - Public source: `content/news/2026-10-19-ebola-nord-ubangi.md`
   - Approval: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval-revision-2.md`
-  - Current packet SHA-256: `6823d7cee73bfe23fa24356f925ae105151978735804e44b36a23943735078bb`
+  - Current packet SHA-256: `5198f516939d07c833c650981837f809d568cef670253acfec65332b7bee20f1`
   - Immutable reviewed packet: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval-pending-reviewed-r2.md`
   - Reviewed packet SHA-256: `64f2c0f2673e89c5bc60fe718574acda2a4bf9e7e5bfe9ee6bb7bf8ae70a3c93`
   - Article payload SHA-256: `c6384ae241145cbd1fbc9fdd83bb18978171a135543374d3dbf3ee544ac4a132`
@@ -2440,8 +2440,9 @@ See also: [[Approval Queue]]
   - Archive: `99-Archive/published/2026-10-19-ebola-nord-ubangi/`; seven stage bundles byte-verified; no active bundle remains.
   - Checks: fresh Hugo production build; homepage/News/article local HTTP 200; 260 Node and 16 Python tests passed; 17-width Chromium and desktop-pane readback.
   - Limits: unchanged shared coffee-badge overlap and 320px shell overflow; no article-specific blocker.
-  - Preview disposition: temporary checkout server, to be intentionally stopped after verified deployment; final handoff is the live page.
-  - Next: no editorial work; complete the already-authorised release and retain exact-SHA verification receipts in the private archive.
+  - Preview disposition: local server intentionally stopped; owned browsers/cache removed; desktop pane now shows the verified live article.
+  - Next: none editorially; final record-HEAD deployment/readback receipts retained in the private archive, with unrelated changes excluded.
+  - Product commit: `a9f5eeeb2c9bc1269b63a78dca5a3d715c25e698`; Pages run `39244633815`, build/deploy successful; approved article body and seven source links verified live.
 
 
 - [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
