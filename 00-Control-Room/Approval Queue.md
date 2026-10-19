@@ -18,6 +18,25 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Ebola reaches an eighth province in DR Congo — revision 2
+
+- Candidate: `2026-10-19-ebola-nord-ubangi`; revision 2; News; final-review
+- Decision: Approve, 2026-10-19; exact user instruction “ok approved. commit, push and clean up”. Disclosed 902-word length accepted.
+- Status: published locally. Candidate-only commit/push/live verification and task cleanup authorised, not yet performed.
+- Public source: `content/news/2026-10-19-ebola-nord-ubangi.md`
+- Package: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval-revision-2.md`
+- Current packet SHA-256: `6823d7cee73bfe23fa24356f925ae105151978735804e44b36a23943735078bb`
+- Immutable reviewed packet: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval-pending-reviewed-r2.md`
+- Reviewed packet SHA-256: `64f2c0f2673e89c5bc60fe718574acda2a4bf9e7e5bfe9ee6bb7bf8ae70a3c93`
+- Article payload SHA-256: `c6384ae241145cbd1fbc9fdd83bb18978171a135543374d3dbf3ee544ac4a132`
+- Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+- Archive: `99-Archive/published/2026-10-19-ebola-nord-ubangi/`; discovered stages byte-verified; no active bundle remains.
+- Checks: fresh production build; local article/homepage/News HTTP 200; 260 Node and 16 Python tests; 17-width Chromium and current-copy desktop-pane readback.
+- Limits: existing shared coffee-badge obstruction and 31px shell overflow at 320px remain unchanged.
+- Preview disposition: temporary checkout server; stop after successful live delivery. No promise of a running local preview after cleanup.
+- Next: no further editorial approval; complete the authorised release, preserve exact-SHA receipts locally and leave unrelated changes out.
+
+
 ### Tesla’s flying Roadster: amazing, but practical? — revision 2
 
 - Candidate: `2026-10-17-tesla-flying-roadster`; revision 2; Blog / Tech; final-review
@@ -943,6 +962,17 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### 2026-10-19-ebola-nord-ubangi — revision 1 superseded
+
+- Decision: Request changes, 2026-10-19; superseded by revision 2. No permission to publish revision 1.
+- Immutable reviewed packet: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval-pending-reviewed-r1.md`
+- Reviewed packet SHA-256: `9059fccd4094dd368609ee84e83c1d93419bddf45f7779aa9436d714f1630152`
+- Decision record: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval.md`
+- Decision record SHA-256: `74fa324ff1e991739f10462bc718861bfe9ec261202e06f8ba6d030bfd56bba8`
+- Historical article payload SHA-256: `a088368b079d1b178ec694f4e143bdccc02e4117c3b7aaec815811dfdc0bd031`
+- Next: none; approved revision 2 is the sole publication source.
+
 
 ### Tesla’s flying Roadster: amazing, but practical? — revision 1 — superseded
 

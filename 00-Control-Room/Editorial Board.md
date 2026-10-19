@@ -7,6 +7,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Ebola reaches an eighth province in DR Congo — revision 1
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/idea.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `3c98b67bfe51dc7ab8b6cbde4e12fdbafa9987fcfb27996e4247c09d6eea839f`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/idea-checks.json`
+
+
 - [x] Tesla’s flying Roadster: amazing, but practical? — revision 1
   - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
   - Stage: idea checked internally, not human-approved
@@ -278,6 +287,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Ebola reaches an eighth province in DR Congo — revision 1
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/02-Briefs/2026-10-19-ebola-nord-ubangi/brief.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `b558f15de6c636ab77cfe8a9a109cd2197aa1b5cf8abf5564dc10abf71dbe377`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/02-Briefs/2026-10-19-ebola-nord-ubangi/brief-checks.json`
+
+
 - [x] Tesla’s flying Roadster: amazing, but practical? — revision 1
   - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
   - Stage: brief checked internally, not human-approved
@@ -543,6 +561,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Ebola reaches an eighth province in DR Congo — revision 2
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/03-SEO/2026-10-19-ebola-nord-ubangi/seo-revision-2.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `f197e4a2fc93ae5118671157dbd7de6ceb58e6734f15f072ea1fb383fd488c9b`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/03-SEO/2026-10-19-ebola-nord-ubangi/seo-revision-2-checks.json`
+  - Length: 902 prose words; user accepted the 902-word revision
+
+- [x] Ebola reaches an eighth province in DR Congo — revision 1
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/03-SEO/2026-10-19-ebola-nord-ubangi/seo.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `2ad0fe9d93b6857066b2d87b56c1704387c1b2059468ebc8b82b32a67656f574`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/03-SEO/2026-10-19-ebola-nord-ubangi/seo-checks.json`
+
 
 - [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
   - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
@@ -830,6 +866,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Ebola reaches an eighth province in DR Congo — revision 2
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/04-Drafts/2026-10-19-ebola-nord-ubangi/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `d653b5408365d4f901785b2043d4e738a676fef909882d2c62b1c906542d8b14`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/04-Drafts/2026-10-19-ebola-nord-ubangi/draft-revision-2-checks.json`
+  - Length: 902 prose words; user accepted the 902-word revision
+
+- [x] Ebola reaches an eighth province in DR Congo — revision 1
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/04-Drafts/2026-10-19-ebola-nord-ubangi/draft.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `60227cd973511d40bcc07881a51cd815d39575abb363bfd437bd0d964800efc6`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/04-Drafts/2026-10-19-ebola-nord-ubangi/draft-checks.json`
+
 
 - [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
   - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
@@ -1190,6 +1244,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Ebola reaches an eighth province in DR Congo — revision 2
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/05-Reviews/2026-10-19-ebola-nord-ubangi/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `ac612691878a568353d26074373c4511ef482f136ef7a3e4a338be0fc689db25`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/05-Reviews/2026-10-19-ebola-nord-ubangi/creative-edit-revision-2-checks.json`
+  - Length: 902 prose words; user accepted the 902-word revision
+
+- [x] Ebola reaches an eighth province in DR Congo — revision 1
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/05-Reviews/2026-10-19-ebola-nord-ubangi/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `19252e39d5f12bec5584272bdb0d219ca91d9b8632c2689e932036d63c425d17`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/05-Reviews/2026-10-19-ebola-nord-ubangi/creative-edit-checks.json`
+
 
 - [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
   - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
@@ -1562,6 +1634,24 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Ebola reaches an eighth province in DR Congo — revision 2
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/05-Reviews/2026-10-19-ebola-nord-ubangi/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `188aef7c0fffb4610ba9ee768a85eebe67fcad929ff42d901888edfe80f22c26`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/05-Reviews/2026-10-19-ebola-nord-ubangi/proofread-revision-2-checks.json`
+  - Length: 902 prose words; user accepted the 902-word revision
+
+- [x] Ebola reaches an eighth province in DR Congo — revision 1
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/05-Reviews/2026-10-19-ebola-nord-ubangi/proofread.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `b5548a5717b6070f2959a65a1636380d80880ef0f3c6d3ad2eba3f17c4cceffa`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/05-Reviews/2026-10-19-ebola-nord-ubangi/proofread-checks.json`
+
+
 - [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
   - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
   - Stage: proofread checked internally; accepted 937-word/per-claim exceptions
@@ -1926,6 +2016,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Ebola reaches an eighth province in DR Congo — revision 2
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/06-Design/2026-10-19-ebola-nord-ubangi/design-revision-2.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `6342c892a653000149bf0ba75dba9d135b01cfef9d59f6d64d690b450c5897dc`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/06-Design/2026-10-19-ebola-nord-ubangi/design-revision-2-checks.json`
+  - Length: 902 prose words; user accepted the 902-word revision
+
+- [x] Ebola reaches an eighth province in DR Congo — revision 1
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
+  - Artifact: `99-Archive/published/2026-10-19-ebola-nord-ubangi/06-Design/2026-10-19-ebola-nord-ubangi/design.md`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - SHA-256: `ca338543b6d7a418015c0b66471e2ec40fe277eedd16a0af90063401e6a5b6b8`
+  - Checks: `99-Archive/published/2026-10-19-ebola-nord-ubangi/06-Design/2026-10-19-ebola-nord-ubangi/design-checks.json`
+
 
 - [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
   - Candidate: `2026-10-17-tesla-flying-roadster`; final-review; Blog / Tech
@@ -2317,6 +2425,24 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Ebola reaches an eighth province in DR Congo — revision 2
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Decision: Approve, 2026-10-19; user accepted 902 prose words and separately authorised candidate-only commit, push and task cleanup.
+  - Status: published locally; exact approved revision, no shared design changes. GitHub/live release authorised, not yet performed.
+  - Public source: `content/news/2026-10-19-ebola-nord-ubangi.md`
+  - Approval: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval-revision-2.md`
+  - Current packet SHA-256: `6823d7cee73bfe23fa24356f925ae105151978735804e44b36a23943735078bb`
+  - Immutable reviewed packet: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval-pending-reviewed-r2.md`
+  - Reviewed packet SHA-256: `64f2c0f2673e89c5bc60fe718574acda2a4bf9e7e5bfe9ee6bb7bf8ae70a3c93`
+  - Article payload SHA-256: `c6384ae241145cbd1fbc9fdd83bb18978171a135543374d3dbf3ee544ac4a132`
+  - Run: `99-Archive/published/2026-10-19-ebola-nord-ubangi/01-Ideas/2026-10-19-ebola-nord-ubangi/run.md`
+  - Archive: `99-Archive/published/2026-10-19-ebola-nord-ubangi/`; seven stage bundles byte-verified; no active bundle remains.
+  - Checks: fresh Hugo production build; homepage/News/article local HTTP 200; 260 Node and 16 Python tests passed; 17-width Chromium and desktop-pane readback.
+  - Limits: unchanged shared coffee-badge overlap and 320px shell overflow; no article-specific blocker.
+  - Preview disposition: temporary checkout server, to be intentionally stopped after verified deployment; final handoff is the live page.
+  - Next: no editorial work; complete the already-authorised release and retain exact-SHA verification receipts in the private archive.
+
 
 - [x] Tesla’s flying Roadster: amazing, but practical? — revision 2
   - Candidate: `2026-10-17-tesla-flying-roadster`; Blog / Tech; final-review
@@ -2816,6 +2942,19 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+### 2026-10-19-ebola-nord-ubangi — revision 1 superseded
+
+- [x] Ebola reaches an eighth province in DR Congo — revision 1
+  - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
+  - Decision: Request changes, 2026-10-19; repeated caveats and exact nationality/province sentence removed. Superseded by approved revision 2.
+  - Immutable reviewed packet: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval-pending-reviewed-r1.md`
+  - Reviewed packet SHA-256: `9059fccd4094dd368609ee84e83c1d93419bddf45f7779aa9436d714f1630152`
+  - Decision record: `99-Archive/published/2026-10-19-ebola-nord-ubangi/07-Approval/2026-10-19-ebola-nord-ubangi/approval.md`
+  - Decision record SHA-256: `74fa324ff1e991739f10462bc718861bfe9ec261202e06f8ba6d030bfd56bba8`
+  - Article payload SHA-256: `a088368b079d1b178ec694f4e143bdccc02e4117c3b7aaec815811dfdc0bd031`
+  - Next: none; revision 1 must not be published.
+
 
 - [x] Tesla’s flying Roadster: amazing, but practical? — revision 1 — superseded
   - Candidate: `2026-10-17-tesla-flying-roadster`; Request changes
