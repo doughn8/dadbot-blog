@@ -32,7 +32,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Checks: production build; homepage/News/article HTTP 200; 260 Node + 16 Python tests; 20-width browser and exact source links
 - Limits: inherited coffee-badge obstruction and 320px shell overflow; no shared-design changes
 - Cleanup disposition: archived research retained locally; temporary previews/QA stopped and disposable mirrors/profiles removed
-- Next: verify authorised GitHub/live release and cleanup; no further editorial changes
+- Next: none for this article; final records-HEAD receipts retained in private archive
 - Current decision packet SHA-256: `56a1ec785b337647e4f363e0c8e1cff17681ccfd2d5f19bc060e2a0dc3d4276e`
 - Product commit: `6ece2a9b782b2ac7866cf70e2ce37aaef0326844`; Pages run `39392167491`, build/deploy successful
 - Live verified: `https://dadbot.blog/news/us-ukraine-relations-peace-leverage/`; homepage/News/direct route and exact approved rendered article, six sources
