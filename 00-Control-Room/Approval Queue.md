@@ -18,6 +18,23 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
+
+- Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; News; final-review
+- Decision: Approve; “Approved. Commit, push and clean up”; accepted 936-word length
+- Status: published locally; candidate-only release verification in progress
+- Public source: `content/news/2026-10-20-us-ukraine-peace-leverage.md`
+- Package: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/approval-revision-2.md`
+- Immutable reviewed packet: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/approval-revision-2-reviewed.md`
+- Reviewed packet SHA-256: `f956d6b9ccc4771b27dbf864a3cfae24c86c13981fd3b5203c52760bfd9c6122`
+- Article payload SHA-256: `702b3aeb6babcab46f34fd0225d9a4b57beae4e7a4ca61766bb0bcda89502daf`
+- Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
+- Checks: production build; homepage/News/article HTTP 200; 260 Node + 16 Python tests; 20-width browser and exact source links
+- Limits: inherited coffee-badge obstruction and 320px shell overflow; no shared-design changes
+- Cleanup disposition: archived research retained locally; temporary previews/QA stop after verified live handoff
+- Next: verify authorised GitHub/live release and cleanup; no further editorial changes
+- Current decision packet SHA-256: `2176f90ae1b810e8893d825a81d8d4d0ec80022142326ea2d3800098e8cbd3a4`
+
 ### Ebola reaches an eighth province in DR Congo — revision 2
 
 - Candidate: `2026-10-19-ebola-nord-ubangi`; revision 2; News; final-review
@@ -963,6 +980,25 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
+
+- Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review; Request changes; superseded by revision 2
+- Package: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/approval-revision-1-reviewed.md`
+- Complete reviewer copy: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/final-approval-review.md`
+- Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
+- Reviewed packet SHA-256: `8a414a2784dd14e2274e3605d8a1464b52108eab8fcb7b9d8a08bbec3d907d06`
+- Article payload SHA-256: `89203bf7f3220ca081f2b051b5d7c827d5e633820f083b93972773c3651e1d01`
+- Historical preview (stopped): `http://127.0.0.1:1313/news/us-ukraine-relations-peace-leverage/?local-review=1`; direct-route-only; full existing-content mirror outside checkout
+- Historical preview root: `/home/markhickinson/.cache/dadbot-local-previews/2026-10-20-us-ukraine-peace-leverage/review-1`; loopback 1313; PID 28067; session proc_cdbd05cc7d90
+- Body: 1,019 prose words; Hugo full-page 1,186 words / 6 minutes; no length exception
+- Checks: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/approval-checks.json`; `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/closing-checks.json`; eight structural stages, strict evidence/coverage, six-source refresh, exact payload/metadata, isolated and normal builds, no leakage, 20-width browser and desktop-pane readback
+- Limitations: government primary pages inaccessible; shared fixed coffee badge covers phone/tablet text; shared 31px shell overflow at 320px; no article-specific blocker
+- Decision: Request changes; remove em dashes and Where they differ; revision 1 superseded
+- Choices: Approve / Request changes / Reject / Hold
+- Boundary: Approve authorises exact reviewed local publication only; no commit, push or deployment
+- Next: none; historical revision 1 superseded by approved/published revision 2
+
 
 ### 2026-10-19-ebola-nord-ubangi — revision 1 superseded
 

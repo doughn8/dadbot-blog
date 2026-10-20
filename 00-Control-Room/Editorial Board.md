@@ -7,6 +7,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review
+  - Stage: Idea checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/idea.md`
+  - Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
+  - SHA-256: `864718421ddbd57d85a40adede5d966db614f49581969f43f23e5ab97fe6345a`
+  - Checks: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/idea-checks.json`; YAML/contract/evidence/production build PASS
+
 - [x] Ebola reaches an eighth province in DR Congo — revision 1
   - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
   - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
@@ -287,6 +295,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review
+  - Stage: Brief checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/02-Briefs/2026-10-20-us-ukraine-peace-leverage/brief.md`
+  - Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
+  - SHA-256: `fdcb56e0cee869135dccf133da2485236504a65b3b3343786cfd1fb46deb59ef`
+  - Checks: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/02-Briefs/2026-10-20-us-ukraine-peace-leverage/brief-checks.json`; YAML/contract/evidence/build PASS
+
 - [x] Ebola reaches an eighth province in DR Congo — revision 1
   - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
   - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
@@ -561,6 +577,20 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; final-review; seo checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/03-SEO/2026-10-20-us-ukraine-peace-leverage/seo-revision-2.md`
+  - SHA-256: `cb31ab7e3a903252ed3703e94896552c3868b4f9943f85023b25503c99b763d9`
+  - Next: historical internal checkpoint; revision 2 approved/published locally
+
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review
+  - Stage: SEO checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/03-SEO/2026-10-20-us-ukraine-peace-leverage/seo.md`
+  - Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
+  - SHA-256: `deed724320d7a1fa64eab73925f9068bd051af95006f35e0be82f9159aa6a61d`
+  - Checks: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/03-SEO/2026-10-20-us-ukraine-peace-leverage/seo-checks.json`; YAML/contract/evidence PASS
 
 - [x] Ebola reaches an eighth province in DR Congo — revision 2
   - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
@@ -866,6 +896,21 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; final-review; draft checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/04-Drafts/2026-10-20-us-ukraine-peace-leverage/draft-revision-2.md`
+  - SHA-256: `3ee6b10815c28fe111d63ecba2bab191aa052a811e3ebe89083a44cc07141647`
+  - Next: historical internal checkpoint; revision 2 approved/published locally
+
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review
+  - Stage: Draft checked internally, not human-approved; historical checkpoint; revision 2 approved/published locally
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/04-Drafts/2026-10-20-us-ukraine-peace-leverage/draft.md`
+  - Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
+  - SHA-256: `c5bee547d8140dcd0226522680e9376c209bd1c0f0744fc7e388c2cd4e9458c7`
+  - Payload: `58ba1b7daefa9a878b2c224e324ab8804148aa6de9e846e4de2f7bb392a88eff`; 1,031 prose words
+  - Checks: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/04-Drafts/2026-10-20-us-ukraine-peace-leverage/draft-checks.json`; YAML/contract/evidence/coverage/count/build PASS
 
 - [x] Ebola reaches an eighth province in DR Congo — revision 2
   - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
@@ -1244,6 +1289,21 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; final-review; creative-edit checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/05-Reviews/2026-10-20-us-ukraine-peace-leverage/creative-edit-revision-2.md`
+  - SHA-256: `05b570b69322e9fd9c942e2ca89cbc382cd61ba07f0d81a8818b2daeeb82d094`
+  - Next: historical internal checkpoint; revision 2 approved/published locally
+
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review
+  - Stage: creative-edit checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/05-Reviews/2026-10-20-us-ukraine-peace-leverage/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
+  - SHA-256: `948356a1639271658ec5ee3930582dc9e27a0a6943d76bd4c51403d5c3775657`
+  - Payload: `89203bf7f3220ca081f2b051b5d7c827d5e633820f083b93972773c3651e1d01`; prose words: 1019
+  - Checks: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/05-Reviews/2026-10-20-us-ukraine-peace-leverage/creative-edit-checks.json`
 
 - [x] Ebola reaches an eighth province in DR Congo — revision 2
   - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
@@ -1634,6 +1694,21 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; final-review; proofread checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/05-Reviews/2026-10-20-us-ukraine-peace-leverage/proofread-revision-2.md`
+  - SHA-256: `90caaa65d143a6c3e7fdde214005b62bf6112c7b4918469325942ce1d411cbf3`
+  - Next: historical internal checkpoint; revision 2 approved/published locally
+
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review
+  - Stage: proofread checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/05-Reviews/2026-10-20-us-ukraine-peace-leverage/proofread.md`
+  - Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
+  - SHA-256: `5e0ce18a6facbb2365a7719d0e0ec17275630aca87928ecde54fd48051c983d6`
+  - Payload: `89203bf7f3220ca081f2b051b5d7c827d5e633820f083b93972773c3651e1d01`; prose words: 1019
+  - Checks: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/05-Reviews/2026-10-20-us-ukraine-peace-leverage/proofread-checks.json`
+
 - [x] Ebola reaches an eighth province in DR Congo — revision 2
   - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
   - Stage: historical internal checkpoint completed; not a separate human approval. Revision 2 approved and published locally. Next: none editorially.
@@ -2016,6 +2091,21 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; final-review; design checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/06-Design/2026-10-20-us-ukraine-peace-leverage/design-revision-2.md`
+  - SHA-256: `a0e18e7f11cdae914960a5f4daafb0b713f83a4d57fd69918d9e3ce73e185af0`
+  - Next: historical internal checkpoint; revision 2 approved/published locally
+
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review
+  - Stage: design checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/06-Design/2026-10-20-us-ukraine-peace-leverage/design.md`
+  - Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
+  - SHA-256: `ea94469ec2f0167ab310dfbdc23bc3902af954c25cf5b19e23e85a98f90b185e`
+  - Payload: `89203bf7f3220ca081f2b051b5d7c827d5e633820f083b93972773c3651e1d01`; prose words: 1019
+  - Checks: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/06-Design/2026-10-20-us-ukraine-peace-leverage/design-checks.json`
 
 - [x] Ebola reaches an eighth province in DR Congo — revision 2
   - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
@@ -2425,6 +2515,20 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; News; final-review
+  - Status: published locally; accepted 936-word revision; release verification in progress
+  - Public source: `content/news/2026-10-20-us-ukraine-peace-leverage.md`
+  - Package: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/approval-revision-2.md`
+  - Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
+  - Reviewed packet SHA-256: `f956d6b9ccc4771b27dbf864a3cfae24c86c13981fd3b5203c52760bfd9c6122`
+  - Payload SHA-256: `702b3aeb6babcab46f34fd0225d9a4b57beae4e7a4ca61766bb0bcda89502daf`
+  - Authority: Approve; candidate-only commit, push/main verification and task cleanup; exact user instruction recorded
+  - Checks: production build; homepage/News/article HTTP 200; 260 Node + 16 Python tests; 20-width browser, inherited coffee-badge/320px shell limits retained
+  - Archive: 197 discovered files byte-verified; private evidence stays local
+  - Next: verify authorised GitHub/live release and cleanup; no editorial changes
+  - Current decision packet SHA-256: `2176f90ae1b810e8893d825a81d8d4d0ec80022142326ea2d3800098e8cbd3a4`
 
 - [x] Ebola reaches an eighth province in DR Congo — revision 2
   - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
@@ -2943,6 +3047,19 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
+  - Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review; Request changes; superseded by revision 2
+  - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/approval-revision-1-reviewed.md`
+  - Reviewer copy: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/final-approval-review.md`
+  - Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
+  - Reviewed packet SHA-256: `8a414a2784dd14e2274e3605d8a1464b52108eab8fcb7b9d8a08bbec3d907d06`
+  - Article payload SHA-256: `89203bf7f3220ca081f2b051b5d7c827d5e633820f083b93972773c3651e1d01`; 1,019 prose words
+  - Historical preview (stopped): `http://127.0.0.1:1313/news/us-ukraine-relations-peace-leverage/?local-review=1`; direct-route-only, external full-content mirror; PID 28067/session proc_cdbd05cc7d90
+  - Checks: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/approval-checks.json`; `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/closing-checks.json`; all eight stages checked, source refresh, builds/isolation, 20-width browser and desktop-pane readback
+  - Limitations: primary access denied; shared phone/tablet coffee-badge obstruction and 31px shell overflow at 320px; no article-specific blocker
+  - Choices: Approve / Request changes / Reject / Hold; Approve = local publication only; no commit/push/deploy
+  - Next: none; historical revision 1 superseded by approved/published revision 2
 
 ### 2026-10-19-ebola-nord-ubangi — revision 1 superseded
 
