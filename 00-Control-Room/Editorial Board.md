@@ -2518,7 +2518,7 @@ See also: [[Approval Queue]]
 
 - [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
   - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; News; final-review
-  - Status: published locally; accepted 936-word revision; release verification in progress
+  - Status: published live; accepted 936-word revision; cleanup complete
   - Public source: `content/news/2026-10-20-us-ukraine-peace-leverage.md`
   - Package: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/07-Approval/2026-10-20-us-ukraine-peace-leverage/approval-revision-2.md`
   - Run: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/01-Ideas/2026-10-20-us-ukraine-peace-leverage/run.md`
@@ -2527,8 +2527,11 @@ See also: [[Approval Queue]]
   - Authority: Approve; candidate-only commit, push/main verification and task cleanup; exact user instruction recorded
   - Checks: production build; homepage/News/article HTTP 200; 260 Node + 16 Python tests; 20-width browser, inherited coffee-badge/320px shell limits retained
   - Archive: 197 discovered files byte-verified; private evidence stays local
-  - Next: verify authorised GitHub/live release and cleanup; no editorial changes
-  - Current decision packet SHA-256: `2176f90ae1b810e8893d825a81d8d4d0ec80022142326ea2d3800098e8cbd3a4`
+  - Next: none for this article; final records-HEAD receipts retained in private archive
+  - Current decision packet SHA-256: `56a1ec785b337647e4f363e0c8e1cff17681ccfd2d5f19bc060e2a0dc3d4276e`
+  - Product commit: `6ece2a9b782b2ac7866cf70e2ce37aaef0326844`; Pages run `39392167491`, build/deploy successful
+  - Live verified: `https://dadbot.blog/news/us-ukraine-relations-peace-leverage/`; homepage/News/direct route and exact approved rendered article, six sources
+  - Cleanup: complete; private archive retained, task local/QA ports closed; live-pane handoff
 
 - [x] Ebola reaches an eighth province in DR Congo — revision 2
   - Candidate: `2026-10-19-ebola-nord-ubangi`; final-review; News
