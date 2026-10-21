@@ -7,6 +7,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 1
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; News; final-review
+  - Stage: Idea checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/idea.md`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - SHA-256: `164d2e86ff8edcb8d23732384da6a862975548dcaf1096e8bcee77c8c9b2921b`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/idea-checks.json`
+
 - [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
   - Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review
   - Stage: Idea checked internally, not human-approved; historical checkpoint; published locally
@@ -295,6 +303,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 1
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; News; final-review
+  - Stage: Brief checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/02-Briefs/2026-10-21-ukraine-renewed-diplomacy/brief.md`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - SHA-256: `4217aeede69acb8c984a1919286ae1c807e8d1d02c27743aa4f4aa8a9c50dcba`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/02-Briefs/2026-10-21-ukraine-renewed-diplomacy/brief-checks.json`
+
 - [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
   - Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review
   - Stage: Brief checked internally, not human-approved; historical checkpoint; published locally
@@ -577,6 +593,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
+  - Stage: SEO checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/03-SEO/2026-10-21-ukraine-renewed-diplomacy/seo-revision-2.md`
+  - SHA-256: `cc2ab5caee2598aa02bb4a8449f2dafe367fbdc6dd3599c542a56c2e25f0b247`
+  - Payload SHA-256: `801319d7f54871d41f9a5500b4870ee72b93c791589b0e178d799253a744c6be`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/03-SEO/2026-10-21-ukraine-renewed-diplomacy/seo-revision-2-checks.json`
+
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 1
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; News; final-review
+  - Stage: SEO checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/03-SEO/2026-10-21-ukraine-renewed-diplomacy/seo.md`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - SHA-256: `975f2e0a08baf64744ae3051f3c45e14ded3ec6312a7b75977ceebcc0c871c93`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/03-SEO/2026-10-21-ukraine-renewed-diplomacy/seo-checks.json`
 
 - [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
   - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; final-review; seo checked internally, not human-approved
@@ -896,6 +929,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
+  - Stage: Draft checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/04-Drafts/2026-10-21-ukraine-renewed-diplomacy/draft-revision-2.md`
+  - SHA-256: `07f6d0017874cef1ff8013a46ff01e44959217be0663e408a57857ab49eeba09`
+  - Payload SHA-256: `801319d7f54871d41f9a5500b4870ee72b93c791589b0e178d799253a744c6be`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/04-Drafts/2026-10-21-ukraine-renewed-diplomacy/draft-revision-2-checks.json`
+
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 1
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; News; final-review
+  - Stage: Draft checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/04-Drafts/2026-10-21-ukraine-renewed-diplomacy/draft.md`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - SHA-256: `0d6d03b5999db4a7c1ab09a11fe164d2f11cce3ec1c12d5916a6b6a3d97f258a`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/04-Drafts/2026-10-21-ukraine-renewed-diplomacy/draft-checks-current.json`
 
 - [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
   - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; final-review; draft checked internally, not human-approved
@@ -1289,6 +1339,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
+  - Stage: Creative Edit checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/05-Reviews/2026-10-21-ukraine-renewed-diplomacy/creative-edit-revision-2.md`
+  - SHA-256: `e46ce606949dbe08f98c46b56c28ccc768115080041a1a4bb9e2e5f69b8c6473`
+  - Payload SHA-256: `801319d7f54871d41f9a5500b4870ee72b93c791589b0e178d799253a744c6be`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/05-Reviews/2026-10-21-ukraine-renewed-diplomacy/creative-edit-revision-2-checks.json`
+
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 1
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; News; final-review
+  - Stage: Creative Edit checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/05-Reviews/2026-10-21-ukraine-renewed-diplomacy/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - SHA-256: `aee75d66beea7a81733124cd372679e7628cb9fec5dcddd51e6bfbfc9987f9b1`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/05-Reviews/2026-10-21-ukraine-renewed-diplomacy/creative-edit-checks-current.json`
 
 - [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
   - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; final-review; creative-edit checked internally, not human-approved
@@ -1694,6 +1761,23 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
+  - Stage: Proofread checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/05-Reviews/2026-10-21-ukraine-renewed-diplomacy/proofread-revision-2.md`
+  - SHA-256: `059a25f958210ca3a271cabdfdd5cacf86cad6b9deae619e91c3f53b06d42413`
+  - Payload SHA-256: `801319d7f54871d41f9a5500b4870ee72b93c791589b0e178d799253a744c6be`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/05-Reviews/2026-10-21-ukraine-renewed-diplomacy/proofread-revision-2-checks.json`
+
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 1
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; News; final-review
+  - Stage: Proofread checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/05-Reviews/2026-10-21-ukraine-renewed-diplomacy/proofread.md`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - SHA-256: `bc2d8c4e83f76ca7abbec38fd8a4a066611853999a2bc1904b6770d4e97f1281`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/05-Reviews/2026-10-21-ukraine-renewed-diplomacy/proofread-checks-current.json`
+
 - [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
   - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; final-review; proofread checked internally, not human-approved
   - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/05-Reviews/2026-10-20-us-ukraine-peace-leverage/proofread-revision-2.md`
@@ -2092,6 +2176,23 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Design
 
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
+  - Stage: Design checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/06-Design/2026-10-21-ukraine-renewed-diplomacy/design-revision-2.md`
+  - SHA-256: `48fa17b1ee99b4c13c0be913762be22855fb8f5b05eed3a95e4a8f1dad720b95`
+  - Payload SHA-256: `801319d7f54871d41f9a5500b4870ee72b93c791589b0e178d799253a744c6be`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/06-Design/2026-10-21-ukraine-renewed-diplomacy/design-revision-2-checks.json`
+
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 1
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; News; final-review
+  - Stage: Design checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/06-Design/2026-10-21-ukraine-renewed-diplomacy/design.md`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - SHA-256: `b32ae572f565da3ed43ae67d2a0dcfde793a69ac8e6312f195d725bfdb95715d`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/06-Design/2026-10-21-ukraine-renewed-diplomacy/design-checks-current.json`
+
 - [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
   - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; final-review; design checked internally, not human-approved
   - Artifact: `99-Archive/published/2026-10-20-us-ukraine-peace-leverage/06-Design/2026-10-20-us-ukraine-peace-leverage/design-revision-2.md`
@@ -2484,6 +2585,8 @@ A simple Obsidian board for tracking Dadbot work.
 
 
 
+
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
@@ -2515,6 +2618,23 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
+  - Status: published locally; approved candidate-only commit, push/main deployment verification and task cleanup in progress
+  - Decision: Approve; “ok approved. Commit, push and clean up”; 981-word length accepted
+  - Content: `content/news/2026-10-21-ukraine-renewed-diplomacy.md`
+  - Package: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/approval-revision-2.md`
+  - Immutable reviewed packet: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/approval-revision-2-reviewed.md`
+  - Reviewed packet SHA-256: `ac94bfcd2b5d986e0f98df148b8d4939b641a9429aa36b5405890cbf3c8e4238`
+  - Current decision packet SHA-256: `e5fafa5e694af45daf0563bea38dd9122a6bd5b306295970732b917d9b4fa8d6`
+  - Payload SHA-256: `801319d7f54871d41f9a5500b4870ee72b93c791589b0e178d799253a744c6be`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - Checks: normal production build; exact approved body/metadata; homepage/News/article HTTP 200; 27-width browser; Node 22: 263 passed; Python 3.11: 16 passed
+  - Limits: inherited coffee-badge obstruction and 320px overflow; no shared-design change
+  - Archive: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy`; 239 discovered files moved and byte-verified; no active bundle remains
+  - Cleanup disposition: private archive retained locally; task-owned local/QA processes and disposable preview roots stop/remove after live handoff
+  - Next: verify exact approved release on GitHub/live, then complete scoped cleanup; no unrelated changes included
 
 - [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
   - Candidate: `2026-10-20-us-ukraine-peace-leverage`; revision 2; News; final-review
@@ -3050,6 +3170,22 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 1
+  - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; News; final-review
+  - Stage: Final Approval historical revision 1; Request changes; superseded by revision 2
+  - Artifact: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/approval.md`
+  - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+  - SHA-256: `1394f3b534e1ddb754898d669d4f5a64c0d68ab38473e0002adfd9f934bf9936`
+  - Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/final-approval-checks-current.json`
+  - Payload SHA-256: `58a33ae28204f6fc42eb7e50eeaa7582200d5dc1d8489fa9b70c0ec4b821b9ad`
+  - Complete package: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/approval.md`; reviewer copy: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/final-approval-review.md`
+  - Preview: `http://127.0.0.1:1313/news/ukraine-renewed-diplomacy/?local-review=1`; isolated full-content mirror, direct-route-only; PID 57806/session `proc_9d0e08f0796a`
+  - Closing checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/closing-checks.json`
+  - Choices: Approve / Request changes / Reject / Hold; Approve = local publication only
+  - Current decision packet SHA-256: `988d3e24020ef8fdb0ab92ad45765e66c59a1664de532c3eb63599da63609026`
+  - Immutable reviewed packet: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/approval-revision-1-reviewed.md`
+
 
 - [x] US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
   - Candidate: `2026-10-20-us-ukraine-peace-leverage`; News; final-review; Request changes; superseded by revision 2

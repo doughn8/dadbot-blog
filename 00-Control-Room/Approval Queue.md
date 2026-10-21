@@ -16,7 +16,32 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Awaiting Approval
 
+
 ## Approved
+
+### Ukraine peace efforts: a reason for hope, and what happens next — revision 2
+
+- Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
+- Status: published locally; approved candidate-only commit, push/main deployment verification and task cleanup in progress
+- Decision: Approve; “ok approved. Commit, push and clean up”; 981-word length accepted
+- Content: `content/news/2026-10-21-ukraine-renewed-diplomacy.md`
+- Package: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/approval-revision-2.md`
+- Immutable reviewed packet: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/approval-revision-2-reviewed.md`
+- Reviewed packet SHA-256: `ac94bfcd2b5d986e0f98df148b8d4939b641a9429aa36b5405890cbf3c8e4238`
+- Current decision packet SHA-256: `e5fafa5e694af45daf0563bea38dd9122a6bd5b306295970732b917d9b4fa8d6`
+- Payload SHA-256: `801319d7f54871d41f9a5500b4870ee72b93c791589b0e178d799253a744c6be`
+- Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+- Checks: normal production build; exact approved body/metadata; homepage/News/article HTTP 200; 27-width browser; Node 22: 263 passed; Python 3.11: 16 passed
+- Limits: inherited coffee-badge obstruction and 320px overflow; no shared-design change
+- Archive: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy`; 239 discovered files moved and byte-verified; no active bundle remains
+- Cleanup disposition: private archive retained locally; task-owned local/QA processes and disposable preview roots stop/remove after live handoff
+- Next: verify exact approved release on GitHub/live, then complete scoped cleanup; no unrelated changes included
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
 
 ### US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
 
@@ -983,6 +1008,33 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### Ukraine peace efforts: a reason for hope, and what happens next — revision 1
+
+- Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 1; News; final-review
+- Status: historical revision 1; Request changes; superseded by revision 2; not published
+- Package: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/approval.md`
+- Complete reviewer copy: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/final-approval-review.md`
+- Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
+- Clean preview source: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/06-Design/2026-10-21-ukraine-renewed-diplomacy/preview-source.md`
+- Preview: `http://127.0.0.1:1313/news/ukraine-renewed-diplomacy/?local-review=1`; direct-route-only, external full existing-content mirror; current article opened/read in desktop pane
+- Preview owner: PID 57806/session `proc_9d0e08f0796a`; loopback 1313; root `/home/markhickinson/.cache/dadbot-local-previews/2026-10-21-ukraine-renewed-diplomacy/review-1`
+- Immutable reviewed packet SHA-256: `1394f3b534e1ddb754898d669d4f5a64c0d68ab38473e0002adfd9f934bf9936`
+- Canonical article payload SHA-256: `58a33ae28204f6fc42eb7e50eeaa7582200d5dc1d8489fa9b70c0ec4b821b9ad`
+- Body: 1,034 prose words; Hugo full-page 1,149 words / 6 minutes; no length exception
+- Checks: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/closing-checks.json`; eight complete stages, strict source/evidence integrity, final 33/64 citation gate (52%), 22 exact quote checks, current source refresh, payload/metadata equality, isolated/normal builds, no leakage, 27-width real Chromium and desktop-pane readback
+- Limits: attributed official positions after blocked Norwegian primary retrieval; September Fox context; shared briefing chains; inherited coffee-badge text obstruction at phone/tablet and 31px shell overflow at 320px; shared design unchanged
+- Blockers: none article-specific; limitations disclosed
+- Boundary: Approve = exact reviewed local publication only; no commit, push or deployment
+- Next: none; superseded by revision 2
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+- Current decision packet SHA-256: `988d3e24020ef8fdb0ab92ad45765e66c59a1664de532c3eb63599da63609026`
+- Immutable reviewed packet: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/approval-revision-1-reviewed.md`
+
 
 ### US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 1
 
