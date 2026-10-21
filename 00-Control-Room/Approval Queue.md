@@ -22,25 +22,28 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### Ukraine peace efforts: a reason for hope, and what happens next — revision 2
 
 - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
-- Status: published locally; approved candidate-only commit, push/main deployment verification and task cleanup in progress
+- Status: published live; exact approved revision 2; release verified; task cleanup complete
 - Decision: Approve; “ok approved. Commit, push and clean up”; 981-word length accepted
 - Content: `content/news/2026-10-21-ukraine-renewed-diplomacy.md`
 - Package: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/approval-revision-2.md`
 - Immutable reviewed packet: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/07-Approval/2026-10-21-ukraine-renewed-diplomacy/approval-revision-2-reviewed.md`
 - Reviewed packet SHA-256: `ac94bfcd2b5d986e0f98df148b8d4939b641a9429aa36b5405890cbf3c8e4238`
-- Current decision packet SHA-256: `e5fafa5e694af45daf0563bea38dd9122a6bd5b306295970732b917d9b4fa8d6`
+- Current decision packet SHA-256: `d3185380509b4eb4fee423e8f561e00e2cd0f589c6213aad4e6b790c06cec434`
 - Payload SHA-256: `801319d7f54871d41f9a5500b4870ee72b93c791589b0e178d799253a744c6be`
 - Run: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy/01-Ideas/2026-10-21-ukraine-renewed-diplomacy/run.md`
 - Checks: normal production build; exact approved body/metadata; homepage/News/article HTTP 200; 27-width browser; Node 22: 263 passed; Python 3.11: 16 passed
 - Limits: inherited coffee-badge obstruction and 320px overflow; no shared-design change
 - Archive: `99-Archive/published/2026-10-21-ukraine-renewed-diplomacy`; 239 discovered files moved and byte-verified; no active bundle remains
-- Cleanup disposition: private archive retained locally; task-owned local/QA processes and disposable preview roots stop/remove after live handoff
-- Next: verify exact approved release on GitHub/live, then complete scoped cleanup; no unrelated changes included
+- Cleanup disposition: private archive retained locally; task-owned local/QA processes stopped; disposable preview root removed; desktop pane shows verified live article
+- Next: none editorially; final records-HEAD verification receipts retained in private archive; unrelated edits excluded
 
 - [x] Approve
 - [ ] Request changes
 - [ ] Reject
 - [ ] Hold
+- Product commit: `76fa3555c7b7dd3720e0c54e306c7e8b55c3663b`; Pages run `39579939068`, build/deploy successful
+- Live verified: `https://dadbot.blog/news/ukraine-renewed-diplomacy/`; exact approved article/homepage/News, six Sources
+- Cleanup: complete; private stage/research/QA archive preserved, task cache removed, local/QA ports closed
 
 
 ### US–Ukraine relations hit a new low. Could less backing bring peace closer? — revision 2
