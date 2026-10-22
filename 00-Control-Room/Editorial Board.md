@@ -7,6 +7,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
+  - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
+  - Stage: Idea checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/01-Ideas/2026-10-22-meta-new-mexico-25-billion/idea.md`
+  - Run: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/01-Ideas/2026-10-22-meta-new-mexico-25-billion/run.md`
+  - SHA-256: `10bbb18a1cdb7448363017d4bd140da5fd1274638600e46ef0d916c3648b89a8`
+  - Checks: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/01-Ideas/2026-10-22-meta-new-mexico-25-billion/idea-checks.json`
+
 - [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 1
   - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; News; final-review
   - Stage: Idea checked internally, not human-approved
@@ -303,6 +311,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
+  - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
+  - Stage: Brief checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/02-Briefs/2026-10-22-meta-new-mexico-25-billion/brief.md`
+  - Run: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/01-Ideas/2026-10-22-meta-new-mexico-25-billion/run.md`
+  - SHA-256: `cbc4cf3cc1d6ebb4f815f0500cfc0a1d2d5110fa32ad9e07a4706ac4ecb38eed`
+  - Checks: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/02-Briefs/2026-10-22-meta-new-mexico-25-billion/brief-checks.json`
+
 - [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 1
   - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; News; final-review
   - Stage: Brief checked internally, not human-approved
@@ -593,6 +609,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
+  - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
+  - Stage: SEO checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/03-SEO/2026-10-22-meta-new-mexico-25-billion/seo.md`
+  - Run: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/01-Ideas/2026-10-22-meta-new-mexico-25-billion/run.md`
+  - SHA-256: `f742a699cc618d7a8cf0d9d603a2bf3506310dd7b568954a1bf5a6888e823ff9`
+  - Checks: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/03-SEO/2026-10-22-meta-new-mexico-25-billion/seo-checks.json`
 
 - [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
   - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
@@ -929,6 +953,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
+  - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
+  - Stage: Draft checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/04-Drafts/2026-10-22-meta-new-mexico-25-billion/draft.md`
+  - Run: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/01-Ideas/2026-10-22-meta-new-mexico-25-billion/run.md`
+  - SHA-256: `740adedd98a95448922247564b5124e4e5d21e974ecb02e70cd006ccdb18eb6b`
+  - Checks: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/04-Drafts/2026-10-22-meta-new-mexico-25-billion/draft-checks.json`
 
 - [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
   - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
@@ -1339,6 +1371,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
+  - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
+  - Stage: Creative Edit checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/05-Reviews/2026-10-22-meta-new-mexico-25-billion/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/01-Ideas/2026-10-22-meta-new-mexico-25-billion/run.md`
+  - SHA-256: `f33fdd95dd25efd29afa9de52b0ed105abce67a78592ba50f48aad239c0cfdaa`
+  - Checks: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/05-Reviews/2026-10-22-meta-new-mexico-25-billion/creative-edit-checks.json`
 
 - [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
   - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
@@ -1761,6 +1801,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
+  - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
+  - Stage: Proofread checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/05-Reviews/2026-10-22-meta-new-mexico-25-billion/proofread.md`
+  - Run: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/01-Ideas/2026-10-22-meta-new-mexico-25-billion/run.md`
+  - SHA-256: `53b7325b98f080b338055417178752cbc0049015b01fc5f72cb142afdb1d2baa`
+  - Checks: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/05-Reviews/2026-10-22-meta-new-mexico-25-billion/proofread-checks.json`
+
 - [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
   - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
   - Stage: Proofread checked internally, not human-approved
@@ -2175,6 +2223,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
+  - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
+  - Stage: Design checked internally, not human-approved; historical checkpoint; published locally
+  - Artifact: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/06-Design/2026-10-22-meta-new-mexico-25-billion/design.md`
+  - Run: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/01-Ideas/2026-10-22-meta-new-mexico-25-billion/run.md`
+  - SHA-256: `a687d3a226e4a10efe8eb1d1702f25cebdc0b4dedcdb63d8d29225e388e703b2`
+  - Checks: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/06-Design/2026-10-22-meta-new-mexico-25-billion/design-checks.json`
 
 - [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
   - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
@@ -2618,6 +2674,21 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
+  - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
+  - Status: published locally; exact approved revision 1; commit/push/cleanup authorised and in progress
+  - Decision: Sophie, “approved. commit, push and clean up”; 2026-10-22T22:01:37.893435+02:00
+  - Content: `content/news/2026-10-22-meta-new-mexico-25-billion.md`
+  - Package: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/07-Approval/2026-10-22-meta-new-mexico-25-billion/approval.md`
+  - Reviewed packet: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/07-Approval/2026-10-22-meta-new-mexico-25-billion/approval-reviewed-r1.md`; SHA-256 `a36369cce6d89579c26d0cd1aad1f7a8e271c1a6880624ee8f2908cf261315f3`
+  - Current decision packet SHA-256: `fd7bf419876e34026572ba3d894994607edd185080ca6d3a13980d872df7c31e`
+  - Payload SHA-256: `6f20b1e7561ac8ab2efee9dd54111fb1647f075823500520a4151f47c1208a8d`
+  - Run: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/01-Ideas/2026-10-22-meta-new-mexico-25-billion/run.md`
+  - Archive: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion`; 159 discovered files moved and byte-verified; private archive local-only
+  - Checks: production build; exact body/metadata/six sources; home/News/article HTTP 200; 32-width publication browser; Node 22: 263 passed; Python 3.11: 16 passed
+  - Limits: unchanged coffee-badge obstruction and 320px overflow; no shared-design change
+  - Next: finish authorised commit/push, verify live, then task-owned cleanup
 
 - [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 2
   - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review

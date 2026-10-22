@@ -19,6 +19,30 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
+
+- Candidate: `2026-10-22-meta-new-mexico-25-billion`; revision 1; News; final-review
+- Status: published locally; exact approved revision 1; commit/push/cleanup authorised and in progress
+- Decision: Approve, Sophie; “approved. commit, push and clean up”; 2026-10-22T22:01:37.893435+02:00
+- Content: `content/news/2026-10-22-meta-new-mexico-25-billion.md`
+- Package: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/07-Approval/2026-10-22-meta-new-mexico-25-billion/approval.md`
+- Immutable reviewed packet: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/07-Approval/2026-10-22-meta-new-mexico-25-billion/approval-reviewed-r1.md`
+- Reviewed packet SHA-256: `a36369cce6d89579c26d0cd1aad1f7a8e271c1a6880624ee8f2908cf261315f3`
+- Current decision packet SHA-256: `fd7bf419876e34026572ba3d894994607edd185080ca6d3a13980d872df7c31e`
+- Payload SHA-256: `6f20b1e7561ac8ab2efee9dd54111fb1647f075823500520a4151f47c1208a8d`
+- Run: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion/01-Ideas/2026-10-22-meta-new-mexico-25-billion/run.md`
+- Checks: production build; exact body/metadata/six sources; home/News/article HTTP 200; 32-width publication browser; Node 22: 263 passed; Python 3.11: 16 passed
+- Limits: inherited coffee-badge obstruction and 320px overflow; no shared-design change
+- Archive: `99-Archive/published/2026-10-22-meta-new-mexico-25-billion`; 159 discovered files moved and byte-verified; private research/QA local-only
+- Cleanup disposition: preserve complete private archive; switch pane to verified live page, stop task-owned local/QA processes and remove only disposable preview cache
+- Next: finish authorised commit/push, verify live, then task-owned cleanup
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
 ### Ukraine peace efforts: a reason for hope, and what happens next — revision 2
 
 - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; revision 2; News; final-review
