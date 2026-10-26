@@ -22,12 +22,12 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### While You Were Out: The Weekend Catch-Up | revision 1
 
 - Candidate: `2026-10-26-weekend-catch-up`; News; final-review; revision 1
-- Status: approved and published locally; bounded release in progress
+- Status: published live; exact approved revision 1; release verified; cleanup complete
 - Public file: `content/news/2026-10-26-weekend-catch-up.md`
 - URL: `https://dadbot.blog/news/weekend-catch-up-26-october-2026/`
 - Archive: `99-Archive/published/2026-10-26-weekend-catch-up/`
 - Run: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/run.md`
-- Decision packet: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/approval.md`; current SHA-256 `037a5d8faed18abb5430236f1813b127b2be1c115082d28c6c5aca4a96e6657e`
+- Decision packet: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/approval.md`; current SHA-256 `3083057c0499b4642fa1005969ac2e8b6f4e17d92dc0b854f137c46eb1a8f9f5`
 - Exact reviewed snapshot: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/approval-reviewed-exact-r1.md`; SHA-256 `0ded0466cd552799b9bb92a52369dcb84b3a209467a3f29b0fc5084ff83bf770`
 - Earlier text-normalised snapshot: `approval-for-review-r1.md`; retained unchanged; trailing-newline-only difference documented in release evidence
 - Reviewer copy: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/final-review-r1.md`; immutable historical pre-decision copy
@@ -37,7 +37,10 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Checks: 263 Node 22 tests, 16 Python 3.11 tests; production build; exact article/home/News HTTP/browser and nine Sources; full prior article review retained
 - Limits: inherited coffee-badge obstruction and extra 320px shell overflow unchanged; no shared-design repair
 - Publication verification: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/release-evidence/local-publication-verification.json`
-- Next: verify exact-SHA GitHub deployment and live content, then complete task cleanup; private archive retained locally
+- Product release: `59cfe804858492e241026d10bb44829d350ede78`; Pages run `40349338223`, build and deploy successful
+- Live: exact approved body/TL;DR/metadata/nine Sources verified; homepage and News listing present
+- Cleanup: complete; owned preview/QA stopped, external task mirror removed, private archive retained locally; pane shows verified live article
+- Next: none editorially; final records-HEAD readbacks retained privately, not another deployment-triggering bookkeeping loop
 
 - [x] Approve
 - [ ] Request changes

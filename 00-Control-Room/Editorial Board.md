@@ -2863,19 +2863,21 @@ See also: [[Approval Queue]]
 ## Published
 
 - [x] While You Were Out: The Weekend Catch-Up | revision 1
-  - Candidate: `2026-10-26-weekend-catch-up`; News; final-review; approved and published locally
+  - Candidate: `2026-10-26-weekend-catch-up`; News; final-review; published live; release verified; cleanup complete
   - Public file: `content/news/2026-10-26-weekend-catch-up.md`
   - URL: `https://dadbot.blog/news/weekend-catch-up-26-october-2026/`
   - Archive: `99-Archive/published/2026-10-26-weekend-catch-up/`
   - Run: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/run.md`
-  - Decision packet: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/approval.md`; current SHA-256 `037a5d8faed18abb5430236f1813b127b2be1c115082d28c6c5aca4a96e6657e`
+  - Decision packet: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/approval.md`; current SHA-256 `3083057c0499b4642fa1005969ac2e8b6f4e17d92dc0b854f137c46eb1a8f9f5`
   - Exact reviewed snapshot: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/approval-reviewed-exact-r1.md`; SHA-256 `0ded0466cd552799b9bb92a52369dcb84b3a209467a3f29b0fc5084ff83bf770`
   - Article payload SHA-256: `3d1bb0df5fbc6fb82f521b1c11a16ba0a784fb31584f99c9fefaa11b45099a64`
   - Decision: Approve, User (desktop conversation), 2026-10-26T16:17:49.776026+01:00; “approved. Commit, push and clean up”
   - Separate release authority: candidate-only commit, push/main, live verification and task-owned cleanup; unrelated edits excluded
   - Checks: production build; home/News/article HTTP 200; exact approved payload, metadata and nine Sources; 28-width browser; Node 22: 263 passed; Python 3.11: 16 passed
   - Limits: inherited coffee-badge obstruction and extra 320px 31px overflow; no shared design change
-  - Next: verify authorised GitHub deployment/live content, then close task cleanup; receipts stay in the private archive
+  - Product release: `59cfe804858492e241026d10bb44829d350ede78`; Pages run `40349338223`, build and deploy successful; exact live home/News/article and nine Sources verified
+  - Cleanup: complete; private archive retained locally, owned preview/browser stopped and task mirror removed; pane shows live article
+  - Next: none editorially; final pushed records-HEAD receipts retained in private archive; unrelated edits excluded
 
 - [x] Karl Bushby’s 28-year journey home: what comes next? | revision 3
   - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog; final-review; revision 3
