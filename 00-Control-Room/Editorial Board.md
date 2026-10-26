@@ -7,6 +7,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 1
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog / Ideas & Curiosities; final-review
+  - Stage: Idea checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/idea.md`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+  - SHA-256: `08310ac376871458dd54efac42293f685ef6dd6ebc1f76a4715999da311dded2`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/idea-checks.json`
+
 - [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
   - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
   - Stage: Idea checked internally, not human-approved; historical checkpoint; published locally
@@ -311,6 +319,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 1
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog / Ideas & Curiosities; final-review
+  - Stage: Brief checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/02-Briefs/2026-10-26-karl-bushby-journey-home/brief.md`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+  - SHA-256: `2edb0e604bd940c95b3490489ad123192cd3e2180d448e84fac2420776d3aba2`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/02-Briefs/2026-10-26-karl-bushby-journey-home/brief-checks.json`
+
 - [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
   - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
   - Stage: Brief checked internally, not human-approved; historical checkpoint; published locally
@@ -609,6 +625,22 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 2
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 2; Blog; final-review
+  - Stage: SEO checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/03-SEO/2026-10-26-karl-bushby-journey-home/seo-revision-2.md`
+  - SHA-256: `d0c68fdd28ffbb6dfc5e5a9a8129096694b32cae7cadb2f5496607efe32fda3e`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/03-SEO/2026-10-26-karl-bushby-journey-home/seo-revision-2-checks.json`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 1
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog / Ideas & Curiosities; final-review
+  - Stage: SEO checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/03-SEO/2026-10-26-karl-bushby-journey-home/seo.md`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+  - SHA-256: `5db20b63a5fe37aae885291fd05ec85876f16a564ade6c9c208af9b05af929d7`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/03-SEO/2026-10-26-karl-bushby-journey-home/seo-checks.json`
 
 - [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
   - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
@@ -953,6 +985,30 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 3
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 3; Blog; final-review
+  - Stage: Draft checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/04-Drafts/2026-10-26-karl-bushby-journey-home/draft-revision-3.md`
+  - SHA-256: `0dc300863010fc5fcb296624ab5930e270e1384447bff05f204a95518eb3c151`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/04-Drafts/2026-10-26-karl-bushby-journey-home/draft-revision-3-checks.json`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 2
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 2; Blog; final-review
+  - Stage: Draft checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/04-Drafts/2026-10-26-karl-bushby-journey-home/draft-revision-2.md`
+  - SHA-256: `05228684b7f32d2bd4c244492014a39fa2907f821a9bde97c16b4b6c85f6b122`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/04-Drafts/2026-10-26-karl-bushby-journey-home/draft-revision-2-checks.json`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 1
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog / Ideas & Curiosities; final-review
+  - Stage: Draft checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/04-Drafts/2026-10-26-karl-bushby-journey-home/draft.md`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+  - SHA-256: `c56abd59067df61355063cd24c4045812fdce24c04237aa8dbd9b222af8aa6a9`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/04-Drafts/2026-10-26-karl-bushby-journey-home/draft-checks.json`
 
 - [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
   - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
@@ -1371,6 +1427,30 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 3
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 3; Blog; final-review
+  - Stage: Creative Edit checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/creative-edit-revision-3.md`
+  - SHA-256: `56f594b70fe66dfbd0d785dfbd6221fae96ac7e80c11901d9a054e1dfa125f99`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/creative-edit-revision-3-checks.json`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 2
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 2; Blog; final-review
+  - Stage: Creative Edit checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/creative-edit-revision-2.md`
+  - SHA-256: `285708949dce0bcda813a1ef251adf9999cc9d55f2118bf333796cf2aae4f919`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/creative-edit-revision-2-checks.json`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 1
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog / Ideas & Curiosities; final-review
+  - Stage: Creative Edit checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+  - SHA-256: `ad80172bec31e6146a213b933000f6682a2a9f79d525f5155b6b9a6f68354d0d`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/creative-edit-checks.json`
 
 - [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
   - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
@@ -1801,6 +1881,30 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 3
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 3; Blog; final-review
+  - Stage: Proofread checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/proofread-revision-3.md`
+  - SHA-256: `7933039cb0dc4145d0844495bd917bf66e291aedcb6d5dfe08985babb5a825a9`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/proofread-revision-3-checks.json`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 2
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 2; Blog; final-review
+  - Stage: Proofread checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/proofread-revision-2.md`
+  - SHA-256: `07d377138fbd1d75202e7ff8834811e509a187fc97d3995e8a7fbe9febfe8655`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/proofread-revision-2-checks.json`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 1
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog / Ideas & Curiosities; final-review
+  - Stage: Proofread checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/proofread.md`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+  - SHA-256: `4cc2812a6488525053d47486d53c4a0d53d1f204e1c023d7d29201e3c6e8b059`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/05-Reviews/2026-10-26-karl-bushby-journey-home/proofread-checks.json`
+
 - [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
   - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
   - Stage: Proofread checked internally, not human-approved; historical checkpoint; published locally
@@ -2224,6 +2328,30 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Design
 
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 3
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 3; Blog; final-review
+  - Stage: Design checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/06-Design/2026-10-26-karl-bushby-journey-home/design-revision-3.md`
+  - SHA-256: `4913070159a5932f8586b768c62da9b859a10651bb34dc649051cef302861fa4`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/06-Design/2026-10-26-karl-bushby-journey-home/design-revision-3-checks.json`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 2
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 2; Blog; final-review
+  - Stage: Design checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/06-Design/2026-10-26-karl-bushby-journey-home/design-revision-2.md`
+  - SHA-256: `60ea7e3447776bb1119b0690a8b76928b1eab760996c7267c1aa01d9ea9cb230`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/06-Design/2026-10-26-karl-bushby-journey-home/design-revision-2-checks.json`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 1
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog / Ideas & Curiosities; final-review
+  - Stage: Design checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/06-Design/2026-10-26-karl-bushby-journey-home/design.md`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+  - SHA-256: `78686ed17566ed9b7b9ba396043ec5cbe96e087b5c49e09d2e946ff3f06a6297`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/06-Design/2026-10-26-karl-bushby-journey-home/design-checks.json`
+
 - [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
   - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
   - Stage: Design checked internally, not human-approved; historical checkpoint; published locally
@@ -2643,6 +2771,9 @@ A simple Obsidian board for tracking Dadbot work.
 
 
 
+
+
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
@@ -2674,6 +2805,22 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 3
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog; final-review; revision 3
+  - Status: approved and published locally; commit/push/cleanup separately authorised
+  - Public file: `content/posts/karl-bushby-journey-home.md`
+  - URL: `https://dadbot.blog/posts/karl-bushby-journey-home/`
+  - Archive: `99-Archive/published/2026-10-26-karl-bushby-journey-home/`
+  - Run record: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+  - Final approval: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval-revision-3.md`
+  - Immutable reviewed packet: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval-for-review-r3.md`; SHA-256 `fbfbd0dc912839e879852374881f9ceba9eea692f5b44553d5e506e8533ec8b7`
+  - Current decision packet SHA-256: `08da2a29b5ef09537aac4997e181b040a92a8181a6a6b9556312363af0c6168d`
+  - Article payload SHA-256: `580c20ac7a8b392b84b95401d381eec15586527e692eef8ec571eac5de975ea4`
+  - Human decision: Approve; user desktop conversation; 2026-10-26T14:18:02.592324+01:00; 1336-word shorter length accepted
+  - Release authority: “approved. Commit, push and clean up”; main only; no unrelated work
+  - Checks: 263/263 Node; 16 Python; production build; browser widths/source/attribution/JS checks
+  - Release readbacks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/release-evidence/release-record.json`; publication recorded here is local, not an advance claim of live verification
 
 - [x] Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
   - Candidate: `2026-10-22-meta-new-mexico-25-billion`; News; final-review
@@ -3248,6 +3395,39 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 2
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 2; Blog; final-review
+  - Stage: Final Approval historical; Request changes; revision 3 in progress
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval-revision-2.md`
+  - Reviewed snapshot SHA-256: `ab31858d0377df06b978b9f535f98e51099478bf7e9d87594a98acfd06c3fbb2`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/final-approval-revision-2-checks.json`
+  - Article payload SHA-256: `00dba3dbdd09878d0651ac18f62f28dd721c821a3ba91159fa9c1d5bd10506fd`
+  - Public metadata SHA-256: `37202ceae77454d0075b206b2affa9f1c267585cecca2007001b0714eda45550`
+  - Reviewer copy: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/final-review-r2.md`
+  - Preview: `http://127.0.0.1:1313/posts/karl-bushby-journey-home/?local-review=2`; isolated and direct-route-only
+  - Length: 1297 prose words; below 1400 minimum; acceptance pending
+  - Limits: unchanged shared coffee-badge obstruction and 320px overflow
+  - Decision: Request changes, 2026-10-26T13:40:35.080653+01:00; no publication approval
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+  - Reviewed snapshot: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval-for-review-r2.md`
+  - Current decision packet SHA-256: `fcad09e5856852a973e76140a97c4fdd8f2056c8c9025967aa7696235858407f`
+
+- [x] Karl Bushby’s 28-year journey home: what comes next? | revision 1
+  - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog / Ideas & Curiosities; final-review
+  - Stage: Final Approval revision 1 superseded by Request changes; historical
+  - Artifact: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval.md`
+  - Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+  - Reviewed snapshot SHA-256: `f5ad0bafb6d1cc60f044ee8c02d5fd17cff499cf1592c4ca665d7125845c1a88`
+  - Checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/final-approval-checks.json`
+  - Article payload SHA-256: `c4d673e3a30fcc1910875041dd3a9083e26a89bfcc43ca59f4c907c4f7981cf5`
+  - Public metadata SHA-256: `37202ceae77454d0075b206b2affa9f1c267585cecca2007001b0714eda45550`
+  - Reviewer copy: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/final-review-r1.md`
+  - Preview: `http://127.0.0.1:1313/posts/karl-bushby-journey-home/?local-review=1`; isolated, direct-route-only
+  - Limits: inherited coffee-badge text obstruction; shared 320px overflow; no candidate-specific blocker
+  - Decision: Request changes, 2026-10-26T12:04:49.284623+01:00; revision 2 in progress; not publication approval
+  - Reviewed snapshot: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval-for-review-r1.md`
+  - Current decision packet SHA-256: `d21f7a9ce835a341cc1f4070212f7510bc64f3d169160135c2202ddf12ec6e5a`
 
 - [x] Ukraine peace efforts: a reason for hope, and what happens next — revision 1
   - Candidate: `2026-10-21-ukraine-renewed-diplomacy`; News; final-review

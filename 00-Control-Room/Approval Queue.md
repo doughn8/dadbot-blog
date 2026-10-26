@@ -19,6 +19,30 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Karl Bushby’s 28-year journey home: what comes next? | revision 3
+
+- Candidate: `2026-10-26-karl-bushby-journey-home`; Blog; final-review; revision 3
+- Status: approved and published locally; editorial decision complete
+- Public file: `content/posts/karl-bushby-journey-home.md`
+- URL: `https://dadbot.blog/posts/karl-bushby-journey-home/`
+- Archive: `99-Archive/published/2026-10-26-karl-bushby-journey-home/`
+- Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+- Decision packet: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval-revision-3.md`; SHA-256 `08da2a29b5ef09537aac4997e181b040a92a8181a6a6b9556312363af0c6168d`
+- Exact reviewed snapshot: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval-for-review-r3.md`; SHA-256 `fbfbd0dc912839e879852374881f9ceba9eea692f5b44553d5e506e8533ec8b7`
+- Article payload SHA-256: `580c20ac7a8b392b84b95401d381eec15586527e692eef8ec571eac5de975ea4`
+- Decision: Approve, User (desktop conversation), 2026-10-26T14:18:02.592324+01:00; accepted 1336-word length
+- Separate release authority: “approved. Commit, push and clean up”; commit/push main and task-owned cleanup; no unrelated changes
+- Publication checks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/publication-checklist.md`
+- Checks: 263/263 Node, 16 Python; production build; browser/source/attribution checks passed
+- Release readbacks: `99-Archive/published/2026-10-26-karl-bushby-journey-home/release-evidence/release-record.json`; GitHub/live verified separately
+- No next editorial decision pending
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
 ### Meta’s $25 billion New Mexico penalty: will it pay? | revision 1
 
 - Candidate: `2026-10-22-meta-new-mexico-25-billion`; revision 1; News; final-review
@@ -1038,6 +1062,58 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### Karl Bushby’s 28-year journey home: what comes next? | revision 2
+
+- Candidate: `2026-10-26-karl-bushby-journey-home`; revision 2; Blog / Ideas & Curiosities; final-review
+- Status: historical revision 2; Request changes recorded; revision 3 in progress
+- Package: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval-revision-2.md`
+- Exact pre-decision packet: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval-for-review-r2.md`
+- Reviewer copy: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/final-review-r2.md`
+- Reviewed packet SHA-256: `ab31858d0377df06b978b9f535f98e51099478bf7e9d87594a98acfd06c3fbb2`
+- Reviewer-copy SHA-256: `24ba1a5903af369cfa865e197d3c12ad5f20be9d06fe797c4625c95792ac01c0`
+- Article payload SHA-256: `00dba3dbdd09878d0651ac18f62f28dd721c821a3ba91159fa9c1d5bd10506fd`
+- Public metadata SHA-256: `37202ceae77454d0075b206b2affa9f1c267585cecca2007001b0714eda45550`; unchanged from revision 1
+- Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+- Preview: `http://127.0.0.1:1313/posts/karl-bushby-journey-home/?local-review=2`; external full-content mirror; hidden from lists
+- Server: loopback 1313; PID 93368; terminal session proc_62dbc5a852f3; old review server stopped
+- Checks: revision-specific SEO through Final Approval, YAML/contracts/evidence, quotations, exact edit-map replay, payload equality, source refresh, both builds/production leak scan, real-browser matrix and removal/heading checks, desktop pane readback, QA browser exit
+- Length: 1297 prose words, 167 fewer than revision 1; explicit acceptance required because below 1400 minimum
+- Limits: unchanged inherited coffee-badge text obstruction and shared 320px overflow; no shared design changes
+- Decision boundary: Approve authorises local publication only and acceptance of the disclosed shorter version; no commit, push or deployment
+- Decision: Request changes, 2026-10-26T13:40:35.080653+01:00; old preview and checks historical
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+- Current revision-2 decision packet SHA-256: `fcad09e5856852a973e76140a97c4fdd8f2056c8c9025967aa7696235858407f`; reviewed snapshot SHA above remains immutable
+
+### Karl Bushby’s 28-year journey home: what comes next? | revision 1
+
+- Candidate: `2026-10-26-karl-bushby-journey-home`; revision 1; Blog / Ideas & Curiosities; final-review
+- Status: superseded revision 1; Request changes recorded; no publication approved
+- Package: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval.md`
+- Exact pre-decision packet: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/approval-for-review-r1.md`
+- Reviewer copy: `99-Archive/published/2026-10-26-karl-bushby-journey-home/07-Approval/2026-10-26-karl-bushby-journey-home/final-review-r1.md`
+- Reviewed packet SHA-256: `f5ad0bafb6d1cc60f044ee8c02d5fd17cff499cf1592c4ca665d7125845c1a88`
+- Reviewer-copy SHA-256: `cc5581dd8568705ecafa58625858ce0d46105c0840f020de66d6174851a2a1fe`
+- Article payload SHA-256: `c4d673e3a30fcc1910875041dd3a9083e26a89bfcc43ca59f4c907c4f7981cf5`
+- Public metadata SHA-256: `37202ceae77454d0075b206b2affa9f1c267585cecca2007001b0714eda45550` (sorted compact UTF-8 JSON)
+- Run: `99-Archive/published/2026-10-26-karl-bushby-journey-home/01-Ideas/2026-10-26-karl-bushby-journey-home/run.md`
+- Preview: `http://127.0.0.1:1313/posts/karl-bushby-journey-home/?local-review=1`; isolated external full-content mirror, hidden from lists
+- Server: loopback 1313; PID 43381; terminal session proc_345fa6c4a998; recovery in Design preview-server.json
+- Checks: all eight stage artifacts checked; YAML/contracts/evidence/quote checks; 1464 prose words; unchanged payload and metadata; all seven source article spans refreshed unchanged; isolated/production builds and production-leak scan; 28 required widths plus 320px diagnostic; exact source anchors; desktop pane readback; QA browser exit verified
+- Limits: inherited fixed coffee badge can obscure phone/tablet text; both candidate and approved sibling overflow 31px at 320px; no shared design changes; no candidate-specific blocker
+- Authority: Approve = agreed local publication only. Commit, push and deploy are not authorised.
+- Decision: Request changes, 2026-10-26T12:04:49.284623+01:00; see revision-2-request.md; earlier checks bind the immutable pre-decision snapshot
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+- Current revision-1 decision packet SHA-256: `d21f7a9ce835a341cc1f4070212f7510bc64f3d169160135c2202ddf12ec6e5a`
+- Earlier preview URL and checks above are historical; revision 2 is the current review.
 
 ### Ukraine peace efforts: a reason for hope, and what happens next — revision 1
 
