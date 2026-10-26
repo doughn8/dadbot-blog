@@ -7,6 +7,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] While You Were Out: The Weekend Catch-Up | revision 1
+  - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
+  - Stage: Idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/idea.md`
+  - Run: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/run.md`
+  - SHA-256: `a8d4775b68bb0c8c3ca517de0209efe7f3ee1dd1939cbca75d64b1c6e3fc65e0`
+  - Checks: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/idea-checks.json`
+
 - [x] Karl Bushby’s 28-year journey home: what comes next? | revision 1
   - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog / Ideas & Curiosities; final-review
   - Stage: Idea checked internally, not human-approved
@@ -319,6 +327,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] While You Were Out: The Weekend Catch-Up | revision 1
+  - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
+  - Stage: Brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-weekend-catch-up/02-Briefs/2026-10-26-weekend-catch-up/brief.md`
+  - Run: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/run.md`
+  - SHA-256: `0465354209e914f4da2fc678560dc3aeb47cd0b88686280e0c147871d5554c71`
+  - Checks: `99-Archive/published/2026-10-26-weekend-catch-up/02-Briefs/2026-10-26-weekend-catch-up/brief-checks.json`
+
 - [x] Karl Bushby’s 28-year journey home: what comes next? | revision 1
   - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog / Ideas & Curiosities; final-review
   - Stage: Brief checked internally, not human-approved
@@ -625,6 +641,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] While You Were Out: The Weekend Catch-Up | revision 1
+  - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
+  - Stage: SEO checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-weekend-catch-up/03-SEO/2026-10-26-weekend-catch-up/seo.md`
+  - Run: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/run.md`
+  - SHA-256: `1ce855e3801dc0761b7273f3d320ecf702f0848fc1c66a80879bd6e9756a8efa`
+  - Checks: `99-Archive/published/2026-10-26-weekend-catch-up/03-SEO/2026-10-26-weekend-catch-up/seo-checks.json`
 
 - [x] Karl Bushby’s 28-year journey home: what comes next? | revision 2
   - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 2; Blog; final-review
@@ -985,6 +1009,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] While You Were Out: The Weekend Catch-Up | revision 1
+  - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
+  - Stage: Draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-weekend-catch-up/04-Drafts/2026-10-26-weekend-catch-up/draft.md`
+  - Run: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/run.md`
+  - SHA-256: `09e8a36e16df38982c9b0ff5c1a8caf4e9e2d7bd5c7ea17be8a986595dda495a`
+  - Checks: `99-Archive/published/2026-10-26-weekend-catch-up/04-Drafts/2026-10-26-weekend-catch-up/draft-checks.json`
 
 - [x] Karl Bushby’s 28-year journey home: what comes next? | revision 3
   - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 3; Blog; final-review
@@ -1427,6 +1459,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] While You Were Out: The Weekend Catch-Up | revision 1
+  - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
+  - Stage: Creative Edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-weekend-catch-up/05-Reviews/2026-10-26-weekend-catch-up/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/run.md`
+  - SHA-256: `0c468d4064e0a265a880d94abaae16198eea025b0c93e7f8de8ac86c03dd26e0`
+  - Checks: `99-Archive/published/2026-10-26-weekend-catch-up/05-Reviews/2026-10-26-weekend-catch-up/creative-edit-checks.json`
 
 - [x] Karl Bushby’s 28-year journey home: what comes next? | revision 3
   - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 3; Blog; final-review
@@ -1881,6 +1921,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] While You Were Out: The Weekend Catch-Up | revision 1
+  - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
+  - Stage: Proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-weekend-catch-up/05-Reviews/2026-10-26-weekend-catch-up/proofread.md`
+  - Run: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/run.md`
+  - SHA-256: `82f0a24886af1a68d68509649de4d39277ead2a8f207f6f896871f7eedf93ce8`
+  - Checks: `99-Archive/published/2026-10-26-weekend-catch-up/05-Reviews/2026-10-26-weekend-catch-up/proofread-checks.json`
+
 - [x] Karl Bushby’s 28-year journey home: what comes next? | revision 3
   - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 3; Blog; final-review
   - Stage: Proofread checked internally, not human-approved
@@ -2327,6 +2375,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] While You Were Out: The Weekend Catch-Up | revision 1
+  - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
+  - Stage: Design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-26-weekend-catch-up/06-Design/2026-10-26-weekend-catch-up/design.md`
+  - Run: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/run.md`
+  - SHA-256: `bc86c08c2771a02ea7e89d0122d4d4d2416774f93b03b4552aebf385508a3a16`
+  - Checks: `99-Archive/published/2026-10-26-weekend-catch-up/06-Design/2026-10-26-weekend-catch-up/design-checks.json`
 
 - [x] Karl Bushby’s 28-year journey home: what comes next? | revision 3
   - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 3; Blog; final-review
@@ -2805,6 +2861,21 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] While You Were Out: The Weekend Catch-Up | revision 1
+  - Candidate: `2026-10-26-weekend-catch-up`; News; final-review; approved and published locally
+  - Public file: `content/news/2026-10-26-weekend-catch-up.md`
+  - URL: `https://dadbot.blog/news/weekend-catch-up-26-october-2026/`
+  - Archive: `99-Archive/published/2026-10-26-weekend-catch-up/`
+  - Run: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/run.md`
+  - Decision packet: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/approval.md`; current SHA-256 `037a5d8faed18abb5430236f1813b127b2be1c115082d28c6c5aca4a96e6657e`
+  - Exact reviewed snapshot: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/approval-reviewed-exact-r1.md`; SHA-256 `0ded0466cd552799b9bb92a52369dcb84b3a209467a3f29b0fc5084ff83bf770`
+  - Article payload SHA-256: `3d1bb0df5fbc6fb82f521b1c11a16ba0a784fb31584f99c9fefaa11b45099a64`
+  - Decision: Approve, User (desktop conversation), 2026-10-26T16:17:49.776026+01:00; “approved. Commit, push and clean up”
+  - Separate release authority: candidate-only commit, push/main, live verification and task-owned cleanup; unrelated edits excluded
+  - Checks: production build; home/News/article HTTP 200; exact approved payload, metadata and nine Sources; 28-width browser; Node 22: 263 passed; Python 3.11: 16 passed
+  - Limits: inherited coffee-badge obstruction and extra 320px 31px overflow; no shared design change
+  - Next: verify authorised GitHub deployment/live content, then close task cleanup; receipts stay in the private archive
 
 - [x] Karl Bushby’s 28-year journey home: what comes next? | revision 3
   - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog; final-review; revision 3

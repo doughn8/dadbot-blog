@@ -19,6 +19,32 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### While You Were Out: The Weekend Catch-Up | revision 1
+
+- Candidate: `2026-10-26-weekend-catch-up`; News; final-review; revision 1
+- Status: approved and published locally; bounded release in progress
+- Public file: `content/news/2026-10-26-weekend-catch-up.md`
+- URL: `https://dadbot.blog/news/weekend-catch-up-26-october-2026/`
+- Archive: `99-Archive/published/2026-10-26-weekend-catch-up/`
+- Run: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/run.md`
+- Decision packet: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/approval.md`; current SHA-256 `037a5d8faed18abb5430236f1813b127b2be1c115082d28c6c5aca4a96e6657e`
+- Exact reviewed snapshot: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/approval-reviewed-exact-r1.md`; SHA-256 `0ded0466cd552799b9bb92a52369dcb84b3a209467a3f29b0fc5084ff83bf770`
+- Earlier text-normalised snapshot: `approval-for-review-r1.md`; retained unchanged; trailing-newline-only difference documented in release evidence
+- Reviewer copy: `99-Archive/published/2026-10-26-weekend-catch-up/07-Approval/2026-10-26-weekend-catch-up/final-review-r1.md`; immutable historical pre-decision copy
+- Article payload SHA-256: `3d1bb0df5fbc6fb82f521b1c11a16ba0a784fb31584f99c9fefaa11b45099a64`
+- Decision: Approve, User (desktop conversation), 2026-10-26T16:17:49.776026+01:00; exact instruction “approved. Commit, push and clean up”
+- Separate authority: publish locally, commit candidate-only article/records, push main and clean up task-owned temporary material
+- Checks: 263 Node 22 tests, 16 Python 3.11 tests; production build; exact article/home/News HTTP/browser and nine Sources; full prior article review retained
+- Limits: inherited coffee-badge obstruction and extra 320px shell overflow unchanged; no shared-design repair
+- Publication verification: `99-Archive/published/2026-10-26-weekend-catch-up/01-Ideas/2026-10-26-weekend-catch-up/release-evidence/local-publication-verification.json`
+- Next: verify exact-SHA GitHub deployment and live content, then complete task cleanup; private archive retained locally
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
 ### Karl Bushby’s 28-year journey home: what comes next? | revision 3
 
 - Candidate: `2026-10-26-karl-bushby-journey-home`; Blog; final-review; revision 3
