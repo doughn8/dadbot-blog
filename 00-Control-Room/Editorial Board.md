@@ -7,6 +7,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 1
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Stage: Idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/idea.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - SHA-256: `d0febab384f5e0edf098b621d37df7b2f8808748817e0a22b4b40391daf97d2a`
+  - Checks: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/idea-checks.json`
+
+
 - [x] While You Were Out: The Weekend Catch-Up | revision 1
   - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
   - Stage: Idea checked internally; not human-approved
@@ -327,6 +336,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 1
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Stage: Brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/02-Briefs/2026-10-27-harry-kane-ballon-dor/brief.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - SHA-256: `ba198068ec173371d4284f72a3c425d1cda9a7c4d14bc604703f95ea41e605a2`
+  - Checks: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/02-Briefs/2026-10-27-harry-kane-ballon-dor/brief-checks.json`
+
+
 - [x] While You Were Out: The Weekend Catch-Up | revision 1
   - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
   - Stage: Brief checked internally; not human-approved
@@ -641,6 +659,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Stage: SEO checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/03-SEO/2026-10-27-harry-kane-ballon-dor/seo-revision-2.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - SHA-256: `cc21a35a4d21808f40c3a4fd02e41c6f779c32b241c885a0de92bc65a6d56e19`
+  - Checks: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/03-SEO/2026-10-27-harry-kane-ballon-dor/seo-revision-2-checks.json`
+
+
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 1
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Stage: SEO historical internal check; superseded by approved revision 2
+  - Artifact: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/03-SEO/2026-10-27-harry-kane-ballon-dor/seo.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - SHA-256: `cb674f513b48fd49a54e478f74072cd8b8aca4989ae7862f0b5ac9c53f11954b`
+  - Checks: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/03-SEO/2026-10-27-harry-kane-ballon-dor/seo-checks.json`
+
 
 - [x] While You Were Out: The Weekend Catch-Up | revision 1
   - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
@@ -1009,6 +1045,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Stage: Draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/04-Drafts/2026-10-27-harry-kane-ballon-dor/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - SHA-256: `95be558eefad48cad723eb9ffdbcb2438abdaf5de9e93a8c7fc36223ef9b816e`
+  - Checks: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/04-Drafts/2026-10-27-harry-kane-ballon-dor/draft-revision-2-checks.json`
+
+
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 1
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Stage: Draft historical internal check; superseded by approved revision 2
+  - Artifact: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/04-Drafts/2026-10-27-harry-kane-ballon-dor/draft.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - SHA-256: `800351ebb86785641a3f9333bd122e517d21a443b63d3a5e33fc096888aa4677`
+  - Checks: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/04-Drafts/2026-10-27-harry-kane-ballon-dor/draft-checks.json`
+
 
 - [x] While You Were Out: The Weekend Catch-Up | revision 1
   - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
@@ -1459,6 +1513,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Stage: Creative Edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/05-Reviews/2026-10-27-harry-kane-ballon-dor/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - SHA-256: `44a9c394da97f4e5d40b24a8c8217db2f2b39836fc33884b88ba82443f57636d`
+  - Checks: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/05-Reviews/2026-10-27-harry-kane-ballon-dor/creative-edit-revision-2-checks.json`
+
+
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 1
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Stage: Creative Edit historical internal check; superseded by approved revision 2
+  - Artifact: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/05-Reviews/2026-10-27-harry-kane-ballon-dor/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - SHA-256: `c2bc93db27f55031c890668e4b2d0b6e92f9a5216fb0bafccdeb5431b4ca2e7c`
+  - Checks: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/05-Reviews/2026-10-27-harry-kane-ballon-dor/creative-edit-checks.json`
+
 
 - [x] While You Were Out: The Weekend Catch-Up | revision 1
   - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
@@ -1921,6 +1993,24 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Stage: Proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/05-Reviews/2026-10-27-harry-kane-ballon-dor/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - SHA-256: `b709c66211adf98287bc046a3f475c7d1a805601a321c58cfa45b112476577f0`
+  - Checks: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/05-Reviews/2026-10-27-harry-kane-ballon-dor/proofread-revision-2-checks.json`
+
+
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 1
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Stage: Proofread historical internal check; superseded by approved revision 2
+  - Artifact: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/05-Reviews/2026-10-27-harry-kane-ballon-dor/proofread.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - SHA-256: `b6b2a6c4b29cd82d9f86f5d911e17836f6a3929920c234b3c05e0256e3f73557`
+  - Checks: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/05-Reviews/2026-10-27-harry-kane-ballon-dor/proofread-checks.json`
+
+
 - [x] While You Were Out: The Weekend Catch-Up | revision 1
   - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
   - Stage: Proofread checked internally; not human-approved
@@ -2375,6 +2465,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Stage: Design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/06-Design/2026-10-27-harry-kane-ballon-dor/design-revision-2.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - SHA-256: `5ba884450d8a3d5eba33a980bccaa8f9b710033e3e4b410d9b88ca090b2edfda`
+  - Checks: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/06-Design/2026-10-27-harry-kane-ballon-dor/design-revision-2-checks.json`
+
 
 - [x] While You Were Out: The Weekend Catch-Up | revision 1
   - Candidate: `2026-10-26-weekend-catch-up`; News; final-review
@@ -2861,6 +2960,20 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
+  - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
+  - Status: approved and published locally; release explicitly authorised; GitHub/live pending verification
+  - Public file: `content/news/harry-kane-ballon-dor.md`
+  - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
+  - Packet: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/07-Approval/2026-10-27-harry-kane-ballon-dor/approval-revision-2.md`
+  - Packet SHA-256: `0224f5e5faab801fe9a645cefbc56f623001c8c489818f970275b500351c9ab6`
+  - Payload SHA-256: `c082f7413aa13b6c86f3f60c008d344ae542b7253aa5784a468043d1eba3c02c`
+  - Decision: User, “great approved. Commit, push and clean up”; exact shortened revision 2
+  - Checks: production/local HTTP/body/source/browser verification; 263 Node and 16 Python tests
+  - Limitations: unchanged shared coffee badge and 320px overflow
+  - Next: push the bounded release, verify live, then stop task-owned preview and remove temporary mirrors; private archive retained
+
 
 - [x] While You Were Out: The Weekend Catch-Up | revision 1
   - Candidate: `2026-10-26-weekend-catch-up`; News; final-review; published live; release verified; cleanup complete
