@@ -22,12 +22,12 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
 
 - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review; revision 2
-- Status: approved and published locally; release explicitly authorised; GitHub/live pending verification
+- Status: published live; exact approved revision 2; release verified; cleanup complete
 - Public file: `content/news/harry-kane-ballon-dor.md`
 - URL: `https://dadbot.blog/news/harry-kane-ballon-dor/`
 - Archive: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/`
 - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
-- Packet: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/07-Approval/2026-10-27-harry-kane-ballon-dor/approval-revision-2.md`; current SHA-256 `0224f5e5faab801fe9a645cefbc56f623001c8c489818f970275b500351c9ab6`
+- Packet: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/07-Approval/2026-10-27-harry-kane-ballon-dor/approval-revision-2.md`; current SHA-256 `7cec8b6bd20216ef0b2adac0174c24fa7e09dfa3e1d0380e6a6c081a07c04a6f`
 - Exact pre-decision assembled packet: `approval-assembled-before-decision-r2.md`; SHA-256 `33dfae32332f162f58ad2766297e2caf85c4e1a4a4394150695cf2619bd402d5`
 - Actual reviewed surface: isolated local revision-2 preview, exact source preserved as `approved-preview-source-exact-r2.md`
 - Article payload SHA-256: `c082f7413aa13b6c86f3f60c008d344ae542b7253aa5784a468043d1eba3c02c`
@@ -35,7 +35,10 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Scope: exact 801-word prose version approved; publish locally, candidate-only commit, main push and task cleanup authorised separately
 - Checks: local production build, exact body/metadata/TL;DR/four Sources, home/News/article HTTP and browser; 263 Node and 16 Python tests passed
 - Limits: inherited fixed coffee-badge text obstruction and 320px shell overflow; no shared design repair
-- Next: bounded release verification and task cleanup; no further editorial changes
+- Product commit: `64d58da1649cc20c82f5b5ee0ab57b15abb6da51`; Pages run `40561939792`, build and deploy successful
+- Live: exact approved article/homepage/News, four Sources and real browser verified
+- Cleanup: owned local preview/QA stopped; task mirror/build/browser caches removed; full private archive retained locally
+- Next: none editorially; final records-HEAD receipts retained privately; unrelated edits excluded
 
 - [x] Approve
 - [ ] Request changes

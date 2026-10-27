@@ -2963,16 +2963,18 @@ See also: [[Approval Queue]]
 
 - [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
   - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
-  - Status: approved and published locally; release explicitly authorised; GitHub/live pending verification
+  - Status: published live; exact approved revision 2; release verified; cleanup complete
   - Public file: `content/news/harry-kane-ballon-dor.md`
   - Run: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/01-Ideas/2026-10-27-harry-kane-ballon-dor/run.md`
   - Packet: `99-Archive/published/2026-10-27-harry-kane-ballon-dor/07-Approval/2026-10-27-harry-kane-ballon-dor/approval-revision-2.md`
-  - Packet SHA-256: `0224f5e5faab801fe9a645cefbc56f623001c8c489818f970275b500351c9ab6`
+  - Packet SHA-256: `7cec8b6bd20216ef0b2adac0174c24fa7e09dfa3e1d0380e6a6c081a07c04a6f`
   - Payload SHA-256: `c082f7413aa13b6c86f3f60c008d344ae542b7253aa5784a468043d1eba3c02c`
   - Decision: User, “great approved. Commit, push and clean up”; exact shortened revision 2
+  - Product commit: `64d58da1649cc20c82f5b5ee0ab57b15abb6da51`; Pages `40561939792` build/deploy success
+  - Cleanup: owned preview/QA stopped; task caches removed; private archive retained
   - Checks: production/local HTTP/body/source/browser verification; 263 Node and 16 Python tests
   - Limitations: unchanged shared coffee badge and 320px overflow
-  - Next: push the bounded release, verify live, then stop task-owned preview and remove temporary mirrors; private archive retained
+  - Next: none editorially; final records-HEAD receipts retained privately; unrelated edits excluded
 
 
 - [x] While You Were Out: The Weekend Catch-Up | revision 1
