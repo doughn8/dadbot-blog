@@ -7,6 +7,13 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Spain’s train crash: the human cost and the questions ahead | revision 1
+  - Candidate: `2026-10-28-spain-train-crash`; News; final-review
+  - Stage: historical internal checkpoint checked; not a separate human approval; revision 1 published locally
+  - Artifact: `99-Archive/published/2026-10-28-spain-train-crash/01-Ideas/2026-10-28-spain-train-crash/idea.md`
+  - Run: `99-Archive/published/2026-10-28-spain-train-crash/01-Ideas/2026-10-28-spain-train-crash/run.md`
+  - SHA-256: `f113d02601ea9fbecb364f6545daeed872bbf2ddb41195cbfa3b3670a2d7f9b3`
+
 - [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 1
   - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
   - Stage: Idea checked internally; not human-approved
@@ -336,6 +343,13 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Spain’s train crash: the human cost and the questions ahead | revision 1
+  - Candidate: `2026-10-28-spain-train-crash`; News; final-review
+  - Stage: historical internal checkpoint checked; not a separate human approval; revision 1 published locally
+  - Artifact: `99-Archive/published/2026-10-28-spain-train-crash/02-Briefs/2026-10-28-spain-train-crash/brief.md`
+  - Run: `99-Archive/published/2026-10-28-spain-train-crash/01-Ideas/2026-10-28-spain-train-crash/run.md`
+  - SHA-256: `dc4ba09f8f624b8e51b5d0f76ab1719ea5f770b4ac7545a35a95cef444bcc48a`
+
 - [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 1
   - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
   - Stage: Brief checked internally; not human-approved
@@ -659,6 +673,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Spain’s train crash: the human cost and the questions ahead | revision 1
+  - Candidate: `2026-10-28-spain-train-crash`; News; final-review
+  - Stage: historical internal checkpoint checked; not a separate human approval; revision 1 published locally
+  - Artifact: `99-Archive/published/2026-10-28-spain-train-crash/03-SEO/2026-10-28-spain-train-crash/seo.md`
+  - Run: `99-Archive/published/2026-10-28-spain-train-crash/01-Ideas/2026-10-28-spain-train-crash/run.md`
+  - SHA-256: `66488191009f0970d9a521c899be15b70ca31235ea27b3135de618b1b6f1ae2c`
 
 - [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
   - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
@@ -1045,6 +1066,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Spain’s train crash: the human cost and the questions ahead | revision 1
+  - Candidate: `2026-10-28-spain-train-crash`; News; final-review
+  - Stage: historical internal checkpoint checked; not a separate human approval; revision 1 published locally
+  - Artifact: `99-Archive/published/2026-10-28-spain-train-crash/04-Drafts/2026-10-28-spain-train-crash/draft.md`
+  - Run: `99-Archive/published/2026-10-28-spain-train-crash/01-Ideas/2026-10-28-spain-train-crash/run.md`
+  - SHA-256: `52beec9c9f983e11b2758d9cc6a90f0071b7bf4a0aa066f89052c8984a8310e6`
 
 - [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
   - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
@@ -1513,6 +1541,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Spain’s train crash: the human cost and the questions ahead | revision 1
+  - Candidate: `2026-10-28-spain-train-crash`; News; final-review
+  - Stage: historical internal checkpoint checked; not a separate human approval; revision 1 published locally
+  - Artifact: `99-Archive/published/2026-10-28-spain-train-crash/05-Reviews/2026-10-28-spain-train-crash/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-28-spain-train-crash/01-Ideas/2026-10-28-spain-train-crash/run.md`
+  - SHA-256: `74f89b778ca68e0f102d337478c5d534a89cb5be0a49765184854a05fe2c7898`
 
 - [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
   - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
@@ -1993,6 +2028,13 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Spain’s train crash: the human cost and the questions ahead | revision 1
+  - Candidate: `2026-10-28-spain-train-crash`; News; final-review
+  - Stage: historical internal checkpoint checked; not a separate human approval; revision 1 published locally
+  - Artifact: `99-Archive/published/2026-10-28-spain-train-crash/05-Reviews/2026-10-28-spain-train-crash/proofread.md`
+  - Run: `99-Archive/published/2026-10-28-spain-train-crash/01-Ideas/2026-10-28-spain-train-crash/run.md`
+  - SHA-256: `fea68cb4fb9a7620ed50fce8c6f1f91e10be899c9ca7563e5090e3b88be6cc80`
+
 - [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
   - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
   - Stage: Proofread checked internally; not human-approved
@@ -2465,6 +2507,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Spain’s train crash: the human cost and the questions ahead | revision 1
+  - Candidate: `2026-10-28-spain-train-crash`; News; final-review
+  - Stage: historical internal checkpoint checked; not a separate human approval; revision 1 published locally
+  - Artifact: `99-Archive/published/2026-10-28-spain-train-crash/06-Design/2026-10-28-spain-train-crash/design.md`
+  - Run: `99-Archive/published/2026-10-28-spain-train-crash/01-Ideas/2026-10-28-spain-train-crash/run.md`
+  - SHA-256: `31209cdd94f0de4e22ccd689693d1fa5c0ce5120b33c64fbe416be79b277988f`
 
 - [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
   - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
@@ -2960,6 +3009,21 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Spain’s train crash: the human cost and the questions ahead | revision 1
+  - Candidate: `2026-10-28-spain-train-crash`; News; final-review
+  - Status: approved and published locally; commit/push/live verification authorised and pending
+  - Public file: `content/news/spain-train-crash.md`
+  - URL: `https://dadbot.blog/news/spain-train-crash/`
+  - Archive: `99-Archive/published/2026-10-28-spain-train-crash/`
+  - Run: `99-Archive/published/2026-10-28-spain-train-crash/01-Ideas/2026-10-28-spain-train-crash/run.md`
+  - Packet: `99-Archive/published/2026-10-28-spain-train-crash/07-Approval/2026-10-28-spain-train-crash/approval.md`; current SHA-256 `ad1eed02f1466487bf0b0c38f057db441b75a0b389cd8614d940aa70c8c5f6f4`
+  - Reviewed packet SHA-256: `60fa034a5aa2f7f77d18fd4a167b4bce2416c2076cf6a3fcda0b6b2507fdc9b6`; immutable approval-reviewed-r1.md
+  - Payload SHA-256: `845790f57968ddd922e54399e4dd426cc23ce44907c8bb39c124cf6a614f31b4`
+  - Decision: User, “I really like it. Commit, push and clean up”; 2026-10-28T17:43:36.428963+01:00
+  - Checks: exact approved payload/metadata, normal production build, homepage/News/article HTTP/browser; 263 Node 22 and 16 Python 3.11 tests passed
+  - Limits: inherited fixed coffee-badge obstruction and 320px shell overflow unchanged
+  - Next: complete authorised candidate-only release and task-owned cleanup
 
 - [x] Harry Kane wins the Ballon d’Or, ending England’s 25-year wait | revision 2
   - Candidate: `2026-10-27-harry-kane-ballon-dor`; News; final-review
