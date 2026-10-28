@@ -22,12 +22,12 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### Spain’s train crash: the human cost and the questions ahead | revision 1
 
 - Candidate: `2026-10-28-spain-train-crash`; News; final-review; revision 1
-- Status: approved and published locally; commit/push/live verification authorised and pending
+- Status: published live; exact approved revision 1; release verified; cleanup complete
 - Public file: `content/news/spain-train-crash.md`
 - URL: `https://dadbot.blog/news/spain-train-crash/`
 - Archive: `99-Archive/published/2026-10-28-spain-train-crash/`
 - Run: `99-Archive/published/2026-10-28-spain-train-crash/01-Ideas/2026-10-28-spain-train-crash/run.md`
-- Packet: `99-Archive/published/2026-10-28-spain-train-crash/07-Approval/2026-10-28-spain-train-crash/approval.md`; current SHA-256 `ad1eed02f1466487bf0b0c38f057db441b75a0b389cd8614d940aa70c8c5f6f4`
+- Packet: `99-Archive/published/2026-10-28-spain-train-crash/07-Approval/2026-10-28-spain-train-crash/approval.md`; current SHA-256 `2fee7ed7b03b9af480b0a186fb29e65bed9b06a7e31d6757fbec58bc46d0118a`
 - Reviewed packet: `approval-reviewed-r1.md`; immutable SHA-256 `60fa034a5aa2f7f77d18fd4a167b4bce2416c2076cf6a3fcda0b6b2507fdc9b6`
 - Article payload SHA-256: `845790f57968ddd922e54399e4dd426cc23ce44907c8bb39c124cf6a614f31b4`
 - Decision: Approve, User; “I really like it. Commit, push and clean up”; 2026-10-28T17:43:36.428963+01:00
@@ -35,7 +35,10 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Body: 1006 prose words; Hugo 1169 full-page words / 6 minutes
 - Checks: exact payload/metadata/five Sources, production build, homepage/News/article HTTP/browser; 263 Node 22 and 16 Python 3.11 tests passed
 - Limits: inherited fixed coffee-badge body obstruction and shared 31px overflow at 320px; no shared design changes
-- Next: complete authorised release and cleanup; private research/archive stays local-only
+- Product commit: `4be80dfaf1ba779a36416d6beb1585323dcbaa83`; Pages run `40730158838` build/deploy successful
+- Live: exact approved article/homepage/News, metadata/TL;DR and five Sources verified
+- Cleanup: private archive retained; owned local/QA processes stopped and disposable task caches removed; pane shows live article
+- Next: none editorially; final records-HEAD receipts retained privately; unrelated edits excluded
 
 - [x] Approve
 - [ ] Request changes
