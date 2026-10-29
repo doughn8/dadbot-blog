@@ -24,20 +24,23 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### Israel’s election: the Arab turnout surge and the claims of a stolen vote | revision 2
 
 - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review; revision 2
-- Status: approved and published locally; bounded release authorised
+- Status: published live; release verified; cleanup complete
 - Public file: `content/news/israel-election-arab-turnout.md`; SHA-256 `c1be31e00348bcb8ad67e5ee5876c94be45dcdd692fa5a6bf14cad211dd89411`
 - URL: `https://dadbot.blog/news/israel-election-arab-turnout/`
 - Archive: `99-Archive/published/2026-10-29-israel-election-arab-turnout/`; private evidence retained locally
 - Run: `99-Archive/published/2026-10-29-israel-election-arab-turnout/01-Ideas/2026-10-29-israel-election-arab-turnout/run.md`
-- Package: `99-Archive/published/2026-10-29-israel-election-arab-turnout/07-Approval/2026-10-29-israel-election-arab-turnout/approval-revision-2.md`; current decision SHA-256 `f556511733e020bea859102cc0c34ace8b59bb407f0158e15e04dd0405184653`
+- Package: `99-Archive/published/2026-10-29-israel-election-arab-turnout/07-Approval/2026-10-29-israel-election-arab-turnout/approval-revision-2.md`; current decision SHA-256 `811ce1a0438ce7da936f9e1061d71ab7b71517c3e4d04e9c83a448c03c676e53`
 - Reviewed snapshot: `approval-reviewed-exact-r1.md`; immutable SHA-256 `a659e101f4038db8428ecf7bdbaadf8335198050dffd18d8064500d7282ee967`
 - Approved revision-2 payload SHA-256: `2fd276e17f638d9148b533a21fcd5909438395699ef0671aadbd51a6e8ec1d92`
 - Decision: User, “approve. commit push and clean up”; count-status update approved, 53 / 48 / 19 unchanged, certification pending
 - Scope: local publication, candidate-only commit, main push, deployment verification and task cleanup; unrelated edits excluded
 - Checks: 1003 prose words; eight Sources; 263 Node 22 and 16 Python 3.11 tests; production build; exact home/News/article HTTP/browser publication checks
 - Limits: inherited fixed coffee badge and 320px shared overflow; no design change
-- Preview disposition: stop owned local/QA processes after live verification; pane will show live article
-- Next: verify product deployment/live, then cleanup; release receipts retained in private archive
+- Preview disposition: owned local/QA processes stopped; pane shows verified live article
+- Product commit: `cecceca1bbcfbfb65f394c2de52c53a516f4f71a`; Pages `40972633760` build/deploy success
+- Live: exact approved article/homepage/News verified; eight Sources
+- Cleanup: complete; private archive retained, owned caches/processes removed
+- Next: none editorially; final records-HEAD receipts retained privately
 
 - [x] Approve
 - [ ] Request changes
