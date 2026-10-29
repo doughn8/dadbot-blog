@@ -7,6 +7,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
+  - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
+  - Stage: idea checked internally; unchanged research reused from revision 1; not a separate human approval
+  - Artifact: `99-Archive/published/2026-10-29-israel-election-arab-turnout/01-Ideas/2026-10-29-israel-election-arab-turnout/idea.md`
+  - Run: `99-Archive/published/2026-10-29-israel-election-arab-turnout/01-Ideas/2026-10-29-israel-election-arab-turnout/run.md`
+  - SHA-256: `f00af61f5613ed7dfbc593bc093d940076f13f8600d76bdda7e1917b63a3ff7d`
+  - Next: historical checked stage; revision 2 approved and published locally
+
+
 - [x] Dead internet theory: who’s really doing the talking? | revision 1
   - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
   - Stage: Idea checked internally; not human-approved
@@ -351,6 +360,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
+  - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
+  - Stage: brief checked internally; unchanged research reused from revision 1; not a separate human approval
+  - Artifact: `99-Archive/published/2026-10-29-israel-election-arab-turnout/02-Briefs/2026-10-29-israel-election-arab-turnout/brief.md`
+  - Run: `99-Archive/published/2026-10-29-israel-election-arab-turnout/01-Ideas/2026-10-29-israel-election-arab-turnout/run.md`
+  - SHA-256: `1631dcff1c07f483c08613d1850b8040f7a6dbd6ae5aa2a0793f37df1a774602`
+  - Next: historical checked stage; revision 2 approved and published locally
+
+
 - [x] Dead internet theory: who’s really doing the talking? | revision 1
   - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
   - Stage: Brief checked internally; not human-approved
@@ -689,6 +707,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
+  - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
+  - Stage: seo checked internally; revision 2 count-status derivative; not a separate human approval
+  - Artifact: `99-Archive/published/2026-10-29-israel-election-arab-turnout/03-SEO/2026-10-29-israel-election-arab-turnout/seo-revision-2.md`
+  - Run: `99-Archive/published/2026-10-29-israel-election-arab-turnout/01-Ideas/2026-10-29-israel-election-arab-turnout/run.md`
+  - SHA-256: `a55a4fbc4f2b0dced0b10b3ce21b24cc0e73eaed18e435f5c63ad0ca02eac617`
+  - Next: historical checked stage; revision 2 approved and published locally
+
 
 - [x] Dead internet theory: who’s really doing the talking? | revision 1
   - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
@@ -1090,6 +1117,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
+  - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
+  - Stage: draft checked internally; revision 2 count-status derivative; not a separate human approval
+  - Artifact: `99-Archive/published/2026-10-29-israel-election-arab-turnout/04-Drafts/2026-10-29-israel-election-arab-turnout/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-10-29-israel-election-arab-turnout/01-Ideas/2026-10-29-israel-election-arab-turnout/run.md`
+  - SHA-256: `d25fa52191e0e58af6ebcc7a6202861d01db77a3f1641e9dad163ec865888f37`
+  - Next: historical checked stage; revision 2 approved and published locally
+
 
 - [x] Dead internet theory: who’s really doing the talking? | revision 2
   - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review; revision 2
@@ -1581,6 +1617,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
+  - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
+  - Stage: creative-edit checked internally; revision 2 count-status derivative; not a separate human approval
+  - Artifact: `99-Archive/published/2026-10-29-israel-election-arab-turnout/05-Reviews/2026-10-29-israel-election-arab-turnout/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-10-29-israel-election-arab-turnout/01-Ideas/2026-10-29-israel-election-arab-turnout/run.md`
+  - SHA-256: `840404d0d24e251c28d03e43a2badb94a7c5e35dbde17ca401423bd9b66f0d2d`
+  - Next: historical checked stage; revision 2 approved and published locally
+
 
 - [x] Dead internet theory: who’s really doing the talking? | revision 2
   - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review; revision 2
@@ -2084,6 +2129,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
+  - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
+  - Stage: proofread checked internally; revision 2 count-status derivative; not a separate human approval
+  - Artifact: `99-Archive/published/2026-10-29-israel-election-arab-turnout/05-Reviews/2026-10-29-israel-election-arab-turnout/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-10-29-israel-election-arab-turnout/01-Ideas/2026-10-29-israel-election-arab-turnout/run.md`
+  - SHA-256: `d6665d1333a4aff0cc2d5acd87e26a1b03297890613b58984f9a8f6dd45815e3`
+  - Next: historical checked stage; revision 2 approved and published locally
+
+
 - [x] Dead internet theory: who’s really doing the talking? | revision 2
   - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review; revision 2
   - Stage: Proofread checked internally; not human-approved
@@ -2579,6 +2633,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
+  - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
+  - Stage: design checked internally; revision 2 count-status derivative; not a separate human approval
+  - Artifact: `99-Archive/published/2026-10-29-israel-election-arab-turnout/06-Design/2026-10-29-israel-election-arab-turnout/design-revision-2.md`
+  - Run: `99-Archive/published/2026-10-29-israel-election-arab-turnout/01-Ideas/2026-10-29-israel-election-arab-turnout/run.md`
+  - SHA-256: `80947d24a773585c40ccf3195702b46b7f4ab72bf18495afce06368bb215d8a5`
+  - Next: historical checked stage; revision 2 approved and published locally
+
 
 - [x] Dead internet theory: who’s really doing the talking? | revision 2
   - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review; revision 2
@@ -3097,6 +3160,23 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | revision 2
+  - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review; revision 2
+  - Status: approved and published locally; candidate-only commit/push authorised
+  - Public file: `content/news/israel-election-arab-turnout.md`; SHA-256 `c1be31e00348bcb8ad67e5ee5876c94be45dcdd692fa5a6bf14cad211dd89411`
+  - URL: `https://dadbot.blog/news/israel-election-arab-turnout/`
+  - Archive: `99-Archive/published/2026-10-29-israel-election-arab-turnout/`; 156 discovered stage/evidence files moved and byte-verified
+  - Run: `99-Archive/published/2026-10-29-israel-election-arab-turnout/01-Ideas/2026-10-29-israel-election-arab-turnout/run.md`
+  - Package: `99-Archive/published/2026-10-29-israel-election-arab-turnout/07-Approval/2026-10-29-israel-election-arab-turnout/approval-revision-2.md`; current decision SHA-256 `f556511733e020bea859102cc0c34ace8b59bb407f0158e15e04dd0405184653`
+  - Original reviewed packet: `approval-reviewed-exact-r1.md`; immutable SHA-256 `a659e101f4038db8428ecf7bdbaadf8335198050dffd18d8064500d7282ee967`
+  - Approved revision-2 payload SHA-256: `2fd276e17f638d9148b533a21fcd5909438395699ef0671aadbd51a6e8ec1d92`
+  - Decision: User, “approve. commit push and clean up”; exact count-status update and bounded release
+  - Checks: 1003 prose words; eight Sources; 263 Node 22 and 16 Python 3.11 tests; production build; exact local HTTP/browser publication verification
+  - Limits: inherited coffee-badge obstruction and 320px shared overflow; no shared design changes
+  - Preview disposition: local publication server will intentionally stop after verified live deployment; pane will show live article
+  - Next: verify candidate-only product deployment and live article, then task-owned cleanup
+
 
 - [x] Dead internet theory: who’s really doing the talking? | revision 2
   - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
