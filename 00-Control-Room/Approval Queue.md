@@ -17,7 +17,33 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ## Awaiting Approval
 
 
+
+
 ## Approved
+
+### Dead internet theory: who’s really doing the talking? | revision 2
+
+- Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review; revision 2
+- Status: published locally; archive complete; release authorised, verification pending
+- Public file: `content/conspiracy-corner/dead-internet-theory.md`; SHA-256 `a55d373ffb61096b48c8a047ac77b2110e6d10a0988a6a3091cfea5710866f47`
+- Canonical URL: `https://dadbot.blog/conspiracy-corner/dead-internet-theory/`
+- Archive: `99-Archive/published/2026-10-28-dead-internet-theory/`; private evidence retained locally
+- Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+- Package: `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/approval-revision-2.md`; current decision SHA-256 `f137c916039b9bba81c78c4d4e807de464a5b254dd6f3f49f6d78e15752c250c`
+- Reviewed snapshot: `approval-for-review-r2.md`; immutable SHA-256 `ad38441200adbdc23a82683c6c114913f37ac5270e363f98f924280e795714ac`
+- Article payload SHA-256: `4879cb141c9fc69e5d4a6120d76c6cae07f491e13d6178d41172040dc229e3bc`
+- Decision: Approve, User, 2026-10-28; exact revision 2, 1,835 prose words / 10 minutes
+- Release authority: “ok lets commit, push and clean up”, 2026-10-29; this candidate only
+- Checks: 263 Node 22 tests, 16 Python 3.11 tests, pinned Hugo production build; unchanged approved payload/metadata/seven Sources
+- Limits: inherited coffee-badge obstruction and 320px shared overflow; no shared design changes
+- Cleanup: stage history archived and byte-verified; disposable task cache removal pending verified-live release
+- Next: candidate-only commit/push and exact-SHA deployment/live verification; unrelated local edits excluded
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
 
 ### Spain’s train crash: the human cost and the questions ahead | revision 1
 
@@ -1145,6 +1171,33 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### Dead internet theory: who’s really doing the talking? | revision 1
+
+- Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review; revision 1
+- Status: historical revision 1; Request changes; superseded by revision 2; not published
+- Reviewed packet: `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/approval-for-review-r1.md`; SHA-256 `a7e0eafc0f372885c7fa37b33e3fa2feeb1af1a2587aced254f86c4cafe1daab`
+- Current revision-1 decision packet: `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/approval.md`; SHA-256 `757ccf258dd71f4ff2d80611182bb0f975bf0c782fd7bbc5258d8efd0f3bd289`; Request changes recorded
+- Reviewer copy: `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/final-review.md`
+- Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+- Article payload SHA-256: `2bb62d6f6cdf0c314263a872d576a36976dd9e129d11abe14e366f0322119eab`
+- Preview source: `99-Archive/published/2026-10-28-dead-internet-theory/06-Design/2026-10-28-dead-internet-theory/preview-source.md`
+- Preview: `http://127.0.0.1:1313/conspiracy-corner/dead-internet-theory/?local-review=1`; direct-route-only; full existing-content mirror outside the checkout
+- Preview owner: loopback 1313, PID 276823, terminal session `proc_6400f3faba6a`; recovery in Design/preview-server.json
+- Body: 1,814 citation-stripped prose words; Hugo 1,931 full-page words / 10 minutes
+- Checks: all eight structural stages, strict evidence, 33 exact refreshed passages, exact payload/metadata, isolated/normal builds and no-leak scan, 20 required browser widths, keyboard/table/source checks, desktop-pane current-copy readback; owned QA browser exit verified
+- Check records: `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/closing-checks.json`; `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/final-approval-checks.json`; 16 editorial contract tests passed
+- Reviewer export SHA-256: `33fc2b0d2d217e9c828dd888728e8eee19cba18240fe8e00eda0994d9d3cc6af`
+- Limits: inherited fixed coffee-badge obstruction at phone/tablet scroll positions and shared 31px overflow at diagnostic 320px; no shared design changes
+- Blockers: none article-specific
+- Decision: Request changes; append the exact user-accepted closing AI-authorship joke
+- Boundary: Approve authorises the agreed local publication only; no commit, push or deployment
+- Next: superseded; original reviewed snapshot and checks retained
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
 
 ### Karl Bushby’s 28-year journey home: what comes next? | revision 2
 

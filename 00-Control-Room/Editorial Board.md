@@ -7,6 +7,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Dead internet theory: who’s really doing the talking? | revision 1
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
+  - Stage: Idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/idea.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `e166d915e62dec1cdfb02499d727bf3e7b183f58fad16a295140ce9a23ae43d4`
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/idea-checks.json`
+
 - [x] Spain’s train crash: the human cost and the questions ahead | revision 1
   - Candidate: `2026-10-28-spain-train-crash`; News; final-review
   - Stage: historical internal checkpoint checked; not a separate human approval; revision 1 published locally
@@ -343,6 +351,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Dead internet theory: who’s really doing the talking? | revision 1
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
+  - Stage: Brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/02-Briefs/2026-10-28-dead-internet-theory/brief.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `7660d73206ce08f9b278eee9b0a8bad4f0f8180d4f1c82d373ef85093fd19119`
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/02-Briefs/2026-10-28-dead-internet-theory/brief-checks.json`
+
 - [x] Spain’s train crash: the human cost and the questions ahead | revision 1
   - Candidate: `2026-10-28-spain-train-crash`; News; final-review
   - Stage: historical internal checkpoint checked; not a separate human approval; revision 1 published locally
@@ -673,6 +689,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Dead internet theory: who’s really doing the talking? | revision 1
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
+  - Stage: SEO checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/03-SEO/2026-10-28-dead-internet-theory/seo.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `0320d6d460200deda5c1d03b69944f773c9b972b2dc363fe0944657f39918346`
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/03-SEO/2026-10-28-dead-internet-theory/seo-checks.json`
 
 - [x] Spain’s train crash: the human cost and the questions ahead | revision 1
   - Candidate: `2026-10-28-spain-train-crash`; News; final-review
@@ -1066,6 +1090,22 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Dead internet theory: who’s really doing the talking? | revision 2
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review; revision 2
+  - Stage: Draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/04-Drafts/2026-10-28-dead-internet-theory/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `936bf96a17a4009fb40c80425fae799822bf0bff42e2b9d90bf21d3778f0acf3`
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/04-Drafts/2026-10-28-dead-internet-theory/checks-revision-2/draft-checks.json`
+
+- [x] Dead internet theory: who’s really doing the talking? | revision 1
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
+  - Stage: Draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/04-Drafts/2026-10-28-dead-internet-theory/draft.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `c6f812351a6ee5e76938c9723dae326b79643f956226b0419a6638d508411f7f`
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/04-Drafts/2026-10-28-dead-internet-theory/draft-checks.json`
 
 - [x] Spain’s train crash: the human cost and the questions ahead | revision 1
   - Candidate: `2026-10-28-spain-train-crash`; News; final-review
@@ -1541,6 +1581,22 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Dead internet theory: who’s really doing the talking? | revision 2
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review; revision 2
+  - Stage: Creative Edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/05-Reviews/2026-10-28-dead-internet-theory/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `3529699819b990cf14212eb40e24480a0fb90801997c837f1cf627e67aa43ece`
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/05-Reviews/2026-10-28-dead-internet-theory/checks-revision-2/creative-edit-checks.json`
+
+- [x] Dead internet theory: who’s really doing the talking? | revision 1
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
+  - Stage: Creative Edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/05-Reviews/2026-10-28-dead-internet-theory/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `f8f283370ac23924551ea7d269e201147c0b08ffa82bb3c9508326f51245957b`
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/05-Reviews/2026-10-28-dead-internet-theory/creative-edit-checks.json`
 
 - [x] Spain’s train crash: the human cost and the questions ahead | revision 1
   - Candidate: `2026-10-28-spain-train-crash`; News; final-review
@@ -2028,6 +2084,22 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Dead internet theory: who’s really doing the talking? | revision 2
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review; revision 2
+  - Stage: Proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/05-Reviews/2026-10-28-dead-internet-theory/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `6cbd02c8ab3d39b8d7288ed675135aff47b2d8f33cc61f3aaf4b2ea5b27ad1cb`
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/05-Reviews/2026-10-28-dead-internet-theory/checks-revision-2/proofread-checks.json`
+
+- [x] Dead internet theory: who’s really doing the talking? | revision 1
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
+  - Stage: Proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/05-Reviews/2026-10-28-dead-internet-theory/proofread.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `c002240f0132edb04eb0c18518812d13a7c52e2ce8ed0d820eccc4d88b3fc156`
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/05-Reviews/2026-10-28-dead-internet-theory/proofread-checks.json`
+
 - [x] Spain’s train crash: the human cost and the questions ahead | revision 1
   - Candidate: `2026-10-28-spain-train-crash`; News; final-review
   - Stage: historical internal checkpoint checked; not a separate human approval; revision 1 published locally
@@ -2507,6 +2579,22 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Dead internet theory: who’s really doing the talking? | revision 2
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review; revision 2
+  - Stage: Design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/06-Design/2026-10-28-dead-internet-theory/design-revision-2.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `8a5278edd4882484f6a38d4a5cb186f219a55b634b8fa3cb651f87c6b324f01b`
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/06-Design/2026-10-28-dead-internet-theory/checks-revision-2/design-checks.json`
+
+- [x] Dead internet theory: who’s really doing the talking? | revision 1
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
+  - Stage: Design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/06-Design/2026-10-28-dead-internet-theory/design.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `2352d644f9383846f36c153f84bc806e48feaad247d41516c3c151c1f9efa5a4`
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/06-Design/2026-10-28-dead-internet-theory/design-checks.json`
 
 - [x] Spain’s train crash: the human cost and the questions ahead | revision 1
   - Candidate: `2026-10-28-spain-train-crash`; News; final-review
@@ -3009,6 +3097,21 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Dead internet theory: who’s really doing the talking? | revision 2
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
+  - Stage: published locally; archive complete; release authorised, verification pending
+  - Public file: `content/conspiracy-corner/dead-internet-theory.md`; SHA-256 `a55d373ffb61096b48c8a047ac77b2110e6d10a0988a6a3091cfea5710866f47`
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/approval-revision-2.md`
+  - SHA-256: `f137c916039b9bba81c78c4d4e807de464a5b254dd6f3f49f6d78e15752c250c`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - Article payload SHA-256: `4879cb141c9fc69e5d4a6120d76c6cae07f491e13d6178d41172040dc229e3bc`
+  - Decision: Approve, User, 2026-10-28; commit/push/cleanup separately authorised 2026-10-29
+  - Archive: `99-Archive/published/2026-10-28-dead-internet-theory/`; private research and exact reviewed revisions retained locally
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/release-evidence/release-tests-and-build.json`; 263 Node/16 Python tests and pinned Hugo build passed
+  - Limits: inherited coffee-badge obstruction and 320px shared overflow; no design changes
+  - Next: candidate-only commit/push, exact-SHA deployment/live verification, task-only cleanup
+
 
 - [x] Spain’s train crash: the human cost and the questions ahead | revision 1
   - Candidate: `2026-10-28-spain-train-crash`; News; final-review
@@ -3650,6 +3753,17 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] Dead internet theory: who’s really doing the talking? | revision 1
+  - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
+  - Stage: historical revision 1; Request changes; superseded by revision 2
+  - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/approval-for-review-r1.md`
+  - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
+  - SHA-256: `a7e0eafc0f372885c7fa37b33e3fa2feeb1af1a2587aced254f86c4cafe1daab`
+  - Article payload SHA-256: `2bb62d6f6cdf0c314263a872d576a36976dd9e129d11abe14e366f0322119eab`
+  - Preview: `http://127.0.0.1:1313/conspiracy-corner/dead-internet-theory/?local-review=1`; direct-route-only
+  - Choices: Approve / Request changes / Reject / Hold; Approve = local publication only
+  - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/final-approval-checks.json`
 
 - [x] Karl Bushby’s 28-year journey home: what comes next? | revision 2
   - Candidate: `2026-10-26-karl-bushby-journey-home`; revision 2; Blog; final-review
