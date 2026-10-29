@@ -24,25 +24,28 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### Dead internet theory: who’s really doing the talking? | revision 2
 
 - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review; revision 2
-- Status: published locally; archive complete; release authorised, verification pending
+- Status: published live; release verified; cleanup complete
 - Public file: `content/conspiracy-corner/dead-internet-theory.md`; SHA-256 `a55d373ffb61096b48c8a047ac77b2110e6d10a0988a6a3091cfea5710866f47`
 - Canonical URL: `https://dadbot.blog/conspiracy-corner/dead-internet-theory/`
 - Archive: `99-Archive/published/2026-10-28-dead-internet-theory/`; private evidence retained locally
 - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
-- Package: `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/approval-revision-2.md`; current decision SHA-256 `f137c916039b9bba81c78c4d4e807de464a5b254dd6f3f49f6d78e15752c250c`
+- Package: `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/approval-revision-2.md`; current decision SHA-256 `8c455c5402f7c9b2fe7f8b17e71b424b502f2e768f13cab686f16f348baa8b8e`
 - Reviewed snapshot: `approval-for-review-r2.md`; immutable SHA-256 `ad38441200adbdc23a82683c6c114913f37ac5270e363f98f924280e795714ac`
 - Article payload SHA-256: `4879cb141c9fc69e5d4a6120d76c6cae07f491e13d6178d41172040dc229e3bc`
 - Decision: Approve, User, 2026-10-28; exact revision 2, 1,835 prose words / 10 minutes
 - Release authority: “ok lets commit, push and clean up”, 2026-10-29; this candidate only
 - Checks: 263 Node 22 tests, 16 Python 3.11 tests, pinned Hugo production build; unchanged approved payload/metadata/seven Sources
 - Limits: inherited coffee-badge obstruction and 320px shared overflow; no shared design changes
-- Cleanup: stage history archived and byte-verified; disposable task cache removal pending verified-live release
-- Next: candidate-only commit/push and exact-SHA deployment/live verification; unrelated local edits excluded
+- Cleanup: complete; archived source/stage evidence and immutable reviewed copies retained locally; named preview caches removed; no task processes remain
+- Next: none editorially; final records-HEAD verification receipts retained privately; unrelated local edits excluded
 
 - [x] Approve
 - [ ] Request changes
 - [ ] Reject
 - [ ] Hold
+- Product commit: `8606ff6081ed1840f35b681a7758e9d9ff172731`; Pages run `40911367409` build/deploy successful
+- Live: exact approved article, metadata and seven source links verified; Conspiracy listing present; homepage desk link retained
+- Preview disposition: owned local preview is stopped; desktop pane shows the verified live article
 
 
 ### Spain’s train crash: the human cost and the questions ahead | revision 1

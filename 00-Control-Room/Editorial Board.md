@@ -3100,17 +3100,20 @@ See also: [[Approval Queue]]
 
 - [x] Dead internet theory: who’s really doing the talking? | revision 2
   - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review
-  - Stage: published locally; archive complete; release authorised, verification pending
+  - Stage: published live; release verified; cleanup complete
   - Public file: `content/conspiracy-corner/dead-internet-theory.md`; SHA-256 `a55d373ffb61096b48c8a047ac77b2110e6d10a0988a6a3091cfea5710866f47`
   - Artifact: `99-Archive/published/2026-10-28-dead-internet-theory/07-Approval/2026-10-28-dead-internet-theory/approval-revision-2.md`
-  - SHA-256: `f137c916039b9bba81c78c4d4e807de464a5b254dd6f3f49f6d78e15752c250c`
+  - SHA-256: `8c455c5402f7c9b2fe7f8b17e71b424b502f2e768f13cab686f16f348baa8b8e`
   - Run: `99-Archive/published/2026-10-28-dead-internet-theory/01-Ideas/2026-10-28-dead-internet-theory/run.md`
   - Article payload SHA-256: `4879cb141c9fc69e5d4a6120d76c6cae07f491e13d6178d41172040dc229e3bc`
   - Decision: Approve, User, 2026-10-28; commit/push/cleanup separately authorised 2026-10-29
   - Archive: `99-Archive/published/2026-10-28-dead-internet-theory/`; private research and exact reviewed revisions retained locally
   - Checks: `99-Archive/published/2026-10-28-dead-internet-theory/release-evidence/release-tests-and-build.json`; 263 Node/16 Python tests and pinned Hugo build passed
   - Limits: inherited coffee-badge obstruction and 320px shared overflow; no design changes
-  - Next: candidate-only commit/push, exact-SHA deployment/live verification, task-only cleanup
+  - Next: none editorially; final records-HEAD verification receipts retained privately; unrelated local edits excluded
+  - Product commit: `8606ff6081ed1840f35b681a7758e9d9ff172731`; Pages run `40911367409` build/deploy successful
+  - Live: `https://dadbot.blog/conspiracy-corner/dead-internet-theory/`; exact approved article and seven Sources verified
+  - Cleanup: private archive retained; disposable task caches removed; no owned preview/QA processes remain
 
 
 - [x] Spain’s train crash: the human cost and the questions ahead | revision 1
