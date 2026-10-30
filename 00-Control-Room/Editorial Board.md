@@ -7,6 +7,16 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
+  - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
+  - Stage: idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/idea.md`
+  - Run: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/run.md`
+  - SHA-256: `7a340584917072f1a6448f6ad50cf309bcf7009f14eb344fdc36eeb78d8b19ef`
+  - Payload SHA-256: `not an article-payload stage`
+  - Checks: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/idea-checks.json`
+  - Next: historical checked stage; revision 1 accepted and published locally; no further stage action
+
 - [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
   - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
   - Stage: idea checked internally; unchanged research reused from revision 1; not a separate human approval
@@ -360,6 +370,16 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
+  - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
+  - Stage: brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-30-binance-crypto-heist/02-Briefs/2026-10-30-binance-crypto-heist/brief.md`
+  - Run: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/run.md`
+  - SHA-256: `e92fec4c0a4215f565e00b6b1cead0a52b8c0ae402c66a6175a747c1f3b7727f`
+  - Payload SHA-256: `not an article-payload stage`
+  - Checks: `99-Archive/published/2026-10-30-binance-crypto-heist/02-Briefs/2026-10-30-binance-crypto-heist/brief-checks.json`
+  - Next: historical checked stage; revision 1 accepted and published locally; no further stage action
+
 - [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
   - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
   - Stage: brief checked internally; unchanged research reused from revision 1; not a separate human approval
@@ -707,6 +727,16 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
+  - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
+  - Stage: seo checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-30-binance-crypto-heist/03-SEO/2026-10-30-binance-crypto-heist/seo.md`
+  - Run: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/run.md`
+  - SHA-256: `77ea87dcbadaf7bb7272401b165c8ae617d240b417024110812913ef9ee6c93c`
+  - Payload SHA-256: `not an article-payload stage`
+  - Checks: `99-Archive/published/2026-10-30-binance-crypto-heist/03-SEO/2026-10-30-binance-crypto-heist/seo-checks.json`
+  - Next: historical checked stage; revision 1 accepted and published locally; no further stage action
 
 - [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
   - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
@@ -1117,6 +1147,16 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
+  - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
+  - Stage: draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-30-binance-crypto-heist/04-Drafts/2026-10-30-binance-crypto-heist/draft.md`
+  - Run: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/run.md`
+  - SHA-256: `c68ea112c312fb7a5186a4a4cc10b980ceb8165139557c4b2d4f3514765ec503`
+  - Payload SHA-256: `f977864234b9256fd4b1cc1834fce2d6669152cafea304783272b6655d99e2ae`
+  - Checks: `99-Archive/published/2026-10-30-binance-crypto-heist/04-Drafts/2026-10-30-binance-crypto-heist/draft-checks.json`
+  - Next: historical checked stage; revision 1 accepted and published locally; no further stage action
 
 - [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
   - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
@@ -1617,6 +1657,16 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
+  - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
+  - Stage: creative-edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-30-binance-crypto-heist/05-Reviews/2026-10-30-binance-crypto-heist/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/run.md`
+  - SHA-256: `b9b607b90ec1563ae879f1d8bcfe27988369d6cab98a69a4eef515d95a22d853`
+  - Payload SHA-256: `e6731e0d2b6fedd5c05587086be88d4f04bb43d871797365b4ac897a461ae8a9`
+  - Checks: `99-Archive/published/2026-10-30-binance-crypto-heist/05-Reviews/2026-10-30-binance-crypto-heist/creative-edit-checks.json`
+  - Next: historical checked stage; revision 1 accepted and published locally; no further stage action
 
 - [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
   - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
@@ -2129,6 +2179,16 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
+  - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
+  - Stage: proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-30-binance-crypto-heist/05-Reviews/2026-10-30-binance-crypto-heist/proofread.md`
+  - Run: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/run.md`
+  - SHA-256: `d1dbd395fafef9cdb3167ebc58576e48f09a47b8895711d4a54740d7b0eb9f5d`
+  - Payload SHA-256: `e6731e0d2b6fedd5c05587086be88d4f04bb43d871797365b4ac897a461ae8a9`
+  - Checks: `99-Archive/published/2026-10-30-binance-crypto-heist/05-Reviews/2026-10-30-binance-crypto-heist/proofread-checks.json`
+  - Next: historical checked stage; revision 1 accepted and published locally; no further stage action
+
 - [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
   - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
   - Stage: proofread checked internally; revision 2 count-status derivative; not a separate human approval
@@ -2633,6 +2693,16 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
+  - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
+  - Stage: design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-30-binance-crypto-heist/06-Design/2026-10-30-binance-crypto-heist/design.md`
+  - Run: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/run.md`
+  - SHA-256: `ac388e3b0689b934c8ce89fc130b570213fd55e4ca2f5e831cab0e8fba9c4247`
+  - Payload SHA-256: `e6731e0d2b6fedd5c05587086be88d4f04bb43d871797365b4ac897a461ae8a9`
+  - Checks: `99-Archive/published/2026-10-30-binance-crypto-heist/06-Design/2026-10-30-binance-crypto-heist/design-checks.json`; existing coffee-badge obstruction disclosed
+  - Next: historical checked stage; revision 1 accepted and published locally; no further stage action
 
 - [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | published revision 2
   - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review
@@ -3160,6 +3230,18 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
+  - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
+  - Stage: all eight internal stages checked; exact local preview accepted; published locally
+  - Public file: `content/news/binance-crypto-heist.md`; SHA-256 `c8932d3e972c2f51783a23a68e7f55778a719ce98d59c4331b9f9a3eddcdb811`
+  - Artifact: `99-Archive/published/2026-10-30-binance-crypto-heist/07-Approval/2026-10-30-binance-crypto-heist/approval.md`; decision-packet SHA-256 `111422c15e39871a001b07a76aea662b26f81a1a146e56d1980cf998912a643a`
+  - Run: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/run.md`
+  - Payload SHA-256: `e6731e0d2b6fedd5c05587086be88d4f04bb43d871797365b4ac897a461ae8a9`
+  - Decision: User accepted exact preview revision 1 and separately authorised local publication, candidate-only commit, main push and task cleanup
+  - Checks: 1,025 prose words; six sources; 37 exact passages; 23-width browser; 263 Node 22 tests and 16 Python 3.11 tests; production build and local publication verification
+  - Limits: inherited phone/tablet coffee-badge obstruction; direct Binance notice bot-protected, company statements attributed through checked reporting
+  - Next: bounded GitHub/live verification and cleanup; no further editorial decision
 
 - [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | revision 2
   - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review; revision 2
