@@ -3233,15 +3233,17 @@ See also: [[Approval Queue]]
 
 - [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
   - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
-  - Stage: all eight internal stages checked; exact local preview accepted; published locally
+  - Stage: all eight internal stages checked; exact local preview accepted; published live
   - Public file: `content/news/binance-crypto-heist.md`; SHA-256 `c8932d3e972c2f51783a23a68e7f55778a719ce98d59c4331b9f9a3eddcdb811`
-  - Artifact: `99-Archive/published/2026-10-30-binance-crypto-heist/07-Approval/2026-10-30-binance-crypto-heist/approval.md`; decision-packet SHA-256 `111422c15e39871a001b07a76aea662b26f81a1a146e56d1980cf998912a643a`
+  - Artifact: `99-Archive/published/2026-10-30-binance-crypto-heist/07-Approval/2026-10-30-binance-crypto-heist/approval.md`; decision-packet SHA-256 `c68d72bb080c7653986bfbba963f618297b4fe7e732ec98dd41a6ef6b873c50b`
   - Run: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/run.md`
   - Payload SHA-256: `e6731e0d2b6fedd5c05587086be88d4f04bb43d871797365b4ac897a461ae8a9`
   - Decision: User accepted exact preview revision 1 and separately authorised local publication, candidate-only commit, main push and task cleanup
   - Checks: 1,025 prose words; six sources; 37 exact passages; 23-width browser; 263 Node 22 tests and 16 Python 3.11 tests; production build and local publication verification
   - Limits: inherited phone/tablet coffee-badge obstruction; direct Binance notice bot-protected, company statements attributed through checked reporting
-  - Next: bounded GitHub/live verification and cleanup; no further editorial decision
+  - Product commit: `a00edf4d6ec53ce3a993837196263b18b4f01ea4`; Pages `41096985561` build/deploy success; exact live article/homepage/News verified
+  - Preview disposition: local server stopped and disposable build caches removed; pane shows live article
+  - Next: none editorially; final records-HEAD readbacks and QA shutdown receipts retained in the private archive
 
 - [x] Israel’s election: the Arab turnout surge and the claims of a stolen vote | revision 2
   - Candidate: `2026-10-29-israel-election-arab-turnout`; News; final-review; revision 2

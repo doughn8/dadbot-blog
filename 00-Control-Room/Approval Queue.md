@@ -24,20 +24,21 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### Binance’s $6.3 billion heist: what happened, in plain English | revision 1
 
 - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review; revision 1
-- Status: published locally; accepted exact copy; bounded release authorised
+- Status: published live; exact accepted copy and product release verified
 - Public file: `content/news/binance-crypto-heist.md`; SHA-256 `c8932d3e972c2f51783a23a68e7f55778a719ce98d59c4331b9f9a3eddcdb811`
 - URL: `https://dadbot.blog/news/binance-crypto-heist/`
 - Archive: `99-Archive/published/2026-10-30-binance-crypto-heist/`; private evidence retained locally
 - Run: `99-Archive/published/2026-10-30-binance-crypto-heist/01-Ideas/2026-10-30-binance-crypto-heist/run.md`
-- Package: `99-Archive/published/2026-10-30-binance-crypto-heist/07-Approval/2026-10-30-binance-crypto-heist/approval.md`; current decision SHA-256 `111422c15e39871a001b07a76aea662b26f81a1a146e56d1980cf998912a643a`
+- Package: `99-Archive/published/2026-10-30-binance-crypto-heist/07-Approval/2026-10-30-binance-crypto-heist/approval.md`; current decision SHA-256 `c68d72bb080c7653986bfbba963f618297b4fe7e732ec98dd41a6ef6b873c50b`
 - Assembled-before-decision-record snapshot: `approval-assembled-before-decision-record.md`; immutable SHA-256 `83060ce5aa3b7b27eb3a91ae63a062279093bc3b7d46c4da6325577e1c8fe8fb`; user reviewed the preview rather than this later wrapper
 - Accepted payload SHA-256: `e6731e0d2b6fedd5c05587086be88d4f04bb43d871797365b4ac897a461ae8a9`
 - Decision: User, “ok finish up. I accept the artical so you can commit, push and clean up when you have finished”; exact preview revision 1
 - Scope: local publication, candidate-only commit, main push/deployment verification and task cleanup; unrelated edits excluded
 - Checks: all eight internal stages; 1,025 prose words; six sources; 37 exact passages; 23-width browser; 263 Node 22 and 16 Python 3.11 tests; normal production build; exact local home/News/article checks
 - Limits: existing coffee-badge text obstruction on phone/tablet; shared design unchanged; direct announcement bot-protected with company claims attributed through reporting
-- Preview disposition: task-owned checkout preview and QA will be stopped after verified live handoff
-- Next: bounded release verification and cleanup; no further editorial decision
+- Preview disposition: local server intentionally stopped; disposable preview caches removed; pane shows verified live article
+- Product commit: `a00edf4d6ec53ce3a993837196263b18b4f01ea4`; Pages `41096985561` build/deploy success; exact live home/News/article verified
+- Next: none editorially; final records-HEAD readbacks and QA shutdown receipts retained privately
 
 - [x] Approve
 - [ ] Request changes
