@@ -7,6 +7,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Book Review: Watership Down by Richard Adams | revision 1
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/idea.md`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+  - SHA-256: `f32ccdcd145e4acf8ede0c081d2c558e7810b12a8637034e8dc3f197bb5753a3`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/idea-checks.json`
+
+
 - [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
   - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
   - Stage: idea checked internally; not human-approved
@@ -370,6 +379,23 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Book Review: Watership Down by Richard Adams | revision 3
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/02-Briefs/2026-10-31-watership-down-book-review/brief-revision-3.md`
+  - SHA-256: `fd1e2c60c1d5ce113038c2bf448d8ea27edb291caa94caa1c3dce368591b9bf8`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/02-Briefs/2026-10-31-watership-down-book-review/checks-revision-3/brief-checks.json`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+
+- [x] Book Review: Watership Down by Richard Adams | revision 1
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/02-Briefs/2026-10-31-watership-down-book-review/brief.md`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+  - SHA-256: `98d10344467c1d017028b18500b7baa60cc392e50bfabd2ef245bf805d384aa4`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/02-Briefs/2026-10-31-watership-down-book-review/brief-checks.json`
+
+
 - [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
   - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
   - Stage: brief checked internally; not human-approved
@@ -727,6 +753,32 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Book Review: Watership Down by Richard Adams | revision 3
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: seo checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/03-SEO/2026-10-31-watership-down-book-review/seo-revision-3.md`
+  - SHA-256: `46537873534b16a78fc4438c6297bf37fdfe5b7b0e0be21378f21ed9314c03f6`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/03-SEO/2026-10-31-watership-down-book-review/checks-revision-3/seo-checks.json`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+
+- [x] Book Review: Watership Down by Richard Adams | revision 2
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: SEO checked internally; public source heading removed from plan; title/description/tags unchanged
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/03-SEO/2026-10-31-watership-down-book-review/seo-revision-2.md`
+  - SHA-256: `7d1e97b1ddd4bb257af43974235f8b1a9f3bd146875e2bd343598f07bd86c425`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/03-SEO/2026-10-31-watership-down-book-review/checks-revision-2/seo-checks.json`
+  - Next: checked Draft revision 2; no publication authority
+
+
+- [x] Book Review: Watership Down by Richard Adams | revision 1
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: seo checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/03-SEO/2026-10-31-watership-down-book-review/seo.md`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+  - SHA-256: `27ea1cb0fb4ec238fc5fb8ebd9ba6b8e487f55741e2d47cb273e31ae44d03b8d`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/03-SEO/2026-10-31-watership-down-book-review/seo-checks.json`
+
 
 - [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
   - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
@@ -1147,6 +1199,35 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Book Review: Watership Down by Richard Adams | revision 3
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/04-Drafts/2026-10-31-watership-down-book-review/draft-revision-3.md`
+  - SHA-256: `8700a46ebf2dc3cef48da086be63745b4bdf6c3003019cc59999e5af7c299040`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/04-Drafts/2026-10-31-watership-down-book-review/checks-revision-3/draft-checks.json`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+
+- [x] Book Review: Watership Down by Richard Adams | revision 2
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: draft checked internally; reader-facing source presentation removed only; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/04-Drafts/2026-10-31-watership-down-book-review/draft-revision-2.md`
+  - SHA-256: `78f593fc1100189f7707db52a7085fdb6b5a631d1b077ac03e7e0e58f319768f`
+  - Payload SHA-256: `f4a21b92920560577b000ba6344e627fb32f7a92595635a0f1453fe274c2ccc0`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/04-Drafts/2026-10-31-watership-down-book-review/checks-revision-2/draft-checks.json`
+  - Next: complete the bounded Creative Edit revision 2
+
+
+- [x] Book Review: Watership Down by Richard Adams | revision 1
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/04-Drafts/2026-10-31-watership-down-book-review/draft.md`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+  - SHA-256: `0d578215ea0d0296900459c276d6a0dbf0c2d87075be741ad07551049283376f`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/04-Drafts/2026-10-31-watership-down-book-review/draft-checks.json`
+
+
+
 
 - [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
   - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
@@ -1657,6 +1738,33 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Book Review: Watership Down by Richard Adams | revision 3
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: creative-edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/creative-edit-revision-3.md`
+  - SHA-256: `b512a0e9e8dc4903eecb38988dd3c9dfe6a07b1225b7bf9511bdac77fbcf707f`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/checks-revision-3/creative-edit-checks.json`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+
+- [x] Book Review: Watership Down by Richard Adams | revision 2
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: creative-edit checked internally; reader-facing source presentation removed only; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/creative-edit-revision-2.md`
+  - SHA-256: `78482ca41666995ccfac1d928cd2e2bd8e27d506753ae3fff92f6d1d370698f8`
+  - Payload SHA-256: `f4a21b92920560577b000ba6344e627fb32f7a92595635a0f1453fe274c2ccc0`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/checks-revision-2/creative-edit-checks.json`
+  - Next: complete the narrow Proofread revision 2
+
+
+- [x] Book Review: Watership Down by Richard Adams | revision 1
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: creative-edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/creative-edit.md`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+  - SHA-256: `94dd9a7ea5249f193c9874bd0d0070f7a5bd802a51dbb7d51c1289d063b1ebf8`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/creative-edit-checks.json`
+
 
 - [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
   - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
@@ -2179,6 +2287,33 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Book Review: Watership Down by Richard Adams | revision 3
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/proofread-revision-3.md`
+  - SHA-256: `2202511f32819f742864f482935ec5f81625af672a999d20ef1e5aced09ed83c`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/checks-revision-3/proofread-checks.json`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+
+- [x] Book Review: Watership Down by Richard Adams | revision 2
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: proofread checked internally; reader-facing source presentation removed only; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/proofread-revision-2.md`
+  - SHA-256: `ae81227e13daefc8936da3bf8e924636c4a2eea68144e55aef793214c767ee9e`
+  - Payload SHA-256: `f4a21b92920560577b000ba6344e627fb32f7a92595635a0f1453fe274c2ccc0`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/checks-revision-2/proofread-checks.json`
+  - Next: rebuild and verify the isolated revision-2 preview
+
+
+- [x] Book Review: Watership Down by Richard Adams | revision 1
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/proofread.md`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+  - SHA-256: `84ac15727de48caf004534954c1b10fd7f58a7bd5c82fbde6cbd0bd471ab9ac9`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/05-Reviews/2026-10-31-watership-down-book-review/proofread-checks.json`
+
+
 - [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
   - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
   - Stage: proofread checked internally; not human-approved
@@ -2693,6 +2828,33 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Book Review: Watership Down by Richard Adams | revision 3
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/06-Design/2026-10-31-watership-down-book-review/design-revision-3.md`
+  - SHA-256: `bebd352fe8f9a0738aa554a22f8bbe3f53acdc2e40f2d08348124392cf5da9ce`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/06-Design/2026-10-31-watership-down-book-review/checks-revision-3/design-checks.json`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+
+- [x] Book Review: Watership Down by Richard Adams | revision 2
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: design checked internally; reader-facing source presentation removed only; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/06-Design/2026-10-31-watership-down-book-review/design-revision-2.md`
+  - SHA-256: `5ff23f883ad86608a7c03c69887337c9ebebc776fe1821e9637642ac57155289`
+  - Payload SHA-256: `f4a21b92920560577b000ba6344e627fb32f7a92595635a0f1453fe274c2ccc0`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/06-Design/2026-10-31-watership-down-book-review/checks-revision-2/design-checks.json`
+  - Next: assemble the complete revision-2 Final Approval package and close the control records
+
+
+- [x] Book Review: Watership Down by Richard Adams | revision 1
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
+  - Stage: design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-10-31-watership-down-book-review/06-Design/2026-10-31-watership-down-book-review/design.md`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+  - SHA-256: `ef7e6e089ba4b51930787b752f08337ece4f4869460ac206451a9b462b3c05c4`
+  - Checks: `99-Archive/published/2026-10-31-watership-down-book-review/06-Design/2026-10-31-watership-down-book-review/design-checks.json`
+
 
 - [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
   - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
@@ -3230,6 +3392,23 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Book Review: Watership Down by Richard Adams | revision 3
+  - Candidate: `2026-10-31-watership-down-book-review`; Books / The Shelf Scout; final-review
+  - Status: approved and published locally; commit/push/live verification authorised
+  - Public file: `content/books/watership-down-book-review.md`; SHA-256 `fe6e1b27346252e4ec9b4d36736fd68de838878a8efbf0a674b14eb50d0140f5`
+  - Cover: `static/images/books/cover-watership-down-open-library.jpg`; exact approved bytes
+  - Archive: `99-Archive/published/2026-10-31-watership-down-book-review/`; private evidence local-only
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+  - Decision packet: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-revision-3.md`; current SHA-256 `7f722b5f89ba663e40de514c7eac3d010b3045991e96a92df22117c470b571e9`
+  - Immutable reviewed packet: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-for-review-r3.md`; SHA-256 `3f7eb1dc593c078332bb40deaa6184a2dbbc7c9e8fabd5e2e58a430ac1d47965`
+  - Approved payload SHA-256: `b16941fea0b018a38c4ee35a187ac1796867e897b70fe5f1b8acd5c7eef364ce`; 1240 prose words; 4/5; reread Yes
+  - Decision: User, “approved. commit, push and clean up”; 2026-10-31T20:41:46.175697+01:00
+  - Scope: exact revision 3 and same cover, local publication, candidate-only commit, main push/deployment verification and task cleanup; unrelated work excluded
+  - Checks: exact approved payload; local cover identity; production build; home/Books/article HTTP and 3-width browser; Node 22 263 tests; Python 3.11 16 tests; archive movement byte-verified
+  - Limits: inherited coffee-badge text obstruction and diagnostic 320px overflow unchanged
+  - Preview disposition: checkout preview temporarily serves local publication verification; will be intentionally stopped after verified live delivery
+  - Next: complete authorised release/live verification and cleanup; no further editorial approval needed
 
 - [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
   - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
@@ -3923,6 +4102,32 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] Book Review: Watership Down by Richard Adams | revision 2 — Request changes (historical)
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review; needs-revision (historical)
+  - Reviewed package (immutable): `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-for-review-r2.md`; SHA-256 `cdb047d12ebf9db47d894a106d9b5545aaca1e7dcacc15bbe0ab76e5e2fab250`
+  - Reviewer copy: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/final-review-r2.md`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+  - Payload SHA-256: `f4a21b92920560577b000ba6344e627fb32f7a92595635a0f1453fe274c2ccc0`
+  - Historical preview: `http://127.0.0.1:1313/books/watership-down-book-review/?local-review=2`; external full-content mirror; direct-route-only
+  - Changed: public Sources and caveats section and 29 numeric references removed; review/public metadata unchanged; 1309 prose words
+  - Checks: revision-2 stages; exact deletion map/private evidence; both builds; 27-width browser; no source heading/TOC/numeric markers; pane readback; 16 tests; owned QA exit
+  - Limitations: inherited coffee badge/diagnostic 320px overflow, reread unspecified and cover proposed; research/qualifiers retained privately
+  - Decision: Request changes; superseded by revision 3, no publication approved
+  - Decision-bearing packet: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-revision-2.md`; current SHA-256 `73830a65c05397d4991a1a0873206f374b56755ac3e59ebbc477e768ede1ea83`; original reviewed hash `cdb047d12ebf9db47d894a106d9b5545aaca1e7dcacc15bbe0ab76e5e2fab250` unchanged in snapshot
+
+- [x] Book Review: Watership Down by Richard Adams | revision 1 (superseded; Request changes)
+  - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review; historical revision; not approved
+  - Package: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-for-review-r1.md` (immutable reviewed snapshot; original packet is now decision-bearing)
+  - Reviewer copy: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/final-review-r1.md`
+  - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+  - Packet SHA-256: `bb059544982597ca3037f2aea1cd55d3c2d047aa884cdf9fbfe77e7f4c56527e`
+  - Payload SHA-256: `61e2442db83b970966a6629517bcad84d83962507044d872c3adbfc3423248c4`
+  - Preview: `http://127.0.0.1:1313/books/watership-down-book-review/?local-review=1`; external full-content mirror; direct-route-only
+  - Checks: eight internal stages; 1309 prose words; six sources; scoped per-claim audit; 29 refreshed passages; both builds; 27-width browser; pane readback; 16 tests; QA-browser exit
+  - Limits: existing phone/tablet coffee badge and diagnostic 320px overflow; reread preference unspecified; cover proposed
+  - Next: none for revision 1; requested source-presentation removal is revision 2; no publication authority
+
 
 - [x] Dead internet theory: who’s really doing the talking? | revision 1
   - Candidate: `2026-10-28-dead-internet-theory`; Conspiracy Corner; final-review

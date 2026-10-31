@@ -21,6 +21,31 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Book Review: Watership Down by Richard Adams | revision 3
+
+- Candidate: `2026-10-31-watership-down-book-review`; Books / The Shelf Scout; final-review; revision 3
+- Status: approved and published locally; release authorised
+- Public file: `content/books/watership-down-book-review.md`; SHA-256 `fe6e1b27346252e4ec9b4d36736fd68de838878a8efbf0a674b14eb50d0140f5`
+- URL: `https://dadbot.blog/books/watership-down-book-review/`
+- Cover: `static/images/books/cover-watership-down-open-library.jpg`; approved original artwork, exact bytes locally packaged
+- Archive: `99-Archive/published/2026-10-31-watership-down-book-review/`; private research/history retained locally
+- Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+- Decision packet: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-revision-3.md`; current SHA-256 `7f722b5f89ba663e40de514c7eac3d010b3045991e96a92df22117c470b571e9`
+- Immutable reviewed packet: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-for-review-r3.md`; SHA-256 `3f7eb1dc593c078332bb40deaa6184a2dbbc7c9e8fabd5e2e58a430ac1d47965`
+- Reviewer export: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/final-review-r3.md`; immutable exact reviewed packet
+- Approved payload SHA-256: `b16941fea0b018a38c4ee35a187ac1796867e897b70fe5f1b8acd5c7eef364ce`; 1240 prose words; 4/5; reread Yes
+- Decision: User, “approved. commit, push and clean up”; 2026-10-31T20:41:46.175697+01:00
+- Scope: local publication, candidate-only commit, main push/deployment verification, task-owned cleanup; unrelated changes excluded
+- Checks: exact approved body/TL;DR; six-source/32-passage prior audit; production build; correct local cover/metadata; home/Books/article HTTP and real browser 390/768/1280; Node 22 263 tests; Python 3.11 16 tests; 339-file archive move byte-verified
+- Limits: shared coffee badge still obscures some phone/tablet copy; diagnostic 320px overflow unchanged; no shared design edit
+- Preview disposition: checkout verification server will be stopped after verified live delivery; historic isolated review previews are superseded
+- Next: finish authorised release/live verification and cleanup; no further editorial decision pending
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
 ### Binance’s $6.3 billion heist: what happened, in plain English | revision 1
 
 - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review; revision 1
@@ -1226,6 +1251,68 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### Book Review: Watership Down by Richard Adams | revision 2 — Request changes (historical)
+
+- Candidate: `2026-10-31-watership-down-book-review`; Books / The Shelf Scout; final-review; revision 2
+- Status: needs-revision; historical Request changes; not published
+- Reviewed package (immutable): `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-for-review-r2.md`; SHA-256 `cdb047d12ebf9db47d894a106d9b5545aaca1e7dcacc15bbe0ab76e5e2fab250`
+- Immutable reviewed snapshot: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-for-review-r2.md`; exact packet bytes
+- Reviewer copy: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/final-review-r2.md`; SHA-256 `cdb047d12ebf9db47d894a106d9b5545aaca1e7dcacc15bbe0ab76e5e2fab250`
+- Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+- Payload SHA-256: `f4a21b92920560577b000ba6344e627fb32f7a92595635a0f1453fe274c2ccc0`
+- Preview source: `99-Archive/published/2026-10-31-watership-down-book-review/06-Design/2026-10-31-watership-down-book-review/preview-source-revision-2.md`
+- Historical preview: `http://127.0.0.1:1313/books/watership-down-book-review/?local-review=2`; opened and complete current copy read back in desktop pane; direct-route-only
+- Historical owner: loopback 1313, PID 204544, session `proc_216b4d5cb80e`; root `/home/markhickinson/.cache/dadbot-local-previews/2026-10-31-watership-down-book-review/review-2`; revision-1 server stopped
+- Changed: only public Sources and caveats section and 29 numbered references removed; remaining review, rating, cover and public metadata unchanged; 1309 prose words
+- Checks: SEO outline/Draft/Creative Edit/Proofread/Design/Final Approval revision-2 records; exact deletion transform and unchanged remainder; private annotated strict source integrity; both builds/no-leak; 27-width browser; removed heading/TOC/numbers/bibliography; pane readback; 16 focused tests; owned QA exit
+- Evidence: checks-revision-2/closing-checks.json and stage-specific receipts; original six sources/29 checked passages retained privately
+- Limitations: unchanged shared coffee-badge obstruction and diagnostic 320px overflow; reread preference unspecified; cover still proposed; edition/recording/text-scope caveats retained in private approval audit
+- Blockers: none candidate-specific
+- Decision boundary: Approve authorises the agreed local publication only; no commit, push or deployment
+- Decision: Request changes; whole-book/political revision and reread Yes requested; superseded by revision 3; old checks/preview historical
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
+
+- Decision-bearing packet: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-revision-2.md`; current SHA-256 `73830a65c05397d4991a1a0873206f374b56755ac3e59ebbc477e768ede1ea83`; original reviewed hash `cdb047d12ebf9db47d894a106d9b5545aaca1e7dcacc15bbe0ab76e5e2fab250` preserved
+
+### Book Review: Watership Down by Richard Adams | revision 1 (superseded)
+
+- Candidate: `2026-10-31-watership-down-book-review`; Books / The Shelf Scout; final-review; revision 1
+- Status: historical Request changes; not published; old preview/checks are historical
+- Reviewed snapshot: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-for-review-r1.md`; immutable SHA-256 `bb059544982597ca3037f2aea1cd55d3c2d047aa884cdf9fbfe77e7f4c56527e`
+- Current revision-1 decision packet: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval.md`; SHA-256 `01cc4d6c3d1c6c32cdfd1277d34d5e7f448e34f519431a5a5d03f1b3d6e7f2e3`; Request changes recorded
+- Immutable reviewed snapshot: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-for-review-r1.md`; exact canonical bytes
+- Reviewer copy: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/final-review-r1.md`; SHA-256 `314de9d634c12330dc65f36f8feb00f3956e6236a5da975ccb5455068ca39eff`
+- Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
+- Article payload SHA-256: `61e2442db83b970966a6629517bcad84d83962507044d872c3adbfc3423248c4`
+- Preview source: `99-Archive/published/2026-10-31-watership-down-book-review/06-Design/2026-10-31-watership-down-book-review/preview-source.md`
+- Preview: `http://127.0.0.1:1313/books/watership-down-book-review/?local-review=1`; external full-content mirror; direct-route-only; current article opened/read in desktop pane
+- Preview owner: loopback 1313; PID 143277; session `proc_5907f43c83e5`; root `/home/markhickinson/.cache/dadbot-local-previews/2026-10-31-watership-down-book-review/review-1`
+- Body: 1309 citation-stripped prose words; author rating 4/5; normal Books structure; proposed clothbound cover
+- Checks: eight full stages, strict source/quote integrity, user-authorised per-claim alternative, six sources/29 refreshed passages, exact article and public metadata equality, isolated/normal builds, production no-leak/content-manifest checks, 27 required browser widths, source links/keyboard/cover checks, 16 tests, desktop pane readback, owned QA-browser exit
+- Receipts: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/final-approval-checks.json`; closing-checks.json; Design browser/build/source-refresh records
+- Limitations: existing phone/tablet coffee badge covers body text; diagnostic 320px shared 31px overflow, both baseline-reproduced; unspecified reread preference; page counts refer to two paperbacks, not depicted clothbound edition
+- Blockers: none candidate-specific
+- Decision boundary: Approve authorises the agreed local publication only, including this reviewed metadata/proposed cover; no commit, push or deployment
+- Next: revision 2 removes public Sources and caveats and numbered citations; original full-run authority retained
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
+
+
+
+- Actual Request changes: user requested removing the reader-facing Sources and caveats section and numeric references. Immutable reviewed bytes are retained; the current decision-bearing approval.md has changed status only.
+
 
 ### Dead internet theory: who’s really doing the talking? | revision 1
 
