@@ -3395,20 +3395,21 @@ See also: [[Approval Queue]]
 
 - [x] Book Review: Watership Down by Richard Adams | revision 3
   - Candidate: `2026-10-31-watership-down-book-review`; Books / The Shelf Scout; final-review
-  - Status: approved and published locally; commit/push/live verification authorised
+  - Status: published live; exact approved revision 3; release verified; cleanup complete
   - Public file: `content/books/watership-down-book-review.md`; SHA-256 `fe6e1b27346252e4ec9b4d36736fd68de838878a8efbf0a674b14eb50d0140f5`
   - Cover: `static/images/books/cover-watership-down-open-library.jpg`; exact approved bytes
   - Archive: `99-Archive/published/2026-10-31-watership-down-book-review/`; private evidence local-only
   - Run: `99-Archive/published/2026-10-31-watership-down-book-review/01-Ideas/2026-10-31-watership-down-book-review/run.md`
-  - Decision packet: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-revision-3.md`; current SHA-256 `7f722b5f89ba663e40de514c7eac3d010b3045991e96a92df22117c470b571e9`
+  - Decision packet: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-revision-3.md`; current SHA-256 `e2cd0cc2f1fd8eaa794cac0a1254f99ca9868d121be232b747e7aee7433003bc`
   - Immutable reviewed packet: `99-Archive/published/2026-10-31-watership-down-book-review/07-Approval/2026-10-31-watership-down-book-review/approval-for-review-r3.md`; SHA-256 `3f7eb1dc593c078332bb40deaa6184a2dbbc7c9e8fabd5e2e58a430ac1d47965`
   - Approved payload SHA-256: `b16941fea0b018a38c4ee35a187ac1796867e897b70fe5f1b8acd5c7eef364ce`; 1240 prose words; 4/5; reread Yes
   - Decision: User, “approved. commit, push and clean up”; 2026-10-31T20:41:46.175697+01:00
   - Scope: exact revision 3 and same cover, local publication, candidate-only commit, main push/deployment verification and task cleanup; unrelated work excluded
   - Checks: exact approved payload; local cover identity; production build; home/Books/article HTTP and 3-width browser; Node 22 263 tests; Python 3.11 16 tests; archive movement byte-verified
   - Limits: inherited coffee-badge text obstruction and diagnostic 320px overflow unchanged
-  - Preview disposition: checkout preview temporarily serves local publication verification; will be intentionally stopped after verified live delivery
-  - Next: complete authorised release/live verification and cleanup; no further editorial approval needed
+  - Product commit: `07bc4224082c1523cc47822162eceb5a6245d489`; Pages run `41236145601`: build/deploy success; exact live home/Books/article/cover verified
+  - Preview disposition: owned local preview/QA intentionally stopped; task caches removed; pane shows verified live article
+  - Next: none editorially; final records-HEAD verification/readbacks retained privately; unrelated local edits preserved
 
 - [x] Binance’s $6.3 billion heist: what happened, in plain English | revision 1
   - Candidate: `2026-10-30-binance-crypto-heist`; News; final-review
