@@ -1,68 +1,67 @@
 {{ define "main" }}
-<main class="about-page about-command-stream" aria-labelledby="about-title">
-  <h1 id="about-title" class="about-command-stream__sr-title">{{ .Params.hero.headline }}</h1>
+<main class="about-page about-editorial" aria-labelledby="about-title">
+  <h1 id="about-title">{{ .Title }}</h1>
 
-  <section class="about-command-stream__hero section-intro section-intro--green" aria-label="Introduction and mission">
+  <section class="about-editorial__intro section-intro section-intro--green" aria-label="Introduction">
     <div class="section-intro__content">
       <p>{{ .Params.hero.subheadline }}</p>
-      {{ with .Params.mission }}
-        <p>{{ .body }}</p>
-      {{ end }}
     </div>
   </section>
 
-  {{ with .Params.values }}
-    {{ $last := sub (len .) 1 }}
-    <section class="about-command-stream__window" aria-labelledby="about-values-title">
-      <div class="about-command-stream__window-bar"><span id="about-values-title">Core values</span></div>
-      <div class="about-command-stream__window-body">
-        <div class="about-command-stream__values">
-          {{ range $index, $value := . }}
-            <article class="about-command-stream__value{{ if eq $index $last }} about-command-stream__value--full{{ end }}">
-              <h3>{{ $value.label }}</h3>
-              <p>{{ $value.body }}</p>
-            </article>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ end }}
+  <div class="about-editorial__layout">
+    <div class="about-editorial__column">
+      {{ with .Params.mission }}
+        <section class="about-editorial__section" aria-labelledby="about-mission-title">
+          <h2 id="about-mission-title">{{ $.Params.hero.headline }}</h2>
+          <p>{{ .body }}</p>
+        </section>
+      {{ end }}
 
-  {{ with .Params.desks }}
-    <section class="about-command-stream__window" aria-labelledby="about-desks-title">
-      <div class="about-command-stream__window-bar"><span id="about-desks-title">What Dadbot covers</span></div>
-      <div class="about-command-stream__window-body">
-        <div class="about-command-stream__desks">
-          {{ range . }}
-            <article class="about-command-stream__desk">
-              <h3>{{ .name }}</h3>
-              <p>{{ .line }}</p>
-            </article>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ end }}
+      {{ with .Params.values }}
+        <section class="about-editorial__section" aria-labelledby="about-values-title">
+          <h2 id="about-values-title">Core values</h2>
+          <div class="about-editorial__values">
+            {{ range . }}
+              <article class="about-editorial__value">
+                <h3>{{ .label }}</h3>
+                <p>{{ .body }}</p>
+              </article>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    </div>
 
-  {{ with .Params.principles }}
-    <section class="about-command-stream__window about-command-stream__principles" aria-labelledby="about-principles-title">
-      <div class="about-command-stream__window-bar"><span id="about-principles-title">Operating principles</span></div>
-      <div class="about-command-stream__window-body">
-        <ol>
-          {{ range . }}
-            <li>{{ . }}</li>
+    {{ with .Params.principles }}
+      <aside class="about-editorial__principles about-editorial__section" aria-labelledby="about-principles-title">
+        <h2 id="about-principles-title">Operating principles</h2>
+        <ol role="list">
+          {{ range $index, $principle := . }}
+            <li><span class="about-editorial__number" aria-hidden="true">{{ printf "%02d" (add $index 1) }}</span><span>{{ $principle }}</span></li>
           {{ end }}
         </ol>
+      </aside>
+    {{ end }}
+  </div>
+
+  {{ with .Params.desks }}
+    <section class="about-editorial__section" aria-labelledby="about-desks-title">
+      <h2 id="about-desks-title">What Dadbot covers</h2>
+      <div class="about-editorial__desks">
+        {{ range . }}
+          <article class="about-editorial__desk">
+            <h3>{{ .name }}</h3>
+            <p>{{ .line }}</p>
+          </article>
+        {{ end }}
       </div>
     </section>
   {{ end }}
 
   {{ with .Params.support }}
-    <section class="about-command-stream__window" aria-labelledby="about-support-title">
-      <div class="about-command-stream__window-bar"><span id="about-support-title">{{ .title }}</span></div>
-      <div class="about-command-stream__window-body">
-        <p>{{ .body }}</p>
-      </div>
+    <section class="about-editorial__support about-editorial__section" aria-labelledby="about-support-title">
+      <h2 id="about-support-title">{{ .title }}</h2>
+      <p>{{ .body }}</p>
     </section>
   {{ end }}
 </main>

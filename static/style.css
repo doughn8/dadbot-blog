@@ -1932,178 +1932,154 @@
 }
 
 /* ========================================
-   ABOUT PAGE - Windows Blend
+   ABOUT PAGE - Editorial Note
    ======================================== */
 
-.about-command-stream {
-  max-width: 1080px;
-  margin: 0 auto 5rem;
-  color: var(--color);
-}
-
-/* Page heading stays in the DOM for a11y/SEO but is not shown;
-   the windows carry the visible structure. */
-.about-command-stream__sr-title {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-}
-
-.about-command-stream__hero.section-intro {
-  color: var(--color);
-  font-family: inherit;
-}
-
-.about-command-stream__hero.section-intro p {
-  color: var(--color);
-  font-family: inherit;
-  line-height: 1.65;
-  text-wrap: pretty;
-}
-
-.about-command-stream__window {
-  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
-  background: color-mix(in srgb, var(--accent) 4%, var(--background) 96%);
-  margin: 0 0 1.375rem;
-}
-
-.about-command-stream__window:last-child {
-  margin-bottom: 0;
-}
-
-.about-command-stream__window-bar {
-  display: flex;
-  align-items: center;
-  background: color-mix(in srgb, var(--accent) 14%, var(--background) 86%);
-  border-bottom: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
-  padding: 0.45rem 0.9rem;
-  color: var(--accent);
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.about-command-stream__window-body {
-  padding: 1rem 1.125rem;
-}
-
-.about-command-stream__window-body > p {
+.about-editorial {
+  --about-space-copy: 8px;
+  --about-space-inner: 16px;
+  --about-space-section: 28px;
+  display: grid;
+  gap: var(--about-space-section);
+  width: 100%;
+  min-width: 0;
   margin: 0;
   color: var(--color);
-  line-height: 1.65;
-  text-wrap: pretty;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
 }
 
-.about-command-stream__values {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
+/* Theme headings otherwise add their own 40px top margin. Grid gaps own
+   vertical rhythm here, so sibling margins never collapse or double. */
+.about-editorial :is(h1, h2, h3, p) {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.about-command-stream__value {
-  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
-  padding: 0.7rem 0.85rem;
-  min-width: 0;
+.about-editorial h1 {
+  font-size: 27px !important;
+  line-height: 1.3;
 }
 
-.about-command-stream__value--full {
-  grid-column: 1 / -1;
-}
-
-.about-command-stream__value h3 {
-  margin: 0 0 0.3rem !important;
-  color: var(--accent);
-  font-size: 0.76rem;
+.about-editorial h2 {
+  font-size: 19px !important;
   line-height: 1.4;
 }
 
-.about-command-stream__value p {
-  margin: 0 !important;
-  color: var(--color);
-  font-size: 0.75rem;
-  line-height: 1.6;
-  text-wrap: pretty;
-}
-
-.about-command-stream__desk {
-  display: flex;
-  align-items: baseline;
-  gap: 0.875rem;
-  padding: 0.45rem 0.125rem;
-  border-bottom: 1px dashed color-mix(in srgb, var(--accent) 20%, transparent);
-}
-
-.about-command-stream__desk:last-child {
-  border-bottom: none;
-}
-
-.about-command-stream__desk h3 {
-  margin: 0 !important;
-  flex: 0 0 215px;
-  color: var(--accent);
-  font-size: 0.75rem;
+.about-editorial h3 {
+  font-size: 15px !important;
   line-height: 1.5;
 }
 
-.about-command-stream__desk p {
-  margin: 0 !important;
+.about-editorial__intro.section-intro {
+  margin: 0;
+  padding: var(--about-space-inner);
   color: var(--color);
-  font-size: 0.75rem;
-  line-height: 1.6;
-  text-wrap: pretty;
+  font-family: inherit;
 }
 
-.about-command-stream__principles ol {
+.about-editorial__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--about-space-section);
+  align-items: start;
+}
+
+.about-editorial__column {
+  display: grid;
+  gap: var(--about-space-section);
+  min-width: 0;
+}
+
+.about-editorial__section {
+  display: grid;
+  gap: var(--about-space-copy);
+  min-width: 0;
+}
+
+.about-editorial__values {
+  display: grid;
+  gap: var(--about-space-inner);
+}
+
+.about-editorial__value {
+  display: grid;
+  gap: var(--about-space-copy);
+  min-width: 0;
+}
+
+.about-editorial__value h3 {
+  color: var(--accent);
+}
+
+.about-editorial__principles {
+  align-self: start;
+  padding: var(--about-space-inner);
+  border: 1px dashed color-mix(in srgb, var(--accent) 75%, transparent);
+  border-radius: 0;
+}
+
+.about-editorial__principles h2 {
+  font-size: 16px !important;
+}
+
+.about-editorial__principles ol {
   margin: 0;
   padding: 0;
   list-style: none;
-  counter-reset: about-principle;
 }
 
-/* Numerals hang in the left padding: white text keeps its alignment with
-   every other window body; the green numeral sits in the gutter before it. */
-.about-command-stream__principles li {
-  counter-increment: about-principle;
-  margin: 0 0 0.375rem !important;
-  padding-left: 2.45rem !important;
-  text-indent: -2.45rem;
-  color: var(--color);
-  line-height: 1.65;
+.about-editorial__principles li {
+  display: grid;
+  grid-template-columns: 2ch minmax(0, 1fr);
+  gap: 12px;
+  margin: 0;
+  padding: var(--about-space-copy) 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  font-size: 12px;
+  text-indent: 0;
 }
 
-.about-command-stream__principles li::before {
-  content: counter(about-principle, decimal-leading-zero) !important;
-  display: inline-block !important;
-  position: static !important;
-  min-width: 2.2rem;
-  margin-right: 0.25rem !important;
-  color: var(--accent);
-  font-weight: 700;
+/* Explicit numbers are hidden from assistive tech; suppress theme counters. */
+.about-editorial__principles li::before {
+  content: none !important;
 }
 
-@media (max-width: 600px) {
-  .about-command-stream {
-    margin-bottom: 3rem;
-  }
+.about-editorial__number {
+  color: #9daaa3;
+}
 
-  .about-command-stream__values {
-    grid-template-columns: minmax(0, 1fr);
-  }
+.about-editorial__desks {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--about-space-inner);
+}
 
-  .about-command-stream__desk {
-    flex-direction: column;
-    gap: 0.125rem;
-  }
+.about-editorial__desk {
+  display: grid;
+  align-content: start;
+  gap: var(--about-space-copy);
+  min-width: 0;
+  padding: var(--about-space-inner);
+  border: 1px solid color-mix(in srgb, var(--accent) 75%, transparent);
+  border-radius: 0;
+  background: color-mix(in srgb, var(--accent) 4%, var(--background) 96%);
+}
 
-  .about-command-stream__desk h3 {
-    flex: none;
+.about-editorial__desk p {
+  font-size: 13px;
+}
+
+.about-editorial__support {
+  padding-top: var(--about-space-inner);
+  border-top: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+@media (max-width: 700px) {
+  .about-editorial h1 {
+    font-size: 24px !important;
   }
 }
 
