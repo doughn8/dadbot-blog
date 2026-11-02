@@ -19,7 +19,33 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 
 
+
+
+
 ## Approved
+
+### While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
+
+- Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
+- Status: published locally; user approved; release verification in progress
+- Decision: Approve; User; 2026-11-02T14:17:09.162300+01:00; “ok approved. commit, push and clean up”
+- Permissions: exact local publication, candidate-only commit, push/resulting deployment verification and task-owned cleanup authorised separately
+- Public file: `content/news/2026-11-02-weekend-catch-up.md`
+- URL: `https://dadbot.blog/news/weekend-catch-up-2-november-2026/`
+- Archive: `99-Archive/published/2026-11-02-weekend-catch-up/`; movement manifest verifies all 420 discovered stage files
+- Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+- Immutable reviewed packet: `99-Archive/published/2026-11-02-weekend-catch-up/07-Approval/2026-11-02-weekend-catch-up/approval-for-review-r2.md`; SHA-256 `c5d8a7899927907a57b75c89952faaf6e98d850e0145e9604a6de9ef17e3d31f`
+- Exact article payload SHA-256: `60ec92210a073e612da97578d07fe0c40aed018e4879231bc1182bfddffcd802`
+- Current decision packet: `99-Archive/published/2026-11-02-weekend-catch-up/07-Approval/2026-11-02-weekend-catch-up/approval.md`; SHA-256 `beb99b3bd91fa2f49cc089aae62a7767791f2ca4e41999c7a52b497821a0eed2`
+- Local checks: clean draft-false file, exact public metadata/payload, one title/TLDR, no cover/workflow leak; home/News/article HTTP 200 and listed; 390/768/1280 browser checks; 263 Node and 16 focused Python tests pass
+- Design limitations: same existing coffee badge and diagnostic 320px shared-shell warning; design untouched
+- Preview disposition: temporary checkout server to be stopped after verified deployment; pane will show live article
+- Next: candidate-only commit/push, exact-HEAD live verification and cleanup; private evidence remains local-only
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
 
 ### Book Review: Watership Down by Richard Adams | revision 3
 
@@ -1252,6 +1278,29 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 1
+
+- Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 1
+- Status: historical revision 1; Request changes; superseded; not published
+- Reviewed packet hash (immutable approval-for-review-r1.md): `c9ed18230f5784fa67244331e457749980d81410641556cc787ec7675a128624`
+- Current decision-bearing packet: `99-Archive/published/2026-11-02-weekend-catch-up/07-Approval/2026-11-02-weekend-catch-up/approval-decision-r1.md`; SHA-256 `6351a55b4d902b06314d550e2533df5572ddb0037948b7ec54431bd9c20e0c37`
+- Immutable reviewed packet: `99-Archive/published/2026-11-02-weekend-catch-up/07-Approval/2026-11-02-weekend-catch-up/approval-for-review-r1.md`; identical canonical bytes
+- Complete reviewer export: `99-Archive/published/2026-11-02-weekend-catch-up/07-Approval/2026-11-02-weekend-catch-up/final-review-r1.md`; SHA-256 `a798301fe87c9772b5045a48d84928c4163400b4647b23ca80baa9837a3e17a9`
+- Article payload SHA-256: `2662e6cf8ab67355cc7fcd08ebb7595face886b64fe7a21ced6f2358b5729818`; 506 prose words; nine sources; 20 exact fresh passages
+- Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+- Preview: `http://127.0.0.1:1313/news/weekend-catch-up-2-november-2026/?local-review=1`; opened/read back in the desktop pane; isolated full-content mirror, direct-route-only
+- Preview root/owner: `/home/markhickinson/.cache/dadbot-local-previews/2026-11-02-weekend-catch-up/review-1`; loopback 1313; PID 83109; session proc_bef2d0305845
+- Preview source: `99-Archive/published/2026-11-02-weekend-catch-up/06-Design/2026-11-02-weekend-catch-up/preview-source.md`
+- Checks: eight stage contracts, YAML, strict evidence and article coverage, exact quotations/payload/public metadata, both builds/no-leak/61-file preservation, 31-width/six-height Chromium, nine source anchors/real Tab order, current desktop-pane readback; closing-checks.json retains focused 16-test result and owned-QA shutdown
+- Limits: existing fixed coffee badge covers some phone/tablet copy; diagnostic 320px shared overflow 31px, both reproduced on approved sibling; no shared-layout change
+- Blockers: none article-specific
+- Decision boundary: Approve = agreed local publication only; no commit, push or deployment
+- Choices: Approve / Request changes / Reject / Hold
+- Decision: user agreed to replace New York with Antonelli because last week also had a marathon story; revision 2 in progress
+- Next: historical record only; no approval or release authority
+
+
 
 ### Book Review: Watership Down by Richard Adams | revision 2 — Request changes (historical)
 

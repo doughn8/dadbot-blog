@@ -7,6 +7,26 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
+  - Stage: idea; checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/idea-revision-2.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `844777439ec59ec3e0a8115ecd3fc482fa8e3b225e95100120daa6b4ace53aaf`
+  - Payload SHA-256: `not applicable`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/checks-revision-2/idea-checks.json`
+  - Current archived artifact SHA-256: `844777439ec59ec3e0a8115ecd3fc482fa8e3b225e95100120daa6b4ace53aaf`
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 1
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review
+  - Stage: idea checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/idea.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `2c2a4570f604f04b1b088154cccd02de0cc3c30c7a2df9b2958e16df239f9082`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/idea-checks.json`
+  - Current archived artifact SHA-256: `2c2a4570f604f04b1b088154cccd02de0cc3c30c7a2df9b2958e16df239f9082`
+
+
 - [x] Book Review: Watership Down by Richard Adams | revision 1
   - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
   - Stage: idea checked internally; not human-approved
@@ -378,6 +398,26 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
+  - Stage: brief; checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/02-Briefs/2026-11-02-weekend-catch-up/brief-revision-2.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `ceb9e597d64e9eec1132beb95a1e9dee18d6bde8cc21ed5d30fb47fa2f97a085`
+  - Payload SHA-256: `not applicable`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/02-Briefs/2026-11-02-weekend-catch-up/checks-revision-2/brief-checks.json`
+  - Current archived artifact SHA-256: `ceb9e597d64e9eec1132beb95a1e9dee18d6bde8cc21ed5d30fb47fa2f97a085`
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 1
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review
+  - Stage: brief checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/02-Briefs/2026-11-02-weekend-catch-up/brief.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `2df73029ce4015cd0405aec35dae5f25446473cd3b23d8ab11b9e597ce3aae16`
+  - Payload SHA-256: `not an article-payload stage`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/02-Briefs/2026-11-02-weekend-catch-up/brief-checks.json`
+  - Current archived artifact SHA-256: `2df73029ce4015cd0405aec35dae5f25446473cd3b23d8ab11b9e597ce3aae16`
 
 - [x] Book Review: Watership Down by Richard Adams | revision 3
   - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
@@ -753,6 +793,26 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
+  - Stage: seo; checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/03-SEO/2026-11-02-weekend-catch-up/seo-revision-2.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `51b85ff16e9590bb5ea5a0ba9cca78f430917cef6b15f66d335942ad45459a54`
+  - Payload SHA-256: `not applicable`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/03-SEO/2026-11-02-weekend-catch-up/checks-revision-2/seo-checks.json`
+  - Current archived artifact SHA-256: `51b85ff16e9590bb5ea5a0ba9cca78f430917cef6b15f66d335942ad45459a54`
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 1
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review
+  - Stage: seo checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/03-SEO/2026-11-02-weekend-catch-up/seo.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `c38ccae823d69c3540739e9044ba3c366d1b3f2959e091a8813da600b2d7cd2c`
+  - Payload SHA-256: `not an article-payload stage`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/03-SEO/2026-11-02-weekend-catch-up/seo-checks.json`
+  - Current archived artifact SHA-256: `c38ccae823d69c3540739e9044ba3c366d1b3f2959e091a8813da600b2d7cd2c`
 
 - [x] Book Review: Watership Down by Richard Adams | revision 3
   - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
@@ -1199,6 +1259,26 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
+  - Stage: draft; checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/04-Drafts/2026-11-02-weekend-catch-up/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `176468e700049ef0d7d3dc938d44a19064807595cf1176bde07f8f45fd1f2487`
+  - Payload SHA-256: `60ec92210a073e612da97578d07fe0c40aed018e4879231bc1182bfddffcd802`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/04-Drafts/2026-11-02-weekend-catch-up/checks-revision-2/draft-checks.json`
+  - Current archived artifact SHA-256: `176468e700049ef0d7d3dc938d44a19064807595cf1176bde07f8f45fd1f2487`
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 1
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review
+  - Stage: draft checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/04-Drafts/2026-11-02-weekend-catch-up/draft.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `a4a699a38218db1110e795d5f680370bd6633406ce7596c87fed231d22a6646b`
+  - Payload SHA-256: `78e21b2860f269c5cf01cdee82e61ca021ed2d8daaca11c021e59a1c275282bc`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/04-Drafts/2026-11-02-weekend-catch-up/draft-checks.json`
+  - Current archived artifact SHA-256: `a4a699a38218db1110e795d5f680370bd6633406ce7596c87fed231d22a6646b`
 
 - [x] Book Review: Watership Down by Richard Adams | revision 3
   - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
@@ -1738,6 +1818,26 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
+  - Stage: creative-edit; checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/05-Reviews/2026-11-02-weekend-catch-up/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `32a7a976b33540e34ce9c86b0566f8321ed7540d413009ba9d3da64e6c4c279a`
+  - Payload SHA-256: `60ec92210a073e612da97578d07fe0c40aed018e4879231bc1182bfddffcd802`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/05-Reviews/2026-11-02-weekend-catch-up/checks-revision-2/creative-edit-checks.json`
+  - Current archived artifact SHA-256: `32a7a976b33540e34ce9c86b0566f8321ed7540d413009ba9d3da64e6c4c279a`
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 1
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review
+  - Stage: creative-edit checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/05-Reviews/2026-11-02-weekend-catch-up/creative-edit.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `65894be073a2757bb80399d9c9bfb03ebc813a89bf2c6ff1fe1108db197bdbfa`
+  - Payload SHA-256: `2662e6cf8ab67355cc7fcd08ebb7595face886b64fe7a21ced6f2358b5729818`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/05-Reviews/2026-11-02-weekend-catch-up/creative-edit-checks.json`
+  - Current archived artifact SHA-256: `65894be073a2757bb80399d9c9bfb03ebc813a89bf2c6ff1fe1108db197bdbfa`
 
 - [x] Book Review: Watership Down by Richard Adams | revision 3
   - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
@@ -2287,6 +2387,26 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
+  - Stage: proofread; checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/05-Reviews/2026-11-02-weekend-catch-up/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `3fb00bc8f7577a469a4346f134255dab5a79f6223a76eda083ce595f4eaf28ec`
+  - Payload SHA-256: `60ec92210a073e612da97578d07fe0c40aed018e4879231bc1182bfddffcd802`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/05-Reviews/2026-11-02-weekend-catch-up/checks-revision-2/proofread-checks.json`
+  - Current archived artifact SHA-256: `3fb00bc8f7577a469a4346f134255dab5a79f6223a76eda083ce595f4eaf28ec`
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 1
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review
+  - Stage: proofread checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/05-Reviews/2026-11-02-weekend-catch-up/proofread.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `55629becae04a2b37dea3aa4a4a94cb6329874230907b38089f428232d817c2c`
+  - Payload SHA-256: `2662e6cf8ab67355cc7fcd08ebb7595face886b64fe7a21ced6f2358b5729818`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/05-Reviews/2026-11-02-weekend-catch-up/proofread-checks.json`
+  - Current archived artifact SHA-256: `55629becae04a2b37dea3aa4a4a94cb6329874230907b38089f428232d817c2c`
+
 - [x] Book Review: Watership Down by Richard Adams | revision 3
   - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
   - Stage: proofread checked internally; not human-approved
@@ -2829,6 +2949,26 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Design
 
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
+  - Stage: design; checked internally, not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/06-Design/2026-11-02-weekend-catch-up/design-revision-2.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `a7c28f832ad470c3cbe3a79efdaae26b199c1c35a841856b6d489873b03080cb`
+  - Payload SHA-256: `not applicable`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/06-Design/2026-11-02-weekend-catch-up/checks-revision-2/design-checks.json`
+  - Current archived artifact SHA-256: `a7c28f832ad470c3cbe3a79efdaae26b199c1c35a841856b6d489873b03080cb`
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 1
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review
+  - Stage: design checked internally; not human-approved
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/06-Design/2026-11-02-weekend-catch-up/design.md`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `aa6e31be7212833f7ce98590a66e1725939c0b7c6aabdcbd681d25250fdbf7d7`
+  - Payload SHA-256: `not an article-payload stage`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/06-Design/2026-11-02-weekend-catch-up/design-checks.json`
+  - Current archived artifact SHA-256: `aa6e31be7212833f7ce98590a66e1725939c0b7c6aabdcbd681d25250fdbf7d7`
+
 - [x] Book Review: Watership Down by Richard Adams | revision 3
   - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review
   - Stage: design checked internally; not human-approved
@@ -3361,6 +3501,8 @@ A simple Obsidian board for tracking Dadbot work.
 
 
 
+
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
@@ -3392,6 +3534,21 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
+  - Status: published locally; user approved; commit/push authorised; not yet verified live
+  - Public file: `content/news/2026-11-02-weekend-catch-up.md`
+  - Route: `https://dadbot.blog/news/weekend-catch-up-2-november-2026/`
+  - Archive: `99-Archive/published/2026-11-02-weekend-catch-up/`; 420 discovered stage files moved and hash-verified
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Reviewed packet SHA-256: `c5d8a7899927907a57b75c89952faaf6e98d850e0145e9604a6de9ef17e3d31f`; immutable approval-for-review-r2.md
+  - Exact article payload SHA-256: `60ec92210a073e612da97578d07fe0c40aed018e4879231bc1182bfddffcd802`
+  - Current decision packet SHA-256: `beb99b3bd91fa2f49cc089aae62a7767791f2ca4e41999c7a52b497821a0eed2`; approval.md; local publication recorded
+  - Checks: exact approved public body/metadata; 526 prose words, five stories, nine sources; build/local HTTP/browser verified; 263 Node and 16 focused Python tests pass
+  - Scope: exact approved article plus candidate-only Board/Queue; private archive local-only; no shared design or unrelated work
+  - Preview disposition: checkout server only during verification; stop after verified deployment/cleanup and switch pane to live
+  - Next: scoped commit/push, exact-HEAD deployment/live verification and task-owned cleanup
 
 - [x] Book Review: Watership Down by Richard Adams | revision 3
   - Candidate: `2026-10-31-watership-down-book-review`; Books / The Shelf Scout; final-review
@@ -4103,6 +4260,18 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 1
+  - Candidate: `2026-11-02-weekend-catch-up`; News; final-review
+  - Stage: historical final-approval; Request changes; superseded by revision 2
+  - Artifact: `99-Archive/published/2026-11-02-weekend-catch-up/07-Approval/2026-11-02-weekend-catch-up/approval-for-review-r1.md`
+  - Decision packet: `99-Archive/published/2026-11-02-weekend-catch-up/07-Approval/2026-11-02-weekend-catch-up/approval.md`; SHA-256 `6351a55b4d902b06314d550e2533df5572ddb0037948b7ec54431bd9c20e0c37`
+  - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
+  - Historical checked SHA-256: `c9ed18230f5784fa67244331e457749980d81410641556cc787ec7675a128624`
+  - Payload SHA-256: `2662e6cf8ab67355cc7fcd08ebb7595face886b64fe7a21ced6f2358b5729818`
+  - Checks: `99-Archive/published/2026-11-02-weekend-catch-up/07-Approval/2026-11-02-weekend-catch-up/final-approval-checks.json`
+  - Current archived artifact SHA-256: `c9ed18230f5784fa67244331e457749980d81410641556cc787ec7675a128624`
+
 
 - [x] Book Review: Watership Down by Richard Adams | revision 2 — Request changes (historical)
   - Candidate: `2026-10-31-watership-down-book-review`; Books; final-review; needs-revision (historical)
