@@ -52,102 +52,80 @@
       </div>
     </section>
 
+    <header class="tw-masthead" aria-label="Dadbot"><div class="header__logo"><div class="logo">Dadbot</div></div></header>
     <section class="tw-screen tw-screen--market" data-tw-view="market" aria-labelledby="tw-market-title" hidden>
-      <div class="tw-terminal-bar" aria-label="Current day and region">
-        <span data-tw-field="marketPath" aria-hidden="true">token-wars://market/europe</span>
-        <span><span data-tw-field="region">Europe</span> · DAY <span data-tw-field="day">12 / 60</span></span>
+      <div class="tw-terminal-bar" aria-label="Current game and region">
+        <strong class="tw-run-title">Token Wars</strong>
+        <span data-tw-field="region">—</span>
         <button type="button" class="tw-exit-run" data-tw-action="play-again" aria-label="Exit current Token Wars run">Exit</button>
       </div>
       <div class="tw-screen-body">
         <h2 id="tw-market-title" tabindex="-1" class="tw-visually-hidden">Token market</h2>
-
         <div class="tw-status" data-tw-status-shortcuts aria-label="Current game status and account shortcuts">
-          <button type="button" data-tw-action="open-dialog" data-dialog="health"><small>Health</small><strong><span aria-hidden="true">♥</span> <span data-tw-field="health">84 / 100</span></strong></button>
-          <div class="tw-status-item"><small>Cash</small><strong data-tw-field="cash">$6,420</strong></div>
-          <button type="button" data-tw-action="open-dialog" data-dialog="bank" data-tw-service-control="bank"><small>Bank</small><strong data-tw-field="savings">$1,000</strong></button>
-          <button type="button" data-tw-action="open-dialog" data-dialog="debt" data-tw-service-control="lender"><small>Debt</small><strong data-tw-field="debt">$6,930</strong></button>
+          <button type="button" data-tw-action="open-dialog" data-dialog="health"><small>Health</small><strong data-tw-field="health">—</strong></button>
+          <div class="tw-status-item"><small>Cash</small><strong data-tw-field="cash" data-tw-compact="cash">—</strong></div>
+          <button type="button" data-tw-action="open-dialog" data-dialog="bank" data-tw-service-control="bank"><small>Bank</small><strong data-tw-field="savings" data-tw-compact="savings">—</strong></button>
+          <button type="button" data-tw-action="open-dialog" data-dialog="debt" data-tw-service-control="lender"><small>Debt</small><strong data-tw-field="debt" data-tw-compact="debt">—</strong></button>
+          <div class="tw-status-item"><small>Server</small><strong data-tw-field="capacity">—</strong></div>
+          <div class="tw-status-item"><small>Day</small><strong data-tw-field="day">—</strong></div>
         </div>
-
-        <p class="tw-news" data-tw-event-feed data-event-kind="status" role="status" aria-live="polite" aria-atomic="true"><span>BREAKING NEWS</span> <span data-tw-field="news">No major market news yet.</span></p>
-        <p class="tw-visually-hidden" data-tw-action-feed role="status" aria-live="polite" aria-atomic="true"><span data-tw-field="message">Market feed ready.</span></p>
-
-        <section class="tw-panel tw-travel" data-tw-travel-controls aria-labelledby="tw-travel-title">
-          <div class="tw-panel-heading">
-            <div><p class="tw-eyebrow">VPN ROUTER</p><h3 id="tw-travel-title">Jump region</h3></div>
-            <p>Every jump advances one day.</p>
-          </div>
-          <div class="tw-region-list" aria-label="Choose a region">
-            <button type="button" data-tw-action="travel" data-region-id="north-america">North America</button>
-            <button type="button" data-tw-action="travel" data-region-id="south-america">South America</button>
-            <button type="button" data-tw-action="travel" data-region-id="europe">Europe</button>
-            <button type="button" data-tw-action="travel" data-region-id="africa">Africa</button>
-            <button type="button" data-tw-action="travel" data-region-id="asia">Asia</button>
-            <button type="button" data-tw-action="travel" data-region-id="oceania">Oceania</button>
+        <p class="tw-visually-hidden" data-tw-action-feed role="status" aria-live="polite" aria-atomic="true"><span data-tw-field="message"></span></p>
+        <nav class="tw-region-list" data-tw-travel-controls aria-label="Jump region — each jump advances one day">
+          <button type="button" data-tw-action="travel" data-region-id="north-america" aria-label="North America — Loan shark"><span class="tw-region-full">North America</span><span class="tw-region-short" aria-hidden="true">N. Am.</span><small data-tw-region-service>Loan shark</small></button>
+          <button type="button" data-tw-action="travel" data-region-id="south-america" aria-label="South America"><span class="tw-region-full">South America</span><span class="tw-region-short" aria-hidden="true">S. Am.</span></button>
+          <button type="button" data-tw-action="travel" data-region-id="europe" aria-label="Europe — Bank"><span class="tw-region-full">Europe</span><span class="tw-region-short" aria-hidden="true">Europe</span><small data-tw-region-service>Bank</small></button>
+          <button type="button" data-tw-action="travel" data-region-id="africa" aria-label="Africa"><span class="tw-region-full">Africa</span><span class="tw-region-short" aria-hidden="true">Africa</span></button>
+          <button type="button" data-tw-action="travel" data-region-id="asia" aria-label="Asia"><span class="tw-region-full">Asia</span><span class="tw-region-short" aria-hidden="true">Asia</span></button>
+          <button type="button" data-tw-action="travel" data-region-id="oceania" aria-label="Oceania"><span class="tw-region-full">Oceania</span><span class="tw-region-short" aria-hidden="true">Oceania</span></button>
+        </nav>
+        <section class="tw-workspace" aria-labelledby="tw-prices-title">
+          <div class="tw-panel-heading"><h3 id="tw-prices-title">Token market</h3><span>PRICE / OWNED</span></div>
+          <div class="tw-market-table" role="table" aria-label="Token prices and selection controls">
+            <div class="tw-market-head tw-visually-hidden" role="row"><span role="columnheader">Token</span><span role="columnheader">Price</span><span role="columnheader">Owned</span><span role="columnheader">Select</span></div>
+            {{ $tokens := slice
+              (dict "id" "llamas" "name" "LLaMAs")
+              (dict "id" "mistrals" "name" "Mistrals")
+              (dict "id" "deepseeks" "name" "DeepSeeks")
+              (dict "id" "copilots" "name" "Copilots")
+              (dict "id" "groks" "name" "Groks")
+              (dict "id" "geminis" "name" "Geminis")
+              (dict "id" "perplexities" "name" "Perplexities")
+              (dict "id" "claudes" "name" "Claudes")
+              (dict "id" "gpts" "name" "GPTs")
+              (dict "id" "midjourneys" "name" "Midjourneys")
+            }}
+            {{ range $tokens }}
+              <div class="tw-market-row" role="row" data-tw-token="{{ .id }}">
+                <div class="tw-token" role="cell"><strong>{{ .name }}</strong></div>
+                <span class="tw-price" role="cell"><span class="tw-mobile-label">Price</span><span data-tw-token-field="price">—</span></span>
+                <span class="tw-owned" role="cell"><span class="tw-mobile-label">Owned</span> <span data-tw-token-field="owned">0</span></span>
+                <div role="cell"><button type="button" class="tw-button tw-button--small tw-row-select" data-tw-action="select-token" data-dialog="trade" data-token-id="{{ .id }}" aria-label="Trade {{ .name }}" aria-pressed="false">Trade</button></div>
+              </div>
+            {{ end }}
           </div>
         </section>
-
-        <div class="tw-workspace">
-          <section class="tw-panel tw-market" aria-labelledby="tw-prices-title">
-            <div class="tw-panel-heading">
-              <div><p class="tw-eyebrow">EUROPE EXCHANGE</p><h3 id="tw-prices-title">Live token prices</h3></div>
-              <p>Server: <strong data-tw-field="capacity">28 / 100</strong></p>
-            </div>
-            <p class="tw-price-guide"><strong>LOW = buy</strong> · MID = watch · <strong>HIGH = sell</strong>. Guidance compares the current price with that token's typical value.</p>
-
-            <div class="tw-market-table" role="table" aria-label="Token prices and selection controls">
-              <div class="tw-market-head" role="row">
-                <span role="columnheader">Token</span><span role="columnheader">Price</span><span role="columnheader">Owned</span><span role="columnheader">Select</span>
-              </div>
-              {{ $tokens := slice
-                (dict "id" "llamas" "name" "LLaMAs" "price" "$42" "owned" "12")
-                (dict "id" "mistrals" "name" "Mistrals" "price" "$128" "owned" "0")
-                (dict "id" "deepseeks" "name" "DeepSeeks" "price" "$355" "owned" "8")
-                (dict "id" "copilots" "name" "Copilots" "price" "$710" "owned" "0")
-                (dict "id" "groks" "name" "Groks" "price" "$1,180" "owned" "4")
-                (dict "id" "geminis" "name" "Geminis" "price" "$2,510" "owned" "0")
-                (dict "id" "perplexities" "name" "Perplexities" "price" "$4,720" "owned" "0")
-                (dict "id" "claudes" "name" "Claudes" "price" "$8,880" "owned" "0")
-                (dict "id" "gpts" "name" "GPTs" "price" "$14,200" "owned" "0")
-                (dict "id" "midjourneys" "name" "Midjourneys" "price" "$23,600" "owned" "0")
-              }}
-              {{ range $tokens }}
-                <div class="tw-market-row" role="row" data-tw-token="{{ .id }}">
-                  <div class="tw-token" role="cell"><strong>{{ .name }}</strong><small class="tw-price-signal" data-tw-token-field="signal" data-price-signal="mid">MID · WATCH</small></div>
-                  <span class="tw-price" role="cell"><span class="tw-mobile-label">Price</span><span data-tw-token-field="price">{{ .price }}</span></span>
-                  <span class="tw-owned" role="cell"><span class="tw-mobile-label">Owned</span><span data-tw-token-field="owned">{{ .owned }}</span></span>
-                  <div role="cell">
-                    <button type="button" class="tw-button tw-button--small tw-row-select" data-tw-action="select-token" data-dialog="trade" data-token-id="{{ .id }}" aria-label="Trade {{ .name }}" aria-pressed="false">Trade</button>
-                  </div>
-                </div>
-              {{ end }}
-            </div>
-          </section>
-
-          <dialog class="tw-dialog tw-dialog--trade" data-tw-dialog="trade" aria-labelledby="tw-trade-title">
-            <div class="tw-dialog-heading"><div><p class="tw-eyebrow">TRADE TOKEN</p><h3 id="tw-trade-title" data-tw-selected-field="name">LLaMAs</h3></div><button type="button" class="tw-dialog-close" data-tw-action="close-dialog" data-dialog="trade" aria-label="Close trade dialog">×</button></div>
-            <div class="tw-dialog-body">
-              <dl class="tw-dialog-facts"><div><dt>Price</dt><dd data-tw-selected-field="price">$42</dd></div><div><dt>Owned</dt><dd data-tw-selected-field="owned">12</dd></div><div><dt>Server</dt><dd data-tw-field="capacity">28 / 100</dd></div><div><dt>Signal</dt><dd class="tw-price-signal" data-tw-selected-field="signal" data-price-signal="mid">MID · WATCH</dd></div></dl>
-              <p class="tw-dialog-feedback" data-tw-dialog-feedback hidden data-tw-field="message">Choose a quantity to trade.</p>
-              <label for="tw-trade-quantity">Quantity</label><input id="tw-trade-quantity" data-tw-trade-quantity data-tw-quantity="llamas" type="number" inputmode="numeric" min="1" value="1" aria-label="Quantity of LLaMAs">
-              <div class="tw-dialog-actions"><button type="button" class="tw-button tw-button--primary" data-tw-trade-token data-tw-action="buy" data-token-id="llamas">Buy</button><button type="button" class="tw-button" data-tw-trade-token data-tw-action="sell" data-token-id="llamas">Sell</button><button type="button" class="tw-button" data-tw-trade-token data-tw-action="max-buy" data-token-id="llamas">Max Buy</button><button type="button" class="tw-button tw-button--muted" data-tw-trade-token data-tw-action="max-sell" data-token-id="llamas">Max Sell</button></div>
-            </div>
-          </dialog>
-
-          <dialog class="tw-dialog" data-tw-dialog="bank" aria-labelledby="tw-bank-title">
-            <div class="tw-dialog-heading"><div><p class="tw-eyebrow">ACCOUNT</p><h3 id="tw-bank-title">EuroVault Bank</h3></div><button type="button" class="tw-dialog-close" data-tw-action="close-dialog" data-dialog="bank" aria-label="Close bank dialog">×</button></div>
-            <div class="tw-dialog-body"><dl class="tw-dialog-facts"><div><dt>Cash</dt><dd data-tw-field="cash">$6,420</dd></div><div><dt>Savings</dt><dd data-tw-field="savings">$1,000</dd></div></dl><p class="tw-dialog-availability" data-tw-service-message="bank">Banking is available in Europe.</p><p class="tw-dialog-feedback" data-tw-dialog-feedback hidden data-tw-field="message">Choose an amount.</p><label for="tw-bank-amount">Amount</label><input id="tw-bank-amount" data-tw-service-control="bank" type="number" inputmode="numeric" min="1" value="500"><div class="tw-dialog-actions"><button type="button" class="tw-button tw-button--primary" data-tw-service-control="bank" data-tw-action="deposit">Deposit</button><button type="button" class="tw-button" data-tw-service-control="bank" data-tw-action="withdraw">Withdraw</button></div></div>
-          </dialog>
-
-          <dialog class="tw-dialog" data-tw-dialog="debt" aria-labelledby="tw-debt-title">
-            <div class="tw-dialog-heading"><div><p class="tw-alert-code">DEBT ACCOUNT</p><h3 id="tw-debt-title">CRED-I/O Recovery Systems</h3></div><button type="button" class="tw-dialog-close" data-tw-action="close-dialog" data-dialog="debt" aria-label="Close debt dialog">×</button></div>
-            <div class="tw-dialog-body"><dl class="tw-dialog-facts"><div><dt>Outstanding</dt><dd data-tw-field="debt">$6,930</dd></div><div><dt>Pressure</dt><dd><span class="tw-risk" data-tw-field="pressure">MEDIUM</span></dd></div></dl><p class="tw-dialog-availability" data-tw-service-message="lender">Repayment is available in North America.</p><p class="tw-dialog-feedback" data-tw-dialog-feedback hidden data-tw-field="message">Choose a repayment amount.</p><label for="tw-repayment-amount">Repayment amount</label><input id="tw-repayment-amount" data-tw-service-control="lender" type="number" inputmode="numeric" min="1" value="500"><div class="tw-dialog-actions"><button type="button" class="tw-button tw-button--danger" data-tw-service-control="lender" data-tw-action="repay">Repay Debt</button></div></div>
-          </dialog>
-
-          <dialog class="tw-dialog" data-tw-dialog="health" aria-labelledby="tw-health-title">
-            <div class="tw-dialog-heading"><div><p class="tw-eyebrow">STATUS</p><h3 id="tw-health-title">Health and loadout</h3></div><button type="button" class="tw-dialog-close" data-tw-action="close-dialog" data-dialog="health" aria-label="Close health dialog">×</button></div>
-            <div class="tw-dialog-body"><dl class="tw-dialog-facts"><div><dt>Health</dt><dd data-tw-field="health">84 / 100</dd></div><div><dt>Installed upgrades</dt><dd data-tw-field="upgrades">No upgrades installed yet.</dd></div></dl><p class="tw-dialog-availability">Encounters can reduce health. Reaching zero ends the run. This version has no hospital or healing action.</p></div>
-          </dialog>
-        </div>
+        <section class="tw-news" data-tw-event-feed data-event-kind="status" aria-label="Market news"><div class="tw-news-heading"><span>NEWS WIRE</span><span>DAY <span data-tw-field="day">—</span></span></div><p data-tw-field="news" role="status" aria-live="polite" aria-atomic="true">No major market news yet.</p></section>
+        <dialog class="tw-dialog tw-dialog--trade" data-tw-dialog="trade" aria-labelledby="tw-trade-title">
+          <div class="tw-dialog-heading"><h3 id="tw-trade-title" data-tw-selected-field="name">LLaMAs</h3><button type="button" class="tw-dialog-close" data-tw-action="close-dialog" data-dialog="trade" aria-label="Close trade dialog">×</button></div>
+          <div class="tw-dialog-body">
+            <dl class="tw-dialog-facts"><div><dt>Current price</dt><dd data-tw-selected-field="price">—</dd></div><div><dt>Avg paid / token</dt><dd data-tw-selected-field="averagePrice">—</dd></div><div><dt>Owned</dt><dd data-tw-selected-field="owned">0</dd></div></dl>
+            <p class="tw-dialog-feedback" data-tw-dialog-feedback hidden data-tw-field="message" role="status" aria-live="polite"></p>
+            <label for="tw-trade-quantity">Quantity</label><input id="tw-trade-quantity" data-tw-trade-quantity data-tw-quantity="llamas" type="number" inputmode="numeric" min="1" value="1" aria-label="Quantity of LLaMAs">
+            <div class="tw-dialog-actions"><button type="button" class="tw-button tw-button--primary" data-tw-trade-token data-tw-action="buy" data-token-id="llamas">Buy</button><button type="button" class="tw-button" data-tw-trade-token data-tw-action="sell" data-token-id="llamas">Sell</button><button type="button" class="tw-button" data-tw-trade-token data-tw-action="max-buy" data-token-id="llamas">Max Buy</button><button type="button" class="tw-button tw-button--muted" data-tw-trade-token data-tw-action="max-sell" data-token-id="llamas">Max Sell</button></div>
+          </div>
+        </dialog>
+        <dialog class="tw-dialog" data-tw-dialog="bank" aria-labelledby="tw-bank-title">
+          <div class="tw-dialog-heading"><h3 id="tw-bank-title">EuroVault Bank</h3><button type="button" class="tw-dialog-close" data-tw-action="close-dialog" data-dialog="bank" aria-label="Close bank dialog">×</button></div>
+          <div class="tw-dialog-body"><dl class="tw-dialog-facts"><div><dt>Cash</dt><dd data-tw-field="cash">—</dd></div><div><dt>Savings</dt><dd data-tw-field="savings">—</dd></div></dl><p class="tw-dialog-availability" data-tw-service-message="bank">Banking is available in Europe.</p><p class="tw-dialog-feedback" data-tw-dialog-feedback hidden data-tw-field="message" role="status" aria-live="polite"></p><label for="tw-bank-amount">Amount</label><input id="tw-bank-amount" data-tw-service-control="bank" type="number" inputmode="numeric" min="1" value="500"><div class="tw-dialog-actions"><button type="button" class="tw-button tw-button--primary" data-tw-service-control="bank" data-tw-action="deposit">Deposit</button><button type="button" class="tw-button" data-tw-service-control="bank" data-tw-action="withdraw">Withdraw</button></div></div>
+        </dialog>
+        <dialog class="tw-dialog" data-tw-dialog="debt" aria-labelledby="tw-debt-title">
+          <div class="tw-dialog-heading"><h3 id="tw-debt-title">CRED-I/O Recovery Systems</h3><button type="button" class="tw-dialog-close" data-tw-action="close-dialog" data-dialog="debt" aria-label="Close debt dialog">×</button></div>
+          <div class="tw-dialog-body"><dl class="tw-dialog-facts"><div><dt>Outstanding</dt><dd data-tw-field="debt">—</dd></div><div><dt>Pressure</dt><dd class="tw-risk" data-tw-field="pressure">—</dd></div></dl><p class="tw-dialog-availability" data-tw-service-message="lender">Repayment is available in North America.</p><p class="tw-dialog-feedback" data-tw-dialog-feedback hidden data-tw-field="message" role="status" aria-live="polite"></p><label for="tw-repayment-amount">Repayment amount</label><input id="tw-repayment-amount" data-tw-service-control="lender" type="number" inputmode="numeric" min="1" value="500"><div class="tw-dialog-actions"><button type="button" class="tw-button tw-button--danger" data-tw-service-control="lender" data-tw-action="repay">Repay Debt</button></div></div>
+        </dialog>
+        <dialog class="tw-dialog" data-tw-dialog="health" aria-labelledby="tw-health-title">
+          <div class="tw-dialog-heading"><h3 id="tw-health-title">Health and loadout</h3><button type="button" class="tw-dialog-close" data-tw-action="close-dialog" data-dialog="health" aria-label="Close health dialog">×</button></div>
+          <div class="tw-dialog-body"><dl class="tw-dialog-facts"><div><dt>Health</dt><dd data-tw-field="health">—</dd></div><div><dt>Installed upgrades</dt><dd data-tw-field="upgrades">No upgrades installed yet.</dd></div></dl><p class="tw-dialog-availability">Encounters can reduce health. Reaching zero ends the run. This version has no hospital or healing action.</p></div>
+        </dialog>
       </div>
     </section>
 
@@ -205,5 +183,5 @@
       </div>
     </section>
   </main>
-  <script type="module" src="{{ "games/token-wars/js/main.mjs" | relURL }}?v=9"></script>
+  <script type="module" src="{{ "games/token-wars/js/main.mjs" | relURL }}?v={{ md5 (readFile "static/games/token-wars/js/main.mjs") }}"></script>
 {{ end }}

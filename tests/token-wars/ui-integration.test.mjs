@@ -31,29 +31,22 @@ test('createViewModel maps a fresh engine state into the complete market display
   assert.match(model.message, /Market feed online/);
 });
 
-test('createViewModel labels prices relative to each token typical value', () => {
-  const original = startGame(30, { rng: createSeededRandom(201) });
-  const state = {
-    ...original,
-    prices: {
-      ...original.prices,
-      llamas: 10,
-      mistrals: 110,
-      gpts: 55000,
-    },
-  };
-
+test('view model shows factual purchase costs without price advice', () => {
+  const state = startGame(30, { rng: createSeededRandom(201) });
+  state.holdings.llamas = 13;
+  state.averagePrices.llamas = 474 / 13;
+  state.prices.llamas = 42;
   const model = createViewModel(state);
-  const byId = new Map(model.tokens.map((token) => [token.id, token]));
-
-  assert.deepEqual(
-    [byId.get('llamas').signal, byId.get('mistrals').signal, byId.get('gpts').signal],
-    ['low', 'mid', 'high'],
-  );
-  assert.deepEqual(
-    [byId.get('llamas').signalLabel, byId.get('mistrals').signalLabel, byId.get('gpts').signalLabel],
-    ['LOW · BUY ZONE', 'MID · WATCH', 'HIGH · SELL ZONE'],
-  );
+  const llama = model.tokens.find(t => t.id === 'llamas');
+  assert.equal(llama.averagePrice, '$36.46');
+  assert.equal(llama.price, '$42');
+  assert.ok(model.tokens.every(t => !('signal' in t) && !('signalLabel' in t)));
+  assert.equal(model.tokens.find(t => t.id === 'gpts').averagePrice, '—');
+  const dom = createFakeGameRoot();
+  renderGame(dom.root, state, '', { selectedTokenId: 'llamas' });
+  assert.equal(dom.special['[data-tw-selected-field="averagePrice"]'][0].textContent, '$36.46');
+  renderGame(dom.root, state, '', { selectedTokenId: 'gpts' });
+  assert.equal(dom.special['[data-tw-selected-field="averagePrice"]'][0].textContent, '—');
 });
 
 test('createViewModel keeps event news separate from later action feedback', () => {
@@ -226,7 +219,7 @@ function createFakeGameRoot() {
     '[data-tw-selected-field="name"]': [new FakeElement()],
     '[data-tw-selected-field="price"]': [new FakeElement()],
     '[data-tw-selected-field="owned"]': [new FakeElement()],
-    '[data-tw-selected-field="signal"]': [new FakeElement()],
+    '[data-tw-selected-field="averagePrice"]': [new FakeElement()],
     '[data-tw-trade-token]': [new FakeElement(), new FakeElement(), new FakeElement(), new FakeElement()],
     '[data-tw-trade-quantity]': [new FakeElement()],
   };
@@ -573,6 +566,40 @@ test('focusView moves keyboard focus to the primary control or heading for each 
   assert.deepEqual(focused, ['market', 'encounter', 'outcome', 'ending', 'loss', 'setup']);
 });
 
+test('large status balances remain compact with exact accessible values and mapped service labels', () => {
+  const state = { ...startGame(30, { rng: () => 0.5 }), cash: 123456789 };
+  const dom = createFakeGameRoot();
+  const compact = new FakeElement({ twCompact: 'cash' });
+  const originalQuery = dom.root.querySelectorAll;
+  dom.root.querySelectorAll = selector => selector === '[data-tw-compact]' ? [compact] : originalQuery(selector);
+  const europe = dom.travelButtons.find(button => button.dataset.regionId === 'europe');
+  const label = new FakeElement();
+  europe.children.set('[data-tw-region-service]', label);
+  renderGame(dom.root, state);
+  assert.equal(compact.textContent, '$123.5M');
+  assert.equal(compact.getAttribute('aria-label'), '$123,456,789');
+  assert.equal(label.textContent, 'Bank');
+  assert.equal(europe.getAttribute('aria-label'), 'Europe — Bank');
+});
+
+test('mounting once locks only the underlying page during play and restores it on exit', () => {
+  const dom = createFakeGameRoot();
+  let registrations = 0;
+  dom.root.addEventListener = () => { registrations++; };
+  dom.root.querySelector = () => null;
+  const chrome = { inert: false };
+  dom.root.ownerDocument = { documentElement: { style: { overflow: 'clip' } }, querySelectorAll: () => [chrome] };
+  const first = mountGame(dom.root, { rng: () => 0.5 });
+  assert.equal(mountGame(dom.root), first);
+  assert.equal(registrations, 1);
+  first.start(30);
+  assert.equal(dom.root.ownerDocument.documentElement.style.overflow, 'hidden');
+  assert.equal(chrome.inert, true);
+  first.playAgain();
+  assert.equal(dom.root.ownerDocument.documentElement.style.overflow, 'clip');
+  assert.equal(chrome.inert, false);
+});
+
 test('renderGame applies one engine state to views, fields, popup services, and travel controls', () => {
   const original = startGame(30, { rng: createSeededRandom(108) });
   const state = { ...original, regionId: 'asia' };
@@ -589,7 +616,7 @@ test('renderGame applies one engine state to views, fields, popup services, and 
   assert.equal(dom.fields.message[0].textContent, 'Browser adapter online.');
   assert.equal(dom.fields.news[0].textContent, 'No major market news yet.');
   assert.equal(dom.tokenRows[0].children.get('[data-tw-token-field="owned"]').textContent, '0');
-  assert.match(dom.tokenRows[0].children.get('[data-tw-token-field="signal"]').textContent, /ZONE|WATCH/);
+  assert.equal(dom.tokenRows[0].children.get('[data-tw-token-field="price"]').textContent, createViewModel(state).tokens[0].price);
   assert.equal(dom.serviceControls.bank.every((control) => control.disabled), true);
   assert.equal(dom.serviceControls.lender.every((control) => control.disabled), true);
   assert.match(dom.serviceMessages.bank.textContent, /available in Europe/);

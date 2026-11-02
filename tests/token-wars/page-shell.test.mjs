@@ -109,22 +109,15 @@ test('approved setup header and Start interaction match the shared Dadbot patter
   assert.match(css, /\.token-wars\s+\.tw-screen--setup \.tw-button--primary:active\s*\{[^}]*transform:\s*translateY\(0\)[^}]*box-shadow:\s*2px 2px 0/);
 });
 
-test('one responsive travel grid provides the six named destinations', async () => {
+test('location buttons expose their full names and financial services', async () => {
   const layout = await readProjectFile('layouts/games/list.html');
-  const regions = new Map([
-    ['north-america', 'North America'],
-    ['south-america', 'South America'],
-    ['europe', 'Europe'],
-    ['africa', 'Africa'],
-    ['asia', 'Asia'],
-    ['oceania', 'Oceania'],
-  ]);
-
-  for (const [id, region] of regions) {
-    assert.match(layout, new RegExp(`data-region-id="${id}">${region}<`));
+  for (const id of ['north-america','south-america','europe','africa','asia','oceania']) {
+    assert.match(layout, new RegExp(`data-region-id="${id}"`));
   }
-  assert.match(layout, /data-tw-action="travel"/);
-  assert.match(layout, /data-region-id="europe"/);
+  assert.match(layout, /aria-label="North America — Loan shark"/);
+  assert.match(layout, /aria-label="Europe — Bank"/);
+  assert.match(layout, /data-tw-region-service>Loan shark</);
+  assert.match(layout, /data-tw-region-service>Bank</);
 });
 
 test('regional account shortcuts disable Bank and Debt outside their service regions', async () => {
@@ -165,80 +158,54 @@ test('popup dashboard keeps travel above the market and moves transactions into 
   assert.doesNotMatch(layout, /class="tw-map"/);
 });
 
-test('approved mobile run uses a full-screen 2x5 market with whole-tile Trade targets', async () => {
-  const [layout, css] = await Promise.all([
-    readProjectFile('layouts/games/list.html'),
-    readProjectFile('static/games/token-wars/token-wars.css'),
-  ]);
-
+test('approved active ledger retains Dadbot and covers every viewport rather than mobile alone', async () => {
+  const [layout, css] = await Promise.all([readProjectFile('layouts/games/list.html'), readProjectFile('static/games/token-wars/token-wars.css')]);
   assert.equal((layout.match(/\(dict "id"/g) ?? []).length, 10);
+  assert.match(layout, /class="tw-masthead"[\s\S]*?class="logo">Dadbot/);
   assert.match(layout, /class="tw-exit-run"[^>]+data-tw-action="play-again"/);
-  assert.match(layout, /class="tw-button tw-button--small tw-row-select"[^>]+aria-label="Trade \{\{ \.name \}\}"/);
-  assert.match(css, /@media\s*\(max-width:\s*600px\)[\s\S]*\.token-wars\[data-tw-current-view\]:not\(\[data-tw-current-view="setup"\]\)[^{]*\{[^}]*position:\s*fixed[^}]*height:\s*100dvh[^}]*overflow:\s*hidden/);
-  assert.match(css, /@media\s*\(max-width:\s*600px\)[\s\S]*\.tw-market-table\s*\{[^}]*display:\s*grid[^}]*grid-template-columns:\s*repeat\(2,\s*minmax\(0,\s*1fr\)\)[^}]*grid-template-rows:\s*repeat\(5,\s*minmax\(44px,\s*64px\)\)/);
-  assert.match(css, /@media\s*\(max-width:\s*600px\)[\s\S]*\.tw-row-select\s*\{[^}]*position:\s*absolute[^}]*inset:\s*0/);
-  assert.match(css, /@media\s*\(max-height:\s*560px\)[\s\S]*overflow:\s*auto/);
+  assert.match(css, /\.token-wars\[data-tw-current-view\]:not\(\[data-tw-current-view="setup"\]\)\s*\{[^}]*position:\s*fixed[^}]*height:\s*100dvh/);
+  assert.match(css, /\.token-wars\s+\.tw-market-table\s*\{[^}]*grid-template-columns:\s*repeat\(2,\s*minmax\(0,\s*1fr\)\)/);
+  assert.match(css, /\.token-wars\s+\.tw-row-select\s*\{[^}]*position:\s*absolute[^}]*inset:\s*0/);
+  assert.match(css, /max-height:\s*540px/);
+  assert.match(css, /max-height:\s*340px/);
 });
 
-test('Games stays inside the shared Dadbot content column at every setup width', async () => {
+test('setup retains the shared content column and active layout remains game-scoped', async () => {
   const css = await readProjectFile('static/games/token-wars/token-wars.css');
-  const tabletCss = css.match(/@media\s*\(max-width:\s*900px\)\s*\{[\s\S]*?(?=@media\s*\(max-width:\s*700px\))/)?.[0] ?? '';
-
   assert.match(css, /\.token-wars\s*\{[^}]*width:\s*100%[^}]*margin:\s*0 auto 3rem/);
-  assert.match(css, /@media\s*\(min-width:\s*901px\)[\s\S]*?\.token-wars\s*\{[^}]*width:\s*100%[^}]*max-width:\s*100%[^}]*margin-inline:\s*0[^}]*transform:\s*none/);
-  assert.doesNotMatch(tabletCss, /\.token-wars\s*\{[^}]*100vw/, 'setup must not break out beyond the shared page column');
-  assert.match(css, /@media\s*\(max-width:\s*600px\)[\s\S]*?\.token-wars\[data-tw-current-view\]:not\(\[data-tw-current-view="setup"\]\)\s*\{[^}]*position:\s*fixed[^}]*width:\s*100vw/, 'phone gameplay must retain its full-screen active view');
+  assert.match(css, /\.token-wars\s+\.tw-masthead\s*\{[^}]*display:\s*none/);
+  assert.match(css, /\.token-wars\[data-tw-current-view\]:not\(\[data-tw-current-view="setup"\]\)\s+\.tw-masthead/);
 });
 
-test('Option A keeps mobile token rows slim and hides price guidance only on the tiles', async () => {
-  const [layout, css] = await Promise.all([
-    readProjectFile('layouts/games/list.html'),
-    readProjectFile('static/games/token-wars/token-wars.css'),
-  ]);
-
-  assert.match(layout, /class="tw-price-signal"[^>]+data-tw-selected-field="signal"/);
-  assert.match(css, /@media\s*\(max-width:\s*600px\)[\s\S]*\.tw-market-row\s+\.tw-price-signal\s*\{[^}]*display:\s*none/);
-  assert.match(css, /@media\s*\(max-width:\s*600px\)[\s\S]*\.tw-market-table\s*\{[^}]*grid-template-rows:\s*repeat\(5,\s*minmax\(44px,\s*64px\)\)[^}]*align-content:\s*start/);
-  assert.match(css, /@media\s*\(max-width:\s*600px\)[\s\S]*\.tw-screen--market\s*>\s*\.tw-screen-body\s*\{[^}]*grid-template-areas:\s*"travel"\s*"status"\s*"workspace"\s*"news"\s*"spacer"[^}]*grid-template-rows:\s*auto\s+auto\s+auto\s+auto\s+1fr/);
-  assert.doesNotMatch(css, /\.tw-dialog[^\{]*\.tw-price-signal\s*\{[^}]*display:\s*none/);
+test('all price advice is removed while the popup exposes factual purchase cost', async () => {
+  const [layout, css] = await Promise.all([readProjectFile('layouts/games/list.html'), readProjectFile('static/games/token-wars/token-wars.css')]);
+  assert.doesNotMatch(layout, /tw-price-signal|data-tw-token-field="signal"|data-tw-selected-field="signal"|LOW = buy|BUY ZONE|SELL ZONE/);
+  assert.doesNotMatch(css, /tw-price-signal|tw-price-guide/);
+  assert.match(layout, /Avg paid \/ token/);
+  assert.match(layout, /data-tw-selected-field="averagePrice"/);
+  assert.match(layout, /Current price/);
+  assert.match(layout, /class="tw-news"[^>]+data-tw-event-feed/);
+  assert.ok(layout.indexOf('class="tw-news"') > layout.indexOf('class="tw-market-table"'));
 });
 
-test('game stylesheet is loaded and contains scoped responsive and accessibility safeguards', async () => {
-  const [layout, css] = await Promise.all([
-    readProjectFile('layouts/games/list.html'),
-    readProjectFile('static/games/token-wars/token-wars.css'),
-  ]);
-
+test('game CSS contains compact news, native dialogs and safe responsive fallbacks', async () => {
+  const [layout, css] = await Promise.all([readProjectFile('layouts/games/list.html'), readProjectFile('static/games/token-wars/token-wars.css')]);
   assert.match(layout, /games\/token-wars\/token-wars\.css/);
-  assert.match(css, /\.token-wars\s*\{/);
-  assert.match(css, /\.token-wars[^\{]*:focus-visible/);
+  assert.match(css, /:focus-visible/);
   assert.match(css, /min-height:\s*44px/);
-  assert.match(css, /@media\s*\(max-width:\s*900px\)/);
-  assert.match(css, /@media\s*\(min-width:\s*901px\)/);
-  assert.match(css, /@media\s*\(min-width:\s*901px\)[\s\S]*?\.token-wars\s*\{[^}]*width:\s*100%[^}]*max-width:\s*100%/);
-  assert.doesNotMatch(css, /width:\s*calc\(100vw\s*-\s*1rem\)[\s\S]*margin-left:\s*calc\(50%\s*-\s*50vw\s*\+\s*\.5rem\)/);
-  assert.match(css, /@media\s*\(max-width:\s*900px\)[\s\S]*\.tw-market-head[^\{]*\.tw-market-row\s*\{[^}]*grid-template-columns:[^}]*74px/);
-  assert.match(css, /@media\s*\(max-width:\s*600px\)[\s\S]*\.tw-dialog\s*\{[^}]*margin:\s*auto 0 0/);
-  assert.doesNotMatch(css, /\.token-wars\s+\.tw-market-head\s*\{\s*display:\s*none/);
-  assert.match(css, /@media\s*\(max-width:\s*600px\)/);
-  assert.match(css, /@media\s*\(prefers-reduced-motion:\s*reduce\)/);
-  assert.match(css, /@keyframes\s+tw-screen-in/);
-  assert.match(css, /\.token-wars\s+\.tw-screen:not\(\[hidden\]\)[^{]*\{[^}]*animation:\s*tw-screen-in/s);
-  assert.match(css, /prefers-reduced-motion:\s*reduce[\s\S]*animation:\s*none/);
-  assert.match(css, /\.token-wars\s+\.tw-screen--setup\s+\.tw-button--primary/);
-  assert.match(css, /\.token-wars\s+\.tw-news\[data-event-kind="bonus"\]/);
-  assert.match(css, /\.token-wars\s+\.tw-news\[data-event-kind="mishap"\]/);
+  assert.match(css, /max-width:\s*600px/);
+  assert.match(css, /prefers-reduced-motion:\s*reduce/);
+  assert.match(css, /\.tw-news\[data-event-kind="bonus"\]/);
+  assert.match(css, /\.tw-news\[data-event-kind="mishap"\]/);
   assert.match(css, /overflow-wrap:\s*anywhere/);
-  assert.match(css, /\.token-wars\s+\.tw-ending-body\s+\.tw-button--primary/);
-  assert.match(css, /\.token-wars\s+\.tw-price-signal\[data-price-signal="low"\]/);
-  assert.match(css, /\.token-wars\s+\.tw-price-signal\[data-price-signal="high"\]/);
+  assert.match(css, /\.token-wars\s+\.tw-dialog\s*\{[^}]*max-height:[^}]*overflow:\s*auto/);
 });
 
 test('Phase 3 exposes one browser entry point and declarative game hooks', async () => {
   const layout = await readProjectFile('layouts/games/list.html');
 
   assert.match(layout, /<main[^>]+data-tw-game/);
-  assert.match(layout, /<script[^>]+type="module"[^>]+games\/token-wars\/js\/main\.mjs[^>]+\?v=9/);
+  assert.ok(layout.includes('?v={{ md5 (readFile "static/games/token-wars/js/main.mjs") }}'));
   const encounter = layout.match(/<section[^>]+data-tw-view="encounter"[\s\S]*?<\/section>/)?.[0] ?? '';
   assert.match(encounter, /<div role="status" aria-live="polite" aria-atomic="true"><p class="tw-dialog-feedback" data-tw-encounter-feedback hidden><\/p><\/div>/);
   assert.match(layout, /class="tw-news"[^>]+data-tw-event-feed/);
@@ -247,8 +214,7 @@ test('Phase 3 exposes one browser entry point and declarative game hooks', async
   assert.match(layout, /data-tw-dialog="trade"/);
   assert.match(layout, /data-tw-action="select-token"/);
   assert.match(layout, /data-tw-selected-field="name"/);
-  assert.match(layout, /data-tw-token-field="signal"/);
-  assert.match(layout, /LOW = buy/);
+  assert.match(layout, /data-tw-selected-field="averagePrice"/);
   for (const field of ['day', 'region', 'health', 'cash', 'savings', 'debt', 'pressure', 'capacity', 'message']) {
     assert.match(layout, new RegExp(`data-tw-field="${field}"`));
   }

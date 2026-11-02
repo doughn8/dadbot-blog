@@ -1,6 +1,6 @@
 import { REGIONS, TOKENS, UPGRADES } from './config.mjs';
-import { calculateDebtPressure } from './encounter-engine.mjs';
-import { inventoryUsed } from './game-engine.mjs';
+import { calculateDebtPressure } from './encounter-engine.mjs?v=b0dc5dd7953f63144bf23f758415762c';
+import { inventoryUsed } from './game-engine.mjs?v=e854586b8cc351af9e608e0576aa1242';
 
 const currency = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -24,10 +24,11 @@ function lossReasonLabel(reason) {
   return 'The run was terminated.';
 }
 
-function priceSignal(token, price) {
-  if (price <= token.basePrice * 0.75) return { signal: 'low', signalLabel: 'LOW · BUY ZONE' };
-  if (price >= token.basePrice * 1.5) return { signal: 'high', signalLabel: 'HIGH · SELL ZONE' };
-  return { signal: 'mid', signalLabel: 'MID · WATCH' };
+function formatPurchasePrice(value) {
+  if (!Number.isFinite(value) || value <= 0) return '—';
+  return Number.isInteger(value) ? formatMoney(value) : new Intl.NumberFormat('en-US', {
+    style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2,
+  }).format(value);
 }
 
 export function createViewModel(state) {
@@ -66,7 +67,7 @@ export function createViewModel(state) {
       price: formatMoney(state.prices[token.id]),
       priceValue: state.prices[token.id],
       owned: state.holdings[token.id],
-      ...priceSignal(token, state.prices[token.id]),
+      averagePrice: state.holdings[token.id] > 0 ? formatPurchasePrice(state.averagePrices?.[token.id]) : '—',
     })),
     upgrades: state.upgrades.map((id) => UPGRADES.find((upgrade) => upgrade.id === id)).filter(Boolean),
     encounter: state.pendingEncounter,
@@ -103,6 +104,14 @@ export function renderGame(root, state, announcement = '', { outcome = null, sel
   for (const field of ['day', 'region', 'health', 'cash', 'savings', 'debt', 'pressure', 'capacity', 'marketPath']) {
     setField(root, field, model[field]);
   }
+  for (const element of root.querySelectorAll('[data-tw-compact]')) {
+    const value = state[element.dataset.twCompact];
+    element.textContent = value < 10000 ? formatMoney(value) : new Intl.NumberFormat('en-US', {
+      style: 'currency', currency: 'USD', notation: 'compact', maximumFractionDigits: 1,
+    }).format(value);
+    element.setAttribute('aria-label', formatMoney(value));
+    element.setAttribute('title', formatMoney(value));
+  }
   setField(root, 'message', announcement || model.message);
   setField(root, 'news', model.news);
   for (const feed of root.querySelectorAll('[data-tw-event-feed]')) {
@@ -122,13 +131,8 @@ export function renderGame(root, state, announcement = '', { outcome = null, sel
     if (!token) continue;
     const price = row.querySelector('[data-tw-token-field="price"]');
     const owned = row.querySelector('[data-tw-token-field="owned"]');
-    const signal = row.querySelector('[data-tw-token-field="signal"]');
     if (price) price.textContent = token.price;
     if (owned) owned.textContent = String(token.owned);
-    if (signal) {
-      signal.textContent = token.signalLabel;
-      signal.dataset.priceSignal = token.signal;
-    }
     const selected = token.id === selectedTokenId;
     row.setAttribute('aria-current', selected ? 'true' : 'false');
     const selector = row.querySelector('[data-tw-action="select-token"]');
@@ -141,12 +145,11 @@ export function renderGame(root, state, announcement = '', { outcome = null, sel
       name: selectedToken.name,
       price: selectedToken.price,
       owned: String(selectedToken.owned),
-      signal: selectedToken.signalLabel,
+      averagePrice: selectedToken.averagePrice,
     };
     for (const [field, value] of Object.entries(selectedFields)) {
       for (const element of root.querySelectorAll(`[data-tw-selected-field="${field}"]`)) {
         element.textContent = value;
-        if (field === 'signal') element.dataset.priceSignal = selectedToken.signal;
       }
     }
     for (const control of root.querySelectorAll('[data-tw-trade-token]')) {
@@ -208,6 +211,11 @@ export function renderGame(root, state, announcement = '', { outcome = null, sel
   }
 
   for (const button of root.querySelectorAll('[data-tw-action="travel"][data-region-id]')) {
+    const destination = REGIONS.find(region => region.id === button.dataset.regionId);
+    const service = destination?.service === 'bank' ? 'Bank' : destination?.service === 'lender' ? 'Loan shark' : '';
+    button.setAttribute('aria-label', `${destination?.name ?? button.dataset.regionId}${service ? ` — ${service}` : ''}`);
+    const label = button.querySelector?.('[data-tw-region-service]');
+    if (label) label.textContent = service;
     const current = button.dataset.regionId === model.regionId;
     button.disabled = current;
     if (current) button.setAttribute('aria-current', 'location');

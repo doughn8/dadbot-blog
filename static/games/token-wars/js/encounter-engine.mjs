@@ -1,5 +1,6 @@
 import { RUN_LENGTHS, TOKENS } from './config.mjs';
 import { choose, nextRandom } from './random.mjs';
+import { clearEmptyAveragePrices, validAveragePrices } from './holding-costs.mjs?v=730a063dd728bc67ac8304ca5a38c82e';
 
 const ENCOUNTER_SOURCES = Object.freeze([
   'Corporate AI security',
@@ -126,6 +127,7 @@ function validEncounterData(state, encounter) {
     && Number.isSafeInteger(encounter.reward)
     && encounter.reward >= 0;
   return stateValuesAreValid
+    && validAveragePrices(state)
     && encounterValuesAreValid
     && Number.isSafeInteger(state.cash + encounter.reward);
 }
@@ -196,9 +198,11 @@ export function resolveEncounter(state, choice, rng) {
     return result(true, next, next.lastMessage);
   }
 
+  const holdings = seizeRandomTokens(state.holdings, rng);
   const next = {
     ...state,
-    holdings: seizeRandomTokens(state.holdings, rng),
+    holdings,
+    averagePrices: clearEmptyAveragePrices(state, holdings),
     pendingEncounter: null,
     lastMessage: 'Escape failed. A random portion of one token holding was seized.',
   };

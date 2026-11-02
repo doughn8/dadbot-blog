@@ -7,9 +7,9 @@ import {
   startGame,
   travel,
   withdrawSavings,
-} from './game-engine.mjs';
-import { resolveEncounter } from './encounter-engine.mjs';
-import { renderGame } from './ui.mjs?v=9';
+} from './game-engine.mjs?v=e854586b8cc351af9e608e0576aa1242';
+import { resolveEncounter } from './encounter-engine.mjs?v=b0dc5dd7953f63144bf23f758415762c';
+import { renderGame } from './ui.mjs?v=2401da85c60080798eda187b53f7b763';
 
 export function maximumBuyQuantity(state, tokenId) {
   const price = state.prices?.[tokenId];
@@ -100,9 +100,28 @@ export function focusView(root, view) {
   root.querySelector(selectors[view])?.focus();
 }
 
+const mountedGames = new WeakMap();
+
 export function mountGame(root, { rng = Math.random } = {}) {
+  if (mountedGames.has(root)) return mountedGames.get(root);
   let currentView = 'setup';
   let selectedTokenId = 'llamas';
+  let pageState = null;
+  const syncPage = (active) => {
+    const documentRef = root.ownerDocument;
+    if (!documentRef) return;
+    if (active && !pageState) {
+      const chrome = [...documentRef.querySelectorAll('.header, .footer, .coffee-button')]
+        .filter(element => !root.contains?.(element));
+      pageState = { overflow: documentRef.documentElement.style.overflow, chrome: chrome.map(element => [element, element.inert, element.style?.display ?? null]) };
+      documentRef.documentElement.style.overflow = 'hidden';
+      chrome.forEach(element => { element.inert = true; if (element.style) element.style.display = 'none'; });
+    } else if (!active && pageState) {
+      documentRef.documentElement.style.overflow = pageState.overflow;
+      pageState.chrome.forEach(([element, inert, display]) => { element.inert = inert; if (element.style && display !== null) element.style.display = display; });
+      pageState = null;
+    }
+  };
   const getDialog = (name) => root.querySelector(`[data-tw-dialog="${name}"]`);
   const showDialogFeedback = (name, visible) => {
     const feedback = getDialog(name)?.querySelector?.('[data-tw-dialog-feedback]');
@@ -118,6 +137,7 @@ export function mountGame(root, { rng = Math.random } = {}) {
     if (dialog?.open) dialog.close();
   };
   const renderMountedGame = (state, message, options = {}) => {
+    syncPage(Boolean(state));
     const model = renderGame(root, state, message, { ...options, selectedTokenId });
     if (model.view !== currentView) {
       currentView = model.view;
@@ -213,6 +233,8 @@ export function mountGame(root, { rng = Math.random } = {}) {
     }
   });
 
+  mountedGames.set(root, controller);
+  root.dataset.twMounted = 'true';
   renderGame(root, null);
   return controller;
 }

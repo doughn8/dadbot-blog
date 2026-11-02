@@ -1,8 +1,9 @@
 import { INITIAL_STATE, REGIONS, RUN_LENGTHS, TOKENS, UPGRADES, getToken, validateGameLength } from './config.mjs';
 import { generatePrices } from './price-engine.mjs';
 import { applyTravelEvent, generateTravelEvent } from './event-engine.mjs';
-import { maybeCreateEncounter } from './encounter-engine.mjs';
+import { maybeCreateEncounter } from './encounter-engine.mjs?v=b0dc5dd7953f63144bf23f758415762c';
 import { choose, sample } from './random.mjs';
+import { emptyAveragePrices, validAveragePrices } from './holding-costs.mjs?v=730a063dd728bc67ac8304ca5a38c82e';
 
 function createEmptyHoldings() {
   return Object.fromEntries(TOKENS.map(({ id }) => [id, 0]));
@@ -23,6 +24,7 @@ export function startGame(days, { rng = Math.random } = {}) {
     capacity: INITIAL_STATE.capacity,
     regionId,
     holdings: createEmptyHoldings(),
+    averagePrices: emptyAveragePrices(),
     prices: generatePrices({ regionId, rng }),
     availableUpgrades,
     upgrades: [],
@@ -57,6 +59,7 @@ function validQuantity(quantity) {
 
 function validTradingState(state) {
   if (!Number.isSafeInteger(state.cash) || state.cash < 0
+    || !validAveragePrices(state)
     || !Number.isSafeInteger(state.capacity) || state.capacity <= 0
     || !TOKENS.every(({ id }) => (
       Number.isSafeInteger(state.prices?.[id])
@@ -104,9 +107,16 @@ export function buyToken(state, tokenId, quantity) {
     return rejected(state, 'Not enough secure-server capacity.');
   }
 
+  const owned = state.holdings[tokenId];
+  const previousAverage = state.averagePrices[tokenId];
+  if (owned > 0 && previousAverage === null) return rejected(state, 'Purchase-cost data is missing. Reset the run.');
+  const basis = (previousAverage ?? 0) * owned + cost;
+  if (!Number.isFinite(basis) || basis > Number.MAX_SAFE_INTEGER) return rejected(state, 'Purchase cost is outside the safe numeric range.');
+
   return accepted({
     ...state,
     cash: state.cash - cost,
+    averagePrices: { ...state.averagePrices, [tokenId]: basis / (owned + quantity) },
     holdings: { ...state.holdings, [tokenId]: state.holdings[tokenId] + quantity },
   }, `Bought ${quantity} ${token.name} for $${cost}.`);
 }
@@ -125,6 +135,7 @@ export function sellToken(state, tokenId, quantity) {
   return accepted({
     ...state,
     cash: state.cash + proceeds,
+    averagePrices: { ...state.averagePrices, [tokenId]: quantity === state.holdings[tokenId] ? null : state.averagePrices[tokenId] },
     holdings: { ...state.holdings, [tokenId]: state.holdings[tokenId] - quantity },
   }, `Sold ${quantity} ${token.name} for $${proceeds}.`);
 }
@@ -178,6 +189,7 @@ function finishRun(state) {
     ...state,
     cash,
     holdings,
+    averagePrices: emptyAveragePrices(),
     status: 'completed',
     finalScore: cash + state.savings,
     pendingEncounter: null,
