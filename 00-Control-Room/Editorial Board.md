@@ -3537,18 +3537,20 @@ See also: [[Approval Queue]]
 
 - [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
   - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
-  - Status: published locally; user approved; commit/push authorised; not yet verified live
+  - Status: published live; exact approved revision 2; release verified; cleanup complete
   - Public file: `content/news/2026-11-02-weekend-catch-up.md`
   - Route: `https://dadbot.blog/news/weekend-catch-up-2-november-2026/`
   - Archive: `99-Archive/published/2026-11-02-weekend-catch-up/`; 420 discovered stage files moved and hash-verified
   - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
   - Reviewed packet SHA-256: `c5d8a7899927907a57b75c89952faaf6e98d850e0145e9604a6de9ef17e3d31f`; immutable approval-for-review-r2.md
   - Exact article payload SHA-256: `60ec92210a073e612da97578d07fe0c40aed018e4879231bc1182bfddffcd802`
-  - Current decision packet SHA-256: `beb99b3bd91fa2f49cc089aae62a7767791f2ca4e41999c7a52b497821a0eed2`; approval.md; local publication recorded
+  - Current decision packet SHA-256: `40ff268d2db7bb28e79f470b3a8c0ec5955fe4c539e519cd3b662bfd24b852b6`; approval.md; actual release results recorded
   - Checks: exact approved public body/metadata; 526 prose words, five stories, nine sources; build/local HTTP/browser verified; 263 Node and 16 focused Python tests pass
   - Scope: exact approved article plus candidate-only Board/Queue; private archive local-only; no shared design or unrelated work
-  - Preview disposition: checkout server only during verification; stop after verified deployment/cleanup and switch pane to live
-  - Next: scoped commit/push, exact-HEAD deployment/live verification and task-owned cleanup
+  - Preview disposition: local server/browser stopped; task caches/profiles removed; pane opened/read on verified live article
+  - Product commit: `54fb6051466000a571c7fa105d39c99160b69cd8`; Pages run `41453415299`, build/deploy successful
+  - Cleanup: verified archival preservation and owned temporary-resource removal; private evidence local-only
+  - Next: none for this article; final pushed-HEAD receipts remain in the ignored archive
 
 - [x] Book Review: Watership Down by Richard Adams | revision 3
   - Candidate: `2026-10-31-watership-down-book-review`; Books / The Shelf Scout; final-review

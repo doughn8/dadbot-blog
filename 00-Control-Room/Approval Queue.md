@@ -27,7 +27,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
 
 - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
-- Status: published locally; user approved; release verification in progress
+- Status: published live; exact approved revision 2; release verified; cleanup complete
 - Decision: Approve; User; 2026-11-02T14:17:09.162300+01:00; “ok approved. commit, push and clean up”
 - Permissions: exact local publication, candidate-only commit, push/resulting deployment verification and task-owned cleanup authorised separately
 - Public file: `content/news/2026-11-02-weekend-catch-up.md`
@@ -36,11 +36,13 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Run: `99-Archive/published/2026-11-02-weekend-catch-up/01-Ideas/2026-11-02-weekend-catch-up/run.md`
 - Immutable reviewed packet: `99-Archive/published/2026-11-02-weekend-catch-up/07-Approval/2026-11-02-weekend-catch-up/approval-for-review-r2.md`; SHA-256 `c5d8a7899927907a57b75c89952faaf6e98d850e0145e9604a6de9ef17e3d31f`
 - Exact article payload SHA-256: `60ec92210a073e612da97578d07fe0c40aed018e4879231bc1182bfddffcd802`
-- Current decision packet: `99-Archive/published/2026-11-02-weekend-catch-up/07-Approval/2026-11-02-weekend-catch-up/approval.md`; SHA-256 `beb99b3bd91fa2f49cc089aae62a7767791f2ca4e41999c7a52b497821a0eed2`
+- Current decision packet: `99-Archive/published/2026-11-02-weekend-catch-up/07-Approval/2026-11-02-weekend-catch-up/approval.md`; SHA-256 `40ff268d2db7bb28e79f470b3a8c0ec5955fe4c539e519cd3b662bfd24b852b6`
 - Local checks: clean draft-false file, exact public metadata/payload, one title/TLDR, no cover/workflow leak; home/News/article HTTP 200 and listed; 390/768/1280 browser checks; 263 Node and 16 focused Python tests pass
 - Design limitations: same existing coffee badge and diagnostic 320px shared-shell warning; design untouched
-- Preview disposition: temporary checkout server to be stopped after verified deployment; pane will show live article
-- Next: candidate-only commit/push, exact-HEAD live verification and cleanup; private evidence remains local-only
+- Preview disposition: local servers/browser stopped and task caches/profiles removed; actual pane opened/read on verified live article
+- Product commit: `54fb6051466000a571c7fa105d39c99160b69cd8`; Pages run `41453415299`, build/deploy successful
+- Cleanup: task-owned resources removed after preserving production HTML, logs, screenshots and exact reviewed packets
+- Next: none for this article; final pushed-HEAD receipts remain in the ignored archive; unrelated local work unchanged
 - [x] Approve
 - [ ] Request changes
 - [ ] Reject
