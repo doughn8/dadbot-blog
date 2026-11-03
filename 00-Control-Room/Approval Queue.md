@@ -24,6 +24,29 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries? | revision 1
+
+- Candidate: `2026-11-03-eu-enlargement`; News; final-review; revision 1
+- Status: published locally; exact approved copy; candidate-only commit/push/deployment verification and task-owned cleanup authorised
+- Public file: `content/news/2026-11-03-eu-enlargement.md`; SHA-256 `56d73c9fb4cff9827771c04b751d9ac383af98fb2e0967e1b9723de839821f8b`
+- URL: `https://dadbot.blog/news/eu-enlargement/`
+- Archive: `99-Archive/published/2026-11-03-eu-enlargement/`; movement snapshot verifies all 101 discovered stage files
+- Run: `99-Archive/published/2026-11-03-eu-enlargement/01-Ideas/2026-11-03-eu-enlargement/run.md`
+- Decision packet: `99-Archive/published/2026-11-03-eu-enlargement/07-Approval/2026-11-03-eu-enlargement/approval.md`
+- Immutable reviewed packet: `99-Archive/published/2026-11-03-eu-enlargement/07-Approval/2026-11-03-eu-enlargement/approval-for-review-r1.md`; SHA-256 `1b22057c7f86f73cbe092b4bf2b15307de4ded7b12d82d64796736e55c199f0d`
+- Complete reviewer export: `99-Archive/published/2026-11-03-eu-enlargement/07-Approval/2026-11-03-eu-enlargement/final-review-r1.md`; immutable SHA-256 `fa0dd7685dc86f7b2c50451706331dc12dd7c4bd863bd9354195004d4672965d`
+- Approved payload SHA-256: `7c6fd9834ce394539a32e1a8a021e56e3956c6ee1dc9a37c60513c969072bf9c`; 1,051 prose words
+- Decision: User, “approved. commit, push and clean up”; 2026-11-03T20:51:09.434137+01:00
+- Checks: exact draft-false public file and metadata; six sources/51 exact passages; all internal stages; source refresh unchanged; production build; listed home/News/article HTTP and browser; 276 Node and 16 focused Python tests
+- Limits: existing shared coffee badge text obstruction; 31px shared-shell overflow at diagnostic 320px; shared design untouched
+- Private evidence/working files stay local-only; unrelated local work excluded from release
+- Next: no further editorial work; final exact-HEAD deployment, live and cleanup receipts in `99-Archive/published/2026-11-03-eu-enlargement/release/`
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
 ### While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
 
 - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2

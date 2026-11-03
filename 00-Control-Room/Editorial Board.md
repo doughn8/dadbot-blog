@@ -7,6 +7,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
+  - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
+  - Stage: Idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-03-eu-enlargement/01-Ideas/2026-11-03-eu-enlargement/idea.md`
+  - SHA-256: `3f5fea61be7f807d22ee0cbdf29c5730db7e06e55a5be90324036d17a7c68b3d`
+  - Checks: YAML, structural contract, strict source evidence, exact quotations and normal Hugo build passed; `checks/idea.log`
+  - Next: internal stage complete; archived; exact final revision published locally
+
 - [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
   - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
   - Stage: idea; checked internally, not human-approved
@@ -398,6 +406,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
+  - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
+  - Artifact: `99-Archive/published/2026-11-03-eu-enlargement/02-Briefs/2026-11-03-eu-enlargement/brief.md`
+  - SHA-256: `d4b795f33f51400e2b309f63511b3b1cb52b8b9e4bca5b97014857c1b2cb6efb`
+  - Checks: YAML, contract, strict evidence and normal Hugo build passed; `checks/brief.log`
+  - Next: internal stage complete; archived; exact final revision published locally
 
 - [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
   - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
@@ -793,6 +808,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
+  - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
+  - Artifact: `99-Archive/published/2026-11-03-eu-enlargement/03-SEO/2026-11-03-eu-enlargement/seo.md`
+  - SHA-256: `ab8073cc381e7b964386be1dbc5868e1f790d84c72fa4a5aa0ce0899c196961e`
+  - Checks: YAML, contract, measured metadata, internal-link search and normal Hugo build passed; `checks/seo.log`
+  - Next: internal stage complete; archived; exact final revision published locally
 
 - [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
   - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
@@ -1259,6 +1281,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
+  - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
+  - Artifact: `99-Archive/published/2026-11-03-eu-enlargement/04-Drafts/2026-11-03-eu-enlargement/draft.md`
+  - SHA-256: `9e2481b32ca40036ecc7fd4848171140ad2196379a1ba1716a9f54198e487afe`
+  - Payload SHA-256: `ab220a6c8588a372bda3c6c720615003a6c2a1b54ba2ad7628785b67f286d2a4`
+  - Checks: 1,048 prose words; six sources; 45/68 coverage (66%); claim audit, YAML/contract/evidence/build passed
+  - Next: internal stage complete; archived; exact final revision published locally
 
 - [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
   - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
@@ -1818,6 +1848,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
+  - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
+  - Artifact: `99-Archive/published/2026-11-03-eu-enlargement/05-Reviews/2026-11-03-eu-enlargement/creative-edit.md`
+  - SHA-256: `7434d2cb7cf854fc0f41fe3770baab72015a4260eef9c31cbccdb5f1e3c2bb3a`
+  - Payload SHA-256: `7c6fd9834ce394539a32e1a8a021e56e3956c6ee1dc9a37c60513c969072bf9c`
+  - Checks: 1,051 prose words; three reversible edits; 45/69 coverage (65%); claim/voice/YAML/contract/evidence/build passed
+  - Next: internal stage complete; archived; exact final revision published locally
 
 - [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
   - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
@@ -2387,6 +2425,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
+  - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
+  - Artifact: `99-Archive/published/2026-11-03-eu-enlargement/05-Reviews/2026-11-03-eu-enlargement/proofread.md`
+  - SHA-256: `89364c67d23d5ec82280b5d9f254fe820dcf6650101b9ab68d615a16e00b1fa8`
+  - Payload SHA-256: `7c6fd9834ce394539a32e1a8a021e56e3956c6ee1dc9a37c60513c969072bf9c`
+  - Checks: 1,051 prose words; unchanged Creative payload; six sources/51 exact passages; evidence/YAML/contract/build passed
+  - Next: internal stage complete; archived; exact final revision published locally
+
 - [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
   - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
   - Stage: proofread; checked internally, not human-approved
@@ -2948,6 +2994,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
+  - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
+  - Artifact: `99-Archive/published/2026-11-03-eu-enlargement/06-Design/2026-11-03-eu-enlargement/design.md`
+  - SHA-256: `1494c1bb943290314ed0160a44e5131553d9afbb6d1b660c2cac7f1145e4fcf3`
+  - Payload SHA-256: `7c6fd9834ce394539a32e1a8a021e56e3956c6ee1dc9a37c60513c969072bf9c`
+  - Checks: isolated/production builds, 23-width geometry, HTTP/pane, exact source links and 16 tests passed
+  - Limits: existing coffee-badge obstruction; shared 320px diagnostic overflow; shared design unchanged
+  - Next: internal stage complete; archived; exact final revision published locally
 
 - [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
   - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
@@ -3534,6 +3589,21 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
+  - Candidate: `2026-11-03-eu-enlargement`; News; final-review; revision 1
+  - Status: exact approved revision published locally; candidate-only commit/push and task cleanup authorised
+  - Public file: `content/news/2026-11-03-eu-enlargement.md`; SHA-256 `56d73c9fb4cff9827771c04b751d9ac383af98fb2e0967e1b9723de839821f8b`
+  - URL: `https://dadbot.blog/news/eu-enlargement/`
+  - Archive: `99-Archive/published/2026-11-03-eu-enlargement/`; 101 stage files movement-verified; private evidence local-only
+  - Run: `99-Archive/published/2026-11-03-eu-enlargement/01-Ideas/2026-11-03-eu-enlargement/run.md`
+  - Immutable reviewed packet: `99-Archive/published/2026-11-03-eu-enlargement/07-Approval/2026-11-03-eu-enlargement/approval-for-review-r1.md`
+  - Reviewed packet SHA-256: `1b22057c7f86f73cbe092b4bf2b15307de4ded7b12d82d64796736e55c199f0d`
+  - Approved payload SHA-256: `7c6fd9834ce394539a32e1a8a021e56e3956c6ee1dc9a37c60513c969072bf9c`
+  - Decision: User, “approved. commit, push and clean up”, 2026-11-03T20:51:09.434137+01:00
+  - Checks: 1,051 prose words; exact public metadata/body; six sources/51 passages; production build; home/News/article HTTP and 390/768/1280 browser; 276 Node / 16 focused Python tests
+  - Limits: unchanged shared coffee badge obstruction and diagnostic 320px overflow
+  - Next: no further editorial work; delivery/cleanup receipts retained in `99-Archive/published/2026-11-03-eu-enlargement/release/`
 
 - [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 2
   - Candidate: `2026-11-02-weekend-catch-up`; News; final-review; revision 2
