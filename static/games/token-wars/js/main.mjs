@@ -107,6 +107,12 @@ export function mountGame(root, { rng = Math.random } = {}) {
   let currentView = 'setup';
   let selectedTokenId = 'llamas';
   let pageState = null;
+  const updateContentBounds = () => {
+    const bounds = root.closest?.('.content')?.getBoundingClientRect();
+    if (!bounds || !root.style) return;
+    root.style.setProperty('--tw-content-left', `${bounds.left}px`);
+    root.style.setProperty('--tw-content-width', `${bounds.width}px`);
+  };
   const syncPage = (active) => {
     const documentRef = root.ownerDocument;
     if (!documentRef) return;
@@ -116,7 +122,12 @@ export function mountGame(root, { rng = Math.random } = {}) {
       pageState = { overflow: documentRef.documentElement.style.overflow, chrome: chrome.map(element => [element, element.inert, element.style?.display ?? null]) };
       documentRef.documentElement.style.overflow = 'hidden';
       chrome.forEach(element => { element.inert = true; if (element.style) element.style.display = 'none'; });
+      documentRef.defaultView?.addEventListener('resize', updateContentBounds);
+      documentRef.defaultView?.addEventListener('orientationchange', updateContentBounds);
+      updateContentBounds();
     } else if (!active && pageState) {
+      documentRef.defaultView?.removeEventListener('resize', updateContentBounds);
+      documentRef.defaultView?.removeEventListener('orientationchange', updateContentBounds);
       documentRef.documentElement.style.overflow = pageState.overflow;
       pageState.chrome.forEach(([element, inert, display]) => { element.inert = inert; if (element.style && display !== null) element.style.display = display; });
       pageState = null;

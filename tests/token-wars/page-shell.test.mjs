@@ -170,6 +170,76 @@ test('approved active ledger retains Dadbot and covers every viewport rather tha
   assert.match(css, /max-height:\s*340px/);
 });
 
+test('desktop active layout uses measured content bounds rather than a viewport breakout', async () => {
+  const css = await readProjectFile('static/games/token-wars/token-wars.css');
+  const desktop = css.split('@media (min-width: 901px) {')[1]?.split('@media')[0] ?? '';
+  const active = desktop.match(/\.token-wars\[data-tw-current-view\]:not\(\[data-tw-current-view="setup"\]\)\s*\{([^}]+)\}/)?.[1] ?? '';
+  assert.match(active, /left:\s*var\(--tw-content-left\)/);
+  assert.match(active, /width:\s*var\(--tw-content-width\)/);
+  assert.match(active, /right:\s*auto/);
+  assert.match(active, /padding-inline:\s*0/);
+});
+
+test('height-constrained desktop rows shed padding but preserve usable selection targets', async () => {
+  const css = await readProjectFile('static/games/token-wars/token-wars.css');
+  const compact = css.split('@media (min-width: 901px) and (max-height: 660px) {')[1]?.split('@media')[0] ?? '';
+  const row = compact.match(/\.token-wars\s+\.tw-market-row\s*\{([^}]+)\}/)?.[1] ?? '';
+  assert.match(row, /padding:\s*3px 5px/);
+  const base = css.match(/\.token-wars\s+\.tw-market-row\s*\{([^}]+)\}/)?.[1] ?? '';
+  assert.match(base, /min-height:\s*44px/);
+});
+
+test('approved game-art panel uses a labelled decorative local SVG with a content-hash URL', async () => {
+  const layout = await readProjectFile('layouts/games/list.html');
+  const panel = layout.match(/<aside class="tw-scene-preview"[\s\S]*?<\/aside>/)?.[0] ?? '';
+  assert.match(panel, /aria-label="Game illustration"/);
+  assert.match(panel, /class="tw-scene-image"/);
+  assert.match(panel, /<img[^>]+alt=""/);
+  assert.match(panel, /data-tw-field="region"/);
+  assert.match(panel, /ILLUSTRATION PLACEHOLDER/);
+  assert.ok(panel.includes('{{ "games/token-wars/network-skyline.svg" | relURL }}?v={{ md5 (readFile "static/games/token-wars/network-skyline.svg") }}'));
+  const svg = await readProjectFile('static/games/token-wars/network-skyline.svg');
+  assert.match(svg, /<svg[^>]+viewBox="0 0 240 238"/);
+  assert.doesNotMatch(svg, /<script|<foreignObject|\bon\w+=|(?:href|src)="https?:/i);
+  assert.ok(layout.indexOf('class="tw-scene-preview"') > layout.indexOf('class="tw-market-table"'));
+  assert.ok(layout.indexOf('class="tw-scene-preview"') < layout.indexOf('class="tw-news"'));
+});
+
+test('approved capped tile grids keep complete phone, small-tablet and desktop rows with a desktop art area', async () => {
+  const css = await readProjectFile('static/games/token-wars/token-wars.css');
+  const rule = (source, selector) => source.match(new RegExp(selector + '\\s*\\{([^}]+)\\}'))?.[1] ?? '';
+  const media = query => css.split(query + ' {')[1]?.split('@media')[0] ?? '';
+  const tile = '\\.token-wars\\s+\\.tw-market-table';
+  const base = rule(css, tile);
+  assert.match(base, /grid-template-columns:\s*repeat\(5,minmax\(0,1fr\)\)/);
+  assert.match(base, /grid-template-rows:\s*repeat\(2,64px\)/);
+  const phone = rule(media('@media (max-width: 600px)'), tile);
+  const smallTablet = rule(media('@media (min-width: 601px) and (max-width: 700px) and (min-height: 601px)'), tile);
+  const desktop = media('@media (min-width: 901px)');
+  for (const grid of [phone, smallTablet, rule(desktop, tile)]) {
+    assert.match(grid, /grid-template-columns:\s*repeat\(2,minmax\(0,1fr\)\)/);
+    assert.match(grid, /grid-template-rows:\s*repeat\(5,64px\)/);
+  }
+  assert.match(rule(css, '\\.token-wars\\s+\\.tw-scene-preview'), /display:\s*none/);
+  assert.match(rule(desktop, '\\.token-wars\\s+\\.tw-scene-preview'), /display:\s*grid/);
+  assert.match(rule(desktop, '\\.token-wars\\s+\\.tw-workspace'), /grid-template-columns:\s*minmax\(0,1\.9fr\) minmax\(0,1fr\)/);
+  const shortDesktop = media('@media (min-width: 901px) and (max-height: 520px)');
+  assert.match(rule(shortDesktop, '\\.token-wars\\s+\\.tw-scene-preview'), /display:\s*none/);
+  assert.match(rule(shortDesktop, tile), /grid-template-columns:\s*repeat\(5,minmax\(0,1fr\)\)/);
+  const body = rule(css, '\\.token-wars\\s+\\.tw-screen--market > \\.tw-screen-body');
+  assert.match(body, /grid-template-rows:\s*54px 44px auto 88px/);
+  assert.match(body, /align-content:\s*start/);
+});
+
+test('very short wide viewports retain full token targets without overflowing the tile grid', async () => {
+  const css = await readProjectFile('static/games/token-wars/token-wars.css');
+  const compact = css.split('@media (min-width: 601px) and (max-height: 360px) {')[1]?.split('@media')[0] ?? '';
+  const tiles = compact.match(/\.token-wars\s+\.tw-market-table\s*\{([^}]+)\}/)?.[1] ?? '';
+  assert.match(tiles, /grid-template-rows:\s*repeat\(2,46px\)/);
+  const body = compact.match(/\.token-wars\s+\.tw-screen--market > \.tw-screen-body\s*\{([^}]+)\}/)?.[1] ?? '';
+  assert.match(body, /padding-top:\s*2px/);
+});
+
 test('setup retains the shared content column and active layout remains game-scoped', async () => {
   const css = await readProjectFile('static/games/token-wars/token-wars.css');
   assert.match(css, /\.token-wars\s*\{[^}]*width:\s*100%[^}]*margin:\s*0 auto 3rem/);

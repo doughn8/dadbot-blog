@@ -103,6 +103,11 @@
               </div>
             {{ end }}
           </div>
+          <aside class="tw-scene-preview" aria-label="Game illustration">
+            <div class="tw-scene-heading"><span>VPN NODE</span><strong data-tw-field="region">—</strong></div>
+            <div class="tw-scene-image"><img src="{{ "games/token-wars/network-skyline.svg" | relURL }}?v={{ md5 (readFile "static/games/token-wars/network-skyline.svg") }}" alt="" width="240" height="238"></div>
+            <div class="tw-scene-caption"><strong>NETWORK SKYLINE</strong><span>ILLUSTRATION PLACEHOLDER<br>Final game art undecided</span></div>
+          </aside>
         </section>
         <section class="tw-news" data-tw-event-feed data-event-kind="status" aria-label="Market news"><div class="tw-news-heading"><span>NEWS WIRE</span><span>DAY <span data-tw-field="day">—</span></span></div><p data-tw-field="news" role="status" aria-live="polite" aria-atomic="true">No major market news yet.</p></section>
         <dialog class="tw-dialog tw-dialog--trade" data-tw-dialog="trade" aria-labelledby="tw-trade-title">

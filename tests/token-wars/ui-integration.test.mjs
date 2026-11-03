@@ -600,6 +600,51 @@ test('mounting once locks only the underlying page during play and restores it o
   assert.equal(chrome.inert, false);
 });
 
+test('active game measures the real content column and refreshes bounds without leaking resize listeners', () => {
+  const dom = createFakeGameRoot();
+  const properties = new Map();
+  const listeners = new Map();
+  let bounds = { left: 328, width: 784 };
+  const windowRef = {
+    addEventListener(name, callback) {
+      assert.ok(!listeners.has(name), `duplicate ${name} listener`);
+      listeners.set(name, callback);
+    },
+    removeEventListener(name, callback) {
+      assert.equal(listeners.get(name), callback);
+      listeners.delete(name);
+    },
+  };
+  dom.root.style = { setProperty: (key, value) => properties.set(key, value) };
+  dom.root.closest = selector => selector === '.content' ? { getBoundingClientRect: () => bounds } : null;
+  dom.root.addEventListener = () => {};
+  dom.root.querySelector = () => null;
+  dom.root.ownerDocument = {
+    defaultView: windowRef,
+    documentElement: { style: { overflow: '' } },
+    querySelectorAll: () => [],
+  };
+  const controller = mountGame(dom.root, { rng: () => 0.5 });
+  assert.equal(properties.size, 0, 'setup is untouched');
+  for (let run = 0; run < 3; run++) {
+    controller.start(30);
+    assert.equal(mountGame(dom.root), controller);
+    assert.equal(properties.get('--tw-content-left'), `${bounds.left}px`);
+    assert.equal(properties.get('--tw-content-width'), `${bounds.width}px`);
+    assert.deepEqual([...listeners.keys()].sort(), ['orientationchange', 'resize']);
+    bounds = { left: 40, width: 688 };
+    listeners.get('resize')();
+    assert.equal(properties.get('--tw-content-left'), '40px');
+    assert.equal(properties.get('--tw-content-width'), '688px');
+    bounds = { left: 568, width: 784 };
+    listeners.get('orientationchange')();
+    assert.equal(properties.get('--tw-content-left'), '568px');
+    assert.equal(properties.get('--tw-content-width'), '784px');
+    controller.playAgain();
+    assert.equal(listeners.size, 0, 'exit releases both listeners');
+  }
+});
+
 test('renderGame applies one engine state to views, fields, popup services, and travel controls', () => {
   const original = startGame(30, { rng: createSeededRandom(108) });
   const state = { ...original, regionId: 'asia' };
