@@ -7,6 +7,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] US midterms: who won, what changes, and why it matters beyond America
+  - Candidate: `2026-11-04-us-midterms-results`; revision 1; News; final-review
+  - Stage: Idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/idea.md`
+  - SHA-256: `574ec69a3c7ea4f0eeb1b5e31f25fd606eaa2aa30051f403f997fc9910896926`
+  - Checks: YAML, structural contract, strict source evidence, 36 exact passages, normal Hugo build and candidate exclusion passed
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
+
 - [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
   - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
   - Stage: Idea internally checked, not human-approved
@@ -406,6 +415,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] US midterms: who won, what changes, and why it matters beyond America
+  - Candidate: `2026-11-04-us-midterms-results`; revision 1; News; final-review
+  - Stage: Brief internally checked, not human-approved
+  - SHA-256: `b1d6aa547dae53747f468b9d63a468d90b980a6bafd04a774152ffe60e35fdba`; evidence, YAML, contract and normal build passed
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/02-Briefs/2026-11-04-us-midterms-results/brief.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
 
 - [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
   - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
@@ -808,6 +825,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] US midterms: who won, what changes, and why it matters beyond America
+  - Candidate: `2026-11-04-us-midterms-results`; revision 1; News; final-review
+  - Stage: SEO internally checked, not human-approved
+  - SHA-256: `1cf2e22be241aa849a32f3a2c53d522f669d05ef217d64587f3d1571704fac88`; measured metadata, YAML, contract and normal build passed
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/03-SEO/2026-11-04-us-midterms-results/seo.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
 
 - [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
   - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
@@ -1281,6 +1306,31 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] US midterms: who won, and what changes beyond America? | revision 3
+  - Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review
+  - Stage: Draft checked internally; SHA-256 `9c14f2f7d6b190526a3b7bbc11a22ba8de291cf58f451513c03b030e254533e8`; 872 prose words; private evidence/deletion proof passed
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/04-Drafts/2026-11-04-us-midterms-results/draft-revision-3.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Payload SHA-256: `727a8ea90b0c91c3af9d3cc6719ff79a82120eded7cd282a06647d2424a3c161`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
+
+- [x] US midterms: who won, and what changes beyond America? | revision 2
+  - Candidate: `2026-11-04-us-midterms-results`; revision 2; News; final-review
+  - Stage: Draft checked internally; SHA-256 `ce94c04f3a5364fa405435221e7269a76a2ce83aa3a50e3de65b4e9fe84ccdb9`; 889 prose words; below-target acceptance pending
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/04-Drafts/2026-11-04-us-midterms-results/draft-revision-2.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Payload SHA-256: `583d3639d9a99c2988f701810824dd09542c026cf134a2c178e4ecdab558c1c8`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
+
+- [x] US midterms: who won, and what changes beyond America?
+  - Candidate: `2026-11-04-us-midterms-results`; revision 1; News; final-review
+  - Stage: Draft internally checked, not human-approved
+  - SHA-256: `aa6c17a2a9941a7bfad20ea43f652689d4d79df800c1002d7ac59f195be9260c`; 1,027 prose words; 38 exact passages; strict payload evidence 40/67; YAML/contract/build passed
+  - Payload SHA-256: `9e63a93d9b4e14000819eafbbaae3b0b560ef9c1ef7c7403092a5b52d1667d73`
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/04-Drafts/2026-11-04-us-midterms-results/draft.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
 
 - [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
   - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
@@ -1848,6 +1898,31 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] US midterms: who won, and what changes beyond America? | revision 3
+  - Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review
+  - Stage: Creative Edit checked internally; SHA-256 `9c7eae4ba776d4d7b83b53251595c5d55f5ae948bd79d9219a8b8182e1be70cb`; exact 872-word article preserved
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/05-Reviews/2026-11-04-us-midterms-results/creative-edit-revision-3.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Payload SHA-256: `727a8ea90b0c91c3af9d3cc6719ff79a82120eded7cd282a06647d2424a3c161`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
+
+- [x] US midterms: who won, and what changes beyond America? | revision 2
+  - Candidate: `2026-11-04-us-midterms-results`; revision 2; News; final-review
+  - Stage: Creative Edit checked internally; SHA-256 `f736bfd9ee01123300ea0d575ca74cde45fd1c0af82c0b4276c8affd7e5a25c7`; unchanged 889-word article
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/05-Reviews/2026-11-04-us-midterms-results/creative-edit-revision-2.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Payload SHA-256: `583d3639d9a99c2988f701810824dd09542c026cf134a2c178e4ecdab558c1c8`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
+
+- [x] US midterms: who won, and what changes beyond America?
+  - Candidate: `2026-11-04-us-midterms-results`; revision 1; News; final-review
+  - Stage: Creative Edit internally checked, not human-approved
+  - SHA-256: `268f13614dc517bb0259b38a0b539139ac40b62fdbe071cadc11612f004df3ab`; 1,021 prose words; evidence/payload/YAML/contract/build passed
+  - Payload SHA-256: `37d7c51c8eae6f3c48b3dbb9b5272e00346044dfc888945fda9f3c7ef6111131`
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/05-Reviews/2026-11-04-us-midterms-results/creative-edit.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
 
 - [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
   - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
@@ -2425,6 +2500,31 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] US midterms: who won, and what changes beyond America? | revision 3
+  - Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review
+  - Stage: Proofread checked internally; SHA-256 `586d162faa6b13980e7bae52c1c9f8c592c63f8deeb5562d573d40955015a22d`; unchanged 872-word article
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/05-Reviews/2026-11-04-us-midterms-results/proofread-revision-3.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Payload SHA-256: `727a8ea90b0c91c3af9d3cc6719ff79a82120eded7cd282a06647d2424a3c161`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
+
+- [x] US midterms: who won, and what changes beyond America? | revision 2
+  - Candidate: `2026-11-04-us-midterms-results`; revision 2; News; final-review
+  - Stage: Proofread checked internally; SHA-256 `a039d8d1d9ba59fca5e9e78040471262490b8b83ee29be42d5f0efbde53ce362`; unchanged 889-word article
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/05-Reviews/2026-11-04-us-midterms-results/proofread-revision-2.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Payload SHA-256: `583d3639d9a99c2988f701810824dd09542c026cf134a2c178e4ecdab558c1c8`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
+
+- [x] US midterms: who won, and what changes beyond America?
+  - Candidate: `2026-11-04-us-midterms-results`; revision 1; News; final-review
+  - Stage: Proofread internally checked, not human-approved
+  - SHA-256: `6af4065b9292584ceff509e677e1b0a9febd7082cb91241be36dbca5896a78e6`; unchanged 1,021-word article; evidence/payload/YAML/contract/build passed
+  - Payload SHA-256: `37d7c51c8eae6f3c48b3dbb9b5272e00346044dfc888945fda9f3c7ef6111131`
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/05-Reviews/2026-11-04-us-midterms-results/proofread.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
+
 - [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
   - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
   - Artifact: `99-Archive/published/2026-11-03-eu-enlargement/05-Reviews/2026-11-03-eu-enlargement/proofread.md`
@@ -2995,6 +3095,30 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Design
 
+- [x] US midterms: who won, and what changes beyond America? | revision 3
+  - Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review
+  - Stage: Design checked internally; SHA-256 `d9818a1d4d375bb1911f9025b54baa63d571dfab3422cb895c95a4b5bf667779`; 36 viewport cases; marker-free result bullets and quoted aside absent
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/06-Design/2026-11-04-us-midterms-results/design-revision-3.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Payload SHA-256: `727a8ea90b0c91c3af9d3cc6719ff79a82120eded7cd282a06647d2424a3c161`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
+
+- [x] US midterms: who won, and what changes beyond America? | revision 2
+  - Candidate: `2026-11-04-us-midterms-results`; revision 2; News; final-review
+  - Stage: Design checked internally; SHA-256 `f51196aa8209994594429a152c6bf0c79ef5604a22f240d65621e56349e98911`; 36 viewport cases; no table or internal list scrollbar
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/06-Design/2026-11-04-us-midterms-results/design-revision-2.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Payload SHA-256: `583d3639d9a99c2988f701810824dd09542c026cf134a2c178e4ecdab558c1c8`
+  - Limits: existing coffee-badge text obstruction; shared diagnostic 320px overflow; 889-word acceptance pending
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
+
+- [x] US midterms: who won, and what changes beyond America?
+  - Candidate: `2026-11-04-us-midterms-results`; revision 1; News; final-review
+  - Stage: Design interrupted and superseded by requested revision 2; historical, not checked or awaiting approval
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/06-Design/2026-11-04-us-midterms-results/design.md`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
+
 - [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
   - Candidate: `2026-11-03-eu-enlargement`; revision 1; final-review
   - Artifact: `99-Archive/published/2026-11-03-eu-enlargement/06-Design/2026-11-03-eu-enlargement/design.md`
@@ -3558,6 +3682,8 @@ A simple Obsidian board for tracking Dadbot work.
 
 
 
+
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
@@ -3589,6 +3715,21 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] US midterms: who won, and what changes beyond America? | revision 3
+  - Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review
+  - Local publication: `content/news/2026-11-04-us-midterms-results.md`; exact approved copy; disclosed 872-word length accepted
+  - Decision: User, “approved. Commit, push and cleanup”; recorded 2026-11-04; local publication, candidate-only commit, origin/main push and owned cleanup explicitly authorised
+  - Packet: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/approval-revision-3.md`; current executable decision record, with release readbacks retained locally
+  - Immutable reviewed packet: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/approval-for-review-revision-3.md`; SHA-256 `0b6190f8c79f3d1067417ed0164fba3c0e1cd43f73fb82e1a5434c81907854fd`
+  - Approved public payload SHA-256: `727a8ea90b0c91c3af9d3cc6719ff79a82120eded7cd282a06647d2424a3c161`
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Checks: eight fresh sources/38 passages; exact copy/metadata; cover-free, single H1/TL;DR; result lists/source links; Hugo; HTTP/homepage/News/feeds/sitemap; phone/tablet/desktop; Node 22/Python 3.11 suites 276/16 passed
+  - Archive: `99-Archive/published/2026-11-04-us-midterms-results/`; seven stage bundles moved with byte-verified discovery manifest and immutable review snapshots
+  - Release evidence: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/release/`; final commit/SHA-bound deployment/live/cleanup receipts are intentionally private, not published as editorial artifacts
+  - Preview disposition: live article is the final handoff; no persistent localhost preview promised
+  - Limits: existing shared coffee-badge overlap and diagnostic 320px shell overflow unchanged
+  - Next: none editorially; no unrelated work included
 
 - [x] Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries?
   - Candidate: `2026-11-03-eu-enlargement`; News; final-review; revision 1
@@ -4332,6 +4473,22 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] US midterms: who won, and what changes beyond America? | revision 2
+  - Candidate: `2026-11-04-us-midterms-results`; revision 2; News; final-review
+  - Stage: superseded by requested revision 3; historical checked review, not pending approval
+  - Artifact: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/approval-revision-2.md`
+  - Reviewer export: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/final-review-revision-2.md`
+  - Reviewed packet SHA-256: `5b6cff51b76c52b1ebb744991c558a841c013522d8c420cd070f6a4be55d0fd2`
+  - Payload SHA-256: `583d3639d9a99c2988f701810824dd09542c026cf134a2c178e4ecdab558c1c8`
+  - Export SHA-256: `9831000f58b239b9baa203675a7ffd2292a300fa23e3700065fe089e9ea2ba21`
+  - Preview: `http://127.0.0.1:1313/news/us-midterms-results/?local-review=2#the-results-so-far`
+  - Checks: exact article/metadata/source continuity, eight refreshed sources/38 exact passages, strict evidence, builds/isolation, HTTP/pane, 36-case browser, screenshots, 16 tests and owned-QA shutdown
+  - Limits: 889 prose words below target (accept with Approve); existing coffee-badge obstruction; 31px diagnostic 320px shared-shell overflow
+  - Choices: Approve / Request changes / Reject / Hold; Approve = local publication only and disclosed shorter-length acceptance; no Git/release
+  - Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+  - Request changes recorded: 2026-11-04T22:31:54.090882+01:00; mutable decision-packet SHA-256 `26ea1b01a02b6a407436e234a93f15ccf6cbfe8a1a5a9a9490f243c230b32c5f`
+  - Publication: closed historical stage, not a separate human approval; exact revision 3 approved/published locally.
 
 - [x] While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 1
   - Candidate: `2026-11-02-weekend-catch-up`; News; final-review

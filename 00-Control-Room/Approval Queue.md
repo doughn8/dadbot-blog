@@ -19,10 +19,33 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 
 
-
-
-
 ## Approved
+
+### US midterms: who won, and what changes beyond America? | revision 3
+
+- Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review
+- Status: approved and published locally; exact 872-word revision accepted
+- Decision: User, “approved. Commit, push and cleanup”; recorded 2026-11-04
+- Permissions: local publication, candidate-only commit, origin/main push/resulting deployment verification, and task-owned cleanup explicitly authorised
+- Public file: `content/news/2026-11-04-us-midterms-results.md`
+- Packet: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/approval-revision-3.md`; current decision/run release state and readbacks are local-only
+- Immutable reviewed packet: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/approval-for-review-revision-3.md`
+- Reviewed packet SHA-256: `0b6190f8c79f3d1067417ed0164fba3c0e1cd43f73fb82e1a5434c81907854fd`
+- Approved public payload SHA-256: `727a8ea90b0c91c3af9d3cc6719ff79a82120eded7cd282a06647d2424a3c161`
+- Reviewer export: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/final-review-revision-3.md`; unchanged SHA-256 `323fe60f9e2cdf6743109f0dcba0c84d19edc2516e273ecef66ad2760bcef506`
+- Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+- Release evidence: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/release/`; final commit, exact-SHA Pages jobs, live readback and cleanup receipts retained in ignored archive
+- Checks: exact copy/public metadata, eight fresh sources/38 passages, no cover/table, eight source links, production build/listings/feeds/sitemap, HTTP 200, phone/tablet/desktop; Node 22/Python 3.11 suites 276/16 passed
+- Archive: seven stage bundles byte-verified; no active candidate bundle remains
+- Preview disposition: live article handoff; temporary localhost verification server not a persistent promise
+- Limits: unchanged shared coffee badge and diagnostic 320px shell overflow
+- Next: none editorially; unrelated changes excluded
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
 
 ### Europe’s Next Chapter: Could the EU Grow Beyond 27 Countries? | revision 1
 
@@ -1303,6 +1326,37 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### US midterms: who won, and what changes beyond America? | revision 2
+
+- Candidate: `2026-11-04-us-midterms-results`; revision 2; News; final-review
+- Status: superseded by requested revision 3; not published
+- Packet: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/approval-revision-2.md`
+- Immutable reviewed packet: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/approval-for-review-revision-2.md`
+- Complete reviewer export: `99-Archive/published/2026-11-04-us-midterms-results/07-Approval/2026-11-04-us-midterms-results/final-review-revision-2.md`
+- Immutable reviewed packet SHA-256: `5b6cff51b76c52b1ebb744991c558a841c013522d8c420cd070f6a4be55d0fd2`
+- Canonical article payload SHA-256: `583d3639d9a99c2988f701810824dd09542c026cf134a2c178e4ecdab558c1c8`
+- Reviewer export SHA-256: `9831000f58b239b9baa203675a7ffd2292a300fa23e3700065fe089e9ea2ba21`
+- Preview: `http://127.0.0.1:1313/news/us-midterms-results/?local-review=2#the-results-so-far`; isolated full-content mirror, direct route only
+- Checks: all internal stages; eight refreshed sources/38 exact passages; exact metadata/article/source map; strict evidence 46/65; isolated/normal builds and 703-output exclusion; unchanged public content; 36-case real-browser QA; pane readback; 16 focused tests; QA-browser exit verified
+- Length: 889 prose words, down from 1,021; below normal minimum; acceptance pending in final Approve
+- Design limitations: existing coffee badge obscures text; same diagnostic 320px overflow on approved sibling; shared design untouched
+- Run: `99-Archive/published/2026-11-04-us-midterms-results/01-Ideas/2026-11-04-us-midterms-results/run.md`
+- Decision: Request changes recorded for revision 3; no publication, commit, push or deployment authorised
+
+**Approve = agreed local publication only, including acceptance of the disclosed 889-word length. No commit, push or deployment.**
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
+
+
+
+- Recorded Request changes: 2026-11-04T22:31:54.090882+01:00; mutable decision-packet SHA-256 `26ea1b01a02b6a407436e234a93f15ccf6cbfe8a1a5a9a9490f243c230b32c5f`
+
 
 ### While You Were Out: The Weekend Catch-Up | 2 November 2026 | revision 1
 
