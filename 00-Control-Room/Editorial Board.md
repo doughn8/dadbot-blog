@@ -3778,15 +3778,15 @@ See also: [[Approval Queue]]
 
 - [x] Swift’s final descent | revision 1
   - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
-  - Stage: Published locally; revision 1 approved by user; commit/push explicitly authorised
+  - Stage: Published locally and verified live; revision 1 approved by user
   - Public file: `content/news/2026-11-05-swift-telescope-reentry.md`
   - Final Approval: `99-Archive/published/2026-11-05-swift-telescope-reentry/07-Approval/2026-11-05-swift-telescope-reentry/approval.md`
-  - Decision packet SHA-256: `aaf5e972414ee555f062b834e3e75ac7f86067ecb35550acf45171b23d94747b`
+  - Decision packet SHA-256: `a106d698b809714a128c4845220c7ada968218c17f82636c992c27689773149a`
   - Reviewed packet SHA-256: `533032e2828f6c5035a274332f60e6dba4ad1a36f071981c40303ddcb441856d`; immutable approval-reviewed.md
   - Payload SHA-256: `0f33c1e9db2fe514b659feb3db9e25dd4f04eca130a03d63d3091ef9428a1bbc`
   - Archive: `99-Archive/published/2026-11-05-swift-telescope-reentry/`; stage history and checks retained locally
   - Checks: Final Approval contract/evidence, byte-identical public copy, normal Hugo build, homepage/News/article HTTP checks passed; known coffee-badge obstruction disclosed
-  - Release: user authorised candidate-only commit/push; deployment verification tracked in private archive
+  - Release: publication commit a7821f1 pushed; build/deploy 42016658434 and exact live content verified; task-owned preview/cache cleanup complete
   - Next: none for this article; final release/cleanup receipts retained in the private archive
 
 - [x] US midterms: who won, and what changes beyond America? | revision 3

@@ -24,11 +24,11 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### NASA’s Swift telescope burns up over Indonesia after nearly 22 years | revision 1
 
 - Candidate: `2026-11-05-swift-telescope-reentry`; revision 1; News; final-review.
-- Status: Approved by user and published locally. Commit/push/task-owned cleanup explicitly authorised by “approved. Commit, push and clean up”.
+- Status: Approved, published locally and verified live. Publication commit a7821f1; build/deploy 42016658434 passed. Task-owned preview/cache cleanup complete.
 - Public file: `content/news/2026-11-05-swift-telescope-reentry.md`.
 - Package: `99-Archive/published/2026-11-05-swift-telescope-reentry/07-Approval/2026-11-05-swift-telescope-reentry/approval.md`.
 - Reviewed snapshot: `99-Archive/published/2026-11-05-swift-telescope-reentry/07-Approval/2026-11-05-swift-telescope-reentry/approval-reviewed.md`.
-- Decision packet SHA-256: `aaf5e972414ee555f062b834e3e75ac7f86067ecb35550acf45171b23d94747b`.
+- Decision packet SHA-256: `a106d698b809714a128c4845220c7ada968218c17f82636c992c27689773149a`.
 - Reviewed packet SHA-256: `533032e2828f6c5035a274332f60e6dba4ad1a36f071981c40303ddcb441856d`.
 - Article payload SHA-256: `0f33c1e9db2fe514b659feb3db9e25dd4f04eca130a03d63d3091ef9428a1bbc`.
 - Checks: 1,039 prose words; five sources; exact final/public payload equality; contract/evidence and normal Hugo build passed; local homepage/News/article HTTP 200.
