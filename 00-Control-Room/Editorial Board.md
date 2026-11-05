@@ -7,6 +7,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Swift’s final descent | revision 1
+  - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
+  - Stage: Idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-05-swift-telescope-reentry/01-Ideas/2026-11-05-swift-telescope-reentry/idea.md`
+  - SHA-256: `427c4a1ff8af5051297a4fd0e9c1f6c38f66b2090e381f0297109c9f6a7ef8a4`
+  - Checks: YAML, structural contract, strict evidence, exact passages, normal Hugo build and exclusion; `99-Archive/published/2026-11-05-swift-telescope-reentry/01-Ideas/2026-11-05-swift-telescope-reentry/checks/`
+  - Run: `99-Archive/published/2026-11-05-swift-telescope-reentry/01-Ideas/2026-11-05-swift-telescope-reentry/run.md`
+
 - [x] US midterms: who won, what changes, and why it matters beyond America
   - Candidate: `2026-11-04-us-midterms-results`; revision 1; News; final-review
   - Stage: Idea internally checked, not human-approved
@@ -415,6 +423,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] Swift’s final descent | revision 1
+  - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
+  - Stage: Brief internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-05-swift-telescope-reentry/02-Briefs/2026-11-05-swift-telescope-reentry/brief.md`
+  - SHA-256: `5665222d7c800bb349b5aca28856589475b20eaa50401dd2be623c20046d5a96`
+  - Checks: `99-Archive/published/2026-11-05-swift-telescope-reentry/02-Briefs/2026-11-05-swift-telescope-reentry/checks/`
+  - Run: `99-Archive/published/2026-11-05-swift-telescope-reentry/01-Ideas/2026-11-05-swift-telescope-reentry/run.md`
 
 - [x] US midterms: who won, what changes, and why it matters beyond America
   - Candidate: `2026-11-04-us-midterms-results`; revision 1; News; final-review
@@ -825,6 +841,14 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Swift’s final descent | revision 1
+  - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
+  - Stage: SEO internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-05-swift-telescope-reentry/03-SEO/2026-11-05-swift-telescope-reentry/seo.md`
+  - SHA-256: `22432b17ce2ccde693385728068b8df2d29f4d8ae7f7cc1b5e73c2c3bf541581`
+  - Checks: `99-Archive/published/2026-11-05-swift-telescope-reentry/03-SEO/2026-11-05-swift-telescope-reentry/checks/`
+  - Run: `99-Archive/published/2026-11-05-swift-telescope-reentry/01-Ideas/2026-11-05-swift-telescope-reentry/run.md`
 
 - [x] US midterms: who won, what changes, and why it matters beyond America
   - Candidate: `2026-11-04-us-midterms-results`; revision 1; News; final-review
@@ -1306,6 +1330,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Swift’s final descent | revision 1
+  - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
+  - Stage: Draft internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-05-swift-telescope-reentry/04-Drafts/2026-11-05-swift-telescope-reentry/draft.md`
+  - SHA-256: `2ceb3eeb64464df07cdbddb7d5ede98f305612ffbae188ba99bd9500cbc8d13c`
+  - Payload SHA-256: `f7225f4af19b76292a9132d866180ce2e00c97c1e1fd55af47d5a137a9a3c6d0`
+  - Checks: `99-Archive/published/2026-11-05-swift-telescope-reentry/04-Drafts/2026-11-05-swift-telescope-reentry/checks/`
+  - Run: `99-Archive/published/2026-11-05-swift-telescope-reentry/01-Ideas/2026-11-05-swift-telescope-reentry/run.md`
 
 - [x] US midterms: who won, and what changes beyond America? | revision 3
   - Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review
@@ -1898,6 +1931,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Swift’s final descent | revision 1
+  - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
+  - Stage: Creative Edit internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-05-swift-telescope-reentry/05-Reviews/2026-11-05-swift-telescope-reentry/creative-edit.md`
+  - SHA-256: `3b3a1c12151574ee324721b87bedd7eb50f83497d57974a34a6f8c2d55eb8428`
+  - Payload SHA-256: `3ab0921531c3e7c3acacbaa4ecafadadc1204a74a1e9628b4fff9c528a6b047f`
+  - Checks: `99-Archive/published/2026-11-05-swift-telescope-reentry/05-Reviews/2026-11-05-swift-telescope-reentry/checks-creative/`
+  - Run: `99-Archive/published/2026-11-05-swift-telescope-reentry/01-Ideas/2026-11-05-swift-telescope-reentry/run.md`
 
 - [x] US midterms: who won, and what changes beyond America? | revision 3
   - Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review
@@ -2500,6 +2542,15 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Swift’s final descent | revision 1
+  - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
+  - Stage: Proofread internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-05-swift-telescope-reentry/05-Reviews/2026-11-05-swift-telescope-reentry/proofread.md`
+  - SHA-256: `a3ba6d97a8dea15f1b572fa497002d99e0a78f4463e7c4e13144b68e860d3e1c`
+  - Payload SHA-256: `0f33c1e9db2fe514b659feb3db9e25dd4f04eca130a03d63d3091ef9428a1bbc`
+  - Checks: `99-Archive/published/2026-11-05-swift-telescope-reentry/05-Reviews/2026-11-05-swift-telescope-reentry/checks-proofread/`
+  - Run: `99-Archive/published/2026-11-05-swift-telescope-reentry/01-Ideas/2026-11-05-swift-telescope-reentry/run.md`
+
 - [x] US midterms: who won, and what changes beyond America? | revision 3
   - Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review
   - Stage: Proofread checked internally; SHA-256 `586d162faa6b13980e7bae52c1c9f8c592c63f8deeb5562d573d40955015a22d`; unchanged 872-word article
@@ -3094,6 +3145,15 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Swift’s final descent | revision 1
+  - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
+  - Stage: Design internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-05-swift-telescope-reentry/06-Design/2026-11-05-swift-telescope-reentry/design.md`
+  - SHA-256: `4d7daffe6463284437d7211759f38688b6b8abb690ebb07a20c2999e765adb8b`
+  - Payload SHA-256: `0f33c1e9db2fe514b659feb3db9e25dd4f04eca130a03d63d3091ef9428a1bbc`
+  - Checks: `99-Archive/published/2026-11-05-swift-telescope-reentry/06-Design/2026-11-05-swift-telescope-reentry/checks/`; existing shared coffee badge obscures mobile/tablet text
+  - Run: `99-Archive/published/2026-11-05-swift-telescope-reentry/01-Ideas/2026-11-05-swift-telescope-reentry/run.md`
 
 - [x] US midterms: who won, and what changes beyond America? | revision 3
   - Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review
@@ -3715,6 +3775,19 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Swift’s final descent | revision 1
+  - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
+  - Stage: Published locally; revision 1 approved by user; commit/push explicitly authorised
+  - Public file: `content/news/2026-11-05-swift-telescope-reentry.md`
+  - Final Approval: `99-Archive/published/2026-11-05-swift-telescope-reentry/07-Approval/2026-11-05-swift-telescope-reentry/approval.md`
+  - Decision packet SHA-256: `aaf5e972414ee555f062b834e3e75ac7f86067ecb35550acf45171b23d94747b`
+  - Reviewed packet SHA-256: `533032e2828f6c5035a274332f60e6dba4ad1a36f071981c40303ddcb441856d`; immutable approval-reviewed.md
+  - Payload SHA-256: `0f33c1e9db2fe514b659feb3db9e25dd4f04eca130a03d63d3091ef9428a1bbc`
+  - Archive: `99-Archive/published/2026-11-05-swift-telescope-reentry/`; stage history and checks retained locally
+  - Checks: Final Approval contract/evidence, byte-identical public copy, normal Hugo build, homepage/News/article HTTP checks passed; known coffee-badge obstruction disclosed
+  - Release: user authorised candidate-only commit/push; deployment verification tracked in private archive
+  - Next: none for this article; final release/cleanup receipts retained in the private archive
 
 - [x] US midterms: who won, and what changes beyond America? | revision 3
   - Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review

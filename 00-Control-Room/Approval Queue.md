@@ -21,6 +21,27 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### NASA’s Swift telescope burns up over Indonesia after nearly 22 years | revision 1
+
+- Candidate: `2026-11-05-swift-telescope-reentry`; revision 1; News; final-review.
+- Status: Approved by user and published locally. Commit/push/task-owned cleanup explicitly authorised by “approved. Commit, push and clean up”.
+- Public file: `content/news/2026-11-05-swift-telescope-reentry.md`.
+- Package: `99-Archive/published/2026-11-05-swift-telescope-reentry/07-Approval/2026-11-05-swift-telescope-reentry/approval.md`.
+- Reviewed snapshot: `99-Archive/published/2026-11-05-swift-telescope-reentry/07-Approval/2026-11-05-swift-telescope-reentry/approval-reviewed.md`.
+- Decision packet SHA-256: `aaf5e972414ee555f062b834e3e75ac7f86067ecb35550acf45171b23d94747b`.
+- Reviewed packet SHA-256: `533032e2828f6c5035a274332f60e6dba4ad1a36f071981c40303ddcb441856d`.
+- Article payload SHA-256: `0f33c1e9db2fe514b659feb3db9e25dd4f04eca130a03d63d3091ef9428a1bbc`.
+- Checks: 1,039 prose words; five sources; exact final/public payload equality; contract/evidence and normal Hugo build passed; local homepage/News/article HTTP 200.
+- Design limitation: existing fixed coffee badge overlaps phone/tablet text; confirmed on approved sibling and left unchanged.
+- Archive/run: `99-Archive/published/2026-11-05-swift-telescope-reentry/01-Ideas/2026-11-05-swift-telescope-reentry/run.md`.
+- Human decision: Approve revision 1; local publication, commit, push and cleanup separately explicit. No unrelated work authorised.
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+- Next: none for this article; final release/cleanup verification receipts retained in the private archive.
+
+
 ### US midterms: who won, and what changes beyond America? | revision 3
 
 - Candidate: `2026-11-04-us-midterms-results`; revision 3; News; final-review
