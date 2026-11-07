@@ -19,7 +19,26 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 
 
+
 ## Approved
+
+### Rechargeable vs disposable batteries: which gives you better value? | revision 2
+
+- Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; revision 2; Blog/Home; final-review.
+- Status: Approved and published locally; bounded commit/push/deployment/cleanup authorised and in progress.
+- Public file: `content/posts/2026-11-07-rechargeable-vs-disposable-batteries.md`; article payload SHA-256 `b140d1a96c9dc02ac7cf30f30716024d380a4bfdce2bf9df3bab4190e52062fe`;1,144-word length accepted.
+- Decision: “approved. Commit, push and clean up”; separate publication, candidate-only commit, main push/normal deployment and task-owned cleanup authority recorded.
+- Reviewed snapshot: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-revision-2-reviewed.md`; immutable packet SHA-256 `bf8c2eb52a08331aee4e4fe2791808b21de20e4aff219e6ca6466021505d8f16`.
+- Decision packet: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-revision-2.md`.
+- Checks: exact public body/metadata, normal production build and local homepage/Blog/article delivery, same existing design;16 Python/276 Node tests pass.
+- Limitation: existing narrow-screen coffee-badge overlap unchanged.
+- Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`; release and cleanup receipts retained privately.
+- Next: none editorial; complete already-authorised bounded release.
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
 
 ### NASA’s Swift telescope burns up over Indonesia after nearly 22 years | revision 1
 
@@ -1347,6 +1366,24 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### Rechargeable vs disposable batteries: which gives you better value? | revision 1, superseded
+
+- Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; revision 1; Blog/Home; final-review.
+- Status: Request changes received; superseded by revision 2; not approved for local publication.
+- Complete packet: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-reviewed-revision-1.md`; SHA-256 `695b871af207e2f8ca893430f2ca00de2fac48ec504d00fdd152f10f4eb6be00`.
+- Clean reviewer export: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/final-review.md`; SHA-256 `2082fafcd31bbc84d81433591a4637412a144db515dfa05631a74b03aaf8caa5`.
+- Article payload SHA-256: `28eadf6f89fdbab74fcc9db5c0341eafd8e2ab26a010af074601a55a3ae6b768`; 1,489 citation-stripped prose words.
+- Preview: `http://127.0.0.1:1313/posts/rechargeable-vs-disposable-batteries/?local-review=1`; isolated external full-content mirror; direct-route-only, not locally published.
+- Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/checks/`; seven sources, 27 coherent exact passages, 102-fragment claim audit and worked calculations; strict evidence/YAML/contract/payload/metadata equality; 23-width browser QA; source refresh, normal production exclusion, 65-file content-manifest equality and verified QA shutdown.
+- Limitation: existing shared coffee badge overlaps some summary/body text at narrow widths. Shared CSS/widgets untouched; text remains readable by scrolling above it.
+- Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`; candidate-specific claim-audit alternative authorised, every other gate retained.
+- Approval boundary: Approve authorises this exact article/public metadata for agreed local publication only. No commit, push or deployment authority.
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+
 
 ### US midterms: who won, and what changes beyond America? | revision 2
 

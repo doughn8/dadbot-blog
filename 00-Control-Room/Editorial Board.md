@@ -7,6 +7,13 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 1
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/idea.md`
+  - SHA-256: `3f1a05c173de5c5efed47ea523bc4f99a651d529de910acead7860280a09cbfb`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/checks/`; YAML, structural, strict evidence and normal Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
+
 - [x] Swift’s final descent | revision 1
   - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
   - Stage: Idea internally checked, not human-approved
@@ -423,6 +430,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 1
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; brief internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/02-Briefs/2026-11-07-rechargeable-vs-disposable-batteries/brief.md`
+  - SHA-256: `c371da00ee55a27b2ed8bfeefc6271bda211b73c414dac45d40e5edef6c691a8`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/02-Briefs/2026-11-07-rechargeable-vs-disposable-batteries/checks/`; YAML, structural, strict evidence and normal Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
 
 - [x] Swift’s final descent | revision 1
   - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
@@ -841,6 +855,21 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; seo internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/03-SEO/2026-11-07-rechargeable-vs-disposable-batteries/seo-revision-2.md`
+  - SHA-256: `b4c1e3cd4c13f30eb9b9cd78773a7edbb6a859428f2755b26abcce9532b2bdea`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/03-SEO/2026-11-07-rechargeable-vs-disposable-batteries/checks-revision-2/seo/`; scoped claim audit, YAML/contract, evidence where applicable and normal Hugo exclusion
+  - Length: 1133 words, below normal Blog target; human exception pending, no padding
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 1
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; seo internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/03-SEO/2026-11-07-rechargeable-vs-disposable-batteries/seo.md`
+  - SHA-256: `93a91d203a7cf45364d2bd0860c4da8d4fc753d574af1a95af257ac3abb98f4e`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/03-SEO/2026-11-07-rechargeable-vs-disposable-batteries/checks/`; YAML, structural, strict evidence and normal Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
 
 - [x] Swift’s final descent | revision 1
   - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
@@ -1330,6 +1359,21 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; draft internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/04-Drafts/2026-11-07-rechargeable-vs-disposable-batteries/draft-revision-2.md`
+  - SHA-256: `9aab8de6c50469f4e418f24d2f9d7ec1e90b204e1f1d6bfa4c0571e1fb05a492`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/04-Drafts/2026-11-07-rechargeable-vs-disposable-batteries/checks-revision-2/draft/`; scoped claim audit, YAML/contract, evidence where applicable and normal Hugo exclusion
+  - Length: 1133 words, below normal Blog target; human exception pending, no padding
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 1
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; draft internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/04-Drafts/2026-11-07-rechargeable-vs-disposable-batteries/draft.md`
+  - SHA-256: `4b565715dc7bb900444d52e2bcc61f65573e5b9f0b4ede9a39c3a3ba63c2ff47`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/04-Drafts/2026-11-07-rechargeable-vs-disposable-batteries/checks/`; YAML, structural, strict evidence and normal Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
 
 - [x] Swift’s final descent | revision 1
   - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
@@ -1931,6 +1975,21 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; creative-edit internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/05-Reviews/2026-11-07-rechargeable-vs-disposable-batteries/creative-edit-revision-2.md`
+  - SHA-256: `9f2d5991e05a8194f2c39a918ccfe182a73e6f3c614688f9ae6fd48b89b7bab1`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/05-Reviews/2026-11-07-rechargeable-vs-disposable-batteries/checks-revision-2/creative-edit/`; scoped claim audit, YAML/contract, evidence where applicable and normal Hugo exclusion
+  - Length: 1144 words, below normal Blog target; human exception pending, no padding
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 1
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; creative-edit internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/05-Reviews/2026-11-07-rechargeable-vs-disposable-batteries/creative-edit.md`
+  - SHA-256: `d0d882026de349b814b062c27e8bf728a58cc108ffe0fd2b8814a4c60ca52d28`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/05-Reviews/2026-11-07-rechargeable-vs-disposable-batteries/checks-creative-edit/`; YAML, structural, strict evidence and normal Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
 
 - [x] Swift’s final descent | revision 1
   - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
@@ -2542,6 +2601,21 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; proofread internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/05-Reviews/2026-11-07-rechargeable-vs-disposable-batteries/proofread-revision-2.md`
+  - SHA-256: `d469431941bcc2ad0507629563ac4ef8040660dde2d0267d6ccbd6556779570e`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/05-Reviews/2026-11-07-rechargeable-vs-disposable-batteries/checks-revision-2/proofread/`; scoped claim audit, YAML/contract, evidence where applicable and normal Hugo exclusion
+  - Length: 1144 words, below normal Blog target; human exception pending, no padding
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 1
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; proofread internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/05-Reviews/2026-11-07-rechargeable-vs-disposable-batteries/proofread.md`
+  - SHA-256: `1d9b50c5d8aabe4e2de12e2865ad58f54a3a4c09cf18bf0b0962c485f85610dd`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/05-Reviews/2026-11-07-rechargeable-vs-disposable-batteries/checks-proofread/`; YAML, structural, strict evidence and normal Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
+
 - [x] Swift’s final descent | revision 1
   - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
   - Stage: Proofread internally checked, not human-approved
@@ -3145,6 +3219,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; design internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/06-Design/2026-11-07-rechargeable-vs-disposable-batteries/design-revision-2.md`
+  - SHA-256: `a95c28a10cd953e6175cba7c8e6fa402e5ee81a459fb3db8dbfae5dcb2fdc06e`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/06-Design/2026-11-07-rechargeable-vs-disposable-batteries/checks-revision-2/design/`; scoped claim audit, YAML/contract, evidence where applicable and normal Hugo exclusion
+  - Length: 1144 words, below normal Blog target; human exception pending, no padding
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 1
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; Design internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/06-Design/2026-11-07-rechargeable-vs-disposable-batteries/design.md`
+  - SHA-256: `aa1804f8ea6c43ea37938f5b34bed942c123722b888921a22c39f4f80a7953f6`
+  - Payload SHA-256: `28eadf6f89fdbab74fcc9db5c0341eafd8e2ab26a010af074601a55a3ae6b768`
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/06-Design/2026-11-07-rechargeable-vs-disposable-batteries/checks-closeout/`; isolated build, 23-width geometry, source/TOC mapping, source refresh, normal production exclusion and content-manifest equality
+  - Limitation: existing shared coffee badge overlaps some text on narrow screens; no shared CSS changes
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`
 
 - [x] Swift’s final descent | revision 1
   - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
@@ -3775,6 +3866,17 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; approved and published locally
+  - Public file: `content/posts/2026-11-07-rechargeable-vs-disposable-batteries.md`; article SHA-256 `b140d1a96c9dc02ac7cf30f30716024d380a4bfdce2bf9df3bab4190e52062fe`;1,144 words, shorter length explicitly accepted
+  - Decision: “approved. Commit, push and clean up”; local publication, candidate-only commit, main push/normal deployment and task-owned cleanup authorised
+  - Reviewed snapshot: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-revision-2-reviewed.md`; immutable packet SHA-256 `bf8c2eb52a08331aee4e4fe2791808b21de20e4aff219e6ca6466021505d8f16`
+  - Decision packet: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-revision-2.md`
+  - Checks: exact approved copy/metadata, normal production build, normal published HTTP/browser checks;16 Python and276 Node tests pass
+  - Limitation: pre-existing coffee badge can overlap narrow-screen text; no styling change
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`; detailed release receipts remain private
+  - Next: none editorial; already-authorised release execution tracked in private run
 
 - [x] Swift’s final descent | revision 1
   - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review
@@ -4546,6 +4648,17 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] Rechargeable vs disposable batteries: which gives you better value? | revision 1, superseded
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; Request changes recorded; superseded by revision 2
+  - Packet: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-reviewed-revision-1.md`; raw SHA-256 `695b871af207e2f8ca893430f2ca00de2fac48ec504d00fdd152f10f4eb6be00`
+  - Reviewer export: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/final-review.md`; raw SHA-256 `2082fafcd31bbc84d81433591a4637412a144db515dfa05631a74b03aaf8caa5`
+  - Payload SHA-256: `28eadf6f89fdbab74fcc9db5c0341eafd8e2ab26a010af074601a55a3ae6b768`; 1,489 prose words; seven sources
+  - Preview: `http://127.0.0.1:1313/posts/rechargeable-vs-disposable-batteries/?local-review=1`; isolated full-content mirror, direct-route-only
+  - Checks: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/checks/` and `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/06-Design/2026-11-07-rechargeable-vs-disposable-batteries/checks-closeout/`; all required checks complete under the authorised claim-audit alternative
+  - Limitation: existing shared coffee badge overlaps some narrow-screen text; no shared styling changed
+  - Decision: Approve / Request changes / Reject / Hold; Approve = agreed local publication only
+  - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`; real Request changes decision; no local publication, commit, push or deploy
 
 - [x] US midterms: who won, and what changes beyond America? | revision 2
   - Candidate: `2026-11-04-us-midterms-results`; revision 2; News; final-review
