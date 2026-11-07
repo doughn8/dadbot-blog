@@ -3868,15 +3868,17 @@ See also: [[Approval Queue]]
 ## Published
 
 - [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
-  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; approved and published locally
+  - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; published live; released and cleaned
   - Public file: `content/posts/2026-11-07-rechargeable-vs-disposable-batteries.md`; article SHA-256 `b140d1a96c9dc02ac7cf30f30716024d380a4bfdce2bf9df3bab4190e52062fe`;1,144 words, shorter length explicitly accepted
   - Decision: “approved. Commit, push and clean up”; local publication, candidate-only commit, main push/normal deployment and task-owned cleanup authorised
   - Reviewed snapshot: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-revision-2-reviewed.md`; immutable packet SHA-256 `bf8c2eb52a08331aee4e4fe2791808b21de20e4aff219e6ca6466021505d8f16`
-  - Decision packet: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-revision-2.md`
-  - Checks: exact approved copy/metadata, normal production build, normal published HTTP/browser checks;16 Python and276 Node tests pass
+  - Product release: `a1ba3ffbf60fd29f361ae81d5ac0b3f7526f6566`; Pages run `42373804945` build/deploy success; exact live homepage/Blog/article verified
+  - Decision packet: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-revision-2.md`; current decision-packet SHA-256 `91344203be4c9962f945b7ad2ee6cce03a6fe31a7da261692a07991da40cb3b0`
+  - Checks: exact approved copy/metadata, normal production build, normal published HTTP/browser checks; 16 Python and276 Node tests pass
   - Limitation: pre-existing coffee badge can overlap narrow-screen text; no styling change
   - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`; detailed release receipts remain private
-  - Next: none editorial; already-authorised release execution tracked in private run
+  - Cleanup: all candidate bundles archived privately; review cache removed; owned QA/server stopped; desktop pane shows live; unrelated local edits untouched
+  - Next: none; released. Final records-HEAD deployment/readback receipts retained in private run
 
 - [x] Swift’s final descent | revision 1
   - Candidate: `2026-11-05-swift-telescope-reentry`; News; final-review

@@ -25,15 +25,17 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### Rechargeable vs disposable batteries: which gives you better value? | revision 2
 
 - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; revision 2; Blog/Home; final-review.
-- Status: Approved and published locally; bounded commit/push/deployment/cleanup authorised and in progress.
+- Status: Approved, published live, released and cleaned.
 - Public file: `content/posts/2026-11-07-rechargeable-vs-disposable-batteries.md`; article payload SHA-256 `b140d1a96c9dc02ac7cf30f30716024d380a4bfdce2bf9df3bab4190e52062fe`;1,144-word length accepted.
 - Decision: “approved. Commit, push and clean up”; separate publication, candidate-only commit, main push/normal deployment and task-owned cleanup authority recorded.
 - Reviewed snapshot: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-revision-2-reviewed.md`; immutable packet SHA-256 `bf8c2eb52a08331aee4e4fe2791808b21de20e4aff219e6ca6466021505d8f16`.
-- Decision packet: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-revision-2.md`.
+- Product release: `a1ba3ffbf60fd29f361ae81d5ac0b3f7526f6566`; Pages run `42373804945` build/deploy success; exact live homepage/Blog/article verified.
+- Decision packet: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/07-Approval/2026-11-07-rechargeable-vs-disposable-batteries/approval-revision-2.md`; current decision-packet SHA-256 `91344203be4c9962f945b7ad2ee6cce03a6fe31a7da261692a07991da40cb3b0`.
 - Checks: exact public body/metadata, normal production build and local homepage/Blog/article delivery, same existing design;16 Python/276 Node tests pass.
 - Limitation: existing narrow-screen coffee-badge overlap unchanged.
 - Run: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/run.md`; release and cleanup receipts retained privately.
-- Next: none editorial; complete already-authorised bounded release.
+- Cleanup: original workflow/evidence archived privately, preview cache removed, task-owned QA/server stopped, pane displays live; unrelated dirty records preserved.
+- Next: none; released. Final records-HEAD deployment/readback receipts retained in private run.
 - [x] Approve
 - [ ] Request changes
 - [ ] Reject
