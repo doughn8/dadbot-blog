@@ -3936,17 +3936,20 @@ See also: [[Approval Queue]]
 
 - [x] Five stories worth catching up on this Monday | revision 2
   - Candidate: `2026-11-09-weekly-roundup`; revision 2; News; final-review
-  - Status: published locally; final approval recorded; candidate-only commit/push/normal deployment and task-owned cleanup authorised
+  - Status: published live; revision 2 approved; released and cleaned
   - Public file: `content/news/2026-11-09-weekly-roundup-9-november-2026.md`
   - Archive: `99-Archive/published/2026-11-09-weekly-roundup/`
-  - Package: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/approval-revision-2.md`; current decision-packet SHA-256 `bc91c34d3ab5393c8dff2e58c124e22a256d018ab1fe67a6dd4568078d8aba43`
+  - Package: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/approval-revision-2.md`; current decision-packet SHA-256 `0ffa6cfe13d86c1088c464af5059e4e2e0e25804a07778899f508f5d65cc8fb5`
   - Reviewed snapshot: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/reviewed-packet-r2.md`; SHA-256 `2635c9521e0f8458873aef1d4761ec2981b85808a84654288efa01aa7e5a9a18`
   - Payload SHA-256: `881687fee47ee8d83273ee4d2ad0a78ffe67a33feb8003bcdd692b3d0b58ffe5`; 511 prose words
   - Decision: Approve; “approved. Commit, push and clean up”; 2026-11-09T13:43:01.932657+01:00
   - Checks: exact approved public copy, one TL;DR, cover-free/tag-only, production build, 16 Python/276 Node tests, three-width browser and local HTTP/pane readback passed
   - Limitations: inherited shared coffee-badge overlap and primary-source access limits remain documented; no shared layout change
   - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
-  - Next: no further editorial work; verify authorised commit/push/deployment and task-owned cleanup
+  - Product commit: `54ec575bb9347b0693e99bb31e01ae3ec24961f8`; Pages run `42621967263`, build/deploy successful
+  - Live verified: homepage, News listing and exact revised article; ten source pairs, one title/TL;DR, cover-free
+  - Cleanup: complete byte-verified archive retained locally; task-owned mirrors/caches removed; local preview and named QA transport intentionally stopped; live page open in desktop pane
+  - Next: none for this article; final-HEAD technical receipts are held in the local archive
 
 
 - [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
