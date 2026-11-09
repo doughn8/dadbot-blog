@@ -7,6 +7,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Five stories worth catching up on this Monday | revision 1
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/idea.md`; SHA-256 `2c99db1ba6fdf12c8c0e8628512e5a6c77bf24fe9322b679e333af6b2ec4821b`
+  - Checks: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/checks/`; YAML, structural, strict evidence, exact quotations and fresh Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
+
 - [x] Rechargeable vs disposable batteries: which gives you better value? | revision 1
   - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; idea internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/01-Ideas/2026-11-07-rechargeable-vs-disposable-batteries/idea.md`
@@ -430,6 +436,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] Five stories worth catching up on this Monday | revision 1
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Brief internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/02-Briefs/2026-11-09-weekly-roundup/brief.md`; SHA-256 `079cf94a7ef47c744ecf72971d27693713fc7f76c31a6027118445abd3c3d8e7`
+  - Checks: `99-Archive/published/2026-11-09-weekly-roundup/02-Briefs/2026-11-09-weekly-roundup/checks/`; strict evidence, source refresh, YAML, structural and fresh Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
 
 - [x] Rechargeable vs disposable batteries: which gives you better value? | revision 1
   - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; brief internally checked, not human-approved
@@ -855,6 +867,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Five stories worth catching up on this Monday | revision 1
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; SEO internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/03-SEO/2026-11-09-weekly-roundup/seo.md`; SHA-256 `2f4953b97be5f0703f044dcec9186ff29f9db2df5308e81a738b2e8d76aa5707`
+  - Checks: `99-Archive/published/2026-11-09-weekly-roundup/03-SEO/2026-11-09-weekly-roundup/checks/`; measured metadata, YAML, structural and fresh Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
 
 - [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
   - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; seo internally checked, not human-approved
@@ -1359,6 +1377,19 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Five stories worth catching up on this Monday | revision 2
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Draft revision 2 internally checked
+  - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/04-Drafts/2026-11-09-weekly-roundup/draft-revision-2.md`; SHA-256 `44613ded845b085b1372b31bf79f27cbf01691812b0888f63a624ec8fe5ab255`
+  - Payload: `881687fee47ee8d83273ee4d2ad0a78ffe67a33feb8003bcdd692b3d0b58ffe5`; 511 prose words; checks `99-Archive/published/2026-11-09-weekly-roundup/04-Drafts/2026-11-09-weekly-roundup/checks/revision-2/`
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
+
+- [x] Five stories worth catching up on this Monday | revision 1
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Draft internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/04-Drafts/2026-11-09-weekly-roundup/draft.md`; SHA-256 `2efb66d58361a1b445a67b7e30c757d048fcb422fee0585979ee400404690b2b`
+  - Payload: `a8426d2bcd595a83f6c12660096ae24d8f461f5d27e8411b81ed14584119843c`; 507 prose words
+  - Checks: `99-Archive/published/2026-11-09-weekly-roundup/04-Drafts/2026-11-09-weekly-roundup/checks/`; claim audit, strict evidence/coverage, YAML, structural and fresh Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
 
 - [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
   - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; draft internally checked, not human-approved
@@ -1975,6 +2006,18 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Five stories worth catching up on this Monday | revision 2
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Creative Edit revision 2 internally checked
+  - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/05-Reviews/2026-11-09-weekly-roundup/creative-edit-revision-2.md`; SHA-256 `73dd6714206f8db56646d65ffb16726eb4721bf09025aa91b52720b43f8b6199`
+  - Payload: `881687fee47ee8d83273ee4d2ad0a78ffe67a33feb8003bcdd692b3d0b58ffe5`; 511 prose words; checks `99-Archive/published/2026-11-09-weekly-roundup/05-Reviews/2026-11-09-weekly-roundup/checks/revision-2/`
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
+
+- [x] Five stories worth catching up on this Monday | revision 1
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Creative Edit internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/05-Reviews/2026-11-09-weekly-roundup/creative-edit.md`; SHA-256 `1d9625125941ef2973ebbac6f7f8cbfb784592d7af2be3fd7724a6fa9b8f8a21`
+  - Checks: `99-Archive/published/2026-11-09-weekly-roundup/05-Reviews/2026-11-09-weekly-roundup/checks/creative-*`; full voice audit, unchanged 507-word payload, strict evidence/coverage, YAML, structural and Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
 
 - [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
   - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; creative-edit internally checked, not human-approved
@@ -2601,6 +2644,18 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Five stories worth catching up on this Monday | revision 2
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Proofread revision 2 internally checked
+  - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/05-Reviews/2026-11-09-weekly-roundup/proofread-revision-2.md`; SHA-256 `fb03285ec1348f1db6ad45be23fa4b08098782b1309f66541a8534ce7a821235`
+  - Payload: `881687fee47ee8d83273ee4d2ad0a78ffe67a33feb8003bcdd692b3d0b58ffe5`; 511 prose words; checks `99-Archive/published/2026-11-09-weekly-roundup/05-Reviews/2026-11-09-weekly-roundup/checks/revision-2/`
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
+
+- [x] Five stories worth catching up on this Monday | revision 1
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Proofread internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/05-Reviews/2026-11-09-weekly-roundup/proofread.md`; SHA-256 `fb4a2fd3a7b1ee3ee0496874d3df5041b64e669171add23cd9042ab9b3098460`
+  - Checks: `99-Archive/published/2026-11-09-weekly-roundup/05-Reviews/2026-11-09-weekly-roundup/checks/proofread-*`; unchanged 507-word payload, strict evidence/coverage, YAML, structural, Hugo exclusion and diff-check passed
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
+
 - [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
   - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; proofread internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-07-rechargeable-vs-disposable-batteries/05-Reviews/2026-11-07-rechargeable-vs-disposable-batteries/proofread-revision-2.md`
@@ -3219,6 +3274,18 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Five stories worth catching up on this Monday | revision 2
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Design revision 2 internally checked
+  - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/06-Design/2026-11-09-weekly-roundup/design-revision-2.md`; SHA-256 `fc1f53d3027020a5b8ad99e0b952a550a00c5a2ebe1387261b98ea773ebdfa7c`
+  - Payload: `881687fee47ee8d83273ee4d2ad0a78ffe67a33feb8003bcdd692b3d0b58ffe5`; 511 prose words; checks `99-Archive/published/2026-11-09-weekly-roundup/06-Design/2026-11-09-weekly-roundup/checks/revision-2/`
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
+
+- [x] Five stories worth catching up on this Monday | revision 1
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Design internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/06-Design/2026-11-09-weekly-roundup/design.md`; SHA-256 `6fa5f8831cc9c3a6c30e1642f8d1dfc0374552c131c30eeb12338b40a8bdfc84`
+  - Checks: `99-Archive/published/2026-11-09-weekly-roundup/06-Design/2026-11-09-weekly-roundup/checks/`; 23 widths/69 states, no overflow; existing shared coffee-badge obstruction disclosed; isolated/production builds, exact sources/payload, source refresh, pane and isolation verified
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
 
 - [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
   - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; design internally checked, not human-approved
@@ -3866,6 +3933,21 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Five stories worth catching up on this Monday | revision 2
+  - Candidate: `2026-11-09-weekly-roundup`; revision 2; News; final-review
+  - Status: published locally; final approval recorded; candidate-only commit/push/normal deployment and task-owned cleanup authorised
+  - Public file: `content/news/2026-11-09-weekly-roundup-9-november-2026.md`
+  - Archive: `99-Archive/published/2026-11-09-weekly-roundup/`
+  - Package: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/approval-revision-2.md`; current decision-packet SHA-256 `bc91c34d3ab5393c8dff2e58c124e22a256d018ab1fe67a6dd4568078d8aba43`
+  - Reviewed snapshot: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/reviewed-packet-r2.md`; SHA-256 `2635c9521e0f8458873aef1d4761ec2981b85808a84654288efa01aa7e5a9a18`
+  - Payload SHA-256: `881687fee47ee8d83273ee4d2ad0a78ffe67a33feb8003bcdd692b3d0b58ffe5`; 511 prose words
+  - Decision: Approve; “approved. Commit, push and clean up”; 2026-11-09T13:43:01.932657+01:00
+  - Checks: exact approved public copy, one TL;DR, cover-free/tag-only, production build, 16 Python/276 Node tests, three-width browser and local HTTP/pane readback passed
+  - Limitations: inherited shared coffee-badge overlap and primary-source access limits remain documented; no shared layout change
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
+  - Next: no further editorial work; verify authorised commit/push/deployment and task-owned cleanup
+
 
 - [x] Rechargeable vs disposable batteries: which gives you better value? | revision 2
   - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; published live; released and cleaned
@@ -4650,6 +4732,18 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] Five stories worth catching up on this Monday | revision 1
+  - Candidate: `2026-11-09-weekly-roundup`; News; final-review; superseded after Request changes
+  - Reviewed snapshot: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/reviewed-packet-r1.md`; SHA-256 `3b0979ad09cfc41870559ab84104f87e72fcb4227dcb04163712d2e2ef33722c`
+  - Decision packet: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/approval.md`; current SHA-256 `b954e79f10cdb59d14e75736282c0d5307f7e6d55e416cb3d115f4fb0c669874`; Request changes recorded
+  - Reviewer export: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/reviewer-r1.md`; SHA-256 `2488345a85d120b118cb89e8bbbcc3d59cda058f78b5636eaf8869418b9f7681`
+  - Payload: `a8426d2bcd595a83f6c12660096ae24d8f461f5d27e8411b81ed14584119843c`; 507 prose words; metadata SHA-256 `0d0fc09c9d792464e1d28a4b0063e8275aa9b896b5c1e30923868bdbcbd3f159`
+  - Preview: `http://127.0.0.1:1313/news/weekly-roundup-9-november-2026/?local-review=1`; isolated direct route only
+  - Checks: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/checks/` and `99-Archive/published/2026-11-09-weekly-roundup/06-Design/2026-11-09-weekly-roundup/checks/`; existing shared coffee-badge obstruction and blocked primary source access disclosed
+  - Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
+  - Next: none for revision 1; superseded by approved, locally published revision 2
+
 
 - [x] Rechargeable vs disposable batteries: which gives you better value? | revision 1, superseded
   - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; Blog/Home; final-review; Request changes recorded; superseded by revision 2

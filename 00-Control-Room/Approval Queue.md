@@ -22,6 +22,27 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Five stories worth catching up on this Monday | revision 2
+
+- Candidate: `2026-11-09-weekly-roundup`; revision 2; News; final-review
+- Status: published locally; final approval recorded; candidate-only commit/push/normal deployment and task-owned cleanup authorised
+- Public file: `content/news/2026-11-09-weekly-roundup-9-november-2026.md`
+- Archive: `99-Archive/published/2026-11-09-weekly-roundup/`
+- Package: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/approval-revision-2.md`; current decision-packet SHA-256 `bc91c34d3ab5393c8dff2e58c124e22a256d018ab1fe67a6dd4568078d8aba43`
+- Reviewed snapshot: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/reviewed-packet-r2.md`; SHA-256 `2635c9521e0f8458873aef1d4761ec2981b85808a84654288efa01aa7e5a9a18`
+- Payload SHA-256: `881687fee47ee8d83273ee4d2ad0a78ffe67a33feb8003bcdd692b3d0b58ffe5`; 511 prose words
+- Decision: Approve; “approved. Commit, push and clean up”; 2026-11-09T13:43:01.932657+01:00
+- Checks: exact approved public copy, one TL;DR, cover-free/tag-only, production build, 16 Python/276 Node tests, three-width browser and local HTTP/pane readback passed
+- Limitations: inherited shared coffee-badge overlap and primary-source access limits remain documented; no shared layout change
+- Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`
+- Next: no further editorial work; verify authorised commit/push/deployment and task-owned cleanup
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
 ### Rechargeable vs disposable batteries: which gives you better value? | revision 2
 
 - Candidate: `2026-11-07-rechargeable-vs-disposable-batteries`; revision 2; Blog/Home; final-review.
@@ -1368,6 +1389,27 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### Five stories worth catching up on this Monday | revision 1
+
+- Candidate: `2026-11-09-weekly-roundup`; revision 1; News; final-review; superseded after Request changes.
+- Historical reviewed packet: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/reviewed-packet-r1.md`; SHA-256 `3b0979ad09cfc41870559ab84104f87e72fcb4227dcb04163712d2e2ef33722c`.
+- Decision-bearing packet: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/approval.md`; current SHA-256 `b954e79f10cdb59d14e75736282c0d5307f7e6d55e416cb3d115f4fb0c669874`; Request changes recorded.
+- Complete reviewer copy: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/reviewer-r1.md`; SHA-256 `2488345a85d120b118cb89e8bbbcc3d59cda058f78b5636eaf8869418b9f7681`.
+- Reviewed snapshot: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/reviewed-packet-r1.md`.
+- Article payload SHA-256: `a8426d2bcd595a83f6c12660096ae24d8f461f5d27e8411b81ed14584119843c`; 507 prose words; public-metadata SHA-256 `0d0fc09c9d792464e1d28a4b0063e8275aa9b896b5c1e30923868bdbcbd3f159`.
+- Preview: `http://127.0.0.1:1313/news/weekly-roundup-9-november-2026/?local-review=1`; external full-content mirror, draft-only, hidden from lists.
+- Checks: `99-Archive/published/2026-11-09-weekly-roundup/07-Approval/2026-11-09-weekly-roundup/checks/`; `99-Archive/published/2026-11-09-weekly-roundup/06-Design/2026-11-09-weekly-roundup/checks/`; stage contracts, ten-source/32-passage evidence, exact payload, isolated/normal builds, HTTP/pane and 23-width QA complete.
+- Limitations: existing shared coffee badge overlaps some text; official NZ results and PNAS access blocked, with attributed/provisional copy retained. Named QA transport stopped; shared-browser process exit not claimed.
+- Historical disposition: Request changes; superseded by approved revision 2; no pending revision-1 decision.
+- Run: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/run.md`.
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+
+Historical revision-1 boundary: local publication only; superseded by revision 2. No revision-1 decision is pending.
+
 
 ### Rechargeable vs disposable batteries: which gives you better value? | revision 1, superseded
 
