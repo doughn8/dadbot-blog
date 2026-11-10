@@ -25,17 +25,20 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### COP31 faces a difficult test | revision 1
 
 - Candidate: `2026-11-10-cop31-difficult-test`; revision 1; News; final-review
-- Status: published locally; exact revision 1 approved; authorised release in progress
+- Status: published live; exact revision 1 approved; released and cleaned
 - Public file: `content/news/2026-11-10-cop31-difficult-test.md`; raw SHA-256 `5db29309e3c35b772d8884ae3bdb5339d11b71be7674cfb743529aa41d59ab5e`
 - Archive: `99-Archive/published/2026-11-10-cop31-difficult-test/`; all 275 discovered stage files byte-verified before pointer reconciliation; private archive local-only
-- Package: `99-Archive/published/2026-11-10-cop31-difficult-test/07-Approval/2026-11-10-cop31-difficult-test/approval.md`; current decision-packet SHA-256 `7ce012127323959b0712e8b5a0d464f1676c086dc21f9ff4240c3b2c88b5c4c5`
+- Package: `99-Archive/published/2026-11-10-cop31-difficult-test/07-Approval/2026-11-10-cop31-difficult-test/approval.md`; current decision-packet SHA-256 `1fbfb191101656bfea909b973cb7710aff2bf3ecbe145269c76f67222aa7bf27`
 - Reviewed snapshot: `99-Archive/published/2026-11-10-cop31-difficult-test/07-Approval/2026-11-10-cop31-difficult-test/reviewed-packet-r1.md`; SHA-256 `e2ce87fde20bfccd25fdeb357989713de31e2b821ddc506ae83d4a43cdbcefcb`
 - Payload SHA-256: `b0d3267b9c2f6abecc0390f41b7b71f6bae726bc8318f866f476808d2e03917e`; 1,022 prose words; approved metadata SHA-256 `5e8ce112582d697c14aad82fcaa1b9fe9a670e96bbe199358fe114aae5cca52f`
 - Decision: Approve; “approved. Commiy, push and clean up”; 2026-11-10T12:08:58.482529+01:00; local publication, commit, push/deployment verification and task-owned cleanup authorised
 - Checks: approved body/metadata preserved; Hugo 0.163.3 production build; 276 Node 22 / 16 Python 3.11 tests; local home/News/article HTTP; three-width browser/screenshots and six-source rendered mapping passed
 - Limitations: inherited coffee-badge overlap and source 6 final-refresh rate limit remain documented; no shared CSS change
 - Run: `99-Archive/published/2026-11-10-cop31-difficult-test/01-Ideas/2026-11-10-cop31-difficult-test/run.md`
-- Next: authorised candidate-only commit/push, exact-SHA deployment/live verification and task-owned cleanup
+- Product commit: `8c0692d4489236563fe9661d3a4807431e785869`; Pages run `42806556948`, build/deploy successful
+- Live verified: cache-busted homepage, News listing and exact article; approved body/metadata, six source pairs, one title/TL;DR and real browser checks
+- Cleanup: all stage history/evidence retained locally; task-owned external preview/build root removed; local server and named QA transports verified stopped; live article open in desktop pane
+- Next: none for this article; final records-HEAD deployment/readback receipts retained in the local archive
 
 - [x] Approve
 - [ ] Request changes
