@@ -7,6 +7,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] COP31 faces a difficult test | revision 1
+  - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-10-cop31-difficult-test/01-Ideas/2026-11-10-cop31-difficult-test/idea.md`; SHA-256 `4295e58464cca0a9a6491c93a1f837fc137f42872e642369302ae1345036c17e`
+  - Checks: candidate checks/; YAML, contract, strict evidence, exact passages and normal Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-10-cop31-difficult-test/01-Ideas/2026-11-10-cop31-difficult-test/run.md`
+
 - [x] Five stories worth catching up on this Monday | revision 1
   - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Idea internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/01-Ideas/2026-11-09-weekly-roundup/idea.md`; SHA-256 `2c99db1ba6fdf12c8c0e8628512e5a6c77bf24fe9322b679e333af6b2ec4821b`
@@ -436,6 +442,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] COP31 faces a difficult test | revision 1
+  - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Brief internally checked
+  - Artifact: `99-Archive/published/2026-11-10-cop31-difficult-test/02-Briefs/2026-11-10-cop31-difficult-test/brief.md`; SHA-256 `471342a48353bc610f2333284bec0eec33497c9f228cb7e30c450412e7be529e`
+  - Checks: strict evidence, refreshed identical source text, YAML, contract, fresh normal Hugo build
+  - Run: `99-Archive/published/2026-11-10-cop31-difficult-test/01-Ideas/2026-11-10-cop31-difficult-test/run.md`
 
 - [x] Five stories worth catching up on this Monday | revision 1
   - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Brief internally checked, not human-approved
@@ -867,6 +879,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] COP31 faces a difficult test | revision 1
+  - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; SEO internally checked
+  - Artifact: `99-Archive/published/2026-11-10-cop31-difficult-test/03-SEO/2026-11-10-cop31-difficult-test/seo.md`; SHA-256 `25eac4919f985b1dbf8aadf2baac7169d83d0a307b12492001493eab9fd901fe`
+  - Checks: YAML, structural contract, metadata measurement, internal-link search and normal Hugo build passed
+  - Run: `99-Archive/published/2026-11-10-cop31-difficult-test/01-Ideas/2026-11-10-cop31-difficult-test/run.md`
 
 - [x] Five stories worth catching up on this Monday | revision 1
   - Candidate: `2026-11-09-weekly-roundup`; News; final-review; SEO internally checked, not human-approved
@@ -1377,6 +1395,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] COP31 faces a difficult test | revision 1
+  - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Draft internally checked
+  - Artifact: `99-Archive/published/2026-11-10-cop31-difficult-test/04-Drafts/2026-11-10-cop31-difficult-test/draft.md`; SHA-256 `ce593a9c458550734c898aae6f13e193ad1a56e94f4219c41977940fb338df23`
+  - Checks: YAML, structural, 1,063 prose words, semantic audit, strict evidence 84%, exact extraction and normal Hugo build
+  - Run: `99-Archive/published/2026-11-10-cop31-difficult-test/01-Ideas/2026-11-10-cop31-difficult-test/run.md`
 
 - [x] Five stories worth catching up on this Monday | revision 2
   - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Draft revision 2 internally checked
@@ -2006,6 +2030,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] COP31 faces a difficult test | revision 1
+  - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Creative Edit internally checked
+  - Artifact: `99-Archive/published/2026-11-10-cop31-difficult-test/05-Reviews/2026-11-10-cop31-difficult-test/creative-edit.md`; SHA-256 `6ecd84471df08b7df21e8bcd619fbc5ded98b47c9bdac41073c0fde380ca1716`
+  - Checks: 1,022 prose words; strict evidence 85%, fourteen exact passages, canonical payload b0d3267b9c2f6abecc0390f41b7b71f6bae726bc8318f866f476808d2e03917e; YAML, contract and normal Hugo build passed
+  - Run: `99-Archive/published/2026-11-10-cop31-difficult-test/01-Ideas/2026-11-10-cop31-difficult-test/run.md`
 
 - [x] Five stories worth catching up on this Monday | revision 2
   - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Creative Edit revision 2 internally checked
@@ -2644,6 +2674,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] COP31 faces a difficult test | revision 1
+  - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Proofread internally checked
+  - Artifact: `99-Archive/published/2026-11-10-cop31-difficult-test/05-Reviews/2026-11-10-cop31-difficult-test/proofread.md`; SHA-256 `2c2568c202cd4cac67a2f972d276f6713c07c7fd62c00066e7d259f137d35dba`
+  - Checks: unchanged canonical payload b0d3267b9c2f6abecc0390f41b7b71f6bae726bc8318f866f476808d2e03917e; 1,022 prose words; YAML, contract, strict evidence, exact identity and normal Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-10-cop31-difficult-test/01-Ideas/2026-11-10-cop31-difficult-test/run.md`
+
 - [x] Five stories worth catching up on this Monday | revision 2
   - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Proofread revision 2 internally checked
   - Artifact: `99-Archive/published/2026-11-09-weekly-roundup/05-Reviews/2026-11-09-weekly-roundup/proofread-revision-2.md`; SHA-256 `fb03285ec1348f1db6ad45be23fa4b08098782b1309f66541a8534ce7a821235`
@@ -3274,6 +3310,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] COP31 faces a difficult test | revision 1
+  - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Design internally checked
+  - Artifact: `99-Archive/published/2026-11-10-cop31-difficult-test/06-Design/2026-11-10-cop31-difficult-test/design.md`; SHA-256 `84b47558c36b29912f786975bd5213acebbaa3da262556dd80f7709668d76139`
+  - Checks: isolated full-site build, candidate-free production build, exact preview payload, HTTP, 20 responsive widths and source/TOC verification passed; inherited coffee-badge overlap and source 6 refresh rate limit disclosed
+  - Run: `99-Archive/published/2026-11-10-cop31-difficult-test/01-Ideas/2026-11-10-cop31-difficult-test/run.md`
 
 - [x] Five stories worth catching up on this Monday | revision 2
   - Candidate: `2026-11-09-weekly-roundup`; News; final-review; Design revision 2 internally checked
@@ -3933,6 +3975,21 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] COP31 faces a difficult test | revision 1
+  - Candidate: `2026-11-10-cop31-difficult-test`; revision 1; News; final-review
+  - Status: published locally; exact revision 1 approved; authorised release in progress
+  - Public file: `content/news/2026-11-10-cop31-difficult-test.md`; raw SHA-256 `5db29309e3c35b772d8884ae3bdb5339d11b71be7674cfb743529aa41d59ab5e`
+  - Archive: `99-Archive/published/2026-11-10-cop31-difficult-test/`; all 275 discovered stage files byte-verified before pointer reconciliation; private archive local-only
+  - Package: `99-Archive/published/2026-11-10-cop31-difficult-test/07-Approval/2026-11-10-cop31-difficult-test/approval.md`; current decision-packet SHA-256 `7ce012127323959b0712e8b5a0d464f1676c086dc21f9ff4240c3b2c88b5c4c5`
+  - Reviewed snapshot: `99-Archive/published/2026-11-10-cop31-difficult-test/07-Approval/2026-11-10-cop31-difficult-test/reviewed-packet-r1.md`; SHA-256 `e2ce87fde20bfccd25fdeb357989713de31e2b821ddc506ae83d4a43cdbcefcb`
+  - Payload SHA-256: `b0d3267b9c2f6abecc0390f41b7b71f6bae726bc8318f866f476808d2e03917e`; 1,022 prose words; approved metadata SHA-256 `5e8ce112582d697c14aad82fcaa1b9fe9a670e96bbe199358fe114aae5cca52f`
+  - Decision: Approve; “approved. Commiy, push and clean up”; 2026-11-10T12:08:58.482529+01:00; local publication, commit, push/deployment verification and task-owned cleanup authorised
+  - Checks: approved body/metadata preserved; Hugo 0.163.3 production build; 276 Node 22 / 16 Python 3.11 tests; local home/News/article HTTP; three-width browser/screenshots and six-source rendered mapping passed
+  - Limitations: inherited coffee-badge overlap and source 6 final-refresh rate limit remain documented; no shared CSS change
+  - Run: `99-Archive/published/2026-11-10-cop31-difficult-test/01-Ideas/2026-11-10-cop31-difficult-test/run.md`
+  - Next: authorised candidate-only commit/push, exact-SHA deployment/live verification and task-owned cleanup
+
 
 - [x] Five stories worth catching up on this Monday | revision 2
   - Candidate: `2026-11-09-weekly-roundup`; revision 2; News; final-review
