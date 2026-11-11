@@ -4013,17 +4013,20 @@ See also: [[Approval Queue]]
 ## Published
 
 - [x] Russell Brand’s conviction and sentence | revision 1
-  - Candidate: `2026-11-11-russell-brand-conviction`; revision 1; News; final-review; published locally, approved release in progress
+  - Candidate: `2026-11-11-russell-brand-conviction`; revision 1; News; final-review; published live; exact revision 1 approved; released and cleaned
   - Public file: `content/news/2026-11-11-russell-brand-conviction.md`; SHA-256 `a837831dbf9b0255169bd97d946f4938d5d4aead582a4e3b46b06b60bfdcbe2a`
   - Archive: `99-Archive/published/2026-11-11-russell-brand-conviction/`; 167 discovered stage files byte-verified before one actionable pointer rewrite; private archive local-only
-  - Package: `99-Archive/published/2026-11-11-russell-brand-conviction/07-Approval/2026-11-11-russell-brand-conviction/approval.md`; mutable decision-packet SHA-256 `abe233105ff91a4a88b640154fa248479a0ac8d85400019ce151c24009a42078`
+  - Package: `99-Archive/published/2026-11-11-russell-brand-conviction/07-Approval/2026-11-11-russell-brand-conviction/approval.md`; mutable decision-packet SHA-256 `ce126e2fe74b57d25c2d28171ae9e5aabdb7e001351edd0c22f9b6ef33ae1ed4`
   - Reviewed snapshot: `99-Archive/published/2026-11-11-russell-brand-conviction/07-Approval/2026-11-11-russell-brand-conviction/approval-reviewed.md`; SHA-256 `e60aae4e3d4a7aa63c7d1a8e2982274bd8782746abe0e23fa392d6a35e8d3775`
   - Payload: `9ced6fbac18c096145d76afbcb29ffd9749a69bc7096faa571730939fc44ac7d`; 1,024 prose words; approved metadata preserved
   - Decision: Approve; “approved. Commit, push and clean up”; local publication, candidate-only commit/push, deployment verification and task-owned cleanup authorised
   - Checks: pinned Hugo build, 276 Node 22 tests, 16 Python 3.11 tests, home/News/article HTTP and three-width browser/visual checks, exact body/description/six sources PASS
   - Limitation: pre-existing phone/tablet coffee-badge obstruction retained; no shared CSS changes
   - Run: `99-Archive/published/2026-11-11-russell-brand-conviction/01-Ideas/2026-11-11-russell-brand-conviction/run.md`
-  - Next: finish authorised commit/push, exact-SHA deployment verification and task-owned cleanup
+  - Product commit: `d6cd386aa4b7f8865fced5918ae1fe207c7cbb2e`; Pages run `42990872375`, build/deploy successful
+  - Live verified: cache-busted home/News/article, exact approved article/description/six sources and three-width browser checks
+  - Cleanup: all stage history retained locally; ten task-owned roots/files removed; owned local/QA processes and ports verified stopped; live pane retained
+  - Next: none for this article; final records-HEAD deployment/readback receipts retained in the local archive
 
 - [x] COP31 faces a difficult test | revision 1
   - Candidate: `2026-11-10-cop31-difficult-test`; revision 1; News; final-review

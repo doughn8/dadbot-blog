@@ -24,18 +24,21 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ### Russell Brand’s conviction and sentence: what the court decided | revision 1
 
 - Candidate: `2026-11-11-russell-brand-conviction`; revision 1; News; final-review
-- Status: published locally; exact revision 1 approved; release and cleanup in progress
+- Status: published live; exact revision 1 approved; released and cleaned
 - Public file: `content/news/2026-11-11-russell-brand-conviction.md`; raw SHA-256 `a837831dbf9b0255169bd97d946f4938d5d4aead582a4e3b46b06b60bfdcbe2a`
 - Archive: `99-Archive/published/2026-11-11-russell-brand-conviction/`; 167 discovered stage files byte-verified before pointer reconciliation; private archive local-only
-- Package: `99-Archive/published/2026-11-11-russell-brand-conviction/07-Approval/2026-11-11-russell-brand-conviction/approval.md`; current decision-packet SHA-256 `abe233105ff91a4a88b640154fa248479a0ac8d85400019ce151c24009a42078`
+- Package: `99-Archive/published/2026-11-11-russell-brand-conviction/07-Approval/2026-11-11-russell-brand-conviction/approval.md`; current decision-packet SHA-256 `ce126e2fe74b57d25c2d28171ae9e5aabdb7e001351edd0c22f9b6ef33ae1ed4`
 - Reviewed snapshot: `99-Archive/published/2026-11-11-russell-brand-conviction/07-Approval/2026-11-11-russell-brand-conviction/approval-reviewed.md`; SHA-256 `e60aae4e3d4a7aa63c7d1a8e2982274bd8782746abe0e23fa392d6a35e8d3775`
 - Payload SHA-256: `9ced6fbac18c096145d76afbcb29ffd9749a69bc7096faa571730939fc44ac7d`; 1,024 prose words
 - Decision: Approve; “approved. Commit, push and clean up”; separately authorised local publication, candidate-only commit/push, deployment verification and task-owned cleanup
 - Checks: exact body/public metadata, source freshness, Hugo 0.163.3, 276 Node 22 / 16 Python 3.11 tests, local home/News/article HTTP, three-width browser/screenshots and six source pairs PASS
 - Limitation: inherited phone/tablet coffee-badge overlap remains documented; no shared CSS change
 - Run: `99-Archive/published/2026-11-11-russell-brand-conviction/01-Ideas/2026-11-11-russell-brand-conviction/run.md`
-- Preview disposition: after verified deployment switch pane to live, then stop owned local/QA processes and remove candidate-owned caches; archive retained locally
-- Next: finish authorised commit/push, exact-SHA deployment verification and task-owned cleanup
+- Preview disposition: live article open/read back; owned local/QA processes stopped and caches removed; archive retained locally
+- Product commit: `d6cd386aa4b7f8865fced5918ae1fe207c7cbb2e`; Pages run `42990872375`, build/deploy successful
+- Live verified: cache-busted home/News/article, exact approved article/description/six sources and three-width browser checks
+- Cleanup: all stage history retained locally; ten task-owned roots/files removed; owned local/QA processes and ports verified stopped; live pane retained
+- Next: none for this article; final records-HEAD deployment/readback receipts retained in the local archive
 
 
 ### COP31 faces a difficult test | revision 1
