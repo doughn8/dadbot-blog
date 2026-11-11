@@ -7,6 +7,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Russell Brand’s conviction and sentence | revision 1
+  - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Idea checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-11-russell-brand-conviction/01-Ideas/2026-11-11-russell-brand-conviction/idea.md`; SHA-256 `cccf4a38168cdae2913aa0fc37ab45f7639953fe0f89ee29f1c43101fdbe64c7`
+  - Checks: strict evidence, exact quotations, YAML, structural contract and fresh Hugo build PASS
+
 - [x] COP31 faces a difficult test | revision 1
   - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Idea internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-10-cop31-difficult-test/01-Ideas/2026-11-10-cop31-difficult-test/idea.md`; SHA-256 `4295e58464cca0a9a6491c93a1f837fc137f42872e642369302ae1345036c17e`
@@ -442,6 +447,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] Russell Brand’s conviction and sentence | revision 1
+  - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Brief checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-11-russell-brand-conviction/02-Briefs/2026-11-11-russell-brand-conviction/brief.md`; SHA-256 `c902dc514feac70e7cc9917a9050293fca88a504dc76a4933d8333f140957f95`
+  - Run: `99-Archive/published/2026-11-11-russell-brand-conviction/01-Ideas/2026-11-11-russell-brand-conviction/run.md`; checks: strict evidence, YAML, contract, fresh Hugo build PASS
 
 - [x] COP31 faces a difficult test | revision 1
   - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Brief internally checked
@@ -879,6 +889,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Russell Brand’s conviction and sentence | revision 1
+  - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; SEO checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-11-russell-brand-conviction/03-SEO/2026-11-11-russell-brand-conviction/seo.md`; SHA-256 `cdcf793b8b3d6a6e1f2a31f0daa57629b8f11fe436d33ff240bad834e611768f`
+  - Run: `99-Archive/published/2026-11-11-russell-brand-conviction/01-Ideas/2026-11-11-russell-brand-conviction/run.md`; checks: measured metadata, strict evidence, YAML, contract, fresh Hugo build PASS
 
 - [x] COP31 faces a difficult test | revision 1
   - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; SEO internally checked
@@ -1395,6 +1410,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Russell Brand’s conviction and sentence | revision 1
+  - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Draft checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-11-russell-brand-conviction/04-Drafts/2026-11-11-russell-brand-conviction/draft.md`; SHA-256 `7950b3140a8f7102f9584c4d0bf8fc45bd06b6ef58f01dc61dda64a83ad5b585`
+  - Payload: `3e7ce8c7e943cd03a6cab87f84557fa6752a288a7456d6c70c310f2d4e8ed08e`; 1,023 prose words; exact evidence/coverage, semantic claim/voice audit, YAML, contract and Hugo PASS
 
 - [x] COP31 faces a difficult test | revision 1
   - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Draft internally checked
@@ -2030,6 +2050,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Russell Brand’s conviction and sentence | revision 1
+  - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Creative Edit checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-11-russell-brand-conviction/05-Reviews/2026-11-11-russell-brand-conviction/creative-edit.md`; SHA-256 `f6eb07b74b8634cc9867c33a529795994241497173179c48a83bc71993decc47`
+  - Payload: `9ced6fbac18c096145d76afbcb29ffd9749a69bc7096faa571730939fc44ac7d`; 1,024 prose words; voice/evidence/coverage, YAML/contract and fresh Hugo PASS
 
 - [x] COP31 faces a difficult test | revision 1
   - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Creative Edit internally checked
@@ -2674,6 +2699,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Russell Brand’s conviction and sentence | revision 1
+  - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Proofread checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-11-russell-brand-conviction/05-Reviews/2026-11-11-russell-brand-conviction/proofread.md`; SHA-256 `88f85ba1b859098ffa2d6856dcceb498fb3726c558b4d64f923187ce407fc31b`
+  - Payload: `9ced6fbac18c096145d76afbcb29ffd9749a69bc7096faa571730939fc44ac7d`; 1,024 prose words; exact equality/evidence/coverage, YAML/contract, focused tests and fresh Hugo PASS
+
 - [x] COP31 faces a difficult test | revision 1
   - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Proofread internally checked
   - Artifact: `99-Archive/published/2026-11-10-cop31-difficult-test/05-Reviews/2026-11-10-cop31-difficult-test/proofread.md`; SHA-256 `2c2568c202cd4cac67a2f972d276f6713c07c7fd62c00066e7d259f137d35dba`
@@ -3311,6 +3341,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Design
 
+- [x] Russell Brand’s conviction and sentence | revision 1
+  - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Design checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-11-russell-brand-conviction/06-Design/2026-11-11-russell-brand-conviction/design.md`; SHA-256 `23785b2aa282393a11c403b0eb786371ec0c65e61424f24eb0b8321e9ce3b65b`
+  - Checks: isolated preview, production isolation, twenty-width browser/visual QA, fresh sources/quotes, YAML/contract and exact payload PASS; pre-existing mobile coffee-badge obstruction disclosed
+
 - [x] COP31 faces a difficult test | revision 1
   - Candidate: `2026-11-10-cop31-difficult-test`; News; final-review; Design internally checked
   - Artifact: `99-Archive/published/2026-11-10-cop31-difficult-test/06-Design/2026-11-10-cop31-difficult-test/design.md`; SHA-256 `84b47558c36b29912f786975bd5213acebbaa3da262556dd80f7709668d76139`
@@ -3944,6 +3979,7 @@ A simple Obsidian board for tracking Dadbot work.
 
 
 
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
@@ -3975,6 +4011,19 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Russell Brand’s conviction and sentence | revision 1
+  - Candidate: `2026-11-11-russell-brand-conviction`; revision 1; News; final-review; published locally, approved release in progress
+  - Public file: `content/news/2026-11-11-russell-brand-conviction.md`; SHA-256 `a837831dbf9b0255169bd97d946f4938d5d4aead582a4e3b46b06b60bfdcbe2a`
+  - Archive: `99-Archive/published/2026-11-11-russell-brand-conviction/`; 167 discovered stage files byte-verified before one actionable pointer rewrite; private archive local-only
+  - Package: `99-Archive/published/2026-11-11-russell-brand-conviction/07-Approval/2026-11-11-russell-brand-conviction/approval.md`; mutable decision-packet SHA-256 `abe233105ff91a4a88b640154fa248479a0ac8d85400019ce151c24009a42078`
+  - Reviewed snapshot: `99-Archive/published/2026-11-11-russell-brand-conviction/07-Approval/2026-11-11-russell-brand-conviction/approval-reviewed.md`; SHA-256 `e60aae4e3d4a7aa63c7d1a8e2982274bd8782746abe0e23fa392d6a35e8d3775`
+  - Payload: `9ced6fbac18c096145d76afbcb29ffd9749a69bc7096faa571730939fc44ac7d`; 1,024 prose words; approved metadata preserved
+  - Decision: Approve; “approved. Commit, push and clean up”; local publication, candidate-only commit/push, deployment verification and task-owned cleanup authorised
+  - Checks: pinned Hugo build, 276 Node 22 tests, 16 Python 3.11 tests, home/News/article HTTP and three-width browser/visual checks, exact body/description/six sources PASS
+  - Limitation: pre-existing phone/tablet coffee-badge obstruction retained; no shared CSS changes
+  - Run: `99-Archive/published/2026-11-11-russell-brand-conviction/01-Ideas/2026-11-11-russell-brand-conviction/run.md`
+  - Next: finish authorised commit/push, exact-SHA deployment verification and task-owned cleanup
 
 - [x] COP31 faces a difficult test | revision 1
   - Candidate: `2026-11-10-cop31-difficult-test`; revision 1; News; final-review
