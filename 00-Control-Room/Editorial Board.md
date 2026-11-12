@@ -7,6 +7,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Hoax bomb threats disrupt European schools | revision 1
+  - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/idea.md`; SHA-256 `647e0845339598507c40d02ecaad8b217da2b05ddc4a1ee5a913245ea9d9f087`
+  - Checks: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/checks/idea.json`; YAML, strict evidence, exact passages, structural contract and fresh normal Hugo build passed
+  - Run: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/run.md`
+
 - [x] Russell Brand’s conviction and sentence | revision 1
   - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Idea checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-11-russell-brand-conviction/01-Ideas/2026-11-11-russell-brand-conviction/idea.md`; SHA-256 `cccf4a38168cdae2913aa0fc37ab45f7639953fe0f89ee29f1c43101fdbe64c7`
@@ -447,6 +453,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Briefing
+
+- [x] Hoax bomb threats disrupt European schools | revision 1
+  - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Brief checked internally
+  - Artifact: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/02-Briefs/2026-11-12-europe-school-bomb-hoaxes/brief.md`; SHA-256 `578cf774c17a979ddddbdce6bd417650f9e5037f1217fcaf8911837a4a38bb83`
+  - Checks: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/checks/brief.json`; YAML, evidence, structural and fresh Hugo build passed
 
 - [x] Russell Brand’s conviction and sentence | revision 1
   - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Brief checked, not human-approved
@@ -889,6 +900,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Hoax bomb threats disrupt European schools | revision 1
+  - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; SEO checked internally
+  - Artifact: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/03-SEO/2026-11-12-europe-school-bomb-hoaxes/seo.md`; SHA-256 `0223a79c90d5937961029ea9fff4d354a537e2052e80d17b0fafb4a0005d2eed`
+  - Checks: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/checks/seo.json`; YAML, measured metadata, structural and fresh Hugo build passed; evidence rendering not applicable, no citations
 
 - [x] Russell Brand’s conviction and sentence | revision 1
   - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; SEO checked, not human-approved
@@ -1410,6 +1426,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Hoax bomb threats disrupt European schools | revision 1
+  - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Draft checked internally
+  - Artifact: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/04-Drafts/2026-11-12-europe-school-bomb-hoaxes/draft.md`; SHA-256 `f2bd050f49aed5df2a65a8836e92f68df6ccabe3c93ad0353baad0a683ee14c3`
+  - Payload SHA-256: `5731f1e64b1854c79e754b81ad9d3fbb4892f790937e9a65f23500083686423d`; 1,005 citation-stripped prose words
+  - Checks: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/checks/draft.json`; 53 claim-specific mappings, exact passages, strict extracted evidence/coverage, YAML, structural and fresh Hugo build passed
 
 - [x] Russell Brand’s conviction and sentence | revision 1
   - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Draft checked, not human-approved
@@ -2050,6 +2072,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Hoax bomb threats disrupt European schools | revision 1
+  - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Creative Edit checked internally
+  - Artifact: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/05-Reviews/2026-11-12-europe-school-bomb-hoaxes/creative-edit.md`; SHA-256 `1b68c8f3d1b610b924088bc6604253fc58e065ad2ede510ef7bbe2057c321aff`
+  - Payload SHA-256: `5731f1e64b1854c79e754b81ad9d3fbb4892f790937e9a65f23500083686423d`; 1,005 prose words; no copy changes after full voice/repetition audit
+  - Checks: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/checks/creative-edit.json`; evidence, equality, YAML, structural and fresh Hugo build passed
 
 - [x] Russell Brand’s conviction and sentence | revision 1
   - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Creative Edit checked, not human-approved
@@ -2699,6 +2727,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Hoax bomb threats disrupt European schools | revision 1
+  - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Proofread checked internally
+  - Artifact: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/05-Reviews/2026-11-12-europe-school-bomb-hoaxes/proofread.md`; SHA-256 `0c88fcca751fba926a76c077665bfd157b95132d1b325ad76218c3152a6e718e`
+  - Payload SHA-256: `5731f1e64b1854c79e754b81ad9d3fbb4892f790937e9a65f23500083686423d`; 1,005 prose words; no copy changes
+  - Checks: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/checks/proofread.json`; evidence, equality, YAML, structural, git whitespace and fresh Hugo build passed
+
 - [x] Russell Brand’s conviction and sentence | revision 1
   - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Proofread checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-11-russell-brand-conviction/05-Reviews/2026-11-11-russell-brand-conviction/proofread.md`; SHA-256 `88f85ba1b859098ffa2d6856dcceb498fb3726c558b4d64f923187ce407fc31b`
@@ -3340,6 +3374,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Hoax bomb threats disrupt European schools | revision 1
+  - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Design checked internally with disclosed existing badge obstruction
+  - Artifact: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/06-Design/2026-11-12-europe-school-bomb-hoaxes/design.md`; SHA-256 `8f0fe82ba04ffd592c649dd3abd664e00d92d1357844c2267839b6fb898ee632`
+  - Payload SHA-256: `5731f1e64b1854c79e754b81ad9d3fbb4892f790937e9a65f23500083686423d`; isolated preview on 1313, no checkout public article
+  - Checks: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/checks/design-summary.json`; 23 widths zero overflow, sibling geometry parity; shared coffee badge overlaps copy at narrower widths; normal build exclusion passed
 
 - [x] Russell Brand’s conviction and sentence | revision 1
   - Candidate: `2026-11-11-russell-brand-conviction`; News; final-review; Design checked, not human-approved
@@ -4011,6 +4051,20 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Hoax bomb threats disrupt European schools | revision 1
+  - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; published locally; final decision Approve.
+  - Public file: `content/news/2026-11-12-europe-school-bomb-hoaxes.md`.
+  - Run: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/run.md`.
+  - Current decision packet: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/07-Approval/2026-11-12-europe-school-bomb-hoaxes/approval.md`; SHA-256 `ecf4851fef116a57915538d58559731ce0bd74c491a905dfe92ec5331bcb17de`.
+  - Immutable reviewed packet: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/07-Approval/2026-11-12-europe-school-bomb-hoaxes/approval-reviewed.md`; SHA-256 `9c81d557d061e5f2f5d8fcb02083f02ccf02b0709e376ab94cc6d5592fa76ac1`.
+  - Payload SHA-256: `5731f1e64b1854c79e754b81ad9d3fbb4892f790937e9a65f23500083686423d`; metadata SHA-256 `b6ae8fe7b952143edb1acbcccfc0e004f6648dd5583e092929aa2b8e30a0f685`; 1,005 prose words.
+  - Decision: “approved. Commit, push and clean up”; 2026-11-12T11:48:04.545811+01:00; local publication, commit, push main and task-owned cleanup authorised.
+  - Checks: exact copy; seven-source evidence; 53 claim mappings; isolated/normal builds; 23-width design checks; normal published local homepage/News/article and metadata/source equality.
+  - Limitations: existing narrower-screen coffee badge obstruction unchanged; PSNI primary blocked, attributed BBC/RTÉ reporting used.
+  - Live route: `https://dadbot.blog/news/europe-school-bomb-hoaxes/`; delivery results retained in local archive.
+  - Preview disposition: temporary verification only; final handoff is canonical live route after deployment.
+  - Next: no editorial work; final commit/deployment and cleanup receipts are recorded in the local archive, not inferred from this approval.
 
 - [x] Russell Brand’s conviction and sentence | revision 1
   - Candidate: `2026-11-11-russell-brand-conviction`; revision 1; News; final-review; published live; exact revision 1 approved; released and cleaned

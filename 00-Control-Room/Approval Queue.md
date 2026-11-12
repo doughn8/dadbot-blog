@@ -21,6 +21,20 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Hoax bomb threats disrupt European schools | revision 1
+- Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; published locally; final decision Approve.
+- Public file: `content/news/2026-11-12-europe-school-bomb-hoaxes.md`.
+- Run: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/run.md`.
+- Current decision packet: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/07-Approval/2026-11-12-europe-school-bomb-hoaxes/approval.md`; SHA-256 `ecf4851fef116a57915538d58559731ce0bd74c491a905dfe92ec5331bcb17de`.
+- Immutable reviewed packet: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/07-Approval/2026-11-12-europe-school-bomb-hoaxes/approval-reviewed.md`; SHA-256 `9c81d557d061e5f2f5d8fcb02083f02ccf02b0709e376ab94cc6d5592fa76ac1`.
+- Payload SHA-256: `5731f1e64b1854c79e754b81ad9d3fbb4892f790937e9a65f23500083686423d`; metadata SHA-256 `b6ae8fe7b952143edb1acbcccfc0e004f6648dd5583e092929aa2b8e30a0f685`; 1,005 prose words.
+- Decision: “approved. Commit, push and clean up”; 2026-11-12T11:48:04.545811+01:00; local publication, commit, push main and task-owned cleanup authorised.
+- Checks: exact copy; seven-source evidence; 53 claim mappings; isolated/normal builds; 23-width design checks; normal published local homepage/News/article and metadata/source equality.
+- Limitations: existing narrower-screen coffee badge obstruction unchanged; PSNI primary blocked, attributed BBC/RTÉ reporting used.
+- Live route: `https://dadbot.blog/news/europe-school-bomb-hoaxes/`; delivery results retained in local archive.
+- Preview disposition: temporary verification only; final handoff is canonical live route after deployment.
+- Next: no editorial work; final commit/deployment and cleanup receipts are recorded in the local archive, not inferred from this approval.
+
 ### Russell Brand’s conviction and sentence: what the court decided | revision 1
 
 - Candidate: `2026-11-11-russell-brand-conviction`; revision 1; News; final-review
