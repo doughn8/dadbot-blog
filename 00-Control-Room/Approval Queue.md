@@ -21,6 +21,18 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Outlook outage: what broke and how recovery is progressing | revision 1
+- Candidate: `2026-11-13-outlook-outage`; News; final-review; published locally; final decision Approve.
+- Decision: user instruction “approved. Commit, push and clean up”; local publication, commit, main push and task-owned cleanup authorised separately.
+- Public file: `content/news/2026-11-13-outlook-outage.md`; route `/news/outlook-outage/`.
+- Run: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/run.md`.
+- Current decision packet: `99-Archive/published/2026-11-13-outlook-outage/07-Approval/2026-11-13-outlook-outage/approval.md`; SHA-256 `6e3c97e7f1ae0b6ddef64d8110ae975460a89901fd25a448e07ab5f70a17f549`.
+- Immutable reviewed packet: `99-Archive/published/2026-11-13-outlook-outage/07-Approval/2026-11-13-outlook-outage/approval-reviewed.md`; SHA-256 `2659081bd17fa512edbc8e2b39f5f580e82fb38228d93fc95e118589be57ee2f`.
+- Reviewer: `99-Archive/published/2026-11-13-outlook-outage/07-Approval/2026-11-13-outlook-outage/final-approval-review.md`; SHA-256 `d96043050bd7adf7caf37266a060539b1a212752946d7c2f15a776c27d009035`.
+- Payload SHA-256: `0286d75749d2fcbff6ab29f03e9a4c778f1f24cbfa79b4767bc680475c88c976`; metadata `689e24ce2859b10ab87292fccf58a043f007aabdd0821701723bc326bf01af09`; 1,008 prose words.
+- Checks: `99-Archive/published/2026-11-13-outlook-outage/07-Approval/2026-11-13-outlook-outage/release/`; normal production/local article/home/News, exact content/summary/source/metadata identity and archive preservation passed. Existing fixed coffee badge issue unchanged.
+- Next: commit/push the isolated candidate release, verify exact-SHA deployment/live delivery, then clean task-owned resources; private archive retained local-only.
+
 ### Hoax bomb threats disrupt European schools | revision 1
 - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; published live; final decision Approve.
 - Public file: `content/news/2026-11-12-europe-school-bomb-hoaxes.md`.

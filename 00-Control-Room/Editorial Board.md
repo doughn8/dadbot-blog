@@ -7,6 +7,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Outlook outage: what broke and how recovery is progressing | revision 1
+  - Candidate: `2026-11-13-outlook-outage`; News; final-review; Idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/idea.md`; SHA-256 `3641e60a461dd503399d1ab2a778c3df98a48a20fe86750b16c56f1cf597538a`
+  - Checks: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/checks/`; YAML, contract, exact passages, evidence integrity and normal Hugo exclusion PASS; unused carry-forward IDs 3 and 5 intentionally retained
+  - Run: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/run.md`
+
 - [x] Hoax bomb threats disrupt European schools | revision 1
   - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Idea internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/01-Ideas/2026-11-12-europe-school-bomb-hoaxes/idea.md`; SHA-256 `647e0845339598507c40d02ecaad8b217da2b05ddc4a1ee5a913245ea9d9f087`
@@ -454,6 +460,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Outlook outage: what broke and how recovery is progressing | revision 1
+  - Candidate: `2026-11-13-outlook-outage`; News; final-review; Brief internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-13-outlook-outage/02-Briefs/2026-11-13-outlook-outage/brief.md`; SHA-256 `3fb23226c775aaa1802b6a75fef890a429eca2a65497bb4bc778625e8bf7efb2`
+  - Checks: `99-Archive/published/2026-11-13-outlook-outage/02-Briefs/2026-11-13-outlook-outage/checks/`; strict evidence, refresh, YAML, contract and normal build PASS
+  - Run: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/run.md`
+
 - [x] Hoax bomb threats disrupt European schools | revision 1
   - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Brief checked internally
   - Artifact: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/02-Briefs/2026-11-12-europe-school-bomb-hoaxes/brief.md`; SHA-256 `578cf774c17a979ddddbdce6bd417650f9e5037f1217fcaf8911837a4a38bb83`
@@ -900,6 +912,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Outlook outage: what broke and how recovery is progressing | revision 1
+  - Candidate: `2026-11-13-outlook-outage`; News; final-review; SEO internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-13-outlook-outage/03-SEO/2026-11-13-outlook-outage/seo.md`; SHA-256 `5cc5f49451f2aaa5030587fca2d497e266fd06071de1f95bb9453796ab54f4f1`
+  - Checks: `99-Archive/published/2026-11-13-outlook-outage/03-SEO/2026-11-13-outlook-outage/checks/`; metadata measured, corpus search, YAML, contract and normal build PASS
+  - Run: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/run.md`
 
 - [x] Hoax bomb threats disrupt European schools | revision 1
   - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; SEO checked internally
@@ -1426,6 +1444,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Outlook outage: what broke and how recovery is progressing | revision 1
+  - Candidate: `2026-11-13-outlook-outage`; News; final-review; Draft internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-13-outlook-outage/04-Drafts/2026-11-13-outlook-outage/draft.md`; SHA-256 `2e0850c494eb6d71bb3eefe3555543a42f3e959fc94cfc3ea4930f22349242a8`; payload `26d0d3f772f347a286af7f050f9d569587985dce487fa496224adf0a809c9fdc`
+  - Checks: `99-Archive/published/2026-11-13-outlook-outage/04-Drafts/2026-11-13-outlook-outage/checks/`; 1,016 prose words, claim audit, 82% mechanical provenance, strict evidence, YAML/contract and normal build PASS
+  - Run: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/run.md`
 
 - [x] Hoax bomb threats disrupt European schools | revision 1
   - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Draft checked internally
@@ -2072,6 +2096,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Outlook outage: what broke and how recovery is progressing | revision 1
+  - Candidate: `2026-11-13-outlook-outage`; News; final-review; Creative Edit internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-13-outlook-outage/05-Reviews/2026-11-13-outlook-outage/creative-edit.md`; SHA-256 `273f7932578f030f6aa036c944bcceb6dda42e5810199651531729c89aee3074`
+  - Checks: `99-Archive/published/2026-11-13-outlook-outage/05-Reviews/2026-11-13-outlook-outage/checks/creative-*.json`; 1,005 prose words, exact deletion, voice, strict evidence, YAML/contract and normal build PASS
+  - Run: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/run.md`
 
 - [x] Hoax bomb threats disrupt European schools | revision 1
   - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Creative Edit checked internally
@@ -2727,6 +2757,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Outlook outage: what broke and how recovery is progressing | revision 1
+  - Candidate: `2026-11-13-outlook-outage`; News; final-review; Proofread internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-13-outlook-outage/05-Reviews/2026-11-13-outlook-outage/proofread.md`; SHA-256 `2f7c73b2958d717fd54bf32788a5a362ab1bde67f0d17dcb88c7f386a1eb19f5`; payload `0286d75749d2fcbff6ab29f03e9a4c778f1f24cbfa79b4767bc680475c88c976`
+  - Checks: `99-Archive/published/2026-11-13-outlook-outage/05-Reviews/2026-11-13-outlook-outage/checks/proofread-*.json`; 1,008 prose words, narrow corrections, claim/evidence, YAML/contract and normal build PASS
+  - Run: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/run.md`
+
 - [x] Hoax bomb threats disrupt European schools | revision 1
   - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Proofread checked internally
   - Artifact: `99-Archive/published/2026-11-12-europe-school-bomb-hoaxes/05-Reviews/2026-11-12-europe-school-bomb-hoaxes/proofread.md`; SHA-256 `0c88fcca751fba926a76c077665bfd157b95132d1b325ad76218c3152a6e718e`
@@ -3374,6 +3410,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Outlook outage: what broke and how recovery is progressing | revision 1
+  - Candidate: `2026-11-13-outlook-outage`; News; final-review; Design internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-13-outlook-outage/06-Design/2026-11-13-outlook-outage/design.md`; SHA-256 `e20bdf69d12b8c59306a65cd5525563bff9ec5cfbaa8bb341814cfea24365f13`; payload `0286d75749d2fcbff6ab29f03e9a4c778f1f24cbfa79b4767bc680475c88c976`
+  - Checks: `99-Archive/published/2026-11-13-outlook-outage/06-Design/2026-11-13-outlook-outage/checks/`; isolated/production build, HTTP, 20 widths/60 probes, links and screenshots verified; existing fixed-badge obstruction disclosed, no shared CSS changed
+  - Run: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/run.md`
 
 - [x] Hoax bomb threats disrupt European schools | revision 1
   - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; Design checked internally with disclosed existing badge obstruction
@@ -4051,6 +4093,16 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Outlook outage: what broke and how recovery is progressing | revision 1
+  - Candidate: `2026-11-13-outlook-outage`; News; final-review; published locally; user decision Approve, with commit/push/cleanup separately authorised
+  - Public file: `content/news/2026-11-13-outlook-outage.md`; route `/news/outlook-outage/`; payload `0286d75749d2fcbff6ab29f03e9a4c778f1f24cbfa79b4767bc680475c88c976`; metadata `689e24ce2859b10ab87292fccf58a043f007aabdd0821701723bc326bf01af09`; 1,008 prose words
+  - Packet: `99-Archive/published/2026-11-13-outlook-outage/07-Approval/2026-11-13-outlook-outage/approval.md`; SHA-256 `6e3c97e7f1ae0b6ddef64d8110ae975460a89901fd25a448e07ab5f70a17f549`
+  - Immutable reviewed packet: `99-Archive/published/2026-11-13-outlook-outage/07-Approval/2026-11-13-outlook-outage/approval-reviewed.md`; SHA-256 `2659081bd17fa512edbc8e2b39f5f580e82fb38228d93fc95e118589be57ee2f`
+  - Reviewer: `99-Archive/published/2026-11-13-outlook-outage/07-Approval/2026-11-13-outlook-outage/final-approval-review.md`; SHA-256 `d96043050bd7adf7caf37266a060539b1a212752946d7c2f15a776c27d009035`
+  - Run: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/run.md`; all stage/research material archived locally, not included in Git
+  - Checks: normal production/local publication, exact payload/metadata/sources, missing final pane readback, archive preservation and existing badge limitation verified
+  - Next: authorised commit and main push; verify exact-SHA deployment/live page, then task-owned cleanup
 
 - [x] Hoax bomb threats disrupt European schools | revision 1
   - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; published live; final decision Approve.
