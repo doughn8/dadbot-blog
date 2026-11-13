@@ -4095,14 +4095,15 @@ See also: [[Approval Queue]]
 ## Published
 
 - [x] Outlook outage: what broke and how recovery is progressing | revision 1
-  - Candidate: `2026-11-13-outlook-outage`; News; final-review; published locally; user decision Approve, with commit/push/cleanup separately authorised
+  - Candidate: `2026-11-13-outlook-outage`; News; final-review; published live; user decision Approve, with commit/push/cleanup separately authorised
   - Public file: `content/news/2026-11-13-outlook-outage.md`; route `/news/outlook-outage/`; payload `0286d75749d2fcbff6ab29f03e9a4c778f1f24cbfa79b4767bc680475c88c976`; metadata `689e24ce2859b10ab87292fccf58a043f007aabdd0821701723bc326bf01af09`; 1,008 prose words
-  - Packet: `99-Archive/published/2026-11-13-outlook-outage/07-Approval/2026-11-13-outlook-outage/approval.md`; SHA-256 `6e3c97e7f1ae0b6ddef64d8110ae975460a89901fd25a448e07ab5f70a17f549`
+  - Packet: `99-Archive/published/2026-11-13-outlook-outage/07-Approval/2026-11-13-outlook-outage/approval.md`; SHA-256 `25247aeb44ab3590d70f446e99ac370afe11baa1a2805c46a8c59e91eff82193`
   - Immutable reviewed packet: `99-Archive/published/2026-11-13-outlook-outage/07-Approval/2026-11-13-outlook-outage/approval-reviewed.md`; SHA-256 `2659081bd17fa512edbc8e2b39f5f580e82fb38228d93fc95e118589be57ee2f`
   - Reviewer: `99-Archive/published/2026-11-13-outlook-outage/07-Approval/2026-11-13-outlook-outage/final-approval-review.md`; SHA-256 `d96043050bd7adf7caf37266a060539b1a212752946d7c2f15a776c27d009035`
   - Run: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/run.md`; all stage/research material archived locally, not included in Git
   - Checks: normal production/local publication, exact payload/metadata/sources, missing final pane readback, archive preservation and existing badge limitation verified
-  - Next: authorised commit and main push; verify exact-SHA deployment/live page, then task-owned cleanup
+  - Release: product `530dba2c1d0d6b6cd3b53b47d8f815807fa617b5`; Pages run `43485711902` build/deploy success; live article/home/News and exact content verified; task preview/cache cleaned
+  - Next: complete; final records-HEAD delivery receipts retained in the local archive
 
 - [x] Hoax bomb threats disrupt European schools | revision 1
   - Candidate: `2026-11-12-europe-school-bomb-hoaxes`; News; final-review; published live; final decision Approve.
