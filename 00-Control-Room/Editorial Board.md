@@ -7,6 +7,23 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 3
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/idea-revision-3.md`; SHA-256 `d745e53c9ac34808439fd7ae6e131234af381109c3265fbd1a53a5f169a19306`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-3-idea/result.json`; YAML, contract, strict evidence, normal Hugo exclusion PASS
+  - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; current state there; no publication authority
+
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 2
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Idea revision 2 internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/idea-revision-2.md`; SHA-256 `071a817d377c3c25fe2826c566c61491f0cce489b5b1bc00cd92278e88ec88df`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-2-idea/result.json`; YAML, contract, strict evidence and normal Hugo exclusion PASS
+
+- [x] The Jensen Huang affair: who was using whom? | revision 1
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/idea.md`; SHA-256 `f7bf6eca304898bf1dd0b19b43f353f054d892dc475d71c0e0a66d3a2bff89e1`
+  - Checks: candidate `checks/idea/result.json`; YAML, contract, strict evidence, exact passages, normal Hugo exclusion passed
+  - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; historical Idea checkpoint; current state in run record
+
 - [x] Outlook outage: what broke and how recovery is progressing | revision 1
   - Candidate: `2026-11-13-outlook-outage`; News; final-review; Idea internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-13-outlook-outage/01-Ideas/2026-11-13-outlook-outage/idea.md`; SHA-256 `3641e60a461dd503399d1ab2a778c3df98a48a20fe86750b16c56f1cf597538a`
@@ -460,6 +477,22 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 3
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Brief internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/02-Briefs/2026-11-15-jensen-huang-who-was-using-whom/brief-revision-3.md`; SHA-256 `4e0e77909a6231ddbc67ed54a195b51710ccb2c93de66e926feb7c31a1cb3513`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/02-Briefs/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-3-brief/result.json`; YAML, contract, strict evidence, normal Hugo exclusion PASS
+  - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; current state there; no publication authority
+
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 2
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Brief revision 2 internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/02-Briefs/2026-11-15-jensen-huang-who-was-using-whom/brief-revision-2.md`; SHA-256 `a5466156e8c5b10cf6e39186608cebd6e97134ac2e52469cb2d7f046e1fefa42`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/02-Briefs/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-2-brief/result.json`; YAML, contract, strict evidence and normal Hugo exclusion PASS
+
+- [x] The Jensen Huang affair: who was using whom? | revision 1
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Brief internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/02-Briefs/2026-11-15-jensen-huang-who-was-using-whom/brief.md`; SHA-256 `d6ba5034fcf60675ef9f800b52dba82cc48d0b16db255bed997e474762f9287e`
+  - Checks: candidate checks/brief/result.json; YAML, contract, strict evidence and normal Hugo exclusion PASS
+
 - [x] Outlook outage: what broke and how recovery is progressing | revision 1
   - Candidate: `2026-11-13-outlook-outage`; News; final-review; Brief internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-13-outlook-outage/02-Briefs/2026-11-13-outlook-outage/brief.md`; SHA-256 `3fb23226c775aaa1802b6a75fef890a429eca2a65497bb4bc778625e8bf7efb2`
@@ -912,6 +945,22 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 3
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; SEO internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/03-SEO/2026-11-15-jensen-huang-who-was-using-whom/seo-revision-3.md`; SHA-256 `452fa1043f1aa01eb4293bfa0cb739adb2d107295ae84a4d0b537df8dcf78b90`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/03-SEO/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-3-seo/result.json`; YAML, contract, strict evidence, normal Hugo exclusion PASS
+  - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; current state there; no publication authority
+
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 2
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; SEO revision 2 internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/03-SEO/2026-11-15-jensen-huang-who-was-using-whom/seo-revision-2.md`; SHA-256 `689ed534323607ab25ba271d84ee754479d8bfa746112f6e21d563c509afcaea`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/03-SEO/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-2-seo/result.json`; YAML, contract, strict evidence and normal Hugo exclusion PASS
+
+- [x] The Jensen Huang affair: who was using whom? | revision 1
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; SEO internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/03-SEO/2026-11-15-jensen-huang-who-was-using-whom/seo.md`; SHA-256 `8c306a9d66bd25951e8c0132b2cfc7224e252d8104a699590743405d223c9c7b`
+  - Checks: candidate checks/seo/result.json; measured metadata, YAML, contract, strict evidence and normal Hugo exclusion PASS
 
 - [x] Outlook outage: what broke and how recovery is progressing | revision 1
   - Candidate: `2026-11-13-outlook-outage`; News; final-review; SEO internally checked, not human-approved
@@ -1444,6 +1493,23 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 3
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Draft internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/04-Drafts/2026-11-15-jensen-huang-who-was-using-whom/draft-revision-3.md`; SHA-256 `85aa1affd70d093428908ff8667f41f20f081088f60be696f176928254dd2d6b`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/04-Drafts/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-3-draft/result.json`; YAML, contract, strict evidence, normal Hugo exclusion PASS
+  - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; current state there; no publication authority
+
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 2
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Draft revision 2 internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/04-Drafts/2026-11-15-jensen-huang-who-was-using-whom/draft-revision-2.md`; SHA-256 `d8f45ebb8cbfb3a2ea65f8c5ca244cf6e2ee9832240bcf442e595801a156c08d`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/04-Drafts/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-2-draft/result.json`; YAML, contract, strict evidence and normal Hugo exclusion PASS
+
+- [x] The Jensen Huang affair: who was using whom? | revision 1
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Draft internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/04-Drafts/2026-11-15-jensen-huang-who-was-using-whom/draft.md`; SHA-256 `01fe5018778ed2bc77e2896a96ded7a0be9c7f6353ad3d436bf760fa5812fbeb`
+  - Payload SHA-256: `54b70dc0c379c7a5e1c5fdc5b64591146fe7ed84a463374bbd1db8beb1add423`; 1,556 prose words
+  - Checks: checks/draft/result.json and claim-audit.json; YAML, contract, strict evidence, semantic audit and normal Hugo exclusion PASS
 
 - [x] Outlook outage: what broke and how recovery is progressing | revision 1
   - Candidate: `2026-11-13-outlook-outage`; News; final-review; Draft internally checked, not human-approved
@@ -2096,6 +2162,22 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 3
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Creative Edit internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/05-Reviews/2026-11-15-jensen-huang-who-was-using-whom/creative-edit-revision-3.md`; SHA-256 `20e84078c86ec2253d8878b2f758620ae208da882ee93e1ecb487e5508a6fcb6`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/05-Reviews/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-3-creative-edit/result.json`; YAML, contract, strict evidence, normal Hugo exclusion PASS
+  - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; current state there; no publication authority
+
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 2
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Creative Edit revision 2 internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/05-Reviews/2026-11-15-jensen-huang-who-was-using-whom/creative-edit-revision-2.md`; SHA-256 `9e658e583e8f75fd19a491976f62bff40d7d95eca9840d687ba74f17bed2ad99`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/05-Reviews/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-2-creative-edit/result.json`; YAML, contract, strict evidence and normal Hugo exclusion PASS
+
+- [x] The Jensen Huang affair: who was using whom? | revision 1
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Creative Edit internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/05-Reviews/2026-11-15-jensen-huang-who-was-using-whom/creative-edit.md`; SHA-256 `e1004fa82cb14794e4989d5a9140852e5a7ea871a0b3d4d12b47fcac9b5604ee`
+  - Payload SHA-256: `48953c98a1ccfcb4b7e826d93add68b7f4fecd9a1459cb7b7997d2b820c4fab3`; 1,492 prose words; checks/creative-edit/ PASS
 
 - [x] Outlook outage: what broke and how recovery is progressing | revision 1
   - Candidate: `2026-11-13-outlook-outage`; News; final-review; Creative Edit internally checked, not human-approved
@@ -2757,6 +2839,22 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 3
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Proofread internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/05-Reviews/2026-11-15-jensen-huang-who-was-using-whom/proofread-revision-3.md`; SHA-256 `b416facbf04ed073bf75d68c699dd032b989cbfde106a6f293f99d97244e0b25`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/05-Reviews/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-3-proofread/result.json`; YAML, contract, strict evidence, normal Hugo exclusion PASS
+  - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; current state there; no publication authority
+
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 2
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Proofread revision 2 internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/05-Reviews/2026-11-15-jensen-huang-who-was-using-whom/proofread-revision-2.md`; SHA-256 `579ead71254588fc08d359b43a730f7064ba635c62aeee6ad2e5a25a3d892a6c`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/05-Reviews/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-2-proofread/result.json`; YAML, contract, strict evidence and normal Hugo exclusion PASS
+
+- [x] The Jensen Huang affair: who was using whom? | revision 1
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Proofread internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/05-Reviews/2026-11-15-jensen-huang-who-was-using-whom/proofread.md`; SHA-256 `13bc3e3ffa2e854f910a5d97862d71f8e403673bdd4f5c37616694797d57ca25`
+  - Payload SHA-256: `0f65888bc24793242a610fe78469527f1f017ca5467ee3da1d5b2e558862cb21`; 1,497 prose words; checks/proofread/ PASS
+
 - [x] Outlook outage: what broke and how recovery is progressing | revision 1
   - Candidate: `2026-11-13-outlook-outage`; News; final-review; Proofread internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-13-outlook-outage/05-Reviews/2026-11-13-outlook-outage/proofread.md`; SHA-256 `2f7c73b2958d717fd54bf32788a5a362ab1bde67f0d17dcb88c7f386a1eb19f5`; payload `0286d75749d2fcbff6ab29f03e9a4c778f1f24cbfa79b4767bc680475c88c976`
@@ -3411,6 +3509,24 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Design
 
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 3
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Design internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/06-Design/2026-11-15-jensen-huang-who-was-using-whom/design-revision-3.md`; SHA-256 `363fc493fe0ae16dfe1ae647be099829fd018ffea674b399a2fd6cf16a49b030`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/06-Design/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-3-design/result.json`; 23 widths, 138 candidate + 69 baseline observations; seven inspected screenshots; shared coffee-badge limitation disclosed
+  - Payload: `06613272b082fb5e3ef1121baca7ebfe6415913122e0addb6ab8418c9b4566b8`; metadata `772153ed28dbb1e6a6c400e4840aa439daf1563bf76a6d84abd7002835c6100a`; 1,405 prose words
+  - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; current state there; no publication authority
+
+
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 2
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Design revision 2 internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/06-Design/2026-11-15-jensen-huang-who-was-using-whom/design-revision-2.md`; SHA-256 `b5b8da765eb0bb1ef2bf219d5dab9fcd2c3dfcebca5726c114c40e9226fef6ac`
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/06-Design/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-2-design/result.json`; YAML, contract, strict evidence and normal Hugo exclusion PASS
+
+- [x] The Jensen Huang affair: who was using whom? | revision 1
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Design internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/06-Design/2026-11-15-jensen-huang-who-was-using-whom/design.md`; SHA-256 `f3dca2de093fbe9c1c317c82034f73d2a76255903e55b72f6caf8a20e995c749`
+  - Payload SHA-256: `0f65888bc24793242a610fe78469527f1f017ca5467ee3da1d5b2e558862cb21`; 1,497 prose words; checks/design/ PASS; existing shared coffee badge obstruction disclosed
+
 - [x] Outlook outage: what broke and how recovery is progressing | revision 1
   - Candidate: `2026-11-13-outlook-outage`; News; final-review; Design internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-13-outlook-outage/06-Design/2026-11-13-outlook-outage/design.md`; SHA-256 `e20bdf69d12b8c59306a65cd5525563bff9ec5cfbaa8bb341814cfea24365f13`; payload `0286d75749d2fcbff6ab29f03e9a4c778f1f24cbfa79b4767bc680475c88c976`
@@ -4062,6 +4178,9 @@ A simple Obsidian board for tracking Dadbot work.
 
 
 
+
+
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
@@ -4093,6 +4212,17 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 3
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; approved and published locally; editorial workflow closed
+  - Public file: `content/posts/2026-11-15-jensen-huang-who-was-using-whom.md`; SHA-256 `e2ea1138f40dab87bc36afaf41b8e564de9816a4fcb1932a8d7cca2e14ea87ca`
+  - Decision: User, “great, lets commit, push and clean up”, 2026-11-15T15:58:33+01:00; local publication, candidate-only commit, origin/main push and task-owned cleanup explicitly authorised
+  - Packet: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/approval-revision-3.md`; current decision SHA-256 `e09d9e2fd6802b9157cfbe4e6d5a7f4870c234308079e0a380eef4299625a9f9`
+  - Immutable reviewed packet: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/approval-reviewed-revision-3.md`; SHA-256 `1ab1bac624295fc26e72c745eb97c061ec68472a5a72dea702aac1d18accca9a`
+  - Approved payload: `06613272b082fb5e3ef1121baca7ebfe6415913122e0addb6ab8418c9b4566b8`; public metadata `772153ed28dbb1e6a6c400e4840aa439daf1563bf76a6d84abd7002835c6100a`; 1,405 prose words
+  - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; private source/QA history retained locally
+  - Next: none for editorial publication; authorised operational release results live in the ignored archive, not a new editorial gate
+
 
 - [x] Outlook outage: what broke and how recovery is progressing | revision 1
   - Candidate: `2026-11-13-outlook-outage`; News; final-review; published live; user decision Approve, with commit/push/cleanup separately authorised
@@ -4887,6 +5017,15 @@ _Approved content moved into `content/`; completed editorial history moved into 
 
 ## Revision Needed
 
+- [x] The Jensen Huang affair: two views of Alice Huang | revision 2
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Request changes; superseded by revision 3; not published
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/approval-reviewed-revision-2.md`; SHA-256 `a35a2369a49c42be282c75179bda926a555c6404e50530bfd65bd1bc6848997c`
+  - Reviewer: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/final-approval-review-revision-2.md`; SHA-256 `86a905965c64d4bea00ea0224de0e56210525ddcc2b3ac7af1889b3bd81c52d9`
+  - Payload SHA-256: `3e72a2d3efeeff2264c6ba394db13cc01f796798509d989c6c4b74146cc91e46`; metadata `84374cc57698a39ed56d85976bc53f65e0707ff5ecd1f905cfd870d2ac3a155d`; 637 prose words versus 1,497; length acceptance pending
+  - Preview: `http://127.0.0.1:1313/posts/jensen-huang-who-was-using-whom/?local-review=2&source-label=1`; exact corrected desktop readback verified, direct-route-only
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-2-final-approval/closing-verification.json`; complete; existing shared coffee-badge limitation disclosed
+  - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; actual Request changes; shorter length not accepted; no release authority
+
 
 - [x] Chemistry Nobel honours research into molecular mirror images
   - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; final-review mode
@@ -4956,6 +5095,15 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] The Jensen Huang affair: who was using whom? | revision 1
+  - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Request changes; revision 1 superseded; not published
+  - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/approval-reviewed-revision-1.md`; reviewed snapshot SHA-256 `9c5e6f2367bbda0e2ed24306b30480a3d39f3d58b54c314e022c6dcd18a7d272`
+  - Reviewer: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/final-approval-review.md`; SHA-256 `075307d6d5b3426d20f9dfeb0283200fae9d98dcaf007294d41ccffc12162e7a`
+  - Payload SHA-256: `0f65888bc24793242a610fe78469527f1f017ca5467ee3da1d5b2e558862cb21`; metadata `a3ecb480cd366d1c2cb94c7c815da03032ba3177b55c2a834813b28a87cbf8ff`; 1,497 prose words
+  - Preview: `http://127.0.0.1:1313/posts/jensen-huang-who-was-using-whom/?local-review=1`; historical revision 1 preview, not current; direct-route-only
+  - Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/checks/final-approval/closing-verification.json`; complete; existing coffee-badge obstruction disclosed
+  - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; decision Request changes, revision 2 in progress; Approve = local publication only; no commit/push/deploy authority
 
 - [x] Five stories worth catching up on this Monday | revision 1
   - Candidate: `2026-11-09-weekly-roundup`; News; final-review; superseded after Request changes

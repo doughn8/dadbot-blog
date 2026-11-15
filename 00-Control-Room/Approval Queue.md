@@ -19,7 +19,20 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 
 
+
+
+
 ## Approved
+
+### The Jensen Huang affair: two views of Alice Huang | revision 3
+- Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; approved and published locally; editorial workflow closed.
+- Decision: User, “great, lets commit, push and clean up”, 2026-11-15T15:58:33+01:00; local publication, candidate-only commit, origin/main push and task-owned cleanup explicitly authorised.
+- Public file: `content/posts/2026-11-15-jensen-huang-who-was-using-whom.md`; SHA-256 `e2ea1138f40dab87bc36afaf41b8e564de9816a4fcb1932a8d7cca2e14ea87ca`.
+- Packet: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/approval-revision-3.md`; current decision SHA-256 `e09d9e2fd6802b9157cfbe4e6d5a7f4870c234308079e0a380eef4299625a9f9`.
+- Immutable reviewed packet: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/approval-reviewed-revision-3.md`; SHA-256 `1ab1bac624295fc26e72c745eb97c061ec68472a5a72dea702aac1d18accca9a`.
+- Approved payload: `06613272b082fb5e3ef1121baca7ebfe6415913122e0addb6ab8418c9b4566b8`; public metadata `772153ed28dbb1e6a6c400e4840aa439daf1563bf76a6d84abd7002835c6100a`; 1,405 prose words.
+- Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; private evidence local-only.
+- Next: none for editorial publication; authorised operational release receipts remain in the ignored archive.
 
 ### Outlook outage: what broke and how recovery is progressing | revision 1
 - Candidate: `2026-11-13-outlook-outage`; News; final-review; published live; final decision Approve.
@@ -1359,6 +1372,17 @@ Removal note: This is a local content removal, not a GitHub push or live-site de
 
 ## Revision Needed
 
+### The Jensen Huang affair: two views of Alice Huang | revision 2
+- Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Request changes; superseded by revision 3; not published.
+- Packet: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/approval-reviewed-revision-2.md`; SHA-256 `a35a2369a49c42be282c75179bda926a555c6404e50530bfd65bd1bc6848997c`.
+- Reviewer: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/final-approval-review-revision-2.md`; SHA-256 `86a905965c64d4bea00ea0224de0e56210525ddcc2b3ac7af1889b3bd81c52d9`.
+- Payload SHA-256: `3e72a2d3efeeff2264c6ba394db13cc01f796798509d989c6c4b74146cc91e46`; metadata `84374cc57698a39ed56d85976bc53f65e0707ff5ecd1f905cfd870d2ac3a155d`; 637 prose words versus 1,497; shorter-length acceptance pending.
+- Preview: `http://127.0.0.1:1313/posts/jensen-huang-who-was-using-whom/?local-review=2&source-label=1`; isolated full-content preview; corrected desktop readback verified.
+- Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/checks/revision-2-final-approval/closing-verification.json`; all revised stages and required closing checks complete.
+- Limitations: existing mobile/tablet coffee badge overlap; NYT accessible opening only; caption-based James Li argument review. No factual blocker.
+- Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`.
+- Decision: actual Request changes. Shorter length not accepted; request chronology and fuller two-account explanation; no publication/release authority.
+
 ### Chemistry Nobel honours research into molecular mirror images — revision 1 — superseded
 
 - Candidate: `2026-10-07-nobel-chemistry-mirror-molecules`; revision 1; News; final-review mode
@@ -1464,6 +1488,17 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### The Jensen Huang affair: who was using whom? | revision 1
+- Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Request changes; superseded by revision 2; not published.
+- Packet: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/approval-reviewed-revision-1.md`; reviewed snapshot SHA-256 `9c5e6f2367bbda0e2ed24306b30480a3d39f3d58b54c314e022c6dcd18a7d272`.
+- Reviewer: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/final-approval-review-revision-1.md`; SHA-256 `075307d6d5b3426d20f9dfeb0283200fae9d98dcaf007294d41ccffc12162e7a`.
+- Payload SHA-256: `0f65888bc24793242a610fe78469527f1f017ca5467ee3da1d5b2e558862cb21`; metadata `a3ecb480cd366d1c2cb94c7c815da03032ba3177b55c2a834813b28a87cbf8ff`; 1,497 prose words.
+- Preview: `http://127.0.0.1:1313/posts/jensen-huang-who-was-using-whom/?local-review=1`; isolated full-content build, direct-route-only, historical revision 1 readback verified.
+- Checks: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/checks/final-approval/closing-verification.json`; all eight stages, evidence/count/identity, responsive checks, normal-build exclusion and unchanged public content verified; QA transport exit verified.
+- Limitations: existing fixed coffee badge obscures some phone/tablet text, reproduced on approved sibling; caption-based Li review, not a full watch. No article-specific blocker.
+- Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`.
+- Decision: Approve / Request changes / Reject / Hold. Approve authorises agreed local publication only. User requested changes; commit, push and deployment not authorised.
 
 ### Five stories worth catching up on this Monday | revision 1
 
