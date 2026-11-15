@@ -25,10 +25,10 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ## Approved
 
 ### The Jensen Huang affair: two views of Alice Huang | revision 3
-- Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; approved and published locally; editorial workflow closed.
+- Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; approved and published live; editorial workflow closed.
 - Decision: User, “great, lets commit, push and clean up”, 2026-11-15T15:58:33+01:00; local publication, candidate-only commit, origin/main push and task-owned cleanup explicitly authorised.
 - Public file: `content/posts/2026-11-15-jensen-huang-who-was-using-whom.md`; SHA-256 `e2ea1138f40dab87bc36afaf41b8e564de9816a4fcb1932a8d7cca2e14ea87ca`.
-- Packet: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/approval-revision-3.md`; current decision SHA-256 `e09d9e2fd6802b9157cfbe4e6d5a7f4870c234308079e0a380eef4299625a9f9`.
+- Packet: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/approval-revision-3.md`; current decision SHA-256 `0e507372969bfcec0c0162ce0b863f25b384d092cf7bf1cc7983fbbf0bcf2a87`.
 - Immutable reviewed packet: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/07-Approval/2026-11-15-jensen-huang-who-was-using-whom/approval-reviewed-revision-3.md`; SHA-256 `1ab1bac624295fc26e72c745eb97c061ec68472a5a72dea702aac1d18accca9a`.
 - Approved payload: `06613272b082fb5e3ef1121baca7ebfe6415913122e0addb6ab8418c9b4566b8`; public metadata `772153ed28dbb1e6a6c400e4840aa439daf1563bf76a6d84abd7002835c6100a`; 1,405 prose words.
 - Run: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/run.md`; private evidence local-only.
