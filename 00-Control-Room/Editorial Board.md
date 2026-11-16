@@ -4250,15 +4250,16 @@ See also: [[Approval Queue]]
 ## Published
 
 - [x] The weekend, with something to smile about | revision 1
-  - Candidate: `2026-11-16-weekend-roundup`; News; final-review; approved and published locally; release in progress
+  - Candidate: `2026-11-16-weekend-roundup`; News; final-review; approved and published live; editorial workflow closed
   - Decision: user, “ok commit, push and clean up”, recorded 2026-11-16T13:45:30+01:00; local publication, candidate-only commit, origin/main push and task-owned cleanup authorised
   - Public file: `content/news/2026-11-16-weekend-roundup.md`; SHA-256 `e7f5f5695db0d0f7ec0f5e66d8173d4dac771c6020666f7429480965d0ab30f7`
-  - Packet: `99-Archive/published/2026-11-16-weekend-roundup/07-Approval/2026-11-16-weekend-roundup/approval.md`; current decision SHA-256 `ebf62ee1dcec3d537d245023c7214296ff085a913caa4e72c4f57709ea6ef40d`
+  - Packet: `99-Archive/published/2026-11-16-weekend-roundup/07-Approval/2026-11-16-weekend-roundup/approval.md`; current decision SHA-256 `3ee9923d1db29b33130a61351464bcc783ddd82c70199675f8393491480cc580`
   - Immutable reviewed packet: `99-Archive/published/2026-11-16-weekend-roundup/07-Approval/2026-11-16-weekend-roundup/approval-reviewed.md`; SHA-256 `4f85b39a089a5689a74d7c1eab1ba909c305035a1464f9ce21cf123f33e3e869`
   - Approved payload: `0294fe678353b19163853d5df774b7fe4c1aa021996333525cdc7b1b43afcc35`; public metadata `9c15de9cce33d6bb210ab3497fb373bde54f45fb0ff483d53070fd5b10157c5d`; 535 prose words
   - Run: `99-Archive/published/2026-11-16-weekend-roundup/01-Ideas/2026-11-16-weekend-roundup/run.md`; research and evidence remain local-only
   - Checks: normal Hugo/local article/home/News and exact reviewed-payload preservation PASS; existing shared coffee-badge obstruction unchanged
-  - Next: bounded commit/push/deployment verification and task-owned cleanup
+  - Release: product `13aa101fbf27c299d4fe7c0eaeafa15cd8cb0c76`; Pages run `43870175729` build/deploy success; live article/home/News and exact content/source/metadata identity verified; task-owned preview/build cleanup complete
+  - Next: none for editorial publication; authorised final records-HEAD deployment receipts retained in the local archive
 
 - [x] The Jensen Huang affair: two views of Alice Huang | revision 3
   - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; approved and published live; editorial workflow closed
