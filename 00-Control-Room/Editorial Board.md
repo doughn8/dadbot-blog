@@ -7,6 +7,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] The weekend, with something to smile about | revision 1
+  - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-16-weekend-roundup/01-Ideas/2026-11-16-weekend-roundup/idea.md`; SHA-256 `466a52a81fabf0af679486c5551d0a92faa6eb90bce4960525fda6e80ddda8b3`
+  - Checks: `99-Archive/published/2026-11-16-weekend-roundup/01-Ideas/2026-11-16-weekend-roundup/checks/idea/result.json`; YAML, contract, strict evidence, exact passages, normal Hugo exclusion PASS
+  - Run: `99-Archive/published/2026-11-16-weekend-roundup/01-Ideas/2026-11-16-weekend-roundup/run.md`; historical checkpoint; publication approved
+
 - [x] The Jensen Huang affair: two views of Alice Huang | revision 3
   - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Idea internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/01-Ideas/2026-11-15-jensen-huang-who-was-using-whom/idea-revision-3.md`; SHA-256 `d745e53c9ac34808439fd7ae6e131234af381109c3265fbd1a53a5f169a19306`
@@ -477,6 +483,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] The weekend, with something to smile about | revision 1
+  - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Brief internally checked
+  - Artifact: `99-Archive/published/2026-11-16-weekend-roundup/02-Briefs/2026-11-16-weekend-roundup/brief.md`; SHA-256 `06255f16afe526c8bd29d98ee105e6c29aaac33445528b9d3ffbe92e89b59dc1`
+  - Checks: `99-Archive/published/2026-11-16-weekend-roundup/02-Briefs/2026-11-16-weekend-roundup/checks/result.json`; YAML, contract, strict evidence, normal Hugo exclusion PASS
+
 - [x] The Jensen Huang affair: two views of Alice Huang | revision 3
   - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Brief internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/02-Briefs/2026-11-15-jensen-huang-who-was-using-whom/brief-revision-3.md`; SHA-256 `4e0e77909a6231ddbc67ed54a195b51710ccb2c93de66e926feb7c31a1cb3513`
@@ -945,6 +956,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] The weekend, with something to smile about | revision 1
+  - Candidate: `2026-11-16-weekend-roundup`; News; final-review; SEO internally checked
+  - Artifact: `99-Archive/published/2026-11-16-weekend-roundup/03-SEO/2026-11-16-weekend-roundup/seo.md`; SHA-256 `3931d561b8018bf773fa06748d8580c7ac23908896d811250ee3e6097ce57989`
+  - Checks: candidate `checks/result.json`; YAML, contract, measured metadata, normal Hugo exclusion PASS; evidence N/A for metadata-only stage
 
 - [x] The Jensen Huang affair: two views of Alice Huang | revision 3
   - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; SEO internally checked, not human-approved
@@ -1493,6 +1509,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] The weekend, with something to smile about | revision 1
+  - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Draft internally checked
+  - Artifact: `99-Archive/published/2026-11-16-weekend-roundup/04-Drafts/2026-11-16-weekend-roundup/draft.md`; SHA-256 `68025b2768c6aee3ff68cb9807c701a5925227523b34c24fe42f4f392a767a5a`
+  - Payload: `ead9be110f037c78dd4cc7d29a1ceefd43bf5925ef420a8ba0026bed9a875c70`; 537 prose words; checks/claim-audit.md and checks/result.json; all required checks PASS
 
 - [x] The Jensen Huang affair: two views of Alice Huang | revision 3
   - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Draft internally checked, not human-approved
@@ -2162,6 +2183,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] The weekend, with something to smile about | revision 1
+  - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Creative Edit internally checked
+  - Artifact: `99-Archive/published/2026-11-16-weekend-roundup/05-Reviews/2026-11-16-weekend-roundup/creative-edit.md`; SHA-256 `2392a31fce4b0f207e45d591cdc757ba2faeabd97e5449da2e4a2a073116055d`
+  - Payload: `0294fe678353b19163853d5df774b7fe4c1aa021996333525cdc7b1b43afcc35`; 535 prose words; checks/creative-edit/result.json; YAML, contract, strict evidence, voice and normal Hugo exclusion PASS
 
 - [x] The Jensen Huang affair: two views of Alice Huang | revision 3
   - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Creative Edit internally checked, not human-approved
@@ -2839,6 +2865,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] The weekend, with something to smile about | revision 1
+  - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Proofread internally checked
+  - Artifact: `99-Archive/published/2026-11-16-weekend-roundup/05-Reviews/2026-11-16-weekend-roundup/proofread.md`; SHA-256 `529612d2240c59d194a97dbb5d8e01af2ca0f5aff55e8745f1a17a2b3511f059`
+  - Payload: `0294fe678353b19163853d5df774b7fe4c1aa021996333525cdc7b1b43afcc35`; 535 prose words; checks/proofread/result.json; all required checks PASS
+
 - [x] The Jensen Huang affair: two views of Alice Huang | revision 3
   - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Proofread internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-15-jensen-huang-who-was-using-whom/05-Reviews/2026-11-15-jensen-huang-who-was-using-whom/proofread-revision-3.md`; SHA-256 `b416facbf04ed073bf75d68c699dd032b989cbfde106a6f293f99d97244e0b25`
@@ -3508,6 +3539,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] The weekend, with something to smile about | revision 1
+  - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Design internally checked
+  - Artifact: `99-Archive/published/2026-11-16-weekend-roundup/06-Design/2026-11-16-weekend-roundup/design.md`; SHA-256 `09872eea8b7ba7c1bc518a14f8e0f04a4ce382be9d8fc9481477a81ca77a698e`
+  - Payload: `0294fe678353b19163853d5df774b7fe4c1aa021996333525cdc7b1b43afcc35`; checks/result.json; 23-width geometry, exact source links, screenshots, builds/isolation and focused contract tests completed; existing shared coffee-badge obstruction disclosed
 
 - [x] The Jensen Huang affair: two views of Alice Huang | revision 3
   - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Design internally checked, not human-approved
@@ -4212,6 +4248,17 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] The weekend, with something to smile about | revision 1
+  - Candidate: `2026-11-16-weekend-roundup`; News; final-review; approved and published locally; release in progress
+  - Decision: user, “ok commit, push and clean up”, recorded 2026-11-16T13:45:30+01:00; local publication, candidate-only commit, origin/main push and task-owned cleanup authorised
+  - Public file: `content/news/2026-11-16-weekend-roundup.md`; SHA-256 `e7f5f5695db0d0f7ec0f5e66d8173d4dac771c6020666f7429480965d0ab30f7`
+  - Packet: `99-Archive/published/2026-11-16-weekend-roundup/07-Approval/2026-11-16-weekend-roundup/approval.md`; current decision SHA-256 `ebf62ee1dcec3d537d245023c7214296ff085a913caa4e72c4f57709ea6ef40d`
+  - Immutable reviewed packet: `99-Archive/published/2026-11-16-weekend-roundup/07-Approval/2026-11-16-weekend-roundup/approval-reviewed.md`; SHA-256 `4f85b39a089a5689a74d7c1eab1ba909c305035a1464f9ce21cf123f33e3e869`
+  - Approved payload: `0294fe678353b19163853d5df774b7fe4c1aa021996333525cdc7b1b43afcc35`; public metadata `9c15de9cce33d6bb210ab3497fb373bde54f45fb0ff483d53070fd5b10157c5d`; 535 prose words
+  - Run: `99-Archive/published/2026-11-16-weekend-roundup/01-Ideas/2026-11-16-weekend-roundup/run.md`; research and evidence remain local-only
+  - Checks: normal Hugo/local article/home/News and exact reviewed-payload preservation PASS; existing shared coffee-badge obstruction unchanged
+  - Next: bounded commit/push/deployment verification and task-owned cleanup
 
 - [x] The Jensen Huang affair: two views of Alice Huang | revision 3
   - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; approved and published live; editorial workflow closed
