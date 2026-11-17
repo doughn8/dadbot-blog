@@ -25,15 +25,16 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ## Approved
 
 ### Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
-- Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; approved and published locally; authorised release in progress
+- Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; approved and published live; editorial workflow closed
 - Decision: User, “approved. Commit, push and clean up”, 2026-11-17T12:14:17.313257+01:00; local publication, scoped commit, origin/main push/deployment and task-owned cleanup separately authorised
 - Public file: `content/news/2026-11-17-trump-xi-putin-one-table.md`; SHA-256 `2b3a22fd3a2dec577c1678350fb1952e60fca953e19afee0fc6707b57df0a2bc`
-- Packet: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/07-Approval/2026-11-17-trump-xi-putin-one-table/approval.md`; current decision SHA-256 `78417f204c39108d812af8d493aff87dd9fae5bea0a7530a32ee6ec1be03ac21`
+- Packet: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/07-Approval/2026-11-17-trump-xi-putin-one-table/approval.md`; current decision SHA-256 `c7daf67214b3db57076019df4f92fb995b135ab3ee28864cb399bcf95d336885`
 - Immutable reviewed packet: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/07-Approval/2026-11-17-trump-xi-putin-one-table/approval-reviewed.md`; SHA-256 `85859efe8c17fb97cc917db1fdee58ad289c466cdeeec9e2ecbbe0e713e8d8ff`
 - Approved article: `cf9c392432143efa4c5486f52dad3886bc931dd214735f6bd2d3c150f4976987`; public metadata `750b427f57199ddd0f68301b12663a3ed55af1ad364a9fcad313cdf4db25aa40`; 1,032 prose words
 - Run: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/01-Ideas/2026-11-17-trump-xi-putin-one-table/run.md`; private evidence stays local-only
+- Release: product `916f6c157c8a7d2a7afc9016eb7bf01ab6b7f4d9`; Pages run `44073249429` build/deploy success; exact live content/source/metadata and 390/768/1280 browser checks passed; task-owned preview/build/server cleanup complete
 - Checks: full production/local article/metadata/source comparison, article/home/News listing/HTTP and real browser fit/uncaught-error checks passed; existing coffee-badge limitation unchanged
-- Next: authorised scoped commit/push, exact-SHA deployment/live verification and task-owned cleanup
+- Next: none for editorial publication; final records-HEAD delivery receipts retained in the local archive
 
 ### The weekend, with something to smile about | revision 1
 - Candidate: `2026-11-16-weekend-roundup`; News; final-review; approved and published live; editorial workflow closed
