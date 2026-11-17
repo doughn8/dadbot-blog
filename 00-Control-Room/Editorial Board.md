@@ -7,6 +7,14 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
+  - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; internal Idea checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/01-Ideas/2026-11-17-trump-xi-putin-one-table/idea.md`
+  - SHA-256: `2d65c2848ba68fdeb7194a9fc012136040de71d696b3b4ebdd5a699271f8a646`
+  - Run: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/01-Ideas/2026-11-17-trump-xi-putin-one-table/run.md`
+  - Checks: real YAML, structural contract, eight-source evidence integrity, 29 exact passages and normal Hugo build passed; public candidate absent
+  - Next: Brief within the authorised internal run
+
 - [x] The weekend, with something to smile about | revision 1
   - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Idea internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-16-weekend-roundup/01-Ideas/2026-11-16-weekend-roundup/idea.md`; SHA-256 `466a52a81fabf0af679486c5551d0a92faa6eb90bce4960525fda6e80ddda8b3`
@@ -483,6 +491,13 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
+  - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Brief internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/02-Briefs/2026-11-17-trump-xi-putin-one-table/brief.md`; SHA-256: `5374c22f3522efd6e815051de88df33cd83afb2bea4d5512aa3de7699c81bc06`
+  - Run: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/01-Ideas/2026-11-17-trump-xi-putin-one-table/run.md`
+  - Checks: YAML/contract, strict eight-source evidence integrity, full-span freshness comparison and normal build passed; outline-citation failure repaired and retained
+  - Next: SEO within authorised run
+
 - [x] The weekend, with something to smile about | revision 1
   - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Brief internally checked
   - Artifact: `99-Archive/published/2026-11-16-weekend-roundup/02-Briefs/2026-11-16-weekend-roundup/brief.md`; SHA-256 `06255f16afe526c8bd29d98ee105e6c29aaac33445528b9d3ffbe92e89b59dc1`
@@ -956,6 +971,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
+  - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; SEO internally checked
+  - Artifact: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/03-SEO/2026-11-17-trump-xi-putin-one-table/seo.md`; SHA-256: `1277fe8959ee93b1ec7618551f452b4efbbb3294ec51c3cb5259f8f6799fd6cb`
+  - Checks: real YAML/contract, measured metadata, actual link inventory and normal Hugo build passed
+  - Next: Draft within authorised run
 
 - [x] The weekend, with something to smile about | revision 1
   - Candidate: `2026-11-16-weekend-roundup`; News; final-review; SEO internally checked
@@ -1509,6 +1530,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
+  - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Draft internally checked
+  - Artifact: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/04-Drafts/2026-11-17-trump-xi-putin-one-table/draft.md`; SHA-256: `bde30cd903cd8fbf26ff675e157520b1ef1809e1221a728d1b7620f9e1f715d4`
+  - Payload: `84bdaa9c0a0feb62eda7c79c40af8a50ef6d047c2702d8de11f4bc5a68dd413d`; 1,077 prose words; eight sources; exact extraction/evidence/semantic checks and normal build passed
+  - Next: Creative Edit within authorised run
 
 - [x] The weekend, with something to smile about | revision 1
   - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Draft internally checked
@@ -2183,6 +2210,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
+  - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Creative Edit internally checked
+  - Artifact: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/05-Reviews/2026-11-17-trump-xi-putin-one-table/creative-edit.md`; SHA-256: `2bd53b1d0506bb83d426664bbe9f5c8e44d8f45f421a3bec19110c94d64e9d0c`
+  - Payload: `cf9c392432143efa4c5486f52dad3886bc931dd214735f6bd2d3c150f4976987`; 1,032 prose words; voice/semantic/edit reconstruction, strict evidence and build passed
+  - Next: Proofread within authorised run
 
 - [x] The weekend, with something to smile about | revision 1
   - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Creative Edit internally checked
@@ -2865,6 +2898,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
+  - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Proofread internally checked
+  - Artifact: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/05-Reviews/2026-11-17-trump-xi-putin-one-table/proofread.md`; SHA-256: `88493b526663dcd6b40e1b5729d1f9db019b9535c6540eb07a7065ce9c181980`
+  - Payload: `cf9c392432143efa4c5486f52dad3886bc931dd214735f6bd2d3c150f4976987`; 1,032 prose words; exact Creative equality, count/date/attribution/evidence, YAML/contract and normal build passed
+  - Next: Design within authorised run
+
 - [x] The weekend, with something to smile about | revision 1
   - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Proofread internally checked
   - Artifact: `99-Archive/published/2026-11-16-weekend-roundup/05-Reviews/2026-11-16-weekend-roundup/proofread.md`; SHA-256 `529612d2240c59d194a97dbb5d8e01af2ca0f5aff55e8745f1a17a2b3511f059`
@@ -3539,6 +3578,13 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
+  - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Design internally checked
+  - Artifact: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/06-Design/2026-11-17-trump-xi-putin-one-table/design.md`; SHA-256: `360244f6b02f20594a52ea37e00f289d00f7b33f9d7513356510b8157f03c495`
+  - Payload: `cf9c392432143efa4c5486f52dad3886bc931dd214735f6bd2d3c150f4976987`; 1,032 prose words; isolated/production builds, exact sources, 23-width/69-state browser matrix and screenshots checked
+  - Limitation: existing fixed coffee badge obscures phone/tablet text; reproduced on approved sibling, unchanged
+  - Next: complete Final Approval closing unit before awaiting human review
 
 - [x] The weekend, with something to smile about | revision 1
   - Candidate: `2026-11-16-weekend-roundup`; News; final-review; Design internally checked
@@ -4248,6 +4294,15 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
+  - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; approved and published locally; authorised release in progress
+  - Public file: `content/news/2026-11-17-trump-xi-putin-one-table.md`; SHA-256 `2b3a22fd3a2dec577c1678350fb1952e60fca953e19afee0fc6707b57df0a2bc`
+  - Packet: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/07-Approval/2026-11-17-trump-xi-putin-one-table/approval.md`; current decision SHA-256 `78417f204c39108d812af8d493aff87dd9fae5bea0a7530a32ee6ec1be03ac21`
+  - Reviewed packet SHA-256: `85859efe8c17fb97cc917db1fdee58ad289c466cdeeec9e2ecbbe0e713e8d8ff`; article `cf9c392432143efa4c5486f52dad3886bc931dd214735f6bd2d3c150f4976987`; metadata `750b427f57199ddd0f68301b12663a3ed55af1ad364a9fcad313cdf4db25aa40`
+  - Run: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/01-Ideas/2026-11-17-trump-xi-putin-one-table/run.md`
+  - Checks: full approved payload/metadata/source preservation, production/local build/listing/HTTP/browser checks passed; existing coffee badge issue unchanged
+  - Next: authorised commit, origin/main push, exact-SHA deployment/live verification and task-owned cleanup
 
 - [x] The weekend, with something to smile about | revision 1
   - Candidate: `2026-11-16-weekend-roundup`; News; final-review; approved and published live; editorial workflow closed
