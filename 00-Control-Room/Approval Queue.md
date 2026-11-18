@@ -25,12 +25,14 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ## Approved
 
 ### Voyager 1 reaches one light-day from Earth | revision 1
-- Candidate: `2026-11-18-voyager-1-one-light-day`; News; accepted and published locally; commit/push/deployment in progress
-- Decision: User “accepted. commit, push and clean up”; exact reviewed article plus separate scoped commit, origin/main push/deployment and owned cleanup authorised
+- Candidate: `2026-11-18-voyager-1-one-light-day`; News; accepted and published live; editorial workflow closed
+- Decision: User “accepted. commit, push and clean up”; reviewed article plus scoped commit, origin/main push/deployment and owned cleanup separately authorised
 - Public file: `content/news/2026-11-18-voyager-1-one-light-day.md`; SHA-256 `ba631f092f68bf70730c412bb3171467edafe3be3c20bfde24a4d38b4ba3501a`; article `e4ad972ec8ca6f93907789b540b197f54c08b82097af836867d37e2d785dee47`; 1,023 prose words
-- Packet: `99-Archive/published/2026-11-18-voyager-1-one-light-day/07-Approval/2026-11-18-voyager-1-one-light-day/approval.md`; mutable decision SHA-256 `6f5e7cf4c8239116befcdb80e196d476ee6747e701cea642608efdafb40bfd5d`; immutable reviewed packet `5aff4e6f32f675655823c2ee0b8ee4972be88621dbca2cdf769fb51f0c3b5d07`
-- Run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`; stage history and evidence retained privately, not included in Git
-- Next: finish authorised commit/push, exact-SHA deployment/live verification and task-owned cleanup
+- Packet: `99-Archive/published/2026-11-18-voyager-1-one-light-day/07-Approval/2026-11-18-voyager-1-one-light-day/approval.md`; current decision SHA-256 `b1c4c5bc3588bd344826fc47a361a97cd1fbffd5380a6c047b047bf17d8c234d`; immutable reviewed packet `5aff4e6f32f675655823c2ee0b8ee4972be88621dbca2cdf769fb51f0c3b5d07`
+- Run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`; private archive/history preserved; unrelated editorial work intentionally unstaged
+- Release: product `6708f9ee9e67d38f286e5bb64d886413a927dbff`; Pages run `44349662055` build/deploy success; exact live article/home/News and 390/768/1280 browser checks passed
+- Cleanup: owned transports/servers exited, port 1313 closed, candidate preview/build cache removed; desktop pane shows live article
+- Next: none for editorial publication; final records-HEAD deployment/readback receipts retained privately in archive
 
 ### Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
 - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; approved and published live; editorial workflow closed

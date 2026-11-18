@@ -10,7 +10,7 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked idea checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/idea.md`; SHA-256 `35fa8c819c34b7c7e51a5a1fd93cfe4f0d890eed52142b85f86704cce9bf96de`
-  - Final disposition: accepted exact revision, published locally; authorised GitHub/live release in progress. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
+  - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; internal Idea checked, not human-approved
@@ -499,7 +499,7 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked brief checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/02-Briefs/2026-11-18-voyager-1-one-light-day/brief.md`; SHA-256 `9089b05845eb23fbb35b0f1ce8f9ec7c5d5d7e0324d6d8bde83ac20891039798`
-  - Final disposition: accepted exact revision, published locally; authorised GitHub/live release in progress. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
+  - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Brief internally checked, not human-approved
@@ -985,7 +985,7 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked seo checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/03-SEO/2026-11-18-voyager-1-one-light-day/seo.md`; SHA-256 `27cfe4a937eb0ad75af3438daf09f05f0849af1a4360b63534bb5162bf39a8ed`
-  - Final disposition: accepted exact revision, published locally; authorised GitHub/live release in progress. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
+  - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; SEO internally checked
@@ -1549,7 +1549,7 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked draft checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/04-Drafts/2026-11-18-voyager-1-one-light-day/draft.md`; SHA-256 `f3cd86a1c780244bebd85bfd422f7640a1f2aa01567ef407a52fe24ad2689a09`
-  - Final disposition: accepted exact revision, published locally; authorised GitHub/live release in progress. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
+  - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Draft internally checked
@@ -2234,7 +2234,7 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked creative-edit checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/05-Reviews/2026-11-18-voyager-1-one-light-day/creative-edit.md`; SHA-256 `b53c3a98ea25c61dd395997b80756c798e4440303b2a2c7c673885f3f44cabc1`
-  - Final disposition: accepted exact revision, published locally; authorised GitHub/live release in progress. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
+  - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Creative Edit internally checked
@@ -2926,7 +2926,7 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked proofread checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/05-Reviews/2026-11-18-voyager-1-one-light-day/proofread.md`; SHA-256 `81ae83885740317ab8bb744d5e7272c138fcac4b566a32db2ad62befee0c395a`
-  - Final disposition: accepted exact revision, published locally; authorised GitHub/live release in progress. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
+  - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Proofread internally checked
@@ -3612,7 +3612,7 @@ A simple Obsidian board for tracking Dadbot work.
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked design checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/06-Design/2026-11-18-voyager-1-one-light-day/design.md`; SHA-256 `c846f1fcfdef5ec0402ce6d6c8a32df501f92c8a0a045fa9bd77592be1f8e204`
-  - Final disposition: accepted exact revision, published locally; authorised GitHub/live release in progress. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
+  - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Design internally checked
@@ -4331,12 +4331,14 @@ See also: [[Approval Queue]]
 ## Published
 
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
-  - Candidate: `2026-11-18-voyager-1-one-light-day`; News; accepted and published locally; commit/push/deployment in progress
-  - Decision: User “accepted. commit, push and clean up”; local publication, candidate-only commit, origin/main push/deployment and owned cleanup authorised
+  - Candidate: `2026-11-18-voyager-1-one-light-day`; News; accepted and published live; editorial workflow closed
+  - Decision: User “accepted. commit, push and clean up”; reviewed article, scoped commit, origin/main push/deployment and owned cleanup separately authorised
   - Public file: `content/news/2026-11-18-voyager-1-one-light-day.md`; SHA-256 `ba631f092f68bf70730c412bb3171467edafe3be3c20bfde24a4d38b4ba3501a`; article `e4ad972ec8ca6f93907789b540b197f54c08b82097af836867d37e2d785dee47`; 1,023 prose words
-  - Packet: `99-Archive/published/2026-11-18-voyager-1-one-light-day/07-Approval/2026-11-18-voyager-1-one-light-day/approval.md`; mutable decision SHA-256 `6f5e7cf4c8239116befcdb80e196d476ee6747e701cea642608efdafb40bfd5d`; immutable reviewed packet `5aff4e6f32f675655823c2ee0b8ee4972be88621dbca2cdf769fb51f0c3b5d07`
-  - Run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`; checks retained privately; all active stage bundles archived with movement hashes verified
-  - Next: finish authorised commit/push, exact-SHA deployment/live verification and task-owned cleanup; no further editorial approval required
+  - Packet: `99-Archive/published/2026-11-18-voyager-1-one-light-day/07-Approval/2026-11-18-voyager-1-one-light-day/approval.md`; current decision SHA-256 `b1c4c5bc3588bd344826fc47a361a97cd1fbffd5380a6c047b047bf17d8c234d`; immutable reviewed packet `5aff4e6f32f675655823c2ee0b8ee4972be88621dbca2cdf769fb51f0c3b5d07`
+  - Run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`; complete private history/evidence retained locally, not included in Git
+  - Release: product `6708f9ee9e67d38f286e5bb64d886413a927dbff`; Pages run `44349662055` build/deploy success; live article/home/News, exact content/metadata/nine sources and real 390/768/1280 browser checks passed
+  - Cleanup: owned QA transports and servers exited, port 1313 closed, external candidate preview/build root removed; live article remains in desktop pane
+  - Next: none for editorial publication; final records-HEAD deployment and readback receipts retained privately in archive
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; approved and published live; editorial workflow closed
