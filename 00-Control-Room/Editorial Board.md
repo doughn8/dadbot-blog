@@ -4374,13 +4374,14 @@ See also: [[Approval Queue]]
 ## Published
 
 - [x] Anthropic’s record IPO: what the money means | revision 1
-  - Candidate: `2026-11-19-anthropic-record-ipo`; News; accepted and published locally; scoped Git release in progress
-  - Decision: User “accepted, commit, push and clean up”; local publication, candidate-only commits, main push/deployment and owned cleanup separately authorised
+  - Candidate: `2026-11-19-anthropic-record-ipo`; News; accepted and published live; editorial workflow closed
+  - Decision: User “accepted, commit, push and clean up”; reviewed revision, scoped commits, main push/deployment and owned cleanup separately authorised
   - Public file: `content/news/2026-11-19-anthropic-record-ipo.md`; SHA-256 `25ff96123c1814ecaa3cb7c4627cce7f02cabf4a489c5ca08f5f17a857ea9b00`; payload `6d0b90a79d74bd4fd4350b047f4e8746b49197735e502c814e730ad42525b0c0`; 1,014 prose words
-  - Packet: `99-Archive/published/2026-11-19-anthropic-record-ipo/07-Approval/2026-11-19-anthropic-record-ipo/approval.md`; current decision SHA-256 `ddac4dd812fa18e20e55b04586091c02562efac36285d1193a4f40d51a76c632`; immutable reviewed packet `db1f67719bc1a63e866201a4e81e542bd620cd635a1720bc9a87d6fb6e4f0358`
-  - Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`; private evidence/archive retained locally
-  - Checks: pinned production/local HTTP/listing/browser verification passed; existing coffee-badge obstruction disclosed
-  - Next: complete authorised push/deployment verification and owned cleanup; no further editorial decision required
+  - Packet: `99-Archive/published/2026-11-19-anthropic-record-ipo/07-Approval/2026-11-19-anthropic-record-ipo/approval.md`; current decision SHA-256 `6cdd8c56ad7aa2b0325ad9c0d9ae031a676aac5ede566fa1a45673ff3451df83`; immutable reviewed `db1f67719bc1a63e866201a4e81e542bd620cd635a1720bc9a87d6fb6e4f0358`
+  - Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`; private history preserved; unrelated editorial changes intentionally unstaged
+  - Release: product `65a83da3a5a53e5c9e28cf7a6b19bb4b0f40b7dd`; Pages run 44561014853 build/deploy success; exact live article/home/News plus 390/768/1280 browser checks passed
+  - Cleanup: owned servers/transports exited; 1313 closed; candidate cache removed; desktop pane shows live article
+  - Next: none for editorial publication; final records-HEAD deployment/readback receipts retained privately in archive
 
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; accepted and published live; editorial workflow closed

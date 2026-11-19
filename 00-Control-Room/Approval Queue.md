@@ -26,14 +26,14 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 ## Approved
 
 ### Anthropic’s record IPO: what the money means | revision 1
-- Candidate: `2026-11-19-anthropic-record-ipo`; News; accepted and published locally; scoped Git release in progress
-- Decision: User “accepted, commit, push and clean up”; separate local publication, bounded commit, main push/deployment and owned-cleanup authority
+- Candidate: `2026-11-19-anthropic-record-ipo`; News; accepted and published live; editorial workflow closed
+- Decision: User “accepted, commit, push and clean up”; local publication, bounded commits, main push/deployment and owned-cleanup separately authorised
 - Public file: `content/news/2026-11-19-anthropic-record-ipo.md`; SHA-256 `25ff96123c1814ecaa3cb7c4627cce7f02cabf4a489c5ca08f5f17a857ea9b00`; payload `6d0b90a79d74bd4fd4350b047f4e8746b49197735e502c814e730ad42525b0c0`; 1,014 prose words
-- Packet: `99-Archive/published/2026-11-19-anthropic-record-ipo/07-Approval/2026-11-19-anthropic-record-ipo/approval.md`; current decision SHA-256 `ddac4dd812fa18e20e55b04586091c02562efac36285d1193a4f40d51a76c632`; immutable reviewed `db1f67719bc1a63e866201a4e81e542bd620cd635a1720bc9a87d6fb6e4f0358`
-- Reviewer: `99-Archive/published/2026-11-19-anthropic-record-ipo/07-Approval/2026-11-19-anthropic-record-ipo/final-approval-review-reviewed.md`; immutable reviewed export `d3021730070a46752807d3ae3c21c6602fd19d817b87b02b3a3bce7fa0e75339`
-- Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`; private research preserved; unrelated work intentionally excluded
-- Checks: accepted payload/public metadata preserved; production/local HTTP/listing/browser checks passed; existing shared coffee-badge overlap disclosed
-- Next: complete authorised push/deployment verification and owned cleanup
+- Packet: `99-Archive/published/2026-11-19-anthropic-record-ipo/07-Approval/2026-11-19-anthropic-record-ipo/approval.md`; current decision SHA-256 `6cdd8c56ad7aa2b0325ad9c0d9ae031a676aac5ede566fa1a45673ff3451df83`; immutable reviewed `db1f67719bc1a63e866201a4e81e542bd620cd635a1720bc9a87d6fb6e4f0358`
+- Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`; private archive/history retained; unrelated editorial work intentionally unstaged
+- Release: product `65a83da3a5a53e5c9e28cf7a6b19bb4b0f40b7dd`; Pages run 44561014853 build/deploy success; exact live article/home/News and 390/768/1280 browser checks passed
+- Cleanup: owned servers/transports exited, 1313 closed, candidate cache removed; desktop pane shows live article
+- Next: none for editorial publication; final records-HEAD deployment/readback receipts retained privately in archive
 
 ### Voyager 1 reaches one light-day from Earth | revision 1
 - Candidate: `2026-11-18-voyager-1-one-light-day`; News; accepted and published live; editorial workflow closed
