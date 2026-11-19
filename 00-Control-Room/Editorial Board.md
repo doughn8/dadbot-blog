@@ -7,6 +7,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Anthropic’s record IPO: what the money means | revision 1
+  - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 01-Ideas checkpoint, not separate human approval
+  - Artifact: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/idea.md`; SHA-256 `009bcef88785a3fbb8e4510e294f1130c34b1bb9a87b4ffe49136c750c72168f`
+  - Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`
+  - Final disposition: accepted revision 1 and published locally; historical stage checkpoint closed.
+
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked idea checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/idea.md`; SHA-256 `35fa8c819c34b7c7e51a5a1fd93cfe4f0d890eed52142b85f86704cce9bf96de`
@@ -496,6 +502,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Anthropic’s record IPO: what the money means | revision 1
+  - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 02-Briefs checkpoint, not separate human approval
+  - Artifact: `99-Archive/published/2026-11-19-anthropic-record-ipo/02-Briefs/2026-11-19-anthropic-record-ipo/brief.md`; SHA-256 `32eaebe149f02fe0494ff957e1a3e13092cdfa2334c9392e7e032e0dae422d9c`
+  - Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`
+  - Final disposition: accepted revision 1 and published locally; historical stage checkpoint closed.
+
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked brief checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/02-Briefs/2026-11-18-voyager-1-one-light-day/brief.md`; SHA-256 `9089b05845eb23fbb35b0f1ce8f9ec7c5d5d7e0324d6d8bde83ac20891039798`
@@ -981,6 +993,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Anthropic’s record IPO: what the money means | revision 1
+  - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 03-SEO checkpoint, not separate human approval
+  - Artifact: `99-Archive/published/2026-11-19-anthropic-record-ipo/03-SEO/2026-11-19-anthropic-record-ipo/seo.md`; SHA-256 `e915559460b53e5d7c6fa7ba1b5feb36457359f04a020b630f5af16079b7f8c5`
+  - Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`
+  - Final disposition: accepted revision 1 and published locally; historical stage checkpoint closed.
 
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked seo checkpoint, not separate human approval
@@ -1545,6 +1563,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Anthropic’s record IPO: what the money means | revision 1
+  - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 04-Drafts checkpoint, not separate human approval
+  - Artifact: `99-Archive/published/2026-11-19-anthropic-record-ipo/04-Drafts/2026-11-19-anthropic-record-ipo/draft.md`; SHA-256 `fb6b61c05b3429fae22630f6042f0eeaf801271ded9c1d6201743d1584bffa56`
+  - Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`
+  - Final disposition: accepted revision 1 and published locally; historical stage checkpoint closed.
 
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked draft checkpoint, not separate human approval
@@ -2230,6 +2254,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Anthropic’s record IPO: what the money means | revision 1
+  - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 05-Reviews checkpoint, not separate human approval
+  - Artifact: `99-Archive/published/2026-11-19-anthropic-record-ipo/05-Reviews/2026-11-19-anthropic-record-ipo/creative-edit.md`; SHA-256 `579c96cc4a0b87af357a587e2d354d8865899372dd898ac2ae594cb9c23bd747`
+  - Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`
+  - Final disposition: accepted revision 1 and published locally; historical stage checkpoint closed.
 
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked creative-edit checkpoint, not separate human approval
@@ -2923,6 +2953,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Anthropic’s record IPO: what the money means | revision 1
+  - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 05-Reviews checkpoint, not separate human approval
+  - Artifact: `99-Archive/published/2026-11-19-anthropic-record-ipo/05-Reviews/2026-11-19-anthropic-record-ipo/proofread.md`; SHA-256 `e3622def57eae3cf8e0c79537b8b03de354fda09c5e4dc33e34cca38c8ca7fa5`
+  - Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`
+  - Final disposition: accepted revision 1 and published locally; historical stage checkpoint closed.
+
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked proofread checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/05-Reviews/2026-11-18-voyager-1-one-light-day/proofread.md`; SHA-256 `81ae83885740317ab8bb744d5e7272c138fcac4b566a32db2ad62befee0c395a`
@@ -3608,6 +3644,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Anthropic’s record IPO: what the money means | revision 1
+  - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 06-Design checkpoint, not separate human approval
+  - Artifact: `99-Archive/published/2026-11-19-anthropic-record-ipo/06-Design/2026-11-19-anthropic-record-ipo/design.md`; SHA-256 `293f1d5c6b28c5e0a878e65e0961f918e5d5555da6d58e1ba2eb18a4ad05c022`
+  - Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`
+  - Final disposition: accepted revision 1 and published locally; historical stage checkpoint closed.
 
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked design checkpoint, not separate human approval
@@ -4298,6 +4340,7 @@ A simple Obsidian board for tracking Dadbot work.
 
 
 
+
 - [x] Bond Yields Jump as Energy Inflation Squeezes the World — revision 2
   - Candidate: `2026-10-01-global-bond-yields-energy-inflation`; revision 2; final-review mode
   - Artifact: `99-Archive/published/2026-10-01-global-bond-yields-energy-inflation/07-Approval/2026-10-01-global-bond-yields-energy-inflation/approval-revision-2.md`
@@ -4329,6 +4372,15 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Anthropic’s record IPO: what the money means | revision 1
+  - Candidate: `2026-11-19-anthropic-record-ipo`; News; accepted and published locally; scoped Git release in progress
+  - Decision: User “accepted, commit, push and clean up”; local publication, candidate-only commits, main push/deployment and owned cleanup separately authorised
+  - Public file: `content/news/2026-11-19-anthropic-record-ipo.md`; SHA-256 `25ff96123c1814ecaa3cb7c4627cce7f02cabf4a489c5ca08f5f17a857ea9b00`; payload `6d0b90a79d74bd4fd4350b047f4e8746b49197735e502c814e730ad42525b0c0`; 1,014 prose words
+  - Packet: `99-Archive/published/2026-11-19-anthropic-record-ipo/07-Approval/2026-11-19-anthropic-record-ipo/approval.md`; current decision SHA-256 `ddac4dd812fa18e20e55b04586091c02562efac36285d1193a4f40d51a76c632`; immutable reviewed packet `db1f67719bc1a63e866201a4e81e542bd620cd635a1720bc9a87d6fb6e4f0358`
+  - Run: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/run.md`; private evidence/archive retained locally
+  - Checks: pinned production/local HTTP/listing/browser verification passed; existing coffee-badge obstruction disclosed
+  - Next: complete authorised push/deployment verification and owned cleanup; no further editorial decision required
 
 - [x] Voyager 1 reaches one light-day from Earth | revision 1
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; accepted and published live; editorial workflow closed
