@@ -25,6 +25,16 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### What the Rohingya genocide ruling means for families who fled | revision 1
+
+- Candidate: `2026-11-20-rohingya-genocide-ruling`; News; Accepted and published locally; automatic Pages verification pending.
+- [x] Approve: Sophie, 2026-11-20; exact local publication. Commit, push and cleanup separately authorised.
+- Public file: `content/news/2026-11-20-rohingya-genocide-ruling.md`; SHA-256 `dc995644b84b2cb0ed2a000f2ba0b089ff98d8cd5b986ac7ffc58fa9bc533b38`; payload `eb344967b78b180c5924bb94dbc69e2e119ba1cef0f4bcc809d4a97d3f3fdb24`; 1,027 prose words.
+- Packet: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/07-Approval/2026-11-20-rohingya-genocide-ruling/approval.md`; current decision SHA-256 `edbe97ee1ab6cb7c87b05a1f71107e4aaff765bac0d5a22a9eb27e4214560751`; immutable reviewed `636bb32a979aa5d80a84d3696c92a81949b95d32d8dee16c3c72dd24e82c88b0`.
+- Run: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/01-Ideas/2026-11-20-rohingya-genocide-ruling/run.md`; private editorial history retained.
+- Cleanup: Temporary checkout preview remains only for release verification.
+- Next: Verify GitHub Pages and the live article.
+
 ### Anthropic’s record IPO: what the money means | revision 1
 - Candidate: `2026-11-19-anthropic-record-ipo`; News; accepted and published live; editorial workflow closed
 - Decision: User “accepted, commit, push and clean up”; local publication, bounded commits, main push/deployment and owned-cleanup separately authorised

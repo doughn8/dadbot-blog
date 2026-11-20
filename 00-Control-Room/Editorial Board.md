@@ -7,6 +7,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] What the Rohingya genocide ruling means for families who fled | revision 1
+  - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
+  - Artifact: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/01-Ideas/2026-11-20-rohingya-genocide-ruling/idea.md`; SHA-256 `5aad2e36d2e2205f680f29459b12691767c279871ed5e2104125ef6f3131cfd4`.
+  - Final disposition: Accepted and published locally; automatic Pages verification pending.
+
 - [x] Anthropic’s record IPO: what the money means | revision 1
   - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 01-Ideas checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-19-anthropic-record-ipo/01-Ideas/2026-11-19-anthropic-record-ipo/idea.md`; SHA-256 `009bcef88785a3fbb8e4510e294f1130c34b1bb9a87b4ffe49136c750c72168f`
@@ -502,6 +507,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] What the Rohingya genocide ruling means for families who fled | revision 1
+  - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
+  - Artifact: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/02-Briefs/2026-11-20-rohingya-genocide-ruling/brief.md`; SHA-256 `63cc84a92e31a2f41ee6b924c7f624a2f94c8f470e69c4c7c4af6f048821231b`.
+  - Final disposition: Accepted and published locally; automatic Pages verification pending.
+
 - [x] Anthropic’s record IPO: what the money means | revision 1
   - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 02-Briefs checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-19-anthropic-record-ipo/02-Briefs/2026-11-19-anthropic-record-ipo/brief.md`; SHA-256 `32eaebe149f02fe0494ff957e1a3e13092cdfa2334c9392e7e032e0dae422d9c`
@@ -993,6 +1003,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] What the Rohingya genocide ruling means for families who fled | revision 1
+  - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
+  - Artifact: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/03-SEO/2026-11-20-rohingya-genocide-ruling/seo.md`; SHA-256 `03922ef4a9f2e3eee0a9dd9a8dbbe36e9776e33ee9edf8cbad0ec5d0b8884327`.
+  - Final disposition: Accepted and published locally; automatic Pages verification pending.
 
 - [x] Anthropic’s record IPO: what the money means | revision 1
   - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 03-SEO checkpoint, not separate human approval
@@ -1563,6 +1578,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] What the Rohingya genocide ruling means for families who fled | revision 1
+  - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
+  - Artifact: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/04-Drafts/2026-11-20-rohingya-genocide-ruling/draft.md`; SHA-256 `9483ca31febdf136f857240ff10cca59b87d46862d48c1d48b192e5bff791376`.
+  - Final disposition: Accepted and published locally; automatic Pages verification pending.
 
 - [x] Anthropic’s record IPO: what the money means | revision 1
   - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 04-Drafts checkpoint, not separate human approval
@@ -2254,6 +2274,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] What the Rohingya genocide ruling means for families who fled | revision 1
+  - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
+  - Artifact: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/05-Reviews/2026-11-20-rohingya-genocide-ruling/creative-edit.md`; SHA-256 `9195ea3d6f956c74cd45ac9c443673a0497c9b28893b030ca534181ce63c027f`.
+  - Final disposition: Accepted and published locally; automatic Pages verification pending.
 
 - [x] Anthropic’s record IPO: what the money means | revision 1
   - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 05-Reviews checkpoint, not separate human approval
@@ -2953,6 +2978,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] What the Rohingya genocide ruling means for families who fled | revision 1
+  - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
+  - Artifact: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/05-Reviews/2026-11-20-rohingya-genocide-ruling/proofread.md`; SHA-256 `22fd59413450a8ad96b7ce88a4c55d0c234ddca834d03e179e51481f537a4f4c`.
+  - Final disposition: Accepted and published locally; automatic Pages verification pending.
+
 - [x] Anthropic’s record IPO: what the money means | revision 1
   - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 05-Reviews checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-19-anthropic-record-ipo/05-Reviews/2026-11-19-anthropic-record-ipo/proofread.md`; SHA-256 `e3622def57eae3cf8e0c79537b8b03de354fda09c5e4dc33e34cca38c8ca7fa5`
@@ -3644,6 +3674,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] What the Rohingya genocide ruling means for families who fled | revision 1
+  - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
+  - Artifact: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/06-Design/2026-11-20-rohingya-genocide-ruling/design.md`; SHA-256 `b2abeaf8ac32e6fee80f54c6f6ba267e374611193db8ac71cfd17239a86a1acd`.
+  - Final disposition: Accepted and published locally; automatic Pages verification pending.
 
 - [x] Anthropic’s record IPO: what the money means | revision 1
   - Candidate: `2026-11-19-anthropic-record-ipo`; News; final-review; historical internally checked 06-Design checkpoint, not separate human approval
@@ -4372,6 +4407,15 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] What the Rohingya genocide ruling means for families who fled | revision 1
+  - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; Accepted and published locally; automatic Pages verification pending.
+  - Decision: Sophie accepted exact revision 1 on 2026-11-20; bounded commit, push and cleanup separately authorised.
+  - Public file: `content/news/2026-11-20-rohingya-genocide-ruling.md`; SHA-256 `dc995644b84b2cb0ed2a000f2ba0b089ff98d8cd5b986ac7ffc58fa9bc533b38`; payload `eb344967b78b180c5924bb94dbc69e2e119ba1cef0f4bcc809d4a97d3f3fdb24`; 1,027 prose words.
+  - Packet: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/07-Approval/2026-11-20-rohingya-genocide-ruling/approval.md`; current decision SHA-256 `edbe97ee1ab6cb7c87b05a1f71107e4aaff765bac0d5a22a9eb27e4214560751`; immutable reviewed `636bb32a979aa5d80a84d3696c92a81949b95d32d8dee16c3c72dd24e82c88b0`.
+  - Run: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/01-Ideas/2026-11-20-rohingya-genocide-ruling/run.md`; private editorial history retained.
+  - Cleanup: Temporary checkout preview remains only for release verification.
+  - Next: Verify GitHub Pages and the live article.
 
 - [x] Anthropic’s record IPO: what the money means | revision 1
   - Candidate: `2026-11-19-anthropic-record-ipo`; News; accepted and published live; editorial workflow closed
