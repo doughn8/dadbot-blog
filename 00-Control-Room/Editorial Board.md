@@ -23,6 +23,24 @@ A simple Obsidian board for tracking Dadbot work.
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/idea.md`; SHA-256 `35fa8c819c34b7c7e51a5a1fd93cfe4f0d890eed52142b85f86704cce9bf96de`
   - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
 
+- [x] Black Friday: are the deals really deals? | revision 2
+  - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; final-review; Idea internally checked, not human-approved
+  - Artifact: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/idea-revision-2.md`; SHA-256 `05d71cdeada0fd40cef06325da726d2907a4dc75664755bcd578892b03f22c4f`
+  - Checks: candidate `checks/revision-2/idea/result.json`; YAML, structural, eight-source strict evidence and fresh normal Hugo exclusion PASS
+  - Final disposition: Revision 3 approved as-is at 1,344 words; historical stage checkpoint closed.
+  - Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
+
+- [x] Black Friday: a marketing campaign dressed as a sale | revision 1
+  - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; stage-gated
+  - Artifact: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/idea.md`
+  - SHA-256: `7455e8632b1e07c2715d6a62d33069f20cdf55e2551bd91d28340f97d9bd269c`
+  - Research: candidate `research-notes.md`, `sources.json` and `evidence/`; prior unsupported Which? verification withdrawn and preserved in provenance history
+  - Checks: real YAML, structural contract, seven-source strict evidence integrity, exact passages, 16 focused contract tests and fresh normal Hugo build passed; candidate absent from production output
+  - Receipt: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/checks/idea-results.json`
+  - Status: historical revision-1 Idea; superseded by explicitly authorised final-review revision 2. No publication or release authority.
+  - Final disposition: Revision 3 approved as-is at 1,344 words; historical stage checkpoint closed.
+  - Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
+
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; internal Idea checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/01-Ideas/2026-11-17-trump-xi-putin-one-table/idea.md`
@@ -523,6 +541,13 @@ A simple Obsidian board for tracking Dadbot work.
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/02-Briefs/2026-11-18-voyager-1-one-light-day/brief.md`; SHA-256 `9089b05845eb23fbb35b0f1ce8f9ec7c5d5d7e0324d6d8bde83ac20891039798`
   - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
 
+- [x] Black Friday: are the deals really deals? | revision 2
+  - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; final-review; Brief internally checked
+  - Artifact: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/02-Briefs/2026-11-17-black-friday-marketing-not-a-bargain/brief-revision-2.md`; SHA-256 `9cfd53f1e43070e119c4218206716f0776a2e0e55c655cce1dd95fd442e9696e`
+  - Checks: candidate `checks/revision-2/brief/result.json`; YAML, contract, strict evidence and production exclusion PASS
+  - Final disposition: Revision 3 approved as-is at 1,344 words; historical stage checkpoint closed.
+  - Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
+
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Brief internally checked, not human-approved
   - Artifact: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/02-Briefs/2026-11-17-trump-xi-putin-one-table/brief.md`; SHA-256: `5374c22f3522efd6e815051de88df33cd83afb2bea4d5512aa3de7699c81bc06`
@@ -1019,6 +1044,13 @@ A simple Obsidian board for tracking Dadbot work.
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked seo checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/03-SEO/2026-11-18-voyager-1-one-light-day/seo.md`; SHA-256 `27cfe4a937eb0ad75af3438daf09f05f0849af1a4360b63534bb5162bf39a8ed`
   - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
+
+- [x] Black Friday: are the deals really deals? | revision 2
+  - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; final-review; SEO internally checked
+  - Artifact: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/03-SEO/2026-11-17-black-friday-marketing-not-a-bargain/seo-revision-2.md`; SHA-256 `aca87091acc15a35f8c7f1ba501ce78dc0702bd4ea87145ef6bce23bea56f8e1`
+  - Checks: candidate `checks/revision-2/seo/result.json`; metadata, YAML, structural and production exclusion PASS
+  - Final disposition: Revision 3 approved as-is at 1,344 words; historical stage checkpoint closed.
+  - Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; SEO internally checked
@@ -1594,6 +1626,14 @@ A simple Obsidian board for tracking Dadbot work.
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked draft checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/04-Drafts/2026-11-18-voyager-1-one-light-day/draft.md`; SHA-256 `f3cd86a1c780244bebd85bfd422f7640a1f2aa01567ef407a52fe24ad2689a09`
   - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
+
+- [x] Black Friday: are the deals really deals? | revision 2
+  - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; final-review; Draft internally checked
+  - Artifact: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/04-Drafts/2026-11-17-black-friday-marketing-not-a-bargain/draft-revision-2.md`; SHA-256 `24bc53f0ad7ee5d65d5056366e6c28fb3ea97f1f10e57f33302941d2e64cf592`
+  - Payload: `411ac991e2f28328936c1a45724b2b4facc2a76099c834d100afaec2b3836c37`; 1544 citation-stripped prose words
+  - Checks: candidate `checks/revision-2/draft/result.json`; claim/quote/evidence/coverage, YAML, contract and production exclusion PASS
+  - Final disposition: Revision 3 approved as-is at 1,344 words; historical stage checkpoint closed.
+  - Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Draft internally checked
@@ -2290,6 +2330,14 @@ A simple Obsidian board for tracking Dadbot work.
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked creative-edit checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/05-Reviews/2026-11-18-voyager-1-one-light-day/creative-edit.md`; SHA-256 `b53c3a98ea25c61dd395997b80756c798e4440303b2a2c7c673885f3f44cabc1`
   - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
+
+- [x] Black Friday: are the deals really deals? | revision 2
+  - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; final-review; Creative Edit internally checked
+  - Artifact: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/05-Reviews/2026-11-17-black-friday-marketing-not-a-bargain/creative-edit-revision-2.md`; SHA-256 `63a3fca95ea28e26b9671e9a3bfee90aca070670b7915e1f465aa0520e2d38de`
+  - Payload: `858e6841011254cf5dc957e0edba2789c0b7f1de593cce824af993d82b5ad0cc`; 1490 prose words; two repetition cuts
+  - Checks: candidate `checks/revision-2/creative-edit/result.json`; evidence/coverage, payload equality, YAML, contract and production exclusion PASS
+  - Final disposition: Revision 3 approved as-is at 1,344 words; historical stage checkpoint closed.
+  - Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Creative Edit internally checked
@@ -2994,6 +3042,14 @@ A simple Obsidian board for tracking Dadbot work.
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/05-Reviews/2026-11-18-voyager-1-one-light-day/proofread.md`; SHA-256 `81ae83885740317ab8bb744d5e7272c138fcac4b566a32db2ad62befee0c395a`
   - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
 
+- [x] Black Friday: are the deals really deals? | revision 2
+  - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; final-review; Proofread internally checked
+  - Artifact: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/05-Reviews/2026-11-17-black-friday-marketing-not-a-bargain/proofread-revision-2.md`; SHA-256 `fa17b66c38b3f8b4db876ab19e7f64894db05de78fb996dac1e139aa1350e4df`
+  - Payload: `858e6841011254cf5dc957e0edba2789c0b7f1de593cce824af993d82b5ad0cc`; 1490 prose words; byte-identical to checked Creative Edit
+  - Checks: candidate `checks/revision-2/proofread/result.json`; language, equality, evidence/coverage, YAML, contract and production exclusion PASS
+  - Final disposition: Revision 3 approved as-is at 1,344 words; historical stage checkpoint closed.
+  - Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
+
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Proofread internally checked
   - Artifact: `99-Archive/published/2026-11-17-trump-xi-putin-one-table/05-Reviews/2026-11-17-trump-xi-putin-one-table/proofread.md`; SHA-256: `88493b526663dcd6b40e1b5729d1f9db019b9535c6540eb07a7065ce9c181980`
@@ -3690,6 +3746,16 @@ A simple Obsidian board for tracking Dadbot work.
   - Candidate: `2026-11-18-voyager-1-one-light-day`; News; final-review; historical internally checked design checkpoint, not separate human approval
   - Artifact: `99-Archive/published/2026-11-18-voyager-1-one-light-day/06-Design/2026-11-18-voyager-1-one-light-day/design.md`; SHA-256 `c846f1fcfdef5ec0402ce6d6c8a32df501f92c8a0a045fa9bd77592be1f8e204`
   - Final disposition: accepted exact revision, published live; historical stage checkpoint closed. Current run: `99-Archive/published/2026-11-18-voyager-1-one-light-day/01-Ideas/2026-11-18-voyager-1-one-light-day/run.md`
+
+- [x] Black Friday: are the deals really deals? | revision 2
+  - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; final-review; Design internally checked
+  - Artifact: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/06-Design/2026-11-17-black-friday-marketing-not-a-bargain/design-revision-2.md`; SHA-256 `6478af76454b13f7a6e65f616617a43210d15cb1f61a4faf0ec9e1f5a8167fbe`
+  - Payload: `858e6841011254cf5dc957e0edba2789c0b7f1de593cce824af993d82b5ad0cc`; 1490 prose words; existing design, no covers
+  - Preview: `http://127.0.0.1:1313/posts/black-friday-marketing-not-a-bargain/?local-review=2`; historical direct-route-only review; superseded by revision 3
+  - Checks: candidate `checks/revision-2/design/result.json`; 23 widths/92 states, exact source links, preview equality and isolation PASS
+  - Limitation: existing coffee-button text obstruction reproduced on approved sibling at phone/tablet; no shared CSS changed
+  - Final disposition: Revision 3 approved as-is at 1,344 words; historical stage checkpoint closed.
+  - Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
 
 - [x] Trump, Xi and Putin: Three Men, One Table, and the Future of the World | revision 1
   - Candidate: `2026-11-17-trump-xi-putin-one-table`; News; final-review; Design internally checked
@@ -4407,6 +4473,17 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Black Friday: are the deals really deals? | revision 3
+  - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; revision 3
+  - Decision: Approve — exact revision and 1,344-word length accepted; local publication, commit, push and candidate cleanup authorised
+  - Public file: `content/posts/2026-11-17-black-friday-marketing-not-a-bargain.md`
+  - Canonical route: `/posts/black-friday-marketing-not-a-bargain/`
+  - Packet: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/07-Approval/2026-11-17-black-friday-marketing-not-a-bargain/approval-revision-3.md`; SHA-256 `d0963371ea3c9623a9fc6152b19be47fe23897de3ee395e7f543fe18e3d94787`
+  - Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
+  - Checks: exact reviewed payload; Hugo production build, direct route, homepage and Blog listing; one title/TL;DR and nine source links; no cover
+  - Next: none for editorial; deployment and cleanup receipts are kept in the local archive.
+
 
 - [x] What the Rohingya genocide ruling means for families who fled | revision 1
   - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; Accepted and published live. Product `7b17bc6c832c114c7eccfe80d52cc1fffd561feb`, Pages run 44728587691 verified; review workflow closed.
@@ -5341,6 +5418,19 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] Black Friday: are the deals really deals? | revision 2
+  - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; final-review; Request changes received; superseded by approved revision 3
+  - Packet: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/07-Approval/2026-11-17-black-friday-marketing-not-a-bargain/approval-reviewed-revision-2.md`; SHA-256 `d6f7019ffed53ea95dc6210f7030e86e5a10e3332a03485ac87459adc83c94fd`
+  - Reviewer: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/07-Approval/2026-11-17-black-friday-marketing-not-a-bargain/final-approval-review-revision-2.md`; SHA-256 `ef38d0b77bd7d9bd5051bdc08a7e675ff9516015d2d306c9bafe3e9625bba0ad`
+  - Article payload: `858e6841011254cf5dc957e0edba2789c0b7f1de593cce824af993d82b5ad0cc`; public metadata: `f78ac0e8345d42d31198b5925dc70014a7098ed0b726b051f693f49bb0f41f18`; 1490 prose words
+  - Historical preview observed at revision-2 review: `http://127.0.0.1:1313/posts/black-friday-marketing-not-a-bargain/?local-review=2`; isolated full-site copy, direct-route-only; exact desktop readback verified
+  - Checks: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/checks/revision-2/final-approval/result.json`; all internal stages, exact article/metadata/source checks, build/isolation, 23-width browser review and owned-QA exit verified
+  - Limitation: existing fixed coffee button obscures some phone/tablet text, reproduced on approved sibling; shared CSS unchanged
+  - Choices: Approve / Request changes / Reject / Hold. Approve = agreed local publication only; no commit, push or deployment.
+  - Final disposition: Revision 3 approved as-is at 1,344 words; historical stage checkpoint closed.
+  - Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
+
 
 - [x] The Jensen Huang affair: who was using whom? | revision 1
   - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Request changes; revision 1 superseded; not published

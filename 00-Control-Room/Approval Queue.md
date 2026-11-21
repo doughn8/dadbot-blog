@@ -25,6 +25,22 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Black Friday: are the deals really deals? | revision 3
+- Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; revision 3
+- Decision: Approve — exact revision and 1,344-word length accepted; local publication, commit, push and candidate cleanup authorised
+- Public file: `content/posts/2026-11-17-black-friday-marketing-not-a-bargain.md`
+- Canonical route: `/posts/black-friday-marketing-not-a-bargain/`
+- Packet: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/07-Approval/2026-11-17-black-friday-marketing-not-a-bargain/approval-revision-3.md`; SHA-256 `d0963371ea3c9623a9fc6152b19be47fe23897de3ee395e7f543fe18e3d94787`
+- Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
+- Checks: exact reviewed payload; Hugo production build, direct route, homepage and Blog listing; one title/TL;DR and nine source links; no cover
+- Next: none for editorial; deployment and cleanup receipts are kept in the local archive.
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
+
 ### What the Rohingya genocide ruling means for families who fled | revision 1
 
 - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; Accepted and published live. Product `7b17bc6c832c114c7eccfe80d52cc1fffd561feb`, Pages run 44728587691 verified; review workflow closed.
@@ -1543,6 +1559,23 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### Black Friday: are the deals really deals? | revision 2
+- Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; final-review; Request changes received; superseded by approved revision 3
+- Packet: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/07-Approval/2026-11-17-black-friday-marketing-not-a-bargain/approval-reviewed-revision-2.md`; SHA-256 `d6f7019ffed53ea95dc6210f7030e86e5a10e3332a03485ac87459adc83c94fd`
+- Reviewer: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/07-Approval/2026-11-17-black-friday-marketing-not-a-bargain/final-approval-review-revision-2.md`; SHA-256 `ef38d0b77bd7d9bd5051bdc08a7e675ff9516015d2d306c9bafe3e9625bba0ad`
+- Article payload SHA-256: `858e6841011254cf5dc957e0edba2789c0b7f1de593cce824af993d82b5ad0cc`; public metadata SHA-256: `f78ac0e8345d42d31198b5925dc70014a7098ed0b726b051f693f49bb0f41f18`; 1490 citation-stripped prose words
+- Historical preview observed at revision-2 review: `http://127.0.0.1:1313/posts/black-friday-marketing-not-a-bargain/?local-review=2`; isolated direct-route-only article, verified in actual desktop pane
+- Run: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/run.md`
+- Checks: `99-Archive/published/2026-11-17-black-friday-marketing-not-a-bargain/01-Ideas/2026-11-17-black-friday-marketing-not-a-bargain/checks/revision-2/final-approval/result.json`; complete stages, exact copy/source/metadata, 23 widths/92 states, isolated and normal builds, source refresh and QA browser exit verified
+- Limitation: existing fixed coffee button can obscure phone/tablet text; reproduced on approved sibling; no shared CSS change
+- Decision: Request changes; closing sections to merge and video/channel credit to add; no release authority
+- Approve authorises the agreed local publication only.
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+
 
 ### The Jensen Huang affair: who was using whom? | revision 1
 - Candidate: `2026-11-15-jensen-huang-who-was-using-whom`; Blog / Tech; final-review; Request changes; superseded by revision 2; not published.
