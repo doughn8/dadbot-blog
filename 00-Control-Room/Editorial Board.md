@@ -7,6 +7,18 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 2
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Idea internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/idea-revision-2.md`; SHA-256 `80837a514a2f96e4d38bbfc422e72d1780e1c1e38d48c2e12e5f905e83df8403`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: strict cited-source integrity, verified exact quote boundaries, structural/YAML and Hugo exclusion across 802 outputs.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 1
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Idea internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/idea.md`; SHA-256 `22e7d12aaaef574b8567fee50cdbdc848e7e6ddc0be34f885cf72f552af8d04f`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: structural and YAML checks, strict cited-source evidence, fresh normal Hugo build and exclusion across 802 outputs.
+
 - [x] What the Rohingya genocide ruling means for families who fled | revision 1
   - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
   - Artifact: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/01-Ideas/2026-11-20-rohingya-genocide-ruling/idea.md`; SHA-256 `5aad2e36d2e2205f680f29459b12691767c279871ed5e2104125ef6f3131cfd4`.
@@ -525,6 +537,18 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 2
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Brief internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/02-Briefs/2026-11-21-fahrenheit-451-book-review/brief-revision-2.md`; SHA-256 `fee8c38d3a5bbe49770f65144bdbfb66806dacc31ed0eae3026bbd07b1cd41bb`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: strict evidence, structural/YAML and Hugo exclusion across 802 outputs.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 1
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Brief internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/02-Briefs/2026-11-21-fahrenheit-451-book-review/brief.md`; SHA-256 `98f127f90219f1e221bedb4f4bac46418ba025619377fce1f93ff1bdf326b11d`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: structural and YAML checks, strict cited-source evidence, fresh normal Hugo build and exclusion across 802 outputs.
+
 - [x] What the Rohingya genocide ruling means for families who fled | revision 1
   - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
   - Artifact: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/02-Briefs/2026-11-20-rohingya-genocide-ruling/brief.md`; SHA-256 `63cc84a92e31a2f41ee6b924c7f624a2f94c8f470e69c4c7c4af6f048821231b`.
@@ -1028,6 +1052,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 3
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; SEO internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/03-SEO/2026-11-21-fahrenheit-451-book-review/seo-revision-3.md`; SHA-256 `3957365eedcc7acb86f6bac8409a2a83bd69446f0b0260b3b5e5f75ddf1e43b7`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: updated SEO heading plan, YAML/structure, normal Hugo exclusion across 802 outputs.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 2
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; SEO internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/03-SEO/2026-11-21-fahrenheit-451-book-review/seo-revision-2.md`; SHA-256 `2eb54514bc62db88e0e3cb13973ba73bbebc2cbcd537303e4e1fe31d8d113704`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: measured metadata, structural/YAML, verified Books sibling route and Hugo exclusion across 802 outputs.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 1
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; SEO internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/03-SEO/2026-11-21-fahrenheit-451-book-review/seo.md`; SHA-256 `68becb3825081639dd964305fdac2f16f016eb318253517d8d91ec162868473b`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: structural and YAML checks, no directly cited wrapper claims, verified Books and Animal Farm routes, fresh normal Hugo exclusion across 802 outputs.
 
 - [x] What the Rohingya genocide ruling means for families who fled | revision 1
   - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
@@ -1610,6 +1652,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 3
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Draft internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/04-Drafts/2026-11-21-fahrenheit-451-book-review/draft-revision-3.md`; SHA-256 `ce96781e471a61f59feaba3bd7b7003062ef5e00f93e414b941d37afdafc2b4e`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 1,194 prose words; private evidence, deletion map and checked quote; YAML/structure, Hugo exclusion across 802 outputs; canonical payload `9c0b11c62f61e04911d713ee9723e85b4df37f3d50528e283c7ec65798b0fe2e`.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 2
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Draft internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/04-Drafts/2026-11-21-fahrenheit-451-book-review/draft-revision-2.md`; SHA-256 `b32d1c122d76298b3bccef9df869e151745b39de9680882931e1d881a69a1a03`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 1,377 prose words, exact quote and checked textual claim mapping; strict attributed fragment coverage 39/75; structural/YAML and Hugo exclusion across 802 outputs; payload SHA-256 `ecc2866fe522d2641efa31ac39e73475a2351eae5d724f14fa201f170636f419`.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 1
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Draft internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/04-Drafts/2026-11-21-fahrenheit-451-book-review/draft.md`; SHA-256 `c1b79bec2dd0b36be6a15d18d4ab28bf34ac233cfe439e159820e3748dc7be82`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 1,354 prose words, exact-payload source coverage 45/90, quote and claim mapping, structural/YAML and fresh normal Hugo exclusion across 802 outputs; canonical payload SHA-256 `6c99705941c10d6cbcfdeb2add2bf12bfe8df5f2d5ac365eefecb5001a8b73e0`.
 
 - [x] What the Rohingya genocide ruling means for families who fled | revision 1
   - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
@@ -2314,6 +2374,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 3
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Creative Edit internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/05-Reviews/2026-11-21-fahrenheit-451-book-review/creative-edit-revision-3.md`; SHA-256 `08fb29c6577318d62956393dbd453cf7499014c2913803a822fd8bda24431d1d`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 1,194 prose words; untouched prose checked for byte equality, private claim checks retained, YAML/structure and Hugo exclusion across 802 outputs; canonical payload `9c0b11c62f61e04911d713ee9723e85b4df37f3d50528e283c7ec65798b0fe2e`.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 2
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Creative Edit internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/05-Reviews/2026-11-21-fahrenheit-451-book-review/creative-edit-revision-2.md`; SHA-256 `28a4ce3305d94b49e7c84bf97520a7da70f91b7933f5150b0f4c6ba8a2d5abc2`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 1,294 prose words, whole-copy voice audit, accurate source coverage, structural/YAML and Hugo exclusion across 802 outputs; payload SHA-256 `1c85b8168a5148b25665909c638cd441bbfee38531364fa7991c3348f0dfee4c`.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 1
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Creative Edit internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/05-Reviews/2026-11-21-fahrenheit-451-book-review/creative-edit.md`; SHA-256 `61ee6db1934058a63fd5d17dc14c370286acab41b02aaf91fa7f02f96f71b17d`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 1,335 prose words, full voice and repetition pass, exact-payload evidence and source-ID continuity, YAML/structural and fresh normal Hugo exclusion across 802 outputs; canonical payload SHA-256 `3e0ede537738ea81f4b50358da7c240d42973ea9e0b3193bfd33ae6dfdd092b0`.
 
 - [x] What the Rohingya genocide ruling means for families who fled | revision 1
   - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
@@ -3026,6 +3104,24 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 3
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Proofread internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/05-Reviews/2026-11-21-fahrenheit-451-book-review/proofread-revision-3.md`; SHA-256 `5f8054000e0a42b2a63eb421c58ff0d665ca2e8da67eebf60f0abbbd14a75c75`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 1,194 prose words, exact cleanup and scope checks and 16 passing editorial tests, YAML/structure, Hugo exclusion across 802 outputs; canonical payload `9c0b11c62f61e04911d713ee9723e85b4df37f3d50528e283c7ec65798b0fe2e`.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 2
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Proofread internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/05-Reviews/2026-11-21-fahrenheit-451-book-review/proofread-revision-2.md`; SHA-256 `a39c9a41136e314dfe986098e1057607b656799ce825f2fe219c850a6fa4d983`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 1,296 prose words, exact chosen excerpt, targeted date phrasing, textual claim checks, 16 editorial tests, structural/YAML and Hugo exclusion across 802 outputs; payload SHA-256 `c5e2d62ac629aa0fe16886bcda2e2d14f47674ef24a82e0b1a661c2fda967a57`.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 1
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Proofread internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/05-Reviews/2026-11-21-fahrenheit-451-book-review/proofread.md`; SHA-256 `043c322ce4f56eb49581cc7f982a08482cae26ddfa75f8ae5c87a6a06abbe2a8`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 1,335 prose words; exact quote and sources, one spelling correction, structural/YAML, git whitespace and editorial contract tests; fresh normal Hugo exclusion across 802 outputs; canonical payload SHA-256 `cc14e85d0aceab5add487a5a0d9f6849f12ea6b6b964db6243517429248ad0bb`.
+
 - [x] What the Rohingya genocide ruling means for families who fled | revision 1
   - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
   - Artifact: `99-Archive/published/2026-11-20-rohingya-genocide-ruling/05-Reviews/2026-11-20-rohingya-genocide-ruling/proofread.md`; SHA-256 `22fd59413450a8ad96b7ce88a4c55d0c234ddca834d03e179e51481f537a4f4c`.
@@ -3730,6 +3826,31 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 4
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Design internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/06-Design/2026-11-21-fahrenheit-451-book-review/design-revision-4.md`; SHA-256 `0c4f101013781812e9f7052d095f2c42c0c30f5cb6ef244bb6e4bd0a356a0cdb`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 1645 × 2508 publisher cover; exact attached bytes, 20 browser widths and inspection of phone/tablet/desktop; same article hash; normal Hugo build excludes candidate and cover.
+  - Existing article payload SHA-256 `9c0b11c62f61e04911d713ee9723e85b4df37f3d50528e283c7ec65798b0fe2e`.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 3
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Design internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/06-Design/2026-11-21-fahrenheit-451-book-review/design-revision-3.md`; SHA-256 `6aa2d9219a5a5eca10e6cd0ea9d9678cfa3c443f74342dea1c59078ae05f73ad`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 20 Chromium widths, no Sources/TOC/marker leak, exact isolated preview with same proposed cover, normal-build isolation across 802 outputs; canonical payload `9c0b11c62f61e04911d713ee9723e85b4df37f3d50528e283c7ec65798b0fe2e`.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 2
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Design internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/06-Design/2026-11-21-fahrenheit-451-book-review/design-revision-2.md`; SHA-256 `5736d7a61b8ed34a2c54e821089683777d1e483066a8042630da2909de77265f`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 20 Chromium widths, exact quote, rating, link and cover checks; known shared coffee badge overlap; isolated preview and fresh production exclusion across 802 outputs; payload SHA-256 `c5e2d62ac629aa0fe16886bcda2e2d14f47674ef24a82e0b1a661c2fda967a57`.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 1
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Design internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/06-Design/2026-11-21-fahrenheit-451-book-review/design.md`; SHA-256 `63655e51d472f47c4df6e08ceb1ae8058a8ae434c2c96d19326e42d986cbb7cd`.
+  - Run: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`. Historical checkpoint; local publication complete, public release on hold.
+  - Checks: 20 real Chromium widths, exact source/link and edition-cover checks, baseline-proven badge overlay limitation, preview HTTP and fresh normal Hugo exclusion across 802 outputs; canonical payload SHA-256 `cc14e85d0aceab5add487a5a0d9f6849f12ea6b6b964db6243517429248ad0bb`.
 
 - [x] What the Rohingya genocide ruling means for families who fled | revision 1
   - Candidate: `2026-11-20-rohingya-genocide-ruling`; News; final-review; historical internal checkpoint, not separate human approval.
@@ -4473,6 +4594,13 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 4, hosted cover
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; exact review and Open Library-hosted jacket approved by Sophie.
+  - Public file: `content/books/fahrenheit-451-book-review.md`, SHA-256 `3950b7b4ffa2dab86678a762c316cdf248b0b1b4e6cf30cd665021a6aa93a7c1`. Hosted cover: https://covers.openlibrary.org/b/olid/OL53780160M-L.jpg?default=false
+  - Archive: `99-Archive/published/2026-11-21-fahrenheit-451-book-review`. Hosted-cover decision: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/07-Approval/2026-11-21-fahrenheit-451-book-review/approval-hosted-cover.md`, SHA-256 `c9d456bd8864ddb70860ef8d4756d2f0cf881a831b8ced9ec9af455c0d9968df`.
+  - Approved article: revision 4, 1,194 words, unchanged. The publisher JPEG is excluded.
+  - Status: Local publication verified; hosted-cover release approved. Deployment and cleanup receipts belong in the local archive.
 
 - [x] Black Friday: are the deals really deals? | revision 3
   - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; revision 3
@@ -5418,6 +5546,22 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 3 (historical)
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Request changes only, cover resolution.
+  - Immutable packet `d5a5bb718fe4ac2588c3300c90b9e3bb9fb463fe0b85ac78c8d84a87e930b6bc`; unchanged article `9c0b11c62f61e04911d713ee9723e85b4df37f3d50528e283c7ec65798b0fe2e`.
+  - Prior record and packet: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/audit/revision-4`.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 2 (historical)
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Request changes only, 2026-11-21.
+  - Immutable packet SHA-256 `e8e2a421de4b79796216b95fcdcd48dcfa808f184d6d391ada19812f868b98b4`; payload `c5e2d62ac629aa0fe16886bcda2e2d14f47674ef24a82e0b1a661c2fda967a57`.
+  - Historical row and packet archived in `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/audit/revision-3`.
+
+- [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 1 (historical)
+  - Candidate: `2026-11-21-fahrenheit-451-book-review`; Sophie requested changes to the checked review on 2026-11-21; no publication approval.
+  - Exact prior packet `99-Archive/published/2026-11-21-fahrenheit-451-book-review/07-Approval/2026-11-21-fahrenheit-451-book-review/approval.md`; reviewed packet SHA-256 `f7aacb880ce6fe1d1b6d92fcc6c87839b019e0dc4ef380f77fdba68ce211b17a`; payload `cc14e85d0aceab5add487a5a0d9f6849f12ea6b6b964db6243517429248ad0bb`.
+  - Saved original row and immutable reviewed copy: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/audit/revision-2`.
+
 
 - [x] Black Friday: are the deals really deals? | revision 2
   - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; final-review; Request changes received; superseded by approved revision 3

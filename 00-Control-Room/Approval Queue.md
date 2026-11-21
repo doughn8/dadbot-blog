@@ -25,6 +25,14 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Book Review: Fahrenheit 451 by Ray Bradbury | revision 4, hosted cover
+- Candidate: `2026-11-21-fahrenheit-451-book-review`; Books / The Shelf Scout; final-review.
+- Decision: Approve the hosted Open Library cover preview, unchanged review text, replacement of the unpushed commit, push and candidate-only cleanup.
+- Public file: `content/books/fahrenheit-451-book-review.md`, SHA-256 `3950b7b4ffa2dab86678a762c316cdf248b0b1b4e6cf30cd665021a6aa93a7c1`. Hosted cover: https://covers.openlibrary.org/b/olid/OL53780160M-L.jpg?default=false
+- Archive: `99-Archive/published/2026-11-21-fahrenheit-451-book-review`. Hosted-cover decision: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/07-Approval/2026-11-21-fahrenheit-451-book-review/approval-hosted-cover.md`, SHA-256 `c9d456bd8864ddb70860ef8d4756d2f0cf881a831b8ced9ec9af455c0d9968df`.
+- State: Approved for release; no publisher JPEG in the release package. Deployment and cleanup receipts belong in the local archive.
+- [x] Approve
+
 ### Black Friday: are the deals really deals? | revision 3
 - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; revision 3
 - Decision: Approve — exact revision and 1,344-word length accepted; local publication, commit, push and candidate cleanup authorised
@@ -1559,6 +1567,22 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### Book Review: Fahrenheit 451 by Ray Bradbury | revision 3 (historical)
+- Candidate: `2026-11-21-fahrenheit-451-book-review`; Request changes only, cover resolution.
+- Immutable packet `d5a5bb718fe4ac2588c3300c90b9e3bb9fb463fe0b85ac78c8d84a87e930b6bc`; unchanged article `9c0b11c62f61e04911d713ee9723e85b4df37f3d50528e283c7ec65798b0fe2e`.
+- Prior record and packet: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/audit/revision-4`.
+
+### Book Review: Fahrenheit 451 by Ray Bradbury | revision 2 (historical)
+- Candidate: `2026-11-21-fahrenheit-451-book-review`; explicit Request changes, 2026-11-21; no publication approval.
+- Immutable packet SHA-256 `e8e2a421de4b79796216b95fcdcd48dcfa808f184d6d391ada19812f868b98b4`; payload `c5e2d62ac629aa0fe16886bcda2e2d14f47674ef24a82e0b1a661c2fda967a57`.
+- Historical row and packet archived in `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/audit/revision-3`.
+
+### Book Review: Fahrenheit 451 by Ray Bradbury | revision 1 (historical)
+- Candidate: `2026-11-21-fahrenheit-451-book-review`; Request changes, 2026-11-21; see exact intake and clarification in `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/run.md`.
+- Prior packet SHA-256 `f7aacb880ce6fe1d1b6d92fcc6c87839b019e0dc4ef380f77fdba68ce211b17a`; payload `cc14e85d0aceab5add487a5a0d9f6849f12ea6b6b964db6243517429248ad0bb`; publication not authorised.
+- Archived review row and immutable packet preserved at `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/audit/revision-2`.
+
 
 ### Black Friday: are the deals really deals? | revision 2
 - Candidate: `2026-11-17-black-friday-marketing-not-a-bargain`; Blog / Money; final-review; Request changes received; superseded by approved revision 3

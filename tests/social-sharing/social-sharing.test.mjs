@@ -57,13 +57,25 @@ test('News, Blog and Conspiracy still emit no sharing images or image dimensions
   }
 });
 
+const hostedReviewPath = 'books/fahrenheit-451-book-review/index.html';
+const hostedReviewCover = 'https://covers.openlibrary.org/b/olid/OL53780160M-L.jpg?default=false';
+
+test('Fahrenheit 451 uses the exact hosted jacket and discloses the image request', () => {
+  const review = pages.find(page => page.path === hostedReviewPath);
+  assert.ok(review);
+  assert.equal(review.meta['og:image'], hostedReviewCover);
+  const legal = readFileSync(join(root, 'content', 'legal.md'), 'utf8');
+  assert.match(legal, /covers\.openlibrary\.org/);
+});
+
 test('Book reviews keep their sourced covers rather than the site fallback', () => {
   const books = pages.filter(page => /^books\/[^/]+\/index.html$/.test(page.path) && page.meta['og:type'] === 'article');
   assert.ok(books.length > 0);
   for (const {path, meta} of books) {
-    assert.match(meta['og:image'], /^https:\/\/dadbot\.blog\/images\/books\//, path);
     assert.equal(meta['og:image:width'], undefined, `${path}: do not guess cover width`);
     assert.equal(meta['og:image:height'], undefined, `${path}: do not guess cover height`);
+    if (path === hostedReviewPath) continue; // Exact hosted URL is checked above.
+    assert.match(meta['og:image'], /^https:\/\/dadbot\.blog\/images\/books\//, path);
     const imagePath = new URL(meta['og:image']).pathname.slice(1);
     assert.deepEqual(readFileSync(join(dir, 'public', imagePath)), readFileSync(join(root, 'static', imagePath)), path);
   }

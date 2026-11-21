@@ -55,6 +55,10 @@ Selecting a place saves it for later weather requests. This avoids future automa
 
 ipapi.co is operated by a US company; Open-Meteo is operated from Switzerland. Their own published policies describe how they handle information: [ipapi privacy policy](https://ipapi.co/privacy/) and [Open-Meteo terms and privacy](https://open-meteo.com/en/terms).
 
+### Externally hosted book cover
+
+The *Fahrenheit 451* cover on the homepage, Books listing and review loads directly from **covers.openlibrary.org**, a service of the Internet Archive. When your browser requests the image, the provider receives your IP address and technical request information needed to deliver it. This request does not require clicking the cover. Dadbot does not receive the provider’s access logs. See the [Internet Archive privacy policy](https://archive.org/about/terms.php#privacy).
+
 ### Radio directory and streams
 
 Opening the Radio desk requests directory information from **de1.api.radio-browser.info**. The directory receives your IP address and the requested search or filter information. Country and language lists may be reused from browser storage.
@@ -103,7 +107,7 @@ Other external links take you to separate websites. Their operators are responsi
 
 ### Purposes, legal bases and international processing
 
-The purposes are to deliver and secure the website, provide weather and radio functions, remember feature choices, and handle correspondence. Delivering and securing the site and dealing with ordinary enquiries are assessed on the basis of legitimate interests under Article 6(1)(f) GDPR; responding to requests where the law requires it may rely on Article 6(1)(c). These bases must be applied to the actual circumstances, not assumed to cover every optional feature.
+The purposes are to deliver and secure the website, provide weather and radio functions, display the externally hosted book cover, remember feature choices, and handle correspondence. Delivering and securing the site and dealing with ordinary enquiries are assessed on the basis of legitimate interests under Article 6(1)(f) GDPR; responding to requests where the law requires it may rely on Article 6(1)(c). These bases must be applied to the actual circumstances, not assumed to cover every optional feature.
 
 Weather and radio requests are made directly by your browser when you use those features, and this notice describes them so you can decide whether to use them.
 
@@ -121,6 +125,6 @@ Dadbot does not use automated decisions producing legal or similarly significant
 
 ### Status of this notice
 
-Last revised: 7 September 2026.
+Last revised: 21 November 2026.
 
 This notice is maintained by the site operator and was last revised on the date above. It is not legal advice and does not certify compliance with any law; it describes Dadbot's practices in plain English. If a German-language reader needs the legally formatted Impressum wording, the contact above is happy to help.
