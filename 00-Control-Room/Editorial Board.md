@@ -7,6 +7,18 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 2 (Idea)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/idea-revision-2.md`; SHA-256 `042fedb978431c62e417c2c08d3a605eb8ac062884e009f31990f7be4412c238`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Idea → Brief is an internal transition.
+  - Checks: revised angle and primary photo checks; strict source/YAML/contract and 813-output exclusion.
+
+- [x] Who killed JFK? Testing the case for CIA involvement | revision 1 (Idea)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/idea.md`; SHA-256 `f60453ac357b78e7fdfad06ee0da1dbe0511020ec96365ea914dfd41aecf5beb`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Idea → Brief is an internal transition.
+  - Checks: YAML and contract, strict evidence and 813-output Hugo exclusion.
+
 - [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 2
   - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Idea internally checked, not human-approved.
   - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/01-Ideas/2026-11-21-fahrenheit-451-book-review/idea-revision-2.md`; SHA-256 `80837a514a2f96e4d38bbfc422e72d1780e1c1e38d48c2e12e5f905e83df8403`.
@@ -537,6 +549,18 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 2 (Brief)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/02-Briefs/2026-11-22-who-killed-jfk/brief-revision-2.md`; SHA-256 `7274f320bbf61b53093c2f9e0226e0b24b92312aa160ba13087392e77cdc6abe`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Brief → SEO is an internal transition.
+  - Checks: 18 precise source entries; proof of carried-forward IDs; 813-output normal build exclusion.
+
+- [x] Who killed JFK? Testing the case for CIA involvement | revision 1 (Brief)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/02-Briefs/2026-11-22-who-killed-jfk/brief.md`; SHA-256 `121a81d511265038b82865bc63ee5e4a70f431700ea5a2e700a92d8fd3733011`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Brief → SEO is an internal transition.
+  - Checks: YAML, structural and strict 13-source evidence checks; 813 searchable production files checked.
+
 - [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 2
   - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Brief internally checked, not human-approved.
   - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/02-Briefs/2026-11-21-fahrenheit-451-book-review/brief-revision-2.md`; SHA-256 `fee8c38d3a5bbe49770f65144bdbfb66806dacc31ed0eae3026bbd07b1cd41bb`.
@@ -1052,6 +1076,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (SEO)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/03-SEO/2026-11-22-who-killed-jfk/seo-revision-3.md`; SHA-256 `d9f7076581a9192747d83ffb49c966f15646ded11ec9a2db88a382e3e035f419`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. SEO → Draft is internal.
+  - Checks: unchanged title and metadata; updated heading plan; contract/YAML and 813-output normal exclusions.
+
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 2 (SEO)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/03-SEO/2026-11-22-who-killed-jfk/seo-revision-2.md`; SHA-256 `54a88b42c47512d68564766c20257a1607be911177eb425080884feee0ea2ee4`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. SEO → Draft is an internal transition.
+  - Checks: 54-character title, 142-character description, structural/YAML and 813-output exclusion.
+
+- [x] Who killed JFK? Testing the case for CIA involvement | revision 1 (SEO)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/03-SEO/2026-11-22-who-killed-jfk/seo.md`; SHA-256 `e6c56dcf41c645b0a2934ff2abdbac306a094e1ebe1c6ada5f3bf484766661ef`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. SEO → Draft is an internal transition.
+  - Checks: YAML/structural checks, 52-character title, 150-character description and 813-output Hugo exclusion.
 
 - [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 3
   - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; SEO internally checked, not human-approved.
@@ -1652,6 +1694,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (Draft)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/04-Drafts/2026-11-22-who-killed-jfk/draft-revision-3.md`; SHA-256 `4256e743b406f7e443c6d5fde6779264740d12d9afadab41e57ff3e26033c076`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Draft → Creative Edit is internal.
+  - Checks: 2134 prose words, strict 21-source evidence and checked diff; payload `0c61623d0f10d3929c078f154932c7ae1b29ff8a8b1b77540748f70e2628ea0b`.
+
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 2 (Draft)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/04-Drafts/2026-11-22-who-killed-jfk/draft-revision-2.md`; SHA-256 `bb12c11409ff182f5a7be302d5be56abb3aee21b59e9e6a675a45ff2861f6a9a`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Draft → Creative Edit is an internal transition.
+  - Checks: 1962 prose words, payload `1b4d40068e3b896b170f38902aa6e8bfc236089c3c5d0a7ee78a7f97eb280124`; strict 18-source evidence and 813-output exclusion.
+
+- [x] Who killed JFK? Testing the case for CIA involvement | revision 1 (Draft)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/04-Drafts/2026-11-22-who-killed-jfk/draft.md`; SHA-256 `a3477ea63b1205b9afed4cd9b125979ad0d23d9e33c391c025e2a79c5fd1e211`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Draft → Creative Edit is an internal transition.
+  - Checks: 2057 citation-stripped prose words; payload `e9b55d84419e525deb5f7ae0234f480b13d47cb15dd4320feb420d0fbc25072f`; strict extracted evidence and claim-to-passage audit, YAML/structure and 813-output exclusion.
 
 - [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 3
   - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Draft internally checked, not human-approved.
@@ -2374,6 +2434,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (Creative Edit)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/05-Reviews/2026-11-22-who-killed-jfk/creative-edit-revision-3.md`; SHA-256 `d5d91d5d35cffee2bed642b37fdf4a80964a559eed7918f79f58b3e4d66b020a`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Creative Edit → Proofread is internal.
+  - Checks: 2128 words, payload `6756283e96cc2b9efce4b308a414780bdab75597533781cc989a2f996cae3009`; exact scoped edits and unchanged facts.
+
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 2 (Creative Edit)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/05-Reviews/2026-11-22-who-killed-jfk/creative-edit-revision-2.md`; SHA-256 `40b21dc3b4af3dfe40396771a8f531a661592b76afb71ae068530e4d7802b9c0`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Creative Edit → Proofread is an internal transition.
+  - Checks: 1910 words, payload `406d9333a2f503040f498ebad553c2010196ba7263df32c556b6289f58b6b49a`; source continuity, compiled checks and 813-output exclusion.
+
+- [x] Who killed JFK? Testing the case for CIA involvement | revision 1 (Creative Edit)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/05-Reviews/2026-11-22-who-killed-jfk/creative-edit.md`; SHA-256 `389e28c672d88038bc53b29c28c94b97f1bd929f2060dd658385ed4160f3319f`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Creative Edit → Proofread is an internal transition.
+  - Checks: 1837 prose words; payload `2153afec20a97d27d1ae3fb42bd9518b129705e46f6dc782db0ec3601100b5a6`; source map, copy audit, strict extracted evidence and 813-output exclusion.
 
 - [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 3
   - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Creative Edit internally checked, not human-approved.
@@ -3104,6 +3182,24 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (Proofread)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/05-Reviews/2026-11-22-who-killed-jfk/proofread-revision-3.md`; SHA-256 `f285ef2309d196566c581075fa272ed66e0f415ca2df1b4e131d3fabde9877f6`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Proofread → Design is internal.
+  - Checks: 2128 words, payload `4dfb39ed070bc2aa0ee235c4be4d27f03289eb3cf2ec273c89d3cefb658ca574`; stable metadata, exact reverse diff, strict evidence and focussed tests.
+
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 2 (Proofread)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/05-Reviews/2026-11-22-who-killed-jfk/proofread-revision-2.md`; SHA-256 `40df8c609ea931df2d1fe69204effd1af8e2e242f764e6579bf079dfe9a22740`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Proofread → Design is an internal transition.
+  - Checks: 1914 words, payload `c39e3ab61d8271a309c66097f13fca047f4ceb15a0f928411ed17450af9793c0`; exact checked source map; focused tests and 813-output exclusion.
+
+- [x] Who killed JFK? Testing the case for CIA involvement | revision 1 (Proofread)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/05-Reviews/2026-11-22-who-killed-jfk/proofread.md`; SHA-256 `fae6a85771d65a5ec779dbccd4de6777e8b4b6344a989db9b24a01ef59b92193`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Proofread → Design is an internal transition.
+  - Checks: 1838 prose words; payload `aaddf0c551867660c653d4984e461f8b298dc8e1ee70dceba5d2d9a55648e51e`; strict attribution/evidence and exact span; 813-output exclusion and focused contract suite.
+
 - [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 3
   - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Proofread internally checked, not human-approved.
   - Artifact: `99-Archive/published/2026-11-21-fahrenheit-451-book-review/05-Reviews/2026-11-21-fahrenheit-451-book-review/proofread-revision-3.md`; SHA-256 `5f8054000e0a42b2a63eb421c58ff0d665ca2e8da67eebf60f0abbbd14a75c75`.
@@ -3826,6 +3922,24 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (Design)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/06-Design/2026-11-22-who-killed-jfk/design-revision-3.md`; SHA-256 `024b77bf7124ff6dbc9252358d6cb6e019c74dd68125e4cde5f852a3793d6158`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Design → Final Approval is internal.
+  - Checks: isolated URL and payload matched; 20 widths, 21 links and 813 excluded normal outputs.
+
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 2 (Design)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/06-Design/2026-11-22-who-killed-jfk/design-revision-2.md`; SHA-256 `c86fd9960bc337560c1faf76bba17919a64022b58fa437e697ca2ecd1e598e0e`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Design → Final Approval is an internal transition.
+  - Checks: 20 widths, exact link/TL;DR/heading checks, four matching HTTP routes, 813-output normal exclusion, inherited overlap disclosed.
+
+- [x] Who killed JFK? Testing the case for CIA involvement | revision 1 (Design)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
+  - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/06-Design/2026-11-22-who-killed-jfk/design.md`; SHA-256 `833ffa1b192bbfa0d759aee5c3f28d7450e9a7a59f103324ef292d5c0742dbf9`.
+  - Run: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/run.md`. Design → Final Approval is an internal transition.
+  - Checks: payload `aaddf0c551867660c653d4984e461f8b298dc8e1ee70dceba5d2d9a55648e51e`; 20 viewport widths, DOM/keyboard/visual QA, isolated HTTP 200 and normal build exclusion; existing coffee-button overlap disclosed.
 
 - [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 4
   - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; final-review; Design internally checked, not human-approved.
@@ -4594,6 +4708,13 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (Local Publish)
+  - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; published locally and verified with the production build.
+  - Approved revision 3; public file `content/conspiracy-corner/who-killed-jfk.md`; canonical payload SHA-256 `4dfb39ed070bc2aa0ee235c4be4d27f03289eb3cf2ec273c89d3cefb658ca574`.
+  - Decision record: `99-Archive/published/2026-11-22-who-killed-jfk/07-Approval/2026-11-22-who-killed-jfk/approval-revision-3.md`; SHA-256 `63365b969285b2fbe225baed3869ef7f9952f987d4a4ba130e341f1552419cfe`. Reviewed snapshot: `99-Archive/published/2026-11-22-who-killed-jfk/07-Approval/2026-11-22-who-killed-jfk/approval-revision-3-reviewed.md`; SHA-256 `4eb79fb54b874897b4e262fe58957173ead9920619606a8ac9a26bc9ab072767`.
+  - Approval: Approve, 2026-11-22; local publication, commit, push to `origin/main` and candidate cleanup authorised.
+  - Public route: https://dadbot.blog/conspiracy-corner/who-killed-jfk/; archive: `99-Archive/published/2026-11-22-who-killed-jfk`. Editorial stage closed.
 
 - [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 4, hosted cover
   - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books; exact review and Open Library-hosted jacket approved by Sophie.
@@ -5546,6 +5667,18 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+### Who killed JFK? The mainstream and conspiracy accounts | revision 2 (historical)
+
+- Candidate `2026-11-22-who-killed-jfk`; Request changes on 2026-11-22: check the rifle-strap attachment discrepancy and replace the closing with a Dadbot take.
+- Reviewed packet `e7af4e72ea1916c52486a9d9e273d60530c3152b94f0d24a2c760d89a77835cc` and exact article `c39e3ab61d8271a309c66097f13fca047f4ceb15a0f928411ed17450af9793c0` saved under `/home/markhickinson/Documents/Dadbot blog/99-Archive/published/2026-11-22-who-killed-jfk/release-evidence/editorial-research/revision-3`. Decision-bearing packet `99-Archive/published/2026-11-22-who-killed-jfk/07-Approval/2026-11-22-who-killed-jfk/approval-revision-2.md` SHA-256 `2804504960d038726aa021f8306431c0a3cdf0b4f22fc745955d8b1617794120`.
+- Earlier preview `http://127.0.0.1:1313/conspiracy-corner/who-killed-jfk/?local-review=2` was superseded (historical URL). No new publication authority.
+
+### Who killed JFK? Testing the case for CIA involvement | revision 1 (historical)
+
+- Candidate: `2026-11-22-who-killed-jfk`; **Request changes** on 2026-11-22. No release authorised.
+- Exact reviewed packet `b7401fc022da111d51a234bd7d94a00c949c6cef92437daf4651c7185c0430aa` and payload `aaddf0c551867660c653d4984e461f8b298dc8e1ee70dceba5d2d9a55648e51e` preserved under `/home/markhickinson/Documents/Dadbot blog/99-Archive/published/2026-11-22-who-killed-jfk/release-evidence/editorial-research/revision-2`. Decision-bearing packet `99-Archive/published/2026-11-22-who-killed-jfk/07-Approval/2026-11-22-who-killed-jfk/approval.md` SHA-256 `bd984f768373d3a47b955cc636fbfec4382c884be0e85733ee2d91f794bb5783`.
+- Earlier preview `http://127.0.0.1:1313/conspiracy-corner/who-killed-jfk/?local-review=1` was superseded (historical URL). Revision 2 began at Idea to check new framing and the archival rifle comparison.
 
 - [x] Book Review: Fahrenheit 451 by Ray Bradbury | revision 3 (historical)
   - Candidate: `2026-11-21-fahrenheit-451-book-review`; Request changes only, cover resolution.

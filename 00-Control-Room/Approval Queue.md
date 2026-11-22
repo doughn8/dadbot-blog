@@ -25,6 +25,15 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Who killed JFK? The mainstream and conspiracy accounts | revision 3
+
+- Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final approval granted 2026-11-22 and local publication verified.
+- Approved revision 3; public file `content/conspiracy-corner/who-killed-jfk.md`; canonical payload SHA-256 `4dfb39ed070bc2aa0ee235c4be4d27f03289eb3cf2ec273c89d3cefb658ca574`.
+- [x] Approve
+- Decision record: `99-Archive/published/2026-11-22-who-killed-jfk/07-Approval/2026-11-22-who-killed-jfk/approval-revision-3.md`; SHA-256 `63365b969285b2fbe225baed3869ef7f9952f987d4a4ba130e341f1552419cfe`. Reviewed snapshot: `99-Archive/published/2026-11-22-who-killed-jfk/07-Approval/2026-11-22-who-killed-jfk/approval-revision-3-reviewed.md`; SHA-256 `4eb79fb54b874897b4e262fe58957173ead9920619606a8ac9a26bc9ab072767`.
+- Reviewer copy: `99-Archive/published/2026-11-22-who-killed-jfk/07-Approval/2026-11-22-who-killed-jfk/reviewer-copy-revision-3.md`; SHA-256 `194307e9c6efd33cb8559b758123e0e10ed987b0af0c89c075189a6839a99f07`. Local archive: `99-Archive/published/2026-11-22-who-killed-jfk`.
+- Public route: https://dadbot.blog/conspiracy-corner/who-killed-jfk/. Release and cleanup authorised in the same decision; exact deployment receipt belongs in the private archive.
+
 ### Book Review: Fahrenheit 451 by Ray Bradbury | revision 4, hosted cover
 - Candidate: `2026-11-21-fahrenheit-451-book-review`; Books / The Shelf Scout; final-review.
 - Decision: Approve the hosted Open Library cover preview, unchanged review text, replacement of the unpushed commit, push and candidate-only cleanup.
@@ -1567,6 +1576,18 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### Who killed JFK? The mainstream and conspiracy accounts | revision 2 (historical)
+
+- Candidate `2026-11-22-who-killed-jfk`; Request changes on 2026-11-22: check the rifle-strap attachment discrepancy and replace the closing with a Dadbot take.
+- Reviewed packet `e7af4e72ea1916c52486a9d9e273d60530c3152b94f0d24a2c760d89a77835cc` and exact article `c39e3ab61d8271a309c66097f13fca047f4ceb15a0f928411ed17450af9793c0` saved under `/home/markhickinson/Documents/Dadbot blog/99-Archive/published/2026-11-22-who-killed-jfk/release-evidence/editorial-research/revision-3`. Decision-bearing packet `99-Archive/published/2026-11-22-who-killed-jfk/07-Approval/2026-11-22-who-killed-jfk/approval-revision-2.md` SHA-256 `2804504960d038726aa021f8306431c0a3cdf0b4f22fc745955d8b1617794120`.
+- Earlier preview `http://127.0.0.1:1313/conspiracy-corner/who-killed-jfk/?local-review=2` was superseded (historical URL). No new publication authority.
+
+### Who killed JFK? Testing the case for CIA involvement | revision 1 (historical)
+
+- Candidate: `2026-11-22-who-killed-jfk`; **Request changes** on 2026-11-22. No release authorised.
+- Exact reviewed packet `b7401fc022da111d51a234bd7d94a00c949c6cef92437daf4651c7185c0430aa` and payload `aaddf0c551867660c653d4984e461f8b298dc8e1ee70dceba5d2d9a55648e51e` preserved under `/home/markhickinson/Documents/Dadbot blog/99-Archive/published/2026-11-22-who-killed-jfk/release-evidence/editorial-research/revision-2`. Decision-bearing packet `99-Archive/published/2026-11-22-who-killed-jfk/07-Approval/2026-11-22-who-killed-jfk/approval.md` SHA-256 `bd984f768373d3a47b955cc636fbfec4382c884be0e85733ee2d91f794bb5783`.
+- Earlier preview `http://127.0.0.1:1313/conspiracy-corner/who-killed-jfk/?local-review=1` was superseded (historical URL). Revision 2 began at Idea to check new framing and the archival rifle comparison.
 
 ### Book Review: Fahrenheit 451 by Ray Bradbury | revision 3 (historical)
 - Candidate: `2026-11-21-fahrenheit-451-book-review`; Request changes only, cover resolution.
