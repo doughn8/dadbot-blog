@@ -30,8 +30,8 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Candidate: `2026-11-23-weekend-roundup`; News; final-review; approved 2026-11-23.
 - [x] Approve (local publication). Commit, main push and candidate-only cleanup explicitly authorised separately.
 - Public file: `content/news/2026-11-23-weekend-roundup-23-november-2026.md`; canonical payload SHA-256 `4d287a794f26e5c13fdeda96c0cd6c7e27f145c70fd4ae4f345ddf14b5d21634`.
-- Private archive: `99-Archive/published/2026-11-23-weekend-roundup`; immutable reviewed packet SHA-256 `c04fd62155dfbd675a0c8909e96d75f6a19006983e6ede7827308b1923035e83`; current decision packet SHA-256 `02282d64c0ca749ef2beed8f5f7fea0037b4ad7b54f516fa659f5a05aeb0b2a7`.
-- Disposition: Published locally; release and task-only cleanup in progress.
+- Private archive: `99-Archive/published/2026-11-23-weekend-roundup`; immutable reviewed packet SHA-256 `c04fd62155dfbd675a0c8909e96d75f6a19006983e6ede7827308b1923035e83`; current decision packet SHA-256 `6a538727849190b076d33ed28560d8e0c3775d849114b7e94b8c48fdf37776f1`.
+- Disposition: GitHub Pages build and live readback verified; temporary review and checkout preview resources removed.
 
 ### Who killed JFK? The mainstream and conspiracy accounts | revision 3
 
