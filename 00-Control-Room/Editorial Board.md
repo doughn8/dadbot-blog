@@ -7,6 +7,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Weekend roundup: From climate talks to Mercury | revision 1 (idea)
+  - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
+  - Archived artifact: `99-Archive/published/2026-11-23-weekend-roundup/01-Ideas/2026-11-23-weekend-roundup/idea.md`; SHA-256 `456d4a8f37ace9efcfb2709fef13571193069e43bb973af8983c945fae349c56`.
+  - Disposition: historical checkpoint; approved and published article, no editorial action pending.
+
 - [x] Who killed JFK? The mainstream and conspiracy accounts | revision 2 (Idea)
   - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
   - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/01-Ideas/2026-11-22-who-killed-jfk/idea-revision-2.md`; SHA-256 `042fedb978431c62e417c2c08d3a605eb8ac062884e009f31990f7be4412c238`.
@@ -549,6 +554,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Weekend roundup: From climate talks to Mercury | revision 1 (brief)
+  - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
+  - Archived artifact: `99-Archive/published/2026-11-23-weekend-roundup/02-Briefs/2026-11-23-weekend-roundup/brief.md`; SHA-256 `71be3aa3c3dd49c0c1718fb8cc5a4d22258c903dd574b40b90861cfd1f815abe`.
+  - Disposition: historical checkpoint; approved and published article, no editorial action pending.
+
 - [x] Who killed JFK? The mainstream and conspiracy accounts | revision 2 (Brief)
   - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked, not human-approved.
   - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/02-Briefs/2026-11-22-who-killed-jfk/brief-revision-2.md`; SHA-256 `7274f320bbf61b53093c2f9e0226e0b24b92312aa160ba13087392e77cdc6abe`.
@@ -1076,6 +1086,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Weekend roundup: From climate talks to Mercury | revision 1 (seo)
+  - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
+  - Archived artifact: `99-Archive/published/2026-11-23-weekend-roundup/03-SEO/2026-11-23-weekend-roundup/seo.md`; SHA-256 `55ee5cb1d0887126afaa529aa64872d78eb4e4bed4ea673de941e6f1aaed6905`.
+  - Disposition: historical checkpoint; approved and published article, no editorial action pending.
 
 - [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (SEO)
   - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked.
@@ -1694,6 +1709,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Weekend roundup: From climate talks to Mercury | revision 1 (draft)
+  - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
+  - Archived artifact: `99-Archive/published/2026-11-23-weekend-roundup/04-Drafts/2026-11-23-weekend-roundup/draft.md`; SHA-256 `ae892185437dc44768f22ad77342bd6a8cfd7953de01a4559fcce5d2b0ef9e61`.
+  - Disposition: historical checkpoint; approved and published article, no editorial action pending.
 
 - [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (Draft)
   - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked.
@@ -2434,6 +2454,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Weekend roundup: From climate talks to Mercury | revision 1 (creative-edit)
+  - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
+  - Archived artifact: `99-Archive/published/2026-11-23-weekend-roundup/05-Reviews/2026-11-23-weekend-roundup/creative-edit.md`; SHA-256 `e2be3cf32bdbcd1ed3ee080945465fe691585da4520b064edb19bc7c8468867c`.
+  - Disposition: historical checkpoint; approved and published article, no editorial action pending.
 
 - [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (Creative Edit)
   - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked.
@@ -3182,6 +3207,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Weekend roundup: From climate talks to Mercury | revision 1 (proofread)
+  - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
+  - Archived artifact: `99-Archive/published/2026-11-23-weekend-roundup/05-Reviews/2026-11-23-weekend-roundup/proofread.md`; SHA-256 `7885d51a42bb69e6642739a61d9fe11fef01bd4b05c201c372f5828557b49e28`.
+  - Disposition: historical checkpoint; approved and published article, no editorial action pending.
+
 - [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (Proofread)
   - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked.
   - Artifact: `99-Archive/published/2026-11-22-who-killed-jfk/05-Reviews/2026-11-22-who-killed-jfk/proofread-revision-3.md`; SHA-256 `f285ef2309d196566c581075fa272ed66e0f415ca2df1b4e131d3fabde9877f6`.
@@ -3922,6 +3952,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Weekend roundup: From climate talks to Mercury | revision 1 (design)
+  - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
+  - Archived artifact: `99-Archive/published/2026-11-23-weekend-roundup/06-Design/2026-11-23-weekend-roundup/design.md`; SHA-256 `34ad0e9a12883664931a4655022e97af7d5b9ee72a2a9f32925941dff477ec3f`.
+  - Disposition: historical checkpoint; approved and published article, no editorial action pending.
 
 - [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (Design)
   - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; final-review; internally checked.
@@ -4708,6 +4743,12 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Weekend roundup: From climate talks to Mercury | revision 1 (Published)
+  - Candidate: `2026-11-23-weekend-roundup`; News; final-review. Approved 2026-11-23.
+  - Public file: `content/news/2026-11-23-weekend-roundup-23-november-2026.md`. Canonical payload SHA-256 `4d287a794f26e5c13fdeda96c0cd6c7e27f145c70fd4ae4f345ddf14b5d21634`.
+  - Private archive: `99-Archive/published/2026-11-23-weekend-roundup`. Reviewed snapshot SHA-256 `c04fd62155dfbd675a0c8909e96d75f6a19006983e6ede7827308b1923035e83`; current decision packet SHA-256 `02282d64c0ca749ef2beed8f5f7fea0037b4ad7b54f516fa659f5a05aeb0b2a7`.
+  - Disposition: Published locally; release and task-only cleanup in progress.
 
 - [x] Who killed JFK? The mainstream and conspiracy accounts | revision 3 (Local Publish)
   - Candidate: `2026-11-22-who-killed-jfk`; Conspiracy Corner; published locally and verified with the production build.
