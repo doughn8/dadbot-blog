@@ -32,7 +32,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Public file: `content/news/2026-11-24-un-global-ai-safety-bridgetown.md`; canonical payload SHA-256 `fb897955f445b2cda27a4a4ac781c2db7626ea47d4d40c439f1885499eaee227`.
 - Private archive: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown`; decision packet `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/approval-revision-2.md`; SHA-256 `88bbc9f5030ec208f1ee78c9ecdb1494784b44c0023941bcf9e779f862f6f093`.
 - Reviewed snapshot `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/approval-revision-2-reviewed.md`; SHA-256 `923205762ef081fe54daeb073a0a29513a8ff38ba3d52558a99ea9d20dfb6aef`. Reviewer export `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/final-review-revision-2.md`; SHA-256 `5ad7231d6a7a5d543ca5711bd2507afffe84551a1ebe956970058b11ab204f70`.
-- Disposition: Locally published and verified; main push and task cleanup authorised.
+- Disposition: GitHub Pages deployment and live article verified; temporary local preview removed.
 
 ### Weekend roundup: From climate talks to Mercury | revision 1
 
