@@ -7,6 +7,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] UN chief calls for a global AI safety framework | revision 1 (Idea)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; historical internal checkpoint; not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/idea.md`; SHA-256 `20baaa4db418da28e926de6ff48bfeaca10244ede96ebc5ed013f052e99b34b6`.
+  - Run: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`. Idea → Brief is an internal transition.
+  - Checks: YAML, structural and strict evidence checks; fresh production build excluded candidate.
+
 - [x] Weekend roundup: From climate talks to Mercury | revision 1 (idea)
   - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
   - Archived artifact: `99-Archive/published/2026-11-23-weekend-roundup/01-Ideas/2026-11-23-weekend-roundup/idea.md`; SHA-256 `456d4a8f37ace9efcfb2709fef13571193069e43bb973af8983c945fae349c56`.
@@ -554,6 +560,12 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] UN chief calls for a global AI safety framework | revision 1 (Brief)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; historical internal checkpoint; not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/02-Briefs/2026-11-24-un-global-ai-safety-bridgetown/brief.md`; SHA-256 `dbfacd265d7290333f898ac17b74a39226b9708f09edfde1006c4dbd34661a68`.
+  - Run: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`. Brief → SEO is an internal transition.
+  - Checks: YAML, contract and strict evidence passed; 818-output production exclusion. Direct Call PDF; independent Belga and Barbados Today observations distinguished.
+
 - [x] Weekend roundup: From climate talks to Mercury | revision 1 (brief)
   - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
   - Archived artifact: `99-Archive/published/2026-11-23-weekend-roundup/02-Briefs/2026-11-23-weekend-roundup/brief.md`; SHA-256 `71be3aa3c3dd49c0c1718fb8cc5a4d22258c903dd574b40b90861cfd1f815abe`.
@@ -1086,6 +1098,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] UN chief calls for a global AI safety framework | revision 1 (SEO)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; historical internal checkpoint; not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/03-SEO/2026-11-24-un-global-ai-safety-bridgetown/seo.md`; SHA-256 `d1358a41fac86f00dc3e3f40f844581738274cae1ffad58c19d4e3f9191edb78`.
+  - Run: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`. SEO → Draft is an internal transition.
+  - Checks: Metadata measured; genuine internal routes checked; YAML/contract/build passed. Source integrity carried by checked Brief ledger, no wrapper citations.
 
 - [x] Weekend roundup: From climate talks to Mercury | revision 1 (seo)
   - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
@@ -1709,6 +1727,12 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] UN chief calls for a global AI safety framework | revision 1 (Draft)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; historical internal checkpoint; not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/04-Drafts/2026-11-24-un-global-ai-safety-bridgetown/draft.md`; SHA-256 `36e3d89eae5419a37ed4bdaa89fc0fb3aa6b7deaafb3593c6659f0e032ec4a98`.
+  - Run: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`. Draft → Creative Edit is an internal transition.
+  - Checks: 1033 prose words; strict wrapper and article evidence (55% declared provenance); exact payload 0d8c5eb42840a5a895ef323d5c29ac56dd5415dc18b7bf936640432ada75755b; fresh production exclusion.
 
 - [x] Weekend roundup: From climate talks to Mercury | revision 1 (draft)
   - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
@@ -2454,6 +2478,17 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] UN chief calls for a global AI safety framework | revision 2 (Creative Edit)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; final-review; historical internal checkpoint; not individually human-approved.
+  - Artifact `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/05-Reviews/2026-11-24-un-global-ai-safety-bridgetown/creative-edit-revision-2.md`; SHA-256 `b43d95b8e4ce34b6351fee36193eb40b9b34a4216c5d9a6513ba61abe679067e`.
+  - Run `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`; revised proofread payload `fb897955f445b2cda27a4a4ac781c2db7626ea47d4d40c439f1885499eaee227`.
+
+- [x] UN chief calls for a global AI safety framework | revision 1 (Creative Edit)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; historical internal checkpoint; not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/05-Reviews/2026-11-24-un-global-ai-safety-bridgetown/creative-edit.md`; SHA-256 `81cd22d473bc1285da35c1cdabf516565e3f003929d6946a79f395eb47eb2c74`.
+  - Run: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`. Creative Edit → Proofread is an internal transition.
+  - Checks: 1013 prose words; voice, attribution, strict evidence, structure, Hugo and payload 437846cad886376fa916f6716eef5f89a091fecc95021c3c5d74d2b6946abf5f checked.
 
 - [x] Weekend roundup: From climate talks to Mercury | revision 1 (creative-edit)
   - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
@@ -3207,6 +3242,17 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] UN chief calls for a global AI safety framework | revision 2 (Proofread)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; final-review; historical internal checkpoint; not individually human-approved.
+  - Artifact `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/05-Reviews/2026-11-24-un-global-ai-safety-bridgetown/proofread-revision-2.md`; SHA-256 `72ad08757d0e83ffc1c1c15cd233dffc703bfe1024bb384a67905436f1336484`.
+  - Run `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`; revised proofread payload `fb897955f445b2cda27a4a4ac781c2db7626ea47d4d40c439f1885499eaee227`.
+
+- [x] UN chief calls for a global AI safety framework | revision 1 (Proofread)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; historical internal checkpoint; not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/05-Reviews/2026-11-24-un-global-ai-safety-bridgetown/proofread.md`; SHA-256 `4ce61d847df69082357e10dd7a64057fc68d09ffd377e6c1813fa66bb56efc38`.
+  - Run: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`. Proofread → Design is an internal transition.
+  - Checks: 1013 prose words; narrow language and attribution audit; exact payload 437846cad886376fa916f6716eef5f89a091fecc95021c3c5d74d2b6946abf5f; strict evidence, YAML, contract, git diff check and fresh Hugo build.
+
 - [x] Weekend roundup: From climate talks to Mercury | revision 1 (proofread)
   - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
   - Archived artifact: `99-Archive/published/2026-11-23-weekend-roundup/05-Reviews/2026-11-23-weekend-roundup/proofread.md`; SHA-256 `7885d51a42bb69e6642739a61d9fe11fef01bd4b05c201c372f5828557b49e28`.
@@ -3952,6 +3998,17 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] UN chief calls for a global AI safety framework | revision 2 (Design)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; final-review; historical internal checkpoint; not individually human-approved.
+  - Artifact `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/06-Design/2026-11-24-un-global-ai-safety-bridgetown/design-revision-2.md`; SHA-256 `c13e599f917d471650dc6617c162b357477c40f43098ecebbb314607afc29050`.
+  - Run `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`; revised proofread payload `fb897955f445b2cda27a4a4ac781c2db7626ea47d4d40c439f1885499eaee227`.
+
+- [x] UN chief calls for a global AI safety framework | revision 1 (Design)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; historical internal checkpoint; not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/06-Design/2026-11-24-un-global-ai-safety-bridgetown/design.md`; SHA-256 `429057942eb755438b38a1e398ba9c5edf0eb52fde2da6a18addeea017ee2dac`.
+  - Run: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`. Design → Final Approval is an internal transition.
+  - Checks: Pinned Hugo, direct HTTP, 20-width Chromium matrix, exact TOC/TL;DR/Sources and keyboard/AX; shared badge caveat documented and scroll recovery verified.
 
 - [x] Weekend roundup: From climate talks to Mercury | revision 1 (design)
   - Candidate: `2026-11-23-weekend-roundup`; News; final-review; historical internal checkpoint, never human-approved.
@@ -4743,6 +4800,13 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] UN chief calls for a global AI safety framework | revision 2 (Published)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review. Approved by Sophie on 2026-11-24.
+  - Public file: `content/news/2026-11-24-un-global-ai-safety-bridgetown.md`. Canonical payload SHA-256 `fb897955f445b2cda27a4a4ac781c2db7626ea47d4d40c439f1885499eaee227`.
+  - Private archive: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown`. Decision packet `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/approval-revision-2.md`; SHA-256 `88bbc9f5030ec208f1ee78c9ecdb1494784b44c0023941bcf9e779f862f6f093`.
+  - Reviewed snapshot `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/approval-revision-2-reviewed.md`; SHA-256 `923205762ef081fe54daeb073a0a29513a8ff38ba3d52558a99ea9d20dfb6aef`. Reviewer export `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/final-review-revision-2.md`; SHA-256 `5ad7231d6a7a5d543ca5711bd2507afffe84551a1ebe956970058b11ab204f70`.
+  - Disposition: Locally published and verified; main push and task cleanup authorised.
 
 - [x] Weekend roundup: From climate talks to Mercury | revision 1 (Published)
   - Candidate: `2026-11-23-weekend-roundup`; News; final-review. Approved 2026-11-23.
@@ -5708,6 +5772,16 @@ _Content sent back for changes._
 
 
 ## Revision History
+
+- [x] UN chief calls for a global AI safety framework | revision 1 (Final Approval)
+  - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; Request changes; superseded and historical.
+  - Package: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/final-approval.md`; SHA-256 `c9bc7b90a6404f541abedfce0f032d30f37943c862c9e7439ee290a6219717a4`.
+  - Export: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/final-review-un-global-ai-safety-bridgetown.md`; SHA-256 `70e5a6caa1bfc6d3941c1a5c9b703bf3af5ddb7130768fcd87dfb1b9ae61719f`.
+  - Payload SHA-256: `437846cad886376fa916f6716eef5f89a091fecc95021c3c5d74d2b6946abf5f`. Run: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`.
+  - Verified isolated preview: http://127.0.0.1:1313/news/un-global-ai-safety-bridgetown/?local-review=1
+  - Checks: source refresh, 20 Chromium widths/80 states, exact desktop pane readback, owned QA exit and production exclusion. Shared support badge can cover some copy; scrolling it clear was tested.
+  - Decision: Approve / Request changes / Reject / Hold. Approve = agreed local publication only.
+  - Decision packet SHA-256 `fdcf86471f99c34fada785a4a4b796e73586bf25a790ed42187258b57f06eff4`; immutable reviewed packet `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/revision-1/reviewed-packet.md`.
 
 ### Who killed JFK? The mainstream and conspiracy accounts | revision 2 (historical)
 

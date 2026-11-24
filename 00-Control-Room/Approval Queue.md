@@ -25,6 +25,15 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### UN chief calls for a global AI safety framework | revision 2
+
+- Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; approved by Sophie on 2026-11-24.
+- [x] Approve (local publication). Commit, main push and candidate-only cleanup separately authorised.
+- Public file: `content/news/2026-11-24-un-global-ai-safety-bridgetown.md`; canonical payload SHA-256 `fb897955f445b2cda27a4a4ac781c2db7626ea47d4d40c439f1885499eaee227`.
+- Private archive: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown`; decision packet `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/approval-revision-2.md`; SHA-256 `88bbc9f5030ec208f1ee78c9ecdb1494784b44c0023941bcf9e779f862f6f093`.
+- Reviewed snapshot `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/approval-revision-2-reviewed.md`; SHA-256 `923205762ef081fe54daeb073a0a29513a8ff38ba3d52558a99ea9d20dfb6aef`. Reviewer export `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/final-review-revision-2.md`; SHA-256 `5ad7231d6a7a5d543ca5711bd2507afffe84551a1ebe956970058b11ab204f70`.
+- Disposition: Locally published and verified; main push and task cleanup authorised.
+
 ### Weekend roundup: From climate talks to Mercury | revision 1
 
 - Candidate: `2026-11-23-weekend-roundup`; News; final-review; approved 2026-11-23.
@@ -1584,6 +1593,26 @@ Sophie notes: Discarded locally on 2026-07-08.
 
 
 ## Revision History
+
+### UN chief calls for a global AI safety framework | revision 1
+
+- Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; Request changes; superseded, all preview/verification notes below are historical.
+- Complete packet: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/final-approval.md`; SHA-256 `c9bc7b90a6404f541abedfce0f032d30f37943c862c9e7439ee290a6219717a4`.
+- Clean reviewer export: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/final-review-un-global-ai-safety-bridgetown.md`; SHA-256 `70e5a6caa1bfc6d3941c1a5c9b703bf3af5ddb7130768fcd87dfb1b9ae61719f`.
+- Payload SHA-256: `437846cad886376fa916f6716eef5f89a091fecc95021c3c5d74d2b6946abf5f`. Public metadata SHA-256: `a472b3d453d8bd7a471f037481a21bf0200a60cec62b9bfb95ad11a14f98c24a`.
+- Verified isolated preview: http://127.0.0.1:1313/news/un-global-ai-safety-bridgetown/?local-review=1
+- Run: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/run.md`; receipts: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/checks/`.
+- Checks: 1,013 body words; six verified sources, 20 passages, refreshed record; normal production excludes the candidate; Chromium at 20 widths, 80 scroll states and desktop pane readback; owned QA process exited.
+- Limitations: existing site badge overlays some phone/tablet text at some scroll positions; verified scroll recovery. No unresolved article blocker.
+- Approve authorises the agreed local publication only; it does not authorise a commit, push or deployment.
+
+- [ ] Approve
+- [x] Request changes
+- [ ] Reject
+- [ ] Hold
+
+- Requested (2026-11-24T11:28:31+01:00): remove the paired recap at the end of the oversight paragraph; do not use that structure as a paragraph ending.
+- Immutable reviewed snapshot: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/revision-1/reviewed-packet.md`; reviewed packet SHA-256 `c9bc7b90a6404f541abedfce0f032d30f37943c862c9e7439ee290a6219717a4`. Decision packet: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/07-Approval/2026-11-24-un-global-ai-safety-bridgetown/final-approval.md`; SHA-256 `fdcf86471f99c34fada785a4a4b796e73586bf25a790ed42187258b57f06eff4`. No release authority.
 
 ### Who killed JFK? The mainstream and conspiracy accounts | revision 2 (historical)
 
