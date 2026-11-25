@@ -33,7 +33,7 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 - Archive: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/`; release checklist `99-Archive/published/2026-11-25-senegal-afcon-title-restored/07-Approval/2026-11-25-senegal-afcon-title-restored/publish-checklist.md`.
 - Decision packet: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/07-Approval/2026-11-25-senegal-afcon-title-restored/approval.md`; SHA-256 `b978e0ec06cfdc7ee7872bd610fbb73789ab974696d02baa8b9688b19b4c1d23`.
 - Immutable review: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/07-Approval/2026-11-25-senegal-afcon-title-restored/approval-reviewed.md`; reviewed packet SHA-256 `fb4f0d71affa532a4159aa92c8677ae5adde247cd27cb54d8b82ff8c92252ceb`; article payload SHA-256 `b73dd6e94d0ae5b3974fad99b5c2675c7f9b853448a113f02171c684227843b3`.
-- Delivery: local production build and checkout HTTP verified; GitHub and live verification pending.
+- Live verified: `455c438`; Pages run `45706096333` build/deploy passed. Exact approved article, homepage and News checked. Preview servers stopped; QA retained in the local archive.
 
 - [x] Approve
 - [ ] Request changes
