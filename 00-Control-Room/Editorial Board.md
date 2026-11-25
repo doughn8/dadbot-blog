@@ -7,6 +7,10 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Idea)
+  - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/01-Ideas/2026-11-25-senegal-afcon-title-restored/idea.md`; SHA-256 `858cc24e81f542b52e31537f21837cd911c51acc7eadf8c2deefe963b8cc1e59`.
+
 - [x] UN chief calls for a global AI safety framework | revision 1 (Idea)
   - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; historical internal checkpoint; not individually human-approved.
   - Artifact: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/01-Ideas/2026-11-24-un-global-ai-safety-bridgetown/idea.md`; SHA-256 `20baaa4db418da28e926de6ff48bfeaca10244ede96ebc5ed013f052e99b34b6`.
@@ -560,6 +564,10 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Brief)
+  - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/02-Briefs/2026-11-25-senegal-afcon-title-restored/brief.md`; SHA-256 `4fc96bb69c8c625b644fb9f330300d026c4c63cd72c5f1750de41567a3e1e378`.
+
 - [x] UN chief calls for a global AI safety framework | revision 1 (Brief)
   - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; historical internal checkpoint; not individually human-approved.
   - Artifact: `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/02-Briefs/2026-11-24-un-global-ai-safety-bridgetown/brief.md`; SHA-256 `dbfacd265d7290333f898ac17b74a39226b9708f09edfde1006c4dbd34661a68`.
@@ -1098,6 +1106,10 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] How Senegal got its Africa Cup of Nations title back | revision 1 (SEO)
+  - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/03-SEO/2026-11-25-senegal-afcon-title-restored/seo.md`; SHA-256 `caa0274ac8d390c12bbc3aa1564f970532d67958d7a39f0334214594bc3d3da7`.
 
 - [x] UN chief calls for a global AI safety framework | revision 1 (SEO)
   - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; historical internal checkpoint; not individually human-approved.
@@ -1727,6 +1739,10 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Draft)
+  - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/04-Drafts/2026-11-25-senegal-afcon-title-restored/draft.md`; SHA-256 `00cdf3e7370cde5de013525b9e67e27655a6b2ddcf3933168a8338b85764a3dd`.
 
 - [x] UN chief calls for a global AI safety framework | revision 1 (Draft)
   - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; historical internal checkpoint; not individually human-approved.
@@ -2478,6 +2494,10 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Creative Edit)
+  - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/05-Reviews/2026-11-25-senegal-afcon-title-restored/creative-edit.md`; SHA-256 `b4e0a7c4318db7bc66a8a33930875e9b3e0141d21c2666834de075aaeed21f2c`.
 
 - [x] UN chief calls for a global AI safety framework | revision 2 (Creative Edit)
   - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; final-review; historical internal checkpoint; not individually human-approved.
@@ -3242,6 +3262,10 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Proofread)
+  - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/05-Reviews/2026-11-25-senegal-afcon-title-restored/proofread.md`; SHA-256 `15c9604a42abfc8d5c2a964cc0b42ec4825bb07f20e59a487fd6c73534cfc479`.
+
 - [x] UN chief calls for a global AI safety framework | revision 2 (Proofread)
   - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; final-review; historical internal checkpoint; not individually human-approved.
   - Artifact `99-Archive/published/2026-11-24-un-global-ai-safety-bridgetown/05-Reviews/2026-11-24-un-global-ai-safety-bridgetown/proofread-revision-2.md`; SHA-256 `72ad08757d0e83ffc1c1c15cd233dffc703bfe1024bb384a67905436f1336484`.
@@ -3998,6 +4022,10 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Design)
+  - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/06-Design/2026-11-25-senegal-afcon-title-restored/design.md`; SHA-256 `613071e880927148a3525800970de9b6e2988cc0672600ae0c72ba9f7a5e3d18`.
 
 - [x] UN chief calls for a global AI safety framework | revision 2 (Design)
   - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; final-review; historical internal checkpoint; not individually human-approved.
@@ -4800,6 +4828,14 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] How Senegal got its Africa Cup of Nations title back | revision 1
+  - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; approved 2026-11-25; published locally.
+  - Public file: `content/news/2026-11-25-senegal-afcon-title-restored.md`.
+  - Archive: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/`; release checklist `99-Archive/published/2026-11-25-senegal-afcon-title-restored/07-Approval/2026-11-25-senegal-afcon-title-restored/publish-checklist.md`.
+  - Decision packet: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/07-Approval/2026-11-25-senegal-afcon-title-restored/approval.md`; SHA-256 `b978e0ec06cfdc7ee7872bd610fbb73789ab974696d02baa8b9688b19b4c1d23`.
+  - Immutable review: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/07-Approval/2026-11-25-senegal-afcon-title-restored/approval-reviewed.md`; reviewed packet SHA-256 `fb4f0d71affa532a4159aa92c8677ae5adde247cd27cb54d8b82ff8c92252ceb`; article payload SHA-256 `b73dd6e94d0ae5b3974fad99b5c2675c7f9b853448a113f02171c684227843b3`.
+  - Delivery: local production build and checkout HTTP verified; GitHub and live verification pending.
 
 - [x] UN chief calls for a global AI safety framework | revision 2 (Published)
   - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review. Approved by Sophie on 2026-11-24.

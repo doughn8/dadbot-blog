@@ -25,6 +25,21 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### How Senegal got its Africa Cup of Nations title back
+
+- Candidate: `2026-11-25-senegal-afcon-title-restored`; News; revision 1; `workflow_mode: final-review`.
+- Status: approved by Sophie, 2026-11-25; published locally, cover-free.
+- Public file: `content/news/2026-11-25-senegal-afcon-title-restored.md`.
+- Archive: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/`; release checklist `99-Archive/published/2026-11-25-senegal-afcon-title-restored/07-Approval/2026-11-25-senegal-afcon-title-restored/publish-checklist.md`.
+- Decision packet: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/07-Approval/2026-11-25-senegal-afcon-title-restored/approval.md`; SHA-256 `b978e0ec06cfdc7ee7872bd610fbb73789ab974696d02baa8b9688b19b4c1d23`.
+- Immutable review: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/07-Approval/2026-11-25-senegal-afcon-title-restored/approval-reviewed.md`; reviewed packet SHA-256 `fb4f0d71affa532a4159aa92c8677ae5adde247cd27cb54d8b82ff8c92252ceb`; article payload SHA-256 `b73dd6e94d0ae5b3974fad99b5c2675c7f9b853448a113f02171c684227843b3`.
+- Delivery: local production build and checkout HTTP verified; GitHub and live verification pending.
+
+- [x] Approve
+- [ ] Request changes
+- [ ] Reject
+- [ ] Hold
+
 ### UN chief calls for a global AI safety framework | revision 2
 
 - Candidate: `2026-11-24-un-global-ai-safety-bridgetown`; News; final-review; approved by Sophie on 2026-11-24.
