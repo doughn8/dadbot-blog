@@ -7,6 +7,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Idea)
+  - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/01-Ideas/2026-11-26-trump-tariffs-14-trading-partners/idea.md`; archived SHA-256 `ea8bc9ac7f7d975eea7d939f151ffaf8f32740701fefa2cacf66a51814935c7a`.
+  - Run: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/01-Ideas/2026-11-26-trump-tariffs-14-trading-partners/run.md`. Local publication complete; no editorial action pending for this stage.
+
 - [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Idea)
   - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
   - Artifact: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/01-Ideas/2026-11-25-senegal-afcon-title-restored/idea.md`; SHA-256 `858cc24e81f542b52e31537f21837cd911c51acc7eadf8c2deefe963b8cc1e59`.
@@ -564,6 +569,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Brief)
+  - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/02-Briefs/2026-11-26-trump-tariffs-14-trading-partners/brief.md`; archived SHA-256 `88b348868f2faa946acfec713b68c5e65d751334c84500db99953f11e90f4d01`.
+  - Run: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/01-Ideas/2026-11-26-trump-tariffs-14-trading-partners/run.md`. Local publication complete; no editorial action pending for this stage.
+
 - [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Brief)
   - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
   - Artifact: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/02-Briefs/2026-11-25-senegal-afcon-title-restored/brief.md`; SHA-256 `4fc96bb69c8c625b644fb9f330300d026c4c63cd72c5f1750de41567a3e1e378`.
@@ -1106,6 +1116,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (SEO)
+  - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/03-SEO/2026-11-26-trump-tariffs-14-trading-partners/seo.md`; archived SHA-256 `dfaf3609496f095287e16cf3442a059068a91b8d29528571cfab621855b18339`.
+  - Run: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/01-Ideas/2026-11-26-trump-tariffs-14-trading-partners/run.md`. Local publication complete; no editorial action pending for this stage.
 
 - [x] How Senegal got its Africa Cup of Nations title back | revision 1 (SEO)
   - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
@@ -1739,6 +1754,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Draft)
+  - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/04-Drafts/2026-11-26-trump-tariffs-14-trading-partners/draft.md`; archived SHA-256 `3099509885780723acecf1dcde056938615e5550afb7897bd5ffdadc4318f145`.
+  - Run: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/01-Ideas/2026-11-26-trump-tariffs-14-trading-partners/run.md`. Local publication complete; no editorial action pending for this stage.
 
 - [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Draft)
   - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
@@ -2494,6 +2514,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Creative Edit)
+  - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/05-Reviews/2026-11-26-trump-tariffs-14-trading-partners/creative-edit.md`; archived SHA-256 `549b4fe4360b19202e951c3536d17393a3e2e4cf16f8ea3d067e67060aacb239`.
+  - Run: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/01-Ideas/2026-11-26-trump-tariffs-14-trading-partners/run.md`. Local publication complete; no editorial action pending for this stage.
 
 - [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Creative Edit)
   - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
@@ -3262,6 +3287,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Proofread)
+  - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/05-Reviews/2026-11-26-trump-tariffs-14-trading-partners/proofread.md`; archived SHA-256 `f98ada7da611515281c9bc644b2d17ccb6694ce59494f0d6e35a0b63b0a640ed`.
+  - Run: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/01-Ideas/2026-11-26-trump-tariffs-14-trading-partners/run.md`. Local publication complete; no editorial action pending for this stage.
+
 - [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Proofread)
   - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
   - Artifact: `99-Archive/published/2026-11-25-senegal-afcon-title-restored/05-Reviews/2026-11-25-senegal-afcon-title-restored/proofread.md`; SHA-256 `15c9604a42abfc8d5c2a964cc0b42ec4825bb07f20e59a487fd6c73534cfc479`.
@@ -4022,6 +4052,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Design)
+  - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/06-Design/2026-11-26-trump-tariffs-14-trading-partners/design.md`; archived SHA-256 `96c1985cc6c2a97746b43b2ebc8078f63fc4686be07ec0e928fe96314c723408`.
+  - Run: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/01-Ideas/2026-11-26-trump-tariffs-14-trading-partners/run.md`. Local publication complete; no editorial action pending for this stage.
 
 - [x] How Senegal got its Africa Cup of Nations title back | revision 1 (Design)
   - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; historical internal checkpoint, not individually human-approved.
@@ -4828,6 +4863,15 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Trump’s tariff plan for 14 trading partners, explained | revision 1
+  - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; approved by Sophie on 2026-11-26 and published locally.
+  - Public file: `content/news/2026-11-26-trump-tariffs-14-trading-partners.md`; canonical route `/news/trump-tariffs-14-trading-partners/`.
+  - Archive: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners`. Run: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/01-Ideas/2026-11-26-trump-tariffs-14-trading-partners/run.md`.
+  - Decision packet: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/07-Approval/2026-11-26-trump-tariffs-14-trading-partners/approval.md`; SHA-256 `7dc6bd6be12fe17b74a05aa3d12070469064e04a6d222404e122de8214d6e0b8`; immutable reviewed packet `ff84857cb57d0eafd54b2b5d97d3261a494c2799d153f9a710e9b8dd31894154`.
+  - Reviewed article payload: `0551766d1640c94bf0939de411bc86c16120505e22944a80f0213337ec53a0bd`; 1,009 prose words; cover-free.
+  - Checks: pinned Hugo production build, article/homepage/News HTTP 200, exact desktop readback, Node and Python tests, and scoped archive/preview cleanup verified.
+  - Release: local publication complete. GitHub push held pending approval for automatic Pages deployment.
 
 - [x] How Senegal got its Africa Cup of Nations title back | revision 1
   - Candidate: `2026-11-25-senegal-afcon-title-restored`; News, final-review; approved 2026-11-25; published locally.

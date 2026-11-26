@@ -25,6 +25,15 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Trump’s tariff plan for 14 trading partners, explained | revision 1
+- Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; published locally.
+- [x] Approve, local publication only; Sophie, 2026-11-26.
+- Public file: `content/news/2026-11-26-trump-tariffs-14-trading-partners.md`; route `/news/trump-tariffs-14-trading-partners/`. Existing cover-free News design.
+- Archive: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners`; run `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/01-Ideas/2026-11-26-trump-tariffs-14-trading-partners/run.md`; checklist `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/07-Approval/2026-11-26-trump-tariffs-14-trading-partners/publish-checklist.md`.
+- Decision packet: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/07-Approval/2026-11-26-trump-tariffs-14-trading-partners/approval.md`; SHA-256 `7dc6bd6be12fe17b74a05aa3d12070469064e04a6d222404e122de8214d6e0b8`. Immutable reviewed packet: `ff84857cb57d0eafd54b2b5d97d3261a494c2799d153f9a710e9b8dd31894154`.
+- Reviewed payload SHA-256: `0551766d1640c94bf0939de411bc86c16120505e22944a80f0213337ec53a0bd`. Production build and local publication verified, evidence retained.
+- Release: local publication complete; push held pending approval for automatic Pages deployment.
+
 ### How Senegal got its Africa Cup of Nations title back
 
 - Candidate: `2026-11-25-senegal-afcon-title-restored`; News; revision 1; `workflow_mode: final-review`.
