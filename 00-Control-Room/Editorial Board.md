@@ -7,6 +7,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Ideas
 
+- [x] Zambia receives the first generic HIV prevention shots | revision 1 (Idea)
+  - Candidate: `2026-11-27-zambia-generic-lenacapavir`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/01-Ideas/2026-11-27-zambia-generic-lenacapavir/idea.md`; current archived SHA-256 `4febff4343214ff30ff688dac3aa2e875d589c1bab4aa6d8044a6fe95b84181c`.
+  - Run: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/01-Ideas/2026-11-27-zambia-generic-lenacapavir/run.md`. Local publication complete; no editorial action pending for this stage.
+
 - [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Idea)
   - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
   - Artifact: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/01-Ideas/2026-11-26-trump-tariffs-14-trading-partners/idea.md`; archived SHA-256 `ea8bc9ac7f7d975eea7d939f151ffaf8f32740701fefa2cacf66a51814935c7a`.
@@ -569,6 +574,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Briefing
 
+- [x] Zambia receives the first generic HIV prevention shots | revision 1 (Brief)
+  - Candidate: `2026-11-27-zambia-generic-lenacapavir`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/02-Briefs/2026-11-27-zambia-generic-lenacapavir/brief.md`; current archived SHA-256 `6440b1ab8b8dcdd1b512133984708d52e9839f3d1e3bf9dc98cb267a479b7a45`.
+  - Run: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/01-Ideas/2026-11-27-zambia-generic-lenacapavir/run.md`. Local publication complete; no editorial action pending for this stage.
+
 - [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Brief)
   - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
   - Artifact: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/02-Briefs/2026-11-26-trump-tariffs-14-trading-partners/brief.md`; archived SHA-256 `88b348868f2faa946acfec713b68c5e65d751334c84500db99953f11e90f4d01`.
@@ -1116,6 +1126,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## SEO
+
+- [x] Zambia receives the first generic HIV prevention shots | revision 1 (SEO)
+  - Candidate: `2026-11-27-zambia-generic-lenacapavir`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/03-SEO/2026-11-27-zambia-generic-lenacapavir/seo.md`; current archived SHA-256 `80de0d69c6725a68e6d7ace979f2ea8967bc1652ef9545cb4b31f7492ec529fa`.
+  - Run: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/01-Ideas/2026-11-27-zambia-generic-lenacapavir/run.md`. Local publication complete; no editorial action pending for this stage.
 
 - [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (SEO)
   - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
@@ -1754,6 +1769,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Drafting
+
+- [x] Zambia receives the first generic HIV prevention shots | revision 1 (Draft)
+  - Candidate: `2026-11-27-zambia-generic-lenacapavir`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/04-Drafts/2026-11-27-zambia-generic-lenacapavir/draft.md`; current archived SHA-256 `05d74f3b937f37e223f12f5e84aee0d3fbfc573d4de4355b44fc66f4ee996ca9`.
+  - Run: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/01-Ideas/2026-11-27-zambia-generic-lenacapavir/run.md`. Local publication complete; no editorial action pending for this stage.
 
 - [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Draft)
   - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
@@ -2514,6 +2534,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Creative Edit
+
+- [x] Zambia receives the first generic HIV prevention shots | revision 1 (Creative Edit)
+  - Candidate: `2026-11-27-zambia-generic-lenacapavir`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/05-Reviews/2026-11-27-zambia-generic-lenacapavir/creative-edit.md`; current archived SHA-256 `e58d37e485ed58df9d0e26a35badc18c7f970ca42b9a79bf7c06feeb61e32998`.
+  - Run: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/01-Ideas/2026-11-27-zambia-generic-lenacapavir/run.md`. Local publication complete; no editorial action pending for this stage.
 
 - [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Creative Edit)
   - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
@@ -3287,6 +3312,11 @@ A simple Obsidian board for tracking Dadbot work.
 
 ## Proofreading
 
+- [x] Zambia receives the first generic HIV prevention shots | revision 1 (Proofread)
+  - Candidate: `2026-11-27-zambia-generic-lenacapavir`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/05-Reviews/2026-11-27-zambia-generic-lenacapavir/proofread.md`; current archived SHA-256 `838493b813575a2648b34bef0b2c77cfc7cda3bd63841147b7ae2a4d50f4894f`.
+  - Run: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/01-Ideas/2026-11-27-zambia-generic-lenacapavir/run.md`. Local publication complete; no editorial action pending for this stage.
+
 - [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Proofread)
   - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
   - Artifact: `99-Archive/published/2026-11-26-trump-tariffs-14-trading-partners/05-Reviews/2026-11-26-trump-tariffs-14-trading-partners/proofread.md`; archived SHA-256 `f98ada7da611515281c9bc644b2d17ccb6694ce59494f0d6e35a0b63b0a640ed`.
@@ -4052,6 +4082,11 @@ A simple Obsidian board for tracking Dadbot work.
 ---
 
 ## Design
+
+- [x] Zambia receives the first generic HIV prevention shots | revision 1 (Design)
+  - Candidate: `2026-11-27-zambia-generic-lenacapavir`; News; final-review; historical internal checkpoint, never individually human-approved.
+  - Artifact: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/06-Design/2026-11-27-zambia-generic-lenacapavir/design.md`; current archived SHA-256 `b6bf87fd0ac54b09fff510b5501a20c2545a3595828bbffc5ef6edcd76653a80`.
+  - Run: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/01-Ideas/2026-11-27-zambia-generic-lenacapavir/run.md`. Local publication complete; no editorial action pending for this stage.
 
 - [x] Trump’s tariff plan for 14 trading partners, explained | revision 1 (Design)
   - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; historical internal checkpoint, never individually human-approved.
@@ -4863,6 +4898,13 @@ See also: [[Approval Queue]]
 ---
 
 ## Published
+
+- [x] Zambia receives the first generic HIV prevention shots | revision 1
+  - Candidate: `2026-11-27-zambia-generic-lenacapavir`; News; final-review; approved by Sophie on 2026-11-27.
+  - Public file: `content/news/2026-11-27-zambia-generic-lenacapavir.md`. Public source SHA-256 `abc00dbf393e6b2cca8f04fb6b25369e28b4e69a3b67b602e5a040e6c37eb693`; article payload SHA-256 `6bf23eb44dfa8cd7170c5815201c5efd12036a3d0dd3a39845a7fcb66775cb3d`.
+  - Archive: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir`. Approval: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/07-Approval/2026-11-27-zambia-generic-lenacapavir/approval.md`; archived decision SHA-256 `a1f20c2bc64be9ffe276fc52f96eb62c18f88b98fcefd425d5b79b5e4fb60e06`.
+  - Reviewed packet: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/07-Approval/2026-11-27-zambia-generic-lenacapavir/approval-reviewed.md`; immutable SHA-256 `1b2de573eee2ca50da9949ec826f7e2295ed3dbd6447e9d3e5e0d5c1c9849df5`.
+  - Status: Local publication verified; no editorial action pending. Release and deployment receipts belong in the local archive.
 
 - [x] Trump’s tariff plan for 14 trading partners, explained | revision 1
   - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; approved by Sophie on 2026-11-26 and published locally.

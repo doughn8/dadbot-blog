@@ -25,6 +25,15 @@ This is where final Dadbot content waits for Sophie’s sign-off.
 
 ## Approved
 
+### Zambia receives the first generic HIV prevention shots | revision 1
+
+- [x] Approved for local publication by Sophie on 2026-11-27; published and verified locally.
+- Candidate: `2026-11-27-zambia-generic-lenacapavir`; final-review; News; text-led, no cover.
+- Public file: `content/news/2026-11-27-zambia-generic-lenacapavir.md`; payload SHA-256 `6bf23eb44dfa8cd7170c5815201c5efd12036a3d0dd3a39845a7fcb66775cb3d`.
+- Archive: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir`. Decision packet: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/07-Approval/2026-11-27-zambia-generic-lenacapavir/approval.md`; SHA-256 `a1f20c2bc64be9ffe276fc52f96eb62c18f88b98fcefd425d5b79b5e4fb60e06`.
+- Exact review: `99-Archive/published/2026-11-27-zambia-generic-lenacapavir/07-Approval/2026-11-27-zambia-generic-lenacapavir/approval-reviewed.md`; immutable SHA-256 `1b2de573eee2ca50da9949ec826f7e2295ed3dbd6447e9d3e5e0d5c1c9849df5`.
+- No editorial action pending. Further release activity is recorded in the local archive.
+
 ### Trump’s tariff plan for 14 trading partners, explained | revision 1
 - Candidate: `2026-11-26-trump-tariffs-14-trading-partners`; News; final-review; published locally.
 - [x] Approve, local publication only; Sophie, 2026-11-26.
