@@ -1,6 +1,6 @@
 ---
 title: 'Black Friday: are the deals really deals?'
-date: '2026-11-17'
+date: '2026-11-21'
 description: Before spending the Christmas budget, check the price behind the Black
   Friday badge, the sales tactics and the evidence for a genuine saving.
 slug: black-friday-marketing-not-a-bargain
